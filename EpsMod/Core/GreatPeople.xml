@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<GreatPersonIndividuals>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BOUDICA"/><Set><ActionEffectTileHighlighting>false</ActionEffectTileHighlighting><ActionRequiresAdjacentBarbarianUnit>false</ActionRequiresAdjacentBarbarianUnit></Set></Update>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE"/><Set><ActionRequiresCompletedDistrictType>DISTRICT_CAMPUS</ActionRequiresCompletedDistrictType></Set></Update>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING"/><Set><ActionRequiresCompletedDistrictType/><ActionRequiresIncompleteWonder>true</ActionRequiresIncompleteWonder></Set></Update>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON"/><Set><ActionRequiresCompletedDistrictType>DISTRICT_INDUSTRIAL_ZONE</ActionRequiresCompletedDistrictType></Set></Update>
+		
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI"/>
+			<Set>
+				<ActionRequiresOwnedTile>true</ActionRequiresOwnedTile>
+				<ActionRequiresAdjacentMountain>false</ActionRequiresAdjacentMountain>
+				<ActionEffectTextOverride/>
+				<ActionRequiresCompletedDistrictType>DISTRICT_CAMPUS</ActionRequiresCompletedDistrictType>
+			</Set>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHARLES_DARWIN"/>
+			<Set>
+				<ActionRequiresOwnedTile>true</ActionRequiresOwnedTile>
+				<ActionRequiresOnOrAdjacentNaturalWonder>false</ActionRequiresOnOrAdjacentNaturalWonder>
+				<ActionEffectTextOverride/>
+				<ActionRequiresCompletedDistrictType>DISTRICT_CAMPUS</ActionRequiresCompletedDistrictType>
+			</Set>
+		</Update>
+		<Update>
+			<Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL"/>
+			<Set>
+				<ActionRequiresOwnedTile>true</ActionRequiresOwnedTile>
+				<ActionRequiresOnOrAdjacentFeatureType/>
+				<ActionRequiresCompletedDistrictType>DISTRICT_CAMPUS</ActionRequiresCompletedDistrictType>
+			</Set>
+		</Update>
+	</GreatPersonIndividuals>
+
+	<GreatPersonIndividualActionModifiers>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BOUDICA"/><Set><ModifierId>EPSMOD_BOUDICA_BARBS</ModifierId><AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER</AttachmentTargetType></Set></Update>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA"/><Set><ModifierId>EPSMOD_MARINA_RASKOVA_ALUMINUM</ModifierId></Set></Update>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MARINA_RASKOVA" ModifierId="EPSMOD_MARINA_RASKOVA_FIGHTER" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GRACE_HOPPER" ModifierId="EPSMOD_GRACE_HOPPER_COMPUTERS" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_PLAYER"/>
+
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BI_SHENG" ModifierId="GREATPERSON_EXTRA_DISTRICT_CAPACITY"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BI_SHENG" ModifierId="EPSMOD_BI_SHENG_MACHINERY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BI_SHENG" ModifierId="EPSMOD_BI_SHENG_LIBRARY" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BI_SHENG" ModifierId="EPSMOD_BI_SHENG_MARKET" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_BI_SHENG" ModifierId="EPSMOD_BI_SHENG_BANK" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEONARDO_DA_VINCI" ModifierId="GREATPERSON_1MODERNTECHBOOST"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_LEONARDO_DA_VINCI" ModifierId="EPSMOD_LEONARDO_DA_VINCI_PRODUCTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN" ModifierId="EPSMOD_MIMAR_SINAN_FOOD" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_MIMAR_SINAN" ModifierId="EPSMOD_MIMAR_SINAN_HOUSING" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="GREATPERSON_EXTRA_DISTRICT_CAPACITY"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION1" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION2" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION3" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION4" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION5" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION6" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION7" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION8" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION9" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION10" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION11" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION12" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION13" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ADA_LOVELACE" ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION14" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_ALVAR_AALTO" ModifierId="EPSMOD_ALVAR_AALTO_CULTURE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING" ModifierId="GREATPERSON_CITY_HOUSING_MEDIUM"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING" ModifierId="GREATPERSON_CITY_AMENITIES_SMALL"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOHN_A_ROEBLING" ModifierId="EPSMOD_JOHN_A_ROEBLING_PRODUCTION" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_WONDER_IN_TILE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON" ModifierId="GREATPERSON_EXTRA_REGIONAL_BUILDING_RANGE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON" ModifierId="GREATPERSON_EXTRA_REGIONAL_BUILDING_ENTERTAINMENT"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JOSEPH_PAXTON" ModifierId="EPSMOD_JOSEPH_PAXTON_FOOD" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHARLES_CORREA"/><Set><ModifierId>EPSMOD_CHARLES_CORREA_PRODUCTION</ModifierId></Set></Update>
+		
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_SARAH_BREEDLOVE"/><Set><ModifierId>EPSMOD_SARAH_BREEDLOVE_TOURISM</ModifierId></Set></Update>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="GREATPERSON_ADJACENT_GRASSMOUNTAIN_SCIENCE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="GREATPERSON_ADJACENT_PLAINSMOUNTAIN_SCIENCE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="GREATPERSON_ADJACENT_DESERTMOUNTAIN_SCIENCE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="GREATPERSON_ADJACENT_TUNDRAMOUNTAIN_SCIENCE"/>
+		<Delete GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="GREATPERSON_ADJACENT_SNOWMOUNTAIN_SCIENCE"/>
+		<Row GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_GALILEO_GALILEI" ModifierId="EPSMOD_GALILEO_GALILEI_SCIENCE" AttachmentTargetType="GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE"/>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_CHARLES_DARWIN"/><Set><ModifierId>EPSMOD_CHARLES_DARWIN_SCIENCE</ModifierId><AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE</AttachmentTargetType></Set></Update>
+		<Update><Where GreatPersonIndividualType="GREAT_PERSON_INDIVIDUAL_JANAKI_AMMAL"/><Set><ModifierId>EPSMOD_JANAKI_AMMAL_SCIENCE</ModifierId><AttachmentTargetType>GREAT_PERSON_ACTION_ATTACHMENT_TARGET_DISTRICT_IN_TILE</AttachmentTargetType></Set></Update>
+	</GreatPersonIndividualActionModifiers>
+	
+	<ModifierStrings>
+		<Update><Where ModifierId="GREATPERSON_GRACE_HOPPER_ACTIVE"/><Set><Text>EPSMOD_GRACE_HOPPER_ACTIVE_TEXT</Text></Set></Update>
+		<Row ModifierId="EPSMOD_BOUDICA_BARBS" Context="Summary" Text="EPSMOD_BOUDICA_BARBS_TEXT"/>
+		<Row ModifierId="EPSMOD_MARINA_RASKOVA_ALUMINUM" Context="Summary" Text="EPSMOD_MARINA_RASKOVA_ALUMINUM_TEXT"/>
+		
+		<Update><Where ModifierId="GREATPERSON_PRINTINGTECHBOOST"/><Set><Text>EPSMOD_BI_SHENG_ACTIVE_TEXT</Text></Set></Update>
+		<Update><Where ModifierId="GREATPERSON_WORKSHOP_CULTURE"/><Set><Text>EPSMOD_LEONARDO_DA_VINCI_ACTIVE_TEXT</Text></Set></Update>
+		<Update><Where ModifierId="GREATPERSON_CULTURE_BOMB_TRIGGER_INDUSTRIAL_ZONE"/><Set><Text>EPSMOD_MIMAR_SINAN_ACTIVE_TEXT</Text></Set></Update>
+		<Row ModifierId="EPSMOD_ADA_LOVELACE_PRODUCTION1" Context="Summary" Text="EPSMOD_ADA_LOVELACE_PRODUCTION_TEXT"/>
+		<Row ModifierId="EPSMOD_ALVAR_AALTO_CULTURE" Context="Summary" Text="EPSMOD_ALVAR_AALTO_CULTURE_TEXT"/>
+		<Row ModifierId="EPSMOD_JOHN_A_ROEBLING_PRODUCTION" Context="Summary" Text="EPSMOD_JOHN_A_ROEBLING_PRODUCTION_TEXT"/>
+		<Row ModifierId="EPSMOD_JOSEPH_PAXTON_FOOD" Context="Summary" Text="EPSMOD_JOSEPH_PAXTON_FOOD_TEXT"/>
+		<Row ModifierId="EPSMOD_CHARLES_CORREA_PRODUCTION" Context="Summary" Text="EPSMOD_CHARLES_CORREA_PRODUCTION_TEXT"/>
+		
+		<Row ModifierId="EPSMOD_SARAH_BREEDLOVE_TOURISM" Context="Summary" Text="EPSMOD_SARAH_BREEDLOVE_TOURISM_TEXT"/>
+		<Row ModifierId="EPSMOD_GALILEO_GALILEI_SCIENCE" Context="Summary" Text="EPSMOD_GREAT_PERSON_GAIN_SCIENCE_TEXT"/>
+		<Row ModifierId="EPSMOD_CHARLES_DARWIN_SCIENCE" Context="Summary" Text="EPSMOD_GREAT_PERSON_GAIN_SCIENCE_TEXT"/>
+		<Row ModifierId="EPSMOD_JANAKI_AMMAL_SCIENCE" Context="Summary" Text="EPSMOD_GREAT_PERSON_GAIN_SCIENCE_TEXT"/>
+	</ModifierStrings>
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_BOUDICA_BARBS</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_MARINA_RASKOVA_ALUMINUM</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_MARINA_RASKOVA_FIGHTER</ModifierId><ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_GRACE_HOPPER_COMPUTERS</ModifierId><ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+
+		<Row><ModifierId>EPSMOD_BI_SHENG_MACHINERY</ModifierId><ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECH_BOOST</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_LIBRARY</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_MARKET</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_BANK</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_LEONARDO_DA_VINCI_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_MIMAR_SINAN_FOOD</ModifierId><ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType><SubjectRequirementSetId>EPSMOD_IS_MIMAR_SINAN_DISTRICT</SubjectRequirementSetId><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_MIMAR_SINAN_HOUSING</ModifierId><ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType><SubjectRequirementSetId>EPSMOD_IS_MIMAR_SINAN_DISTRICT</SubjectRequirementSetId><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION1</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION2</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION3</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION4</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION5</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION6</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION7</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION8</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION9</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION10</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION11</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION12</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION13</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION14</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType><RunOnce>false</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_ALVAR_AALTO_CULTURE</ModifierId><ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_IS_ALVAR_AALTO_TILE</SubjectRequirementSetId><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_JOHN_A_ROEBLING_PRODUCTION</ModifierId><ModifierType>MODIFIER_SINGLE_CITY_GRANT_PRODUCTION_IN_CITY</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_JOSEPH_PAXTON_FOOD</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_IS_JOSEPH_PAXTON_TILE</SubjectRequirementSetId><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_CHARLES_CORREA_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION_MODIFIER</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		
+		<Row><ModifierId>EPSMOD_SARAH_BREEDLOVE_TOURISM</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TOURISM</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_GALILEO_GALILEI_SCIENCE</ModifierId><ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_CHARLES_DARWIN_SCIENCE</ModifierId><ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_JANAKI_AMMAL_SCIENCE</ModifierId><ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType><RunOnce>true</RunOnce><Permanent>true</Permanent></Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Update><Where ModifierId="GREATPERSON_GRACE_HOPPER_ACTIVE" Name="Amount"/><Set><Value>1</Value></Set></Update>
+		<Update><Where ModifierId="GREATPERSON_WORKSHOP_CULTURE" Name="Amount"/><Set><Value>2</Value></Set></Update>
+		<Row><ModifierId>EPSMOD_BOUDICA_BARBS</ModifierId><Name>Amount</Name><Value>5</Value></Row>
+		<Row><ModifierId>EPSMOD_MARINA_RASKOVA_ALUMINUM</ModifierId><Name>ResourceType</Name><Value>RESOURCE_ALUMINUM</Value></Row>
+		<Row><ModifierId>EPSMOD_MARINA_RASKOVA_ALUMINUM</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_MARINA_RASKOVA_FIGHTER</ModifierId><Name>UnitType</Name><Value>UNIT_FIGHTER</Value></Row>
+		<Row><ModifierId>EPSMOD_MARINA_RASKOVA_FIGHTER</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_GRACE_HOPPER_COMPUTERS</ModifierId><Name>TechType</Name><Value>TECH_COMPUTERS</Value></Row>
+		
+		<Row><ModifierId>EPSMOD_BI_SHENG_MACHINERY</ModifierId><Name>TechType</Name><Value>TECH_MACHINERY</Value></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_LIBRARY</ModifierId><Name>BuildingType</Name><Value>BUILDING_LIBRARY</Value></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_LIBRARY</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_LIBRARY</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_MARKET</ModifierId><Name>BuildingType</Name><Value>BUILDING_MARKET</Value></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_MARKET</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_MARKET</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_BANK</ModifierId><Name>BuildingType</Name><Value>BUILDING_BANK</Value></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_BANK</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_BI_SHENG_BANK</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_LEONARDO_DA_VINCI_PRODUCTION</ModifierId><Name>BuildingType</Name><Value>BUILDING_WORKSHOP</Value></Row>
+		<Row><ModifierId>EPSMOD_LEONARDO_DA_VINCI_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_LEONARDO_DA_VINCI_PRODUCTION</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_MIMAR_SINAN_FOOD</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_MIMAR_SINAN_FOOD</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_MIMAR_SINAN_HOUSING</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION1</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_MELEE</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION2</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_RANGED</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION3</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_ANTI_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION4</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_RECON</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION5</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION6</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION7</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SIEGE</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION8</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SUPPORT</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION9</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_NAVAL_MELEE</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION10</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_NAVAL_RANGED</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION11</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_NAVAL_RAIDER</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION12</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_NAVAL_CARRIER</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION13</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_AIR_FIGHTER</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION14</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_AIR_BOMBER</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION1</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION2</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION3</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION4</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION5</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION6</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION7</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION8</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION9</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION10</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION11</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION12</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION13</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION14</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>		
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION1</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION2</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION3</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION4</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION5</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION6</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION7</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION8</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION9</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION10</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION11</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION12</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION13</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ADA_LOVELACE_PRODUCTION14</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ALVAR_AALTO_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_ALVAR_AALTO_CULTURE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_JOHN_A_ROEBLING_PRODUCTION</ModifierId><Name>Amount</Name><Value>620</Value><Type>ScaleByGameSpeed</Type></Row>
+		<Row><ModifierId>EPSMOD_JOHN_A_ROEBLING_PRODUCTION</ModifierId><Name>KeepOverflow</Name><Value>false</Value></Row>
+		<Row><ModifierId>EPSMOD_JOSEPH_PAXTON_FOOD</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_JOSEPH_PAXTON_FOOD</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CHARLES_CORREA_PRODUCTION</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		
+		<Row><ModifierId>EPSMOD_SARAH_BREEDLOVE_TOURISM</ModifierId><Name>Amount</Name><Value>15</Value></Row>
+		<Row><ModifierId>EPSMOD_GALILEO_GALILEI_SCIENCE</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_GALILEO_GALILEI_SCIENCE</ModifierId><Name>Amount</Name><Value>500</Value><Type>ScaleByGameSpeed</Type></Row>
+		<Row><ModifierId>EPSMOD_CHARLES_DARWIN_SCIENCE</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_CHARLES_DARWIN_SCIENCE</ModifierId><Name>Amount</Name><Value>1000</Value><Type>ScaleByGameSpeed</Type></Row>
+		<Row><ModifierId>EPSMOD_JANAKI_AMMAL_SCIENCE</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_JANAKI_AMMAL_SCIENCE</ModifierId><Name>Amount</Name><Value>1600</Value><Type>ScaleByGameSpeed</Type></Row>
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_IS_MIMAR_SINAN_DISTRICT</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_IS_ALVAR_AALTO_TILE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_IS_JOSEPH_PAXTON_TILE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_IS_MIMAR_SINAN_DISTRICT</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_MIMAR_SINAN_DISTRICT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_IS_ALVAR_AALTO_TILE</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_ALVAR_AALTO_PLOT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_IS_JOSEPH_PAXTON_TILE</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_JOSEPH_PAXTON_PLOT</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_MIMAR_SINAN_DISTRICT</RequirementId><RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_ALVAR_AALTO_PLOT</RequirementId><RequirementType>REQUIREMENT_PLOT_IS_APPEAL_BETWEEN</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_JOSEPH_PAXTON_PLOT</RequirementId><RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_MIMAR_SINAN_DISTRICT</RequirementId><Name>DistrictType</Name><Value>DISTRICT_INDUSTRIAL_ZONE</Value></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_ALVAR_AALTO_PLOT</RequirementId><Name>MinimumAppeal</Name><Value>4</Value></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_JOSEPH_PAXTON_PLOT</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+	</RequirementArguments>
+</GameData>

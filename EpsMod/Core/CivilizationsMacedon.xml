@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_LEADER_TO_WORLDS_END"/><Set><Description>LOC_TRAIT_LEADER_TO_WORLDS_END_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_HELLENISTIC_FUSION"/><Set><Description>LOC_TRAIT_CIVILIZATION_HELLENISTIC_FUSION_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_TO_WORLDS_END" ModifierId="TRAIT_TOWORLDSEND_HEAL_ON_WONDER_CAPTURE"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_HELLENISTIC_FUSION" ModifierId="TRAIT_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_HELLENISTIC_FUSION" ModifierId="TRAIT_HELLENISTIC_FUSION_CAMPUS_EUREKA"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_HELLENISTIC_FUSION" ModifierId="TRAIT_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_HELLENISTIC_FUSION" ModifierId="TRAIT_HELLENISTIC_FUSION_THEATER_INSPIRATION"/>
+
+		<Row TraitType="TRAIT_LEADER_TO_WORLDS_END" ModifierId="EPSMOD_CIVS_ALEXANDER_ADJUST_GENERAL_CHARGES"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HELLENISTIC_FUSION" ModifierId="EPSMOD_CIVS_MACEDON_WONDER_LOYALTY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HELLENISTIC_FUSION" ModifierId="EPSMOD_CIVS_MACEDON_CULTURE"/>
+	</TraitModifiers>
+	
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CIVS_ALEXANDER_ADJUST_GENERAL_CHARGES</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_GREAT_PERSON_CHARGES</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_UNIT_IS_GENERAL</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MACEDON_WONDER_LOYALTY</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MACEDON_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_CITY_IS_CAPTURED</SubjectRequirementSetId></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Update><Where ModifierId="TRAIT_TOWORLDSEND_NO_WAR_WEARINESS" Name="Amount"/><Set><Value>-50</Value></Set></Update>
+
+		<Row><ModifierId>EPSMOD_CIVS_ALEXANDER_ADJUST_GENERAL_CHARGES</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MACEDON_WONDER_LOYALTY</ModifierId><Name>Amount</Name><Value>5</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MACEDON_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MACEDON_CULTURE</ModifierId><Name>Amount</Name><Value>15</Value></Row>
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_CIVS_UNIT_IS_GENERAL</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_IS_CAPTURED</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_CIVS_UNIT_IS_GENERAL</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_UNIT_IS_GENERAL</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_APADANA</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_COLOSSEUM</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_COLOSSUS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_GREAT_BATH</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_GREAT_LIBRARY</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_GREAT_LIGHTHOUSE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_HALICARNASSUS_MAUSOLEUM</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_HANGING_GARDENS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_JEBEL_BARKAL</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_MACHU_PICCHU</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_MAHABODHI_TEMPLE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_ORACLE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_PETRA</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_PYRAMIDS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_STONEHENGE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_TEMPLE_ARTEMIS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_ANTIQUE_WONDER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_TERRACOTTA_ARMY</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_IS_CAPTURED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_IS_CAPTURED2</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_UNIT_IS_GENERAL</RequirementId><RequirementType>REQUIREMENT_GREAT_PERSON_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_APADANA</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_COLOSSEUM</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_COLOSSUS</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_GREAT_BATH</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_GREAT_LIBRARY</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_GREAT_LIGHTHOUSE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_HALICARNASSUS_MAUSOLEUM</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_HANGING_GARDENS</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_JEBEL_BARKAL</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_MACHU_PICCHU</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_MAHABODHI_TEMPLE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_ORACLE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_PETRA</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_PYRAMIDS</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_STONEHENGE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_TEMPLE_ARTEMIS</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_TERRACOTTA_ARMY</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_IS_CAPTURED2</RequirementId><RequirementType>REQUIREMENT_CITY_IS_ORIGINAL_OWNER</RequirementType><Inverse>true</Inverse></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_UNIT_IS_GENERAL</RequirementId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_GENERAL</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_APADANA</RequirementId><Name>BuildingType</Name><Value>BUILDING_APADANA</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_COLOSSEUM</RequirementId><Name>BuildingType</Name><Value>BUILDING_COLOSSEUM</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_COLOSSUS</RequirementId><Name>BuildingType</Name><Value>BUILDING_COLOSSUS</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_GREAT_BATH</RequirementId><Name>BuildingType</Name><Value>BUILDING_GREAT_BATH</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_GREAT_LIBRARY</RequirementId><Name>BuildingType</Name><Value>BUILDING_GREAT_LIBRARY</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_GREAT_LIGHTHOUSE</RequirementId><Name>BuildingType</Name><Value>BUILDING_GREAT_LIGHTHOUSE</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_HALICARNASSUS_MAUSOLEUM</RequirementId><Name>BuildingType</Name><Value>BUILDING_HALICARNASSUS_MAUSOLEUM</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_HANGING_GARDENS</RequirementId><Name>BuildingType</Name><Value>BUILDING_HANGING_GARDENS</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_JEBEL_BARKAL</RequirementId><Name>BuildingType</Name><Value>BUILDING_JEBEL_BARKAL</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_MACHU_PICCHU</RequirementId><Name>BuildingType</Name><Value>BUILDING_MACHU_PICCHU</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_MAHABODHI_TEMPLE</RequirementId><Name>BuildingType</Name><Value>BUILDING_MAHABODHI_TEMPLE</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_ORACLE</RequirementId><Name>BuildingType</Name><Value>BUILDING_ORACLE</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_PETRA</RequirementId><Name>BuildingType</Name><Value>BUILDING_PETRA</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_PYRAMIDS</RequirementId><Name>BuildingType</Name><Value>BUILDING_PYRAMIDS</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_STONEHENGE</RequirementId><Name>BuildingType</Name><Value>BUILDING_STONEHENGE</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_TEMPLE_ARTEMIS</RequirementId><Name>BuildingType</Name><Value>BUILDING_TEMPLE_ARTEMIS</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_TERRACOTTA_ARMY</RequirementId><Name>BuildingType</Name><Value>BUILDING_TERRACOTTA_ARMY</Value></Row>
+	</RequirementArguments>
+	
+</GameData>

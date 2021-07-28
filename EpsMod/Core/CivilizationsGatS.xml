@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_ADJACENT_DISTRICTS"/><Set><Description>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_LEADER_SAHEL_MERCHANTS"/><Set><Description>LOC_TRAIT_LEADER_SAHEL_MERCHANTS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_MALI_GOLD_DESERT"/><Set><Description>LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_AMAZON"/><Set><Description>LOC_TRAIT_CIVILIZATION_AMAZON_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_LEADER_LAST_BEST_WEST"/><Set><Description>LOC_TRAIT_LEADER_LAST_BEST_WEST_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS"/><Set><Description>LOC_TRAIT_LEADER_MELEE_COASTAL_RAIDS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION"/><Set><Description>LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_LEADER_KILLER_OF_CYRUS"/><Set><Description>LOC_TRAIT_LEADER_KILLER_OF_CYRUS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY"/><Set><Description>LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_CIVILIZATION_ADJACENT_DISTRICTS" ModifierId="TRAIT_ADJACENT_DISTRICTS_CAMPUS_ADJACENCYSCIENCE"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_ADJACENT_DISTRICTS" ModifierId="TRAIT_ADJACENT_DISTRICTS_HARBOR_ADJACENCYGOLD"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_ADJACENT_DISTRICTS" ModifierId="TRAIT_ADJACENT_DISTRICTS_COMMERCIALHUB_ADJACENCYGOLD"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_AMAZON" ModifierId="TRAIT_AMAZON_RAINFOREST_CAMPUS_ADJACENCY"/>
+		<Delete TraitType="TRAIT_LEADER_SAHEL_MERCHANTS" ModifierId="TRADE_ROUTE_GOLD_DESERT_ORIGIN"/>
+		<Delete TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="TRAIT_ANCIENT_NAVAL_MELEE_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="TRAIT_CLASSICAL_NAVAL_MELEE_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="TRAIT_MEDIEVAL_NAVAL_MELEE_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="TRAIT_RENAISSANCE_NAVAL_MELEE_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="TRAIT_INDUSTRIAL_NAVAL_MELEE_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="TRAIT_MODERN_NAVAL_MELEE_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="TRAIT_ATOMIC_NAVAL_MELEE_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="TRAIT_INFORMATION_NAVAL_MELEE_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="HEAL_AFTER_DEFEATING_UNIT"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY" ModifierId="TRAIT_EXTRALIGHTCAVALRY"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY" ModifierId="TRAIT_EXTRASAKAHORSEARCHER"/>
+		
+		<Row TraitType="TRAIT_LEADER_SAHEL_MERCHANTS" ModifierId="EPSMOD_CIVS_MALI_INTERNATIONAL_BONUS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_AMAZON" ModifierId="EPSMOD_CIVS_BRAZIL_RAINFOREST_FOOD_ATTACH"/>
+		<Row TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="EPSMOD_CIVS_NORWAY_SEA_RESOURCES"/>
+		<Row TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="EPSMOD_CIVS_NORWAY_DISTRICT_PILLAGE"/>
+		<Row TraitType="TRAIT_LEADER_MELEE_COASTAL_RAIDS" ModifierId="EPSMOD_CIVS_NORWAY_IMPROVEMENT_PILLAGE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION" ModifierId="EPSMOD_CIVS_EARLY_EMBARK"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PRODUCTION_ANCIENT"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PRODUCTION_CLASSICAL"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PRODUCTION_MEDIEVAL"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PRODUCTION_RENAISSANCE"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PRODUCTION_INDUSTRIAL"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PRODUCTION_MODERN"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PRODUCTION_ATOMIC"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PRODUCTION_INFORMATION"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PRODUCTION_FUTURE"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PURCHASE_HORSEMAN"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PURCHASE_HORSEARCHER"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PURCHASE_COURSER"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PURCHASE_CAVALRY"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_PURCHASE_HELICOPTER"/>
+		<Row TraitType="TRAIT_LEADER_KILLER_OF_CYRUS" ModifierId="EPSMOD_CIVS_SCYTHIA_FAITH_PURCHASE_LIGHT_CAVALRY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY" ModifierId="EPSMOD_CIVS_SCYTHIA_PLAINS_BONUS_FOOD_ATTACH"/>
+		<Row TraitType="TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY" ModifierId="EPSMOD_CIVS_SCYTHIA_APPEAL_FAITH_ATTACH"/>
+	</TraitModifiers>
+
+	
+	<Districts>
+		<Update><Where DistrictType="DISTRICT_LAVRA"/><Set><Description>LOC_DISTRICT_LAVRA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where DistrictType="DISTRICT_SUGUBA"/><Set><Description>LOC_DISTRICT_SUGUBA_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Districts>
+
+	<DistrictModifiers>
+		<Row><DistrictType>DISTRICT_LAVRA</DistrictType><ModifierId>EPSMOD_CIVS_LAVRA_WRITING_SLOT</ModifierId></Row>
+	</DistrictModifiers>
+
+	<ExcludedAdjacencies>
+		<Delete YieldChangeId="District_Science" TraitType="TRAIT_CIVILIZATION_ADJACENT_DISTRICTS"/>
+		<Delete YieldChangeId="District_Gold" TraitType="TRAIT_CIVILIZATION_ADJACENT_DISTRICTS"/>
+		<Delete YieldChangeId="Jungle_Science" TraitType="TRAIT_CIVILIZATION_AMAZON"/>
+	</ExcludedAdjacencies>
+
+
+	<Buildings>
+		<Update><Where BuildingType="BUILDING_STAVE_CHURCH"/><Set><Description>LOC_BUILDING_STAVE_CHURCH_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Buildings>
+	
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_STAVE_CHURCH" GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<BuildingModifiers>
+		<Delete BuildingType="BUILDING_STAVE_CHURCH" ModifierId="STAVECHURCH_SEARESOURCE_PRODUCTION"/>
+		
+		<Row><BuildingType>BUILDING_STAVE_CHURCH</BuildingType><ModifierId>EPSMOD_CIVS_STAVE_CHURCH_JUNGLE_ADJACENCY</ModifierId></Row>
+	</BuildingModifiers>
+
+
+	<Units>
+		<Update><Where UnitType="UNIT_CHINESE_CROUCHING_TIGER"/><Set><Combat>33</Combat></Set></Update>
+		<Update><Where UnitType="UNIT_NORWEGIAN_BERSERKER"/><Set><PurchaseYield>YIELD_FAITH</PurchaseYield><Description>LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update>
+			<Where UnitType="UNIT_SCYTHIAN_HORSE_ARCHER"/>
+			<Set>
+				<Cost>80</Cost>
+				<PromotionClass>PROMOTION_CLASS_LIGHT_CAVALRY</PromotionClass>
+				<PrereqTech>TECH_ARCHERY</PrereqTech>
+				<MandatoryObsoleteTech>TECH_CASTLES</MandatoryObsoleteTech>
+				<Description>LOC_UNIT_SCYTHIAN_HORSE_ARCHER_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+	</Units>
+	
+	<TypeTags>
+		<Row Type="UNIT_SCYTHIAN_HORSE_ARCHER" Tag="CLASS_LIGHT_CAVALRY"/>
+	</TypeTags>
+	
+	<UnitUpgrades>
+		<Update><Where UnitType="UNIT_SCYTHIAN_HORSE_ARCHER"/><Set><UpgradeUnit>UNIT_COURSER</UpgradeUnit></Set></Update>
+	</UnitUpgrades>
+	
+
+	<GovernorPromotions>
+		<Update><Where GovernorPromotionType="GOVERNOR_PROMOTION_CAPOU_AGHA"/><Set><Description>LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</GovernorPromotions>
+
+	<GovernorPromotionModifiers>
+		<Delete GovernorPromotionType="GOVERNOR_PROMOTION_CAPOU_AGHA" ModifierId="CAPOU_AGHA_ADJUST_GRIEVANCES"/>
+
+		<Row><GovernorPromotionType>GOVERNOR_PROMOTION_CAPOU_AGHA</GovernorPromotionType><ModifierId>EPSMOD_CIVS_IBRAHIM_DIPLO_FAVOR</ModifierId></Row>
+	</GovernorPromotionModifiers>
+	
+	
+	<Modifiers>
+		<Update><Where ModifierId="TRAIT_EARLY_OCEAN_NAVIGATION"/><Set><SubjectRequirementSetId>EPSMOD_CIVS_PLAYER_HAS_SAILING_TECH</SubjectRequirementSetId></Set></Update>
+		
+		<Row><ModifierId>EPSMOD_CIVS_LAVRA_WRITING_SLOT</ModifierId><ModifierType>MODIFIER_SINGLE_CITY_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MALI_INTERNATIONAL_BONUS</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_IBRAHIM_DIPLO_FAVOR</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_CITY_HAS_PALACE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_ANCIENT</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_CLASSICAL</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_MEDIEVAL</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_RENAISSANCE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_INDUSTRIAL</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_MODERN</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_ATOMIC</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_INFORMATION</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_FUTURE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_HORSEMAN</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_HORSEARCHER</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_COURSER</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_CAVALRY</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_HELICOPTER</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_FAITH_PURCHASE_LIGHT_CAVALRY</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PLAINS_BONUS_FOOD_ATTACH</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PLAINS_BONUS_FOOD</ModifierId><ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_IS_FLAT_BONUS_PLOT</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_APPEAL_FAITH_ATTACH</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_APPEAL_FAITH</ModifierId><ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_IS_FLAT_CHARMING_PLOT</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BRAZIL_RAINFOREST_FOOD_ATTACH</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BRAZIL_RAINFOREST_FOOD</ModifierId><ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_IS_RAINFOREST_PLOT</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_NORWAY_SEA_RESOURCES</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_NORWAY_DISTRICT_PILLAGE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_DISTRICT_PILLAGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_NORWAY_IMPROVEMENT_PILLAGE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_IMPROVEMENT_PILLAGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_STAVE_CHURCH_JUNGLE_ADJACENCY</ModifierId><ModifierType>MODIFIER_SINGLE_CITY_FEATURE_ADJACENCY</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_EARLY_EMBARK</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_VALID_TERRAIN</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_PLAYER_HAS_SAILING_TECH</SubjectRequirementSetId></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Update><Where ModifierId="TUNDRA_CAMPS_FOOD" Name="Amount"/><Set><Value>1</Value></Set></Update>
+		<Update><Where ModifierId="TUNDRA_HILLS_CAMPS_FOOD" Name="Amount"/><Set><Value>1</Value></Set></Update>
+		<Update><Where ModifierId="TRAIT_LESS_BUILDING_PRODUCTION" Name="Amount"/><Set><Value>-20</Value></Set></Update>
+		<Update><Where ModifierId="TRAIT_LESS_UNIT_PRODUCTION" Name="Amount"/><Set><Value>-20</Value></Set></Update>
+		<Update><Where ModifierId="SUGUBA_CHEAPER_BUILDING_PURCHASE" Name="Amount"/><Set><Value>10</Value></Set></Update>
+		<Update><Where ModifierId="SUGUBA_CHEAPER_DISTRICT_PURCHASE" Name="Amount"/><Set><Value>10</Value></Set></Update>
+		<Update><Where ModifierId="SUGUBA_CHEAPER_UNIT_PURCHASE" Name="Amount"/><Set><Value>10</Value></Set></Update>
+		<Update><Where ModifierId="TRAIT_MISSION_IDENTITY_PER_TURN_MODIFIER" Name="Amount"/><Set><Value>3</Value></Set></Update>
+
+		<Row><ModifierId>EPSMOD_CIVS_LAVRA_WRITING_SLOT</ModifierId><Name>BuildingType</Name><Value>BUILDING_SHRINE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_LAVRA_WRITING_SLOT</ModifierId><Name>GreatWorkSlotType</Name><Value>GREATWORKSLOT_WRITING</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_LAVRA_WRITING_SLOT</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MALI_INTERNATIONAL_BONUS</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MALI_INTERNATIONAL_BONUS</ModifierId><Name>Amount</Name><Value>4</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_IBRAHIM_DIPLO_FAVOR</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_ANCIENT</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_ANCIENT</ModifierId><Name>EraType</Name><Value>ERA_ANCIENT</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_ANCIENT</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_CLASSICAL</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_CLASSICAL</ModifierId><Name>EraType</Name><Value>ERA_CLASSICAL</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_CLASSICAL</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_MEDIEVAL</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_MEDIEVAL</ModifierId><Name>EraType</Name><Value>ERA_MEDIEVAL</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_MEDIEVAL</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_RENAISSANCE</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_RENAISSANCE</ModifierId><Name>EraType</Name><Value>ERA_RENAISSANCE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_RENAISSANCE</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_INDUSTRIAL</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_INDUSTRIAL</ModifierId><Name>EraType</Name><Value>ERA_INDUSTRIAL</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_INDUSTRIAL</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_MODERN</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_MODERN</ModifierId><Name>EraType</Name><Value>ERA_MODERN</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_MODERN</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_ATOMIC</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_ATOMIC</ModifierId><Name>EraType</Name><Value>ERA_ATOMIC</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_ATOMIC</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_INFORMATION</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_INFORMATION</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_INFORMATION</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_FUTURE</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_FUTURE</ModifierId><Name>EraType</Name><Value>ERA_FUTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PRODUCTION_FUTURE</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_HORSEMAN</ModifierId><Name>UnitType</Name><Value>UNIT_HORSEMAN</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_HORSEMAN</ModifierId><Name>Amount</Name><Value>30</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_HORSEARCHER</ModifierId><Name>UnitType</Name><Value>UNIT_SCYTHIAN_HORSE_ARCHER</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_HORSEARCHER</ModifierId><Name>Amount</Name><Value>30</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_COURSER</ModifierId><Name>UnitType</Name><Value>UNIT_COURSER</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_COURSER</ModifierId><Name>Amount</Name><Value>30</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_CAVALRY</ModifierId><Name>UnitType</Name><Value>UNIT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_CAVALRY</ModifierId><Name>Amount</Name><Value>30</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_HELICOPTER</ModifierId><Name>UnitType</Name><Value>UNIT_HELICOPTER</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PURCHASE_HELICOPTER</ModifierId><Name>Amount</Name><Value>30</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_FAITH_PURCHASE_LIGHT_CAVALRY</ModifierId><Name>Tag</Name><Value>CLASS_LIGHT_CAVALRY</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PLAINS_BONUS_FOOD_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_CIVS_SCYTHIA_PLAINS_BONUS_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PLAINS_BONUS_FOOD</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_PLAINS_BONUS_FOOD</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_APPEAL_FAITH_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_CIVS_SCYTHIA_APPEAL_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_APPEAL_FAITH</ModifierId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCYTHIA_APPEAL_FAITH</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BRAZIL_RAINFOREST_FOOD_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_CIVS_BRAZIL_RAINFOREST_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BRAZIL_RAINFOREST_FOOD</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BRAZIL_RAINFOREST_FOOD</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_NORWAY_SEA_RESOURCES</ModifierId><Name>ModifierId</Name><Value>STAVECHURCH_SEARESOURCE_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_NORWAY_DISTRICT_PILLAGE</ModifierId><Name>Amount</Name><Value>1.25</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_NORWAY_IMPROVEMENT_PILLAGE</ModifierId><Name>Amount</Name><Value>1.25</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_STAVE_CHURCH_JUNGLE_ADJACENCY</ModifierId><Name>DistrictType</Name><Value>DISTRICT_HOLY_SITE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_STAVE_CHURCH_JUNGLE_ADJACENCY</ModifierId><Name>FeatureType</Name><Value>FEATURE_JUNGLE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_STAVE_CHURCH_JUNGLE_ADJACENCY</ModifierId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_STAVE_CHURCH_JUNGLE_ADJACENCY</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_STAVE_CHURCH_JUNGLE_ADJACENCY</ModifierId><Name>Description</Name><Value>LOC_DISTRICT_JUNGLE_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_EARLY_EMBARK</ModifierId><Name>TerrainType</Name><Value>TERRAIN_COAST</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_EARLY_EMBARK</ModifierId><Name>Valid</Name><Value>true</Value></Row>
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_PALACE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_FLAT_BONUS_PLOT</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_FLAT_CHARMING_PLOT</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_RAINFOREST_PLOT</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_PLAYER_HAS_SAILING_TECH</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_PALACE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_HAS_PALACE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_FLAT_BONUS_PLOT</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_FLAT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_FLAT_BONUS_PLOT</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_HAS_BONUS_RESOURCE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_FLAT_BONUS_PLOT</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_HAS_BONUS_VISIBLE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_FLAT_CHARMING_PLOT</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_FLAT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_FLAT_CHARMING_PLOT</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_CHARMING</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_RAINFOREST_PLOT</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_RAINFOREST</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_PLAYER_HAS_SAILING_TECH</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_HAS_SAILING_TECH</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_HAS_PALACE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_FLAT</RequirementId><RequirementType>REQUIREMENT_PLOT_IS_HILLS</RequirementType><Inverse>true</Inverse></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_HAS_BONUS_RESOURCE</RequirementId><RequirementType>REQUIREMENT_PLOT_RESOURCE_CLASS_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_HAS_BONUS_VISIBLE</RequirementId><RequirementType>REQUIREMENT_PLOT_RESOURCE_VISIBLE</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_CHARMING</RequirementId><RequirementType>REQUIREMENT_PLOT_IS_APPEAL_BETWEEN</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_RAINFOREST</RequirementId><RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_HAS_SAILING_TECH</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_HAS_PALACE</RequirementId><Name>BuildingType</Name><Value>BUILDING_PALACE</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_HAS_BONUS_RESOURCE</RequirementId><Name>ResourceClassType</Name><Value>RESOURCECLASS_BONUS</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_CHARMING</RequirementId><Name>MinimumAppeal</Name><Value>2</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_RAINFOREST</RequirementId><Name>FeatureType</Name><Value>FEATURE_JUNGLE</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_HAS_SAILING_TECH</RequirementId><Name>TechnologyType</Name><Value>TECH_SAILING</Value></Row>
+	</RequirementArguments>
+	
+</GameData>

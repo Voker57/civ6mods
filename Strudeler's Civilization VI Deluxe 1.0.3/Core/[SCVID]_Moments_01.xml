@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Moments_01 -->
+<!-- Author: thoma -->
+<!-- DateCreated: 4/13/2021 4:48:29 PM -->
+<GameData>
+	
+<!-- MOMENTS -->
+	<MomentIllustrations>
+		<Row	MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+				MomentDataType="MOMENT_DATA_BUILDING"
+				GameDataType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				Texture="MomentXP2_BuildingTheCothon.dds"/>
+		<Row	MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING"
+				MomentDataType="MOMENT_DATA_BUILDING"
+				GameDataType="BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS"
+				Texture="Moment_Infrastructure_China.dds"/>
+	</MomentIllustrations>
+
+<!-- COMMEMORATIONS -->
+	<CommemorationTypes>
+		<Update>
+			<Where	CommemorationType="COMMEMORATION_INFRASTRUCTURE"/>
+			<Set	GoldenAgeBonusDescription="LOC_STR_MOMENT_CATEGORY_INFRASTRUCTURE_BONUS_GOLDEN_AGE"/>
+		</Update>
+	</CommemorationTypes>
+
+</GameData>

@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Policies_09_Future_Modifiers -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 12:13:05 PM -->
+<GameData>
+	
+<!-- FUTURE MILITARY POLICIES -->
+	
+	<!-- N/A -->
+	
+<!-- FUTURE ECONOMIC POLICIES -->
+	
+	<!-- N/A -->
+	
+<!-- FUTURE DIPLOMATIC POLICIES -->
+	
+	<!-- N/A -->
+	
+<!-- FUTURE GREAT PERSON POLICIES -->
+	
+	<!-- N/A -->
+	
+<!-- FUTURE WILDCARD POLICIES -->
+
+	<!-- JUDGMENT DAY -->
+	<Modifiers>
+		<!-- JUDGMENT DAY ABILITY -->
+		<Row>
+			<ModifierId>STR_JUDGMENT_DAY_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_JUDGMENT_DAY_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- JUDGMENT DAY ABILITY -->
+		<Row>
+			<ModifierId>STR_JUDGMENT_DAY_MOD_1</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_STR_JUDGEMENT_DAY_1</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_JUDGMENT_DAY_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_JUDGMENT_DAY_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-8</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- PRODUCTION TOWARDS CARRIER -->
+		<Row>
+			<PolicyType>POLICY_STR_JUDGMENT_DAY</PolicyType>
+			<ModifierId>STR_JUDGMENT_DAY_MOD_1</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_JUDGMENT_DAY</PolicyType>
+			<ModifierId>STR_JUDGMENT_DAY_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- AEROSPACE CONTRACTORS -->
+	<Modifiers>
+		<!-- BONUS POWER -->
+		<Row>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_SPACEPORT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_POWER</ModifierType>
+		</Row>
+		<!-- BONUS ALUMINUM -->
+		<Row>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_SPACEPORT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_4</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- BONUS POWER -->
+		<Row>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_1</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>STR_AEROSPACE_CONTRACTORS_MOD_2</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_2</ModifierId>
+			<Name>SourceType</Name>
+			<Value>FREE_POWER_SOURCE_MISC</Value>
+		</Row>
+		<!-- BONUS ALUMINUM -->
+		<Row>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_3</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>STR_AEROSPACE_CONTRACTORS_MOD_4</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_4</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_ALUMINUM</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- BONUS POWER -->
+		<Row>
+			<PolicyType>POLICY_STR_AEROSPACE_CONTRACTORS</PolicyType>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_1</ModifierId>
+		</Row>
+		<!-- BONUS ALUMINUM -->
+		<Row>
+			<PolicyType>POLICY_STR_AEROSPACE_CONTRACTORS</PolicyType>
+			<ModifierId>STR_AEROSPACE_CONTRACTORS_MOD_3</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- SPACE TOURISM -->
+	<Modifiers>
+		<!-- FOREIGN TOURISM REDUCTION -->
+		<Row>
+			<ModifierId>STR_SPACE_TOURISM_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_OVERALL_TOURISM_REDUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- FOREIGN TOURISM REDUCTION -->
+		<Row>
+			<ModifierId>STR_SPACE_TOURISM_MOD_1</ModifierId>
+			<Name>Modifier</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- FOREIGN TOURISM REDUCTION -->
+		<Row>
+			<PolicyType>POLICY_STR_SPACE_TOURISM</PolicyType>
+			<ModifierId>STR_SPACE_TOURISM_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- HALLYU -->
+	<Modifiers>
+		<!-- ROCK BAND PROMOTIONS -->
+		<Row>
+			<ModifierId>STR_HALLYU_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNLIMITED_PROMOTION_CHOICES</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- ROCK BAND PROMOTIONS -->
+		<Row>
+			<ModifierId>STR_HALLYU_MOD_1</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_ROCK_BAND</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- ROCK BAND PROMOTIONS -->
+		<Row>
+			<PolicyType>POLICY_STR_HALLYU</PolicyType>
+			<ModifierId>STR_HALLYU_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- NON-STATE ACTORS -->
+	<Modifiers>
+		<!-- SPY PROMOTIONS -->
+		<Row>
+			<ModifierId>STR_NON_STATE_ACTORS_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_UNLIMITED_PROMOTION_CHOICES</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- SPY PROMOTIONS -->
+		<Row>
+			<ModifierId>STR_NON_STATE_ACTORS_MOD_1</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SPY</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- SPY PROMOTIONS -->
+		<Row>
+			<PolicyType>POLICY_STR_NON_STATE_ACTORS</PolicyType>
+			<ModifierId>STR_NON_STATE_ACTORS_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- INTEGRATED ATTACK LOGISTICS -->
+	<Modifiers>
+		<!-- PRODUCTION TOWARDS GIANT DEATH ROBOT -->
+		<Row>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+		<!-- MOVEMENT IN ENEMY TERRITORY -->
+		<Row>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_ENEMY_TERRITORY_START_MOVEMENT</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- PRODUCTION TOWARDS GIANT DEATH ROBOT -->
+		<Row>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_1</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_GIANT_DEATH_ROBOT</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- MOVEMENT IN ENEMY TERRITORY -->
+		<Row>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-8</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- PRODUCTION TOWARDS GIANT DEATH ROBOT -->
+		<Row>
+			<PolicyType>POLICY_STR_INTEGRATED_ATTACK_LOGISTICS</PolicyType>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_1</ModifierId>
+		</Row>
+		<!-- MOVEMENT IN ENEMY TERRITORY -->
+		<Row>
+			<PolicyType>POLICY_STR_INTEGRATED_ATTACK_LOGISTICS</PolicyType>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_2</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_INTEGRATED_ATTACK_LOGISTICS</PolicyType>
+			<ModifierId>STR_INTEGRATED_ATTACK_LOGISTICS_MOD_3</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- RABBLEROUSING POLICY -->
+	<Modifiers>
+		<!-- DIPLOMATIC FAVOR REFUND ON VICTORY RESOLUTION -->
+		<Row>
+			<ModifierId>STR_RABBLEROUSING_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FAVOR_REFUND_FOR_SUCCESSFUL_RESOLUTION</ModifierType>
+		</Row>
+		<!-- BONUS DIPLOMATIC FAVOR -->
+		<Row>
+			<ModifierId>STR_RABBLEROUSING_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- DIPLOMATIC FAVOR REFUND ON VICTORY RESOLUTION -->
+		<Row>
+			<ModifierId>STR_RABBLEROUSING_MOD_1</ModifierId>
+			<Name>ResolutionType</Name>
+			<Value>WC_RES_DIPLOVICTORY</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_RABBLEROUSING_MOD_1</ModifierId>
+			<Name>WhichEffect</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_RABBLEROUSING_MOD_1</ModifierId>
+			<Name>Percent</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- BONUS DIPLOMATIC FAVOR -->
+		<Row>
+			<ModifierId>STR_RABBLEROUSING_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- DIPLOMATIC FAVOR REFUND ON VICTORY RESOLUTION -->
+		<Row>
+			<PolicyType>POLICY_STR_RABBLEROUSING</PolicyType>
+			<ModifierId>STR_RABBLEROUSING_MOD_1</ModifierId>
+		</Row>
+		<!-- BONUS DIPLOMATIC FAVOR -->
+		<Row>
+			<PolicyType>POLICY_STR_RABBLEROUSING</PolicyType>
+			<ModifierId>STR_RABBLEROUSING_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- DIPLOMATIC CAPITAL -->
+	<Modifiers>
+		<!-- BONUS DIPLOMATIC FAVOR -->
+		<Row>
+			<ModifierId>STR_DIPLOMATIC_CAPITAL_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EXTRA_FAVOR_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- BONUS DIPLOMATIC FAVOR -->
+		<Row>
+			<ModifierId>STR_DIPLOMATIC_CAPITAL_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- BONUS DIPLOMATIC FAVOR -->
+		<Row>
+			<PolicyType>POLICY_STR_DIPLOMATIC_CAPITAL</PolicyType>
+			<ModifierId>STR_DIPLOMATIC_CAPITAL_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- GLOBAL COALITION -->
+	<Modifiers>
+		<!-- GLOBAL COALITION ABILITY -->
+		<Row>
+			<ModifierId>STR_GLOBAL_COALITION_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_GLOBAL_COALITION_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GLOBAL COALITION ABILITY -->
+		<Row>
+			<ModifierId>STR_GLOBAL_COALITION_MOD_1</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_GLOBAL_COALITION_FRIENDLY_TERRITORY</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_GLOBAL_COALITION_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_GLOBAL_COALITION_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- GLOBAL COALITION ABILITY -->
+		<Row>
+			<PolicyType>POLICY_STR_GLOBAL_COALITION</PolicyType>
+			<ModifierId>STR_GLOBAL_COALITION_MOD_1</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>POLICY_STR_GLOBAL_COALITION</ModifierId>
+			<ModifierType>STR_GLOBAL_COALITION_MOD_2</ModifierType>
+		</Row>
+	</PolicyModifiers>
+
+</GameData>

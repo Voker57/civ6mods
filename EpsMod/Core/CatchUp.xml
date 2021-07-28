@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_LEADER_GRAND_EMBASSY"/><Set><Description>LOC_TRAIT_LEADER_GRAND_EMBASSY_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS"/>
+
+		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="EPSMOD_CATCHUP_RUSSIA_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="EPSMOD_CATCHUP_RUSSIA_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="EPSMOD_CATCHUP_RUSSIA_ENGINEER"/>
+		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="EPSMOD_CATCHUP_RUSSIA_ARTIST"/>
+		<Row TraitType="TRAIT_LEADER_GRAND_EMBASSY" ModifierId="EPSMOD_CATCHUP_RUSSIA_MUSICIAN"/>
+	</TraitModifiers>
+
+
+	<GameModifiers>
+		<Row><ModifierId>EPSMOD_CATCHUP_ALL_PLAYERS</ModifierId></Row>
+	</GameModifiers>
+	
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CATCHUP_ALL_PLAYERS</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType></Row>
+		
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_SCIENCE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_ENGINEER</ModifierId><ModifierType>MODIFIER_PLAYER_GRANT_BOOST_WITH_GREAT_PERSON</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_ARTIST</ModifierId><ModifierType>MODIFIER_PLAYER_GRANT_BOOST_WITH_GREAT_PERSON</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_MUSICIAN</ModifierId><ModifierType>MODIFIER_PLAYER_GRANT_BOOST_WITH_GREAT_PERSON</ModifierType></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_CATCHUP_ALL_PLAYERS</ModifierId><Name>ModifierId</Name><Value>TRAIT_ADJUST_PROGRESS_DIFF_TRADE_BONUS</Value></Row>
+		
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_SCIENCE</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_SCIENCE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_CULTURE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_ENGINEER</ModifierId><Name>GreatPersonClass</Name><Value>GREAT_PERSON_CLASS_ENGINEER</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_ENGINEER</ModifierId><Name>TechBoost</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_ENGINEER</ModifierId><Name>OtherPlayers</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_ARTIST</ModifierId><Name>GreatPersonClass</Name><Value>GREAT_PERSON_CLASS_ARTIST</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_ARTIST</ModifierId><Name>TechBoost</Name><Value>false</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_ARTIST</ModifierId><Name>OtherPlayers</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_MUSICIAN</ModifierId><Name>GreatPersonClass</Name><Value>GREAT_PERSON_CLASS_MUSICIAN</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_MUSICIAN</ModifierId><Name>TechBoost</Name><Value>false</Value></Row>
+		<Row><ModifierId>EPSMOD_CATCHUP_RUSSIA_MUSICIAN</ModifierId><Name>OtherPlayers</Name><Value>true</Value></Row>
+	</ModifierArguments>
+	
+</GameData>

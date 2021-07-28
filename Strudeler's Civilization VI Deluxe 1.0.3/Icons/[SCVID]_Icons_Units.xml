@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Icons_Units -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 3:41:40 PM -->
+<GameData>
+
+<!-- MILITARY UNITS ICON DEFINITIONS -->
+
+	<IconTextureAtlases>
+		<!-- NEW THE SAOSHYANT -->
+		<Row Name="ICON_ATLAS_STR_THE_SAOSHYANT"								IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_The_Saoshyant_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_THE_SAOSHYANT"								IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_The_Saoshyant_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_THE_SAOSHYANT"								IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_The_Saoshyant_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_THE_SAOSHYANT"								IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_The_Saoshyant_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_THE_SAOSHYANT"								IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_The_Saoshyant_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_THE_SAOSHYANT_FOW"							IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_The_Saoshyant_FOW_32.dds"/>
+		<!-- NEW THRALL WORKER -->
+		<Row Name="ICON_ATLAS_STR_THRALL_WORKER"								IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Thrall_Worker_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_THRALL_WORKER"								IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Thrall_Worker_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_THRALL_WORKER"								IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Thrall_Worker_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_THRALL_WORKER"								IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Thrall_Worker_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_THRALL_WORKER"								IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Thrall_Worker_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_THRALL_WORKER_FOW"							IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Thrall_Worker_FOW_32.dds"/>
+		<!-- NEW PRISONER OF WAR WORKER -->
+		<Row Name="ICON_ATLAS_STR_PRISONER_OF_WAR"								IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Prisoner_Of_War_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_PRISONER_OF_WAR"								IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Prisoner_Of_War_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_PRISONER_OF_WAR"								IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Prisoner_Of_War_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_PRISONER_OF_WAR"								IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Prisoner_Of_War_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_PRISONER_OF_WAR"								IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Prisoner_Of_War_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_PRISONER_OF_WAR_FOW"							IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Prisoner_Of_War_FOW_32.dds"/>
+		<!-- HORSE RIDER -->
+		<Row Name="ICON_ATLAS_STR_HEAVY_RIDER"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Heavy_Rider_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_HEAVY_RIDER"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Heavy_Rider_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_HEAVY_RIDER"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Heavy_Rider_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_HEAVY_RIDER"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Heavy_Rider_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_HEAVY_RIDER"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Heavy_Rider_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_HEAVY_RIDER_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Heavy_Rider_FOW_32.dds"/>
+		<!-- HORSE ARCHER -->
+		<Row Name="ICON_ATLAS_STR_HORSE_ARCHER"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Archer_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_HORSE_ARCHER"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Archer_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_HORSE_ARCHER"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Archer_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_HORSE_ARCHER"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Archer_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_HORSE_ARCHER"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Archer_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_HORSE_ARCHER_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Archer_FOW_32.dds"/>
+		<!-- HORSE RANGER -->
+		<Row Name="ICON_ATLAS_STR_HORSE_RANGER"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Ranger_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_HORSE_RANGER"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Ranger_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_HORSE_RANGER"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Ranger_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_HORSE_RANGER"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Ranger_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_HORSE_RANGER"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Ranger_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_HORSE_RANGER_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Horse_Ranger_FOW_32.dds"/>
+		<!-- MILITARY POLICE -->
+		<Row Name="ICON_ATLAS_STR_MILITARY_POLICE"								IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Military_Police_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_MILITARY_POLICE"								IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Military_Police_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_MILITARY_POLICE"								IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Military_Police_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_MILITARY_POLICE"								IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Military_Police_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_MILITARY_POLICE"								IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Military_Police_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_MILITARY_POLICE_FOW"							IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Military_Police_FOW_32.dds"/>
+		<!-- NEW TRIREME -->
+		<Row Name="ICON_ATLAS_STR_TRIREME"										IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Trireme_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_TRIREME"										IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Trireme_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_TRIREME"										IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Trireme_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_TRIREME"										IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Trireme_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_TRIREME"										IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Trireme_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_TRIREME_FOW"									IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Trireme_FOW_32.dds"/>
+		<!-- NEW CARRACK -->
+		<Row Name="ICON_ATLAS_STR_CARRACK"										IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Carrack_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_CARRACK"										IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Carrack_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_CARRACK"										IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Carrack_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_CARRACK"										IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Carrack_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_CARRACK"										IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Carrack_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_CARRACK_FOW"									IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Carrack_FOW_32.dds"/>
+		<!-- NEW SURFACE SHIP -->
+		<Row Name="ICON_ATLAS_STR_SURFACE_SHIP"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Surface_Ship_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_SURFACE_SHIP"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Surface_Ship_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_SURFACE_SHIP"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Surface_Ship_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_SURFACE_SHIP"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Surface_Ship_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_SURFACE_SHIP"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Surface_Ship_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_SURFACE_SHIP_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Surface_Ship_FOW_32.dds"/>
+		<!-- NEW BARRAGE SHIP -->
+		<Row Name="ICON_ATLAS_STR_BARRAGE_SHIP"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Barrage_Ship_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_BARRAGE_SHIP"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Barrage_Ship_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_BARRAGE_SHIP"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Barrage_Ship_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_BARRAGE_SHIP"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Barrage_Ship_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_BARRAGE_SHIP"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Barrage_Ship_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_BARRAGE_SHIP_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Barrage_Ship_FOW_32.dds"/>
+		<!-- NEW GALLEON -->
+		<Row Name="ICON_ATLAS_STR_GALLEON"										IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Galleon_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_GALLEON"										IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Galleon_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_GALLEON"										IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Galleon_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_GALLEON"										IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Galleon_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_GALLEON"										IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Galleon_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_GALLEON_FOW"									IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Galleon_FOW_32.dds"/>
+		<!-- NEW CORVETTE -->
+		<Row Name="ICON_ATLAS_STR_CORVETTE"										IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corvette_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_CORVETTE"										IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corvette_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_CORVETTE"										IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corvette_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_CORVETTE"										IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corvette_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_CORVETTE"										IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corvette_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_CORVETTE_FOW"									IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corvette_FOW_32.dds"/>
+		<!-- NEW ARTILLERY SHIP -->
+		<Row Name="ICON_ATLAS_STR_ARTILLERY_SHIP"								IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Artillery_Ship_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_ARTILLERY_SHIP"								IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Artillery_Ship_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_ARTILLERY_SHIP"								IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Artillery_Ship_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_ARTILLERY_SHIP"								IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Artillery_Ship_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_ARTILLERY_SHIP"								IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Artillery_Ship_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_ARTILLERY_SHIP_FOW"							IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Artillery_Ship_FOW_32.dds"/>
+		<!-- NEW WARSHIP -->
+		<Row Name="ICON_ATLAS_STR_WARSHIP"										IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Warship_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_WARSHIP"										IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Warship_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_WARSHIP"										IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Warship_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_WARSHIP"										IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Warship_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_WARSHIP"										IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Warship_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_WARSHIP_FOW"									IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Warship_FOW_32.dds"/>
+		<!-- NEW CAPITAL SHIP -->
+		<Row Name="ICON_ATLAS_STR_CAPITAL_SHIP"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Capital_Ship_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_CAPITAL_SHIP"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Capital_Ship_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_CAPITAL_SHIP"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Capital_Ship_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_CAPITAL_SHIP"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Capital_Ship_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_CAPITAL_SHIP"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Capital_Ship_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_CAPITAL_SHIP_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Capital_Ship_FOW_32.dds"/>
+		<!-- NEW RECON SHIP -->
+		<Row Name="ICON_ATLAS_STR_RECON_SHIP"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Recon_Ship_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_RECON_SHIP"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Recon_Ship_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_RECON_SHIP"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Recon_Ship_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_RECON_SHIP"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Recon_Ship_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_RECON_SHIP"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Recon_Ship_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_RECON_SHIP_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Recon_Ship_FOW_32.dds"/>
+		<!-- NEW CORSAIR -->
+		<Row Name="ICON_ATLAS_STR_CORSAIR"										IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corsair_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_CORSAIR"										IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corsair_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_CORSAIR"										IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corsair_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_CORSAIR"										IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corsair_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_CORSAIR"										IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corsair_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_CORSAIR_FOW"									IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Corsair_FOW_32.dds"/>
+		<!-- NEW ARMED PILGRIM -->
+		<Row Name="ICON_ATLAS_STR_ARMED_PILGRIM"								IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Armed_Pilgrim_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_ARMED_PILGRIM"								IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Armed_Pilgrim_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_ARMED_PILGRIM"								IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Armed_Pilgrim_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_ARMED_PILGRIM"								IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Armed_Pilgrim_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_ARMED_PILGRIM"								IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Armed_Pilgrim_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_ARMED_PILGRIM_FOW"							IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Armed_Pilgrim_FOW_32.dds"/>
+		<!-- NEW JUND RIDER -->
+		<Row Name="ICON_ATLAS_STR_JUND_RIDER"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jund_Rider_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_JUND_RIDER"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jund_Rider_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_JUND_RIDER"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jund_Rider_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_JUND_RIDER"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jund_Rider_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_JUND_RIDER"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jund_Rider_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_JUND_RIDER_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jund_Rider_FOW_32.dds"/>
+		<!-- NEW WOLF WARRIOR -->
+		<Row Name="ICON_ATLAS_STR_WOLF_WARRIOR"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Wolf_Warrior_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_WOLF_WARRIOR"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Wolf_Warrior_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_WOLF_WARRIOR"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Wolf_Warrior_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_WOLF_WARRIOR"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Wolf_Warrior_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_WOLF_WARRIOR"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Wolf_Warrior_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_WOLF_WARRIOR_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Wolf_Warrior_FOW_32.dds"/>
+		<!-- NEW EQUESTRIAN -->
+		<Row Name="ICON_ATLAS_STR_EQUESTRIAN"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Equestrian_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_EQUESTRIAN"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Equestrian_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_EQUESTRIAN"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Equestrian_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_EQUESTRIAN"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Equestrian_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_EQUESTRIAN"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Equestrian_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_EQUESTRIAN_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Equestrian_FOW_32.dds"/>
+		<!-- NEW JAGUAR WARRIOR -->
+		<Row Name="ICON_ATLAS_STR_JAGUAR_WARRIOR"								IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jaguar_Warrior_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_JAGUAR_WARRIOR"								IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jaguar_Warrior_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_JAGUAR_WARRIOR"								IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jaguar_Warrior_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_JAGUAR_WARRIOR"								IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jaguar_Warrior_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_JAGUAR_WARRIOR"								IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jaguar_Warrior_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_JAGUAR_WARRIOR_FOW"							IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Jaguar_Warrior_FOW_32.dds"/>
+		<!-- NEW CATAPHRACT -->
+		<Row Name="ICON_ATLAS_STR_CATAPHRACT"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Cataphract_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_CATAPHRACT"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Cataphract_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_CATAPHRACT"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Cataphract_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_CATAPHRACT"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Cataphract_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_CATAPHRACT"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Cataphract_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_CATAPHRACT_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Cataphract_FOW_32.dds"/>
+		<!-- NEW HEADHUNTER -->
+		<Row Name="ICON_ATLAS_STR_HEADHUNTER"									IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Headhunter_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_HEADHUNTER"									IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Headhunter_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_HEADHUNTER"									IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Headhunter_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_HEADHUNTER"									IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Headhunter_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_HEADHUNTER"									IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Headhunter_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_HEADHUNTER_FOW"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Headhunter_FOW_32.dds"/>
+		<!-- NEW PHAROAHS GUARD -->
+		<Row Name="ICON_ATLAS_STR_PHAROAHS_GUARD"								IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Pharoahs_Guard_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_PHAROAHS_GUARD"								IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Pharoahs_Guard_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_PHAROAHS_GUARD"								IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Pharoahs_Guard_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_PHAROAHS_GUARD"								IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Pharoahs_Guard_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_PHAROAHS_GUARD"								IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Pharoahs_Guard_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_PHAROAHS_GUARD_FOW"							IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Pharoahs_Guard_FOW_32.dds"/>
+		<!-- NEW ZEALOT -->
+		<Row Name="ICON_ATLAS_STR_ZEALOT"										IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Zealot_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_ZEALOT"										IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Zealot_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_ZEALOT"										IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Zealot_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_ZEALOT"										IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Zealot_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_ZEALOT"										IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Zealot_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_ZEALOT_FOW"									IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_Zealot_FOW_32.dds"/>
+		<!-- NEW WHITE ELEPHANT -->
+		<Row Name="ICON_ATLAS_STR_WHITE_ELEPHANT"								IconSize="22"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_White_Elephant_22.dds"/>
+		<Row Name="ICON_ATLAS_STR_WHITE_ELEPHANT"								IconSize="38"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_White_Elephant_38.dds"/>
+		<Row Name="ICON_ATLAS_STR_WHITE_ELEPHANT"								IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_White_Elephant_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_WHITE_ELEPHANT"								IconSize="80"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_White_Elephant_80.dds"/>
+		<Row Name="ICON_ATLAS_STR_WHITE_ELEPHANT"								IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_White_Elephant_256.dds"/>
+		<Row Name="ICON_ATLAS_STR_WHITE_ELEPHANT_FOW"							IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Unit_White_Elephant_FOW_32.dds"/>
+	</IconTextureAtlases>
+	
+<!-- MILITARY UNITS ICON DEFINITIONS -->
+	<IconDefinitions>
+		<!-- NEW THE SAOSHYANT -->
+		<Row Name="ICON_UNIT_STR_THE_SAOSHYANT_PORTRAIT"						Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="12"/>
+		<Row Name="ICON_UNIT_STR_THE_SAOSHYANT"									Atlas="ICON_ATLAS_STR_THE_SAOSHYANT"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_THE_SAOSHYANT_WHITE"							Atlas="ICON_ATLAS_STR_THE_SAOSHYANT"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_THE_SAOSHYANT_BLACK"							Atlas="ICON_ATLAS_STR_THE_SAOSHYANT"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_THE_SAOSHYANT_FOW"								Atlas="ICON_ATLAS_STR_THE_SAOSHYANT_FOW"							Index="0"/>
+		<!-- NEW THRALL WORKER -->
+		<Row Name="ICON_UNIT_STR_THRALL_WORKER_PORTRAIT"						Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="1"/>
+		<Row Name="ICON_UNIT_STR_THRALL_WORKER"									Atlas="ICON_ATLAS_STR_THRALL_WORKER"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_THRALL_WORKER_WHITE"							Atlas="ICON_ATLAS_STR_THRALL_WORKER"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_THRALL_WORKER_BLACK"							Atlas="ICON_ATLAS_STR_THRALL_WORKER"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_THRALL_WORKER_FOW"								Atlas="ICON_ATLAS_STR_THRALL_WORKER_FOW"							Index="0"/>
+		<!-- NEW PRISONER OF WAR -->
+		<Row Name="ICON_UNIT_STR_PRISONER_OF_WAR_PORTRAIT"						Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="49"/>
+		<Row Name="ICON_UNIT_STR_PRISONER_OF_WAR"								Atlas="ICON_ATLAS_STR_PRISONER_OF_WAR"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_PRISONER_OF_WAR_WHITE"							Atlas="ICON_ATLAS_STR_PRISONER_OF_WAR"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_PRISONER_OF_WAR_BLACK"							Atlas="ICON_ATLAS_STR_PRISONER_OF_WAR"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_PRISONER_OF_WAR_FOW"							Atlas="ICON_ATLAS_STR_PRISONER_OF_WAR_FOW"							Index="0"/>
+		<!-- NEW HEAVY RIDER -->
+		<Row Name="ICON_UNIT_STR_HEAVY_RIDER_PORTRAIT"							Atlas="ICON_ATLAS_BYZANTIUM_GAUL_UNIT_PORTRAITS"					Index="1"/>
+		<Row Name="ICON_UNIT_STR_HEAVY_RIDER"									Atlas="ICON_ATLAS_STR_HEAVY_RIDER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HEAVY_RIDER_WHITE"								Atlas="ICON_ATLAS_STR_HEAVY_RIDER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HEAVY_RIDER_BLACK"								Atlas="ICON_ATLAS_STR_HEAVY_RIDER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HEAVY_RIDER_FOW"								Atlas="ICON_ATLAS_STR_HEAVY_RIDER_FOW"								Index="0"/>
+		<!-- NEW HORSE ARCHER -->
+		<Row Name="ICON_UNIT_STR_HORSE_ARCHER_PORTRAIT"							Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="34"/>
+		<Row Name="ICON_UNIT_STR_HORSE_ARCHER"									Atlas="ICON_ATLAS_STR_HORSE_ARCHER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HORSE_ARCHER_WHITE"							Atlas="ICON_ATLAS_STR_HORSE_ARCHER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HORSE_ARCHER_BLACK"							Atlas="ICON_ATLAS_STR_HORSE_ARCHER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HORSE_ARCHER_FOW"								Atlas="ICON_ATLAS_STR_HORSE_ARCHER_FOW"								Index="0"/>
+		<!-- NEW HORSE RANGER -->
+		<Row Name="ICON_UNIT_STR_HORSE_RANGER_PORTRAIT"							Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="34"/>
+		<Row Name="ICON_UNIT_STR_HORSE_RANGER"									Atlas="ICON_ATLAS_STR_HORSE_RANGER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HORSE_RANGER_WHITE"							Atlas="ICON_ATLAS_STR_HORSE_RANGER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HORSE_RANGER_BLACK"							Atlas="ICON_ATLAS_STR_HORSE_RANGER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HORSE_RANGER_FOW"								Atlas="ICON_ATLAS_STR_HORSE_RANGER_FOW"								Index="0"/>
+		<!-- MILITARY POLICE -->
+		<Row Name="ICON_UNIT_STR_MILITARY_POLICE_PORTRAIT"						Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="59"/>
+		<Row Name="ICON_UNIT_STR_MILITARY_POLICE"								Atlas="ICON_ATLAS_STR_MILITARY_POLICE"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_MILITARY_POLICE_WHITE"							Atlas="ICON_ATLAS_STR_MILITARY_POLICE"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_MILITARY_POLICE_BLACK"							Atlas="ICON_ATLAS_STR_MILITARY_POLICE"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_MILITARY_POLICE_FOW"							Atlas="ICON_ATLAS_STR_MILITARY_POLICE_FOW"							Index="0"/>
+		<!-- NEW TRIREME -->
+		<Row Name="ICON_UNIT_STR_TRIREME_PORTRAIT"								Atlas="ICON_ATLAS_EXPANSION_2_UNIT_PORTRAITS"						Index="5"/>
+		<Row Name="ICON_UNIT_STR_TRIREME"										Atlas="ICON_ATLAS_STR_TRIREME"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_TRIREME_WHITE"									Atlas="ICON_ATLAS_STR_TRIREME"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_TRIREME_BLACK"									Atlas="ICON_ATLAS_STR_TRIREME"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_TRIREME_FOW"									Atlas="ICON_ATLAS_STR_TRIREME_FOW"									Index="0"/>
+		<!-- NEW CARRACK -->
+		<Row Name="ICON_UNIT_STR_CARRACK_PORTRAIT"								Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="53"/>
+		<Row Name="ICON_UNIT_STR_CARRACK"										Atlas="ICON_ATLAS_STR_CARRACK"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_CARRACK_WHITE"									Atlas="ICON_ATLAS_STR_CARRACK"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_CARRACK_BLACK"									Atlas="ICON_ATLAS_STR_CARRACK"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_CARRACK_FOW"									Atlas="ICON_ATLAS_STR_CARRACK_FOW"									Index="0"/>
+		<!-- NEW SURFACE SHIP -->
+		<Row Name="ICON_UNIT_STR_SURFACE_SHIP_PORTRAIT"							Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"									Index="19"/>
+		<Row Name="ICON_UNIT_STR_SURFACE_SHIP"									Atlas="ICON_ATLAS_STR_SURFACE_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_SURFACE_SHIP_WHITE"							Atlas="ICON_ATLAS_STR_SURFACE_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_SURFACE_SHIP_BLACK"							Atlas="ICON_ATLAS_STR_SURFACE_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_SURFACE_SHIP_FOW"								Atlas="ICON_ATLAS_STR_SURFACE_SHIP_FOW"								Index="0"/>
+		<!-- NEW BARRAGE SHIP -->
+		<Row Name="ICON_UNIT_STR_BARRAGE_SHIP_PORTRAIT"							Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="39"/>
+		<Row Name="ICON_UNIT_STR_BARRAGE_SHIP"									Atlas="ICON_ATLAS_STR_BARRAGE_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_BARRAGE_SHIP_WHITE"							Atlas="ICON_ATLAS_STR_BARRAGE_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_BARRAGE_SHIP_BLACK"							Atlas="ICON_ATLAS_STR_BARRAGE_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_BARRAGE_SHIP_FOW"								Atlas="ICON_ATLAS_STR_BARRAGE_SHIP_FOW"								Index="0"/>
+		<!-- NEW GALLEON -->
+		<Row Name="ICON_UNIT_STR_GALLEON_PORTRAIT"								Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="56"/>
+		<Row Name="ICON_UNIT_STR_GALLEON"										Atlas="ICON_ATLAS_STR_GALLEON"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_GALLEON_WHITE"									Atlas="ICON_ATLAS_STR_GALLEON"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_GALLEON_BLACK"									Atlas="ICON_ATLAS_STR_GALLEON"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_GALLEON_FOW"									Atlas="ICON_ATLAS_STR_GALLEON_FOW"									Index="0"/>
+		<!-- NEW CORVETTE -->
+		<Row Name="ICON_UNIT_STR_CORVETTE_PORTRAIT"								Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_CORVETTE"										Atlas="ICON_ATLAS_STR_CORVETTE"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_CORVETTE_WHITE"								Atlas="ICON_ATLAS_STR_CORVETTE"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_CORVETTE_BLACK"								Atlas="ICON_ATLAS_STR_CORVETTE"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_CORVETTE_FOW"									Atlas="ICON_ATLAS_STR_CORVETTE_FOW"									Index="0"/>
+		<!-- NEW ARTILLERY SHIP -->
+		<Row Name="ICON_UNIT_STR_ARTILLERY_SHIP_PORTRAIT"						Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="39"/>
+		<Row Name="ICON_UNIT_STR_ARTILLERY_SHIP"								Atlas="ICON_ATLAS_STR_ARTILLERY_SHIP"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_ARTILLERY_SHIP_WHITE"							Atlas="ICON_ATLAS_STR_ARTILLERY_SHIP"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_ARTILLERY_SHIP_BLACK"							Atlas="ICON_ATLAS_STR_ARTILLERY_SHIP"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_ARTILLERY_SHIP_FOW"							Atlas="ICON_ATLAS_STR_ARTILLERY_SHIP_FOW"							Index="0"/>
+		<!-- NEW WARSHIP -->
+		<Row Name="ICON_UNIT_STR_WARSHIP_PORTRAIT"								Atlas="ICON_ATLAS_EXPANSION_1_UNIT_PORTRAITS"						Index="3"/>
+		<Row Name="ICON_UNIT_STR_WARSHIP"										Atlas="ICON_ATLAS_STR_WARSHIP"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_WARSHIP_WHITE"									Atlas="ICON_ATLAS_STR_WARSHIP"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_WARSHIP_BLACK"									Atlas="ICON_ATLAS_STR_WARSHIP"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_WARSHIP_FOW"									Atlas="ICON_ATLAS_STR_WARSHIP_FOW"									Index="0"/>
+		<!-- NEW CAPITAL SHIP -->
+		<Row Name="ICON_UNIT_STR_CAPITAL_SHIP_PORTRAIT"							Atlas="ICON_ATLAS_UNIT_PORTRAITS_2"									Index="8"/>
+		<Row Name="ICON_UNIT_STR_CAPITAL_SHIP"									Atlas="ICON_ATLAS_STR_CAPITAL_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_CAPITAL_SHIP_WHITE"							Atlas="ICON_ATLAS_STR_CAPITAL_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_CAPITAL_SHIP_BLACK"							Atlas="ICON_ATLAS_STR_CAPITAL_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_CAPITAL_SHIP_FOW"								Atlas="ICON_ATLAS_STR_CAPITAL_SHIP_FOW"								Index="0"/>
+		<!-- NEW RECON SHIP -->
+		<Row Name="ICON_UNIT_STR_RECON_SHIP_PORTRAIT"							Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="25"/>
+		<Row Name="ICON_UNIT_STR_RECON_SHIP"									Atlas="ICON_ATLAS_STR_RECON_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_RECON_SHIP_WHITE"								Atlas="ICON_ATLAS_STR_RECON_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_RECON_SHIP_BLACK"								Atlas="ICON_ATLAS_STR_RECON_SHIP"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_RECON_SHIP_FOW"								Atlas="ICON_ATLAS_STR_RECON_SHIP_FOW"								Index="0"/>
+		<!-- NEW CORSAIR -->
+		<Row Name="ICON_UNIT_STR_CORSAIR_PORTRAIT"								Atlas="ICON_ATLAS_EXPANSION_2_UNIT_PORTRAITS"						Index="3"/>
+		<Row Name="ICON_UNIT_STR_CORSAIR"										Atlas="ICON_ATLAS_STR_CORSAIR"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_CORSAIR_WHITE"									Atlas="ICON_ATLAS_STR_CORSAIR"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_CORSAIR_BLACK"									Atlas="ICON_ATLAS_STR_CORSAIR"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_CORSAIR_FOW"									Atlas="ICON_ATLAS_STR_CORSAIR_FOW"									Index="0"/>
+		<!-- NEW ARMED PILGRIM -->
+		<Row Name="ICON_UNIT_STR_ARMED_PILGRIM_PORTRAIT"						Atlas="ICON_ATLAS_EXPANSION_2_UNIT_PORTRAITS"						Index="20"/>
+		<Row Name="ICON_UNIT_STR_ARMED_PILGRIM"									Atlas="ICON_ATLAS_STR_ARMED_PILGRIM"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_ARMED_PILGRIM_WHITE"							Atlas="ICON_ATLAS_STR_ARMED_PILGRIM"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_ARMED_PILGRIM_BLACK"							Atlas="ICON_ATLAS_STR_ARMED_PILGRIM"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_ARMED_PILGRIM_FOW"								Atlas="ICON_ATLAS_STR_ARMED_PILGRIM_FOW"							Index="0"/>
+		<!-- NEW JUND RIDER -->
+		<Row Name="ICON_UNIT_STR_JUND_RIDER_PORTRAIT"							Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="46"/>
+		<Row Name="ICON_UNIT_STR_JUND_RIDER"									Atlas="ICON_ATLAS_STR_JUND_RIDER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_JUND_RIDER_WHITE"								Atlas="ICON_ATLAS_STR_JUND_RIDER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_JUND_RIDER_BLACK"								Atlas="ICON_ATLAS_STR_JUND_RIDER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_JUND_RIDER_FOW"								Atlas="ICON_ATLAS_STR_JUND_RIDER_FOW"								Index="0"/>
+		<!-- NEW WOLF WARRIOR -->
+		<Row Name="ICON_UNIT_STR_WOLF_WARRIOR_PORTRAIT"							Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="42"/>
+		<Row Name="ICON_UNIT_STR_WOLF_WARRIOR"									Atlas="ICON_ATLAS_STR_WOLF_WARRIOR"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_WOLF_WARRIOR_WHITE"							Atlas="ICON_ATLAS_STR_WOLF_WARRIOR"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_WOLF_WARRIOR_BLACK"							Atlas="ICON_ATLAS_STR_WOLF_WARRIOR"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_WOLF_WARRIOR_FOW"								Atlas="ICON_ATLAS_STR_WOLF_WARRIOR_FOW"								Index="0"/>
+		<!-- NEW EQUESTRIAN -->
+		<Row Name="ICON_UNIT_STR_EQUESTRIAN_PORTRAIT"							Atlas="ICON_ATLAS_MACEDON_PERSIA_UNIT_PORTRAITS"					Index="0"/>
+		<Row Name="ICON_UNIT_STR_EQUESTRIAN"									Atlas="ICON_ATLAS_STR_EQUESTRIAN"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_EQUESTRIAN_WHITE"								Atlas="ICON_ATLAS_STR_EQUESTRIAN"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_EQUESTRIAN_BLACK"								Atlas="ICON_ATLAS_STR_EQUESTRIAN"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_EQUESTRIAN_FOW"								Atlas="ICON_ATLAS_STR_EQUESTRIAN_FOW"								Index="0"/>
+		<!-- NEW JAGUAR WARRIOR -->
+		<Row Name="ICON_UNIT_STR_JAGUAR_WARRIOR_PORTRAIT"						Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="23"/>
+		<Row Name="ICON_UNIT_STR_JAGUAR_WARRIOR"								Atlas="ICON_ATLAS_STR_JAGUAR_WARRIOR"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_JAGUAR_WARRIOR_WHITE"							Atlas="ICON_ATLAS_STR_JAGUAR_WARRIOR"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_JAGUAR_WARRIOR_BLACK"							Atlas="ICON_ATLAS_STR_JAGUAR_WARRIOR"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_JAGUAR_WARRIOR_FOW"							Atlas="ICON_ATLAS_STR_JAGUAR_WARRIOR_FOW"							Index="0"/>
+		<!-- NEW CATAPHRACT -->
+		<Row Name="ICON_UNIT_STR_CATAPHRACT_PORTRAIT"							Atlas="ICON_ATLAS_BYZANTIUM_GAUL_UNIT_PORTRAITS"					Index="1"/>
+		<Row Name="ICON_UNIT_STR_CATAPHRACT"									Atlas="ICON_ATLAS_STR_CATAPHRACT"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_CATAPHRACT_WHITE"								Atlas="ICON_ATLAS_STR_CATAPHRACT"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_CATAPHRACT_BLACK"								Atlas="ICON_ATLAS_STR_CATAPHRACT"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_CATAPHRACT_FOW"								Atlas="ICON_ATLAS_STR_CATAPHRACT_FOW"								Index="0"/>
+		<!-- NEW HEADHUNTER -->
+		<Row Name="ICON_UNIT_STR_HEADHUNTER_PORTRAIT"							Atlas="ICON_ATLAS_BYZANTIUM_GAUL_UNIT_PORTRAITS"					Index="2"/>
+		<Row Name="ICON_UNIT_STR_HEADHUNTER"									Atlas="ICON_ATLAS_STR_HEADHUNTER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HEADHUNTER_WHITE"								Atlas="ICON_ATLAS_STR_HEADHUNTER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HEADHUNTER_BLACK"								Atlas="ICON_ATLAS_STR_HEADHUNTER"									Index="0"/>
+		<Row Name="ICON_UNIT_STR_HEADHUNTER_FOW"								Atlas="ICON_ATLAS_STR_HEADHUNTER_FOW"								Index="0"/>
+		<!-- NEW PHAROAH'S GUARD -->
+		<Row Name="ICON_UNIT_STR_PHAROAHS_GUARD_PORTRAIT"						Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="40"/>
+		<Row Name="ICON_UNIT_STR_PHAROAHS_GUARD"								Atlas="ICON_ATLAS_STR_PHAROAHS_GUARD"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_PHAROAHS_GUARD_WHITE"							Atlas="ICON_ATLAS_STR_PHAROAHS_GUARD"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_PHAROAHS_GUARD_BLACK"							Atlas="ICON_ATLAS_STR_PHAROAHS_GUARD"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_PHAROAHS_GUARD_FOW"							Atlas="ICON_ATLAS_STR_PHAROAHS_GUARD_FOW"							Index="0"/>
+		<!-- NEW ZEALOT -->
+		<Row Name="ICON_UNIT_STR_ZEALOT_PORTRAIT"								Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="19"/>
+		<Row Name="ICON_UNIT_STR_ZEALOT"										Atlas="ICON_ATLAS_STR_ZEALOT"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_ZEALOT_WHITE"									Atlas="ICON_ATLAS_STR_ZEALOT"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_ZEALOT_BLACK"									Atlas="ICON_ATLAS_STR_ZEALOT"										Index="0"/>
+		<Row Name="ICON_UNIT_STR_ZEALOT_FOW"									Atlas="ICON_ATLAS_STR_ZEALOT_FOW"									Index="0"/>
+		<!-- NEW WHITE ELEPHANT -->
+		<Row Name="ICON_UNIT_STR_WHITE_ELEPHANT_PORTRAIT"						Atlas="ICON_ATLAS_UNIT_PORTRAITS"									Index="45"/>
+		<Row Name="ICON_UNIT_STR_WHITE_ELEPHANT"								Atlas="ICON_ATLAS_STR_WHITE_ELEPHANT"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_WHITE_ELEPHANT_WHITE"							Atlas="ICON_ATLAS_STR_WHITE_ELEPHANT"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_WHITE_ELEPHANT_BLACK"							Atlas="ICON_ATLAS_STR_WHITE_ELEPHANT"								Index="0"/>
+		<Row Name="ICON_UNIT_STR_WHITE_ELEPHANT_FOW"							Atlas="ICON_ATLAS_STR_WHITE_ELEPHANT_FOW"							Index="0"/>
+	</IconDefinitions>
+	
+</GameData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<District_Adjacencies>
+		<Update><Where YieldChangeId="Mountains_Science1"/><Set><YieldChangeId>EPSMOD_Wood_Science</YieldChangeId></Set></Update>
+		<Update><Where YieldChangeId="Mountains_Science2"/><Set><YieldChangeId>EPSMOD_Hood_Science</YieldChangeId></Set></Update>
+	</District_Adjacencies>
+
+	<Adjacency_YieldChanges>
+		<Delete ID="Mountains_Science1"/>
+		<Delete ID="Mountains_Science2"/>
+		<Delete ID="Mountains_Science3"/>
+		<Delete ID="Mountains_Science4"/>
+		<Delete ID="Mountains_Science5"/>
+		<Update><Where ID="Geothermal_Science"/><Set><YieldChange>1</YieldChange></Set></Update>
+		<Update><Where ID="Reef_Science"/><Set><YieldChange>1</YieldChange></Set></Update>
+
+		<Row ID="EPSMOD_Wood_Science" Description="LOC_DISTRICT_EPSMOD_WOOD_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentFeature="FEATURE_FOREST"/>
+		<Row ID="EPSMOD_Hood_Science" Description="LOC_DISTRICT_EPSMOD_HOOD_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="2" AdjacentDistrict="DISTRICT_NEIGHBORHOOD"/>
+	</Adjacency_YieldChanges>
+</GameData>

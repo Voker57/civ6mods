@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Buildings_New_01 -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/30/2021 6:58:07 PM -->
+<GameData>
+
+<!-- NEW THE ETERNAL FLAME -->
+	
+<!--<Types>
+		<Row	Type="BUILDING_STR_THE_ETERNAL_FLAME"							Kind="KIND_BUILDING"/>
+	</Types>
+
+	<Buildings>
+		<Row	BuildingType="BUILDING_STR_THE_ETERNAL_FLAME"
+				Name="LOC_BUILDING_STR_THE_ETERNAL_FLAME_NAME"
+				Description="LOC_BUILDING_STR_THE_ETERNAL_FLAME_DESCRIPTION"
+				PrereqCivic="CIVIC_GLOBALIZATION"
+				PrereqDistrict="DISTRICT_CITY_CENTER"
+				PurchaseYield="YIELD_FAITH"
+				Cost="5000"
+				MaxWorldInstances="1"
+				EnabledByReligion="true"/>
+	</Buildings>
+
+	<BuildingPrereqs>
+		<Row	Building="BUILDING_STR_THE_ETERNAL_FLAME"						PrereqBuilding="BUILDING_PALACE"/>
+	</BuildingPrereqs>-->
+	
+<!-- NEW ANGEVIN PORT -->
+	
+	<Types>
+		<Row	Type="BUILDING_STR_ELEANOR_ANGEVIN_PORT"	Kind="KIND_BUILDING"/>
+	</Types>
+	
+	<BuildingReplaces>
+		<Row	CivUniqueBuildingType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				ReplacesBuildingType="BUILDING_SHIPYARD"/>
+	</BuildingReplaces>
+
+	<Buildings>
+		<Row	BuildingType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				Name="LOC_BUILDING_STR_ELEANOR_ANGEVIN_PORT_NAME"
+				Description="LOC_BUILDING_STR_ELEANOR_ANGEVIN_PORT_DESCRIPTION"
+				PrereqTech="TECH_MASS_PRODUCTION"
+				PrereqDistrict="DISTRICT_HARBOR"
+				PurchaseYield="YIELD_GOLD"
+				Cost="250"
+				AdvisorType="ADVISOR_GENERIC"
+				Maintenance="0"
+				CitizenSlots="1"
+				TraitType="TRAIT_LEADER_STR_ELEANOR_ANGEVIN_PORT"/>
+	</Buildings>
+
+	<BuildingPrereqs>
+		<Row	Building="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				PrereqBuilding="BUILDING_LIGHTHOUSE"/>
+	</BuildingPrereqs>
+
+	<Building_GreatPersonPoints>
+		<Row	BuildingType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				GreatPersonClassType="GREAT_PERSON_CLASS_ADMIRAL"
+				PointsPerTurn="1"/>
+		<Row	BuildingType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"
+				PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<Building_YieldChanges>
+		<Row	BuildingType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				YieldType="YIELD_CULTURE"
+				YieldChange="3"/>
+	</Building_YieldChanges>
+
+	<Building_YieldDistrictCopies>
+		<Row	BuildingType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				OldYieldType="YIELD_GOLD"
+				NewYieldType="YIELD_PRODUCTION"/>
+	</Building_YieldDistrictCopies>
+
+	<Building_GreatWorks>
+		<Row	BuildingType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				GreatWorkSlotType="GREATWORKSLOT_ART"
+				NumSlots="3"
+				ThemingUniquePerson="true"
+				ThemingSameObjectType="true"
+				ThemingYieldMultiplier="100"
+				ThemingTourismMultiplier="100"
+				NonUniquePersonYield="1"
+				NonUniquePersonTourism="1"
+				ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART"/>
+	</Building_GreatWorks>
+
+	<Building_TourismBombs_XP2>
+		<Row	BuildingType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				TourismBombValue="500"/>
+	</Building_TourismBombs_XP2>
+
+	<BuildingModifiers>
+		<Row	BuildingType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				ModifierId="SHIPYARD_UNIMPROVED_COAST_PRODUCTION"/>
+		<Row	BuildingType="BUILDING_STR_ELEANOR_ANGEVIN_PORT"
+				ModifierId="SHIPYARD_TRAINED_UNIT_XP_MODIFIER"/>
+	</BuildingModifiers>
+	
+<!-- NEW THEODOSIAN WALLS -->
+
+	<Types>
+		<Row	Type="BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS"	Kind="KIND_BUILDING"/>
+	</Types>
+
+	<Buildings>
+		<Row	BuildingType="BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS"
+				Name="LOC_BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS_NAME"
+				Description="LOC_BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS_DESCRIPTION"
+				PrereqDistrict="DISTRICT_CITY_CENTER"
+				PrereqCivic="CIVIC_POLITICAL_PHILOSOPHY"
+				Cost="100"
+				AdvisorType="ADVISOR_GENERIC"
+				MaxWorldInstances="1"
+				OuterDefenseHitPoints="50"
+				OuterDefenseStrength="7"
+				Maintenance="0"
+				TraitType="TRAIT_CIVILIZATION_STR_BYZANTIUM_THEODOSIAN_WALLS"/>
+	</Buildings>
+
+	<BuildingPrereqs>
+		<Row	Building="BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS"
+				PrereqBuilding="BUILDING_PALACE"/>
+	</BuildingPrereqs>
+
+	<Building_YieldChanges>
+		<Row	BuildingType="BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="3"/>
+		<Row	BuildingType="BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS"
+				YieldType="YIELD_CULTURE"
+				YieldChange="3"/>
+	<!--<Row	BuildingType="BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="3"/>-->
+		<Row	BuildingType="BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS"
+				YieldType="YIELD_GOLD"
+				YieldChange="3"/>
+		<Row	BuildingType="BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS"
+				YieldType="YIELD_FAITH"
+				YieldChange="3"/>
+	</Building_YieldChanges>
+
+	<Building_GreatPersonPoints>
+		<Row	BuildingType="BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS"
+				GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"
+				PointsPerTurn="4"/>
+	</Building_GreatPersonPoints>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>STR_BYZANTIUM_THEODOSIAN_WALLS_TOURISM_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>STR_BYZANTIUM_THEODOSIAN_WALLS_TOURISM_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS</BuildingType>
+			<ModifierId>STR_BYZANTIUM_THEODOSIAN_WALLS_TOURISM_1</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
+</GameData>

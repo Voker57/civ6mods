@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- Ancient Era -->
+		<Row Tag="LOC_POLICY_DISCIPLINE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Strength] BARBARIANS[NEWLINE][NEWLINE] +5 against Barbs</Text></Row>
+		<Row Tag="LOC_POLICY_GOD_KING_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_Faith] FAITH[NEWLINE]+1 [ICON_Gold] GOLD[NEWLINE][NEWLINE]Per turn</Text></Row>
+		<Row Tag="LOC_POLICY_SURVEY_DESCRIPTION_EPSMOD" Language="en_US"><Text>RECON XP[NEWLINE][NEWLINE]+100%</Text></Row>
+		<Row Tag="LOC_POLICY_URBAN_PLANNING_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] PRODUCTION[NEWLINE][NEWLINE]+1 in all cities</Text></Row>
+		<Row Tag="LOC_POLICY_ILKUM_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] BUILDERS[NEWLINE][NEWLINE]+30% production</Text></Row>
+		<Row Tag="LOC_POLICY_AGOGE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] MELEE[NEWLINE][ICON_Production] RANGED[NEWLINE][ICON_Production] ANTI-CAVALRY[NEWLINE][NEWLINE]+50% from[NEWLINE]Classical and older</Text></Row>
+		<Row Tag="LOC_POLICY_STRATEGOS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_GreatGeneral] GENERALS[NEWLINE][NEWLINE]+2 GPP per turn</Text></Row>
+		<Row Tag="LOC_POLICY_CARAVANSARIES_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_TradeRoute] TRADE ROUTES[NEWLINE][NEWLINE]+2 [ICON_Gold] gold</Text></Row>
+		<Row Tag="LOC_POLICY_MARITIME_INDUSTRIES_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] SHIPS[NEWLINE][NEWLINE]+100% from[NEWLINE]Classical and older</Text></Row>
+		<Row Tag="LOC_POLICY_MANEUVER_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] CAVALRY[NEWLINE][NEWLINE]+50% from[NEWLINE]Classical and older</Text></Row>
+		<Row Tag="LOC_POLICY_CORVEE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] WONDERS[NEWLINE][NEWLINE]15% from[NEWLINE]Classical and older</Text></Row>
+		<Row Tag="LOC_POLICY_LAND_SURVEYORS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Gold] TILES[NEWLINE][NEWLINE]-20% purchase cost</Text></Row>
+		<Row Tag="LOC_POLICY_CONSCRIPTION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Gold] UPKEEP[NEWLINE][NEWLINE]-1 per unit</Text></Row>
+		<Row Tag="LOC_POLICY_COLONIZATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] SETTLERS[NEWLINE][NEWLINE]+50% production</Text></Row>
+		<Row Tag="LOC_POLICY_INSPIRATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_GreatScientist] SCIENTISTS[NEWLINE][NEWLINE]+2 GPP per turn</Text></Row>
+		<Row Tag="LOC_POLICY_REVELATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_GreatProphet] PROPHET[NEWLINE][NEWLINE]+2 GPP per turn</Text></Row>
+		<Row Tag="LOC_POLICY_LIMITANEI_DESCRIPTION_EPSMOD" Language="en_US"><Text>LOYALTY[NEWLINE][NEWLINE]+2 if military unit in City Center</Text></Row>
+
+		<!-- Classical Era -->
+		<Row Tag="LOC_POLICY_INSULAE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Housing] HOUSING[NEWLINE][NEWLINE]+2 if two districts</Text></Row>
+		<Row Tag="LOC_POLICY_CHARISMATIC_LEADER_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Envoy] INFLUENCE[NEWLINE][NEWLINE]+2 per turn</Text></Row>
+		<Row Tag="LOC_POLICY_DIPLOMATIC_LEAGUE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Envoy] ENVOY[NEWLINE][NEWLINE]First Envoy to a city is doubled</Text></Row>
+		<Row Tag="LOC_POLICY_LITERARY_TRADITION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_GreatWriter] WRITERS[NEWLINE][NEWLINE]+2 GPP per turn</Text></Row>
+		<Row Tag="LOC_POLICY_RAID_DESCRIPTION_EPSMOD" Language="en_US"><Text>PILLAGE YIELDS[NEWLINE][NEWLINE]+50% yields</Text></Row>
+		<Row Tag="LOC_POLICY_VETERANCY_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] ENCAMPMENT[NEWLINE][ICON_Production] HARBOR[NEWLINE][NEWLINE]+30% to districts[NEWLINE]+30% to buildings</Text></Row>
+		<Row Tag="LOC_POLICY_EQUESTRIAN_ORDERS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_RESOURCE_IRON] IRON[NEWLINE][ICON_RESOURCE_HORSES] HORSES[NEWLINE][NEWLINE]+1 from each tile</Text></Row>
+		<Row Tag="LOC_POLICY_LIMES_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] WALLS[NEWLINE][NEWLINE]+100% production</Text></Row>
+		<Row Tag="LOC_POLICY_PRAETORIUM_DESCRIPTION_EPSMOD" Language="en_US"><Text>LOYALTY[NEWLINE][NEWLINE]+2 if [ICON_Governor] Governor[NEWLINE]in city</Text></Row>
+		
+		<!-- Medieval Era -->
+		<Row Tag="LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] MELEE[NEWLINE][ICON_Production] RANGED[NEWLINE][ICON_Production] ANTI-CAVALRY[NEWLINE][NEWLINE]+50% from[NEWLINE]Renaissance and older</Text></Row>
+		<Row Tag="LOC_POLICY_SERFDOM_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] BUILDERS[NEWLINE][NEWLINE]+2 charges</Text></Row>
+		<Row Tag="LOC_POLICY_RETAINERS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Amenities] AMENITIES[NEWLINE][NEWLINE]+1 if military unit in City Center</Text></Row>
+		<Row Tag="LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Gold] UPGRADES[NEWLINE][NEWLINE]-50% gold</Text></Row>
+		<Row Tag="LOC_POLICY_RETINUES_DESCRIPTION_EPSMOD" Language="en_US"><Text>UPGRADES[NEWLINE][NEWLINE]-50% resources</Text></Row>
+		<Row Tag="LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_TradeRoute] TRADE ROUTES[NEWLINE][NEWLINE]If international,[NEWLINE]+1 [ICON_Science] Science[NEWLINE]+1 [ICON_Culture] Culture</Text></Row>
+		<Row Tag="LOC_POLICY_MERCHANT_CONFEDERATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Gold] ENVOYS[NEWLINE][NEWLINE]+1 gold per turn from each</Text></Row>
+		<Row Tag="LOC_POLICY_MEDINA_QUARTER_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Housing] HOUSING[NEWLINE][NEWLINE]+3 if three districts</Text></Row>
+		<Row Tag="LOC_POLICY_CHIVALRY_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] CAVALRY[NEWLINE][NEWLINE]+50% from[NEWLINE]Industrial and older</Text></Row>
+		<Row Tag="LOC_POLICY_GOTHIC_ARCHITECTURE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] WONDERS[NEWLINE][NEWLINE]+15% from[NEWLINE]Renaissance and older</Text></Row>
+		<Row Tag="LOC_POLICY_CIVIL_PRESTIGE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Governor] GOVERNORS[NEWLINE][NEWLINE]If 2 promotions,[NEWLINE]+1 [ICON_Amenities] Amenity[NEWLINE]+2 [ICON_Housing] Housing</Text></Row>
+
+		<!-- Renaissance Era -->
+		<Row Tag="LOC_POLICY_PRESS_GANGS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] SHIPS[NEWLINE][NEWLINE]+100% from[NEWLINE]Industrial and older</Text></Row>
+		<Row Tag="LOC_POLICY_COLONIAL_OFFICES_DESCRIPTION_EPSMOD" Language="en_US"><Text>COLONIES[NEWLINE][NEWLINE]If other continent,[NEWLINE]+15% Growth[NEWLINE]+5 Loyalty</Text></Row>
+		<Row Tag="LOC_POLICY_INVENTION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_GreatEngineer] ENGINEERS[NEWLINE][NEWLINE]+4 GPP, and[NEWLINE]+2 per Workshop</Text></Row>
+		<Row Tag="LOC_POLICY_FRESCOES_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_GreatArtist] ARTISTS[NEWLINE][NEWLINE]+2 GPP, and[NEWLINE]+2 per Art Museum</Text></Row>
+		<Row Tag="LOC_POLICY_MACHIAVELLIANISM_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] SPIES[NEWLINE][NEWLINE]+50% production[NEWLINE]-25% ops time</Text></Row>
+		<Row Tag="LOC_POLICY_WARS_OF_RELIGION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Strength] NON-BELIEVERS[NEWLINE][NEWLINE]+4 against other religions</Text></Row>
+		<Row Tag="LOC_POLICY_RELIGIOUS_ORDERS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Religion] WIZARD WARS[NEWLINE][NEWLINE]+5 religious strength</Text></Row>
+		<Row Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Faith] BUILDINGS[NEWLINE][NEWLINE]+50% faith at[NEWLINE]15 Population[NEWLINE]+50% more at[NEWLINE]+4 Holy Site</Text></Row>
+		<Row Tag="LOC_POLICY_LOGISTICS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Movement] MOVEMENT[NEWLINE][NEWLINE]+1 in your lands</Text></Row>
+		<Row Tag="LOC_POLICY_TRIANGULAR_TRADE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_TradeRoute] TRADE ROUTES[NEWLINE][NEWLINE]+4 [ICON_Gold] Gold[NEWLINE]+1 [ICON_Faith] Faith</Text></Row>
+		<Row Tag="LOC_POLICY_DRILL_MANUALS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_RESOURCE_NITER] NITER[NEWLINE][ICON_RESOURCE_COAL] COAL[NEWLINE][NEWLINE]+1 from each tile</Text></Row>
+		<Row Tag="LOC_POLICY_RATIONALISM_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Science] BUILDINGS[NEWLINE][NEWLINE]+50% science at[NEWLINE]15 Population[NEWLINE]+50% more at[NEWLINE]+4 Campus</Text></Row>
+		<Row Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Gold] BUILDINGS[NEWLINE][NEWLINE]+50% gold at[NEWLINE]15 Population[NEWLINE]+50% more at[NEWLINE]+4 Commercial Hub</Text></Row>
+		<Row Tag="LOC_POLICY_LIBERALISM_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Amenities] AMENITIES[NEWLINE][NEWLINE]+1 if two districts</Text></Row>
+		<Row Tag="LOC_POLICY_WISSELBANKEN_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_TradeRoute] TRADE ROUTES[NEWLINE][NEWLINE]+2 [ICON_Food][ICON_Production] to and from allied City or Suzerain City[NEWLINE]+.25 Alliance XP</Text></Row>
+
+		<!-- Industrial Era -->
+		<Row Tag="LOC_POLICY_GRANDE_ARMEE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] MELEE[NEWLINE][ICON_Production] RANGED[NEWLINE][ICON_Production] ANTI-CAVALRY[NEWLINE][NEWLINE]+50% from[NEWLINE]Modern and older</Text></Row>
+		<Row Tag="LOC_POLICY_NATIONAL_IDENTITY_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Strength] COMBAT[NEWLINE][NEWLINE]Units lose 70% less strength from injuries</Text></Row>
+		<Row Tag="LOC_POLICY_COLONIAL_TAXES_DESCRIPTION_EPSMOD" Language="en_US"><Text>COLONIES[NEWLINE][NEWLINE]If other continent,[NEWLINE]+25% [ICON_Gold][NEWLINE]+10% [ICON_Production]</Text></Row>
+		<Row Tag="LOC_POLICY_RAJ_DESCRIPTION_EPSMOD" Language="en_US"><Text>CITY STATES[NEWLINE][NEWLINE]For each Suzerain:[NEWLINE]+2 [ICON_Science][ICON_Culture][ICON_Faith][ICON_Gold]</Text></Row>
+		<Row Tag="LOC_POLICY_PUBLIC_WORKS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] BUILDERS[NEWLINE][NEWLINE]+30% production[NEWLINE]+2 charges</Text></Row>
+		<Row Tag="LOC_POLICY_SKYSCRAPERS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] WONDERS[NEWLINE][NEWLINE]+15% production</Text></Row>
+		<Row Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Culture] BUILDINGS[NEWLINE][NEWLINE]+50% culture at[NEWLINE]15 Population[NEWLINE]+50% more at[NEWLINE]+4 Theater Square</Text></Row>
+		<Row Tag="LOC_POLICY_SYMPHONIES_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_GreatMusician] MUSICIANS[NEWLINE][NEWLINE]+4 GPP, and[NEWLINE]+4 per Broadcast C.</Text></Row>
+		<Row Tag="LOC_POLICY_MILITARY_RESEARCH_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Science] SCIENCE[NEWLINE][NEWLINE]+2 from M. Academy[NEWLINE]+2 from Seaport[NEWLINE]+2 from Ren. Walls</Text></Row>
+		<Row Tag="LOC_POLICY_FORCE_MODERNIZATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Gold] UPGRADES[NEWLINE][NEWLINE]-50% gold[NEWLINE]-50% resources</Text></Row>
+		<Row Tag="LOC_POLICY_MILITARY_ORGANIZATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_GreatGeneral] GENERALS[NEWLINE][NEWLINE]+2 GPP per Armory[NEWLINE]+4 GPP per Academy[NEWLINE]+2 [ICON_Movement] Movement</Text></Row>
+		<Row Tag="LOC_POLICY_EXPROPRIATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] SETTLERS[NEWLINE][NEWLINE]+50% production[NEWLINE]-20% tile cost</Text></Row>
+		<Row Tag="LOC_POLICY_TOTAL_WAR_DESCRIPTION_EPSMOD" Language="en_US"><Text>PILLAGE YIELDS[NEWLINE][NEWLINE]+100% structures[NEWLINE]+50% trade routes</Text></Row>
+		<Row Tag="LOC_POLICY_PUBLIC_TRANSPORT_EPSMOD" Language="en_US"><Text>NEIGHBORHOODS[NEWLINE][NEWLINE]+1[ICON_Gold] gold,[NEWLINE]+3[ICON_Food]+1[ICON_Production] if Charming, +1[ICON_Food][ICON_Production] if Breathtaking</Text></Row>
+
+		<!-- Modern Era -->
+		<Row Tag="LOC_POLICY_RESOURCE_MANAGEMENT_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_RESOURCE_ALUMINUM] ALUMINUM[NEWLINE][ICON_RESOURCE_OIL] OIL[NEWLINE][NEWLINE]+1 from each tile</Text></Row>
+		<Row Tag="LOC_POLICY_PROPAGANDA_DESCRIPTION_EPSMOD" Language="en_US"><Text>WAR WEARINESS[NEWLINE][NEWLINE]-25% weariness</Text></Row>
+		<Row Tag="LOC_POLICY_LEVEE_EN_MASSE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Gold] UPKEEP[NEWLINE][NEWLINE]-2 per unit</Text></Row>
+		<Row Tag="LOC_POLICY_MARKET_ECONOMY_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_TradeRoute] TRADE ROUTES[NEWLINE][NEWLINE]If international,[NEWLINE]+1[ICON_Gold] per Lux. and Strat. Resource[NEWLINE]+2[ICON_Culture][ICON_Science]</Text></Row>
+		<Row Tag="LOC_POLICY_LAISSEZ_FAIRE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_GreatMerchant] MERCHANTS[NEWLINE][ICON_GreatAdmiral] ADMIRALS[NEWLINE][NEWLINE]+2 per Bank/Shipyrd[NEWLINE]+4 per Stocks/Seapo rt</Text></Row>
+		<Row Tag="LOC_POLICY_NOBEL_PRIZE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_GreatScientist] SCIENTISTS[NEWLINE][ICON_GreatEngineer] ENGINEERS[NEWLINE][NEWLINE]+2 per Uni/Factory[NEWLINE]+4 per Lab/P. Plant</Text></Row>
+		<Row Tag="LOC_POLICY_NUCLEAR_ESPIONAGE_DESCRIPTION_EPSMOD" Language="en_US"><Text>TECH STEALING[NEWLINE][NEWLINE]+1 lvl to 'Steal Tech' ,[NEWLINE]Steal two boosts if undetected</Text></Row>
+		<Row Tag="LOC_POLICY_POLICE_STATE_DESCRIPTION_EPSMOD" Language="en_US"><Text>SPIES[NEWLINE][NEWLINE]-2 lvls for enemies[NEWLINE]BUT -2 Loyalty</Text></Row>
+		<Row Tag="LOC_POLICY_FINEST_HOUR_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Strength] COMBAT[NEWLINE][NEWLINE]+5 in your lands</Text></Row>
+		<Row Tag="LOC_POLICY_NEW_DEAL_DESCRIPTION_EPSMOD" Language="en_US"><Text>AMENITIES[NEWLINE][NEWLINE]If three districts,[NEWLINE]+2 [ICON_Amenities] Amenities[NEWLINE]+4 [ICON_Housing] Housing</Text></Row>
+		<Row Tag="LOC_POLICY_LIGHTNING_WARFARE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] CAVALRY[NEWLINE][NEWLINE]+50% production</Text></Row>		
+		<Row Tag="LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_EPSMOD" Language="en_US"><Text>GOLD[NEWLINE][NEWLINE]+4[ICON_Gold] +2[ICON_Culture] from[NEWLINE]Research Lab[NEWLINE]M. Academy[NEWLINE]Power Plant</Text></Row>		
+		<Row Tag="LOC_POLICY_MARTIAL_LAW_DESCRIPTION_EPSMOD" Language="en_US"><Text>LOYALTY[NEWLINE][NEWLINE]+4 if unit in city[NEWLINE]-25% war weariness</Text></Row>
+		<Row Tag="LOC_POLICY_GUNBOAT_DIPLOMACY_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Envoy] INFLUENCE[NEWLINE][NEWLINE]+4 per turn and City-States open their borders</Text></Row>
+		<Row Tag="LOC_POLICY_COLLECTIVIZATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_TradeRoute] TRADE ROUTES[NEWLINE][NEWLINE]If domestic,[NEWLINE]+4 [ICON_Food] Food[NEWLINE]+2 [ICON_Production] Production</Text></Row>		
+		<Row Tag="LOC_POLICY_DEFENSE_OF_MOTHERLAND_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] SUPPORT UNITS[NEWLINE][NEWLINE]+100% production and no war weariness if unit is in your lands</Text></Row>
+
+		<!-- Atomic Era -->
+		<Row Tag="LOC_POLICY_CRYPTOGRAPHY_DESCRIPTION_EPSMOD" Language="en_US"><Text>SPIES[NEWLINE][NEWLINE]-2 lvls for enemies[NEWLINE]+1 lvl for your attacks</Text></Row>
+		<Row Tag="LOC_POLICY_INTERNATIONAL_WATERS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] SHIPS[NEWLINE][NEWLINE]+100% production[NEWLINE]except Carriers</Text></Row>
+		<Row Tag="LOC_POLICY_CONTAINMENT_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Envoy] ENVOYS[NEWLINE][NEWLINE]Doubled on arrival if Suzerain has different government</Text></Row>
+		<Row Tag="LOC_POLICY_HERITAGE_TOURISM_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Tourism] TOURISM[NEWLINE][NEWLINE]+100% art[NEWLINE]+100% artifacts</Text></Row>
+		<Row Tag="LOC_POLICY_MILITARY_FIRST_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] MELEE[NEWLINE][ICON_Production] RANGED[NEWLINE][ICON_Production] ANTI-CAVALRY[NEWLINE][NEWLINE]+50% production</Text></Row>
+		<Row Tag="LOC_POLICY_SATELLITE_BROADCASTS_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Tourism] TOURISM[NEWLINE][NEWLINE]+200% music</Text></Row>
+		<Row Tag="LOC_POLICY_MUSIC_CENSORSHIP_DESCRIPTION_EPSMOD" Language="en_US"><Text>NO ROCK BANDS[NEWLINE][NEWLINE]Blocked from entry[NEWLINE]BUT -1 [ICON_Amenities] Amenity</Text></Row>
+		<Row Tag="LOC_POLICY_INTEGRATED_SPACE_CELL_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] SPACE PROJECTS[NEWLINE][NEWLINE]+15% if city has[NEWLINE]Military Academy or[NEWLINE]Seaport</Text></Row>
+		<Row Tag="LOC_POLICY_SECOND_STRIKE_CAPABILITY_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Gold] NUKES[NEWLINE][NEWLINE]-50% gold upkeep</Text></Row>
+		<Row Tag="LOC_POLICY_AFTER_ACTION_REPORTS_DESCRIPTION_EPSMOD" Language="en_US"><Text>UNIT XP[NEWLINE][NEWLINE]+50%</Text></Row>
+
+		<!-- Information Era -->
+		<Row Tag="LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] AIRCRAFT[NEWLINE][ICON_Production] CARRIERS[NEWLINE][NEWLINE]+50% production</Text></Row>		
+		<Row Tag="LOC_POLICY_ECOMMERCE_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_TradeRoute] TRADE ROUTES[NEWLINE][NEWLINE]+5 [ICON_Gold] Gold[NEWLINE]+2 [ICON_Production] Production</Text></Row>
+		<Row Tag="LOC_POLICY_INTERNATIONAL_SPACE_AGENCY_DESCRIPTION_EPSMOD" Language="en_US"><Text>CITY STATES[NEWLINE][NEWLINE]For each Suzerain:[NEWLINE]+5% [ICON_Science] Science</Text></Row>
+		<Row Tag="LOC_POLICY_COLLECTIVE_ACTIVISM_DESCRIPTION_EPSMOD" Language="en_US"><Text>CITY STATES[NEWLINE][NEWLINE]For each Suzerain:[NEWLINE]+5% [ICON_Culture] Culture</Text></Row>
+		<Row Tag="LOC_POLICY_COMMUNICATIONS_OFFICE_DESCRIPTION_EPSMOD" Language="en_US"><Text>LOYALTY[NEWLINE][NEWLINE]+1 per promotion on [ICON_Governor] Governor</Text></Row>
+		
+		<!-- Future Era -->
+		<Row Tag="LOC_POLICY_FUTURE_VICTORY_SCIENCE_DESCRIPTION_EPSMOD" Language="en_US"><Text>SPACEPORTS[NEWLINE][NEWLINE]+3 [ICON_RESOURCE_ALUMINUM] Aluminum[NEWLINE]+3 [ICON_Power] Power.</Text></Row>
+		<Row Tag="LOC_POLICY_FUTURE_COUNTER_CULTURE_DESCRIPTION_EPSMOD" Language="en_US"><Text>ANTI TOURISM[NEWLINE][NEWLINE]-20% foreign tourism</Text></Row>
+		<Row Tag="LOC_POLICY_FUTURE_VICTORY_CULTURE_DESCRIPTION_EPSMOD" Language="en_US"><Text>ROCK BANDS[NEWLINE][NEWLINE]Any promotion[NEWLINE]you like</Text></Row>
+		<Row Tag="LOC_POLICY_FUTURE_COUNTER_SCIENCE_DESCRIPTION_EPSMOD" Language="en_US"><Text>SPIES[NEWLINE][NEWLINE]Any promotion[NEWLINE]you like</Text></Row>
+		<Row Tag="LOC_POLICY_FUTURE_VICTORY_DOMINATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] GDR's[NEWLINE][NEWLINE]+50% production[NEWLINE]+1 [ICON_Movement] in enemy lands</Text></Row>
+		<Row Tag="LOC_POLICY_FUTURE_COUNTER_DIPLOMATIC_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Favor] DIPLO FAVOR[NEWLINE][NEWLINE]+1 DF per turn, and refund on reducing enemy DVP</Text></Row>
+		<Row Tag="LOC_POLICY_FUTURE_VICTORY_DIPLOMATIC_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Favor] DIPLO FAVOR[NEWLINE][NEWLINE]+4 DF per turn</Text></Row>
+		<Row Tag="LOC_POLICY_FUTURE_COUNTER_DOMINATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Strength] COMBAT[NEWLINE][NEWLINE]+7 in your lands</Text></Row>
+		
+		<!-- Government Legacy -->
+		<Row Tag="LOC_GOVT_INHERENT_BONUS_AUTOCRACY_EPSMOD" Language="en_US"><Text>ALL YIELDS[NEWLINE][NEWLINE]+1 from:[NEWLINE]Gov. buildings[NEWLINE]Palace</Text></Row>
+		<Row Tag="LOC_GOVT_INHERENT_BONUS_OLIGARCHY_EPSMOD" Language="en_US"><Text>[ICON_Strength] COMBAT[NEWLINE][NEWLINE]+4 Melee Ship[NEWLINE]+4 Anti-Cavalry[NEWLINE]+4 Melee</Text></Row>
+		<Row Tag="LOC_GOVT_INHERENT_BONUS_CLASSREP_EPSMOD" Language="en_US"><Text>AMENITIES[NEWLINE][NEWLINE]If has district,[NEWLINE]+1 [ICON_Amenities] Amenity[NEWLINE]+1 [ICON_Housing]</Text></Row>
+		<Row Tag="LOC_GOVT_INHERENT_BONUS_MONARCHY_EPSMOD" Language="en_US"><Text>[ICON_Housing] HOUSING[NEWLINE][NEWLINE]+1 per Wall level[NEWLINE]+2 [ICON_Favor] Ren. Walls</Text></Row>
+		<Row Tag="LOC_GOVT_INHERENT_BONUS_THEOCRACY_EPSMOD" Language="en_US"><Text>[ICON_Religion] WIZARD WARS[NEWLINE][NEWLINE]+5 With Governor,[NEWLINE]+0.5 [ICON_Faith] per [ICON_Citizen] Citizen</Text></Row>
+		<Row Tag="LOC_GOVT_INHERENT_BONUS_MERCHREP_EPSMOD" Language="en_US"><Text>[ICON_Governor] GOVERNORS[NEWLINE][NEWLINE]+10% [ICON_GOLD] Gold if [ICON_Governor] Governor in city</Text></Row>
+		<Row Tag="LOC_GOVT_INHERENT_BONUS_FASCISM_EPSMOD" Language="en_US"><Text>[ICON_Strength] COMBAT[NEWLINE][NEWLINE]+5 strength[NEWLINE][NEWLINE]-15% war weariness</Text></Row>
+		<Row Tag="LOC_GOVT_INHERENT_BONUS_COMMUNISM_EPSMOD" Language="en_US"><Text>[ICON_Governor] GOVERNORS[NEWLINE][NEWLINE]+0.6 [ICON_Production] per [ICON_Citizen] Citizen</Text></Row>
+		<Row Tag="LOC_GOVT_INHERENT_BONUS_DEMOCRACY_EPSMOD" Language="en_US"><Text>[ICON_TradeRoute] TRADE ROUTES[NEWLINE][NEWLINE]+4 [ICON_Food][ICON_Production] to and from allied City or Suzerain City[NEWLINE]+.25 Alliance XP</Text></Row>
+
+		<!-- Other policies -->
+		<Row Tag="LOC_POLICY_NATURAL_PHILOSOPHY_DESCRIPTION_EPSMOD_ADJACENCY" Language="en_US"><Text>[ICON_Science] LIBRARIES[NEWLINE][NEWLINE] +3 science</Text></Row>
+		<Row Tag="LOC_POLICY_SCRIPTURE_DESCRIPTION_EPSMOD_ADJACENCY" Language="en_US"><Text>[ICON_Faith] SHRINES[NEWLINE][NEWLINE] +4 faith</Text></Row>
+		<Row Tag="LOC_POLICY_NAVAL_INFRASTRUCTURE_DESCRIPTION_EPSMOD_ADJACENCY" Language="en_US"><Text>[ICON_Gold] LIGHTHOUSES[NEWLINE][NEWLINE] +5 gold</Text></Row>
+		<Row Tag="LOC_POLICY_AESTHETICS_DESCRIPTION_EPSMOD_ADJACENCY" Language="en_US"><Text>[ICON_Culture] AMPHITHEATERS[NEWLINE][NEWLINE] +3 culture</Text></Row>
+		<Row Tag="LOC_POLICY_CRAFTSMEN_DESCRIPTION_EPSMOD_ADJACENCY" Language="en_US"><Text>[ICON_Production] WORKSHOPS[NEWLINE][NEWLINE] +3 production</Text></Row>
+		<Row Tag="LOC_POLICY_TOWN_CHARTERS_DESCRIPTION_EPSMOD_ADJACENCY" Language="en_US"><Text>[ICON_Gold] MARKETS[NEWLINE][NEWLINE] +5 gold</Text></Row>
+		<Row Tag="LOC_POLICY_ECONOMIC_UNION_DESCRIPTION_EPSMOD_ADJACENCY" Language="en_US"><Text>[ICON_Gold] BANKS[NEWLINE][ICON_Gold] SHIPYARDS[NEWLINE][NEWLINE] +7 Gold</Text></Row>
+		<Row Tag="LOC_POLICY_FIVE_YEAR_PLAN_DESCRIPTION_EPSMOD_ADJACENCY" Language="en_US"><Text>[ICON_Science] UNIVERSITIES[NEWLINE][ICON_Production] FACTORIES[NEWLINE][NEWLINE] +4 science / prod.</Text></Row>
+		<Row Tag="LOC_POLICY_SPORTS_MEDIA_DESCRIPTION_EPSMOD_ADJACENCY" Language="en_US"><Text>[ICON_Culture] BROADCAST C.[NEWLINE][NEWLINE]+5 culture[NEWLINE]+1 [ICON_Amenities] Stadiums</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_POLICY_CITIZEN_SOLDIERS_DESCRIPTION" Language="en_US"><Text>[ICON_Production] SUPPORT[NEWLINE][NEWLINE]+50% from[NEWLINE]Medieval and older</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_POLICY_MM_SERVICE_DESCRIPTION" Language="en_US"><Text>[ICON_Production] SUPPORT[NEWLINE][NEWLINE]+50% production</Text></Row>
+		
+		<Row Tag="LOC_POLICY_SIMULTANEUM_DESCRIPTION_EPSMOD_ENLIGHTENMENT" Language="en_US"><Text>[ICON_Faith] FAITH[NEWLINE][NEWLINE]At 20 Population:[NEWLINE]+10% faith[NEWLINE]If Holy Site is at +3:[NEWLINE]+10% more</Text></Row>
+		<Row Tag="LOC_POLICY_RATIONALISM_DESCRIPTION_EPSMOD_ENLIGHTENMENT" Language="en_US"><Text>[ICON_Science] SCIENCE[NEWLINE][NEWLINE]At 20 Population:[NEWLINE]+10% science[NEWLINE]If Campus is at +3:[NEWLINE]+10% more</Text></Row>
+		<Row Tag="LOC_POLICY_FREE_MARKET_DESCRIPTION_EPSMOD_ENLIGHTENMENT" Language="en_US"><Text>[ICON_Gold] GOLD[NEWLINE][NEWLINE]At 20 Population:[NEWLINE]+10% gold[NEWLINE]If Commercial at +3:[NEWLINE]+10% more</Text></Row>
+		<Row Tag="LOC_POLICY_GRAND_OPERA_DESCRIPTION_EPSMOD_ENLIGHTENMENT" Language="en_US"><Text>[ICON_Culture] CULTURE[NEWLINE][NEWLINE]At 20 Population:[NEWLINE]+10% culture[NEWLINE]If Theater is at +3:[NEWLINE]+10% more</Text></Row>
+
+		
+		<!--Pantheon-->
+		<Row Tag="LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION_EPSMOD" Language="en_US"><Text>TUNDRA: +1 [ICON_Faith] Faith to adjacent Holy Sites.</Text></Row>
+		<Row Tag="LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION_EPSMOD" Language="en_US"><Text>DESERT: +1 [ICON_Faith] Faith to adjacent Holy Sites.</Text></Row>
+		<Row Tag="LOC_BELIEF_DIVINE_SPARK_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_GreatScientist] CAMPUS, +1 [ICON_GreatWriter] THEATER, +1 [ICON_GreatProphet] HOLY SITE</Text></Row>
+		<Row Tag="LOC_BELIEF_EARTH_GODDESS_DESCRIPTION_EPSMOD" Language="en_US"><Text>APPEAL Breathtaking: +1 [ICON_Faith] Faith.</Text></Row>
+		<Row Tag="LOC_BELIEF_FERTILITY_RITES_DESCRIPTION_EPSMOD" Language="en_US"><Text>GROWTH: +10%. Gain a free Builder.</Text></Row>
+		<Row Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION_EPSMOD" Language="en_US"><Text>WONDERS: +15% [ICON_Production] Production - Ancient &amp; Classical</Text></Row>
+		<Row Tag="LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION_EPSMOD" Language="en_US"><Text>MINES: +2 [ICON_Faith] Faith on Luxury and Bonus resources.</Text></Row>
+		<Row Tag="LOC_BELIEF_RIVER_GODDESS_DESCRIPTION_EPSMOD" Language="en_US"><Text>RIVER: +2 [ICON_Amenities] +2 [ICON_Housing] if Holy Site adjacent to it.</Text></Row>
+		<Row Tag="LOC_BELIEF_STONE_CIRCLES_DESCRIPTION_EPSMOD" Language="en_US"><Text>QUARRIES: +2 [ICON_Faith].</Text></Row>
+		<Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_NAME_EPSMOD" Language="en_US"><Text>Sky God</Text></Row>
+		<Row Tag="LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION_EPSMOD" Language="en_US"><Text>PASTURES: +1 [ICON_Culture] Culture.</Text></Row>
+		<Row Tag="LOC_BELIEF_GOD_OF_THE_SEA_NAME_EPSMOD" Language="en_US"><Text>Sea God</Text></Row>
+		<Row Tag="LOC_BELIEF_GOD_OF_THE_SEA_DESCRIPTION_EPSMOD" Language="en_US"><Text>FISHING BOATS: +1 [ICON_Production] Production</Text></Row>
+		<Row Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_NAME_EPSMOD" Language="en_US"><Text>Festival Goddess</Text></Row>
+		<Row Tag="LOC_BELIEF_GODDESS_OF_FESTIVALS_DESCRIPTION_EPSMOD" Language="en_US"><Text>PLANTATIONS: +1 [ICON_Culture] Culture</Text></Row>
+		<Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_NAME_EPSMOD" Language="en_US"><Text>Animal Goddess</Text></Row>
+		<Row Tag="LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION_EPSMOD" Language="en_US"><Text>CAMPS: +1 [ICON_Food] Food, +1 [ICON_Production] Production</Text></Row>
+		<Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_NAME_EPSMOD" Language="en_US"><Text>Marsh Goddess</Text></Row>
+		<Row Tag="LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION_EPSMOD" Language="en_US"><Text>MARSH: +2 [ICON_Production] DESERT FLOODPLAINS: +2 [ICON_Production] OASIS: +2 [ICON_Production]</Text></Row>
+		<Row Tag="LOC_BELIEF_SACRED_PATH_NAME_EPSMOD" Language="en_US"><Text>Jungle God</Text></Row>
+		<Row Tag="LOC_BELIEF_SACRED_PATH_DESCRIPTION_EPSMOD" Language="en_US"><Text>RAINFOREST: +1 [ICON_Faith] Faith to adjacent Holy Sites.</Text></Row>
+		<Row Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_NAME_EPSMOD" Language="en_US"><Text>Craftsman God</Text></Row>
+		<Row Tag="LOC_BELIEF_GOD_OF_CRAFTSMEN_DESCRIPTION_EPSMOD" Language="en_US"><Text>STRATEGIC RESOURCES: +1 [ICON_Production] +1 [ICON_Faith] if improved.</Text></Row>
+		<Row Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION_EPSMOD" Language="en_US"><Text>VOLCANIC SOIL: +2 [ICON_Faith] GEOTHERMAL VENTS: +2 [ICON_Faith]</Text></Row>
+		<Row Tag="LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION_EPSMOD_MAYA" Language="en_US"><Text>VOLCANIC SOIL: +2 [ICON_Faith] GEOTHERMAL VENTS: +2 [ICON_Faith][NEWLINE]BURNT FOREST: +2 [ICON_Faith]</Text></Row>
+		<Row Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION_EPSMOD" Language="en_US"><Text>DISTRICT: +35% [ICON_Production] in cities without a district[NEWLINE]PRODUCTION: +2 [ICON_Production] in cities under 2 population</Text></Row>
+
+		<!--Follower-->
+		<Row Tag="LOC_BELIEF_CHORAL_MUSIC_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Culture] Culture from Shrines and Temples, equal to their [ICON_Faith].</Text></Row>
+		<Row Tag="LOC_BELIEF_DIVINE_INSPIRATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>+4 [ICON_Faith] from Wonders.</Text></Row>
+		<Row Tag="LOC_BELIEF_FEED_THE_WORLD_DESCRIPTION_EPSMOD" Language="en_US"><Text>+3 [ICON_Food] Food, +2 [ICON_Housing] Housing from Shrines and Temples.</Text></Row>
+		<Row Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_DESCRIPTION_EPSMOD" Language="en_US"><Text>+2 [ICON_Gold] Gold from international Trade Routes per Holy Site and Holy Site building at the destination.</Text></Row>		
+		<Row Tag="LOC_BELIEF_STEWARDSHIP_DESCRIPTION_EPSMOD" Language="en_US"><Text>Campus: +1 [ICON_Science] Theater: +1 [ICON_Culture] Commercial Hub: +1 [ICON_Gold][NEWLINE]Holy Site: +1 [ICON_Faith]</Text></Row>		
+		<Row Tag="LOC_BELIEF_WORK_ETHIC_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_Production] Production from Holy Sites, equal to their adjacency bonus.</Text></Row>
+		<Row Tag="LOC_BELIEF_RELIGIOUS_UNITY_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_Envoy] Envoy in a City-State when it adopts this Religion. (Once per city)</Text></Row>
+
+		<!--Building-->
+		<Row Tag="LOC_BELIEF_CATHEDRAL_DESCRIPTION_EPSMOD" Language="en_US"><Text>BUILDING: +3 [ICON_Faith] Faith, +2 [ICON_Culture] Culture.</Text></Row>
+		<Row Tag="LOC_BELIEF_GURDWARA_DESCRIPTION_EPSMOD" Language="en_US"><Text>BUILDING: +3 [ICON_Faith] Faith, +2 [ICON_Food] Food, +1 [ICON_Housing] Housing.</Text></Row>
+		<Row Tag="LOC_BELIEF_MEETING_HOUSE_DESCRIPTION_EPSMOD" Language="en_US"><Text>BUILDING: +3 [ICON_Faith] Faith, +2 [ICON_Production] Production.</Text></Row>
+		<Row Tag="LOC_BELIEF_MOSQUE_DESCRIPTION_EPSMOD" Language="en_US"><Text>BUILDING: +3 [ICON_Faith] Faith. Missionaries and Apostles +1 Spread.</Text></Row>
+		<Row Tag="LOC_BELIEF_PAGODA_DESCRIPTION_EPSMOD" Language="en_US"><Text>BUILDING: +3 [ICON_Faith] Faith, +1 [ICON_Favor] Diplomatic Favor.</Text></Row>
+		<Row Tag="LOC_BELIEF_SYNAGOGUE_DESCRIPTION_EPSMOD" Language="en_US"><Text>BUILDING: +5 [ICON_Faith] Faith.</Text></Row>
+		<Row Tag="LOC_BELIEF_WAT_DESCRIPTION_EPSMOD" Language="en_US"><Text>BUILDING: +3 [ICON_Faith] Faith, +2 [ICON_Science] Science.</Text></Row>
+		<Row Tag="LOC_BELIEF_STUPA_DESCRIPTION_EPSMOD" Language="en_US"><Text>BUILDING: +3 [ICON_Faith] Faith, +1 [ICON_Amenities] Amenity.</Text></Row>
+
+		<!--Founder-->
+		<Row Tag="LOC_BELIEF_CROSS_CULTURAL_DIALOGUE_DESCRIPTION_EPSMOD" Language="en_US"><Text>PER 4 FOLLOWERS: +1 [ICON_Science] Science.</Text></Row>
+		<Row Tag="LOC_BELIEF_PAPAL_PRIMACY_DESCRIPTION_EPSMOD" Language="en_US"><Text>CITY STATES: 200 Religious pressure When you send an [ICON_ENVOY] Envoy.</Text></Row>
+		<Row Tag="LOC_BELIEF_PILGRIMAGE_DESCRIPTION_EPSMOD" Language="en_US"><Text>PER CITY: +2 [ICON_Faith] Faith.</Text></Row>
+		<Row Tag="LOC_BELIEF_SACRED_PLACES_DESCRIPTION_EPSMOD" Language="en_US"><Text>WONDERS: If city has at least one, +2 [ICON_Science] Science, +2 [ICON_Culture] Culture, +2 [ICON_Gold] Gold, +2 [ICON_Faith] Faith.</Text></Row>
+		<Row Tag="LOC_BELIEF_TITHE_DESCRIPTION_EPSMOD" Language="en_US"><Text>PER CITY: +3 [ICON_Gold] Gold.</Text></Row>
+		<Row Tag="LOC_BELIEF_WORLD_CHURCH_DESCRIPTION_EPSMOD" Language="en_US"><Text>PER 4 FOLLOWERS: +1 [ICON_Culture] Culture.</Text></Row>
+		<Row Tag="LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>BUY WITH [ICON_Faith] FAITH: Campus and Theater Square buildings.</Text></Row>
+
+		<!--Enhancer-->
+		<Row Tag="LOC_BELIEF_JUST_WAR_DESCRIPTION_EPSMOD" Language="en_US"><Text>COMBAT: +10 [ICON_Strength] if near enemy city with this Religion.</Text></Row>
+		<Row Tag="LOC_BELIEF_DEFENDER_OF_FAITH_DESCRIPTION_EPSMOD" Language="en_US"><Text>COMBAT: +5 [ICON_Strength] if near friendly city with this Religion.</Text></Row>
+		<Row Tag="LOC_BELIEF_HOLY_ORDER_DESCRIPTION_EPSMOD" Language="en_US"><Text>MISSIONARY and APOSTLE: -30% [ICON_Faith] cost.</Text></Row>
+		<Row Tag="LOC_BELIEF_HOLY_WATERS_DESCRIPTION_EPSMOD" Language="en_US"><Text>HEALING: +10 to religious units on or next to Holy Sites.</Text></Row>
+		<Row Tag="LOC_BELIEF_ITINERANT_PREACHERS_DESCRIPTION_EPSMOD" Language="en_US"><Text>SPREAD: 30% further away.</Text></Row>
+		<Row Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>NEW CITIES: Start with this Religion.</Text></Row>
+		<Row Tag="LOC_BELIEF_SCRIPTURE_DESCRIPTION_EPSMOD" Language="en_US"><Text>SPREAD: 25% stronger. (50% at Printing)</Text></Row>
+		<Row Tag="LOC_BELIEF_WARRIOR_MONKS_DESCRIPTION_EPSMOD" Language="en_US"><Text>BUY WITH [ICON_Faith] FAITH: Warrior Monks (35 [ICON_Strength]) at Temples. Holy Sites trigger Culture Bombs.</Text></Row>
+		
+		
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,25 @@
+-- [SCVID]_GreatPeople_01
+-- Author: Strudeler
+-- DateCreated: 4/3/2021 11:45:54 AM
+--------------------------------------------------------------
+/*  GREAT PERSON COST	*/	
+UPDATE Eras SET GreatPersonBaseCost = GreatPersonBaseCost*1.5;
+--UPDATE Eras SET GreatPersonBaseCost = GreatPersonBaseCost*.5;
+--UPDATE Eras	SET GreatPersonBaseCost = GreatPersonBaseCost*1.30	WHERE EraType = 'ERA_ANCIENT';
+--UPDATE Eras	SET GreatPersonBaseCost = GreatPersonBaseCost*1.5	WHERE EraType = 'ERA_CLASSICAL';
+--UPDATE Eras	SET GreatPersonBaseCost = GreatPersonBaseCost*1.0	WHERE EraType = 'ERA_MEDIEVAL';
+--UPDATE Eras	SET GreatPersonBaseCost = GreatPersonBaseCost*1.0	WHERE EraType = 'ERA_RENAISSANCE';
+--UPDATE Eras	SET GreatPersonBaseCost = GreatPersonBaseCost*1.0	WHERE EraType = 'ERA_INDUSTRIAL';
+--UPDATE Eras	SET GreatPersonBaseCost = GreatPersonBaseCost*1.0	WHERE EraType = 'ERA_MODERN';
+--UPDATE Eras	SET GreatPersonBaseCost = GreatPersonBaseCost*1.0	WHERE EraType = 'ERA_ATOMIC';
+--UPDATE Eras	SET GreatPersonBaseCost = GreatPersonBaseCost*1.0	WHERE EraType = 'ERA_INFORMATION';
+--UPDATE Eras	SET GreatPersonBaseCost = GreatPersonBaseCost*1.0	WHERE EraType = 'ERA_FUTURE';
+--UPDATE Eras	SET GreatPersonBaseCost = 100 						WHERE EraType = 'ERA_ANCIENT';		
+--UPDATE Eras	SET GreatPersonBaseCost = 110						WHERE EraType = 'ERA_CLASSICAL';	
+--UPDATE Eras	SET GreatPersonBaseCost = 220 						WHERE EraType = 'ERA_MEDIEVAL';		
+--UPDATE Eras	SET GreatPersonBaseCost = 330						WHERE EraType = 'ERA_RENAISSANCE';	
+--UPDATE Eras	SET GreatPersonBaseCost = 440 						WHERE EraType = 'ERA_INDUSTRIAL';	
+--UPDATE Eras	SET GreatPersonBaseCost = 600 						WHERE EraType = 'ERA_MODERN';		
+--UPDATE Eras	SET GreatPersonBaseCost = 800 						WHERE EraType = 'ERA_ATOMIC';		
+--UPDATE Eras	SET GreatPersonBaseCost = 1200 						WHERE EraType = 'ERA_INFORMATION';	
+--UPDATE Eras	SET GreatPersonBaseCost = 1600 						WHERE EraType = 'ERA_FUTURE';

@@ -1,0 +1,4 @@
+-- [SCVID]_Beliefs_01_Modifiers
+-- Author: Strudeler
+-- DateCreated: 4/3/2021 11:54:58 AM
+--------------------------------------------------------------

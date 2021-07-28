@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_THREE_KINGDOMS"/><Set><Description>LOC_TRAIT_CIVILIZATION_THREE_KINGDOMS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY"/><Set><Description>LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_GROTE_RIVIEREN"/><Set><Description>LOC_TRAIT_CIVILIZATION_GROTE_RIVIEREN_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_LEADER_BANNOCKBURN"/><Set><Description>LOC_TRAIT_LEADER_BANNOCKBURN_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_LEADER_AMABUTHO"/><Set><Description>LOC_TRAIT_LEADER_AMABUTHO_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO"/><Set><Description>LOC_TRAIT_CIVILIZATION_ZULU_ISIBONGO_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" ModifierId="TRAIT_COMBAT_BONUS_FOR_CAVALRY"/>
+		<Delete TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" ModifierId="TRAIT_CAVALRY_CAPTURE_CAVALRY"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_GROTE_RIVIEREN" ModifierId="TRAIT_CAMPUS_RIVER_ADJACENCY"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_GROTE_RIVIEREN" ModifierId="TRAIT_THEATER_DISTRICT_RIVER_ADJACENCY"/>
+		<Delete TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_LIBERATION_WAR_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="TRAIT_LIBERATION_WAR_PREREQ_OVERRIDE"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO" ModifierId="TRAIT_ISIBONGO_UPGRADEMILITARYFORMATIONONCITYCONQUEST"/>
+
+		<Row TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" ModifierId="EPSMOD_CIVS_MONGOLIA_LIGHT_CAVALRY"/>
+		<Row TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" ModifierId="EPSMOD_CIVS_MONGOLIA_HEAVY_CAVALRY"/>
+		<Row TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" ModifierId="EPSMOD_CIVS_MONGOLIA_PASTURE_PRODUCTION_ATTACH"/>
+		<Row TraitType="TRAIT_LEADER_GENGHIS_KHAN_ABILITY" ModifierId="EPSMOD_CIVS_MONGOLIA_HORSES"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GROTE_RIVIEREN" ModifierId="EPSMOD_CIVS_DUTCH_COMMERCIAL_HUBS"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="EPSMOD_CIVS_SCOTLAND_PROTECTORATE_WAR_MOVEMENT"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="EPSMOD_CIVS_SCOTLAND_RECONQUEST_WAR_MOVEMENT"/>
+		<Row TraitType="TRAIT_LEADER_BANNOCKBURN" ModifierId="EPSMOD_CIVS_SCOTLAND_CULTURE_AT_PEACE"/>
+		<Row TraitType="TRAIT_LEADER_AMABUTHO" ModifierId="TRAIT_ISIBONGO_UPGRADEMILITARYFORMATIONONCITYCONQUEST"/>
+		<Row TraitType="TRAIT_CIVILIZATION_ZULU_ISIBONGO" ModifierId="EPSMOD_CIVS_ZULU_LOYAL_CITY_CULTURE"/>
+	</TraitModifiers>
+
+	
+	<Districts>
+		<Update><Where DistrictType="DISTRICT_SEOWON"/><Set><Description>LOC_DISTRICT_SEOWON_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Districts>
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="EPSMOD_BaseDistrict_Gold"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="EPSMOD_NegativeDistrict_Gold"/>
+	</District_Adjacencies>
+	
+	<Adjacency_YieldChanges>
+		<Update><Where ID="Mine_ScienceSeowonAdjacency"/><Set><YieldType>YIELD_PRODUCTION</YieldType></Set></Update>
+		
+		<Row ID="EPSMOD_BaseDistrict_Gold" Description="EPSMOD_LOC_DISTRICT_BASE_DISTRICT_GOLD" YieldType="YIELD_GOLD" YieldChange="-4" Self="true"/>
+		<Row ID="EPSMOD_NegativeDistrict_Gold" Description="EPSMOD_LOC_DISTRICT_NEGATIVE_DISTRICT_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" OtherDistrictAdjacent="true"/>
+	</Adjacency_YieldChanges>
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_LIGHT_CAVALRY</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_HEAVY_CAVALRY</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_PASTURE_PRODUCTION_ATTACH</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ATTACH_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_PASTURE_PRODUCTION</ModifierId><ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_PLOT_HAS_PASTURE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_HORSES</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_DUTCH_COMMERCIAL_HUBS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_RIVER_ADJACENCY</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_PROTECTORATE_WAR_MOVEMENT</ModifierId><ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_RECONQUEST_WAR_MOVEMENT</ModifierId><ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_MOVEMENT_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_CULTURE_AT_PEACE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_AT_PEACE_WITH_ALL_MAJORS</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ZULU_LOYAL_CITY_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_CITY_AT_FULL_LOYALTY</SubjectRequirementSetId></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Update><Where ModifierId="TRAIT_ISIBONGO_GARRISONFORMATIONIDENTITY" Name="Amount"/><Set><Value>5</Value></Set></Update>
+		
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_LIGHT_CAVALRY</ModifierId><Name>PromotionType</Name><Value>PROMOTION_CAPARISON</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_HEAVY_CAVALRY</ModifierId><Name>PromotionType</Name><Value>PROMOTION_CHARGE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_PASTURE_PRODUCTION_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_CIVS_MONGOLIA_PASTURE_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_PASTURE_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_PASTURE_PRODUCTION</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_HORSES</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_MONGOLIA_HORSES</ModifierId><Name>ResourceType</Name><Value>RESOURCE_HORSES</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_DUTCH_COMMERCIAL_HUBS</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_DUTCH_COMMERCIAL_HUBS</ModifierId><Name>Description</Name><Value>LOC_DISTRICT_RIVER_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_DUTCH_COMMERCIAL_HUBS</ModifierId><Name>DistrictType</Name><Value>DISTRICT_COMMERCIAL_HUB</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_DUTCH_COMMERCIAL_HUBS</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_PROTECTORATE_WAR_MOVEMENT</ModifierId><Name>DiplomaticYieldSource</Name><Value>PROTECTORATE_WAR_INITIATED</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_PROTECTORATE_WAR_MOVEMENT</ModifierId><Name>TurnsActive</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_PROTECTORATE_WAR_MOVEMENT</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_RECONQUEST_WAR_MOVEMENT</ModifierId><Name>DiplomaticYieldSource</Name><Value>RECONQUEST_WAR_INITIATED</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_RECONQUEST_WAR_MOVEMENT</ModifierId><Name>TurnsActive</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_RECONQUEST_WAR_MOVEMENT</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_CULTURE_AT_PEACE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_SCOTLAND_CULTURE_AT_PEACE</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ZULU_LOYAL_CITY_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ZULU_LOYAL_CITY_CULTURE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_AT_FULL_LOYALTY</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_PLOT_HAS_PASTURE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_AT_PEACE_WITH_ALL_MAJORS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_AT_FULL_LOYALTY</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_FULL_LOYALTY</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_PLOT_HAS_PASTURE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_HAS_PASTURE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_AT_PEACE_WITH_ALL_MAJORS</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_AT_PEACE_WITH_ALL_MAJORS</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_FULL_LOYALTY</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_FULL_LOYALTY</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_HAS_PASTURE</RequirementId><RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_AT_PEACE_WITH_ALL_MAJORS</RequirementId><RequirementType>REQUIREMENT_PLAYER_IS_AT_PEACE_WITH_ALL_MAJORS</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_HAS_PASTURE</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_PASTURE</Value></Row>
+	</RequirementArguments>
+	
+</GameData>

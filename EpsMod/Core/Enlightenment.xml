@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Policies>
+		<Update><Where PolicyType="POLICY_RATIONALISM"/><Set><Description>LOC_POLICY_RATIONALISM_DESCRIPTION_EPSMOD_ENLIGHTENMENT</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GRAND_OPERA"/><Set><Description>LOC_POLICY_GRAND_OPERA_DESCRIPTION_EPSMOD_ENLIGHTENMENT</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FREE_MARKET"/><Set><Description>LOC_POLICY_FREE_MARKET_DESCRIPTION_EPSMOD_ENLIGHTENMENT</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_SIMULTANEUM"/><Set><Description>LOC_POLICY_SIMULTANEUM_DESCRIPTION_EPSMOD_ENLIGHTENMENT</Description></Set></Update>
+	</Policies>
+
+	<PolicyModifiers>
+		<Delete PolicyType="POLICY_RATIONALISM"/>
+		<Delete PolicyType="POLICY_GRAND_OPERA"/>
+		<Delete PolicyType="POLICY_FREE_MARKET"/>
+		<Delete PolicyType="POLICY_SIMULTANEUM"/>
+
+		<Row><PolicyType>POLICY_RATIONALISM</PolicyType><ModifierId>EPSMOD_ENLIGHTENMENT_RATIONALISM_POP_SCIENCE</ModifierId></Row>
+		<Row><PolicyType>POLICY_RATIONALISM</PolicyType><ModifierId>EPSMOD_ENLIGHTENMENT_RATIONALISM_PLUS3_SCIENCE</ModifierId></Row>
+		<Row><PolicyType>POLICY_GRAND_OPERA</PolicyType><ModifierId>EPSMOD_ENLIGHTENMENT_GRAND_OPERA_POP_CULTURE</ModifierId></Row>
+		<Row><PolicyType>POLICY_GRAND_OPERA</PolicyType><ModifierId>EPSMOD_ENLIGHTENMENT_GRAND_OPERA_PLUS3_CULTURE</ModifierId></Row>
+		<Row><PolicyType>POLICY_FREE_MARKET</PolicyType><ModifierId>EPSMOD_ENLIGHTENMENT_FREE_MARKET_POP_GOLD</ModifierId></Row>
+		<Row><PolicyType>POLICY_FREE_MARKET</PolicyType><ModifierId>EPSMOD_ENLIGHTENMENT_FREE_MARKET_PLUS3_GOLD</ModifierId></Row>
+		<Row><PolicyType>POLICY_SIMULTANEUM</PolicyType><ModifierId>EPSMOD_ENLIGHTENMENT_SIMULTANEUM_POP_FAITH</ModifierId></Row>
+		<Row><PolicyType>POLICY_SIMULTANEUM</PolicyType><ModifierId>EPSMOD_ENLIGHTENMENT_SIMULTANEUM_PLUS3_FAITH</ModifierId></Row>
+	</PolicyModifiers>
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_RATIONALISM_POP_SCIENCE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_HIGH_POP</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_RATIONALISM_PLUS3_SCIENCE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_CAMPUS</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_GRAND_OPERA_POP_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_HIGH_POP</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_GRAND_OPERA_PLUS3_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_THEATER</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_FREE_MARKET_POP_GOLD</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_HIGH_POP</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_FREE_MARKET_PLUS3_GOLD</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_COMMERCIAL</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_SIMULTANEUM_POP_FAITH</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_HIGH_POP</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_SIMULTANEUM_PLUS3_FAITH</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_HOLYSITE</SubjectRequirementSetId></Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_RATIONALISM_POP_SCIENCE</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_RATIONALISM_POP_SCIENCE</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_RATIONALISM_PLUS3_SCIENCE</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_RATIONALISM_PLUS3_SCIENCE</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_GRAND_OPERA_POP_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_GRAND_OPERA_POP_CULTURE</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_GRAND_OPERA_PLUS3_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_GRAND_OPERA_PLUS3_CULTURE</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_FREE_MARKET_POP_GOLD</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_FREE_MARKET_POP_GOLD</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_FREE_MARKET_PLUS3_GOLD</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_FREE_MARKET_PLUS3_GOLD</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_SIMULTANEUM_POP_FAITH</ModifierId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_SIMULTANEUM_POP_FAITH</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_SIMULTANEUM_PLUS3_FAITH</ModifierId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_ENLIGHTENMENT_SIMULTANEUM_PLUS3_FAITH</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+	</ModifierArguments>
+	
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_HIGH_POP</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_CAMPUS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_THEATER</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_COMMERCIAL</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_HOLYSITE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_HIGH_POP</RequirementSetId><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_HIGH_POP</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_CAMPUS</RequirementSetId><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_CAMPUS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_THEATER</RequirementSetId><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_THEATER</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_COMMERCIAL</RequirementSetId><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_COMMERCIAL</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ENLIGHTENMENT_CITY_HAS_PLUS3_HOLYSITE</RequirementSetId><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_HOLYSITE</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_HIGH_POP</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_X_POPULATION</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_CAMPUS</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_THEATER</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_COMMERCIAL</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_HOLYSITE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_HIGH_ADJACENCY_DISTRICT</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_HIGH_POP</RequirementId><Name>Amount</Name><Value>20</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_CAMPUS</RequirementId><Name>DistrictType</Name><Value>DISTRICT_CAMPUS</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_CAMPUS</RequirementId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_CAMPUS</RequirementId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_THEATER</RequirementId><Name>DistrictType</Name><Value>DISTRICT_THEATER</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_THEATER</RequirementId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_THEATER</RequirementId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_COMMERCIAL</RequirementId><Name>DistrictType</Name><Value>DISTRICT_COMMERCIAL_HUB</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_COMMERCIAL</RequirementId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_COMMERCIAL</RequirementId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_HOLYSITE</RequirementId><Name>DistrictType</Name><Value>DISTRICT_HOLY_SITE</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_HOLYSITE</RequirementId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><RequirementId>EPSMOD_ENLIGHTENMENT_REQUIREMENT_PLUS3_HOLYSITE</RequirementId><Name>Amount</Name><Value>3</Value></Row>
+	</RequirementArguments>
+
+</GameData>

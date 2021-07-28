@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+	<Players>
+		<Update><Where CivilizationType="CIVILIZATION_JAPAN"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		<Update><Where LeaderType="LEADER_MANSA_MUSA"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_SAHEL_MERCHANTS_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_MALI"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_BRAZIL"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_AMAZON_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		<Update><Where LeaderType="LEADER_LAURIER"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_LAST_BEST_WEST_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where LeaderType="LEADER_HARDRADA"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_MELEE_COASTAL_RAIDS_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_NORWAY"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		<Update><Where LeaderType="LEADER_PETER_GREAT"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_GRAND_EMBASSY_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where LeaderType="LEADER_TOMYRIS"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_KILLER_OF_CYRUS_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_SCYTHIA"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		<Update><Where LeaderType="LEADER_JAYAVARMAN"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_MONASTERIES_KING_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_KHMER"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		
+		<Update><Where CivilizationType="CIVILIZATION_KOREA"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_THREE_KINGDOMS_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		<Update><Where LeaderType="LEADER_GENGHIS_KHAN"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_NETHERLANDS"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_GROTE_RIVIEREN_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		<Update><Where LeaderType="LEADER_ROBERT_THE_BRUCE"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_BANNOCKBURN_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where LeaderType="LEADER_SHAKA"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_AMABUTHO_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_ZULU"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_ZULU_ISIBONGO_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		
+		<Update><Where LeaderType="LEADER_JOHN_CURTIN"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_AUSTRALIA"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		
+		<Update><Where LeaderType="LEADER_ALEXANDER"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_TO_WORLDS_END_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_MACEDON"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_HELLENISTIC_FUSION_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		
+		<Update><Where LeaderType="LEADER_MENELIK"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_MENELIK_EPSMOD</LeaderAbilityDescription></Set></Update>
+		
+		<Update><Where CivilizationType="CIVILIZATION_GRAN_COLOMBIA"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		
+		<Update><Where LeaderType="LEADER_T_ROOSEVELT"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_ANTIQUES_AND_PARKS_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		
+		<Update><Where CivilizationType="CIVILIZATION_BYZANTIUM"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+		
+		<Update><Where LeaderType="LEADER_AMBIORIX"/><Set><LeaderAbilityDescription>LOC_TRAIT_LEADER_AMBIORIX_DESCRIPTION_EPSMOD</LeaderAbilityDescription></Set></Update>
+		
+		<Update><Where CivilizationType="CIVILIZATION_BABYLON_STK"/><Set><CivilizationAbilityDescription>LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION_EPSMOD</CivilizationAbilityDescription></Set></Update>
+	</Players>
+
+	<PlayerItems>
+		<Update><Where Type="DISTRICT_LAVRA" /><Set><Description>LOC_DISTRICT_LAVRA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where Type="DISTRICT_SUGUBA" /><Set><Description>LOC_DISTRICT_SUGUBA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where Type="UNIT_NORWEGIAN_BERSERKER" /><Set><Description>LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where Type="BUILDING_STAVE_CHURCH" /><Set><Description>LOC_BUILDING_STAVE_CHURCH_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where Type="UNIT_SCYTHIAN_HORSE_ARCHER" /><Set><Description>LOC_UNIT_SCYTHIAN_HORSE_ARCHER_DESCRIPTION_EPSMOD</Description></Set></Update>
+		
+		<Update><Where Type="DISTRICT_SEOWON" /><Set><Description>LOC_DISTRICT_SEOWON_DESCRIPTION_EPSMOD</Description></Set></Update>
+		
+		<Update><Where Type="IMPROVEMENT_ROCK_HEWN_CHURCH"/><Set><Description>LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where Type="UNIT_COLOMBIAN_LLANERO"/><Set><Description>LOC_UNIT_COLOMBIAN_LLANERO_DESCRIPTION_EPSMOD</Description></Set></Update>
+		
+		<Update><Where Type="DISTRICT_OPPIDUM"/><Set><Description>LOC_DISTRICT_OPPIDUM_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</PlayerItems>
+		
+	<CityStates>
+		<Update><Where CivilizationType="CIVILIZATION_BABYLON"/><Set><Bonus>LOC_LEADER_TRAIT_BABYLON_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_ANTANANARIVO"/><Set><Bonus>LOC_LEADER_TRAIT_ANTANANARIVO_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_AMSTERDAM"/><Set><Bonus>LOC_LEADER_TRAIT_AMSTERDAM_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_ANTIOCH"/><Set><Bonus>LOC_LEADER_TRAIT_AMSTERDAM_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_ARMAGH"/><Set><Bonus>LOC_LEADER_TRAIT_ARMAGH_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_JAKARTA"/><Set><Bonus>LOC_LEADER_TRAIT_JAKARTA_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_STOCKHOLM"/><Set><Bonus>LOC_LEADER_TRAIT_STOCKHOLM_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_BOLOGNA"/><Set><Bonus>LOC_LEADER_TRAIT_STOCKHOLM_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_CAGUANA"/><Set><Bonus>LOC_LEADER_TRAIT_CAGUANA_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_CAHOKIA"/><Set><Bonus>LOC_LEADER_TRAIT_CAHOKIA_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_CHINGUETTI"/><Set><Bonus>LOC_LEADER_TRAIT_CHINGUETTI_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_CARTHAGE"/><Set><Bonus>LOC_LEADER_TRAIT_CARTHAGE_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_NGAZARGAMU"/><Set><Bonus>LOC_LEADER_TRAIT_CARTHAGE_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_FEZ"/><Set><Bonus>LOC_LEADER_TRAIT_FEZ_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_GRANADA"/><Set><Bonus>LOC_LEADER_TRAIT_GRANADA_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_KANDY"/><Set><Bonus>LOC_LEADER_TRAIT_KANDY_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_KUMASI"/><Set><Bonus>LOC_LEADER_TRAIT_KUMASI_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_LA_VENTA"/><Set><Bonus>LOC_LEADER_TRAIT_LA_VENTA_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_LISBON"/><Set><Bonus>LOC_LEADER_TRAIT_LISBON_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_TORONTO"/><Set><Bonus>LOC_LEADER_TRAIT_TORONTO_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_MEXICO_CITY"/><Set><Bonus>LOC_LEADER_TRAIT_TORONTO_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_MUSCAT"/><Set><Bonus>LOC_LEADER_TRAIT_MUSCAT_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_NALANDA"/><Set><Bonus>LOC_LEADER_TRAIT_NALANDA_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_NAN_MADOL"/><Set><Bonus>LOC_LEADER_TRAIT_NAN_MADOL_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_NAZCA"/><Set><Bonus>LOC_LEADER_TRAIT_NAZCA_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_PRESLAV"/><Set><Bonus>LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_RAPA_NUI"/><Set><Bonus>LOC_LEADER_TRAIT_RAPA_NUI_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_SAMARKAND"/><Set><Bonus>LOC_LEADER_TRAIT_SAMARKAND_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_VILNIUS"/><Set><Bonus>LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+		<Update><Where CivilizationType="CIVILIZATION_YEREVAN"/><Set><Bonus>LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION_EPSMOD</Bonus></Set></Update>
+	</CityStates>
+	
+</GameData>

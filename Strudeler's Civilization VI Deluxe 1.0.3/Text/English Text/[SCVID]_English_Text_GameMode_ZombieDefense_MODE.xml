@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_GameMode_ZombieDefense_MODE -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/26/2021 11:15:14 PM -->
+<GameData>
+
+	<!-- ZOMBIE -->
+	<EnglishText>
+		<Row	Tag="LOC_STR_UNIT_MODE_ZOMBIE_DESCRIPTION">
+			<Text>[ICON_Bullet][ICON_Unit] Unit that has a chance to appear on the map at a location where a unit has died.[NEWLINE][ICON_Bullet]Global [ICON_Strength] Strength increases when a [ICON_Unit] Zombie dies.[NEWLINE][ICON_Bullet]Raises another [ICON_Unit] Zombie the next turn if it kills a [ICON_Unit] Unit.[NEWLINE][ICON_Bullet]If a [ICON_Unit] Zombie reduces a City's [ICON_Citizen] Population then a new [ICON_Unit] Zombie will spawn the next turn.[NEWLINE][ICON_Bullet]Zombies target the closest nearby [ICON_Unit] Unit, [ICON_DISTRICT_CITY_CENTER] City, or [ICON_District] Defensible District.</Text>
+		</Row>
+	</EnglishText>
+
+	<!-- ZOMBIES MODE NEW IMPROVEMENTS-->
+	<EnglishText>
+		<!-- ANCIENT BARRICADE -->
+		<Row	Tag="LOC_STR_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_DESC">
+			<Text>[ICON_Bullet]A early [ICON_Charges] Wall that deals moderate [ICON_Damaged] Damage and Exerts Zone of control on enemy [ICON_Unit] Units.</Text>
+		</Row>
+		<!-- MODERN BARRICADE -->
+		<Row	Tag="LOC_STR_IMPROVEMENT_MODERN_TOWER_DEFENSE_DESC">
+			<Text>[ICON_Bullet]A late [ICON_Charges] Wall that deals moderate [ICON_Damaged] Damage and Exerts Zone of control to enemy [ICON_Unit] Units.</Text>
+		</Row>
+		<!-- ANCIENT TRAP -->
+		<Row	Tag="LOC_STR_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_DESC">
+			<Text>[ICON_Bullet]A early [ICON_Charges] Trap that deals moderate [ICON_Damaged] Damage to enemy [ICON_Unit] Units.</Text>
+		</Row>
+		<!-- MODERN TRAP -->
+		<Row	Tag="LOC_STR_IMPROVEMENT_MODERN_TRAP_DEFENSE_DESC">
+			<Text>[ICON_Bullet]A late [ICON_Charges] Trap that deals moderate [ICON_Damaged] Damage to enemy [ICON_Unit] Units.</Text>
+		</Row>
+	</EnglishText>
+
+	<!-- ZOMBIES MODE IMPROVEMENTS UPDATE -->
+	<EnglishText>
+		<!-- ALCAZAR IMPROVEMENT UPDATE-->
+		<Row	Tag="LOC_STR_IMPROVEMENT_ALCAZAR_DESCRIPTION_ZOMBIE">
+			<Text>[ICON_Bullet]Unique to Granada and it's Suzerain.[NEWLINE][ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification.[NEWLINE][ICON_Bullet]+2 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]Gain [ICON_Science] Science equal to 50% of the tile's Appeal.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Gain standard [ICON_Science] Science and [ICON_Culture] Culture adjacency from various [ICON_District] Districts.[NEWLINE][ICON_Bullet]Deals moderate [ICON_Damaged] Damage and depletes [ICON_Movement] Movement of enemy [ICON_Unit] Units.</Text>
+		</Row>
+		<!-- PA IMPROVEMENT -->
+		<Row	Tag="LOC_STR_IMPROVEMENT_MAORI_PA_DESCRIPTION_ZOMBIE">
+			<Text>[ICON_Bullet]Unique to Māori and buildable by [ICON_Unit] Māori Toa.[NEWLINE][ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification.[NEWLINE][ICON_Bullet][ICON_Unit] Units that are [ICON_Fortified] Fortified on the tile heal +100 HP.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Gain standard [ICON_Science] Science and [ICON_Culture] Culture adjacency from various [ICON_District] Districts.[NEWLINE][ICON_Bullet]Deals minor [ICON_Damaged] Damage and depletes [ICON_Movement] Movement of enemy [ICON_Unit] Units.</Text>
+		</Row>
+		<!-- ROMAN FORT IMPROVEMENT -->
+		<Row	Tag="LOC_STR_IMPROVEMENT_ROMAN_FORT_DESCRIPTION_ZOMBIE">
+			<Text>[ICON_Bullet]Unique to Rome and buildable by [ICON_Unit] Roman Legions.[NEWLINE][ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification.[NEWLINE][ICON_Bullet]Deals minor [ICON_Damaged] Damage and depletes [ICON_Movement] Movement of enemy [ICON_Unit] Units.</Text>
+		</Row>
+		<!-- FORT IMPROVEMENT -->
+		<Row	Tag="LOC_STR_IMPROVEMENT_FORT_DESCRIPTION_ZOMBIE">
+			<Text>[ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification.</Text>
+		</Row>
+		<!-- VAMPIRE CASTLE IMPROVEMENT -->
+		<Row	Tag="LOC_STR_IMPROVEMENT_VAMPIRE_CASTLE_DESCRIPTION_ZOMBIE">
+			<Text>[ICON_Bullet]Duplicates yields from adjacent tiles and adds them to its occupying tile; bonus yields also added to the [ICON_Capital] Capital.[NEWLINE][ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification.[NEWLINE][ICON_Bullet]With [ICON_Governor] Endless Night [ICON_Unit] Units can teleport on the tile.[NEWLINE][ICON_Bullet]Cannot be adjacent to another [ICON_Charges] Vampire Castle.[NEWLINE][ICON_Bullet]Deals minor [ICON_Damaged] Damage and depletes [ICON_Movement] Movement of enemy [ICON_Unit] Units.</Text>
+		</Row>
+		<!-- GREAT WALL IMPROVEMENT -->
+		<Row	Tag="LOC_STR_IMPROVEMENT_GREAT_WALL_DESCRIPTION_ZOMBIE">
+			<Text>[ICON_Bullet]Unique to China.[NEWLINE][ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification.[NEWLINE][ICON_Bullet]+2 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Major [ICON_Gold] Gold adjacency from adjacent [ICON_Charges] Great Wall segments.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Must be built in a line.[NEWLINE][ICON_Bullet]Major [ICON_Culture] Culture adjacency from adjacent [ICON_Charges] Great Wall segments at the [ICON_Science] Castles Technology.[NEWLINE][ICON_Bullet]Can be [ICON_Pillaged] Pillaged by disasters; cannot be destroyed by disasters.[NEWLINE][ICON_Bullet]Deals minor [ICON_Damaged] Damage to and exerts Zone of Control on enemy [ICON_Unit] Units walking onto or arround the tile.</Text>
+		</Row>
+	</EnglishText>
+
+</GameData>

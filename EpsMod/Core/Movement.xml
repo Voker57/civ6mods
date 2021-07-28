@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+	<GameModifiers>
+		<Row ModifierId="EPSMOD_MOVEMENT_MOVES_ATTACH"/>
+		<Row ModifierId="EPSMOD_MOVEMENT_SIGHT_ATTACH"/>
+	</GameModifiers>
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_MOVEMENT_MOVES_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_MOVEMENT_MOVES</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_MOVEMENT</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_MOVEMENT_SIGHT_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_MOVEMENT_SIGHT</ModifierId><ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SIGHT</ModifierType></Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_MOVEMENT_MOVES_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_MOVEMENT_MOVES</Value></Row>
+		<Row><ModifierId>EPSMOD_MOVEMENT_MOVES</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_MOVEMENT_SIGHT_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_MOVEMENT_SIGHT</Value></Row>
+		<Row><ModifierId>EPSMOD_MOVEMENT_SIGHT</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+	</ModifierArguments>
+	
+</GameData>

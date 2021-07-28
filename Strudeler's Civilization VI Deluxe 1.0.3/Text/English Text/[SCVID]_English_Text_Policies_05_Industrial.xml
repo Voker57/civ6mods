@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Policies_05_Industrial -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 8:47:49 PM -->
+<GameData>
+
+	<!-- INDUSTRIAL POLICIES -->
+	<LocalizedText>
+		<!-- SAILOR IMPRESSMENT POLICY -->
+		<Row	Tag="LOC_POLICY_STR_SAILOR_IMPRESSMENT_NAME"										Language="en_US">
+			<Text>Sailor Impressment</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_SAILOR_IMPRESSMENT_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+100% [ICON_Production] Production towards [ICON_Unit] Naval Melee, Ranged, and Raider class Units.[NEWLINE][ICON_Bullet]City Maintenance increases by 1 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- MASS DRAFTING POLICY -->
+		<Row	Tag="LOC_POLICY_STR_MASS_DRAFTING_NAME"												Language="en_US">
+			<Text>Mass Drafting</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_MASS_DRAFTING_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]Unit Maintenance is reduced by 1 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]-1 [ICON_Amenities] Amenity in all Cities.</Text>
+		</Row>
+		<!-- NATIONALISTIC ZEAL POLICY -->
+		<Row	Tag="LOC_POLICY_STR_NATIONALISTIC_ZEAL_NAME"										Language="en_US">
+			<Text>Nationalistic Zeal</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_NATIONALISTIC_ZEAL_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]Injured [ICON_Unit] Military Unit's [ICON_Strength] Strength penalty is reduced by 50%.</Text>
+		</Row>
+		<!-- COLONIAL OFFICES POLICY -->
+		<Row	Tag="LOC_POLICY_STR_COLONIAL_OFFICES_NAME"											Language="en_US">
+			<Text>Colonial Offices</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_COLONIAL_OFFICES_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+20% [ICON_Citizen] Growth and +4 [ICON_PressureUp] Loyalty for Cities not on your original [ICON_Capital] Capital's [ICON_Terrain] Continent.</Text>
+		</Row>
+		<!-- DOMINIONS POLICY -->
+		<Row	Tag="LOC_POLICY_STR_DOMINIONS_NAME"													Language="en_US">
+			<Text>Dominions</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_DOMINIONS_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+25% [ICON_Gold] Gold and +10% [ICON_Production] Production for Cities not on your original [ICON_Capital] Capital's [ICON_Terrain] Continent.</Text>
+		</Row>
+		<!-- PUBLIC WORKS POLICY -->
+		<Row	Tag="LOC_POLICY_STR_PUBLIC_WORKS_NAME"												Language="en_US">
+			<Text>Public Works</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PUBLIC_WORKS_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Production] Production towards [ICON_Unit] Builders.[NEWLINE][ICON_Bullet][ICON_Unit]Builders start with +2 [ICON_Charges] Charges.[NEWLINE][ICON_Bullet]City Maintenance increases by 1 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- SKYSCRAPERS POLICY -->
+		<Row	Tag="LOC_POLICY_STR_SKYSCRAPERS_NAME"												Language="en_US">
+			<Text>Skyscrapers</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_SKYSCRAPERS_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+40% [ICON_Production] Production towards [ICON_Science] Ancient to Future Era [ICON_DISTRICT_WONDER] Wonders.</Text>
+		</Row>
+		<!-- GRAND OPERAS POLICY -->
+		<Row	Tag="LOC_POLICY_STR_GRAND_OPERAS_NAME"												Language="en_US">
+			<Text>Grand Operas</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_GRAND_OPERAS_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet][ICON_DISTRICT_THEATER] Theater Square [ICON_Buildings] Buildings gain +50% [ICON_Culture] Culture if there is 1) +4 [ICON_Culture] Culture adjacency or 2) City is at 15 [ICON_Citizen] Population or over.[NEWLINE][ICON_Bullet]City Maintenance increases by 3 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- MUSICIAN HERITAGE POLICY -->
+		<Row	Tag="LOC_POLICY_STR_MUSICIAN_HERITAGE_NAME"											Language="en_US">
+			<Text>Musician Heritage</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_MUSICIAN_HERITAGE_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+6 [ICON_GreatMusician] Great Musician points per turn.</Text>
+		</Row>
+		<!-- PUBLIC TRANSPORT POLICY -->
+		<Row	Tag="LOC_POLICY_STR_PUBLIC_TRANSPORT_NAME"											Language="en_US">
+			<Text>Public Transport</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PUBLIC_TRANSPORT_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Production] Production towards [ICON_DISTRICT_NEIGHBORHOOD] Neighborhoods and their [ICON_Buildings] Buildings.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity in all Cities.[NEWLINE][ICON_Bullet]Gain 100 [ICON_Gold] Gold per level of Appeal, when replacing a [ICON_Charges] Farm with a [ICON_DISTRICT_NEIGHBORHOOD] Neighborhood.</Text>
+		</Row>
+		<!-- CITY PLANNING POLICY -->
+		<Row	Tag="LOC_POLICY_STR_CITY_PLANNING_NAME"												Language="en_US">
+			<Text>City Planning</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CITY_PLANNING_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Food] Food, [ICON_Production] Production, and [ICON_Gold] Gold in all [ICON_DISTRICT_NEIGHBORHOOD] Neighborhoods; doubled in [ICON_DISTRICT_NEIGHBORHOOD] Neighborhoods with Charming Appeal; doubled again in [ICON_DISTRICT_NEIGHBORHOOD] Neighborhoods with Breathtaking appeal.[NEWLINE][ICON_Bullet]City Maintenance increases by 5 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- MILITARY RESEARCH POLICY -->
+		<Row	Tag="LOC_POLICY_STR_MILITARY_RESEARCH_NAME"											Language="en_US">
+			<Text>Military Research</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_MILITARY_RESEARCH_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+3 [ICON_Science] Science in [ICON_DISTRICT_ENCAMPMENT] Encampment and [ICON_DISTRICT_HARBOR] Harbor [ICON_Buildings] Buildings.[NEWLINE][ICON_Bullet]City Maintenance increases by 4 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- SCORCHED EARTH TACTICS POLICY -->
+		<Row	Tag="LOC_POLICY_STR_SCORCHED_EARTH_TACTICS_NAME"									Language="en_US">
+			<Text>Scorched Earth Tactics</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_SCORCHED_EARTH_TACTICS_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+75% [ICON_Pillaged] Pillage rewards from [ICON_District] Districts, [ICON_Charges] Improvements, and [ICON_TradeRoute] Trade Routes.</Text>
+		</Row>
+		<!-- MILITARY HERITAGE POLICY -->
+		<Row	Tag="LOC_POLICY_STR_MILITARY_HERITAGE_NAME"											Language="en_US">
+			<Text>Military Heritage</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_MILITARY_HERITAGE_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+10 [ICON_GreatGeneral] Great General points per turn.</Text>
+		</Row>
+		<!-- CIVIL RELIGIOUS WORKS POLICY -->
+		<Row	Tag="LOC_POLICY_STR_CIVIL_RELIGIOUS_WORKS_NAME"										Language="en_US">
+			<Text>Civil Religious Works</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CIVIL_RELIGIOUS_WORKS_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Housing] Housing in all Cities.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production and +2 [ICON_Faith] Faith per [ICON_District] Specialty District in a City.[NEWLINE][ICON_Bullet]City Maintenance increases by 2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- SECULARIZATION POLICY -->
+		<Row	Tag="LOC_POLICY_STR_SECULARIZATION_NAME"											Language="en_US">
+			<Text>Secularization</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_SECULARIZATION_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Housing] Housing in all Cities.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science per [ICON_District] Specialty District in a City.[NEWLINE][ICON_Bullet]City Maintenance increases by 1 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- WEALTH OF NATIONS POLICY -->
+		<Row	Tag="LOC_POLICY_STR_WEALTH_OF_NATIONS_NAME"											Language="en_US">
+			<Text>The Wealth of Nations</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_WEALTH_OF_NATIONS_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+4 [ICON_GreatMerchant] Great Merchant points per turn.[NEWLINE][ICON_Bullet]+2 [ICON_TradeRoute] Trade Route capacity.</Text>
+		</Row>
+		<!-- IRON AND BLOOD POLICY -->
+		<Row	Tag="LOC_POLICY_STR_IRON_AND_BLOOD_NAME"											Language="en_US">
+			<Text>Iron and Blood</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_IRON_AND_BLOOD_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+4 [ICON_GreatGeneral] Great General and [ICON_GreatEngineer] Great Engineer points per turn.[NEWLINE][ICON_Bullet]+20% [ICON_Production] Production towards [ICON_Unit] Land Melee class Units.</Text>
+		</Row>
+		<!-- BUREACRATIC EXPANSION POLICY -->
+		<Row	Tag="LOC_POLICY_STR_BUREAUCRATIC_EXPANSION_NAME"									Language="en_US">
+			<Text>Bureaucratic Expansion</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_BUREAUCRATIC_EXPANSION_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+3 [ICON_Amenities] Amenities and [ICON_Housing] Housing in Cities with a [ICON_Governor] Governor that has at least 2 [ICON_Promotion] Promotions.</Text>
+		</Row>
+		<!-- MARITIME HERITAGE POLICY -->
+		<Row	Tag="LOC_POLICY_STR_MARITIME_HERITAGE_NAME"											Language="en_US">
+			<Text>Maritime Heritage</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_MARITIME_HERITAGE_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+10 [ICON_GreatAdmiral] Great Admiral points per turn.</Text>
+		</Row>
+		<!-- FOUNDERS DAY POLICY (Unreleased) -->
+	<!--<Row	Tag="LOC_POLICY_STR_FOUNDERS_DAY_NAME"												Language="en_US">
+			<Text>Founder's Day</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_FOUNDERS_DAY_DESCRIPTION"										Language="en_US">
+			<Text>N/A</Text>
+		</Row>-->
+		<!-- CIVIL INDUSTRIALIZATION  POLICY (Unreleased) -->
+	<!--<Row	Tag="LOC_POLICY_STR_CIVIL_INDUSTRIALIZATION_NAME"									Language="en_US">
+			<Text>Civil Industrialization</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CIVIL_INDUSTRIALIZATION_DESCRIPTION"							Language="en_US">
+			<Text>N/A</Text>
+		</Row>-->
+		<!-- METROPOLITAN PLANNING POLICY -->
+		<Row	Tag="LOC_POLICY_STR_METROPOLITAN_PLANNING_NAME"										Language="en_US">
+			<Text>Metropolitan Planning</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_METROPOLITAN_PLANNING_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Production] Production and City Maintenance increases by 1 [ICON_Gold] Gold in all Cities; bonus +3 [ICON_Production] Production and City Maintenance increases by 3 [ICON_Gold] Gold in Cities with 3 [ICON_District] Specialty Districts.</Text>
+		</Row>
+		<!-- RAIL INTEGRATION POLICY -->
+		<Row	Tag="LOC_POLICY_STR_RAIL_INTEGRATION_NAME"											Language="en_US">
+			<Text>Rail Integration</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_RAIL_INTEGRATION_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+8 [ICON_Resource_Coal] Coal per turn.</Text>
+		</Row>
+		<!-- MILITIA CACHES POLICY -->
+		<Row	Tag="LOC_POLICY_STR_MILITIA_CACHES_NAME"											Language="en_US">
+			<Text>Militia Caches</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_MILITIA_CACHES_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+8 [ICON_Resource_Niter] Niter per turn.</Text>
+		</Row>
+		<!-- METROPOLITANISM POLICY -->
+		<Row	Tag="LOC_POLICY_STR_METROPOLITANISM_NAME"											Language="en_US">
+			<Text>Metropolitanism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_METROPOLITANISM_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+25% [ICON_Food] Growth in Cities with 3 [ICON_District] Specialty Districts.[NEWLINE][ICON_Bullet]-50% [ICON_Gold] Gold in Cities not on the same [ICON_Terrain] Continent as the [ICON_Capital] Capital.</Text>
+		</Row>
+		<!-- NEW WORLD MISSION POLICY -->
+		<Row	Tag="LOC_POLICY_STR_NEW_WORLD_MISSION_NAME"											Language="en_US">
+			<Text>New World Mission</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_NEW_WORLD_MISSION_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+100% [ICON_Faith] Faith in Cities not on your original [ICON_Capital] Capital's [ICON_Terrain] Continent.</Text>
+		</Row>
+		<!-- PRISONERS_OF_WAR CAMPS POLICY (Unreleased) -->
+		<Row	Tag="LOC_POLICY_STR_PRISONER_OF_WAR_CAMPS_NAME"										Language="en_US">
+			<Text>Prisoners-of-War Camps</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PRISONER_OF_WAR_CAMPS_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Melee and Anti-Cavalry class Units capture a [ICON_Charges] Prisoner of War after defeating a [ICON_Barbarian] non-Barbarian [ICON_Unit] Unit.</Text>
+		</Row>
+		<!-- JINGOISM POLICY -->
+		<Row	Tag="LOC_POLICY_STR_JINGOISM_NAME"													Language="en_US">
+			<Text>Jingoism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_JINGOISM_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Melee and Anti-Cavalry class Units gain +5 [ICON_Strength] Combat Strength when attacking.[NEWLINE][ICON_Bullet]All [ICON_Unit] Military Units gain +5 [ICON_Strength] Combat Strength against City-States and their [ICON_Unit] Units.[NEWLINE][ICON_Bullet]-50% [ICON_Envoy] Envoy token points per turn.[NEWLINE][ICON_Bullet]City Maintenance increases by 4 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- CHAUVINSIM POLICY -->
+		<Row	Tag="LOC_POLICY_STR_CHAUVINISM_NAME"												Language="en_US">
+			<Text>Chauvinism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CHAUVINISM_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Melee and Anti-Cavalry class Units gain +7 [ICON_Strength] Combat Strength on their own [ICON_Terrain] Continent.[NEWLINE][ICON_Bullet]All [ICON_Unit] Military Units gain +5 [ICON_Strength] Combat Strength against City-States and their [ICON_Unit] Units.[NEWLINE][ICON_Bullet]-50% [ICON_Envoy] Envoy token points per turn.[NEWLINE][ICON_Bullet]City Maintenance increases by 4 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- GUERILLA TACTICS POLICY -->
+		<Row	Tag="LOC_POLICY_STR_GUERILLA_TACTICS_NAME"											Language="en_US">
+			<Text>Guerilla Tactics</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_GUERILLA_TACTICS_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Recon, Melee, Anti-Cavalry, and Ranged class Units gain +3 [ICON_Strength] Combat Strength while on [ICON_Terrain] Hills, Jungle, Woods, or Marsh.[NEWLINE][ICON_Bullet]City Maintenance increases by 3 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- TRENCH WARFARE TACTICS POLICY -->
+		<Row	Tag="LOC_POLICY_STR_TRENCH_WARFARE_TACTICS_NAME"									Language="en_US">
+			<Text>Trench Warfare Tactics</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_TRENCH_WARFARE_TACTICS_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Ranged class Units gain +7 [ICON_Strength] Combat Strength against [ICON_Unit] Land Melee and Anti-Cavalry class Units.[NEWLINE][ICON_Bullet]City Maintenance increases by 5 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- INTERVENTIONISM POLICY (Unreleased) -->
+		<Row	Tag="LOC_POLICY_STR_INTERVENTIONISM_NAME"											Language="en_US">
+			<Text>Interventionism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_INTERVENTIONISM_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+7 [ICON_Strength] Combat Strength against players in a [ICON_GLORY_GOLDEN_AGE] Golden Age or [ICON_GLORY_SUPER_GOLDEN_AGE] Heroic Age and Free Cities.[NEWLINE][ICON_Bullet]City Maintenance increases by 2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- COMBAT ENGINEERS -->
+		<Row	Tag="LOC_POLICY_STR_COMBAT_ENGINEERS_NAME"											Language="en_US">
+			<Text>Combat Engineers</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_COMBAT_ENGINEERS_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Military Engineers gain +25 [ICON_Strength] Combat Strength against [ICON_District] Districts.[NEWLINE][ICON_Bullet]+30% [ICON_Production] Production towards [ICON_Unit] Military Engineers.[NEWLINE][ICON_Bullet]City Maintenance increaes by 2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- WAR MEASURES ACT POLICY -->
+		<Row	Tag="LOC_POLICY_STR_WAR_MEASURES_ACT_NAME"											Language="en_US">
+			<Text>War Measures Act</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_WAR_MEASURES_ACT_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Production] Production for 5 turns after being declared war upon or liberating a City.</Text>
+		</Row>
+		<!-- EDUCATION INITIATIVE POLICY -->
+		<Row	Tag="LOC_POLICY_STR_EDUCATION_INITIATIVE_NAME"										Language="en_US">
+			<Text>Education Initiative</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_EDUCATION_INITIATIVE_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+15% [ICON_Science] Science in all Cities while the player is at peace.</Text>
+		</Row>
+		<!-- AVANT GARDE POLICY -->
+		<Row	Tag="LOC_POLICY_STR_AVANT_GARDE_NAME"												Language="en_US">
+			<Text>Avant Garde</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_AVANT_GARDE_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+15% [ICON_Culture] Culture in all Cities while the player is at peace.</Text>
+		</Row>
+		<!-- SPLENDID ISOLATION POLICY -->
+		<Row	Tag="LOC_POLICY_STR_SPLENDID_ISOLATION_NAME"										Language="en_US">
+			<Text>Splendid Isolation</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_SPLENDID_ISOLATION_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+15% [ICON_Production] Production in all Cities while the player is at peace.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

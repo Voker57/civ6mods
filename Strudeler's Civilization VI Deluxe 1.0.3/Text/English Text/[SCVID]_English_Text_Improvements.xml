@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Improvements -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 8:39:59 PM -->
+<GameData>
+
+	<!-- IMPROVEMENTS -->
+	<LocalizedText>
+		<!-- BARBARIAN OUTPOST DESCRIPTION -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_BARBARIAN_CAMP_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Spawns [ICON_Barbarian] Barbarians.[NEWLINE][ICON_Icon]Gain [ICON_Gold] Gold when a [ICON_Unit] Unit destroys it.[NEWLINE][ICON_Bullet]-1 Appeal."/>
+		</Update>
+		<!-- METEOR SITE DESCRIPTION -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_METEOR_GOODY_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]A mysterious boon from heaven."/>
+		</Update>
+		<!-- FARM IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_FARM_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+0.5 [ICON_Housing] Housing and +1 [ICON_Food] Food.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food from every two adjacent [ICON_Charges] Farms; becomes +2 [ICON_Food] Food at the [ICON_Culture] Feudalism Civic; the [ICON_Culture] Feudalism bonus becomes obsolete at [ICON_Science] Replaceable Parts Technology as adjacency is applied for every 1 [ICON_Charges] Farm.[NEWLINE][ICON_Bullet]Gain various [ICON_Food] Food adjacencies from various [ICON_District] Districts and [ICON_Charges] Improvements.[NEWLINE][ICON_Bullet]Adjacent [ICON_Charges] Mines reduce [ICON_Food] Food."/>
+		</Update>
+		<!-- MINE IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MINE_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Production] Production.[NEWLINE][ICON_Bullet]-2 [ICON_Food] Food.[NEWLINE][ICON_Bullet]-1 Appeal.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production with the [ICON_Science] Apprenticeship Technology; +1 [ICON_Production] Production with the [ICON_Science] Industrialization Technology; +1 [ICON_Production] Production with the [ICON_Science] Smart Materials Technology.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production from every 2 adjacent [ICON_Charges] Mines.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production from every adjacent [ICON_Charges] Quarry.[NEWLINE][ICON_Bullet]Adjacent [ICON_Charges] Farms, Plantations, and Lumber Mills lose [ICON_Food] Food."/>
+		</Update>
+		<!-- QUARRY IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_QUARRY_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Production] Production.[NEWLINE][ICON_Bullet]-2 [ICON_Food] Food.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production at the [ICON_Science] Gunpowder Technology; +1 [ICON_Production] Production at the [ICON_Science] Rocketry Technology; +1 [ICON_Production] Production at the [ICON_Science] Predictive Systems Technology.[NEWLINE][ICON_Bullet]Standard [ICON_Production] Production adjacencies from various [ICON_Charges] Improvements."/>
+		</Update>
+		<!-- PLANTATION IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_PLANTATION_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+0.5 [ICON_Housing] Housing and +2 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production from every 2 adjacent [ICON_Charges] Haciendas; becomes every Hacienda at the [ICON_Science] Rapid Deployment Technology.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture from every 2 adjacent [ICON_Charges] Châteaus.[NEWLINE][ICON_Bullet]Gain various [ICON_Gold] Gold adjacencies from various [ICON_Charges] Improvements.[NEWLINE][ICON_Bullet]Adjacent [ICON_Charges] Mines reduce [ICON_Food] Food in [ICON_Charges] Plantations."/>
+		</Update>
+		<!-- CAMP IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_CAMP_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+0.5 [ICON_Housing] Housing and +2 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food and [ICON_Production] Production at the [ICON_Culture] Mercantilism Civic.[NEWLINE][ICON_Bullet]+2 [ICON_Gold] Gold at the [ICON_Science] Synthetic Materials Technology.[NEWLINE][ICON_Bullet]Gain various [ICON_Food] Food and [ICON_Gold] Gold adjacencies from various [ICON_Charges] Improvements."/>
+		</Update>
+		<!-- PASTURE IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_PASTURE_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+0.5 [ICON_Housing] Housing and +1 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production at the [ICON_Science] Replaceable Parts Technology.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food at the [ICON_Science] Robotics Technology.[NEWLINE][ICON_Bullet]Gain various [ICON_Food] Food adjacencies from various [ICON_Charges] Improvements.[NEWLINE][ICON_Bullet]Gain various [ICON_Production] Production adjacencies from various [ICON_Charges] Improvements."/>
+		</Update>
+		<!-- FISHING BOAT IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_FISHING_BOATS_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+0.5 [ICON_Housing] Housing and [ICON_Food] Food.[NEWLINE][ICON_Bullet]+2 [ICON_Gold] Gold at the [ICON_Science] Cartography Technology.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food at the [ICON_Science] Plastics Technology.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production at the [ICON_Culture] Colonialism Civic.[NEWLINE][ICON_Bullet]+2 [ICON_Food] Food from adjacent [ICON_DISTRICT_NEIGHBORHOOD] Neighborhood.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production from adjacent [ICON_Charges] Seastead."/>
+		</Update>
+		<!-- LUMBER MILL IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_LUMBER_MILL_EXPANSION2_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Buildable on [ICON_Terrain] Woods; buildable on [ICON_Terrain] Rainforest at the [ICON_Culture] Mercantilism Civic.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production at the [ICON_Science] Steel Technology; +1 [ICON_Production] Production at the [ICON_Science] Cybernetics Technology.[NEWLINE][ICON_Bullet]-1 Appeal.[NEWLINE][ICON_Bullet]Adjacent [ICON_Charges] Mines reduce [ICON_Food] Food in [ICON_Charges] Lumber Mills."/>
+		</Update>
+		<!-- FORT IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_FORT_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification."/>
+		</Update>
+		<!-- ROMAN FORT IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_ROMAN_FORT_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Rome and buildable by [ICON_Unit] Roman Legions.[NEWLINE][ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification."/>
+		</Update>
+		<!-- AIRSTRIP IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_AIRSTRIP_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+3 [ICON_Unit] Aircraft slots.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Flat Terrain.[NEWLINE][ICON_Bullet]-1 Appeal."/>
+		</Update>
+		<!-- SEASIDE RESORT IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_BEACH_RESORT_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+6 [ICON_Tourism] Tourism and [ICON_Gold] Gold, equal to the Breathtaking Appeal it must be built on.[NEWLINE][ICON_Bullet]Buildable on [ICON_Terrain] Flat Coastal Desert, Grassland, Plains, and Volcanic Soil."/>
+		</Update>
+		<!-- GEOTHERMAL PLANT IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_GEOTHERMAL_PLANT_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Science] Science and +2 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+4 [ICON_Power] Power.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] Geothermal Fissure."/>
+		</Update>
+		<!-- WIND FARM IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_WIND_FARM_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Production] Production and +2 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+2 [ICON_Power] Power."/>
+		</Update>
+		<!-- SOLAR FARM IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_SOLAR_FARM_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Gold] Gold and [ICON_Production] Production.[NEWLINE][ICON_Bullet]+2 [ICON_Power] Power.[NEWLINE][ICON_Bullet]Cannot be built on [ICON_Terrain] Snow tiles."/>
+		</Update>
+		<!-- OIL RIG IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_OIL_WELL_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]-1 Appeal.[NEWLINE][ICON_Bullet]Built on [ICON_Resource_Oil] Oil Resources on [ICON_Terrain] Land tiles."/>
+		</Update>
+		<!-- OFFSHORE OIL RIG IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_OFFSHORE_OIL_RIG_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]-1 Appeal.[NEWLINE][ICON_Bullet]Built on [ICON_Resource_Oil] Oil Resources on [ICON_Terrain] Coast or Lake tiles."/>
+		</Update>
+		<!-- OFFSHORE WIND FARM IMPROVMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_OFFSHORE_WIND_FARM_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+2 [ICON_Power] Power.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast or Lake tiles."/>
+		</Update>
+		<!-- SKI RESORT IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_SKI_RESORT_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Amenities] Amenity.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism equal to the [ICON_Terrain] Mountain tile's Appeal.[NEWLINE][ICON_Bullet]Cannot be built adjacent to another [ICON_Charges] Ski Resort."/>
+		</Update>
+		<!-- MISSILE SILO IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MISSILE_SILO_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Launch site for [ICON_Nuclear] Weapons of Mass Destruction."/>
+		</Update>
+		<!-- MOUNTAIN TUNNEL IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MOUNTAIN_TUNNEL_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Unit] Units can spend 2 [ICON_Movement] Movement points to traverse a [ICON_Terrain] Mountain.[NEWLINE][ICON_Bullet][ICON_TradeRoute] Trade Routes multiply [ICON_Gold] Gold by traversing them for their destination."/>
+		</Update>
+		<!-- ROADS IMPROVEMENT-->
+		<Update>
+			<Where	Tag="LOC_ROUTE_ANCIENT_ROAD_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Traders] Traders automatically build roads.[NEWLINE][ICON_Bullet]Improves [ICON_Unit] Unit [ICON_Movement] Movement."/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_ROUTE_MEDIEVAL_ROAD_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Traders] Traders automatically build roads.[NEWLINE][ICON_Bullet]Improves [ICON_Unit] Unit [ICON_Movement] Movement."/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_ROUTE_INDUSTRIAL_ROAD_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Traders] Traders automatically build roads.[NEWLINE][ICON_Bullet]Improves [ICON_Unit] Unit [ICON_Movement] Movement."/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_ROUTE_MODERN_ROAD_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Traders] Traders automatically build roads.[NEWLINE][ICON_Bullet]Improves [ICON_Unit] Unit [ICON_Movement] Movement."/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_ROUTE_RAILROAD_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Costs 1 [ICON_Resource_Iron] Iron and [ICON_Resource_Coal] Coal to build.[NEWLINE][ICON_Bullet]Improves [ICON_Unit] Unit [ICON_Movement] Movement.[NEWLINE][ICON_Bullet][ICON_TradeRoute] Trade Routes traversing [ICON_Charges] Railroads multiply [ICON_Gold] Gold at their destination."/>
+		</Update>
+		<!-- SEASTEAD IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_SEASTEAD_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Food] Food and [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production from adjacent [ICON_Charges] Fishing Boats.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture from adjacent [ICON_Terrain] Reef."/>
+		</Update>
+		<!-- ALCAZAR IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_ALCAZAR_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Granada and it's Suzerain.[NEWLINE][ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification.[NEWLINE][ICON_Bullet]+2 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]Gain [ICON_Science] Science equal to 50% of the tile's Appeal.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Gain standard [ICON_Science] Science and [ICON_Culture] Culture adjacency from various [ICON_District] Districts."/>
+		</Update>
+		<!-- BATEY IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_BATEY_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Caguana and it's Suzerain[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture from adjacent [ICON_Charges] Bonus Resources and [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Entertainment Complex; increases to +2 [ICON_Culture] Culture at the [ICON_Culture] Exploration Civic.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology."/>
+		</Update>
+		<!-- CAHOKIA MOUND IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Cahokia and it's Suzerain.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and +3 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity from the first [ICON_Charges] Cahokia Mound in a City; +1 [ICON_Amenities] from the second [ICON_Charges] Cahokia Mound at the [ICON_Culture] Natural History Civic.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food for every 2 adjacent [ICON_District] Districts; reduced to every one adjacent [ICON_District] District at [ICON_Science] Replaceable Parts Technology.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing at the [ICON_Culture] Cultural Heritage Civic.[NEWLINE][ICON_Bullet]Cannot be built next to another [ICON_Charges] Cahokia Mound."/>
+		</Update>
+		<!-- COLOSSAL HEAD IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_COLOSSAL_HEAD_EXPANSION2_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to La Venta and it's Suzerain.[NEWLINE][ICON_Bullet]+2 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_Faith] Faith from every adjacent [ICON_Terrain] Woods, Rainforest, and [ICON_DISTRICT_HOLYSITE] Holy Site.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Cannot be built on [ICON_Terrain] Snow or Snow Hill tiles."/>
+		</Update>
+		<!-- MAHAVIHARA IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MAHAVIHARA_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Nalanda and it's Suzerain.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and +2 [ICON_Science] Science.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science from adjacent [ICON_DISTRICT_CAMPUS] Campus; +1 [ICON_Science] Science from adjacent [ICON_DISTRICT_CAMPUS] Campus at the [ICON_Science] Scientific Theory Technology.[NEWLINE][ICON_Bullet]+1 [ICON_Faith] Faith from adjacent [ICON_DISTRICT_HOLYSITE] Holy Site.[NEWLINE][ICON_Bullet]Gain a random [ICON_Science] Technology the first time a [ICON_Charges] Mahavihara is built.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Flat Terrain.[NEWLINE][ICON_Bullet]Cannot be built next to another [ICON_Charges] Mahavihara."/>
+		</Update>
+		<!-- MOAI IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MOAI_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Rapa Nui and it's Suzerain.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture for every 2 adjacent [ICON_Charges] Moai; reduced to every [ICON_Charges] Moai at the [ICON_Culture] Medieval Faires Civic.[NEWLINE][ICON_Bullet]+2 [ICON_Culture] Culture if on or adjacent to [ICON_Terrain] Volcanic Soil.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture if adjacent to a [ICON_Terrain] Coast or Lake tile."/>
+		</Update>
+		<!-- MONASTERY IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MONASTERY_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Armagh and it's Suzerain.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and +2 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing at the [ICON_Culture] Colonialism Civic.[NEWLINE][ICON_Bullet]+2 Appeal.[NEWLINE][ICON_Bullet]Gain various [ICON_Faith] Faith adjacency from [ICON_District] Districts and [ICON_DISTRICT_HOLYSITE] Holy Site.[NEWLINE][ICON_Bullet]Gain major [ICON_Science] Science adjacency from [ICON_DISTRICT_CAMPUS] Campus.[NEWLINE][ICON_Bullet]Cannot be built next to another [ICON_Charges] Monastery."/>
+		</Update>
+		<!-- NAZCA LINE IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_NAZCA_LINE_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Nazca and it's Suzerain.[NEWLINE][ICON_Bullet]+1 [ICON_Faith] Faith to adjacent tiles; bonus +1 [ICON_Faith] Faith on tiles with a [ICON_Charges] Resource.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food to adjacent [ICON_Terrain] Desert and Desert Hills tiles at the [ICON_Culture] Civil Service Civic.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production to adjacent [ICON_Terrain] Flat tiles at the [ICON_Science] Mass Production Technology.[NEWLINE][ICON_Bullet]+1 Appeal.[NEWLINE][ICON_Bullet]Can only be built on [ICON_Terrain] Flat Desert tiles."/>
+		</Update>
+		<!-- TRADING DOME IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_TRADING_DOME_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Samarkand and it's Suzerain.[NEWLINE][ICON_Bullet]+2 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 Appeal.[NEWLINE][ICON_Bullet]+1 [ICON_Gold] Gold for every adjacent [ICON_Charges] Luxury Resource.[NEWLINE][ICON_Bullet]International [ICON_TradeRoute] Trade Routes gain +1 [ICON_Gold] Gold for every [ICON_Charges] Trading Dome in the origin City.[NEWLINE][ICON_Bullet]Cannot be adjacent to another [ICON_Charges] Trading Dome."/>
+		</Update>
+		<!-- CITY PARK IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to the [ICON_Governor] Surveyor Governor that has the [ICON_Promotion] Parks and Recreation Promotion.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]+2 Appeal.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity is adjacent to [ICON_Terrain] Water.[NEWLINE][ICON_Bullet]+3 [ICON_Culture] Culture if the [ICON_Governor] Surveyor Governor is in the City.[NEWLINE][ICON_Bullet]Must be built in the City where the [ICON_Governor] Governor is present."/>
+		</Update>
+		<!-- FISHERY IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_FISHERY_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to the [ICON_Governor] Surveyor Governor that has the [ICON_Promotion] Aquaculture Promotion.[NEWLINE][ICON_Bullet]+0.5 [ICON_Housing] Housing and +1 [ICON_Food] Food.[NEWLINE][ICON_Bullet]Standard [ICON_Food] Food adjacency from [ICON_Charges] Sea Resources.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production if the [ICON_Governor] Surveyor Governor is in the City.[NEWLINE][ICON_Bullet]Must be built in the City where the [ICON_Governor] Governor is present."/>
+		</Update>
+		<!-- CHATEAU IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_CHATEAU_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to France.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food, [ICON_Production] Production, [ICON_Gold] Gold, [ICON_Housing] Housing, as well as +2 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]+1 Appeal.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture if next to a [ICON_DISTRICT_WONDER] Wonder; increases to +2 [ICON_Culture] Culture at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Standard [ICON_Culture] Culture or [ICON_Gold] Gold adjacency to the [ICON_DISTRICT_THEATER] Theater Square or [ICON_DISTRICT_HOLYSITE] Holy Site.[NEWLINE][ICON_Bullet]Must be built adjacent to a [ICON_Charges] Bonus or Luxury Resource.[NEWLINE][ICON_Bullet]Cannot be built next to another [ICON_Charges] Château."/>
+		</Update>
+		<!--CHEMAMULL IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_CHEMAMULL_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Mapuche.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Standard [ICON_Faith] Faith adjacency from the [ICON_DISTRICT_HOLYSITE] Holy Site.[NEWLINE][ICON_Bullet]Gain [ICON_Culture] Culture equal to 75% of the Breathtaking Appeal it must be built on.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Cannot be built next to an adjacent [ICON_Charges] Chemamull."/>
+		</Update>
+		<!-- GOLF COURSE IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_GOLF_COURSE_XP2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Scotland.[NEWLINE][ICON_Bullet]+2 [ICON_Gold] Gold and [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]+3 Appeal.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing at the [ICON_CUlture] Globalization Civic[NEWLINE][ICON_Bullet]Standard [ICON_Culture] adjacency from various [ICON_District] Districts.[NEWLINE][ICON_Bullet]Cannot be built on [ICON_Terrain] Desert or Desert Hill tiles.[NEWLINE][ICON_Bullet]Cities can only have one [ICON_Charges] Golf Course and cannot swap tiles with a Golf Course."/>
+		</Update>
+		<!-- GREAT WALL IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_GREAT_WALL_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to China.[NEWLINE][ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification.[NEWLINE][ICON_Bullet]+2 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Major [ICON_Gold] Gold adjacency from adjacent [ICON_Charges] Great Wall segments.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Must be built in a line.[NEWLINE][ICON_Bullet]Major [ICON_Culture] Culture adjacency from adjacent [ICON_Charges] Great Wall segments at the [ICON_Science] Castles Technology.[NEWLINE][ICON_Bullet]Can be [ICON_Pillaged] Pillaged by disasters; cannot be destroyed by disasters."/>
+		</Update>
+		<!-- HACIENDA IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Gran Colombia.[NEWLINE][ICON_Bullet]+0.5 [ICON_Housing] Housing, +1 [ICON_Production] Production, and +2 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Gain various [ICON_Food] Food and [ICON_Production] Production adjacencies from various [ICON_Charges] Improvements and [ICON_District] Districts."/>
+		</Update>
+		<!-- ICE HOCKEY RICK IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_ICE_HOCKEY_RINK_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Canada.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity.[NEWLINE][ICON_Bullet]+2 Appeal.[NEWLINE][ICON_Bullet]+2 [ICON_Food] Food and [ICON_Production] Production at the [ICON_Culture] Professional Sports Civic.[NEWLINE][ICON_Bullet]Standard [ICON_Culture] Culture adjacency from [ICON_Terrain] Tundra, Tundra Hills, Snow, Snow Hills, and various [ICON_District] Districts.[NEWLINE][ICON_Bullet]+4 [ICON_Culture] Culture is adjacent to a [ICON_Buildings] Stadium.[NEWLINE][ICON_Bullet]Cities can only have one [ICON_Charges] Ice Hockey Rink and cannot swap tiles with a Ice Hockey Rink."/>
+		</Update>
+		<!-- KAMPUNG IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_KAMPUNG_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Indonesia.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production at the [ICON_Culture] Civil Engineering Civic.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing at the [ICON_Science] Mass Production Technology.[NEWLINE][ICON_Bullet]Standard [ICON_Food] Food adjacency from [ICON_Charges] Fishing Boats.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology."/>
+		</Update>
+		<!-- KURGAN IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_KURGAN_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Scythia.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and [ICON_Faith] Faith, as well as +3 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_Gold] Gold at the [ICON_Culture] Guilds Civic; +1 [ICON_Gold] Gold at the [ICON_Culture] Capitalism Civic.[NEWLINE][ICON_Bullet]Standard [ICON_Gold] Gold and [ICON_Faith] Faith adjacency from various [ICON_Charges] Improvements and [ICON_District] Districts.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism from equal to [ICON_Faith] Faith at the [ICON_Science] Flight Technology."/>
+		</Update>
+		<!-- MEKEWAP IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MEKEWAP_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Cree.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production, [ICON_Faith] Faith, and [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]Must be built next to [ICON_Charges] Resources or in [ICON_Terrain] Woods or Rainforest.[NEWLINE][ICON_Bullet]+1 [ICON_Gold] Gold if adjacent to a [ICON_Charges] Luxury Resources; +2 [ICON_Gold] Gold if adjacent to [ICON_Charges] Luxury Resources at the [ICON_Science] Cartography Technology.[NEWLINE][ICON_Bullet]Standard [ICON_Food] Food adjacency from [ICON_Charges] Bonus Resources.[NEWLINE][ICON_Bullet]Various standard adjacencies from various [ICON_District] Districts."/>
+		</Update>
+		<!-- MISSION IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MISSION_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Spain.[NEWLINE][ICON_Bullet]A [ICON_DISTRICT_CITY_CENTER] City Center gains +2 [ICON_PressureUp] Loyalty if adjacent to a [ICON_Charges] Mission.[NEWLINE][ICON_Bullet]+2 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food and [ICON_Production] Production if on a different [ICON_Terrain] Continent than the [ICON_Capital] Capital.[NEWLINE][ICON_Bullet]Standard [ICON_Science] Science adjacency from [ICON_DISTRICT_CAMPUS] Campus and [ICON_DISTRICT_HOLYSITE] Holy Site.[NEWLINE][ICON_Bullet]Various [ICON_Food] Food adjacencies from various [ICON_Charges] Improvements and [ICON_District] Districts."/>
+		</Update>
+		<!-- PYRAMID IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_PYRAMID_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Food] Food and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Various adjacencies from various [ICON_District] Districts.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Desert, Desert Hills, and Desert Floodplains."/>
+		</Update>
+		<!-- OPEN-AIR MUSEUM IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_OPEN_AIR_MUSEUM_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_PressureUp] Loyalty in the City.[NEWLINE][ICON_Bullet]Gain +2 [ICON_Culture] Culture and [ICON_Tourism] Tourism for every type of [ICON_Terrain] Terrain: Snow, Tundra, Desert, Plains, and Grassland; that a player City was founded on.[NEWLINE][ICON_Bullet]Cities can only have one [ICON_Charges] Open-Air Museum and cannot swap tiles with a Open-Air Museum."/>
+		</Update>
+		<!-- OUTBACK STATION IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_OUTBACK_STATION_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+0.5 [ICON_Housing] Housing, +1 [ICON_Food] Food and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Standard [ICON_Production] Production adjacency from [ICON_Charges] Pasture.[NEWLINE][ICON_Bullet]Gives +1 [ICON_Production] Production to [ICON_Charges] Pastures at [ICON_Science] Steam Power Technology.[NEWLINE][ICON_Bullet]Minor [ICON_Production] Production adjacency from [ICON_Charges] Outback Stations at the [ICON_Science] Steam Power Technology.[NEWLINE][ICON_Bullet]Minor [ICON_Food] Food adjacency from [ICON_Charges] Outback Stations at the [ICON_Science] Rapid Deployment Technology.[NEWLINE][ICON_Bullet]Various [ICON_Food] Food adjacancies from various [ICON_Charges] Improvements and [ICON_District] Districts."/>
+		</Update>
+		<!-- PA IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MAORI_PA_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Māori and buildable by [ICON_Unit] Māori Toa.[NEWLINE][ICON_Bullet]Occupying [ICON_Unit] Unit gains +4 [ICON_Strength] Combat Strength and 2 turn of [ICON_Fortified] Fortification.[NEWLINE][ICON_Bullet][ICON_Unit] Units that are [ICON_Fortified] Fortified on the tile heal +100 HP."/>
+		</Update>
+		<!-- PAIRIDAEZA IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_PAIRIDAEZA_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Persia.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture and +2 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+2 Appeal.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture at the [ICON_Culture] Diplomatic Service Civic.[NEWLINE][ICON_Bullet]Standard [ICON_Culture] Culture and [ICON_Gold] Gold adjacency from various [ICON_District] Districts."/>
+		</Update>
+		<!-- POLDER IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_POLDER_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to the Dutch.[NEWLINE][ICON_Bullet]+0.5 [ICON_Housing] Housing, +1 [ICON_Food] Food and [ICON_Production] Production.[NEWLINE][ICON_Bullet]+4 [ICON_Gold] Gold at the [ICON_Culture] Civil Engineering Civic.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food from adjacent [ICON_Charges] Polder; increases to +2 [ICON_Food] Food at the [ICON_Science] Replaceable Parts Technology.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production at the [ICON_Science] Repaceable Parts Technology.[NEWLINE][ICON_Bullet]Increases [ICON_Movement] Movement cost of tile to 3.[NEWLINE][ICON_Bullet]Various [ICON_Food] Food adjacencies from various [ICON_Charges] Improvements and [ICON_District] Districts."/>
+		</Update>
+		<!-- QHAPAQ NAN IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to the Inca.[NEWLINE][ICON_Bullet][ICON_Unit] Units can spend 2 [ICON_Movement] Movement points to traverse a [ICON_Terrain] Mountain.[NEWLINE][ICON_Bullet][ICON_TradeRoute] Trade Routes multiply [ICON_Gold] Gold by traversing them for their destination."/>
+		</Update>
+		<!-- ROCK-HEWN CHURCH IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_EXPANSION2_DESCRIPTION"					Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Ethiopia.[NEWLINE][ICON_Bullet]+1 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 Appeal.[NEWLINE][ICON_Bullet]Gain [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Standard [ICON_Faith] Faith adjacency from [ICON_Terrain] Hill and Mountain tiles.[NEWLINE][ICON_Bullet]Can only be built on [ICON_Terrain] Hills and Volcanic Soil.[NEWLINE][ICON_Bullet]Cannot be built next to another [ICON_Charges] Rock-Hewn Church."/>
+		</Update>
+		<!-- SPHINX IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Egypt.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture if on [ICON_Terrain] Floodplains.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture at the [ICON_Culture] Natural History Civic.[NEWLINE][ICON_Bullet]+2 [ICON_Faith] Faith if adjacent to a [ICON_DISTRICT_WONDER] Wonders.[NEWLINE][ICON_Bullet]Standard [ICON_Culture] Culture and [ICON_Faith] Faith adjacency from [ICON_District] District.[NEWLINE][ICON_Bullet]Cannot be built on [ICON_Terrain] Snow or Snow tiles.[NEWLINE][ICON_Bullet]Cannot be next to another [ICON_Charges] Sphinx."/>
+		</Update>
+		<!-- STEPWELL IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_STEPWELL_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to India.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and [ICON_Food] Food.[NEWLINE][ICON_Bullet]+1 Appeal.[NEWLINE][ICON_Bullet]+1 [ICON_Faith] Faith if adjacent to a [ICON_DISTRICT_HOLYSITE] Holy Site.[NEWLINE][ICON_Bullet]+1 [ICON_Faith] Faith at the [ICON_Culture] Feudalism Civic.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food if adjacent a [ICON_Charges] Farm.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing at the [ICON_Science] Sanitation Technology.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food at the [ICON_Culture] Professional Sports Civic.[NEWLINE][ICON_Bullet]Various [ICON_Food] Food adjacencies from various [ICON_Charges] Improvements and [ICON_District] Districts.[NEWLINE][ICON_Bullet]Prevents [ICON_Food] Food loss during drought."/>
+		</Update>
+		<!-- TERRACE FARM IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_TERRACE_FARM_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to the Inca.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and [ICON_Food] Food.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production if adjacent to [ICON_Terrain] Fresh Water +2 [ICON_Production] Production if adjacent to [ICON_DISTRICT_AQUEDUCT] Aqueduct.[NEWLINE][ICON_Bullet]Various [ICON_Food] Food adjacencies from various [ICON_Charges] Improvements and [ICON_District] Districts."/>
+		</Update>
+		<!-- ZIGGURAT IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_ZIGGURAT_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Sumeria.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science, [ICON_Gold] Gold, and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture if adjacent to a [ICON_Terrain] River.[NEWLINE][ICON_Bullet]Bonus [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith from every 2 adjacent [ICON_Charges] Ziggurats; bonus [ICON_Faith] Faith from adjacent [ICON_DISTRICT_HOLYSITE] Holy Site."/>
+		</Update>
+		<!-- FEITORIA IMPROVEMENT -->
+		<Update>
+			<Where	Tag="LOC_IMPROVEMENT_FEITORIA_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Portugal.[NEWLINE][ICON_Bullet]Must be built by the [ICON_Unit] Nau in foreign territory.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production and +4 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Portuguese [ICON_TradeRoute] Trade Routes gain +1 [ICON_Production] Production and +4 [ICON_Gold] Gold when trading per [ICON_Charges] Feitoria in a City.[NEWLINE][ICON_Bullet]Must be built on Coast or Lake tile next to a [ICON_Charges] Bonus or Luxury Resource and cannot be built next to another Feitoria.[NEWLINE][ICON_Bullet]Cannot be removed or destroyed."/>
+		</Update>
+	</LocalizedText>
+	
+	<!-- ZOMBIES MODE NEW IMPROVEMENTS-->
+	<EnglishText>
+		<!-- PALISADE (ANCIENT BARRICADE) -->
+		<Row Tag="LOC_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_NAME">
+			<Text>Barricade</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_DESC">
+			<Text>An unworkable early Improvement that deals minor damage to, and exerts zone of control on, hostile units passing through or adjacent to it. Unlocked with Military Engineering and built using a Builder Charge. Does not prevent unit movement through this space.</Text>
+		</Row>
+		<!-- BARBED WIRE (MODERN BARRICADE) -->
+		<Row Tag="LOC_IMPROVEMENT_MODERN_TOWER_DEFENSE_NAME">
+			<Text>Reinforced Barricade</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_MODERN_TOWER_DEFENSE_DESC">
+			<Text>An unworkable later Improvement that deals moderate damage to, and exerts zone of control on, hostile units passing through or adjacent to it. Unlocked with Rifling and built using a Charge from a Military Engineer. Does not prevent unit movement through this space.</Text>
+		</Row>
+		<!-- OUTPOST (ANCIENT TRAP)-->
+		<Row Tag="LOC_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_NAME">
+			<Text>Trap</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_DESC">
+			<Text>An unworkable early Improvement that deals moderate damage to, and depletes the movement of, hostile units passing directly through it. Unlocked with Construction and built using a Builder Charge. Does not prevent unit movement through this space.</Text>
+		</Row>
+		<!-- MINEFIELD (TRAP) -->
+		<Row Tag="LOC_IMPROVEMENT_MODERN_TRAP_DEFENSE_NAME">
+			<Text>Modernized Trap</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_MODERN_TRAP_DEFENSE_DESC">
+			<Text>An unworkable later Improvement that deals significant damage to, and depletes the movement of, hostile units passing directly through it. Unlocked with Ballistics and built using a Charge from a Military Engineer. Does not prevent unit movement through this space.</Text>
+		</Row>
+	</EnglishText>
+
+	<EnglishText>
+		<!-- PALISADE (ANCIENT BARRICADE) -->
+		<Row		Tag="LOC_IMPROVEMENT_STR_ANCIENT_TOWER_DEFENSE_NAME">
+			<Text>Palisade</Text>
+		</Row>
+		<Row		Tag="LOC_IMPROVEMENT_STR_ANCIENT_TOWER_DEFENSE_DESC">
+			<Text>[ICON_Bullet]A early [ICON_Charges] Wall that deals moderate [ICON_Damaged] Damage and Exerts Zone of control on enemy [ICON_Unit] Units.[NEWLINE][ICON_Bullet]-1 [ICON_FOOD] Food, [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Production] Production, [ICON_Gold] Gold, [ICON_Faith] Faith, and Appeal.</Text>
+		</Row>
+		<!-- BARBED WIRE (MODERN BARRICADE) -->
+		<Row		Tag="LOC_IMPROVEMENT_STR_MODERN_TOWER_DEFENSE_NAME">
+			<Text>Barbed Wire</Text>
+		</Row>
+		<Row		Tag="LOC_IMPROVEMENT_STR_MODERN_TOWER_DEFENSE_DESC">
+			<Text>[ICON_Bullet]A late [ICON_Charges] Wall that deals moderate [ICON_Damaged] Damage and Exerts Zone of control to enemy [ICON_Unit] Units.[NEWLINE][ICON_Bullet]-1 Appeal.</Text>
+		</Row>
+		<!-- OUTPOST (ANCIENT TRAP)-->
+		<Row		Tag="LOC_IMPROVEMENT_STR_ANCIENT_TRAP_DEFENSE_NAME">
+			<Text>Outpost</Text>
+		</Row>
+		<Row		Tag="LOC_IMPROVEMENT_STR_ANCIENT_TRAP_DEFENSE_DESC">
+			<Text>[ICON_Bullet]A early [ICON_Charges] Trap that deals moderate [ICON_Damaged] Damage to enemy [ICON_Unit] Units.[NEWLINE][ICON_Bullet]-1 [ICON_FOOD] Food, [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Production] Production, [ICON_Gold] Gold, [ICON_Faith] Faith, and Appeal.</Text>
+		</Row>
+		<!-- MINEFIELD (TRAP) -->
+		<Row		Tag="LOC_IMPROVEMENT_STR_MODERN_TRAP_DEFENSE_NAME">
+			<Text>Minefield</Text>
+		</Row>
+		<Row		Tag="LOC_IMPROVEMENT_STR_MODERN_TRAP_DEFENSE_DESC">
+			<Text>[ICON_Bullet]A late [ICON_Charges] Trap that deals moderate [ICON_Damaged] Damage to enemy [ICON_Unit] Units.[NEWLINE][ICON_Bullet]-1 Appeal.</Text>
+		</Row>
+	</EnglishText>
+
+	<!-- IMPROVEMENT ADJACENCIES -->
+	<LocalizedText>
+		<!-- FARM BONUSES -->
+		<Row		Tag="LOC_STR_FARM_FOOD_1_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Aqueduct.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_2_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Bath.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_3_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Neighborhood.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_4_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Mbanza.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_5_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Dam.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_6_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Farm.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_7_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Terrace Farm.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_8_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Camp.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_9_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Plantation.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_10_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Stepwell.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_11_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Outback Station.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_12_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Polder.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_FOOD_13_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Hacienda.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_STARVE_1_DESCRIPTION"											Language="en_US">
+			<Text>-{1_Num} [ICON_Food] from adjacent Mine.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_FARM_STARVE_2_DESCRIPTION"											Language="en_US">
+			<Text>-{1_Num} [ICON_Food] from two adjacent Mines.</Text>
+		</Row>
+		<!-- MINES BONUSES -->
+		<Row		Tag="LOC_STR_MINE_PRODUCTION_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Mines.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MINE_PRODUCTION_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from two adjacent Quarry.</Text>
+		</Row>
+		<!-- QUARRIES BONUSES -->
+		<Row		Tag="LOC_STR_QUARRY_PRODUCTION_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Quarry.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_QUARRY_PRODUCTION_2_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Pasture.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_QUARRY_PRODUCTION_3_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Mine.</Text>
+		</Row>
+		<!-- CAMP BONUSES -->
+		<Row		Tag="LOC_STR_CAMP_FOOD_1_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Camp.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CAMP_FOOD_2_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Commercial Hub.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CAMP_FOOD_3_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Lumber Mill.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CAMP_GOLD_1_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Camp.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CAMP_GOLD_2_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Commercial Hub.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CAMP_GOLD_3_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Kurgan.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CAMP_GOLD_4_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Lumber Mills.</Text>
+		</Row>
+		<!-- PASTURE BONUSES -->
+		<Row		Tag="LOC_STR_PASTURE_PRODUCTION_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Pasture.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PASTURE_PRODUCTION_2_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Outback Station.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PASTURE_PRODUCTION_3_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Farms.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PASTURE_PRODUCTION_4_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] from adjacent Terrace Farms.</Text>
+		</Row>
+		<!-- SPHINX BONUSES -->
+		<Row		Tag="LOC_STR_SPHINX_CULTURE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater Square.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_SPHINX_CULTURE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_SPHINX_FAITH_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_SPHINX_FAITH_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Lavra.</Text>
+		</Row>
+		<!-- KURGAN BONUSES -->
+		<Row		Tag="LOC_STR_KURGAN_GOLD_1_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Kurgan.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_KURGAN_GOLD_2_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Commercial Hub.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_KURGAN_GOLD_3_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Suguba.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_KURGAN_GOLD_4_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Camp.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_KURGAN_FAITH_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Kurgan.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_KURGAN_FAITH_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_KURGAN_FAITH_3_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Lavra.</Text>
+		</Row>
+	<!--<Row		Tag="LOC_STR_KURGAN_FAITH_4_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Pasture.</Text>
+		</Row>-->
+		<!-- CHATEAU BONUSES -->
+		<Row		Tag="LOC_STR_CHATEAU_GOLD_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Commercial Hub.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CHATEAU_GOLD_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Suguba.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CHATEAU_CULTURE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater Square.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CHATEAU_CULTURE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>
+		<!-- ZIGGURAT BONUSES -->
+	<!--<Row		Tag="LOC_STR_ZIGGURAT_SCIENCE_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Science] from adjacent Ziggurats.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ZIGGURAT_CULTURE_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Ziggurats.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ZIGGURAT_FAITH_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Ziggurats.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ZIGGURAT_FAITH_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ZIGGURAT_FAITH_3_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Lavra.</Text>
+		</Row>-->
+		<!-- PYRAMID BONUSES -->
+		<Row		Tag="LOC_STR_PYRAMID_PRODUCTION_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Encampment.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PYRAMID_PRODUCTION_2_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Aerodrome.</Text>
+		</Row>
+		<!-- PAIRIDAEZA  BONUSES -->
+		<Row		Tag="LOC_STR_PAIRIDAEZA_GOLD_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Commercial Hub.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PAIRIDAEZA_GOLD_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Suguba.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PAIRIDAEZA_GOLD_3_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Entertainment Complex.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PAIRIDAEZA_GOLD_4_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Street Carnival.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PAIRIDAEZA_GOLD_5_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Hippodrome.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PAIRIDAEZA_CULTURE_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater Square.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PAIRIDAEZA_CULTURE_2_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PAIRIDAEZA_CULTURE_3_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Entertainment Complex.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_PAIRIDAEZA_CULTURE_4_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Street Carnival.</Text>
+		</Row>-->
+		<!-- CITY PARK BONUSES -->
+		<Row		Tag="LOC_STR_CITY_PARK_CULTURE_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Entertainment Complex.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CITY_PARK_CULTURE_2_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Street Carnival.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CITY_PARK_CULTURE_3_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Hippodrome.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CITY_PARK_CULTURE_4_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Water Park.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CITY_PARK_CULTURE_5_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Copacobana.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CITY_PARK_CULTURE_6_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater Square.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CITY_PARK_CULTURE_7_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>
+		<!-- MEKEWAP BONUSES -->
+		<Row		Tag="LOC_STR_MEKEWAP_PRODUCTION_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Industrial Zone.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_PRODUCTION_2_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Hansa.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_PRODUCTION_3_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Oppidum.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_SCIENCE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Campus.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_SCIENCE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Seowon.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_SCIENCE_3_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Production] from adjacent Observatory.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_CULTURE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater Square.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_CULTURE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_GOLD_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Commercial Hub.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_GOLD_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Suguba.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_GOLD_3_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Harbor.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_GOLD_4_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Royal Navy Dockyard.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_GOLD_5_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Cothon.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_FAITH_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MEKEWAP_FAITH_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Lavra.</Text>
+		</Row>
+		<!-- CHEMAMULL BONUSES -->
+		<Row		Tag="LOC_STR_CHEMAMULL_FAITH_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CHEMAMULL_FAITH_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Lavra.</Text>
+		</Row>
+		<!-- GOLF COURSE BONUSES -->
+		<Row		Tag="LOC_STR_GOLF_COURSE_CULTURE_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Street Carnival.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_GOLF_COURSE_CULTURE_2_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Hippodrome.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_GOLF_COURSE_CULTURE_3_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Water Park.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_GOLF_COURSE_CULTURE_4_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Copacobana.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_GOLF_COURSE_CULTURE_5_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater Square.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_GOLF_COURSE_CULTURE_6_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_GOLF_COURSE_CULTURE_7_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Government Plaza.</Text>
+		</Row>
+		<!-- ICE HOCKEY RINK BONUSES -->
+		<Row		Tag="LOC_STR_ICE_HOCKEY_RINK_CULTURE_1_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ICE_HOCKEY_RINK_CULTURE_2_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ICE_HOCKEY_RINK_CULTURE_3_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Entertainment Complex.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ICE_HOCKEY_RINK_CULTURE_4_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Street Carnival.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ICE_HOCKEY_RINK_CULTURE_5_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Hippodrome.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ICE_HOCKEY_RINK_CULTURE_6_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Water Park.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ICE_HOCKEY_RINK_CULTURE_7_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Copacobana.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ICE_HOCKEY_RINK_CULTURE_8_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Government Plaza.</Text>
+		</Row>
+		<!-- OPEN-AIR MUSEUM BONUSES -->
+		<Row		Tag="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_1_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_2_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_3_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Entertainment Complex.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_4_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Street Carnival.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_5_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Water Park.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_6_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Copacobana.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_7_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Government Plaza.</Text>
+		</Row>
+		<!-- ALCAZAR BONUSES -->
+		<Row		Tag="LOC_STR_ALCAZAR_CULTURE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater Square.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ALCAZAR_CULTURE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ALCAZAR_SCIENCE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Campus.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ALCAZAR_SCIENCE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Seowon.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ALCAZAR_SCIENCE_3_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Observatory.</Text>
+		</Row>
+		<!-- CAHOKIA MOUND BONUSES -->
+		<Row		Tag="LOC_STR_MOUND_GOLD_1_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MOUND_GOLD_2_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Lavra.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MOUND_GOLD_3_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Commercial Hub.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MOUND_GOLD_4_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] from adjacent Suguba.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MOUND_FAITH_1_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MOUND_FAITH_2_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Lavra.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MOUND_FAITH_3_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Commercial Hub.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MOUND_FAITH_4_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Suguba.</Text>
+		</Row>
+		<!-- COLOSSAL HEAD BONUSES -->
+		<Row		Tag="LOC_STR_COLOSSAL_HEAD_FAITH_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_COLOSSAL_HEAD_FAITH_2_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Lavra.</Text>
+		</Row>
+		<!-- MOAI BONUSES -->
+		<Row		Tag="LOC_STR_MOAI_CULTURE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MOAI_CULTURE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>-->
+		<!-- MONASTERY BONUSES -->
+		<Row		Tag="LOC_STR_MONASTERY_FAITH_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MONASTERY_FAITH_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MONASTERY_SCIENCE_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Science] from adjacent Campus.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MONASTERY_SCIENCE_2_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Science] from adjacent Seowon.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MONASTERY_SCIENCE_3_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Science] from adjacent Observatory.</Text>
+		</Row>
+		<!-- MISSION BONUSES -->
+		<Row		Tag="LOC_STR_MISSION_SCIENCE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] from adjacent Seowon.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_MISSION_SCIENCE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] from adjacent Observatory.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

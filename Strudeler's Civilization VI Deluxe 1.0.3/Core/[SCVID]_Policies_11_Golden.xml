@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Policies_11_Golden -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 12:15:59 PM -->
+<GameData>
+	
+	<!-- GOLDEN AGE POLICIES -->
+	<Types>
+		<!-- LOVE OF WISDOM -->
+		<Row	Type="POLICY_GOLDEN_STR_LOVE_OF_WISDOM"
+				Kind="KIND_POLICY"/>
+		<!-- MANDALA STATE -->
+		<Row	Type="POLICY_GOLDEN_STR_MANDALA_STATE"
+				Kind="KIND_POLICY"/>
+		<!-- NATURALISM -->
+		<Row	Type="POLICY_GOLDEN_STR_NATURALISM"
+				Kind="KIND_POLICY"/>
+		<!-- MILITARY MARCHES (Unreleased) -->
+	<!--<Row	Type="POLICY_GOLDEN_STR_MILITARY_MARCHES"
+				Kind="KIND_POLICY"/>-->
+		<!-- SAKDINA (Unreleased) -->
+	<!--<Row	Type="POLICY_GOLDEN_STR_SAKDINA"
+				Kind="KIND_POLICY"/>-->
+		<!-- MANDATE OF HEAVEN -->
+		<Row	Type="POLICY_GOLDEN_STR_MANDATE_OF_HEAVEN"
+				Kind="KIND_POLICY"/>
+		<!-- TREASURE SHIPS -->
+		<Row	Type="POLICY_GOLDEN_STR_TREASURE_SHIPS"
+				Kind="KIND_POLICY"/>
+		<!-- AGE OF GUNPOWDER -->
+		<Row	Type="POLICY_GOLDEN_STR_AGE_OF_GUNPOWDER"
+				Kind="KIND_POLICY"/>
+		<!-- STEAM AGE -->
+		<Row	Type="POLICY_GOLDEN_STR_STEAM_AGE"
+				Kind="KIND_POLICY"/>
+		<!-- MASS ENTERTAINMENT -->
+		<Row	Type="POLICY_GOLDEN_STR_MASS_ENTERTAINMENT"
+				Kind="KIND_POLICY"/>
+		<!-- SOLIDARITY -->
+		<Row	Type="POLICY_GOLDEN_STR_SOLIDARITY"
+				Kind="KIND_POLICY"/>
+		<!-- PROLETARIAT VICTORY -->
+		<Row	Type="POLICY_GOLDEN_STR_PROLETARIAT_VICTORY"
+				Kind="KIND_POLICY"/>
+		<!-- TOURISM MIRACLE -->
+		<Row	Type="POLICY_GOLDEN_STR_TOURISM_MIRACLE"
+				Kind="KIND_POLICY"/>
+		<!-- BLOC LEADERSHIP -->
+		<Row	Type="POLICY_GOLDEN_STR_BLOC_LEADERSHIP"
+				Kind="KIND_POLICY"/>
+	</Types>
+
+	<!-- GOLDEN AGE POLICIES -->
+	<Policies>
+		<!-- LOVE OF WISDOM -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_LOVE_OF_WISDOM"
+				Name="LOC_POLICY_GOLDEN_STR_LOVE_OF_WISDOM_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_LOVE_OF_WISDOM_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- MANDALA STATE -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_MANDALA_STATE"
+				Name="LOC_POLICY_GOLDEN_STR_MANDALA_STATE_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_MANDALA_STATE_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- NATURALISM -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_NATURALISM"
+				Name="LOC_POLICY_GOLDEN_STR_NATURALISM_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_NATURALISM_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- MILITARY MARCHES -->
+	<!--<Row	PolicyType="POLICY_GOLDEN_STR_MILITARY_MARCHES"
+				Name="LOC_POLICY_GOLDEN_STR_MILITARY_MARCHES_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_MILITARY_MARCHES_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>-->
+		<!-- SAKDINA (Unreleased) -->
+	<!--<Row	PolicyType="POLICY_GOLDEN_STR_SAKDINA"
+				Name="LOC_POLICY_GOLDEN_STR_SAKDINA_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_SAKDINA_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>-->
+		<!-- MANDATE OF HEAVEN -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_MANDATE_OF_HEAVEN"
+				Name="LOC_POLICY_GOLDEN_STR_MANDATE_OF_HEAVEN_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_MANDATE_OF_HEAVEN_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- TREASURE SHIPS -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_TREASURE_SHIPS"
+				Name="LOC_POLICY_GOLDEN_STR_TREASURE_SHIPS_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_TREASURE_SHIPS_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- AGE OF GUNPOWDER -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_AGE_OF_GUNPOWDER"
+				Name="LOC_POLICY_GOLDEN_STR_AGE_OF_GUNPOWDER_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_AGE_OF_GUNPOWDER_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- STEAM AGE -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_STEAM_AGE"
+				Name="LOC_POLICY_GOLDEN_STR_STEAM_AGE_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_STEAM_AGE_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- MASS ENTERTAINMENT -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_MASS_ENTERTAINMENT"
+				Name="LOC_POLICY_GOLDEN_STR_MASS_ENTERTAINMENT_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_MASS_ENTERTAINMENT_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- SOLIDARITY -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_SOLIDARITY"
+				Name="LOC_POLICY_GOLDEN_STR_SOLIDARITY_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_SOLIDARITY_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- PROLETARIAT VICTORY -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_PROLETARIAT_VICTORY"
+				Name="LOC_POLICY_GOLDEN_STR_PROLETARIAT_VICTORY_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_PROLETARIAT_VICTORY_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- TOURISM MIRACLE -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_TOURISM_MIRACLE"
+				Name="LOC_POLICY_GOLDEN_STR_TOURISM_MIRACLE_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_TOURISM_MIRACLE_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+		<!-- BLOC LEADERSHIP -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_BLOC_LEADERSHIP"
+				Name="LOC_POLICY_GOLDEN_STR_BLOC_LEADERSHIP_NAME"
+				Description="LOC_POLICY_GOLDEN_STR_BLOC_LEADERSHIP_DESCRIPTION"
+				GovernmentSlotType="SLOT_WILDCARD"/>
+	</Policies>
+
+	<!-- DARK AGE POLICIES -->
+	<Policies_XP1>
+		<!-- LOVE OF WISDOM -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_LOVE_OF_WISDOM"
+				MinimumGameEra="ERA_CLASSICAL"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- MANDALA STATE -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_MANDALA_STATE"
+				MinimumGameEra="ERA_CLASSICAL"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- NATURALISM -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_NATURALISM"
+				MinimumGameEra="ERA_CLASSICAL"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- MILITARY MARCHES -->
+	<!--<Row	PolicyType="POLICY_GOLDEN_STR_MILITARY_MARCHES"
+				MinimumGameEra="ERA_CLASSICAL"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>-->
+		<!-- SAKDINA (Unreleased) -->
+	<!--<Row	PolicyType="POLICY_GOLDEN_STR_SAKDINA"
+				MinimumGameEra="ERA_MEDIEVAL"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>-->
+		<!-- MANDATE OF HEAVEN -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_MANDATE_OF_HEAVEN"
+				MinimumGameEra="ERA_MEDIEVAL"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- TREASURE SHIPS -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_TREASURE_SHIPS"
+				MinimumGameEra="ERA_RENAISSANCE"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- AGE OF GUNPOWDER -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_AGE_OF_GUNPOWDER"
+				MinimumGameEra="ERA_RENAISSANCE"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- STEAM AGE -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_STEAM_AGE"
+				MinimumGameEra="ERA_INDUSTRIAL"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- MASS ENTERTAINMENT -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_MASS_ENTERTAINMENT"
+				MinimumGameEra="ERA_INDUSTRIAL"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- SOLIDARITY -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_SOLIDARITY"
+				MinimumGameEra="ERA_MODERN"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- PROLETARIAT VICTORY -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_PROLETARIAT_VICTORY"
+				MinimumGameEra="ERA_MODERN"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- TOURISM MIRACLE -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_TOURISM_MIRACLE"
+				MinimumGameEra="ERA_ATOMIC"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+		<!-- BLOC LEADERSHIP -->
+		<Row	PolicyType="POLICY_GOLDEN_STR_BLOC_LEADERSHIP"
+				MinimumGameEra="ERA_ATOMIC"
+				MaximumGameEra="ERA_FUTURE"
+				RequiresGoldenAge="true"/>
+	</Policies_XP1>
+
+</GameData>

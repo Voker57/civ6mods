@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+	<Technologies>
+		<Update><Where TechnologyType="TECH_SYNTHETIC_MATERIALS"/><Set><Description>LOC_TECH_SYNTHETIC_MATERIALS_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Technologies>
+
+	<ImprovementModifiers>
+		<Row><ImprovementType>IMPROVEMENT_PASTURE</ImprovementType><ModifierId>EPSMOD_HORSE_AMENITY</ModifierId></Row>
+	</ImprovementModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>EPSMOD_HORSE_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+			<SubjectRequirementSetId>EPSMOD_HORSE_AMENITY_CONDITIONS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_HORSE_AMENITY</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_HORSE_AMENITY_CONDITIONS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_HORSE_AMENITY_CONDITIONS</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_PLOT_HAS_HORSES</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_HORSE_AMENITY_CONDITIONS</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_AT_SYNTH_MATERIALS</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_PLOT_HAS_HORSES</RequirementId><RequirementType>REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_AT_SYNTH_MATERIALS</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_PLOT_HAS_HORSES</RequirementId><Name>ResourceType</Name><Value>RESOURCE_HORSES</Value></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_AT_SYNTH_MATERIALS</RequirementId><Name>TechnologyType</Name><Value>TECH_SYNTHETIC_MATERIALS</Value></Row>
+	</RequirementArguments>
+	
+</GameData>

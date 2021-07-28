@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Religions_01 -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 11:51:31 AM -->
+<GameData>
+
+<!-- DELETE VANILLA RELIGIONS -->
+	<Religions>
+		<Delete ReligionType="RELIGION_BUDDHISM"/>
+		<Delete ReligionType="RELIGION_CATHOLICISM"/>
+		<Delete ReligionType="RELIGION_CONFUCIANISM"/>
+		<Delete ReligionType="RELIGION_HINDUISM"/>
+		<Delete ReligionType="RELIGION_ISLAM"/>
+		<Delete ReligionType="RELIGION_JUDAISM"/>
+		<Delete ReligionType="RELIGION_ORTHODOXY"/>
+		<Delete ReligionType="RELIGION_PROTESTANTISM"/>
+		<Delete ReligionType="RELIGION_SHINTO"/>
+		<Delete ReligionType="RELIGION_SIKHISM"/>
+		<Delete ReligionType="RELIGION_TAOISM"/>
+		<Delete ReligionType="RELIGION_ZOROASTRIANISM"/>
+		<Delete ReligionType="RELIGION_CUSTOM_1"/>
+		<Delete ReligionType="RELIGION_CUSTOM_2"/>
+		<Delete ReligionType="RELIGION_CUSTOM_3"/>
+		<Delete ReligionType="RELIGION_CUSTOM_4"/>
+		<Delete ReligionType="RELIGION_CUSTOM_5"/>
+		<Delete ReligionType="RELIGION_CUSTOM_6"/>
+		<Delete ReligionType="RELIGION_CUSTOM_7"/>
+		<Delete ReligionType="RELIGION_CUSTOM_8"/>
+		<Delete ReligionType="RELIGION_CUSTOM_9"/>
+		<Delete ReligionType="RELIGION_CUSTOM_10"/>
+		<Delete ReligionType="RELIGION_CUSTOM_11"/>
+		<Delete ReligionType="RELIGION_CUSTOM_12"/>
+	</Religions>
+
+<!-- DELETE PREFFERED RELIGIONS -->
+	<FavoredReligions>
+		<Delete LeaderType="LEADER_T_ROOSEVELT"/>
+		<Delete LeaderType="LEADER_SALADIN"/>
+		<Delete LeaderType="LEADER_PEDRO"/>
+		<Delete LeaderType="LEADER_QIN"/>
+		<Delete LeaderType="LEADER_VICTORIA"/>
+		<Delete LeaderType="LEADER_CATHERINE_DE_MEDICI"/>
+		<Delete LeaderType="LEADER_BARBAROSSA"/>
+		<Delete LeaderType="LEADER_GANDHI"/>
+		<Delete LeaderType="LEADER_HOJO"/>
+		<Delete LeaderType="LEADER_MVEMBA"/>
+		<Delete LeaderType="LEADER_HARDRADA"/>
+		<Delete LeaderType="LEADER_PETER_GREAT"/>
+		<Delete LeaderType="LEADER_PHILIP_II"/>
+		<Delete LeaderType="LEADER_JADWIGA"/>
+		<Delete LeaderType="LEADER_CYRUS"/>
+		<Delete LeaderType="LEADER_GITARJA"/>
+		<Delete LeaderType="LEADER_JAYAVARMAN"/>
+		<Delete LeaderType="LEADER_CHANDRAGUPTA"/>
+		<Delete LeaderType="LEADER_ROBERT_THE_BRUCE"/>
+		<Delete LeaderType="LEADER_SEONDEOK"/>
+		<Delete LeaderType="LEADER_WILHELMINA"/>
+		<Delete LeaderType="LEADER_DIDO"/>
+		<Delete LeaderType="LEADER_ELEANOR_ENGLAND"/>
+		<Delete LeaderType="LEADER_ELEANOR_FRANCE"/>
+		<Delete LeaderType="LEADER_KRISTINA"/>
+		<Delete LeaderType="LEADER_LAURIER"/>
+		<Delete LeaderType="LEADER_MANSA_MUSA"/>
+		<Delete LeaderType="LEADER_MATTHIAS_CORVINUS"/>
+		<Delete LeaderType="LEADER_SULEIMAN"/>
+		<Delete LeaderType="LEADER_SIMON_BOLIVAR"/>
+		<Delete LeaderType="LEADER_MENELIK"/>
+		<Delete LeaderType="LEADER_BASIL"/>
+		<Delete LeaderType="LEADER_KUBLAI_KHAN_CHINA"/>
+		<Delete LeaderType="LEADER_KUBLAI_KHAN_MONGOLIA"/>
+	</FavoredReligions>
+
+<!-- RELIGIONS -->
+	<Types>
+<!-- ORGANIZED RELIGIONS -->
+	<!-- JEWISH GROUP -->
+		<Row Type="RELIGION_STR_JEWISH_RABBINIC"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_JEWISH_KARAITE"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_JEWISH_MESSIANIC"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_JEWISH_ORTHODOX"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_JEWISH_LIBERAL"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_JEWISH_NEOLOG"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_JEWISH_KABBALAH"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_JEWISH_SAMARITANISM"					Kind="KIND_RELIGION"/>
+	<!-- TRINITARIAN CHRISTIAN GROUP-->
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_GREAT_CHURCH"		Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_CHALCEDONIAN"		Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_ORTHODOX"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_APOSTOLIC"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_APOSTOLIC_CATHOLIC"	Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_NESTORIAN"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_MIAPHYSITE"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_MONOPHYSITE"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_MONOTHELITE"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_ANGLICAN"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_INSULAR"				Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_HUSSITE"				Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_LUTHERAN"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_ANABAPTIST"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_CALVINIST"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_CHARISMATIC"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_EVANGELICAL"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_TRINITARIAN_PEYOTIST"			Kind="KIND_RELIGION"/>
+	<!-- NON-TRINITARIAN CHRISTIAN GROUP -->
+		<Row Type="RELIGION_STR_CHRIST_NONTRINITARIAN_ARIAN"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_NONTRINITARIAN_UNITARIAN"		Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_NONTRINITARIAN_MORMONISM"		Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_NONTRINITARIAN_JOHOVAHS_WITNESS"	Kind="KIND_RELIGION"/>
+	<!-- GNOSTIC CHRISTIAN GROUP -->
+		<Row Type="RELIGION_STR_CHRIST_GNOSTIC_PAULICANISM"				Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_GNOSTIC_BOGOMILISM"				Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_GNOSTIC_VALENTINIAN"				Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_GNOSTIC_MARCIAN"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_GNOSTIC_CATHAR"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CHRIST_GNOSTIC_ADAMITE"					Kind="KIND_RELIGION"/>
+	<!-- ISLAMIC GROUP -->
+		<Row Type="RELIGION_STR_ISLAM_SUNNI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_SHIA"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_IBADI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_AHMADI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_SUFI"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_ALEVI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_SALAFI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_WAHHABI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_KHARIJITE"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_TWELVER"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_ISMAILI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_MAHDAVI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_ZIKRI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_BAZIGHI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_HURUFI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_QARMATIAN"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ISLAM_QURANIST"							Kind="KIND_RELIGION"/>
+	<!-- MAZDAN GROUP -->
+		<Row Type="RELIGION_STR_MAZDAN_ZOROASTRIANISM"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_MAZDAN_KHSHNOOMIISM"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_MAZDAN_MAZDAKIISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_MAZDAN_ZURVANISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_MAZDAN_KHURMAZDANISM"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_MAZDAN_MESSIANIC"						Kind="KIND_RELIGION"/>
+	<!-- DHARMAN GROUP -->
+		<Row Type="RELIGION_STR_DHARMAN_VEDIC"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DHARMAN_SHAKTIISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DHARMAN_VAISHNAVISM"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DHARMAN_SHAIVISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DHARMAN_SMARTISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DHARMAN_GANAPATIST"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DHARMAN_KAUMARAM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DHARMAN_BHAKTI"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DHARMAN_SIKHISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DHARMAN_JAINISM"						Kind="KIND_RELIGION"/>
+	<!-- BUDDHIC GROUP -->
+		<Row Type="RELIGION_STR_BUDDHIC_MAHAYANA"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_BUDDHIC_THERAVADA"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_BUDDHIC_VAJRAYANA"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_BUDDHIC_ZEN"							Kind="KIND_RELIGION"/>
+	<!-- TAOIST GROUP -->
+		<Row Type="RELIGION_STR_TAOISM_ORTHODOX"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_TAOISM_COMPLETE_REALITY"				Kind="KIND_RELIGION"/>
+	<!-- RUIST GROUP -->
+		<Row Type="RELIGION_STR_RUISM_CONFUCIAN"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_RUISM_MENCIAN"							Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_RUISM_XUNZI"							Kind="KIND_RELIGION"/>
+<!-- GNOSTIC RELIGIONS -->
+	<!-- GNOSTIC GROUP -->
+		<Row Type="RELIGION_STR_GNOSTIC_MANICHAEISM"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_GNOSTIC_BAHAIISM"						Kind="KIND_RELIGION"/>
+	<!-- MANDAIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_MANDAIC_MANDAENISM"				Kind="KIND_RELIGION"/>
+	<!-- YAZIDI GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_YAZIDI_YAZIDIISM"					Kind="KIND_RELIGION"/>
+	<!-- DRUZE GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_DRUZE_DRUZE"						Kind="KIND_RELIGION"/>
+<!-- ESOTERIC RELIGIONS -->
+	<!-- ESOTERIC GROUP -->
+	<!--<Row Type="RELIGION_STR_ESOTERIC_THELEMA"						Kind="KIND_RELIGION"/>-->
+<!-- NORTH AMERICAN ETHNO RELIGIONS -->
+	<!-- AMERINDIAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_AMERINDIAN_MANITOUISM"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_AMERINDIAN_WAKAN_TANKAISM"		Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_AMERINDIAN_RAVEN_TALES"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_AMERINDIAN_ANGAKKUQISM"			Kind="KIND_RELIGION"/>
+	<!-- NAHUA GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_NAHUA_TEOTLISM"					Kind="KIND_RELIGION"/>
+	<!-- MAYAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_MAYAN_POPOL_VUH"					Kind="KIND_RELIGION"/>
+	<!-- JAMAICAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_JAMAICAN_RASTAFARIAN"				Kind="KIND_RELIGION"/>
+	<!-- YORUBA-SPANISH GROUP-->
+		<Row Type="RELIGION_STR_ETHNO_YORUBASPANISH_SANTERIA"			Kind="KIND_RELIGION"/>
+	<!-- YORUBA-CREOLE GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_YORUBACREOLE_VOODOO"				Kind="KIND_RELIGION"/>
+<!-- SOUTH AMERICAN ETHNO RELIGIONS -->
+	<!-- ANDEAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_ANDEAN_INTIISM"					Kind="KIND_RELIGION"/>
+	<!-- MAPUCHE GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_MAPUCHE_MACHIISM"					Kind="KIND_RELIGION"/>
+<!-- EUROPEAN ETHNO RELIGIONS -->
+	<!-- LATIN-HELLENIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_LATINHELLENE_OLYMPIANISM"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_LATINHELLENE_ORPHISM"				Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_LATINHELLENE_TITANISM"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_LATINHELLENE_MITHRAISM"			Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_LATINHELLENE_PYTHAGOREANISM"		Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_LATINHELLENE_ISIS_MYSTERIES"		Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_LATINHELLENE_CYBELE_MYSTERIES"	Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_LATINHELLENE_IMPERIAL_MYSTERIES"	Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_LATINHELLENE_MESSIANIC_MYSTERIES"	Kind="KIND_RELIGION"/>
+	<!-- GERMANIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_GERMANIC_AESIRISM"				Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_GERMANIC_ASENISM"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_GERMANIC_ANSIRISM"				Kind="KIND_RELIGION"/>
+	<!-- SLAVIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_SLAVIC_RODNOVERY"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_SLAVIC_VEDIC_RODNOVERY"			Kind="KIND_RELIGION"/>
+	<!-- BALTIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_BALTIC_ROMUVA"					Kind="KIND_RELIGION"/>
+	<!-- FINNO-UGRIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_FINNOUGRIC_JUMALAISM"				Kind="KIND_RELIGION"/>
+	<!-- CELTIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_CELTIC_DRUIDISM"					Kind="KIND_RELIGION"/>
+	<!-- BASQUE GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_BASQUE_MARIISM"					Kind="KIND_RELIGION"/>
+	<!-- DACIAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_DACIAN_ZALMOXIAN"					Kind="KIND_RELIGION"/>
+<!-- AFRICAN ETHNO RELIGIONS -->
+	<!-- EGYPTIAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_EGYPTIAN_NETERISM"				Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_EGYPTIAN_ATENISM"					Kind="KIND_RELIGION"/>
+	<!-- CUSHITIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_CUSHITIC_MAHERISM"				Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_CUSHITIC_WAAQISM"					Kind="KIND_RELIGION"/>
+	<!-- BERBER GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_BERBER_AMMONISM"					Kind="KIND_RELIGION"/>
+	<!-- ZULU GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_ZULU_UNKULUNKULISM"				Kind="KIND_RELIGION"/>
+	<!-- KONGOLESE GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_KONGOLESE_JINZAMBIISM"			Kind="KIND_RELIGION"/>
+	<!-- YORUBA GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_YORUBA_VOODUN"					Kind="KIND_RELIGION"/>
+	<!-- MALAGASY-SWAHILI GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_MALAGASYSWAHILI_ZANAHARISM"		Kind="KIND_RELIGION"/>
+	<!-- GHANA GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_GHANA_AKOMISM"					Kind="KIND_RELIGION"/>
+	<!-- HAUSA GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_HAUSA_BORIISM"					Kind="KIND_RELIGION"/>
+	<!-- SENEGALESE GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_SENEGALESE_SERERISM"				Kind="KIND_RELIGION"/>
+<!-- WEST ASIAN RELIGIONS -->
+	<!-- ARABIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_ARABIC_KAABAISM"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_ARABIC_DUSHARANISM"				Kind="KIND_RELIGION"/>
+	<!-- ARMENIAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_ARMENIAN_AREVISM"					Kind="KIND_RELIGION"/>
+	<!-- IBERO-GEORGIAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_IBEROGEORGIAN_GHMERTISM"			Kind="KIND_RELIGION"/>
+	<!-- SEMITIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_SEMITIC_BAALISM"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_SEMITIC_ANUNNAISM"				Kind="KIND_RELIGION"/>
+	<!-- ANATOLIAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_ANATOLIAN_WURRUNKATTISM"			Kind="KIND_RELIGION"/>
+	<!-- MAGYAR GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_MAGYAR_ISTENISM"					Kind="KIND_RELIGION"/>
+<!-- EAST ASIAN ETHNO RELIGIONS -->
+	<!-- SCYTHIAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_SCYTHIAN_TABITHIAN"				Kind="KIND_RELIGION"/>
+	<!-- ZUN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_ZUNBIL_ZUNISM"					Kind="KIND_RELIGION"/>
+	<!-- ALTAIC GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_ALTAIC_TENGRIISM"					Kind="KIND_RELIGION"/>
+	<!-- SIBERIAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_SIBERIAN_TURUMISM"				Kind="KIND_RELIGION"/>
+	<!-- HIMALAYAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_HIMALAYAN_MUNDHUMISM"				Kind="KIND_RELIGION"/>
+	<!-- MANIPURI GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_MANIPURI_SANAMAHISM"				Kind="KIND_RELIGION"/>
+	<!-- TIBETAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_TIBETAN_BON"						Kind="KIND_RELIGION"/>
+	<!-- VIETNAMESE GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_VIETNAMESE_CAODAISM"				Kind="KIND_RELIGION"/>
+	<!-- SINO GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_SINO_SHENISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_SINO_WUISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_SINO_HSEXJE"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_SINO_DONGBAISM"					Kind="KIND_RELIGION"/>
+	<!-- KOREAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_KOREAN_MUISM"						Kind="KIND_RELIGION"/>
+	<!-- JAPANESE GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_JAPANESE_SHINTO"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_ETHNO_JAPANESE_TENRIKYO"				Kind="KIND_RELIGION"/>
+<!-- OCEANIC ETHNO RELIGIONS -->
+	<!-- ABORIGINAL GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_ABORIGINAL_DREAMTIME"				Kind="KIND_RELIGION"/>
+	<!-- POLYNESIAN GROUP -->
+		<Row Type="RELIGION_STR_ETHNO_POLYNESIAN_MANAISM"				Kind="KIND_RELIGION"/>
+<!-- ESOTERIC RELIGIONS -->
+		<!-- ESOTERIC GROUP -->
+		<Row Type="RELIGION_STR_ESOTERIC_THELEMA"						Kind="KIND_RELIGION"/>
+<!-- PRIMITIVE RELIGIONS -->
+	<!-- PRIMITIVE GROUP -->
+	<!--<Row Type="RELIGION_STR_PRIMITIVE_ANIMISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_PRIMITIVE_SHAMANISM"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_PRIMITIVE_SKULL_CULT"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_PRIMITIVE_BIRD_CULT"					Kind="KIND_RELIGION"/>-->
+<!-- EVIL RELIGIONS -->
+		<!-- DEMONIC GROUP -->
+	<!--<Row Type="RELIGION_STR_DEMONIC_SATANISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DEMONIC_SHAYTANISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DEMONIC_MOLOCHISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DEMONIC_MAMMONISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DEMONIC_DAEVAISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DEMONIC_AHRIMANISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DEMONIC_ANGRA_MAINYUISM"				Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DEMONIC_DEMIURGISM"						Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DEMONIC_CHERNOBOGISM"					Kind="KIND_RELIGION"/>-->
+		<!-- CULT GROUP -->
+	<!--<Row Type="RELIGION_STR_DEMONIC_CULT_OF_REASON"					Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_DEMONIC_CULT_OF_DEATH"					Kind="KIND_RELIGION"/>-->
+<!-- CUSTOM RELIGION -->
+	<!-- CUSTOM GROUP -->
+		<Row Type="RELIGION_STR_CUSTOM_1"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_2"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_3"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_4"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_5"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_6"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_7"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_8"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_9"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_10"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_11"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_12"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_13"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_14"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_15"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_16"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_17"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_18"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_19"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_20"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_21"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_22"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_23"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_24"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_25"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_26"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_27"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_28"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_29"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_30"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_31"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_32"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_33"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_34"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_35"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_36"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_37"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_38"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_39"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_40"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_41"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_42"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_43"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_44"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_45"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_46"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_47"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_48"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_49"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_50"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_51"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_52"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_53"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_54"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_55"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_56"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_57"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_58"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_59"								Kind="KIND_RELIGION"/>
+		<Row Type="RELIGION_STR_CUSTOM_60"								Kind="KIND_RELIGION"/>
+	</Types>
+
+<!-- RELIGIONS -->
+	<Religions>
+<!-- ORGANIZED RELIGIONS -->
+	<!-- JEWISH GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_JEWISH_RABBINIC</ReligionType>
+			<Name>LOC_RELIGION_STR_JEWISH_RABBINIC_NAME</Name>
+			<IconString>JewRab</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_JEWISH_RABBINIC</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_JEWISH_KARAITE</ReligionType>
+			<Name>LOC_RELIGION_STR_JEWISH_KARAITE_NAME</Name>
+			<IconString>JewKar</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_JEWISH_KARAITE</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_JEWISH_MESSIANIC</ReligionType>
+			<Name>LOC_RELIGION_STR_JEWISH_MESSIANIC_NAME</Name>
+			<IconString>JewMes</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_JEWISH_MESSIANIC</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_JEWISH_ORTHODOX</ReligionType>
+			<Name>LOC_RELIGION_STR_JEWISH_ORTHODOX_NAME</Name>
+			<IconString>JewOrt</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_JEWISH_ORTHODOX</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_JEWISH_LIBERAL</ReligionType>
+			<Name>LOC_RELIGION_STR_JEWISH_LIBERAL_NAME</Name>
+			<IconString>JewLib</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_JEWISH_LIBERAL</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_JEWISH_NEOLOG</ReligionType>
+			<Name>LOC_RELIGION_STR_JEWISH_NEOLOG_NAME</Name>
+			<IconString>JewNeo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_JEWISH_NEOLOG</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_JEWISH_KABBALAH</ReligionType>
+			<Name>LOC_RELIGION_STR_JEWISH_KABBALAH_NAME</Name>
+			<IconString>JewNeo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_JEWISH_KABBALAH</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_JEWISH_SAMARITANISM</ReligionType>
+			<Name>LOC_RELIGION_STR_JEWISH_SAMARITANISM_NAME</Name>
+			<IconString>JewSam</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_JEWISH_SAMARITANISM</Color>
+		</Row>
+	<!-- TRINITARIAN CHRISTIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_GREAT_CHURCH</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_GREAT_CHURCH_NAME</Name>
+			<IconString>ChTrGr</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_GREAT_CHURCH</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_CHALCEDONIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_CHALCEDONIAN_NAME</Name>
+			<IconString>ChTrCc</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_CHALCEDONIAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC_NAME</Name>
+			<IconString>ChTrCa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_ORTHODOX</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_ORTHODOX_NAME</Name>
+			<IconString>ChTrOr</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_ORTHODOX</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_APOSTOLIC</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_APOSTOLIC_NAME</Name>
+			<IconString>ChTrAp</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_APOSTOLIC</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_APOSTOLIC_CATHOLIC</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_APOSTOLIC_CATHOLIC_NAME</Name>
+			<IconString>ChTrAc</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_APOSTOLIC_CATHOLIC</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_NESTORIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_NESTORIAN_NAME</Name>
+			<IconString>ChTrNe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_NESTORIAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_MIAPHYSITE</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_MIAPHYSITE_NAME</Name>
+			<IconString>ChTrMi</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_MIAPHYSITE</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_MONOPHYSITE</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_MONOPHYSITE_NAME</Name>
+			<IconString>ChTrMp</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_MONOPHYSITE</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_MONOTHELITE</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_MONOTHELITE_NAME</Name>
+			<IconString>ChTrMt</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_MONOTHELITE</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_ANGLICAN</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_ANGLICAN_NAME</Name>
+			<IconString>ChTrAn</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_ANGLICAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_INSULAR</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_INSULAR_NAME</Name>
+			<IconString>ChTrIn</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_INSULAR</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_HUSSITE</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_HUSSITE_NAME</Name>
+			<IconString>ChTrHu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_HUSSITE</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_LUTHERAN</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_LUTHERAN_NAME</Name>
+			<IconString>ChTrLu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_LUTHERAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_ANABAPTIST</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_ANABAPTIST_NAME</Name>
+			<IconString>ChTrAn</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_ANABAPTIST</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_CALVINIST</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_CALVINIST_NAME</Name>
+			<IconString>ChTrCl</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_CALVINIST</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_CHARISMATIC</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_CHARISMATIC_NAME</Name>
+			<IconString>ChTrCh</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_CHARISMATIC</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_EVANGELICAL</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_EVANGELICAL_NAME</Name>
+			<IconString>ChTrEv</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_EVANGELICAL</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_TRINITARIAN_PEYOTIST</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_TRINITARIAN_PEYOTIST_NAME</Name>
+			<IconString>ChTrPe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_TRINITARIAN_PEYOTIST</Color>
+		</Row>
+	<!-- NON-TRINITARIAN CHRISTIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_NONTRINITARIAN_ARIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_NONTRINITARIAN_ARIAN_NAME</Name>
+			<IconString>NoTrAr</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_NONTRINITARIAN_ARIAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_NONTRINITARIAN_UNITARIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_NONTRINITARIAN_UNITARIAN_NAME</Name>
+			<IconString>NoTrUn</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_NONTRINITARIAN_UNITARIAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_NONTRINITARIAN_MORMONISM</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_NONTRINITARIAN_MORMONISM_NAME</Name>
+			<IconString>NoTrMo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_NONTRINITARIAN_MORMONISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_NONTRINITARIAN_JOHOVAHS_WITNESS</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_NONTRINITARIAN_JOHOVAHS_WITNESS_NAME</Name>
+			<IconString>NoTrJo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_NONTRINITARIAN_JOHOVAHS_WITNESS</Color>
+		</Row>
+	<!-- GNOSTIC CHRISTIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_GNOSTIC_PAULICANISM</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_GNOSTIC_PAULICANISM_NAME</Name>
+			<IconString>GnChPa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_GNOSTIC_PAULICANISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_GNOSTIC_BOGOMILISM</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_GNOSTIC_BOGOMILISM_NAME</Name>
+			<IconString>GnChBo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_GNOSTIC_BOGOMILISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_GNOSTIC_VALENTINIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_GNOSTIC_VALENTINIAN_NAME</Name>
+			<IconString>GnChVa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_GNOSTIC_VALENTINIAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_GNOSTIC_MARCIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_GNOSTIC_MARCIAN_NAME</Name>
+			<IconString>GnChMa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_GNOSTIC_MARCIAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_GNOSTIC_CATHAR</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_GNOSTIC_CATHAR_NAME</Name>
+			<IconString>GnChCa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_GNOSTIC_CATHAR</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CHRIST_GNOSTIC_ADAMITE</ReligionType>
+			<Name>LOC_RELIGION_STR_CHRIST_GNOSTIC_ADAMITE_NAME</Name>
+			<IconString>GnChAd</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CHRIST_GNOSTIC_ADAMITE</Color>
+		</Row>
+	<!-- ISLAMIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_SUNNI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_SUNNI_NAME</Name>
+			<IconString>SilSun</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_SUNNI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_SHIA</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_SHIA_NAME</Name>
+			<IconString>IslShi</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_SHIA</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_IBADI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_IBADI_NAME</Name>
+			<IconString>IslIba</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_IBADI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_AHMADI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_AHMADI_NAME</Name>
+			<IconString>IslAhm</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_AHMADI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_SUFI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_SUFI_NAME</Name>
+			<IconString>IslSuf</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_SUFI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_ALEVI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_ALEVI_NAME</Name>
+			<IconString>IslAle</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_ALEVI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_SALAFI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_SALAFI_NAME</Name>
+			<IconString>IslSuf</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_SALAFI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_WAHHABI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_WAHHABI_NAME</Name>
+			<IconString>IslWah</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_WAHHABI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_KHARIJITE</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_KHARIJITE_NAME</Name>
+			<IconString>IslKha</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_KHARIJITE</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_TWELVER</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_TWELVER_NAME</Name>
+			<IconString>IslTwe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_TWELVER</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_ISMAILI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_ISMAILI_NAME</Name>
+			<IconString>IslIsm</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_ISMAILI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_MAHDAVI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_MAHDAVI_NAME</Name>
+			<IconString>IslMah</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_MAHDAVI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_ZIKRI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_ZIKRI_NAME</Name>
+			<IconString>IslZik</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_ZIKRI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_BAZIGHI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_BAZIGHI_NAME</Name>
+			<IconString>IslBaz</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_BAZIGHI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_HURUFI</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_HURUFI_NAME</Name>
+			<IconString>IslHur</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_HURUFI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_QARMATIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_QARMATIAN_NAME</Name>
+			<IconString>IslQar</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_QARMATIAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ISLAM_QURANIST</ReligionType>
+			<Name>LOC_RELIGION_STR_ISLAM_QURANIST_NAME</Name>
+			<IconString>IslQur</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ISLAM_QURANIST</Color>
+		</Row>
+	<!-- MAZDAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_MAZDAN_ZOROASTRIANISM</ReligionType>
+			<Name>LOC_RELIGION_STR_MAZDAN_ZOROASTRIANISM_NAME</Name>
+			<IconString>MazZor</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_MAZDAN_ZOROASTRIANISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_MAZDAN_KHSHNOOMIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_MAZDAN_KHSHNOOMIISM_NAME</Name>
+			<IconString>MazKhs</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_MAZDAN_KHSHNOOMIISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_MAZDAN_MAZDAKIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_MAZDAN_MAZDAKIISM_NAME</Name>
+			<IconString>MazMaz</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_MAZDAN_MAZDAKIISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_MAZDAN_ZURVANISM</ReligionType>
+			<Name>LOC_RELIGION_STR_MAZDAN_ZURVANISM_NAME</Name>
+			<IconString>MazZur</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_MAZDAN_ZURVANISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_MAZDAN_KHURMAZDANISM</ReligionType>
+			<Name>LOC_RELIGION_STR_MAZDAN_KHURMAZDANISM_NAME</Name>
+			<IconString>MazKhu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_MAZDAN_KHURMAZDANISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_MAZDAN_MESSIANIC</ReligionType>
+			<Name>LOC_RELIGION_STR_MAZDAN_MESSIANIC_NAME</Name>
+			<IconString>MazMes</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_MAZDAN_MESSIANIC</Color>
+		</Row>
+	<!-- DHARMAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_DHARMAN_VEDIC</ReligionType>
+			<Name>LOC_RELIGION_STR_DHARMAN_VEDIC_NAME</Name>
+			<IconString>DhaVed</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_DHARMAN_VEDIC</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_DHARMAN_SHAKTIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_DHARMAN_SHAKTIISM_NAME</Name>
+			<IconString>DhaSha</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_DHARMAN_SHAKTIISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_DHARMAN_VAISHNAVISM</ReligionType>
+			<Name>LOC_RELIGION_STR_DHARMAN_VAISHNAVISM_NAME</Name>
+			<IconString>DhaVai</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_DHARMAN_VAISHNAVISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_DHARMAN_SHAIVISM</ReligionType>
+			<Name>LOC_RELIGION_STR_DHARMAN_SHAIVISM_NAME</Name>
+			<IconString>DhaSha</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_DHARMAN_SHAIVISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_DHARMAN_SMARTISM</ReligionType>
+			<Name>LOC_RELIGION_STR_DHARMAN_SMARTISM_NAME</Name>
+			<IconString>DhaSma</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_DHARMAN_SMARTISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_DHARMAN_GANAPATIST</ReligionType>
+			<Name>LOC_RELIGION_STR_DHARMAN_GANAPATIST_NAME</Name>
+			<IconString>DhaGan</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_DHARMAN_GANAPATIST</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_DHARMAN_KAUMARAM</ReligionType>
+			<Name>LOC_RELIGION_STR_DHARMAN_KAUMARAM_NAME</Name>
+			<IconString>DhaKau</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_DHARMAN_KAUMARAM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_DHARMAN_BHAKTI</ReligionType>
+			<Name>LOC_RELIGION_STR_DHARMAN_BHAKTI_NAME</Name>
+			<IconString>DhaBha</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_DHARMAN_BHAKTI</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_DHARMAN_SIKHISM</ReligionType>
+			<Name>LOC_RELIGION_STR_DHARMAN_SIKHISM_NAME</Name>
+			<IconString>DhaSik</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_DHARMAN_SIKHISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_DHARMAN_JAINISM</ReligionType>
+			<Name>LOC_RELIGION_STR_DHARMAN_JAINISM_NAME</Name>
+			<IconString>DhaJai</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_DHARMAN_JAINISM</Color>
+		</Row>
+	<!-- BUDDHIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_BUDDHIC_MAHAYANA</ReligionType>
+			<Name>LOC_RELIGION_STR_BUDDHIC_MAHAYANA_NAME</Name>
+			<IconString>BudMah</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_BUDDHIC_MAHAYANA</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_BUDDHIC_THERAVADA</ReligionType>
+			<Name>LOC_RELIGION_STR_BUDDHIC_THERAVADA_NAME</Name>
+			<IconString>BudThe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_BUDDHIC_THERAVADA</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_BUDDHIC_VAJRAYANA</ReligionType>
+			<Name>LOC_RELIGION_STR_BUDDHIC_VAJRAYANA_NAME</Name>
+			<IconString>BudVaj</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_BUDDHIC_VAJRAYANA</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_BUDDHIC_ZEN</ReligionType>
+			<Name>LOC_RELIGION_STR_BUDDHIC_ZEN_NAME</Name>
+			<IconString>BudZen</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_BUDDHIC_ZEN</Color>
+		</Row>
+	<!-- TAOIST GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_TAOISM_ORTHODOX</ReligionType>
+			<Name>LOC_RELIGION_STR_TAOISM_ORTHODOX_NAME</Name>
+			<IconString>OrtTao</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_TAOISM_ORTHODOX</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_TAOISM_COMPLETE_REALITY</ReligionType>
+			<Name>LOC_RELIGION_STR_TAOISM_COMPLETE_REALITY_NAME</Name>
+			<IconString>ComTao</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_TAOISM_COMPLETE_REALITY</Color>
+		</Row>
+	<!-- RUIST GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_RUISM_CONFUCIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_RUISM_CONFUCIAN_NAME</Name>
+			<IconString>CoRu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_RUISM_CONFUCIAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_RUISM_MENCIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_RUISM_MENCIAN_NAME</Name>
+			<IconString>MeRu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_RUISM_MENCIAN</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_RUISM_XUNZI</ReligionType>
+			<Name>LOC_RELIGION_STR_RUISM_XUNZI_NAME</Name>
+			<IconString>XuRu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_RUISM_XUNZI</Color>
+		</Row>
+	<!-- GNOSTIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_GNOSTIC_MANICHAEISM</ReligionType>
+			<Name>LOC_RELIGION_STR_GNOSTIC_MANICHAEISM_NAME</Name>
+			<IconString>GnoMai</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_GNOSTIC_MANICHAEISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_GNOSTIC_BAHAIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_GNOSTIC_BAHAIISM_NAME</Name>
+			<IconString>GnoBah</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_GNOSTIC_BAHAIISM</Color>
+		</Row>
+	<!-- YAZIDI GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_YAZIDI_YAZIDIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_YAZIDI_YAZIDIISM_NAME</Name>
+			<IconString>EtYaYa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_YAZIDI_YAZIDIISM</Color>
+		</Row>
+	<!-- MANDAEIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_MANDAIC_MANDAENISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_MANDAIC_MANDAENISM_NAME</Name>
+			<IconString>EtMaMa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_MANDAIC_MANDAENISM</Color>
+		</Row>
+	<!-- DRUZE GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_DRUZE_DRUZE</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_DRUZE_DRUZE_NAME</Name>
+			<IconString>EtDrDr</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_DRUZE_DRUZE</Color>
+		</Row>
+<!-- NORTH AMERICAN ETHNO RELIGIONS -->
+	<!-- AMERINDIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_AMERINDIAN_MANITOUISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_AMERINDIAN_MANITOUISM_NAME</Name>
+			<IconString>EtAmMa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_AMERINDIAN_MANITOUISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_AMERINDIAN_WAKAN_TANKAISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_AMERINDIAN_WAKAN_TANKAISM_NAME</Name>
+			<IconString>EtAmWt</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_AMERINDIAN_WAKAN_TANKAISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_AMERINDIAN_RAVEN_TALES</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_AMERINDIAN_RAVEN_TALES_NAME</Name>
+			<IconString>EtAmRa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_RAVEN_TALES</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_AMERINDIAN_ANGAKKUQISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_AMERINDIAN_ANGAKKUQISM_NAME</Name>
+			<IconString>EtAmAn</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_ANGAKKUQISM</Color>
+		</Row>
+	<!-- NAHUA GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_NAHUA_TEOTLISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_NAHUA_TEOTLISM_NAME</Name>
+			<IconString>EtNaTe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_NAHUA_TEOTLISM</Color>
+		</Row>
+	<!-- MAYAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_MAYAN_POPOL_VUH</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_MAYAN_POPOL_VUH_NAME</Name>
+			<IconString>EtMaPo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_MAYAN_POPOL_VUH</Color>
+		</Row>
+	<!-- JAMAICAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_JAMAICAN_RASTAFARIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_JAMAICAN_RASTAFARIAN_NAME</Name>
+			<IconString>EtJaRa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_JAMAICAN_RASTAFARIAN</Color>
+		</Row>
+	<!-- YORUBA-SPANISH GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_YORUBASPANISH_SANTERIA</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_YORUBASPANISH_SANTERIA_NAME</Name>
+			<IconString>EtYoSa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_YORUBASPANISH_SANTERIA</Color>
+		</Row>
+	<!-- YORUBA-CREOLE GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_YORUBACREOLE_VOODOO</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_YORUBACREOLE_VOODOO_NAME</Name>
+			<IconString>EtYoVo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_YORUBACREOLE_VOODOO</Color>
+		</Row>
+<!-- SOUTH AMERICAN ETHNO RELIGIONS -->
+	<!-- ANDEAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_ANDEAN_INTIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_ANDEAN_INTIISM_NAME</Name>
+			<IconString>EtAnIn</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_ANDEAN_INTIISM</Color>
+		</Row>
+	<!-- MAPUCHE GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_MAPUCHE_MACHIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_MAPUCHE_MACHIISM_NAME</Name>
+			<IconString>EtPoMa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_MAPUCHE_MACHIISM</Color>
+		</Row>
+<!-- EUROPEAN ETHNO RELIGIONS -->
+	<!-- LATIN_HELLENIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_LATINHELLENE_OLYMPIANISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_LATINHELLENE_OLYMPIANISM_NAME</Name>
+			<IconString>EtLaOl</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_LATINHELLENE_OLYMPIANISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_LATINHELLENE_ORPHISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_LATINHELLENE_ORPHISM_NAME</Name>
+			<IconString>EtLaOr</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_LATINHELLENE_ORPHISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_LATINHELLENE_TITANISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_LATINHELLENE_TITANISM_NAME</Name>
+			<IconString>EtLaTi</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_LATINHELLENE_TITANISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_LATINHELLENE_MITHRAISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_LATINHELLENE_MITHRAISM_NAME</Name>
+			<IconString>EtLaMi</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_LATINHELLENE_MITHRAISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_LATINHELLENE_PYTHAGOREANISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_LATINHELLENE_PYTHAGOREANISM_NAME</Name>
+			<IconString>EtLaPy</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_LATINHELLENE_PYTHAGOREANISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_LATINHELLENE_ISIS_MYSTERIES</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_LATINHELLENE_ISIS_MYSTERIES_NAME</Name>
+			<IconString>EtLaPy</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_LATINHELLENE_ISIS_MYSTERIES</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_LATINHELLENE_CYBELE_MYSTERIES</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_LATINHELLENE_CYBELE_MYSTERIES_NAME</Name>
+			<IconString>EtLaPy</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_LATINHELLENE_CYBELE_MYSTERIES</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_LATINHELLENE_IMPERIAL_MYSTERIES</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_LATINHELLENE_IMPERIAL_MYSTERIES_NAME</Name>
+			<IconString>EtLaIm</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_LATINHELLENE_IMPERIAL_MYSTERIES</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_LATINHELLENE_MESSIANIC_MYSTERIES</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_LATINHELLENE_MESSIANIC_MYSTERIES_NAME</Name>
+			<IconString>EtLaMm</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_LATINHELLENE_MESSIANIC_MYSTERIES</Color>
+		</Row>
+	<!-- SLAVIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SLAVIC_RODNOVERY</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SLAVIC_RODNOVERY_NAME</Name>
+			<IconString>EtSlRo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SLAVIC_RODNOVERY</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SLAVIC_VEDIC_RODNOVERY</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SLAVIC_VEDIC_RODNOVERY_NAME</Name>
+			<IconString>EtSlVe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SLAVIC_VEDIC_RODNOVERY</Color>
+		</Row>
+	<!-- GERMANIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_GERMANIC_AESIRISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_GERMANIC_AESIRISM_NAME</Name>
+			<IconString>EtGeAe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_GERMANIC_AESIRISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_GERMANIC_ASENISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_GERMANIC_ASENISM_NAME</Name>
+			<IconString>EtGeAs</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_GERMANIC_ASENISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_GERMANIC_ANSIRISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_GERMANIC_ANSIRISM_NAME</Name>
+			<IconString>EtGerAn</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_GERMANIC_ANSIRISM</Color>
+		</Row>
+	<!-- BALTIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_BALTIC_ROMUVA</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_BALTIC_ROMUVA_NAME</Name>
+			<IconString>EtBaRo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_BALTIC_ROMUVA</Color>
+		</Row>
+	<!-- FINNO-UGRIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_FINNOUGRIC_JUMALAISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_FINNOUGRIC_JUMALAISM_NAME</Name>
+			<IconString>EtFiJu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_FINNOUGRIC_JUMALAISM</Color>
+		</Row>
+	<!-- CELTIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_CELTIC_DRUIDISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_CELTIC_DRUIDISM_NAME</Name>
+			<IconString>EtCelDr</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_CELTIC_DRUIDISM</Color>
+		</Row>
+	<!-- BASQUE GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_BASQUE_MARIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_BASQUE_MARIISM_NAME</Name>
+			<IconString>EtBaMa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_BASQUE_MARIISM</Color>
+		</Row>
+	<!-- DACIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_DACIAN_ZALMOXIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_DACIAN_ZALMOXIAN_NAME</Name>
+			<IconString>EtDaZa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_DACIAN_ZALMOXIAN</Color>
+		</Row>
+<!-- AFRICAN ETHNO RELIGIONS -->
+	<!-- EGYPTIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_EGYPTIAN_NETERISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_EGYPTIAN_NETERISM_NAME</Name>
+			<IconString>EtEgNe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_EGYPTIAN_NETERISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_EGYPTIAN_ATENISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_EGYPTIAN_ATENISM_NAME</Name>
+			<IconString>EtEgAt</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_EGYPTIAN_ATENISM</Color>
+		</Row>
+	<!-- CUSHITIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_CUSHITIC_MAHERISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_CUSHITIC_MAHERISM_NAME</Name>
+			<IconString>EtCuMa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_CUSHITIC_MAHERISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_CUSHITIC_WAAQISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_CUSHITIC_WAAQISM_NAME</Name>
+			<IconString>EtCuWa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_CUSHITIC_WAAQISM</Color>
+		</Row>
+	<!-- BERBER GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_BERBER_AMMONISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_BERBER_AMMONISM_NAME</Name>
+			<IconString>EtBeAm</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_BERBER_AMMONISM</Color>
+		</Row>
+	<!-- ZULU GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_ZULU_UNKULUNKULISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_ZULU_UNKULUNKULISM_NAME</Name>
+			<IconString>EtZuUn</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_ZULU_UNKULUNKULISM</Color>
+		</Row>
+	<!-- KONGOLESE GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_KONGOLESE_JINZAMBIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_KONGOLESE_JINZAMBIISM_NAME</Name>
+			<IconString>EtKoJi</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_KONGOLESE_JINZAMBIISM</Color>
+		</Row>
+	<!-- YORUBA GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_YORUBA_VOODUN</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_YORUBA_VOODUN_NAME</Name>
+			<IconString>EtYoVu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_YORUBA_VOODUN</Color>
+		</Row>
+	<!-- MALAGASY-SWAHILI GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_MALAGASYSWAHILI_ZANAHARISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_MALAGASYSWAHILI_ZANAHARISM_NAME</Name>
+			<IconString>EtMaSwZa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_MALAGASYSWAHILI_ZANAHARISM</Color>
+		</Row>
+	<!-- GHANA GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_GHANA_AKOMISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_GHANA_AKOMISM_NAME</Name>
+			<IconString>EtGhAk</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_GHANA_AKOMISM</Color>
+		</Row>
+	<!-- HAUSA GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_HAUSA_BORIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_HAUSA_BORIISM_NAME</Name>
+			<IconString>EtHaBo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_HAUSA_BORIISM</Color>
+		</Row>
+	<!-- SENEGALESE GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SENEGALESE_SERERISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SENEGALESE_SERERISM_NAME</Name>
+			<IconString>EtSenSe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SENEGALESE_SERERISM</Color>
+		</Row>
+<!-- WEST ASIAN ETHNO RELIGIONS -->
+	<!-- ARABIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_ARABIC_KAABAISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_ARABIC_KAABAISM_NAME</Name>
+			<IconString>EtArKa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_ARABIC_KAABAISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_ARABIC_DUSHARANISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_ARABIC_DUSHARANISM_NAME</Name>
+			<IconString>EtArDu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_ARABIC_DUSHARANISM</Color>
+		</Row>
+	<!-- ARMENIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_ARMENIAN_AREVISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_ARMENIAN_AREVISM_NAME</Name>
+			<IconString>EtArAr</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_ARMENIAN_AREVISM</Color>
+		</Row>
+	<!-- IBERO-GEORGIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_IBEROGEORGIAN_GHMERTISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_IBEROGEORGIAN_GHMERTISM_NAME</Name>
+			<IconString>EtIbGh</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_IBEROGEORGIAN_GHMERTISM</Color>
+		</Row>
+	<!-- SEMITIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SEMITIC_BAALISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SEMITIC_BAALISM_NAME</Name>
+			<IconString>EtSeBa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SEMITIC_BAALISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SEMITIC_ANUNNAISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SEMITIC_ANUNNAISM_NAME</Name>
+			<IconString>EtSeAn</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SEMITIC_ANUNNAISM</Color>
+		</Row>
+	<!-- ANATOLIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_ANATOLIAN_WURRUNKATTISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_ANATOLIAN_WURRUNKATTISM_NAME</Name>
+			<IconString>EtAnWu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_ANATOLIAN_WURRUNKATTISM</Color>
+		</Row>
+	<!-- MAGYAR GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_MAGYAR_ISTENISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_MAGYAR_ISTENISM_NAME</Name>
+			<IconString>EtMaIs</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_MAGYAR_ISTENISM</Color>
+		</Row>
+<!-- EAST ASIAN ETHNO RELIGIONS -->
+	<!-- SCYTHIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SCYTHIAN_TABITHIAN</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SCYTHIAN_TABITHIAN_NAME</Name>
+			<IconString>EtScTa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SCYTHIAN_TABITHIAN</Color>
+		</Row>
+	<!-- ZUNBIL GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_ZUNBIL_ZUNISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_ZUNBIL_ZUNISM_NAME</Name>
+			<IconString>EtZuZu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_ZUNBIL_ZUNISM</Color>
+		</Row>
+	<!-- ALTAIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_ALTAIC_TENGRIISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_ALTAIC_TENGRIISM_NAME</Name>
+			<IconString>EtAlTe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_ALTAIC_TENGRIISM</Color>
+		</Row>
+	<!-- SIBERIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SIBERIAN_TURUMISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SIBERIAN_TURUMISM_NAME</Name>
+			<IconString>EtSiTu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SIBERIAN_TURUMISM</Color>
+		</Row>
+	<!-- HIMALAYAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_HIMALAYAN_MUNDHUMISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_HIMALAYAN_MUNDHUMISM_NAME</Name>
+			<IconString>EtHiMu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_HIMALAYAN_MUNDHUMISM</Color>
+		</Row>
+	<!-- MANIPURI GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_MANIPURI_SANAMAHISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_MANIPURI_SANAMAHISM_NAME</Name>
+			<IconString>EtMpSa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_MANIPURI_SANAMAHISM</Color>
+		</Row>
+	<!-- TIBETAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_TIBETAN_BON</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_TIBETAN_BON_NAME</Name>
+			<IconString>EtTiBo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_TIBETAN_BON</Color>
+		</Row>
+	<!-- VIETNAMESE GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_VIETNAMESE_CAODAISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_VIETNAMESE_CAODAISM_NAME</Name>
+			<IconString>EtViCa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_VIETNAMESE_CAODAISM</Color>
+		</Row>
+	<!-- SINO GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SINO_SHENISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SINO_SHENISM_NAME</Name>
+			<IconString>EtSiSh</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SINO_SHENISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SINO_WUISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SINO_WUISM_NAME</Name>
+			<IconString>EtSiWu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SINO_WUISM</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SINO_HSEXJE</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SINO_HSEXJE_NAME</Name>
+			<IconString>EtSiHs</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SINO_HSEXJE</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_SINO_DONGBAISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_SINO_DONGBAISM_NAME</Name>
+			<IconString>EtSiDo</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_SINO_DONGBAISM</Color>
+		</Row>
+	<!-- KOREAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_KOREAN_MUISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_KOREAN_MUISM_NAME</Name>
+			<IconString>EtKoMu</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_KOREAN_MUISM</Color>
+		</Row>
+	<!-- JAPANESE GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_JAPANESE_SHINTO</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_JAPANESE_SHINTO_NAME</Name>
+			<IconString>EtJaSh</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_JAPANESE_SHINTO</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_JAPANESE_TENRIKYO</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_JAPANESE_TENRIKYO_NAME</Name>
+			<IconString>EtJaTe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_JAPANESE_TENRIKYO</Color>
+		</Row>
+<!-- OCEANIC ETHNO RELIGIONS -->
+	<!-- ABORIGINAL GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_ABORIGINAL_DREAMTIME</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_ABORIGINAL_DREAMTIME_NAME</Name>
+			<IconString>EtAbDr</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_ABORIGINAL_DREAMTIME</Color>
+		</Row>
+	<!-- POLYNESIAN GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ETHNO_POLYNESIAN_MANAISM</ReligionType>
+			<Name>LOC_RELIGION_STR_ETHNO_POLYNESIAN_MANAISM_NAME</Name>
+			<IconString>EtPoMa</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ETHNO_POLYNESIAN_MANAISM</Color>
+		</Row>
+<!-- ESOTERIC RELIGIONS -->
+		<!-- ESOTERIC GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_ESOTERIC_THELEMA</ReligionType>
+			<Name>LOC_RELIGION_STR_ESOTERIC_THELEMA_NAME</Name>
+			<IconString>EsoThe</IconString>
+			<RequiresCustomName>false</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_ESOTERIC_THELEMA</Color>
+		</Row>
+<!-- CUSTOM RELIGIONS -->
+	<!-- CUSTOM GROUP -->
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_1</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_1_NAME</Name>
+			<IconString>Cus1</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_1</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_2</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_2_NAME</Name>
+			<IconString>Cus2</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_2</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_3</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_3_NAME</Name>
+			<IconString>Cus3</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_3</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_4</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_4_NAME</Name>
+			<IconString>Cus4</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_4</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_5</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_5_NAME</Name>
+			<IconString>Cus5</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_5</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_6</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_6_NAME</Name>
+			<IconString>Cus6</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_6</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_7</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_7_NAME</Name>
+			<IconString>Cus7</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_7</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_8</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_8_NAME</Name>
+			<IconString>Cus8</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_8</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_9</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_9_NAME</Name>
+			<IconString>Cus9</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_9</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_10</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_10_NAME</Name>
+			<IconString>Cus10</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_10</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_11</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_11_NAME</Name>
+			<IconString>Cus11</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_11</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_12</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_12_NAME</Name>
+			<IconString>Cus12</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_12</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_13</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_13_NAME</Name>
+			<IconString>Cus13</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_13</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_14</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_14_NAME</Name>
+			<IconString>Cus14</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_14</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_15</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_15_NAME</Name>
+			<IconString>Cus15</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_15</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_16</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_16_NAME</Name>
+			<IconString>Cus16</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_16</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_17</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_17_NAME</Name>
+			<IconString>Cus17</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_17</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_18</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_18_NAME</Name>
+			<IconString>Cus18</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_18</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_19</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_19_NAME</Name>
+			<IconString>Cus19</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_19</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_20</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_20_NAME</Name>
+			<IconString>Cus20</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_20</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_21</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_21_NAME</Name>
+			<IconString>Cus21</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_21</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_22</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_22_NAME</Name>
+			<IconString>Cus22</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_22</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_23</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_23_NAME</Name>
+			<IconString>Cus23</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_23</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_24</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_24_NAME</Name>
+			<IconString>Cus24</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_24</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_25</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_25_NAME</Name>
+			<IconString>Cus25</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_25</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_26</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_26_NAME</Name>
+			<IconString>Cus26</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_26</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_27</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_27_NAME</Name>
+			<IconString>Cus27</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_27</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_28</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_28_NAME</Name>
+			<IconString>Cus28</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_28</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_29</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_29_NAME</Name>
+			<IconString>Cus29</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_29</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_30</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_30_NAME</Name>
+			<IconString>Cus30</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_30</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_31</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_31_NAME</Name>
+			<IconString>Cus31</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_31</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_32</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_32_NAME</Name>
+			<IconString>Cus32</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_32</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_33</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_33_NAME</Name>
+			<IconString>Cus33</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_33</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_34</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_34_NAME</Name>
+			<IconString>Cus34</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_34</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_35</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_35_NAME</Name>
+			<IconString>Cus35</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_35</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_36</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_36_NAME</Name>
+			<IconString>Cus36</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_36</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_37</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_37_NAME</Name>
+			<IconString>Cus37</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_37</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_38</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_38_NAME</Name>
+			<IconString>Cus38</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_38</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_39</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_39_NAME</Name>
+			<IconString>Cus39</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_39</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_40</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_40_NAME</Name>
+			<IconString>Cus40</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_40</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_41</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_41_NAME</Name>
+			<IconString>Cus41</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_41</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_42</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_42_NAME</Name>
+			<IconString>Cus42</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_42</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_43</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_43_NAME</Name>
+			<IconString>Cus43</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_43</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_44</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_44_NAME</Name>
+			<IconString>Cus44</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_44</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_45</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_45_NAME</Name>
+			<IconString>Cus45</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_45</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_46</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_46_NAME</Name>
+			<IconString>Cus46</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_46</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_47</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_47_NAME</Name>
+			<IconString>Cus47</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_47</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_48</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_48_NAME</Name>
+			<IconString>Cus48</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_48</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_49</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_49_NAME</Name>
+			<IconString>Cus49</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_49</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_50</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_50_NAME</Name>
+			<IconString>Cus50</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_50</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_51</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_51_NAME</Name>
+			<IconString>Cus51</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_51</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_52</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_52_NAME</Name>
+			<IconString>Cus52</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_52</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_53</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_53_NAME</Name>
+			<IconString>Cus50</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_53</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_54</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_54_NAME</Name>
+			<IconString>Cus54</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_54</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_55</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_55_NAME</Name>
+			<IconString>Cus55</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_55</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_56</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_56_NAME</Name>
+			<IconString>Cus56</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_56</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_57</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_57_NAME</Name>
+			<IconString>Cus57</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_57</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_58</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_58_NAME</Name>
+			<IconString>Cus58</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_58</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_59</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_59_NAME</Name>
+			<IconString>Cus59</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_59</Color>
+		</Row>
+		<Row>
+			<ReligionType>RELIGION_STR_CUSTOM_60</ReligionType>
+			<Name>LOC_RELIGION_STR_CUSTOM_60_NAME</Name>
+			<IconString>Cus60</IconString>
+			<RequiresCustomName>true</RequiresCustomName>
+			<Color>COLOR_RELIGION_STR_CUSTOM_60</Color>
+		</Row>
+	</Religions>
+
+	<!-- NEW PREFFERED RELIGIONS -->
+	<FavoredReligions>
+		<Row LeaderType="LEADER_ALEXANDER"					ReligionType="RELIGION_STR_ETHNO_LATINHELLENE_OLYMPIANISM"/>
+		<Row LeaderType="LEADER_AMANITORE"					ReligionType="RELIGION_STR_ETHNO_EGYPTIAN_NETERISM"/>
+		<Row LeaderType="LEADER_CATHERINE_DE_MEDICI"		ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC"/>
+		<Row LeaderType="LEADER_CHANDRAGUPTA"				ReligionType="RELIGION_STR_DHARMAN_JAINISM"/>
+		<Row LeaderType="LEADER_CLEOPATRA"					ReligionType="RELIGION_STR_ETHNO_EGYPTIAN_NETERISM"/>
+		<Row LeaderType="LEADER_CYRUS"						ReligionType="RELIGION_STR_MAZDAN_ZOROASTRIANISM"/>
+		<Row LeaderType="LEADER_DIDO"						ReligionType="RELIGION_STR_ETHNO_SEMITIC_BAALISM"/>
+		<Row LeaderType="LEADER_ELEANOR_ENGLAND"			ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_ANGLICAN"/>
+		<Row LeaderType="LEADER_ELEANOR_FRANCE"				ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC"/>
+		<Row LeaderType="LEADER_BARBAROSSA"					ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_LUTHERAN"/>
+		<Row LeaderType="LEADER_GANDHI"						ReligionType="RELIGION_STR_DHARMAN_SMARTISM"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN"				ReligionType="RELIGION_STR_ETHNO_ALTAIC_TENGRIISM"/>
+		<Row LeaderType="LEADER_GILGAMESH"					ReligionType="RELIGION_STR_ETHNO_SEMITIC_ANUNNAISM"/>
+		<Row LeaderType="LEADER_GITARJA"					ReligionType="RELIGION_STR_DHARMAN_VAISHNAVISM"/>
+		<Row LeaderType="LEADER_GORGO"						ReligionType="RELIGION_STR_ETHNO_LATINHELLENE_OLYMPIANISM"/>
+		<Row LeaderType="LEADER_HARDRADA"					ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_LUTHERAN"/>
+		<Row LeaderType="LEADER_HOJO"						ReligionType="RELIGION_STR_BUDDHIC_ZEN"/>
+		<Row LeaderType="LEADER_JADWIGA"					ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC"/>
+		<Row LeaderType="LEADER_JAYAVARMAN"					ReligionType="RELIGION_STR_BUDDHIC_THERAVADA"/>
+		<Row LeaderType="LEADER_JOHN_CURTIN"				ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_ANGLICAN"/>
+		<Row LeaderType="LEADER_KRISTINA"					ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_LUTHERAN"/>
+		<Row LeaderType="LEADER_KUPE"						ReligionType="RELIGION_STR_ETHNO_POLYNESIAN_MANAISM"/>
+		<Row LeaderType="LEADER_LAUTARO"					ReligionType="RELIGION_STR_ETHNO_MAPUCHE_MACHIISM"/>
+		<Row LeaderType="LEADER_MANSA_MUSA"					ReligionType="RELIGION_STR_ISLAM_SUNNI"/>
+		<Row LeaderType="LEADER_MATTHIAS_CORVINUS"			ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC"/>
+		<Row LeaderType="LEADER_MONTEZUMA"					ReligionType="RELIGION_STR_ETHNO_NAHUA_TEOTLISM"/>
+		<Row LeaderType="LEADER_MVEMBA"						ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC"/>
+		<Row LeaderType="LEADER_PACHACUTI"					ReligionType="RELIGION_STR_ETHNO_ANDEAN_INTIISM"/>
+		<Row LeaderType="LEADER_PEDRO"						ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC"/>
+		<Row LeaderType="LEADER_PERICLES"					ReligionType="RELIGION_STR_ETHNO_LATINHELLENE_OLYMPIANISM"/>
+		<Row LeaderType="LEADER_PETER_GREAT"				ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_ORTHODOX"/>
+		<Row LeaderType="LEADER_PHILIP_II"					ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC"/>
+		<Row LeaderType="LEADER_POUNDMAKER"					ReligionType="RELIGION_STR_ETHNO_AMERINDIAN_MANITOUISM"/>
+		<Row LeaderType="LEADER_QIN"						ReligionType="RELIGION_STR_TAOISM_ORTHODOX"/>
+		<Row LeaderType="LEADER_ROBERT_THE_BRUCE"			ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_INSULAR"/>
+		<Row LeaderType="LEADER_SALADIN"					ReligionType="RELIGION_STR_ISLAM_SUNNI"/>
+		<Row LeaderType="LEADER_SEONDEOK"					ReligionType="RELIGION_STR_BUDDHIC_MAHAYANA"/>
+		<Row LeaderType="LEADER_SHAKA"						ReligionType="RELIGION_STR_ETHNO_ZULU_UNKULUNKULISM"/>
+		<Row LeaderType="LEADER_SULEIMAN"					ReligionType="RELIGION_STR_ISLAM_SUNNI"/>
+		<Row LeaderType="LEADER_TAMAR"						ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_ORTHODOX"/>
+		<Row LeaderType="LEADER_T_ROOSEVELT"				ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_EVANGELICAL"/>
+		<Row LeaderType="LEADER_TOMYRIS"					ReligionType="RELIGION_STR_ETHNO_SCYTHIAN_TABITHIAN"/>
+		<Row LeaderType="LEADER_TRAJAN"						ReligionType="RELIGION_STR_ETHNO_LATINHELLENE_IMPERIAL_MYSTERIES"/>
+		<Row LeaderType="LEADER_VICTORIA"					ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_ANGLICAN"/>
+		<Row LeaderType="LEADER_LAURIER"					ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_ANGLICAN"/>
+		<Row LeaderType="LEADER_WILHELMINA"					ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_LUTHERAN"/>
+		<Row LeaderType="LEADER_LADY_SIX_SKY"				ReligionType="RELIGION_STR_ETHNO_MAYAN_POPOL_VUH"/>
+		<Row LeaderType="LEADER_SIMON_BOLIVAR"				ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC"/>
+		<Row LeaderType="LEADER_MENELIK"					ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_MIAPHYSITE"/>
+		<Row LeaderType="LEADER_BASIL"						ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_CHALCEDONIAN"/>
+		<Row LeaderType="LEADER_AMBIORIX"					ReligionType="RELIGION_STR_ETHNO_CELTIC_DRUIDISM"/>
+		<Row LeaderType="LEADER_HAMMURABI"					ReligionType="RELIGION_STR_ETHNO_SEMITIC_ANUNNAISM"/>
+		<Row LeaderType="LEADER_LADY_TRIEU"					ReligionType="RELIGION_STR_BUDDHIC_MAHAYANA"/>
+		<Row LeaderType="LEADER_KUBLAI_KHAN_CHINA"			ReligionType="RELIGION_STR_BUDDHIC_VAJRAYANA"/>
+		<Row LeaderType="LEADER_KUBLAI_KHAN_MONGOLIA"		ReligionType="RELIGION_STR_BUDDHIC_VAJRAYANA"/>
+		<Row LeaderType="LEADER_JOAO_III"					ReligionType="RELIGION_STR_CHRIST_TRINITARIAN_CATHOLIC"/>
+	</FavoredReligions>
+
+</GameData>

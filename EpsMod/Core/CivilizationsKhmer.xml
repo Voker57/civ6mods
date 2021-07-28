@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_LEADER_MONASTERIES_KING"/><Set><Description>LOC_TRAIT_LEADER_MONASTERIES_KING_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_KHMER_BARAYS"/><Set><Description>LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_MONASTERIES_KING" ModifierId="TRAIT_MONASTERIES_KING_ADJACENCY_FOOD"/>
+
+		<Row TraitType="TRAIT_LEADER_MONASTERIES_KING" ModifierId="EPSMOD_CIVS_KHMER_HOLY_SITE_FOOD"/>
+	</TraitModifiers>
+	
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CIVS_KHMER_HOLY_SITE_FOOD</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_RIVER_ADJACENCY</ModifierType></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Update><Where ModifierId="BARAYS_FAITH_POPULATION" Name="Amount"/><Set><Value>0.5</Value></Set></Update>
+
+		<Row><ModifierId>EPSMOD_CIVS_KHMER_HOLY_SITE_FOOD</ModifierId><Name>Description</Name><Value>EPSMOD_LOC_DISTRICT_RIVER_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_KHMER_HOLY_SITE_FOOD</ModifierId><Name>DistrictType</Name><Value>DISTRICT_HOLY_SITE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_KHMER_HOLY_SITE_FOOD</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_KHMER_HOLY_SITE_FOOD</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+	</ModifierArguments>
+	
+</GameData>

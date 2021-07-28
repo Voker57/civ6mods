@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Policies_08_Information -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 8:50:51 PM -->
+<GameData>
+
+	<!-- ATOMIC POLICIES -->
+	<LocalizedText>
+		<!-- AIR FORCE PRODUCTION POLICY -->
+		<Row	Tag="LOC_POLICY_STR_AIR_FORCE_PRODUCTION_NAME"										Language="en_US">
+			<Text>Air Force Production</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_AIR_FORCE_PRODUCTION_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Production] Production towards [ICON_Unit] Naval Carrier, Air Fighter, and Air Bomber class Units.[NEWLINE][ICON_Bullet]City Maintenance increases by 3 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- ECOMMERCE POLICY -->
+		<Row	Tag="LOC_POLICY_STR_ECOMMERCE_NAME"													Language="en_US">
+			<Text>Ecommerce</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ECOMMERCE_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Production] Production and +5 [ICON_Gold] Gold in [ICON_TradeRoute] Trade Routes; doubled in international destinations.</Text>
+		</Row>
+		<!-- INTERNATIONAL SPACE AGENCY POLICY -->
+		<Row	Tag="LOC_POLICY_STR_INTERNATIONAL_SPACE_AGENCY_NAME"								Language="en_US">
+			<Text>International Space Agency</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_INTERNATIONAL_SPACE_AGENCY_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet]+10% [ICON_Science] Science per City-State Suzerainty.[NEWLINE][ICON_Bullet]City Maintenance increases by 3 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- ONLINE COMMUNITIES POLICY -->
+		<Row	Tag="LOC_POLICY_STR_ONLINE_COMMUNITIES_NAME"										Language="en_US">
+			<Text>Online Communities</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ONLINE_COMMUNITIES_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Tourism] Tourism to Civilizations that player [ICON_TradeRoute] Trade Routes have a destination to.[NEWLINE][ICON_Bullet]City Maintenance increases by 2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- COLLECTIVE ACTIVISM POLICY -->
+		<Row	Tag="LOC_POLICY_STR_COLLECTIVE_ACTIVISM_NAME"										Language="en_US">
+			<Text>Collective Activism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_COLLECTIVE_ACTIVISM_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+10% [ICON_Culture] Culture per City-State Suzerainty.[NEWLINE][ICON_Bullet]City Maintenance increases by 3 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- AFTER ACTIONS REPORTS POLICY -->
+		<Row	Tag="LOC_POLICY_STR_AFTER_ACTIONS_REPORTS_NAME"										Language="en_US">
+			<Text>After Actions Reports</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_AFTER_ACTIONS_REPORTS_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Military Units gain +50% [ICON_Ability] Experience from combat.</Text>
+		</Row>
+		<!-- COMMUNICATIONS OFFICE POLICY-->
+		<Row	Tag="LOC_POLICY_STR_COMMUNICATIONS_OFFICE_NAME"										Language="en_US">
+			<Text>Communications Office</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_COMMUNICATIONS_OFFICE_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet][ICON_Governor] Governors grant +2 [ICON_PressureUp] Loyalty to a City per [ICON_Promotion] Promotion.</Text>
+		</Row>
+		<!-- THE GOD EMPEROR POLICY-->
+		<Row	Tag="LOC_POLICY_STR_THE_GOD_EMPEROR_NAME"											Language="en_US">
+			<Text>The God Emperor</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_THE_GOD_EMPEROR_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+5 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Production] Production, [ICON_Gold] Gold, and [ICON_Faith] Faith in all Cities.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

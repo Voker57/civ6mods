@@ -1,0 +1,4 @@
+-- [SCVID]_GameMode_06_MonopoliesCorporations_MODE
+-- Author: Strudeler
+-- DateCreated: 4/3/2021 11:17:17 AM
+--------------------------------------------------------------

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION"/><Set><Description>LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_LAND_DOWN_UNDER"/><Set><Description>LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" ModifierId="TRAIT_CITADELCIVILIZATION_LIBERATION_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" ModifierId="TRAIT_CITADELCIVILIZATION_DEFENSIVE_PRODUCTION"/>
+		<Delete TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" ModifierId="TRAIT_LEADER_CITADEL_CIVILIZATION_XP2"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_LAND_DOWN_UNDER" ModifierId="TRAIT_BREATHTAKING_CAMPUS"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_LAND_DOWN_UNDER" ModifierId="TRAIT_BREATHTAKING_COMMERCIAL_HUB"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_LAND_DOWN_UNDER" ModifierId="TRAIT_BREATHTAKING_HOLY_SITE"/>
+		<Delete TraitType="TRAIT_CIVILIZATION_LAND_DOWN_UNDER" ModifierId="TRAIT_BREATHTAKING_THEATER_DISTRICT"/>
+
+		<Row TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" ModifierId="EPSMOD_CIVS_CURTIN_PROTECTORATE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" ModifierId="EPSMOD_CIVS_CURTIN_LIBERATION_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" ModifierId="EPSMOD_CIVS_CURTIN_RECONQUEST_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" ModifierId="EPSMOD_CIVS_CURTIN_FOOD_TO_ALLY"/>
+		<Row TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" ModifierId="EPSMOD_CIVS_CURTIN_FOOD_FROM_ALLY"/>
+		<Row TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" ModifierId="EPSMOD_CIVS_CURTIN_PRODUCTION_TO_ALLY"/>
+		<Row TraitType="TRAIT_LEADER_CITADEL_CIVILIZATION" ModifierId="EPSMOD_CIVS_CURTIN_PRODUCTION_FROM_ALLY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_LAND_DOWN_UNDER" ModifierId="EPSMOD_CIVS_AUSTRALIA_BREATHTAKING_CULTURE"/>
+	</TraitModifiers>
+	
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PROTECTORATE_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_LIBERATION_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_RECONQUEST_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_ADD_DIPLOMATIC_YIELD_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_FOOD_TO_ALLY</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_ALLY_ROUTE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_FOOD_FROM_ALLY</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PRODUCTION_TO_ALLY</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_ALLY_ROUTE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PRODUCTION_FROM_ALLY</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_AUSTRALIA_BREATHTAKING_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_IS_BREATHTAKING_PLOT</SubjectRequirementSetId></Row>
+		
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PROTECTORATE_PRODUCTION</ModifierId><Name>DiplomaticYieldSource</Name><Value>PROTECTORATE_WAR_INITIATED</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PROTECTORATE_PRODUCTION</ModifierId><Name>TurnsActive</Name><Value>5</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PROTECTORATE_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PROTECTORATE_PRODUCTION</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_LIBERATION_PRODUCTION</ModifierId><Name>DiplomaticYieldSource</Name><Value>LIBERATION_WAR_INITIATED</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_LIBERATION_PRODUCTION</ModifierId><Name>TurnsActive</Name><Value>5</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_LIBERATION_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_LIBERATION_PRODUCTION</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_RECONQUEST_PRODUCTION</ModifierId><Name>DiplomaticYieldSource</Name><Value>RECONQUEST_WAR_INITIATED</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_RECONQUEST_PRODUCTION</ModifierId><Name>TurnsActive</Name><Value>5</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_RECONQUEST_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_RECONQUEST_PRODUCTION</ModifierId><Name>Amount</Name><Value>50</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_FOOD_TO_ALLY</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_FOOD_TO_ALLY</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_FOOD_FROM_ALLY</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_FOOD_FROM_ALLY</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PRODUCTION_TO_ALLY</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PRODUCTION_TO_ALLY</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PRODUCTION_FROM_ALLY</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_CURTIN_PRODUCTION_FROM_ALLY</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_AUSTRALIA_BREATHTAKING_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_AUSTRALIA_BREATHTAKING_CULTURE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_BREATHTAKING_PLOT</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_BREATHTAKING_PLOT</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_BREATHTAKING</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_BREATHTAKING</RequirementId><RequirementType>REQUIREMENT_PLOT_IS_APPEAL_BETWEEN</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_PLOT_IS_BREATHTAKING</RequirementId><Name>MinimumAppeal</Name><Value>4</Value></Row>
+	</RequirementArguments>
+	
+</GameData>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Governors_01_Modifiers -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/6/2021 2:35:27 PM -->
+<GameData>
+
+	<!-- AMANI THE DIPLOMAT -->
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="EMISSARY_IDENTITY_PRESSURE_TO_FOREIGN_CITIES"/>
+			<Set Value="4"/>
+		</Update>
+	</ModifierArguments>
+	
+	<!-- PINGALA THE EDUCATOR -->
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="LIBRARIAN_SCIENCE_YIELD_BONUS"/>
+			<Set Value="10"/>
+		</Update>
+		<Update>
+			<Where ModifierId="LIBRARIAN_CULTURE_YIELD_BONUS"/>
+			<Set Value="10"/>
+		</Update>
+	</ModifierArguments>
+
+</GameData>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_GameMode_08_ZombieDefense_MODE -->
+<!-- Author: thoma -->
+<!-- DateCreated: 4/3/2021 11:18:55 AM -->
+<GameData>
+
+	<!-- ZOMBIE -->
+	<Units>
+		<Update>
+			<Where	UnitType="UNIT_MODE_ZOMBIE"/>
+			<Set	Description="LOC_STR_UNIT_MODE_ZOMBIE_DESCRIPTION"/>
+		</Update>
+	</Units>
+
+	<!-- IMPROVEMENTS -->
+	<Improvements>
+		<!-- -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_DESC"/>
+		</Update>
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_MODERN_TOWER_DEFENSE_DESC"/>
+		</Update>
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_DESC"/>
+		</Update>
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_MODERN_TRAP_DEFENSE_DESC"/>
+		</Update>
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_ALCAZAR"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_ALCAZAR_DESCRIPTION_ZOMBIE"/>
+		</Update>
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_MAORI_PA"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_MAORI_PA_DESCRIPTION_ZOMBIE"/>
+		</Update>
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_ROMAN_FORT"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_ROMAN_FORT_DESCRIPTION_ZOMBIE"/>
+		</Update>
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_FORT"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_FORT_DESCRIPTION_ZOMBIE"/>
+		</Update>
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_GREAT_WALL"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_GREAT_WALL_DESCRIPTION_ZOMBIE"/>
+		</Update>
+	</Improvements>
+
+	<!-- IMPROVEMENTS -->
+	<Improvements>
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_VAMPIRE_CASTLE"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_VAMPIRE_CASTLE_DESCRIPTION_ZOMBIE"/>
+		</Update>
+	</Improvements>
+
+
+</GameData>

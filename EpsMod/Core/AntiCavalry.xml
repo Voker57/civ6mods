@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="EPSMOD_ABILITY_ANTICAVALRY_VS_DISTRICT" Kind="KIND_ABILITY"/>
+	</Types>
+	
+	<TypeTags>
+		<Delete Type="ABILITY_ANTI_SPEAR" Tag="CLASS_MELEE"/>
+		<Row Type="EPSMOD_ABILITY_ANTICAVALRY_VS_DISTRICT" Tag="CLASS_ANTI_CAVALRY"/>
+	</TypeTags>
+	
+	<UnitAbilities>
+		<Row UnitAbilityType="EPSMOD_ABILITY_ANTICAVALRY_VS_DISTRICT" Name="EPSMOD_ABILITY_ANTICAVALRY_VS_DISTRICT_NAME" Description="EPSMOD_ABILITY_ANTICAVALRY_VS_DISTRICT_DESCRIPTION"/>
+	</UnitAbilities>
+
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>EPSMOD_ABILITY_ANTICAVALRY_VS_DISTRICT</UnitAbilityType>
+			<ModifierId>EPSMOD_ANTICAVALRY_VS_DISTRICT</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	
+	<UnitPromotions>
+		<Update><Where UnitPromotionType="PROMOTION_SCHILTRON"/><Set><Description>LOC_PROMOTION_SCHILTRON_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</UnitPromotions>
+
+	<BarbarianTribes>
+		<Update><Where TribeType="TRIBE_NAVAL"/><Set><DefenderTag>CLASS_MELEE</DefenderTag></Set></Update>
+		<Update><Where TribeType="TRIBE_CAVALRY"/><Set><DefenderTag>CLASS_MELEE</DefenderTag></Set></Update>
+		<Update><Where TribeType="TRIBE_MELEE"/><Set><DefenderTag>CLASS_MELEE</DefenderTag></Set></Update>
+	</BarbarianTribes>
+
+
+	<Modifiers>
+		<Row>
+			<ModifierId>EPSMOD_ANTICAVALRY_VS_DISTRICT</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>EPSMOD_ANTICAVALRY_VS_DISTRICT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Update><Where ModifierId="SCHILTRON_DEFENSE_BONUS_VS_MELEE" Name="Amount"/><Set><Value>5</Value></Set></Update>
+
+		<Row>
+			<ModifierId>EPSMOD_ANTICAVALRY_VS_DISTRICT</ModifierId>
+			<Name>Amount</Name>
+			<Value>-7</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<ModifierStrings>
+		<Row ModifierId="EPSMOD_ANTICAVALRY_VS_DISTRICT" Context="Preview" Text="-7 {EPSMOD_ANTICAVALRY_VS_DISTRICT_PREVIEW}"/>
+	</ModifierStrings>
+
+	
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>EPSMOD_ANTICAVALRY_VS_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>EPSMOD_ANTICAVALRY_VS_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>EPSMOD_PLAYER_IS_ATTACKER_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>EPSMOD_ANTICAVALRY_VS_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>EPSMOD_PLOT_DISTRICT_IS_DEFENDED_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row>
+			<RequirementId>EPSMOD_PLAYER_IS_ATTACKER_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_IS_ATTACKING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>EPSMOD_PLOT_DISTRICT_IS_DEFENDED_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_DISTRICT_IS_DEFENDED</RequirementType>
+		</Row>
+	</Requirements>	
+</GameData>

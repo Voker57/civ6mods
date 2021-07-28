@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+		
+	<BarbarianAttackForces>
+		<Update><Where AttackForceType="StandardRaid"/><Set><NumMeleeUnits>1</NumMeleeUnits></Set></Update>
+		<Update><Where AttackForceType="CavalryRaid"/><Set><NumMeleeUnits>1</NumMeleeUnits></Set></Update>
+		<Update><Where AttackForceType="NavalRaid"/><Set><NumMeleeUnits>1</NumMeleeUnits></Set></Update>
+		<Update><Where AttackForceType="HighDifficultyStandardRaid"/><Set><NumMeleeUnits>2</NumMeleeUnits></Set></Update>
+		<Update><Where AttackForceType="HighDifficultyCavalryRaid"/><Set><NumMeleeUnits>2</NumMeleeUnits></Set></Update>
+		<Update><Where AttackForceType="HighDifficultyNavalRaid"/><Set><NumMeleeUnits>2</NumMeleeUnits></Set></Update>
+		
+		<Update><Where AttackForceType="LowDifficultyStandardAttack"/><Set><NumMeleeUnits>1</NumMeleeUnits></Set></Update>
+		<Update><Where AttackForceType="LowDifficultyCavalryAttack"/><Set><NumMeleeUnits>1</NumMeleeUnits></Set></Update>
+		<Update><Where AttackForceType="LowDifficultyNavalAttack"/><Set><NumMeleeUnits>1</NumMeleeUnits></Set></Update>
+		<Update><Where AttackForceType="StandardAttack"/><Set><NumMeleeUnits>2</NumMeleeUnits><NumRangeUnits>1</NumRangeUnits></Set></Update>
+		<Update><Where AttackForceType="CavalryAttack"/><Set><NumMeleeUnits>2</NumMeleeUnits><NumRangeUnits>1</NumRangeUnits></Set></Update>
+		<Update><Where AttackForceType="NavalAttack"/><Set><NumMeleeUnits>2</NumMeleeUnits><NumRangeUnits>1</NumRangeUnits></Set></Update>
+		<Update><Where AttackForceType="HighDifficultyStandardAttack"/><Set><NumMeleeUnits>3</NumMeleeUnits><NumRangeUnits>2</NumRangeUnits></Set></Update>
+		<Update><Where AttackForceType="HighDifficultyCavalryAttack"/><Set><NumMeleeUnits>3</NumMeleeUnits><NumRangeUnits>2</NumRangeUnits></Set></Update>
+		<Update><Where AttackForceType="HighDifficultyNavalAttack"/><Set><NumMeleeUnits>3</NumMeleeUnits><NumRangeUnits>2</NumRangeUnits></Set></Update>
+	</BarbarianAttackForces>
+
+
+	<Technologies>
+		<Update><Where TechnologyType="TECH_BRONZE_WORKING"/><Set><Description>LOC_TECH_BRONZE_WORKING_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Technologies>
+	
+
+	<TechnologyModifiers>
+		<Row><TechnologyType>TECH_BRONZE_WORKING</TechnologyType><ModifierId>EPSMOD_BRONZE_WORKING_BARB_COMBAT</ModifierId></Row>
+	</TechnologyModifiers>
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_BRONZE_WORKING_BARB_COMBAT</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_BRONZE_WORKING_BARB_COMBAT</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+	</ModifierArguments>
+	
+</GameData>

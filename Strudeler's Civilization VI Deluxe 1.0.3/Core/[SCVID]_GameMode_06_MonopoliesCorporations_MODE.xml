@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_GameMode_06_MonopoliesCorporations_MODE -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 11:16:46 AM -->
+<GameData>
+
+	<!-- IMPROVEMENTS -->
+	<Improvements>
+		<!-- INDUSTRY -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_INDUSTRY"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_INDUSTRY_DESCRIPTION"/>
+		</Update>
+		<!-- CORPORATION -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_CORPORATION"/>
+			<Set	Description="LOC_STR_IMPROVEMENT_CORPORATION_EXPANSION2_DESCRIPTION"/>
+		</Update>
+	</Improvements>
+
+	<!-- GOLD RESOURCE MONOPOLY -->
+	
+<!--<Types>
+		<Row	Type="PROJECT_STR_CREATE_CORPORATION_PRODUCT_GOLD_1"
+				Kind="KIND_PROJECT"/>
+	</Types>
+	
+	<GreatWorks>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_1"
+				GreatWorkObjectType="GREATWORKOBJECT_PRODUCT"
+				Name="LOC_GREATWORK_STR_PRODUCT_GOLD_1_NAME"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_2"
+				GreatWorkObjectType="GREATWORKOBJECT_PRODUCT"
+				Name="LOC_GREATWORK_STR_PRODUCT_GOLD_2_NAME"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_3"
+				GreatWorkObjectType="GREATWORKOBJECT_PRODUCT"
+				Name="LOC_GREATWORK_STR_PRODUCT_GOLD_3_NAME"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_4"
+				GreatWorkObjectType="GREATWORKOBJECT_PRODUCT"
+				Name="LOC_GREATWORK_STR_PRODUCT_GOLD_4_NAME"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_5"
+				GreatWorkObjectType="GREATWORKOBJECT_PRODUCT"
+				Name="LOC_GREATWORK_STR_PRODUCT_GOLD_5_NAME"/>
+	</GreatWorks>
+	
+	<GreatWorks_ImprovementType>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_1"
+				ResourceType="RESOURCE_GOLD"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_2"
+				ResourceType="RESOURCE_GOLD"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_3"
+				ResourceType="RESOURCE_GOLD"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_4"
+				ResourceType="RESOURCE_GOLD"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_5"
+				ResourceType="RESOURCE_GOLD"/>
+	</GreatWorks_ImprovementType>
+	
+	<GreatWork_YieldChanges>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_1"
+				YieldType="YIELD_GOLD"
+				YieldChange="30"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_2"
+				YieldType="YIELD_GOLD"
+				YieldChange="30"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_3"
+				YieldType="YIELD_GOLD"
+				YieldChange="30"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_4"
+				YieldType="YIELD_GOLD"
+				YieldChange="30"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_5"
+				YieldType="YIELD_GOLD"
+				YieldChange="30"/>
+	</GreatWork_YieldChanges>
+	
+	<Projects>
+		<Row	ProjectType="PROJECT_STR_CREATE_CORPORATION_PRODUCT_GOLD_1"
+				Name="LOC_PROJECT_STR_CREATE_CORPORATION_PRODUCT_GOLD_NAME_1"
+				ShortName="LOC_PROJECT_STR_CREATE_CORPORATION_PRODUCT_GOLD_SHORT_NAME_1"
+				Description="LOC_PROJECT_STR_CREATE_CORPORATION_PRODUCT_GOLD_DESCRIPTION_1"
+				Cost="500"
+				AdvisorType="ADVISOR_GENERIC"/>
+	</Projects>
+	
+	<Projects_MODE>
+		<Row	ProjectType="PROJECT_STR_CREATE_CORPORATION_PRODUCT_GOLD_1"
+				ResourceType="RESOURCE_GOLD"/>
+	</Projects_MODE>
+	
+	<ProjectCompletionModifiers>
+		<Row	ProjectType="PROJECT_STR_CREATE_CORPORATION_PRODUCT_GOLD_1"
+				ModifierId="PROJECT_STR_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD_1"/>
+	</ProjectCompletionModifiers>
+	
+	<ResourceIndustries>
+		<Row	ResourceType="RESOURCE_GOLD"
+				ResourceEffect="INDUSTRY_GOLD_YIELD_BONUS"
+				ResourceEffectText="LOC_INDUSTRY_GOLD_STR_DESCRIPTION"/>
+	</ResourceIndustries>
+	
+	<ResourceCorporations>
+		<Row	ResourceType="RESOURCE_GOLD"
+				ResourceEffect="INDUSTRY_GOLD_YIELD_BONUS"
+				ResourceEffectText="LOC_INDUSTRY_GOLD_STR_DESCRIPTION"/>
+	</ResourceCorporations>
+	
+	<GreatWorkModifiers>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_1"
+				ModifierId="PROJECT_STR_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD_1"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_2"
+				ModifierId="PROJECT_STR_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD_1"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_3"
+				ModifierId="PROJECT_STR_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD_1"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_4"
+				ModifierId="PROJECT_STR_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD_1"/>
+		<Row	GreatWorkType="GREATWORK_STR_PRODUCT_GOLD_5"
+				ModifierId="PROJECT_STR_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD_1"/>
+	</GreatWorkModifiers>
+
+	<Modifiers>
+		<Row	ModifierId="PROJECT_STR_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD_1"
+				ModifierType="MODIFIER_PLAYER_GRANT_RANDOM_RESOURCE_PRODUCT"/>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row	ModifierId="PROJECT_STR_COMPLETION_CREATE_CORPORATION_PRODUCT_GOLD_1"
+				Name="ResourceType"
+				Value="RESOURCE_GOLD"/>
+	</ModifierArguments>-->
+
+</GameData>

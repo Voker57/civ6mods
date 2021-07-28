@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS"/><Set><Description>LOC_TRAIT_LEADER_ANTIQUES_AND_PARKS_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="TRAIT_ANTIQUES_AND_PARKS_CULTURE_FORESTS_OR_WONDERS"/>
+		<Delete TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="TRAIT_ANTIQUES_AND_PARKS_SCIENCE_NATIONAL_WONDERS_OR_MOUNTAINS"/>
+
+		<Row TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="EPSMOD_CIVS_BULLMOOSE_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="EPSMOD_CIVS_BULLMOOSE_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="EPSMOD_CIVS_BULLMOOSE_CULTURE_DOUBLED"/>
+		<Row TraitType="TRAIT_LEADER_ANTIQUES_AND_PARKS" ModifierId="EPSMOD_CIVS_BULLMOOSE_SCIENCE_DOUBLED"/>
+	</TraitModifiers>
+	
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_CULTURE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_SCIENCE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_CULTURE_DOUBLED</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_CULTURE_DOUBLED</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_SCIENCE_DOUBLED</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE_DOUBLED</SubjectRequirementSetId></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_CULTURE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_SCIENCE</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_SCIENCE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_CULTURE_DOUBLED</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_CULTURE_DOUBLED</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_SCIENCE_DOUBLED</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BULLMOOSE_SCIENCE_DOUBLED</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+	</ModifierArguments>
+
+	
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_IN_BULLMOOSE_SET</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_CULTURE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_CULTURE_DOUBLED</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE_DOUBLED</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_IN_BULLMOOSE_SET</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_NATURAL_WONDER_ADJACENT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_IN_BULLMOOSE_SET</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_MOUNTAIN_ADJACENT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_IN_BULLMOOSE_SET</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_FOREST_ADJACENT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_CULTURE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_PLOT_IS_BREATHTAKING</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_CULTURE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_TILE_IS_BULLMOOSE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_PLOT_IS_BREATHTAKING</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_TILE_IS_BULLMOOSE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_WONDER_ADJACENT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_CULTURE_DOUBLED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_CITY_HAS_NATIONAL_PARK</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_CULTURE_DOUBLED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_PLOT_IS_BREATHTAKING</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_CULTURE_DOUBLED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_TILE_IS_BULLMOOSE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE_DOUBLED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_CITY_HAS_NATIONAL_PARK</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE_DOUBLED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_PLOT_IS_BREATHTAKING</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE_DOUBLED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_TILE_IS_BULLMOOSE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_TILE_IS_BULLMOOSE_SCIENCE_DOUBLED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_WONDER_ADJACENT</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_TILE_IS_BULLMOOSE</RequirementId><RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_WONDER_ADJACENT</RequirementId><RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_WONDER</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_NATURAL_WONDER_ADJACENT</RequirementId><RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_NATURAL_WONDER</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_MOUNTAIN_ADJACENT</RequirementId><RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_MOUNTAIN</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_FOREST_ADJACENT</RequirementId><RequirementType>REQUIREMENT_PLOT_ADJACENT_FEATURE_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_PLOT_IS_BREATHTAKING</RequirementId><RequirementType>REQUIREMENT_PLOT_IS_APPEAL_BETWEEN</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_CITY_HAS_NATIONAL_PARK</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_NATIONAL_PARK</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_TILE_IS_BULLMOOSE</RequirementId><Name>RequirementSetId</Name><Value>EPSMOD_CIVS_TILE_IS_IN_BULLMOOSE_SET</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_FOREST_ADJACENT</RequirementId><Name>FeatureType</Name><Value>FEATURE_FOREST</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_BULL_PLOT_IS_BREATHTAKING</RequirementId><Name>MinimumAppeal</Name><Value>4</Value></Row>
+	</RequirementArguments>
+	
+</GameData>

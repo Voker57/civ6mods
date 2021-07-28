@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Policies_09_Future -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 8:51:15 PM -->
+<GameData>
+
+	<!-- FUTURE POLICIES -->
+	<LocalizedText>
+		<!-- JUDGMENT DAY POLICY -->
+		<Row	Tag="LOC_POLICY_STR_JUDGMENT_DAY_NAME"												Language="en_US">
+			<Text>Judgment Day</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_JUDGMENT_DAY_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Giant Death Robots gain +30 [ICON_Strength] Combat Strength.[NEWLINE][ICON_Bullet]City Maintenance increases by 8 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- AEROSPACE CONTRACTORS -->
+		<Row	Tag="LOC_POLICY_STR_AEROSPACE_CONTRACTORS_NAME"										Language="en_US">
+			<Text>Aerospace Contractors</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_AEROSPACE_CONTRACTORS_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+5 [ICON_Power] Power and [ICON_Resource_Aluminum] Aluminum in Cities with a [ICON_DISTRICT_SPACEPORT] Spaceport.</Text>
+		</Row>
+		<!-- SPACE TOURISM -->
+		<Row	Tag="LOC_POLICY_STR_SPACE_TOURISM_NAME"												Language="en_US">
+			<Text>Space Tourism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_SPACE_TOURISM_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet][ICON_Tourism] Tourism from other players is reduced by 20%.</Text>
+		</Row>
+		<!-- HALLYU -->
+		<Row	Tag="LOC_POLICY_STR_HALLYU_NAME"													Language="en_US">
+			<Text>Hallyu</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_HALLYU_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet][ICON_Religion] Rock Bands can choose any possible [ICON_Promotion] Promotion.</Text>
+		</Row>
+		<!-- NON-STATE ACTORS -->
+		<Row	Tag="LOC_POLICY_STR_NON_STATE_ACTORS_NAME"											Language="en_US">
+			<Text>Non-State Actors</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_NON_STATE_ACTORS_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Spies can choose any possible [ICON_Promotion] Promotion.</Text>
+		</Row>
+		<!-- INTEGRATED ATTACK LOGISTICS -->
+		<Row	Tag="LOC_POLICY_STR_INTEGRATED_ATTACK_LOGISTICS_NAME"								Language="en_US">
+			<Text>Integrated Attack Logistics</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_INTEGRATED_ATTACK_LOGISTICS_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Movement] Movement for [ICON_Unit] Units starting the turn in enemy territory.[NEWLINE][ICON_Bullet]+50% [ICON_Production] Production towards [ICON_Unit] Giant Death Robots.[NEWLINE][ICON_Bullet]City Maintenance increases by 8 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- RABBLEROUSING POLICY -->
+		<Row	Tag="LOC_POLICY_STR_RABBLEROUSING_NAME"												Language="en_US">
+			<Text>Rabblerousing</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_RABBLEROUSING_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]Reducing the Diplomatic Victory points of another player returns 50% of spent [ICON_Favor] Diplomatic Favor.[NEWLINE][ICON_Bullet]+3 [ICON_Favor] Diplomatic Favor per turn.</Text>
+		</Row>
+		<!-- DIPLOMATIC CAPITAL -->
+		<Row	Tag="LOC_POLICY_STR_DIPLOMATIC_CAPITAL_NAME"										Language="en_US">
+			<Text>Diplomatic Capital</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_DIPLOMATIC_CAPITAL_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+8 [ICON_Favor] Diplomatic Favor per turn.</Text>
+		</Row>
+		<!-- GLOBAL COALITION -->
+		<Row	Tag="LOC_POLICY_STR_GLOBAL_COALITION_NAME"											Language="en_US">
+			<Text>Global Coalition</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_GLOBAL_COALITION_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Units gain +7 [ICON_Strength] Combat Strength when in friendly territory.[NEWLINE][ICON_Bullet]City Maintenance increases by 5 [ICON_Gold] Gold.</Text>
+		</Row>
+	</LocalizedText>	
+
+</GameData>

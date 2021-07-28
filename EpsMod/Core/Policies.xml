@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Policies>
+		<!-- Ancient Era -->
+		<Update><Where PolicyType="POLICY_DISCIPLINE"/><Set><Description>LOC_POLICY_DISCIPLINE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GOD_KING"/><Set><Description>LOC_POLICY_GOD_KING_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_SURVEY"/><Set><Description>LOC_POLICY_SURVEY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_URBAN_PLANNING"/><Set><Description>LOC_POLICY_URBAN_PLANNING_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_ILKUM"/><Set><Description>LOC_POLICY_ILKUM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_STRATEGOS"/><Set><Description>LOC_POLICY_STRATEGOS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_AGOGE"/><Set><Description>LOC_POLICY_AGOGE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_CARAVANSARIES"/><Set><Description>LOC_POLICY_CARAVANSARIES_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_MARITIME_INDUSTRIES"/><Set><Description>LOC_POLICY_MARITIME_INDUSTRIES_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_MANEUVER"/><Set><Description>LOC_POLICY_MANEUVER_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_CORVEE"/><Set><Description>LOC_POLICY_CORVEE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_LAND_SURVEYORS"/><Set><Description>LOC_POLICY_LAND_SURVEYORS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_CONSCRIPTION"/><Set><Description>LOC_POLICY_CONSCRIPTION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_COLONIZATION"/><Set><Description>LOC_POLICY_COLONIZATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_INSPIRATION"/><Set><Description>LOC_POLICY_INSPIRATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_REVELATION"/><Set><Description>LOC_POLICY_REVELATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_LIMITANEI"/><Set><Description>LOC_POLICY_LIMITANEI_DESCRIPTION_EPSMOD</Description></Set></Update>
+		
+		<!-- Classical Era -->		
+		<Update><Where PolicyType="POLICY_INSULAE"/><Set><Description>LOC_POLICY_INSULAE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_CHARISMATIC_LEADER"/><Set><Description>LOC_POLICY_CHARISMATIC_LEADER_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_DIPLOMATIC_LEAGUE"/><Set><Description>LOC_POLICY_DIPLOMATIC_LEAGUE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_LITERARY_TRADITION"/><Set><Description>LOC_POLICY_LITERARY_TRADITION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_RAID"/><Set><Description>LOC_POLICY_RAID_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_VETERANCY"/><Set><Description>LOC_POLICY_VETERANCY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_EQUESTRIAN_ORDERS"/><Set><Description>LOC_POLICY_EQUESTRIAN_ORDERS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_LIMES"/><Set><Description>LOC_POLICY_LIMES_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_PRAETORIUM"/><Set><Description>LOC_POLICY_PRAETORIUM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		
+		<!-- Medieval Era -->
+		<Update><Where PolicyType="POLICY_FEUDAL_CONTRACT"/><Set><Description>LOC_POLICY_FEUDAL_CONTRACT_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_SERFDOM"/><Set><Description>LOC_POLICY_SERFDOM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_RETAINERS"/><Set><Description>LOC_POLICY_RETAINERS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_PROFESSIONAL_ARMY"/><Set><Description>LOC_POLICY_PROFESSIONAL_ARMY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_RETINUES"/><Set><Description>LOC_POLICY_RETINUES_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_TRADE_CONFEDERATION"/><Set><Description>LOC_POLICY_TRADE_CONFEDERATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_MERCHANT_CONFEDERATION"/><Set><Description>LOC_POLICY_MERCHANT_CONFEDERATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_MEDINA_QUARTER"/><Set><Description>LOC_POLICY_MEDINA_QUARTER_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_CHIVALRY"/><Set><Description>LOC_POLICY_CHIVALRY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GOTHIC_ARCHITECTURE"/><Set><Description>LOC_POLICY_GOTHIC_ARCHITECTURE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_CIVIL_PRESTIGE"/><Set><Description>LOC_POLICY_CIVIL_PRESTIGE_DESCRIPTION_EPSMOD</Description></Set></Update>
+
+		<!-- Renaissance Era -->
+		<Update><Where PolicyType="POLICY_PRESS_GANGS"/><Set><Description>LOC_POLICY_PRESS_GANGS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_COLONIAL_OFFICES"/><Set><Description>LOC_POLICY_COLONIAL_OFFICES_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_INVENTION"/><Set><Description>LOC_POLICY_INVENTION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FRESCOES"/><Set><Description>LOC_POLICY_FRESCOES_DESCRIPTION_EPSMOD</Description></Set></Update>		
+		<Update><Where PolicyType="POLICY_MACHIAVELLIANISM"/><Set><Description>LOC_POLICY_MACHIAVELLIANISM_DESCRIPTION_EPSMOD</Description></Set></Update>		
+		<Update><Where PolicyType="POLICY_WARS_OF_RELIGION"/><Set><Description>LOC_POLICY_WARS_OF_RELIGION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_RELIGIOUS_ORDERS"/><Set><Description>LOC_POLICY_RELIGIOUS_ORDERS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_LOGISTICS"/><Set><Description>LOC_POLICY_LOGISTICS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_TRIANGULAR_TRADE"/><Set><Description>LOC_POLICY_TRIANGULAR_TRADE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_DRILL_MANUALS"/><Set><Description>LOC_POLICY_DRILL_MANUALS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_LIBERALISM"/><Set><Description>LOC_POLICY_LIBERALISM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_WISSELBANKEN"/><Set><Description>LOC_POLICY_WISSELBANKEN_DESCRIPTION_EPSMOD</Description></Set></Update>
+		
+		<!-- Industrial Era -->
+		<Update><Where PolicyType="POLICY_GRANDE_ARMEE"/><Set><Description>LOC_POLICY_GRANDE_ARMEE_DESCRIPTION_EPSMOD</Description></Set></Update>	
+		<Update><Where PolicyType="POLICY_NATIONAL_IDENTITY"/><Set><Description>LOC_POLICY_NATIONAL_IDENTITY_DESCRIPTION_EPSMOD</Description></Set></Update>		
+		<Update><Where PolicyType="POLICY_COLONIAL_TAXES"/><Set><Description>LOC_POLICY_COLONIAL_TAXES_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_RAJ"/><Set><Description>LOC_POLICY_RAJ_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_PUBLIC_WORKS"/><Set><Description>LOC_POLICY_PUBLIC_WORKS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_SKYSCRAPERS"/><Set><Description>LOC_POLICY_SKYSCRAPERS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_SYMPHONIES"/><Set><Description>LOC_POLICY_SYMPHONIES_DESCRIPTION_EPSMOD</Description></Set></Update>		
+		<Update><Where PolicyType="POLICY_MILITARY_RESEARCH"/><Set><Description>LOC_POLICY_MILITARY_RESEARCH_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FORCE_MODERNIZATION"/><Set><Description>LOC_POLICY_FORCE_MODERNIZATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_MILITARY_ORGANIZATION"/><Set><Description>LOC_POLICY_MILITARY_ORGANIZATION_DESCRIPTION_EPSMOD</Description></Set></Update>		
+		<Update><Where PolicyType="POLICY_EXPROPRIATION"/><Set><Description>LOC_POLICY_EXPROPRIATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_TOTAL_WAR"/><Set><Description>LOC_POLICY_TOTAL_WAR_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_PUBLIC_TRANSPORT"/><Set><Description>LOC_POLICY_PUBLIC_TRANSPORT_EPSMOD</Description></Set></Update>
+		
+		<!-- Modern Era -->
+		<Update><Where PolicyType="POLICY_RESOURCE_MANAGEMENT"/><Set><Description>LOC_POLICY_RESOURCE_MANAGEMENT_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_PROPAGANDA"/><Set><Description>LOC_POLICY_PROPAGANDA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_LEVEE_EN_MASSE"/><Set><Description>LOC_POLICY_LEVEE_EN_MASSE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_MARKET_ECONOMY"/><Set><Description>LOC_POLICY_MARKET_ECONOMY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_LAISSEZ_FAIRE"/><Set><Description>LOC_POLICY_LAISSEZ_FAIRE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_NOBEL_PRIZE"/><Set><Description>LOC_POLICY_NOBEL_PRIZE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_NUCLEAR_ESPIONAGE"/><Set><Description>LOC_POLICY_NUCLEAR_ESPIONAGE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_POLICE_STATE"/><Set><Description>LOC_POLICY_POLICE_STATE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FINEST_HOUR"/><Set><Description>LOC_POLICY_FINEST_HOUR_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_NEW_DEAL"/><Set><Description>LOC_POLICY_NEW_DEAL_DESCRIPTION_EPSMOD</Description></Set></Update>		
+		<Update><Where PolicyType="POLICY_LIGHTNING_WARFARE"/><Set><Description>LOC_POLICY_LIGHTNING_WARFARE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_THIRD_ALTERNATIVE"/><Set><Description>LOC_POLICY_THIRD_ALTERNATIVE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_MARTIAL_LAW"/><Set><Description>LOC_POLICY_MARTIAL_LAW_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GUNBOAT_DIPLOMACY"/><Set><Description>LOC_POLICY_GUNBOAT_DIPLOMACY_DESCRIPTION_EPSMOD</Description></Set></Update>		
+		<Update><Where PolicyType="POLICY_COLLECTIVIZATION"/><Set><Description>LOC_POLICY_COLLECTIVIZATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_DEFENSE_OF_MOTHERLAND"/><Set><Description>LOC_POLICY_DEFENSE_OF_MOTHERLAND_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Delete PolicyType=""/>
+		
+		<!-- Atomic Era -->
+		<Update><Where PolicyType="POLICY_CRYPTOGRAPHY"/><Set><Description>LOC_POLICY_CRYPTOGRAPHY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_INTERNATIONAL_WATERS"/><Set><Description>LOC_POLICY_INTERNATIONAL_WATERS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_CONTAINMENT"/><Set><Description>LOC_POLICY_CONTAINMENT_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_HERITAGE_TOURISM"/><Set><Description>LOC_POLICY_HERITAGE_TOURISM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_MILITARY_FIRST"/><Set><Description>LOC_POLICY_MILITARY_FIRST_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_SATELLITE_BROADCASTS"/><Set><Description>LOC_POLICY_SATELLITE_BROADCASTS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_MUSIC_CENSORSHIP"/><Set><Description>LOC_POLICY_MUSIC_CENSORSHIP_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_INTEGRATED_SPACE_CELL"/><Set><Description>LOC_POLICY_INTEGRATED_SPACE_CELL_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_SECOND_STRIKE_CAPABILITY"/><Set><Description>LOC_POLICY_SECOND_STRIKE_CAPABILITY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_AFTER_ACTION_REPORTS"/><Set><Description>LOC_POLICY_AFTER_ACTION_REPORTS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		
+		<!-- Information Era -->		
+		<Update><Where PolicyType="POLICY_STRATEGIC_AIR_FORCE"/><Set><Description>LOC_POLICY_STRATEGIC_AIR_FORCE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_ECOMMERCE"/><Set><Description>LOC_POLICY_ECOMMERCE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_INTERNATIONAL_SPACE_AGENCY"/><Set><Description>LOC_POLICY_INTERNATIONAL_SPACE_AGENCY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_COLLECTIVE_ACTIVISM"/><Set><Description>LOC_POLICY_COLLECTIVE_ACTIVISM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_COMMUNICATIONS_OFFICE"/><Set><Description>LOC_POLICY_COMMUNICATIONS_OFFICE_DESCRIPTION_EPSMOD</Description></Set></Update>
+
+		<!-- Future Era -->
+		<Update><Where PolicyType="POLICY_FUTURE_VICTORY_SCIENCE"/><Set><Description>LOC_POLICY_FUTURE_VICTORY_SCIENCE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FUTURE_COUNTER_CULTURE"/><Set><Description>LOC_POLICY_FUTURE_COUNTER_CULTURE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FUTURE_VICTORY_CULTURE"/><Set><Description>LOC_POLICY_FUTURE_VICTORY_CULTURE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FUTURE_COUNTER_SCIENCE"/><Set><Description>LOC_POLICY_FUTURE_COUNTER_SCIENCE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FUTURE_VICTORY_DOMINATION"/><Set><Description>LOC_POLICY_FUTURE_VICTORY_DOMINATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FUTURE_COUNTER_DIPLOMATIC"/><Set><Description>LOC_POLICY_FUTURE_COUNTER_DIPLOMATIC_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FUTURE_VICTORY_DIPLOMATIC"/><Set><Description>LOC_POLICY_FUTURE_VICTORY_DIPLOMATIC_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FUTURE_COUNTER_DOMINATION"/><Set><Description>LOC_POLICY_FUTURE_COUNTER_DOMINATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+
+		<!-- Government Legacy -->
+		<Update><Where PolicyType="POLICY_GOV_AUTOCRACY"/><Set><Description>LOC_GOVT_INHERENT_BONUS_AUTOCRACY_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GOV_OLIGARCHY"/><Set><Description>LOC_GOVT_INHERENT_BONUS_OLIGARCHY_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GOV_CLASSICAL_REPUBLIC"/><Set><Description>LOC_GOVT_INHERENT_BONUS_CLASSREP_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GOV_MONARCHY"/><Set><Description>LOC_GOVT_INHERENT_BONUS_MONARCHY_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GOV_THEOCRACY"/><Set><Description>LOC_GOVT_INHERENT_BONUS_THEOCRACY_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GOV_MERCHANT_REPUBLIC"/><Set><Description>LOC_GOVT_INHERENT_BONUS_MERCHREP_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GOV_FASCISM"/><Set><Description>LOC_GOVT_INHERENT_BONUS_FASCISM_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GOV_COMMUNISM"/><Set><Description>LOC_GOVT_INHERENT_BONUS_COMMUNISM_EPSMOD</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_GOV_DEMOCRACY"/><Set><Description>LOC_GOVT_INHERENT_BONUS_DEMOCRACY_EPSMOD</Description></Set></Update>
+
+		<!-- Removed -->
+		<Delete PolicyType="POLICY_BASTIONS"/>
+		<Delete PolicyType="POLICY_NAVIGATION"/>
+		<Delete PolicyType="POLICY_MERITOCRACY"/>
+		<Delete PolicyType="POLICY_TRAVELING_MERCHANTS"/>
+		<Delete PolicyType="POLICY_NATIVE_CONQUEST"/>
+		<Delete PolicyType="POLICY_ONLINE_COMMUNITIES"/>
+		<Delete PolicyType="POLICY_INQUISITION"/>
+		<Delete PolicyType="POLICY_FLOWER_POWER"/>
+	</Policies>
+
+	<Policies_XP1>
+		<Delete PolicyType="POLICY_INQUISITION"/>
+		<Delete PolicyType="POLICY_FLOWER_POWER"/>
+	</Policies_XP1>
+
+	<ObsoletePolicies>
+		<Row PolicyType="POLICY_SURVEY" ObsoletePolicy="POLICY_LOGISTICS"/>
+	</ObsoletePolicies>
+
+	<PolicyModifiers>
+		<Row><PolicyType>POLICY_NUCLEAR_ESPIONAGE</PolicyType><ModifierId>EPSMOD_POLICIES_NUCLEAR_ESPIONAGE_ATTACH</ModifierId></Row>
+	</PolicyModifiers>
+	
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_POLICIES_NUCLEAR_ESPIONAGE_ATTACH</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_POLICIES_NUCLEAR_ESPIONAGE_BUFF</ModifierId><ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SPY_OPERATION_CHANCE</ModifierType></Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Update><Where ModifierId="INSULAE_SPECIALTYHOUSING" Name="Amount"/><Set><Value>2</Value></Set></Update>
+		<Update><Where ModifierId="MEDINAQUARTER_SPECIALTYHOUSING" Name="Amount"/><Set><Value>3</Value></Set></Update>
+		<Update><Where ModifierId="COLONIALOFFICES_FOREIGNIDENTITY" Name="Amount"/><Set><Value>5</Value></Set></Update>
+		<Update><Where ModifierId="NATIONALIDENTITY_REDUCESTRENGTHREDUCTIONFORDAMAGE" Name="Amount"/><Set><Value>70</Value></Set></Update>
+
+		<Row><ModifierId>EPSMOD_POLICIES_NUCLEAR_ESPIONAGE_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_POLICIES_NUCLEAR_ESPIONAGE_BUFF</Value></Row>
+		<Row><ModifierId>EPSMOD_POLICIES_NUCLEAR_ESPIONAGE_BUFF</ModifierId><Name>OperationType</Name><Value>UNITOPERATION_SPY_STEAL_TECH_BOOST</Value></Row>
+		<Row><ModifierId>EPSMOD_POLICIES_NUCLEAR_ESPIONAGE_BUFF</ModifierId><Name>Offensive</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_POLICIES_NUCLEAR_ESPIONAGE_BUFF</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+	</ModifierArguments>
+	
+</GameData>

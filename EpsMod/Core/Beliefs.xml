@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>	
+	<Beliefs>
+		<!--Pantheon-->
+		<Update><Where BeliefType="BELIEF_DANCE_OF_THE_AURORA"/><Set><Description>LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_DESERT_FOLKLORE"/><Set><Description>LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_DIVINE_SPARK"/><Set><Description>LOC_BELIEF_DIVINE_SPARK_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_EARTH_GODDESS"/><Set><Description>LOC_BELIEF_EARTH_GODDESS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_FERTILITY_RITES"/><Set><Description>LOC_BELIEF_FERTILITY_RITES_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_MONUMENT_TO_THE_GODS"/><Set><Description>LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_RELIGIOUS_IDOLS"/><Set><Description>LOC_BELIEF_RELIGIOUS_IDOLS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_RIVER_GODDESS"/><Set><Description>LOC_BELIEF_RIVER_GODDESS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_STONE_CIRCLES"/><Set><Description>LOC_BELIEF_STONE_CIRCLES_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_GODDESS_OF_FIRE"/><Set><Description>LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_CITY_PATRON_GODDESS"/><Set><Description>LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update>
+			<Where BeliefType="BELIEF_GOD_OF_THE_OPEN_SKY"/>
+			<Set>
+				<Name>LOC_BELIEF_GOD_OF_THE_OPEN_SKY_NAME_EPSMOD</Name>
+				<Description>LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where BeliefType="BELIEF_GOD_OF_THE_SEA"/>
+			<Set>
+				<Name>LOC_BELIEF_GOD_OF_THE_SEA_NAME_EPSMOD</Name>
+				<Description>LOC_BELIEF_GOD_OF_THE_SEA_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where BeliefType="BELIEF_GODDESS_OF_FESTIVALS"/>
+			<Set>
+				<Name>LOC_BELIEF_GODDESS_OF_FESTIVALS_NAME_EPSMOD</Name>
+				<Description>LOC_BELIEF_GODDESS_OF_FESTIVALS_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where BeliefType="BELIEF_GODDESS_OF_THE_HUNT"/>
+			<Set>
+				<Name>LOC_BELIEF_GODDESS_OF_THE_HUNT_NAME_EPSMOD</Name>
+				<Description>LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where BeliefType="BELIEF_LADY_OF_THE_REEDS_AND_MARSHES"/>
+			<Set>
+				<Name>LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_NAME_EPSMOD</Name>
+				<Description>LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where BeliefType="BELIEF_SACRED_PATH"/>
+			<Set>
+				<Name>LOC_BELIEF_SACRED_PATH_NAME_EPSMOD</Name>
+				<Description>LOC_BELIEF_SACRED_PATH_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where BeliefType="BELIEF_GOD_OF_CRAFTSMEN"/>
+			<Set>
+				<Name>LOC_BELIEF_GOD_OF_CRAFTSMEN_NAME_EPSMOD</Name>
+				<Description>LOC_BELIEF_GOD_OF_CRAFTSMEN_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+
+		<!--Follower-->
+		<Update><Where BeliefType="BELIEF_CHORAL_MUSIC"/><Set><Description>LOC_BELIEF_CHORAL_MUSIC_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_DIVINE_INSPIRATION"/><Set><Description>LOC_BELIEF_DIVINE_INSPIRATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_FEED_THE_WORLD"/><Set><Description>LOC_BELIEF_FEED_THE_WORLD_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_RELIGIOUS_COMMUNITY"/><Set><Description>LOC_BELIEF_RELIGIOUS_COMMUNITY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_WORK_ETHIC"/><Set><Description>LOC_BELIEF_WORK_ETHIC_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update>
+			<Where BeliefType="BELIEF_RELIGIOUS_UNITY"/>
+			<Set>
+				<BeliefClassType>BELIEF_CLASS_FOLLOWER</BeliefClassType>
+				<Description>LOC_BELIEF_RELIGIOUS_UNITY_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+		<Update>
+			<Where BeliefType="BELIEF_STEWARDSHIP"/>
+			<Set>
+				<BeliefClassType>BELIEF_CLASS_FOLLOWER</BeliefClassType>
+				<Description>LOC_BELIEF_STEWARDSHIP_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+		
+		<!--Building-->
+		<Update><Where BeliefType="BELIEF_CATHEDRAL"/><Set><Description>LOC_BELIEF_CATHEDRAL_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_GURDWARA"/><Set><Description>LOC_BELIEF_GURDWARA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_MEETING_HOUSE"/><Set><Description>LOC_BELIEF_MEETING_HOUSE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_MOSQUE"/><Set><Description>LOC_BELIEF_MOSQUE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_PAGODA"/><Set><Description>LOC_BELIEF_PAGODA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_SYNAGOGUE"/><Set><Description>LOC_BELIEF_SYNAGOGUE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_WAT"/><Set><Description>LOC_BELIEF_WAT_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_STUPA"/><Set><Description>LOC_BELIEF_STUPA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		
+		<!--Founder-->
+		<Update><Where BeliefType="BELIEF_CROSS_CULTURAL_DIALOGUE"/><Set><Description>LOC_BELIEF_CROSS_CULTURAL_DIALOGUE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_PAPAL_PRIMACY"/><Set><Description>LOC_BELIEF_PAPAL_PRIMACY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_PILGRIMAGE"/><Set><Description>LOC_BELIEF_PILGRIMAGE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_SACRED_PLACES"/><Set><Description>LOC_BELIEF_SACRED_PLACES_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_TITHE"/><Set><Description>LOC_BELIEF_TITHE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_WORLD_CHURCH"/><Set><Description>LOC_BELIEF_WORLD_CHURCH_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update>
+			<Where BeliefType="BELIEF_JESUIT_EDUCATION"/>
+			<Set>
+				<BeliefClassType>BELIEF_CLASS_FOUNDER</BeliefClassType>
+				<Description>LOC_BELIEF_JESUIT_EDUCATION_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+		
+		<!--Enhancer-->
+		<Update><Where BeliefType="BELIEF_JUST_WAR"/><Set><Description>LOC_BELIEF_JUST_WAR_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_DEFENDER_OF_FAITH"/><Set><Description>LOC_BELIEF_DEFENDER_OF_FAITH_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_HOLY_ORDER"/><Set><Description>LOC_BELIEF_HOLY_ORDER_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_HOLY_WATERS"/><Set><Description>LOC_BELIEF_HOLY_WATERS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_ITINERANT_PREACHERS"/><Set><Description>LOC_BELIEF_ITINERANT_PREACHERS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_RELIGIOUS_COLONIZATION"/><Set><Description>LOC_BELIEF_RELIGIOUS_COLONIZATION_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BeliefType="BELIEF_SCRIPTURE"/><Set><Description>LOC_BELIEF_SCRIPTURE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update>
+			<Where BeliefType="BELIEF_WARRIOR_MONKS"/>
+			<Set>
+				<BeliefClassType>BELIEF_CLASS_ENHANCER</BeliefClassType>
+				<Description>LOC_BELIEF_WARRIOR_MONKS_DESCRIPTION_EPSMOD</Description>
+			</Set>
+		</Update>
+
+		<!--Removed-->
+		<Delete BeliefType="BELIEF_GOD_OF_HEALING" />
+		<Delete BeliefType="BELIEF_GOD_OF_THE_FORGE" />
+		<Delete BeliefType="BELIEF_GOD_OF_WAR" />
+		<Delete BeliefType="BELIEF_INITIATION_RITES" />
+		<Delete BeliefType="BELIEF_RELIGIOUS_SETTLEMENTS" />
+		<Delete BeliefType="BELIEF_RELIQUARIES" />
+		<Delete BeliefType="BELIEF_ZEN_MEDITATION" />
+		<Delete BeliefType="BELIEF_DAR_E_MEHR" />
+		<Delete BeliefType="BELIEF_LAY_MINISTRY" />
+		<Delete BeliefType="BELIEF_MISSIONARY_ZEAL" />
+		<Delete BeliefType="BELIEF_MONASTIC_ISOLATION" />
+	</Beliefs>
+	
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_CATHEDRAL" YieldType="YIELD_CULTURE" YieldChange="2"/>
+	</Building_YieldChanges>
+	
+	<Building_GreatWorks>
+		<Delete BuildingType="BUILDING_CATHEDRAL"/>
+	</Building_GreatWorks>
+
+	<BeliefModifiers>
+		<Row BeliefType="BELIEF_STEWARDSHIP"><ModifierId>LAY_MINISTRY_CULTURE_DISTRICTS</ModifierId></Row>
+		<Row BeliefType="BELIEF_STEWARDSHIP"><ModifierId>LAY_MINISTRY_FAITH_DISTRICTS</ModifierId></Row>
+		<Row BeliefType="BELIEF_CITY_PATRON_GODDESS"><ModifierId>EPSMOD_CITY_PATRON_PRODUCTION_ATTACH</ModifierId></Row>
+	</BeliefModifiers>
+
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CITY_PATRON_PRODUCTION_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType><SubjectRequirementSetId>CITY_FOLLOWS_PANTHEON_REQUIREMENTS</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CITY_PATRON_PRODUCTION</ModifierId><ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE</ModifierType><SubjectRequirementSetId>EPSMOD_CITY_AT_1_POP</SubjectRequirementSetId></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Update><Where ModifierId="CITY_PATRON_GODDESS_DISTRICT_PRODUCTION_MODIFIER" Name="Amount"/><Set><Value>35</Value></Set></Update>
+
+		<Row><ModifierId>EPSMOD_CITY_PATRON_PRODUCTION_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_CITY_PATRON_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_CITY_PATRON_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_CITY_PATRON_PRODUCTION</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+	</ModifierArguments>
+
+	
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_CITY_AT_1_POP</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_CITY_AT_1_POP</RequirementSetId><RequirementId>EPSMOD_BELIEF_REQUIREMENT_CITY_HAS_1_POP</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_CITY_HAS_1_POP</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_X_POPULATION</RequirementType><Inverse>true</Inverse></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_CITY_HAS_1_POP</RequirementId><Name>Amount</Name><Value>2</Value></Row>
+	</RequirementArguments>
+	
+</GameData>

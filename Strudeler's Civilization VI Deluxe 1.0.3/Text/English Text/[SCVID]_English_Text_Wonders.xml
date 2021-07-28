@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Wonders -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 9:01:50 PM -->
+<GameData>
+
+<!-- WONDERS -->
+	<LocalizedText>
+		<!-- ALHAMBRA -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ALHAMBRA_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 1 [ICON_Policy] Military Policy card in any [ICON_Government] Government.[NEWLINE][ICON_Bullet]Acts as a [ICON_Charges] Defensive Improvement.[NEWLINE][ICON_Bullet]+2 [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]+2 [ICON_GreatGeneral] Great General points per turn.[NEWLINE][ICON_Bullet]+3 [ICON_Science] Science and [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] Hill adjacent to a [ICON_DISTRICT_ENCAMPMENT] Encampment."/>
+		</Update>
+		<!-- AMUNDSEN-SCOTT RESEARCH STATION -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_AMUNDSEN_SCOTT_RESEARCH_STATION_DESCRIPTION"				Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+10% [ICON_Production] Production and +20% [ICON_Science] Science in all Cities; doubled if the City own 5 [ICON_Terrain] Snow and Snow Hill tiles.[NEWLINE][ICON_Bullet]+6 [ICON_Science] Science and [ICON_Production] Production.[NEWLINE][ICON_Bullet]+5 [ICON_GreatScientist] Great Scientist points per turn.[NEWLINE][ICON_Bullet]Must be adjacent to a [ICON_DISTRICT_CAMPUS] Campus that has a [ICON_Buildings] Research Lab on a [ICON_Terrain] Snow or Snow Hills tile."/>
+		</Update>
+		<!-- ANGKOR WAT -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ANGKOR_WAT_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Citizen] Population and [ICON_Housing] Housing Housing in all Cities when completed.[NEWLINE][ICON_Bullet]+2 [ICON_Faith] Faith and +12 [ICON_Food] Food.[NEWLINE][ICON_Bullet]Must be built adjacent to an [ICON_DISTRICT_AQUEDUCT] Aqueduct."/>
+		</Update>
+		<!-- APADANA -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_APADANA_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Envoy] Envoys when completed; additional +2 [ICON_Envoy] Envoys whenever a [ICON_DISTRICT_WONDER] Wonder is completed.[NEWLINE][ICON_Bullet]+2 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]2 [ICON_GreatWork_Landscape] Great Work slot.[NEWLINE][ICON_Bullet]Must be built adjacent to the [ICON_Capital] Capital."/>
+		</Update>
+		<!-- BIG BEN -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_BIG_BEN_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 1 [ICON_Policy] Economic Policy card in any [ICON_Government] Government.[NEWLINE][ICON_Bullet]Gain [ICON_Gold] Gold equal to 50% of [ICON_Gold] Gold from turn it was completed.[NEWLINE][ICON_Bullet]+4 [ICON_Science] Science and [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]Must be built next to a [ICON_Terrain] River adjacent to a [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hub with a [ICON_Buildings] Bank."/>
+		</Update>
+		<!-- BIOSPHERE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_BIOSPHERE_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+200% [ICON_Power] Power from all [ICON_Charges] Offshore Windfarms, Solar Farms, Wind Farms, Geothermal Plants, and [ICON_Buildings] Hydroelectric Dams; gain [ICON_Tourism] Tourism equal to their [ICON_Power] Power.[NEWLINE][ICON_Bullet]+1 Appeal on [ICON_Terrain] Rainforest and Marsh.[NEWLINE][ICON_Bullet]Must be built along a [ICON_Terrain] River adjacent to a [ICON_DISTRICT_NEIGHBORHOOD] Neighbourhood."/>
+		</Update>
+		<!-- BOLSHOI THEATER -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_BOLSHOI_THEATRE_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 2 random [ICON_Culture] Civics when completed.[NEWLINE][ICON_Bullet]+4 [ICON_Culture] Culture and [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+2 [ICON_GreatWriter] Great Writer and [ICON_GreatMusician] Great Musician points per turn.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Writing] Great Work of Writing and [ICON_GreatWork_Music] Great Work of Music slots.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Terrain adjacent to a [ICON_DISTRICT_THEATER] Theater Square."/>
+		</Update>
+		<!-- BROADWAY -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_BROADWAY_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 1 Random [ICON_CivicBoosted] Inspiration.[NEWLINE][ICON_Bullet]+20% [ICON_Culture] Culture in the City.[NEWLINE][ICON_Bullet]+6 [ICON_Culture] Culture and [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+3 [ICON_GreatWriter] Great Writer and [ICON_GreatMusician] Great Musician points per turn.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Writing] Great Work of Writing and 2 [ICON_GreatWork_Music] Great Work of Music slots.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Terrain adjacent to a [ICON_DISTRICT_THEATER] Theater Sqaure."/>
+		</Update>
+		<!-- CASA DE CONTRATACION -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 3 [ICON_Governor] Governor titles when completed.[NEWLINE][ICON_Bullet]Cities not on the [ICON_Capital] Capital's [ICON_Terrain] Continent, that have a [ICON_Governor] Governor, gain +15% [ICON_Production] Production, [ICON_Gold] Gold, and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production, as well as +4 [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+3 [ICON_GreatMerchant] Great Merchant points per turn.[NEWLINE][ICON_Bullet]Must be built adjacent to a [ICON_DISTRICT_GOVERNMENT] Government Plaza."/>
+		</Update>
+		<!-- CHICHEN ITZA -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Production] Production and +2 [ICON_Culture] Culture on [ICON_Terrain] Rainforest tiles in the City.[NEWLINE][ICON_Bullet]+2 [ICON_Food] Food, [ICON_Culture] Culture, [ICON_Production] Production, and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] Rainforest tile."/>
+		</Update>
+		<!-- COLOSSEUM -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_COLOSSEUM_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Culture] Culture, [ICON_Amenities] Amenities, and [ICON_PressureUp] Loyalty to Cities within 6 tiles.[NEWLINE][ICON_Bullet]+6 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Must be built adjacent to an [ICON_DISTRICT_ENTERTAINMENT] Entertainment Complex with a [ICON_Buildings] Arena."/>
+		</Update>
+		<!-- COLOSSUS -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_COLOSSUS_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain a [ICON_TradeRoute] Trader when competed.[NEWLINE][ICON_Bullet]+1 [ICON_TradeRoute] Trade Route capacity.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production, as well as +3 [ICON_Culture] Culture and [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_GreatAdmiral] Great Admiral points per turn.[NEWLINE][ICON_Bullet]Must be built on the [ICON_Terrain] Coast adjacent to land and a [ICON_DISTRICT_HARBOR] Harbour."/>
+		</Update>
+		<!-- CRISTO REDENTOR -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Tourism] Tourism from [ICON_GreatWork_Relic] Relics and [ICON_Religion] Holy Cities is not reduced by the [ICON_Culture] Enlightenment Civic.[NEWLINE][ICON_Bullet]+100% [ICON_Tourism] Tourism from [ICON_Charges] Seaside Resorts.[NEWLINE][ICON_Bullet]+4 [ICON_Culture] Culture and +20 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] Hill."/>
+		</Update>
+		<!-- EIFFEL TOWER -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 Appeal on all tiles in Cities.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production, as well as +4 [ICON_Science] Science and [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Terrain adjacent to a [ICON_DISTRICT_CITY_CENTER] City Center."/>
+		</Update>
+		<!-- ESTADIO DO MARACANA -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Amenities] Amenities and +6 [ICON_Culture] Culture in all Cities.[NEWLINE][ICON_Bullet]+6 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Must be built adjacent to an [ICON_DISTRICT_ENTERTAINMENT] Entertainment Complex with a [ICON_Buildings] Stadium."/>
+		</Update>
+		<!-- ETEMENANKI -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ETEMENANKI_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Production] Production and +2 [ICON_Science] Science on [ICON_Terrain] Marsh tiles in all Cities.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science and [ICON_Production] Production on [ICON_Terrain] Floodplains in the City.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production, as well as +2 [ICON_Food] Food and [ICON_Science] Science.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Floodplains or Marsh."/>
+		</Update>
+		<!-- FORBIDDEN CITY -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_FORBIDDEN_CITY_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 1 [ICON_Policy] Wildcard Policy in any [ICON_Government] Government.[NEWLINE][ICON_Bullet]+2 [ICON_Gold] Gold and [ICON_Faith] Faith, as well as +5 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Terrain adjacent to the [ICON_DISTRICT_CITY_CENTER] City Center."/>
+		</Update>
+		<!-- GOLDEN GATE BRIDGE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GOLDEN_GATE_BRIDGE_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Unit] Land Units can cross the strait without embarking as if it were a [ICON_Charges] Modern Road; Modern Roads spawn on connected [ICON_Terrain] Land tiles.[NEWLINE][ICON_Bullet]+4 Appeal in the City.[NEWLINE][ICON_Bullet]+100% [ICON_Tourism] Tourism from [ICON_Charges] National Parks in the City.[NEWLINE][ICON_Bullet]+3 [ICON_Amenities] Amenities, +4 [ICON_Production] Production, and +6 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast between 2 Land tiles."/>
+		</Update>
+		<!-- GREAT BATH -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GREAT_BATH_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Terrain] Floodplains that share the river with the [ICON_DISTRICT_WONDER] Wonder become immune to [ICON_Damaged] Flood Damage and gain if the City owns the tiles, gain +1 [ICON_Faith] Faith every time [ICON_Damaged] Flood Damaged is mitigated.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity, as well as +2 [ICON_Food] Food and [ICON_Production] Production, as well as +3 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Floodplains."/>
+		</Update>
+		<!-- GREAT LIBRARY -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GREAT_LIBRARY_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain [ICON_TechBoosted] Eurekas towards all [ICON_Science] Ancient Era and Classical Era Technologies when completed.[NEWLINE][ICON_Bullet]Gain a random [ICON_TechBoosted] Eureka when another player recruits a [ICON_GreatScientist] Great Scientist.[NEWLINE][ICON_Bullet]+2 [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_GreatScientist] Great Scientist and [ICON_GreatWriter] Great Writer points per turn.[NEWLINE][ICON_Bullet]2 [ICON_GreatWork_Writing] Great Work of Writing slots.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Terrain adjacent to a [ICON_DISTRICT_CAMPUS] Campus with a [ICON_Buildings] Library."/>
+		</Update>
+		<!-- GREAT LIGHTHOUSE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Movement] Movement for all [ICON_Unit] Naval Units.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production and [ICON_Science] Science, as well as +3 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_GreatAdmiral] Great Admiral point per turn.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast adjacent to a [ICON_DISTRICT_HARBOR] Harbour with a [ICON_Buildings] Lighthouse."/>
+		</Update>
+		<!-- GREAT ZIMBABWE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_TradeRoute] Trade Routes from this City gain +2 [ICON_Gold] Gold for every [ICON_Charges] Bonus Resource within 3 tiles of the City and it's City territory.[NEWLINE][ICON_Bullet]+1 [ICON_TradeRoute] Trade Route capacity.[NEWLINE][ICON_Bullet]+4 [ICON_Food] Food and +5 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+2 [ICON_GreatMerchant] Great Merchant points per turn.[NEWLINE][ICON_Bullet]Must be built adjacent to a [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hub with a [ICON_Buildings] Market and an adjacent [ICON_Resource_Cattle] Cattle Resource."/>
+		</Update>
+		<!-- HAGIA SOPHIA -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Religion] Missionaries and Apostles gain +1 Spread.[NEWLINE][ICON_Bullet]+4 [ICON_Faith] Faith, as well as +5 [ICON_Science] Science and [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Terrain and adjacent to a [ICON_DISTRICT_HOLYSITE] Holy Site by a player that has founded a [ICON_Religion] Religion."/>
+		</Update>
+		<!-- HANGING GARDENS -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+15% [ICON_Food] Growth in all Cities.[NEWLINE][ICON_Bullet]+2 [ICON_Housing] Housing and +4 [ICON_Food] Food.[NEWLINE][ICON_Bullet]Heroes purchased in the City gain +10% [ICON_Lifespan] Lifespan.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] River."/>
+		</Update>
+		<!-- HERMITAGE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+4 [ICON_Culture] Culture and [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]4 [ICON_GreatWork_Landscape] Great Work of Art slots.[NEWLINE][ICON_Bullet]+3 [ICON_GreatArtist] Great Artist points per turn."/>
+		</Update>
+		<!-- HUEY TEOCALLI -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_HUEY_TEOCALLI_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Amenities] Amenity per [ICON_Terrain] Lake tile adjacent to the [ICON_DISTRICT_WONDER] Wonder.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food and [ICON_Production] Production on [ICON_Terrain] Lake tiles in all Cities.[NEWLINE][ICON_Bullet]+2 [ICON_Food] Food and +4 [ICON_Production] Production.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] Lake tile adjacent to Land."/>
+		</Update>
+		<!-- JEBEL BARKAL -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_JEBEL_BARKAL_EXPANSION2_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+6 [ICON_Resource_Iron] Iron per turn.[NEWLINE][ICON_Bullet]+4 [ICON_Faith] Faith to Cities within 6 tiles.[NEWLINE][ICON_Bullet]+4 [ICON_Production] Production and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Desert Hills."/>
+		</Update>
+		<!-- KILWA KISIWANI -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_KILWA_KISIWANI_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+3 [ICON_Envoy] Envoys when completed.[NEWLINE][ICON_Bullet]City-State Suzerainty grants +15% boost to the type bonuses provided by that City-State; bonus doubled once the player is City-State Suzerain of 2 or more of the same type of City-State.[NEWLINE][ICON_Bullet]+2 [ICON_Food] Food and +4 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Terrain adjacent to Coast."/>
+		</Update>
+		<!-- KOTOKU-IN -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_KOTOKU_IN_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 4 [ICON_Unit] Warrior Monks when completed, if the player has founded or the City follows a [ICON_Religion] Religion.[NEWLINE][ICON_Bullet]+20% [ICON_Faith] Faith in the City.[NEWLINE][ICON_Bullet]Must be built adjacent to a [ICON_DISTRICT_HOLYSITE] Holy Site with a [ICON_Buildings] Temple."/>
+		</Update>
+		<!-- MACHU PICCHU -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MACHU_PICCHU_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hub, [ICON_DISTRICT_THEATER] Theater Square, and [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone gain standard adjacency from [ICON_Terrain] Mountains.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production and +4 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] Mountain that is not also a Volcano."/>
+		</Update>
+		<!-- MAHABODHI TEMPLE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MAHABODHI_TEMPLE_EXPANSION2_DESCRIPTION"					Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Favor] Diplomatic Victory points and 2 [ICON_Religion] Apostles when completed.[NEWLINE][ICON_Bullet]+2 [ICON_Science] Science and [ICON_Culture] Culture, as well as +4 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Woods adjacent to a [ICON_DISTRICT_HOLYSITE] Holy Site with a [ICON_Buildings] Temple by a player that has founded a [ICON_Religion] Religion."/>
+		</Update>
+		<!-- MAUSOLEUM AT HALICARNASSUS -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_HALICARNASSUS_MAUSOLEUM_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_GreatEngineer] Great Engineers gain +1 [ICON_Charges] Charge.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith on [ICON_Terrain] Coastal tiles in the City.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Must be built adjacent to a [ICON_DISTRICT_HARBOR] Harbour."/>
+		</Update>
+		<!-- MEENAKSHI TEMPLE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MEENAKSHI_TEMPLE_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 2 [ICON_Religion] Gurus.[NEWLINE][ICON_Bullet]30% [ICON_Faith] Faith discount on purchasing [ICON_Religion] Gurus.[NEWLINE][ICON_Bullet][ICON_Religion] Religious Units ajacent to Gurus gain +1 [ICON_Movement] Movement and +5 [ICON_Religion] Religious Strength.[NEWLINE][ICON_Bullet]+3 [ICON_Faith] Faith, as well as +4 [ICON_Science] Science and [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]Must be built adjacent to a [ICON_DISTRICT_HOLYSITE] Holy Site by a player that has founded a [ICON_Religion] Religion."/>
+		</Update>
+		<!-- MONT ST. MICHEL -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MONT_ST_MICHEL_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Religion] Apostles begin with the [ICON_Promotion] Martyr Promotion.[NEWLINE][ICON_Bullet]+2 [ICON_Faith] Faith, as well as +3 [ICON_Science] Science and [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]2 [ICON_GreatWork_Relic] Relic slot.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Floodplains or Marsh."/>
+		</Update>
+		<!-- ORACLE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ORACLE_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]25% [ICON_Faith] Faith discount on patronage of [ICON_GreatPerson] Great People.[NEWLINE][ICON_Bullet]15% [ICON_Faith] Faith discount on recalling [ICON_GreatPerson] Heroes.[NEWLINE][ICON_Bullet]+2 [ICON_GreatPerson] Great Person points in appropriate [ICON_District] Districts in the City.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Faith] Faith, as well as +2 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Hills."/>
+		</Update>
+		<!-- ORSZAGHAZ -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+100% [ICON_Favor] Diplomatic Favor per turn if starting the turn as Suzerain of a City-State.[NEWLINE][ICON_Bullet]+3 [ICON_Science] Science and [ICON_Faith] Faith, as well as +4 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] River."/>
+		</Update>
+		<!-- OXFORD UNIVERSITY -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_OXFORD_UNIVERSITY_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 2 random [ICON_Science] Technologies when completed.[NEWLINE][ICON_Bullet]+20% [ICON_Science] Science in the City.[NEWLINE][ICON_Bullet]+3 [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+3 [ICON_GreatScientist] Great Scientist points per turn.[NEWLINE][ICON_Bullet]2 [ICON_GreatWork_Writing] Great Work of Writing slots.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Grassland or Plains adjacent to a [ICON_DISTRICT_CAMPUS] Campus with a [ICON_Buildings] University."/>
+		</Update>
+		<!-- PANAMA CANAL -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_PANAMA_CANAL_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]1-2 [ICON_DISTRICT_CANAL] Canals are completed adjacent to the [ICON_DISTRICT_WONDER] Wonder when completed.[NEWLINE][ICON_Bullet][ICON_Unit] Naval Units can cross through the tile(s).[NEWLINE][ICON_Bullet][ICON_TradeRoute] Trade Routes multiply their [ICON_Gold] Gold from [ICON_District] Districts when passing through.[NEWLINE][ICON_Bullet]+8 [ICON_Production] Production and +10 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Terrain where two adjacent tiles directly across the [ICON_DISTRICT_WONDER] Wonder from one another meet the criteria for [ICON_DISTRICT_CANAL] Canals or are Cities or are [ICON_Terrain] Coast or Lake tiles."/>
+		</Update>
+		<!-- PETRA -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_PETRA_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Production] Production, as well as +2 [ICON_Food] Food and [ICON_Gold] Gold on [ICON_Terrain] Desert tiles, that are not Floodplains, in the City.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production, as well as +2 [ICON_Food] Food and [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Must be be built on [ICON_Terrain] Open Desert or Desert Floodplains."/>
+		</Update>
+		<!-- POTALA PALACE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_POTALA_PALACE_EXPANSION2_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 1 [ICON_Policy] Diplomatic Policy slot in any [ICON_Government] Government.[NEWLINE][ICON_Bullet]+1 [ICON_Favor] Diplomatic Victory point when completed.[NEWLINE][ICON_Bullet]+2 [ICON_Culture] Culture, as well as +3 [ICON_Science] Science and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] Hill adjacent to a Mountain."/>
+		</Update>
+		<!-- PYRAMIDS -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 1 [ICON_Unit] Builder.[NEWLINE][ICON_Bullet][ICON_Unit] Builders gain 1 [ICON_Charges] Charge.[NEWLINE][ICON_Bullet]+2 [ICON_Culture] and +4 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Desert."/>
+		</Update>
+		<!-- RUHR VALLEY -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Production] Production on [ICON_Charges] Mines and Quarries in the City.[NEWLINE][ICON_Bullet]+20% [ICON_Production] Production in the City.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production and +4 [ICON_Science] Science.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] River adjacent to an [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone with a [ICON_Buildings] Factory."/>
+		</Update>
+		<!-- ST. BASIL'S CATHEDRAL -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ST_BASILS_CATHEDRAL_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Food] Food, [ICON_Production] Production, and [ICON_Culture] Culture on all [ICON_Terrain] Tundra tiles in the City.[NEWLINE][ICON_Bullet]+100% [ICON_Tourism] Religious Tourism in the City.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production and +4 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]3 [ICON_GreatWork_Relic] Relic slots.[NEWLINE][ICON_Bullet]Must be built adjacent to a [ICON_DISTRICT_CITY_CENTER] City Center."/>
+		</Update>
+		<!-- STATUE OF LIBERTY -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_STATUE_LIBERTY_EXPANSION2_DESCRIPTION"					Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+4 [ICON_Favor] Diplomatic Victory points when completed.[NEWLINE][ICON_Bullet]Gain 2 [ICON_Unit] Settlers.[NEWLINE][ICON_Bullet]Player Cities within 6 tiles gain 100% [ICON_PressureUp] Loyalty.[NEWLINE][ICON_Bullet]+3 [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast adjacent to Land and a [ICON_DISTRICT_HARBOR] Harbour."/>
+		</Update>	
+		<!-- STATUE OF ZEUS -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_STATUE_OF_ZEUS_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 3 [ICON_Unit] Archers and Spearmen, as well as 1 Battering Ram.[NEWLINE][ICON_Bullet]+50% [ICON_Production] Production towards [ICON_Unit] Anti Cavalry Units.[NEWLINE][ICON_Bullet]+3 [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Terrain adjacent to an [ICON_DISTRICT_ENCAMPMENT] Encampment with a [ICON_Buildings] Barracks."/>
+		</Update>
+		<!-- STONEHENGE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 1 [ICON_GreatProphet] Great Prophet which can found a [ICON_Religion] Religion on the [ICON_DISTRICT_WONDER] Wonder.[NEWLINE][ICON_Bullet]+2 [ICON_Culture] Culture and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Terrain adjacent to [ICON_Resource_Stone] Stone."/>
+		</Update>
+		<!-- SYDNEY OPERA HOUSE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+8 [ICON_Culture] Culture and +10 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+5 [ICON_GreatMusician] Great Musician points per turn.[NEWLINE][ICON_Bullet]3 [ICON_GreatWork_Music] Great Works of Music slots.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast adjacent to Land and a [ICON_DISTRICT_HARBOR] Harbour."/>
+		</Update>
+		<!-- TAJ MAHAL -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 Era Score from Historic Moments that are worth 2 points, after completion.[NEWLINE][ICON_Bullet]+3 [ICON_Culture] Culture and +6 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Must be built on a [ICON_Terrain] River."/>
+		</Update>
+		<!-- TEMPLE OF ARTEMIS -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Charges] Camps, Pastures, and Plantations within 4 tiles of the [ICON_DISTRICT_WONDER] Wonder grant +1 [ICON_Amenities] Amenities to the City.[NEWLINE][ICON_Bullet]+3 [ICON_Housing] Housing and [ICON_Faith] Faith, as well as +4 [ICON_Food] Food.[NEWLINE][ICON_Bullet]Must be built adjacent to a [ICON_Charges] Camp."/>
+		</Update>
+		<!-- TERRACOTTA ARMY -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]All existing [ICON_Unit] Military Units gain 1 [ICON_Promotion] Promotion.[NEWLINE][ICON_Bullet]All [ICON_Unit] Archaeologists can enter foreign territory.[NEWLINE][ICON_Bullet]+2 [ICON_Gold] Gold and [ICON_Faith] Faith, as well as +3 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_GreatGeneral] Great General point per turn.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Open Grassland or Plains adjacent to an [ICON_DISTRICT_ENCAMPMENT] Encampment with a [ICON_Buildings] Barracks or Stables."/>
+		</Update>
+		<!-- TORRE DE BELEM -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_TORRE_DE_BELEM_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Cities not on the [ICON_Capital] Capital's [ICON_Terrain] Continent gain the [ICON_DISTRICT_CITY_CENTER] City Center's cheapest [ICON_Buildings] Building when completed.[NEWLINE][ICON_Bullet]International [ICON_TradeRoute] Trade Routes from the City receive +2 [ICON_Gold] Gold per [ICON_Charges] Luxury Resource at the destination.[NEWLINE][ICON_Bullet]+3 [ICON_Production] Production and +5 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_GreatAdmiral] Great Admiral point per turn.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast adjacent to a [ICON_DISTRICT_HARBOR] Harbour."/>
+		</Update>
+		<!-- UNIVERSITY OF SANKORE -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_UNIVERSITY_SANKORE_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Other players that send [ICON_TradeRoute] Trade Routes to the City gain +1 [ICON_Science] Science and [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]The player gains +2 [ICON_Science] Science for every [ICON_TradeRoute] Trade Route sent to the City.[NEWLINE][ICON_Bullet]Domestic [ICON_TradeRoute] Trade Routes gain +1 [ICON_Faith] Faith when sent to the City.[NEWLINE][ICON_Bullet]+1 [ICON_Faith] Faith, +2 [ICON_Culture] Culture, and +3 [ICON_Science] Science.[NEWLINE][ICON_Bullet]+2 [ICON_GreatScientist] Great Scientist points per turn.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Desert or Desert Hills adjacent to a [ICON_DISTRICT_CAMPUS] Campus with a [ICON_Buildings] University."/>
+		</Update>
+		<!-- VENETIAN ARSENAL -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain 2 [ICON_Unit] Naval Ranged or Raider class Unit in any City that produces these Unit classes.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production and +4 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+2 [ICON_GreatEngineer] Great Engineer points per turn.[NEWLINE][ICON_Bullet]Must be built adjacent to a [ICON_DISTRICT_HARBOR] Harbour and [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone."/>
+		</Update>
+	</LocalizedText>
+
+</GameData>

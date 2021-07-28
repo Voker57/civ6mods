@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	
+	<CivilopediaPageLayouts>
+		<Row PageLayoutId="EpsModAdaptation" ScriptTemplate="Simple" />
+	</CivilopediaPageLayouts>
+	
+	<CivilopediaPageLayoutChapters>
+		<Row PageLayoutId="EpsModAdaptation" ChapterId="EPSMOD_ADAPT" SortIndex="20"/>
+		<Row PageLayoutId="EpsModAdaptation" ChapterId="EPSMOD_TUNDRA" SortIndex="30"/>
+		<Row PageLayoutId="EpsModAdaptation" ChapterId="EPSMOD_DESERT" SortIndex="40"/>
+		<Row PageLayoutId="EpsModAdaptation" ChapterId="EPSMOD_MOUNTAINS" SortIndex="50"/>
+	</CivilopediaPageLayoutChapters>
+	
+	<CivilopediaPageGroups>
+		<Row SectionID="CONCEPTS" PageGroupId="EPSMOD_ADAPTATION_GROUP" Name="LOC_PEDIA_CONCEPTS_PAGEGROUP_EPSMOD_ADAPTATION_GROUP_NAME" Tooltip="" VisibleIfEmpty="false" SortIndex="6"/>
+	</CivilopediaPageGroups>
+	
+	<CivilopediaPages>
+		<Row SectionId="CONCEPTS" PageId="EPSMOD_ADAPTATION" PageGroupId="EPSMOD_ADAPTATION_GROUP" PageLayoutId="EpsModAdaptation" Name="LOC_PEDIA_CONCEPTS_PAGE_EPSMOD_ADAPTATION_CHAPTER_EPSMOD_ADAPT_TITLE" Tooltip="" SortIndex="1"/>
+	</CivilopediaPages>
+	
+	<CivilopediaPageSearchTerms>
+		<Row SectionId="CONCEPTS" PageId="EPSMOD_ADAPTATION" Term="LOC_PEDIA_CONCEPTS_PAGE_EPSMOD_ADAPTATION_CHAPTER_EPSMOD_ADAPT_TITLE"/>
+		<Row SectionId="CONCEPTS" PageId="EPSMOD_ADAPTATION" Term="LOC_PEDIA_CONCEPTS_PAGE_EPSMOD_ADAPTATION_CHAPTER_EPSMOD_TUNDRA_TITLE"/>
+		<Row SectionId="CONCEPTS" PageId="EPSMOD_ADAPTATION" Term="LOC_PEDIA_CONCEPTS_PAGE_EPSMOD_ADAPTATION_CHAPTER_EPSMOD_DESERT_TITLE"/>
+		<Row SectionId="CONCEPTS" PageId="EPSMOD_ADAPTATION" Term="LOC_PEDIA_CONCEPTS_PAGE_EPSMOD_ADAPTATION_CHAPTER_EPSMOD_MOUNTAINS_TITLE"/>
+	</CivilopediaPageSearchTerms>
+	
+</GameInfo>

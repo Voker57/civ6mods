@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>	
+	<UnitOperations>
+		<Update>
+			<Where OperationType="UNITOPERATION_SPY_RECRUIT_PARTISANS"/>
+			<Set>
+				<BaseProbability>16</BaseProbability>
+			</Set>
+		</Update>
+		<Update>
+			<Where OperationType="UNITOPERATION_SPY_BREACH_DAM"/>
+			<Set>
+				<BaseProbability>17</BaseProbability>
+			</Set>
+		</Update>
+	</UnitOperations>
+</GameData>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>	
+	<Types>
+		<Row Type="EPSMOD_ABILITY_EXPLORER" Kind="KIND_ABILITY"/>
+		<Row Type="EPSMOD_PROMOTION_RECONNAISSANCE" Kind="KIND_PROMOTION"/>
+		<Row Type="EPSMOD_PROMOTION_SURVIVALIST" Kind="KIND_PROMOTION"/>
+		<Row Type="EPSMOD_PROMOTION_PATHFINDER" Kind="KIND_PROMOTION"/>
+		<Row Type="EPSMOD_PROMOTION_SNIPER" Kind="KIND_PROMOTION"/>
+	</Types>
+	
+	<TypeTags>
+		<Row Type="EPSMOD_ABILITY_EXPLORER" Tag="CLASS_RECON"/>
+	</TypeTags>
+
+	<Units>
+		<Update><Where UnitType="UNIT_SCOUT"/><Set><BaseMoves>2</BaseMoves><Description>LOC_UNIT_SCOUT_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where UnitType="UNIT_SKIRMISHER"/><Set><BaseMoves>2</BaseMoves><Description>LOC_UNIT_SKIRMISHER_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where UnitType="UNIT_RANGER"/><Set><BaseMoves>2</BaseMoves><Description>LOC_UNIT_RANGER_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where UnitType="UNIT_SPEC_OPS"/><Set><BaseMoves>2</BaseMoves></Set></Update>
+	</Units>
+	
+	<UnitAbilities>
+		<Row UnitAbilityType="EPSMOD_ABILITY_EXPLORER" Name="LOC_EPSMOD_ABILITY_EXPLORER_NAME" Description="LOC_EPSMOD_ABILITY_EXPLORER_DESCRIPTION"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row><UnitAbilityType>EPSMOD_ABILITY_EXPLORER</UnitAbilityType><ModifierId>RANGER_IGNORE_FOREST_MOVEMENT_PENALTY</ModifierId></Row>
+		<Row><UnitAbilityType>EPSMOD_ABILITY_EXPLORER</UnitAbilityType><ModifierId>ALPINE_IGNORE_HILLS_MOVEMENT_PENALTY</ModifierId></Row>
+	</UnitAbilityModifiers>
+
+
+	<UnitPromotions>
+		<Delete UnitPromotionType="PROMOTION_RANGER"/>
+		<Delete UnitPromotionType="PROMOTION_ALPINE"/>
+		<Delete UnitPromotionType="PROMOTION_SPYGLASS"/>
+		<Delete UnitPromotionType="PROMOTION_SENTRY"/>
+
+		<Row UnitPromotionType="EPSMOD_PROMOTION_RECONNAISSANCE" Name="EPSMOD_PROMOTION_RECONNAISSANCE_NAME" Description="EPSMOD_PROMOTION_RECONNAISSANCE_DESCRIPTION" Level="1" Column="1" Specialization="" PromotionClass="PROMOTION_CLASS_RECON"/>
+		<Row UnitPromotionType="EPSMOD_PROMOTION_SURVIVALIST" Name="EPSMOD_PROMOTION_SURVIVALIST_NAME" Description="EPSMOD_PROMOTION_SURVIVALIST_DESCRIPTION" Level="1" Column="3" Specialization="" PromotionClass="PROMOTION_CLASS_RECON"/>
+		<Row UnitPromotionType="EPSMOD_PROMOTION_PATHFINDER" Name="EPSMOD_PROMOTION_PATHFINDER_NAME" Description="EPSMOD_PROMOTION_PATHFINDER_DESCRIPTION" Level="2" Column="1" Specialization="" PromotionClass="PROMOTION_CLASS_RECON"/>
+		<Row UnitPromotionType="EPSMOD_PROMOTION_SNIPER" Name="EPSMOD_PROMOTION_SNIPER_NAME" Description="EPSMOD_PROMOTION_SNIPER_DESCRIPTION" Level="3" Column="1" Specialization="" PromotionClass="PROMOTION_CLASS_RECON"/>
+
+		<Update><Where UnitPromotionType="PROMOTION_GUERRILLA"/><Set><Description>EPSMOD_PROMOTION_GUERRILLA_DESCRIPTION</Description></Set></Update>		
+	</UnitPromotions>
+
+	<UnitPromotionPrereqs>
+		<Delete UnitPromotion="PROMOTION_CAMOUFLAGE" PrereqUnitPromotion="PROMOTION_SPYGLASS"/>
+		
+		<Row UnitPromotion="EPSMOD_PROMOTION_PATHFINDER" PrereqUnitPromotion="EPSMOD_PROMOTION_RECONNAISSANCE"/>
+		<Row UnitPromotion="EPSMOD_PROMOTION_PATHFINDER" PrereqUnitPromotion="EPSMOD_PROMOTION_SURVIVALIST"/>
+		<Row UnitPromotion="PROMOTION_GUERRILLA" PrereqUnitPromotion="EPSMOD_PROMOTION_RECONNAISSANCE"/>
+		<Row UnitPromotion="PROMOTION_GUERRILLA" PrereqUnitPromotion="EPSMOD_PROMOTION_SURVIVALIST"/>
+		<Row UnitPromotion="EPSMOD_PROMOTION_SNIPER" PrereqUnitPromotion="EPSMOD_PROMOTION_PATHFINDER"/>
+		<Row UnitPromotion="PROMOTION_CAMOUFLAGE" PrereqUnitPromotion="EPSMOD_PROMOTION_SNIPER"/>
+	</UnitPromotionPrereqs>
+
+	<UnitPromotionModifiers>
+		<Row><UnitPromotionType>EPSMOD_PROMOTION_RECONNAISSANCE</UnitPromotionType><ModifierId>SPYGLASS_BONUS_SIGHT</ModifierId></Row>
+		<Row><UnitPromotionType>EPSMOD_PROMOTION_RECONNAISSANCE</UnitPromotionType><ModifierId>IGNOREZOC_IGNORE_ZOC</ModifierId></Row>
+		<Row><UnitPromotionType>EPSMOD_PROMOTION_SURVIVALIST</UnitPromotionType><ModifierId>EPSMOD_MODIFIER_SURVIVALIST_COMBAT</ModifierId></Row>
+		<Row><UnitPromotionType>EPSMOD_PROMOTION_PATHFINDER</UnitPromotionType><ModifierId>COMMANDO_BONUS_MOVEMENT</ModifierId></Row>
+		<Row><UnitPromotionType>EPSMOD_PROMOTION_SNIPER</UnitPromotionType><ModifierId>FORWARD_OBSERVERS_BONUS_RANGE</ModifierId></Row>
+		<Row><UnitPromotionType>PROMOTION_GUERRILLA</UnitPromotionType><ModifierId>EPSMOD_MODIFIER_GUERRILLA_FOREST_AND_JUNGLE</ModifierId></Row>
+	</UnitPromotionModifiers>
+
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>EPSMOD_MODIFIER_SURVIVALIST_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_BARBARIAN_COMBAT</ModifierType>
+			<SubjectRequirementSetId>EPSMOD_SURVIVALIST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>EPSMOD_MODIFIER_GUERRILLA_FOREST_AND_JUNGLE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>EPSMOD_GUERRILLA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+	</Modifiers>
+
+	<ModifierStrings>
+		<Row ModifierId="EPSMOD_MODIFIER_GUERRILLA_FOREST_AND_JUNGLE" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_GUERRILLA_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+	</ModifierStrings>
+
+
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_MODIFIER_SURVIVALIST_COMBAT</ModifierId><Name>Amount</Name><Value>8</Value></Row>
+		<Row><ModifierId>EPSMOD_MODIFIER_GUERRILLA_FOREST_AND_JUNGLE</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_SURVIVALIST_REQUIREMENTS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_GUERRILLA_REQUIREMENTS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_SURVIVALIST_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_PLAYER_IS_DEFENDER_REQUIREMENT1</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_GUERRILLA_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_PLOT_IS_FOREST_REQUIREMENT1</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_GUERRILLA_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_PLOT_IS_JUNGLE_REQUIREMENT1</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_PLAYER_IS_DEFENDER_REQUIREMENT1</RequirementId><RequirementType>REQUIREMENT_PLAYER_IS_ATTACKING</RequirementType><Inverse>true</Inverse></Row>
+		<Row><RequirementId>EPSMOD_PLOT_IS_FOREST_REQUIREMENT1</RequirementId><RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_PLOT_IS_JUNGLE_REQUIREMENT1</RequirementId><RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_PLOT_IS_FOREST_REQUIREMENT1</RequirementId><Name>FeatureType</Name><Value>FEATURE_FOREST</Value></Row>
+		<Row><RequirementId>EPSMOD_PLOT_IS_JUNGLE_REQUIREMENT1</RequirementId><Name>FeatureType</Name><Value>FEATURE_JUNGLE</Value></Row>
+	</RequirementArguments>
+</GameData>

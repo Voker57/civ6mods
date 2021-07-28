@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Maps>
+		<Update>
+			<Where MapSizeType="MAPSIZE_SMALL"/>
+			<Set>
+				<GridWidth>66</GridWidth>
+				<GridHeight>42</GridHeight>
+				<PlateValue>3</PlateValue>
+				<Continents>2</Continents>
+			</Set>
+		</Update>
+		<Update>
+			<Where MapSizeType="MAPSIZE_STANDARD"/>
+			<Set>
+				<GridWidth>76</GridWidth>
+				<GridHeight>48</GridHeight>
+				<Continents>3</Continents>
+			</Set>
+		</Update>
+		<Update>
+			<Where MapSizeType="MAPSIZE_LARGE"/>
+			<Set>
+				<GridWidth>88</GridWidth>
+				<GridHeight>56</GridHeight>
+				<PlateValue>4</PlateValue>
+				<Continents>4</Continents>
+			</Set>
+		</Update>
+		<Update>
+			<Where MapSizeType="MAPSIZE_HUGE"/>
+			<Set>
+				<GridWidth>98</GridWidth>
+				<GridHeight>62</GridHeight>
+				<Continents>5</Continents>
+			</Set>
+		</Update>
+	</Maps>
+	
+	<Map_GreatPersonClasses>
+		<Update><Where MapSizeType="MAPSIZE_TINY" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>0</MaxWorldInstances></Set></Update>
+		<Update><Where MapSizeType="MAPSIZE_SMALL" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>0</MaxWorldInstances></Set></Update>
+		<Update><Where MapSizeType="MAPSIZE_STANDARD" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>0</MaxWorldInstances></Set></Update>
+		<Update><Where MapSizeType="MAPSIZE_LARGE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>0</MaxWorldInstances></Set></Update>
+	</Map_GreatPersonClasses>
+	
+</GameData>

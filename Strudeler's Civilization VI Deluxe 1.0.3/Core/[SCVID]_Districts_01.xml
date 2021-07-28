@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Districts_01 -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 11:08:45 AM -->
+<GameData>
+
+<!-- DISTRICTS -->
+	<Districts>
+	<!-- HOLY SITE DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_HOLY_SITE"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="1"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- CAMPUS DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_CAMPUS"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="250"
+					CityStrengthModifier="1"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- ENCAMPMENT DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_ENCAMPMENT"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="3"/>
+		</Update>
+	<!-- HARBOR DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_HARBOR"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"	CityStrengthModifier="3"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- AERODROME DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_AERODROME"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="3"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- COMMERCIAL HUB DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_COMMERCIAL_HUB"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="1"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- ENTERTAINMENT COMPLEX DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="1"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- THEATER DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_THEATER"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="250"
+					CityStrengthModifier="1"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- INDUSTRIAL ZONE -->
+		<Update>
+			<Where	DistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="250"
+					CityStrengthModifier="1"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- AQUEDUCT DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_AQUEDUCT"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="NO_COST_PROGRESSION"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- NEIGHBORHOOD DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_NEIGHBORHOOD"/>
+			<Set	Cost="150"
+					Maintenance="0"
+					CostProgressionModel="NO_COST_PROGRESSION"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- SPACEPORT DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_SPACEPORT"/>
+			<Set	Cost="1000"
+					Maintenance="30"
+					CostProgressionModel="NO_COST_PROGRESSION"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- GOVERNMENT PLAZA DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_GOVERNMENT"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="NO_COST_PROGRESSION"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- WATER PARK DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- CANAL DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_CANAL"/>
+			<Set	Cost="200"
+					Maintenance="0"
+					CostProgressionModel="NO_COST_PROGRESSION"
+					Housing="4"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- DAM DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_DAM"/>
+			<Set	Cost="150"
+					Maintenance="0"
+					CostProgressionModel="NO_COST_PROGRESSION"
+					Housing="6"	PlunderAmount="25"/>
+		</Update>
+	<!-- DIPLOMATIC QUARTER DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"/>
+			<Set	Cost="60"
+					Maintenance="0"
+					CostProgressionModel="NO_COST_PROGRESSION"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- PRESERVE DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_PRESERVE"/>
+			<Set	Cost="60"
+					Maintenance="2"
+					CostProgressionParam1="200"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- ACROPOLIS DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_ACROPOLIS"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="250"
+					CityStrengthModifier="1"
+					PlunderAmount="15"
+					Description="LOC_STR_DISTRICT_ACROPOLIS_DESCRIPTION"/>
+		</Update>
+	<!-- HANSA DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_HANSA"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="250"
+					CityStrengthModifier="1"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- LAVRA DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_LAVRA"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="1"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- STREET CARNIVAL DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_STREET_CARNIVAL"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="1"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- ROYAL NAVY DOCKYARD DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="3"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- BATH DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_BATH"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="NO_COST_PROGRESSION"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- MBANZA DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_MBANZA"/>
+			<Set	Cost="75"
+					Maintenance="0"
+					CostProgressionModel="NO_COST_PROGRESSION"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- IKANDA DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_IKANDA"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="3"/>
+		</Update>
+	<!-- SEOWON DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_SEOWON"/>
+			<Set	Cost="40"
+					Maintenance="6"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="250"
+					CityStrengthModifier="1"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- COPACOBANA DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_WATER_STREET_CARNIVAL"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="1"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- COTHON DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_COTHON"/>
+			<Set	Cost="40"
+					Maintenance="0"	
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="3"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- SUGUBA DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_SUGUBA"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="1"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- OBSERVATORY DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_OBSERVATORY"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="250"
+					CityStrengthModifier="1"
+					PlunderAmount="15"/>
+		</Update>
+	<!-- HIPPODROME DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_HIPPODROME"/>
+			<Set	Cost="40"
+					Maintenance="3"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="1"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- OPPIDUM DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_OPPIDUM"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="250"
+					CityStrengthModifier="2"/>
+		</Update>
+	<!-- THANH DISTRICT -->
+		<Update>
+			<Where	DistrictType="DISTRICT_THANH"/>
+			<Set	Cost="40"
+					Maintenance="0"
+					CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+					CostProgressionParam1="200"
+					CityStrengthModifier="3"/>
+		</Update>
+	</Districts>
+
+<!-- DISTRICT GREAT PEOPLE -->
+	<District_GreatPersonPoints>
+	<!--<Delete		DistrictType="DISTRICT_LAVRA"	GreatPersonClassType="GREAT_PERSON_CLASS_WRITER"/>
+		<Delete		DistrictType="DISTRICT_LAVRA"	GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST"/>
+		<Delete		DistrictType="DISTRICT_LAVRA"	GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN"/>-->
+	</District_GreatPersonPoints>
+
+<!--<District_Adjacencies>
+		<Delete		DistrictType="DISTRICT_COTHON" YieldChangeId="SeaResource_Gold"/>
+		<Delete		DistrictType="DISTRICT_COTHON" YieldChangeId="District_Gold"/>
+		<Delete		DistrictType="DISTRICT_COTHON" YieldChangeId="Harbor_City_Gold"/>
+		<Delete		DistrictType="DISTRICT_COTHON" YieldChangeId="Government_Gold"/>
+	</District_Adjacencies>-->
+
+<!-- DISTRICT ADJACENCY ASSIGNMENT -->
+	<District_Adjacencies>
+	<!-- HOLY SITE ADJACENCY -->
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_1"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_2"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_3"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_4"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_5"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_6"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_7"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_8"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_9"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_10"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_11"/>
+		<Row	DistrictType="DISTRICT_HOLY_SITE"			YieldChangeId="STR_HolySite_Faith_12"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_1"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_2"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_3"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_4"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_5"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_6"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_7"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_8"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_9"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_10"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_11"/>
+		<Row	DistrictType="DISTRICT_LAVRA"				YieldChangeId="STR_HolySite_Faith_12"/>
+	<!-- COMMERCIAL HUB ADJACENCY -->
+		<Row	DistrictType="DISTRICT_COMMERCIAL_HUB"		YieldChangeId="STR_CommercialHub_Gold_1"/>
+		<Row	DistrictType="DISTRICT_SUGUBA"				YieldChangeId="STR_CommercialHub_Gold_1"/>
+	<!-- CAMPUS ADJACENCY -->
+		<Row	DistrictType="DISTRICT_CAMPUS"				YieldChangeId="STR_Campus_Science_1"/>
+		<Row	DistrictType="DISTRICT_CAMPUS"				YieldChangeId="STR_Campus_Science_2"/>
+		<Row	DistrictType="DISTRICT_CAMPUS"				YieldChangeId="STR_Campus_Science_3"/>
+		<Row	DistrictType="DISTRICT_CAMPUS"				YieldChangeId="STR_Campus_Science_4"/>
+	<!--<Row	DistrictType="DISTRICT_SEOWON"				YieldChangeId="STR_Campus_Science_1"/>
+		<Row	DistrictType="DISTRICT_SEOWON"				YieldChangeId="STR_Campus_Science_2"/>
+		<Row	DistrictType="DISTRICT_SEOWON"				YieldChangeId="STR_Campus_Science_3"/>
+		<Row	DistrictType="DISTRICT_SEOWON"				YieldChangeId="STR_Campus_Science_4"/>
+		<Row	DistrictType="DISTRICT_OBSERVATORY"			YieldChangeId="STR_Campus_Science_1"/>
+		<Row	DistrictType="DISTRICT_OBSERVATORY"			YieldChangeId="STR_Campus_Science_2"/>
+		<Row	DistrictType="DISTRICT_OBSERVATORY"			YieldChangeId="STR_Campus_Science_3"/>
+		<Row	DistrictType="DISTRICT_OBSERVATORY"			YieldChangeId="STR_Campus_Science_4"/>-->
+	<!-- THEATER ADJACENCY -->
+		<Row	DistrictType="DISTRICT_THEATER"				YieldChangeId="STR_Theater_Culture_1"/>
+		<Row	DistrictType="DISTRICT_THEATER"				YieldChangeId="STR_Theater_Culture_2"/>
+		<Row	DistrictType="DISTRICT_THEATER"				YieldChangeId="STR_Theater_Culture_3"/>
+		<Row	DistrictType="DISTRICT_THEATER"				YieldChangeId="STR_Theater_Culture_4"/>
+		<Row	DistrictType="DISTRICT_THEATER"				YieldChangeId="STR_Theater_Culture_5"/>
+		<Row	DistrictType="DISTRICT_THEATER"				YieldChangeId="STR_Theater_Culture_6"/>
+		<Row	DistrictType="DISTRICT_THEATER"				YieldChangeId="STR_Theater_Culture_7"/>
+		<Row	DistrictType="DISTRICT_ACROPOLIS"			YieldChangeId="STR_Theater_Culture_1"/>
+		<Row	DistrictType="DISTRICT_ACROPOLIS"			YieldChangeId="STR_Theater_Culture_2"/>
+		<Row	DistrictType="DISTRICT_ACROPOLIS"			YieldChangeId="STR_Theater_Culture_3"/>
+		<Row	DistrictType="DISTRICT_ACROPOLIS"			YieldChangeId="STR_Theater_Culture_4"/>
+		<Row	DistrictType="DISTRICT_ACROPOLIS"			YieldChangeId="STR_Theater_Culture_5"/>
+		<Row	DistrictType="DISTRICT_ACROPOLIS"			YieldChangeId="STR_Theater_Culture_6"/>
+		<Row	DistrictType="DISTRICT_ACROPOLIS"			YieldChangeId="STR_Theater_Culture_7"/>
+	<!-- HARBOR ADJACENCY -->
+		<Row	DistrictType="DISTRICT_HARBOR"				YieldChangeId="STR_Harbor_Gold_1"/>
+		<Row	DistrictType="DISTRICT_HARBOR"				YieldChangeId="STR_Harbor_Gold_2"/>
+		<Row	DistrictType="DISTRICT_HARBOR"				YieldChangeId="STR_Harbor_Gold_3"/>
+		<Row	DistrictType="DISTRICT_HARBOR"				YieldChangeId="STR_Harbor_Gold_4"/>
+		<Row	DistrictType="DISTRICT_HARBOR"				YieldChangeId="STR_Harbor_Gold_5"/>
+		<Row	DistrictType="DISTRICT_HARBOR"				YieldChangeId="STR_Harbor_Gold_6"/>
+		<Row	DistrictType="DISTRICT_HARBOR"				YieldChangeId="STR_Harbor_Gold_7"/>
+		<Row	DistrictType="DISTRICT_HARBOR"				YieldChangeId="STR_Harbor_Gold_8"/>
+		<Row	DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"	YieldChangeId="STR_Harbor_Gold_1"/>
+		<Row	DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"	YieldChangeId="STR_Harbor_Gold_2"/>
+		<Row	DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"	YieldChangeId="STR_Harbor_Gold_3"/>
+		<Row	DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"	YieldChangeId="STR_Harbor_Gold_4"/>
+		<Row	DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"	YieldChangeId="STR_Harbor_Gold_5"/>
+		<Row	DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"	YieldChangeId="STR_Harbor_Gold_6"/>
+		<Row	DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"	YieldChangeId="STR_Harbor_Gold_7"/>
+		<Row	DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD"	YieldChangeId="STR_Harbor_Gold_8"/>
+	<!--<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Harbor_Gold_1"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Harbor_Gold_2"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Harbor_Gold_3"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Harbor_Gold_4"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Harbor_Gold_5"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Harbor_Gold_6"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Harbor_Gold_7"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Harbor_Gold_8"/>-->
+	<!-- COTHON ADJACENCY -->
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Cothon_Science_1"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Cothon_Science_2"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Cothon_Science_3"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Cothon_Science_4"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Cothon_Science_5"/>
+		<Row	DistrictType="DISTRICT_COTHON"				YieldChangeId="STR_Cothon_Science_6"/>
+	<!-- ENCAMPMENT ADJACENCY -->
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_1"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_2"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_3"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_4"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_5"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_6"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_7"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_8"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_9"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_10"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_11"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_12"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_13"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_14"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_15"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_16"/>
+		<Row	DistrictType="DISTRICT_ENCAMPMENT"			YieldChangeId="STR_Encampment_Production_17"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_1"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_2"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_3"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_4"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_5"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_6"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_7"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_8"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_9"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_10"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_11"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_12"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_13"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_14"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_15"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_16"/>
+		<Row	DistrictType="DISTRICT_IKANDA"				YieldChangeId="STR_Encampment_Production_17"/>
+	<!-- AERODROME ADJACENCY -->
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_1"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_2"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_3"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_4"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_5"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_6"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_7"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_8"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_9"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_10"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_11"/>
+		<Row	DistrictType="DISTRICT_AERODROME"			YieldChangeId="STR_Aerodrome_Production_12"/>
+	<!-- DIPLOMATIC QUARTER ADJACENCY -->
+	<!--<Row	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"	YieldChangeId="STR_Diplomatic_Quarter_Culture_1"/>
+		<Row	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"	YieldChangeId="STR_Diplomatic_Quarter_Culture_2"/>
+		<Row	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"	YieldChangeId="STR_Diplomatic_Quarter_Culture_3"/>
+		<Row	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"	YieldChangeId="STR_Diplomatic_Quarter_Culture_4"/>
+		<Row	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"	YieldChangeId="STR_Diplomatic_Quarter_Culture_5"/>
+		<Row	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"	YieldChangeId="STR_Diplomatic_Quarter_Culture_6"/>
+		<Row	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"	YieldChangeId="STR_Diplomatic_Quarter_Culture_7"/>
+		<Row	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"	YieldChangeId="STR_Diplomatic_Quarter_Culture_8"/>
+		<Row	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"	YieldChangeId="STR_Diplomatic_Quarter_Culture_9"/>
+		<Row	DistrictType="DISTRICT_DIPLOMATIC_QUARTER"	YieldChangeId="STR_Diplomatic_Quarter_Culture_10"/>-->
+	<!-- NEIGHBORHOOD ADJACENCY -->
+		<Row	DistrictType="DISTRICT_NEIGHBORHOOD"		YieldChangeId="STR_Neighborhood_Food_1"/>
+		<Row	DistrictType="DISTRICT_NEIGHBORHOOD"		YieldChangeId="STR_Neighborhood_Food_2"/>
+		<Row	DistrictType="DISTRICT_NEIGHBORHOOD"		YieldChangeId="STR_Neighborhood_Food_3"/>
+		<Row	DistrictType="DISTRICT_MBANZA"				YieldChangeId="STR_Neighborhood_Food_1"/>
+		<Row	DistrictType="DISTRICT_MBANZA"				YieldChangeId="STR_Neighborhood_Food_2"/>
+		<Row	DistrictType="DISTRICT_MBANZA"				YieldChangeId="STR_Neighborhood_Food_3"/>
+	</District_Adjacencies>
+
+<!-- DISTRICT ADJACENCY MODIFIER -->
+	<Adjacency_YieldChanges>
+	<!-- HOLY SITE ADJACENCY -->
+		<Row	ID="STR_HolySite_Faith_1"				Description="LOC_STR_HOLY_SITE_FAITH_1_DESCRIPTION"			YieldType="YIELD_FAITH"			YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MISSION"/>
+		<Row	ID="STR_HolySite_Faith_2"				Description="LOC_STR_HOLY_SITE_FAITH_2_DESCRIPTION"			YieldType="YIELD_FAITH"			YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MONASTERY"/>
+		<Row	ID="STR_HolySite_Faith_3"				Description="LOC_STR_HOLY_SITE_FAITH_3_DESCRIPTION"			YieldType="YIELD_FAITH"			YieldChange="2" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_SPHINX"/>
+		<Row	ID="STR_HolySite_Faith_4"				Description="LOC_STR_HOLY_SITE_FAITH_4_DESCRIPTION"			YieldType="YIELD_FAITH"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_STEPWELL"/>
+		<Row	ID="STR_HolySite_Faith_5"				Description="LOC_STR_HOLY_SITE_FAITH_5_DESCRIPTION"			YieldType="YIELD_FAITH"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CHEMAMULL"/>
+		<Row	ID="STR_HolySite_Faith_6"				Description="LOC_STR_HOLY_SITE_FAITH_6_DESCRIPTION"			YieldType="YIELD_FAITH"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_KURGAN"/>
+		<Row	ID="STR_HolySite_Faith_7"				Description="LOC_STR_HOLY_SITE_FAITH_7_DESCRIPTION"			YieldType="YIELD_FAITH"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_ZIGGURAT"/>
+		<Row	ID="STR_HolySite_Faith_8"				Description="LOC_STR_HOLY_SITE_FAITH_8_DESCRIPTION"			YieldType="YIELD_FAITH"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MOUND"/>
+		<Row	ID="STR_HolySite_Faith_9"				Description="LOC_STR_HOLY_SITE_FAITH_9_DESCRIPTION"			YieldType="YIELD_FAITH"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MOAI"/>
+		<Row	ID="STR_HolySite_Faith_10"				Description="LOC_STR_HOLY_SITE_FAITH_10_DESCRIPTION"		YieldType="YIELD_FAITH"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_COLOSSAL_HEAD"/>
+		<Row	ID="STR_HolySite_Faith_11"				Description="LOC_STR_HOLY_SITE_FAITH_11_DESCRIPTION"		YieldType="YIELD_FAITH"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_NAZCA_LINE"/>
+		<Row	ID="STR_HolySite_Faith_12"				Description="LOC_STR_HOLY_SITE_FAITH_12_DESCRIPTION"		YieldType="YIELD_FAITH"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_ROCK_HEWN_CHURCH"/>
+	<!-- COMMERCIAL HUB ADJACENCY -->
+		<Row	ID="STR_CommercialHub_Gold_1"			Description="LOC_STR_COMMERCIAL_HUB_GOLD_1_DESCRIPTION"		YieldType="YIELD_GOLD"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CHATEAU"/>
+	<!-- CAMPUS ADJACENCY -->
+		<Row	ID="STR_Campus_Science_1"				Description="LOC_STR_CAMPUS_SCIENCE_1_DESCRIPTION"			YieldType="YIELD_SCIENCE"		YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_ZIGGURAT"/>
+		<Row	ID="STR_Campus_Science_2"				Description="LOC_STR_CAMPUS_SCIENCE_2_DESCRIPTION"			YieldType="YIELD_SCIENCE"		YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_MISSION"/>
+		<Row	ID="STR_Campus_Science_3"				Description="LOC_STR_CAMPUS_SCIENCE_3_DESCRIPTION"			YieldType="YIELD_SCIENCE"		YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MONASTERY"/>
+		<Row	ID="STR_Campus_Science_4"				Description="LOC_STR_CAMPUS_SCIENCE_4_DESCRIPTION"			YieldType="YIELD_SCIENCE"		YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_ALCAZAR"/>
+	<!-- THEATER SQUARE ADJACENCY -->
+		<Row	ID="STR_Theater_Culture_1"				Description="LOC_STR_THEATER_CULTURE_1_DESCRIPTION"			YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_ZIGGURAT"/>
+		<Row	ID="STR_Theater_Culture_2"				Description="LOC_STR_THEATER_CULTURE_2_DESCRIPTION"			YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CHATEAU"/>
+		<Row	ID="STR_Theater_Culture_3"				Description="LOC_STR_THEATER_CULTURE_3_DESCRIPTION"			YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CHEMAMULL"/>
+		<Row	ID="STR_Theater_Culture_4"				Description="LOC_STR_THEATER_CULTURE_4_DESCRIPTION"			YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_ALCAZAR"/>
+		<Row	ID="STR_Theater_Culture_5"				Description="LOC_STR_THEATER_CULTURE_5_DESCRIPTION"			YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_CITY_PARK"/>
+		<Row	ID="STR_Theater_Culture_6"				Description="LOC_STR_THEATER_CULTURE_6_DESCRIPTION"			YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Theater_Culture_7"				Description="LOC_STR_THEATER_CULTURE_7_DESCRIPTION"			YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_LAVRA"/>
+	<!-- HARBOR ADJACENCY -->
+		<Row	ID="STR_Harbor_Gold_1"					Description="LOC_STR_HARBOR_GOLD_1_DESCRIPTION"				YieldType="YIELD_GOLD"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_POLDER"/>
+		<Row	ID="STR_Harbor_Gold_2"					Description="LOC_STR_HARBOR_GOLD_2_DESCRIPTION"				YieldType="YIELD_GOLD"			YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_KAMPUNG"/>
+		<Row	ID="STR_Harbor_Gold_3"					Description="LOC_STR_HARBOR_GOLD_3_DESCRIPTION"				YieldType="YIELD_GOLD"			YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_FISHERY"/>
+		<Row	ID="STR_Harbor_Gold_4"					Description="LOC_STR_HARBOR_GOLD_4_DESCRIPTION"				YieldType="YIELD_GOLD"			YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ENCAMPMENT"/>
+		<Row	ID="STR_Harbor_Gold_5"					Description="LOC_STR_HARBOR_GOLD_5_DESCRIPTION"				YieldType="YIELD_GOLD"			YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_IKANDA"/>
+		<Row	ID="STR_Harbor_Gold_6"					Description="LOC_STR_HARBOR_GOLD_6_DESCRIPTION"				YieldType="YIELD_GOLD"			YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_AERODROME"/>
+		<Row	ID="STR_Harbor_Gold_7"					Description="LOC_STR_HARBOR_GOLD_7_DESCRIPTION"				YieldType="YIELD_GOLD"			YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row	ID="STR_Harbor_Gold_8"					Description="LOC_STR_HARBOR_GOLD_8_DESCRIPTION"				YieldType="YIELD_GOLD"			YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_SUGUBA"/>
+	<!-- COTHON ADJACENCY -->
+		<Row	ID="STR_Cothon_Science_1"				Description="LOC_STR_COTHON_SCIENCE_1_DESCRIPTION"			YieldType="YIELD_SCIENCE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+		<Row	ID="STR_Cothon_Science_2"				Description="LOC_STR_COTHON_SCIENCE_2_DESCRIPTION"			YieldType="YIELD_SCIENCE"		YieldChange="1" TilesRequired="2" OtherDistrictAdjacent="true"/>
+		<Row	ID="STR_Cothon_Science_3"				Description="LOC_STR_COTHON_SCIENCE_3_DESCRIPTION"			YieldType="YIELD_SCIENCE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row	ID="STR_Cothon_Science_4"				Description="LOC_STR_COTHON_SCIENCE_4_DESCRIPTION"			YieldType="YIELD_SCIENCE"		YieldChange="1" TilesRequired="1" AdjacentSeaResource="true"/>
+		<Row	ID="STR_Cothon_Science_5"				Description="LOC_STR_COTHON_SCIENCE_5_DESCRIPTION"			YieldType="YIELD_SCIENCE"		YieldChange="1" TilesRequired="1" AdjacentFeature="FEATURE_REEF"/>
+		<Row	ID="STR_Cothon_Science_6"				Description="LOC_STR_COTHON_SCIENCE_5_DESCRIPTION"			YieldType="YIELD_SCIENCE"		YieldChange="2" TilesRequired="1" AdjacentFeature="FEATURE_BARRIER_REEF"/>
+	<!-- ENCAMPMENT ADJACENCY -->
+		<Row	ID="STR_Encampment_Production_1"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_1_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_STRATEGIC"/>
+		<Row	ID="STR_Encampment_Production_2"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_2_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_FARM"/>
+		<Row	ID="STR_Encampment_Production_3"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_3_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_PASTURE"/>
+		<Row	ID="STR_Encampment_Production_4"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_4_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_MINE"/>
+		<Row	ID="STR_Encampment_Production_5"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_5_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FORT"/>
+		<Row	ID="STR_Encampment_Production_6"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_6_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_ROMAN_FORT"/>
+		<Row	ID="STR_Encampment_Production_7"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_7_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="2" AdjacentImprovement="IMPROVEMENT_GREAT_WALL"/>
+		<Row	ID="STR_Encampment_Production_8"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_8_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MAORI_PA"/>
+		<Row	ID="STR_Encampment_Production_9"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_9_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_ALCAZAR"/>
+		<Row	ID="STR_Encampment_Production_10"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_10_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ENCAMPMENT"/>
+		<Row	ID="STR_Encampment_Production_11"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_11_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_IKANDA"/>
+		<Row	ID="STR_Encampment_Production_12"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_12_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_AERODROME"/>
+		<Row	ID="STR_Encampment_Production_13"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_13_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row	ID="STR_Encampment_Production_14"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_14_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HANSA"/>
+		<Row	ID="STR_Encampment_Production_15"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_15_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+		<Row	ID="STR_Encampment_Production_16"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_16_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+		<Row	ID="STR_Encampment_Production_17"		Description="LOC_STR_ENCAMPMENT_PRODUCTION_17_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_COTHON"/>
+	<!-- AERODROME ADJACENCY -->
+		<Row	ID="STR_Aerodrome_Production_1"			Description="LOC_STR_AERODROME_PRODUCTION_1_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FORT"/>
+		<Row	ID="STR_Aerodrome_Production_2"			Description="LOC_STR_AERODROME_PRODUCTION_2_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_ROMAN_FORT"/>
+		<Row	ID="STR_Aerodrome_Production_3"			Description="LOC_STR_AERODROME_PRODUCTION_3_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_MAORI_PA"/>
+		<Row	ID="STR_Aerodrome_Production_4"			Description="LOC_STR_AERODROME_PRODUCTION_4_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_ALCAZAR"/>
+		<Row	ID="STR_Aerodrome_Production_5"			Description="LOC_STR_AERODROME_PRODUCTION_5_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ENCAMPMENT"/>
+		<Row	ID="STR_Aerodrome_Production_6"			Description="LOC_STR_AERODROME_PRODUCTION_6_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_IKANDA"/>
+		<Row	ID="STR_Aerodrome_Production_7"			Description="LOC_STR_AERODROME_PRODUCTION_7_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_AERODROME"/>
+		<Row	ID="STR_Aerodrome_Production_8"			Description="LOC_STR_AERODROME_PRODUCTION_8_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row	ID="STR_Aerodrome_Production_9"			Description="LOC_STR_AERODROME_PRODUCTION_9_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HANSA"/>
+		<Row	ID="STR_Aerodrome_Production_10"		Description="LOC_STR_AERODROME_PRODUCTION_10_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HARBOR"/>
+		<Row	ID="STR_Aerodrome_Production_11"		Description="LOC_STR_AERODROME_PRODUCTION_11_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+		<Row	ID="STR_Aerodrome_Production_12"		Description="LOC_STR_AERODROME_PRODUCTION_12_DESCRIPTION"	YieldType="YIELD_PRODUCTION"	YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_COTHON"/>
+	<!-- DIPLOMATIC QUARTER ADJACENCY -->
+	<!--<Row	ID="STR_Diplomatic_Quarter_Culture_1"	Description="LOC_STR_DIPLOMATIC_QUARTER_1_DESCRIPTION"		YieldType="YIELD_CULTURE"		YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+		<Row	ID="STR_Diplomatic_Quarter_Culture_2"	Description="LOC_STR_DIPLOMATIC_QUARTER_2_DESCRIPTION"		YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_THEATER_SQUARE"/>
+		<Row	ID="STR_Diplomatic_Quarter_Culture_3"	Description="LOC_STR_DIPLOMATIC_QUARTER_4_DESCRIPTION"		YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+		<Row	ID="STR_Diplomatic_Quarter_Culture_4"	Description="LOC_STR_DIPLOMATIC_QUARTER_5_DESCRIPTION"		YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Diplomatic_Quarter_Culture_5"	Description="LOC_STR_DIPLOMATIC_QUARTER_6_DESCRIPTION"		YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_LAVRA"/>
+		<Row	ID="STR_Diplomatic_Quarter_Culture_6"	Description="LOC_STR_DIPLOMATIC_QUARTER_7_DESCRIPTION"		YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_CAMPUS"/>
+		<Row	ID="STR_Diplomatic_Quarter_Culture_7"	Description="LOC_STR_DIPLOMATIC_QUARTER_8_DESCRIPTION"		YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_SEOWON"/>
+		<Row	ID="STR_Diplomatic_Quarter_Culture_8"	Description="LOC_STR_DIPLOMATIC_QUARTER_9_DESCRIPTION"		YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_OBSERVATORY"/>
+		<Row	ID="STR_Diplomatic_Quarter_Culture_9"	Description="LOC_STR_DIPLOMATIC_QUARTER_10_DESCRIPTION"		YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_NEIGHBORHOOD"/>
+		<Row	ID="STR_Diplomatic_Quarter_Culture_10"	Description="LOC_STR_DIPLOMATIC_QUARTER_11_DESCRIPTION"		YieldType="YIELD_CULTURE"		YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_MBANZA"/>-->
+	<!-- NEIGHBORHOOD ADJACENCY -->
+		<Row	ID="STR_Neighborhood_Food_1"			Description="LOC_STR_NEIGHBORHOOD_FOOD_1_DESCRIPTION"		YieldType="YIELD_FOOD"			YieldChange="1" TilesRequired="1" OtherDistrictAdjacent="true"/>
+		<Row	ID="STR_Neighborhood_Food_2"			Description="LOC_STR_NEIGHBORHOOD_FOOD_2_DESCRIPTION"		YieldType="YIELD_FOOD"			YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_AQUEDUCT"/>
+		<Row	ID="STR_Neighborhood_Food_3"			Description="LOC_STR_NEIGHBORHOOD_FOOD_3_DESCRIPTION"		YieldType="YIELD_FOOD"			YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_BATH"/>
+		<Row	ID="STR_Neighborhood_Food_4"			Description="LOC_STR_NEIGHBORHOOD_FOOD_4_DESCRIPTION"		YieldType="YIELD_FOOD"			YieldChange="1" TilesRequired="2" AdjacentDistrict="DISTRICT_NEIGHBORHOOD"/>
+		<Row	ID="STR_Neighborhood_Food_5"			Description="LOC_STR_NEIGHBORHOOD_FOOD_5_DESCRIPTION"		YieldType="YIELD_FOOD"			YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_MBANZA"/>
+		<Row	ID="STR_Neighborhood_Food_6"			Description="LOC_STR_NEIGHBORHOOD_FOOD_6_DESCRIPTION"		YieldType="YIELD_FOOD"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_FARM"/>
+		<Row	ID="STR_Neighborhood_Food_7"			Description="LOC_STR_NEIGHBORHOOD_FOOD_7_DESCRIPTION"		YieldType="YIELD_FOOD"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_TERRACE_FARM"/>
+		<Row	ID="STR_Neighborhood_Food_8"			Description="LOC_STR_NEIGHBORHOOD_FOOD_8_DESCRIPTION"		YieldType="YIELD_FOOD"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_STEPWELL"/>
+		<Row	ID="STR_Neighborhood_Food_9"			Description="LOC_STR_NEIGHBORHOOD_FOOD_9_DESCRIPTION"		YieldType="YIELD_FOOD"			YieldChange="1" TilesRequired="1" AdjacentImprovement="IMPROVEMENT_POLDER"/>
+	</Adjacency_YieldChanges>
+
+</GameData>

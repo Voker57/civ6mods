@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_CityStates_01_Modifiers -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 11:50:47 AM -->
+<GameData>
+	
+<!-- ALL CITY STATES -->
+	
+	<!-- BONUS LOYALTY -->
+	<Modifiers>
+		<Row>
+			<ModifierId>STR_CITY_STATE_LOYALTY_1</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>STR_MINOR_CIV_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>STR_CITY_STATE_LOYALTY_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_CITY_CENTER</DistrictType>
+			<ModifierId>STR_CITY_STATE_LOYALTY_1</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	
+	<!-- BONUS AMENITIES -->
+	<Modifiers>
+		<Row>
+			<ModifierId>STR_CITY_STATE_AMENITIES_1</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_AMENITIES_FROM_GREAT_PEOPLE</ModifierType>
+			<SubjectRequirementSetId>STR_MINOR_CIV_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>STR_CITY_STATE_AMENITIES_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_CITY_CENTER</DistrictType>
+			<ModifierId>STR_CITY_STATE_AMENITIES_1</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	
+	<!-- FOOD PER POPULATION -->
+	<Modifiers>
+		<Row>
+			<ModifierId>STR_CITY_STATE_FOOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<SubjectRequirementSetId>STR_MINOR_CIV_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>STR_CITY_STATE_FOOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>.3</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_CITY_STATE_FOOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+	</ModifierArguments>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_CITY_CENTER</DistrictType>
+			<ModifierId>STR_CITY_STATE_FOOD_1</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	
+	<!-- PRODUCTION PER POPULATION -->
+	<Modifiers>
+		<Row>
+			<ModifierId>STR_CITY_STATE_PRODUCTION_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<SubjectRequirementSetId>STR_MINOR_CIV_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>STR_CITY_STATE_PRODUCTION_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>.6</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_CITY_STATE_PRODUCTION_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+	</ModifierArguments>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_CITY_CENTER</DistrictType>
+			<ModifierId>STR_CITY_STATE_PRODUCTION_1</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	
+	<!-- GOLD PER POPULATION -->
+	<Modifiers>
+		<Row>
+			<ModifierId>STR_CITY_STATE_GOLD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+			<SubjectRequirementSetId>STR_MINOR_CIV_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>STR_CITY_STATE_GOLD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_CITY_STATE_GOLD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+	</ModifierArguments>
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_CITY_CENTER</DistrictType>
+			<ModifierId>STR_CITY_STATE_GOLD_1</ModifierId>
+		</Row>
+	</DistrictModifiers>
+
+<!-- NGAZARGAMU -->
+	<!--<ModifierArguments>
+		<Update>
+			<Where	ModifierId="MINOR_CIV_NGAZARGAMU_BARRACKS_STABLE_PURCHASE_BONUS"	Name="Amount"/>
+			<Set	Value="10"/>
+		</Update>
+		<Update>
+			<Where	ModifierId="MINOR_CIV_NGAZARGAMU_ARMORY_PURCHASE_BONUS"				Name="Amount"/>
+			<Set	Value="10"/>
+		</Update>
+		<Update>
+			<Where	ModifierId="MINOR_CIV_NGAZARGAMU_MILITARY_ACADEMY_PURCHASE_BONUS"	Name="Amount"/>
+			<Set	Value="10"/>
+		</Update>
+	</ModifierArguments>-->
+
+<!-- VATICAN CITY -->
+	<ModifierArguments>
+		<Update>
+			<Where	ModifierId="MINOR_CIV_VATICAN_CITY_GREAT_PERSON_RELIGIOUS_PRESSURE"	Name="Amount"/>
+			<Set	Value="4000"/>
+		</Update>
+	</ModifierArguments>
+
+</GameData>

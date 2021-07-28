@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Policies_11_Golden -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 8:53:57 PM -->
+<GameData>
+
+	<!-- CLASSICAL GOLDEN POLICIES  -->
+	<LocalizedText>
+		<!-- (GOLDEN) LOVE OF WISDOM -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_LOVE_OF_WISDOM_NAME"										Language="en_US">
+			<Text>Love of Wisdom</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_LOVE_OF_WISDOM_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Science] Science adjacency in [ICON_DISTRICT_CAMPUS] Campus.[NEWLINE][ICON_Bullet][ICON_DISTRICT_CAMPUS] Campus gains [ICON_Gold] Gold and [ICON_Faith] Faith equal to its [ICON_Science] Science adjacency.</Text>
+		</Row>
+		<!-- (GOLDEN) MANDALA STATE -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_MANDALA_STATE_NAME"										Language="en_US">
+			<Text>Mandala State</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_MANDALA_STATE_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+4 [ICON_Culture] Culture for every [ICON_DISTRICT_WONDER] Wonder.[NEWLINE][ICON_Bullet][ICON_DISTRICT_WONDER] Wonders decrease -2 [ICON_PressureUp] Loyalty of foreign Cities if they are within 9 tiles.</Text>
+		</Row>
+		<!-- (GOLDEN) NATURALISM -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_NATURALISM_NAME"											Language="en_US">
+			<Text>Naturalism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_NATURALISM_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+1 Appeal on all tiles in a City.</Text>
+		</Row>
+		<!-- (GOLDEN) MILITARY MARCHES (Unreleased) -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_MILITARY_MARCHES_NAME"									Language="en_US">
+			<Text>Military Marches</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_MILITARY_MARCHES_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Units heal +5 Health when [ICON_Fortified] Fortified.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production in [ICON_DISTRICT_ENCAMPMENT] Encampment [ICON_Buildings] Buildings.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- MEDIEVAL GOLDEN POLICIES  -->
+	<LocalizedText>
+		<!-- (GOLDEN) SAKDINA (Unreleased)-->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_SAKDINA_NAME"											Language="en_US">
+			<Text>Sakdina</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_SAKDINA_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]Projects incur +0.5 [ICON_PressureUp] Loyalty per [ICON_Citizen] Population in in their City as they are being [ICON_Production] Produced.[NEWLINE][ICON_Bullet]+10% [ICON_GreatPerson] Great People points per [ICON_Buildings] Building in the [ICON_District] District when a Project is completed.</Text>
+		</Row>
+		<!-- (GOLDEN) MANDATE OF HEAVEN -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_MANDATE_OF_HEAVEN_NAME"									Language="en_US">
+			<Text>Mandate of Heaven</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_MANDATE_OF_HEAVEN_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit]Land Military Units gain +3 [ICON_Strength] Combat Strength when on the same [ICON_Terrain] Continent as the [ICON_Capital] Capital.[NEWLINE][ICON_Bullet]+5% [ICON_Food] Food, [ICON_Science] Science, [ICON_Production] Production, [ICON_Gold] Gold, and [ICON_Faith] Faith in all Cities.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- RENAISSANCE GOLDEN POLICIES -->
+	<LocalizedText>
+		<!-- (GOLDEN) TREASURE SHIPS -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_TREASURE_SHIPS_NAME"										Language="en_US">
+			<Text>Treasure Ships</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_TREASURE_SHIPS_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet][ICON_TradeRoute] Trade Routes cannot be [ICON_Pillaged] Pillaged.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science and [ICON_Culture] Culture in [ICON_TradeRoute] Trade Routes; bonus tripled if the destination is international and on a different [ICON_Terrain] Continent.</Text>
+		</Row>
+		<!-- (GOLDEN) AGE OF GUNPOWDER -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_AGE_OF_GUNPOWDER_NAME"									Language="en_US">
+			<Text>Age of Gunpowder</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_AGE_OF_GUNPOWDER_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Siege class Units gain +1 [ICON_Ranged] Range.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- INDUSTRIAL GOLDEN POLICIES -->
+	<LocalizedText>
+		<!-- (GOLDEN) STEAM AGE -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_STEAM_AGE_NAME"											Language="en_US">
+			<Text>Steam Age</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_STEAM_AGE_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet][ICON_DISTRICT_CAMPUS] Campus gains [ICON_Production] Production equal to its [ICON_Science] Science adjacency.[NEWLINE][ICON_Bullet]+50% [ICON_Production] Production towards the [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone and its [ICON_Buildings] Buildings.</Text>
+		</Row>
+		<!-- (GOLDEN) MASS ENTERTAINMENT -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_MASS_ENTERTAINMENT_NAME"									Language="en_US">
+			<Text>Mass Entertainment</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_MASS_ENTERTAINMENT_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Culture] Culture per [ICON_District] District in a City.[NEWLINE][ICON_Bullet]+100% [ICON_Production] Production towards [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Entertainment Complex, [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Water Park, and their [ICON_Buildings] Buildings.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- MODERN GOLDEN POLICIES -->
+	<LocalizedText>
+		<!-- (GOLDEN) SOLIDARITY -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_SOLIDARITY_NAME"											Language="en_US">
+			<Text>Solidarity</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_SOLIDARITY_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet][ICON_Governor] Governors exert +2 [ICON_PressureUp] Loyalty against foreign Cities.[NEWLINE][ICON_Bullet]Cities with a [ICON_Governor] Governor gain +25% [ICON_Gold] Gold and +100% [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]Cities with a [ICON_Governor] Governor gain +2 [ICON_Amenities] Amenities.</Text>
+		</Row>
+		<!-- (GOLDEN) PROLETARIAT VICTORY -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_PROLETARIAT_VICTORY_NAME"								Language="en_US">
+			<Text>Proletariat Victory</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_PROLETARIAT_VICTORY_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet]Cities with a [ICON_Governor] Governor gain +10% [ICON_Science] Science, [ICON_Culture] Culture, and +30% [ICON_Production] Production.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ATOMIC GOLDEN POLICIES  -->
+	<LocalizedText>
+		<!-- (GOLDEN) TOURISM MIRACLE -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_TOURISM_MIRACLE_NAME"									Language="en_US">
+			<Text>Tourism Miracle</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_TOURISM_MIRACLE_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+100% [ICON_Tourism] Tourism from [ICON_Charges] National Parks and [ICON_DISTRICT_WONDER] Wonders.</Text>
+		</Row>
+		<!-- (GOLDEN) BLOC LEADERSHIP -->
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_BLOC_LEADERSHIP_NAME"									Language="en_US">
+			<Text>Bloc Leadership</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_GOLDEN_STR_BLOC_LEADERSHIP_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+100% [ICON_Favor] Diplomatic Favor from Suzerainty and [ICON_Alliance] Alliance Level.[NEWLINE][ICON_Bullet][ICON_TradeRoute] Trade Routes to City-States gain +8 [ICON_Science] Science and [ICON_Culture] Culture.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

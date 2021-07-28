@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
+			<Set>
+				<AirSlots>4</AirSlots>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BIPLANE"/>
+			<Set>
+				<Combat>70</Combat>
+				<RangedCombat>65</RangedCombat>
+				<StrategicResource/>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FIGHTER"/>
+			<Set>
+				<Cost>490</Cost>
+				<Combat>90</Combat>
+				<RangedCombat>90</RangedCombat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_P51"/>
+			<Set>
+				<Cost>490</Cost>
+				<Combat>95</Combat>
+				<RangedCombat>95</RangedCombat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBER"/>
+			<Set>
+				<Cost>530</Cost>
+				<Combat>75</Combat>
+				<Bombard>100</Bombard>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_FIGHTER"/>
+			<Set>
+				<Cost>620</Cost>
+				<Combat>100</Combat>
+				<RangedCombat>100</RangedCombat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_BOMBER"/>
+			<Set>
+				<Cost>670</Cost>
+				<Combat>80</Combat>
+				<Bombard>110</Bombard>
+			</Set>
+		</Update>
+	</Units>
+
+	<Units_XP2>
+		<Delete UnitType="UNIT_BIPLANE"/>
+	</Units_XP2>	
+</GameData>

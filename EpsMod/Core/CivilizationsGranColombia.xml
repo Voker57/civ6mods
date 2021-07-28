@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA"/><Set><Description>LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA" ModifierId="TRAIT_PROMOTE_NO_FINISH_MOVES"/>
+
+		<Row TraitType="TRAIT_CIVILIZATION_EJERCITO_PATRIOTA" ModifierId="EPSMOD_CIVS_COLOMBIA_PRODUCTION"/>
+	</TraitModifiers>
+
+
+	<Units>
+		<Update><Where UnitType="UNIT_COLOMBIAN_LLANERO"/><Set><Description>LOC_UNIT_COLOMBIAN_LLANERO_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Units>
+	
+	
+	<Modifiers>
+		<Update><Where ModifierId="TRAIT_EJERCITO_PATRIOTA_EXTRA_MOVEMENT"/><Set><OwnerRequirementSetId>EPSMOD_CIVS_IN_COLOMBIAN_GOLDEN_AGE</OwnerRequirementSetId></Set></Update>
+
+		<Row><ModifierId>EPSMOD_CIVS_COLOMBIA_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_IS_COLOMBIAN_CAPTURED_CITY</SubjectRequirementSetId></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Update><Where ModifierId="COMMANDANTE_HEAL_LLANERO_ON_RETIRE" Name="Amount"/><Set><Value>-30</Value></Set></Update>
+		
+		<Row><ModifierId>EPSMOD_CIVS_COLOMBIA_PRODUCTION</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_COLOMBIA_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_CIVS_IN_COLOMBIAN_GOLDEN_AGE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_COLOMBIAN_CAPTURED_CITY</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_CIVS_IN_COLOMBIAN_GOLDEN_AGE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_COLOMBIAN_GOLDEN_AGE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_COLOMBIAN_CAPTURED_CITY</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_COLOMBIAN_GOLDEN_AGE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_COLOMBIAN_CAPTURED_CITY</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_IS_CAPTURED3</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_COLOMBIAN_GOLDEN_AGE</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_GOLDEN_AGE</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_IS_CAPTURED3</RequirementId><RequirementType>REQUIREMENT_CITY_IS_ORIGINAL_OWNER</RequirementType><Inverse>true</Inverse></Row>
+	</Requirements>
+	
+</GameData>

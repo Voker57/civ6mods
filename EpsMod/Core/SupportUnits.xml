@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="EPSMOD_SUPPORT_UNIT_SHIELDBEARER" Kind="KIND_UNIT"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_SNIPER" Kind="KIND_UNIT"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW" Kind="KIND_UNIT"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW" Kind="KIND_UNIT"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_PATHFINDER" Kind="KIND_UNIT"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_STUB" Kind="KIND_ABILITY"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER" Kind="KIND_ABILITY"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_SNIPER" Kind="KIND_ABILITY"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_DEMO_MAN" Kind="KIND_ABILITY"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_PATHFINDER" Kind="KIND_ABILITY"/>
+		<Row Type="EPSMOD_SUPPORT_POLICY_CITIZEN_SOLDIERS" Kind="KIND_POLICY"/>
+		<Row Type="EPSMOD_SUPPORT_POLICY_MM_SERVICE" Kind="KIND_POLICY"/>
+	</Types>
+	
+	<UnitAiInfos>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_SHIELDBEARER" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_SNIPER" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_SNIPER" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW" AiType="UNITTYPE_SIEGE"/>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_PATHFINDER" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+	</UnitAiInfos>
+	
+	<Tags>
+		<Row Tag="EPSMOD_SUPPORT_CLASS_SHIELDBEARER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="EPSMOD_SUPPORT_CLASS_SNIPER" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="EPSMOD_SUPPORT_CLASS_DEMO_MAN" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="EPSMOD_SUPPORT_CLASS_PATHFINDER" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	
+	<TypeTags>
+		<Row Type="EPSMOD_SUPPORT_UNIT_SHIELDBEARER" Tag="CLASS_SUPPORT"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_SHIELDBEARER" Tag="EPSMOD_SUPPORT_CLASS_SHIELDBEARER"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_SNIPER" Tag="CLASS_SUPPORT"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_SNIPER" Tag="CLASS_SNIPER"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_SNIPER" Tag="EPSMOD_SUPPORT_CLASS_SNIPER"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW" Tag="CLASS_SUPPORT"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW" Tag="EPSMOD_SUPPORT_CLASS_DEMO_MAN"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW" Tag="CLASS_SUPPORT"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW" Tag="EPSMOD_SUPPORT_CLASS_DEMO_MAN"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_PATHFINDER" Tag="CLASS_SUPPORT"/>
+		<Row Type="EPSMOD_SUPPORT_UNIT_PATHFINDER" Tag="EPSMOD_SUPPORT_CLASS_PATHFINDER"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_STUB" Tag="EPSMOD_SUPPORT_CLASS_SHIELDBEARER"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER" Tag="CLASS_RECON"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER" Tag="CLASS_MELEE"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER" Tag="CLASS_RANGED"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER" Tag="CLASS_SIEGE"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_SNIPER" Tag="EPSMOD_SUPPORT_CLASS_SNIPER"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_DEMO_MAN" Tag="EPSMOD_SUPPORT_CLASS_DEMO_MAN"/>
+		<Row Type="EPSMOD_SUPPORT_ABILITY_PATHFINDER" Tag="EPSMOD_SUPPORT_CLASS_PATHFINDER"/>
+	</TypeTags>
+	
+	<Units>
+		<Row
+			UnitType="EPSMOD_SUPPORT_UNIT_SHIELDBEARER"
+			Cost="90"
+			Maintenance="2"
+			BaseMoves="2"
+			BaseSightRange="2"
+			ZoneOfControl="false"
+			Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_SUPPORT"
+			PromotionClass="PROMOTION_CLASS_SUPPORT"
+			AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_EPSMOD_SUPPORT_UNIT_SHIELDBEARER_NAME"
+			Description="LOC_EPSMOD_SUPPORT_UNIT_SHIELDBEARER_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD"
+			PrereqCivic="CIVIC_MILITARY_TRAINING"
+			MandatoryObsoleteTech="TECH_GUNPOWDER"/>
+		<Row
+			UnitType="EPSMOD_SUPPORT_UNIT_SNIPER"
+			Cost="570"
+			Maintenance="6"
+			BaseMoves="2"
+			BaseSightRange="2"
+			RangedCombat="65"
+			Range="2"
+			ZoneOfControl="false"
+			Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_SUPPORT"
+			PromotionClass="PROMOTION_CLASS_SUPPORT"
+			AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_EPSMOD_SUPPORT_UNIT_SNIPER_NAME"
+			Description="LOC_EPSMOD_SUPPORT_UNIT_SNIPER_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD"
+			PrereqTech="TECH_ADVANCED_BALLISTICS"/>
+		<Row
+			UnitType="EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW"
+			Cost="260"
+			Maintenance="4"
+			BaseMoves="2"
+			BaseSightRange="2"
+			Bombard="35"
+			Range="1"
+			ZoneOfControl="false"
+			StrategicResource="RESOURCE_NITER"
+			Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_SUPPORT"
+			PromotionClass="PROMOTION_CLASS_SUPPORT"
+			AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW_NAME"
+			Description="LOC_EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD"
+			PrereqTech="TECH_SIEGE_TACTICS"
+			MandatoryObsoleteTech="TECH_CHEMISTRY"/>
+		<Row
+			UnitType="EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW"
+			Cost="460"
+			Maintenance="5"
+			BaseMoves="2"
+			BaseSightRange="2"
+			Bombard="60"
+			Range="1"
+			ZoneOfControl="false"
+			StrategicResource="RESOURCE_NITER"
+			Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_SUPPORT"
+			PromotionClass="PROMOTION_CLASS_SUPPORT"
+			AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW_NAME"
+			Description="LOC_EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD"
+			PrereqTech="TECH_CHEMISTRY"/>
+		<Row
+			UnitType="EPSMOD_SUPPORT_UNIT_PATHFINDER"
+			Cost="170"
+			Maintenance="3"
+			BaseMoves="2"
+			BaseSightRange="2"
+			ZoneOfControl="false"
+			Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_SUPPORT"
+			PromotionClass="PROMOTION_CLASS_SUPPORT"
+			AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_EPSMOD_SUPPORT_UNIT_PATHFINDER_NAME"
+			Description="LOC_EPSMOD_SUPPORT_UNIT_PATHFINDER_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD"
+			PrereqCivic="CIVIC_MERCENARIES"/>
+	</Units>
+
+	<Units_XP2>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW" ResourceCost="16"/>
+		<Row UnitType="EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW" ResourceCost="20"/>
+	</Units_XP2>
+	
+	<UnitUpgrades>
+		<Row Unit="EPSMOD_SUPPORT_UNIT_SHIELDBEARER" UpgradeUnit="UNIT_MEDIC"/>
+		<Update><Where Unit="UNIT_SIEGE_TOWER"/><Set><UpgradeUnit>EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW</UpgradeUnit></Set></Update>
+		<Row Unit="EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW" UpgradeUnit="EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW"/>
+	</UnitUpgrades>
+	
+	<UnitAbilities>
+		<Row UnitAbilityType="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_STUB" Name="LOC_EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_STUB_NAME" Description="LOC_EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_STUB_DESCRIPTION"/>
+		<Row UnitAbilityType="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER" Name="LOC_EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_NAME" Description="LOC_EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_DESCRIPTION"/>
+		<Row UnitAbilityType="EPSMOD_SUPPORT_ABILITY_SNIPER" Name="LOC_EPSMOD_SUPPORT_ABILITY_SNIPER_NAME" Description="LOC_EPSMOD_SUPPORT_ABILITY_SNIPER_DESCRIPTION"/>
+		<Row UnitAbilityType="EPSMOD_SUPPORT_ABILITY_DEMO_MAN" Name="LOC_EPSMOD_SUPPORT_ABILITY_DEMO_MAN_NAME" Description="LOC_EPSMOD_SUPPORT_ABILITY_DEMO_MAN_DESCRIPTION"/>
+		<Row UnitAbilityType="EPSMOD_SUPPORT_ABILITY_PATHFINDER" Name="LOC_EPSMOD_SUPPORT_ABILITY_PATHFINDER_NAME" Description="LOC_EPSMOD_SUPPORT_ABILITY_PATHFINDER_DESCRIPTION"/>
+	</UnitAbilities>
+	
+	<UnitAbilityModifiers>
+		<Row><UnitAbilityType>EPSMOD_SUPPORT_ABILITY_SHIELDBEARER</UnitAbilityType><ModifierId>EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_COMBAT</ModifierId></Row>
+		<Row><UnitAbilityType>EPSMOD_SUPPORT_ABILITY_SNIPER</UnitAbilityType><ModifierId>EPSMOD_SUPPORT_ABILITY_SNIPER_COMBAT</ModifierId></Row>
+		<Row><UnitAbilityType>EPSMOD_SUPPORT_ABILITY_DEMO_MAN</UnitAbilityType><ModifierId>EPSMOD_SUPPORT_ABILITY_DEMO_MAN_COMBAT</ModifierId></Row>
+		<Row><UnitAbilityType>EPSMOD_SUPPORT_ABILITY_PATHFINDER</UnitAbilityType><ModifierId>EPSMOD_SUPPORT_ABILITY_FOREST_MOVEMENT</ModifierId></Row>
+		<Row><UnitAbilityType>EPSMOD_SUPPORT_ABILITY_PATHFINDER</UnitAbilityType><ModifierId>EPSMOD_SUPPORT_ABILITY_HILLS_MOVEMENT</ModifierId></Row>
+		<Row><UnitAbilityType>EPSMOD_SUPPORT_ABILITY_PATHFINDER</UnitAbilityType><ModifierId>EPSMOD_SUPPORT_ABILITY_ESCORT</ModifierId></Row>
+	</UnitAbilityModifiers>
+
+
+	<Policies>
+		<Row
+			PolicyType="EPSMOD_SUPPORT_POLICY_CITIZEN_SOLDIERS"
+			Name="LOC_EPSMOD_SUPPORT_POLICY_CITIZEN_SOLDIERS_NAME"
+			Description="LOC_EPSMOD_SUPPORT_POLICY_CITIZEN_SOLDIERS_DESCRIPTION"
+			PrereqCivic="CIVIC_MILITARY_TRAINING"
+			GovernmentSlotType="SLOT_MILITARY"/>
+		<Row
+			PolicyType="EPSMOD_SUPPORT_POLICY_MM_SERVICE"
+			Name="LOC_EPSMOD_SUPPORT_POLICY_MM_SERVICE_NAME"
+			Description="LOC_EPSMOD_SUPPORT_POLICY_MM_SERVICE_DESCRIPTION"
+			PrereqCivic="CIVIC_NATIONALISM"
+			GovernmentSlotType="SLOT_MILITARY"/>
+	</Policies>
+
+	<ObsoletePolicies>
+		<Row PolicyType="EPSMOD_SUPPORT_POLICY_CITIZEN_SOLDIERS" ObsoletePolicy="EPSMOD_SUPPORT_POLICY_MM_SERVICE"/>
+		<Row PolicyType="EPSMOD_SUPPORT_POLICY_MM_SERVICE" ObsoletePolicy="POLICY_DEFENSE_OF_MOTHERLAND"/>
+	</ObsoletePolicies>
+	
+	<PolicyModifiers>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_CITIZEN_SOLDIERS</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ANCIENT</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_CITIZEN_SOLDIERS</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_CLASSICAL</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_CITIZEN_SOLDIERS</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MEDIEVAL</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_MM_SERVICE</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ANCIENT</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_MM_SERVICE</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_CLASSICAL</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_MM_SERVICE</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MEDIEVAL</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_MM_SERVICE</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_RENAISSANCE</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_MM_SERVICE</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_INDUSTRIAL</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_MM_SERVICE</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MODERN</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_MM_SERVICE</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ATOMIC</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_MM_SERVICE</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_INFORMATION</ModifierId></Row>
+		<Row><PolicyType>EPSMOD_SUPPORT_POLICY_MM_SERVICE</PolicyType><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_FUTURE</ModifierId></Row>
+	</PolicyModifiers>
+	
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_COMBAT</ModifierId><ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType><SubjectRequirementSetId>EPSMOD_SUPPORT_TILE_HAS_SHIELDBEARER</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_SNIPER_COMBAT</ModifierId><ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType><SubjectRequirementSetId>EPSMOD_SUPPORT_IS_SNIPER_TARGET</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_DEMO_MAN_COMBAT</ModifierId><ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType><SubjectRequirementSetId>EPSMOD_SUPPORT_IS_DEMO_MAN_TARGET</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_FOREST_MOVEMENT</ModifierId><ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_HILLS_MOVEMENT</ModifierId><ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_TERRAIN_COST</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_ESCORT</ModifierId><ModifierType>MODIFIER_UNIT_ADJUST_ESCORT_MOBILITY</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ANCIENT</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_CLASSICAL</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MEDIEVAL</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_RENAISSANCE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_INDUSTRIAL</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MODERN</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ATOMIC</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_INFORMATION</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_FUTURE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_COMBAT</ModifierId><Name>Amount</Name><Value>4</Value></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_SNIPER_COMBAT</ModifierId><Name>Amount</Name><Value>20</Value></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_DEMO_MAN_COMBAT</ModifierId><Name>Amount</Name><Value>20</Value></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_FOREST_MOVEMENT</ModifierId><Name>Ignore</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_FOREST_MOVEMENT</ModifierId><Name>Type</Name><Value>FOREST</Value></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_HILLS_MOVEMENT</ModifierId><Name>Ignore</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_HILLS_MOVEMENT</ModifierId><Name>Type</Name><Value>HILLS</Value></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_ABILITY_ESCORT</ModifierId><Name>EscortMobility</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ANCIENT</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SUPPORT</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ANCIENT</ModifierId><Name>EraType</Name><Value>ERA_ANCIENT</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ANCIENT</ModifierId><Name>Amount</Name><Value>50</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_CLASSICAL</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SUPPORT</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_CLASSICAL</ModifierId><Name>EraType</Name><Value>ERA_CLASSICAL</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_CLASSICAL</ModifierId><Name>Amount</Name><Value>50</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MEDIEVAL</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SUPPORT</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MEDIEVAL</ModifierId><Name>EraType</Name><Value>ERA_MEDIEVAL</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MEDIEVAL</ModifierId><Name>Amount</Name><Value>50</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_RENAISSANCE</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SUPPORT</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_RENAISSANCE</ModifierId><Name>EraType</Name><Value>ERA_RENAISSANCE</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_RENAISSANCE</ModifierId><Name>Amount</Name><Value>50</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_INDUSTRIAL</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SUPPORT</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_INDUSTRIAL</ModifierId><Name>EraType</Name><Value>ERA_INDUSTRIAL</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_INDUSTRIAL</ModifierId><Name>Amount</Name><Value>50</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MODERN</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SUPPORT</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MODERN</ModifierId><Name>EraType</Name><Value>ERA_MODERN</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_MODERN</ModifierId><Name>Amount</Name><Value>50</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ATOMIC</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SUPPORT</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ATOMIC</ModifierId><Name>EraType</Name><Value>ERA_ATOMIC</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_ATOMIC</ModifierId><Name>Amount</Name><Value>50</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_INFORMATION</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SUPPORT</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_INFORMATION</ModifierId><Name>EraType</Name><Value>ERA_INFORMATION</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_INFORMATION</ModifierId><Name>Amount</Name><Value>50</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_FUTURE</ModifierId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_SUPPORT</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_FUTURE</ModifierId><Name>EraType</Name><Value>ERA_FUTURE</Value><Extra>-1</Extra></Row>
+		<Row><ModifierId>EPSMOD_SUPPORT_POLICY_PRODUCTION_FUTURE</ModifierId><Name>Amount</Name><Value>50</Value><Extra>-1</Extra></Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_COMBAT" Context="Preview" Text="LOC_EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="EPSMOD_SUPPORT_ABILITY_SNIPER_COMBAT" Context="Preview" Text="LOC_EPSMOD_SUPPORT_ABILITY_SNIPER_COMBAT_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="EPSMOD_SUPPORT_ABILITY_DEMO_MAN_COMBAT" Context="Preview" Text="LOC_EPSMOD_SUPPORT_ABILITY_DEMO_MAN_COMBAT_MODIFIER_DESCRIPTION"/>
+	</ModifierStrings>
+	
+	
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_SUPPORT_TILE_HAS_SHIELDBEARER</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_SUPPORT_IS_SNIPER_TARGET</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_SUPPORT_IS_DEMO_MAN_TARGET</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_SUPPORT_TILE_HAS_SHIELDBEARER</RequirementSetId><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_TILE_HAS_SHIELDBEARER</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_SUPPORT_TILE_HAS_SHIELDBEARER</RequirementSetId><RequirementId>EPSMOD_SUPPORT_PLAYER_IS_DEFENDER</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_SUPPORT_IS_SNIPER_TARGET</RequirementSetId><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_MELEE_OPPONENT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_SUPPORT_IS_SNIPER_TARGET</RequirementSetId><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_RANGED_OPPONENT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_SUPPORT_IS_SNIPER_TARGET</RequirementSetId><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_ANTI_CAVALRY_OPPONENT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_SUPPORT_IS_DEMO_MAN_TARGET</RequirementSetId><RequirementId>EPSMOD_SUPPORT_PLAYER_IS_ATTACKER</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_SUPPORT_IS_DEMO_MAN_TARGET</RequirementSetId><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_DISTRICT_IS_TARGET</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_TILE_HAS_SHIELDBEARER</RequirementId><RequirementType>REQUIREMENT_PLOT_UNIT_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_SUPPORT_PLAYER_IS_DEFENDER</RequirementId><RequirementType>REQUIREMENT_PLAYER_IS_ATTACKING</RequirementType><Inverse>true</Inverse></Row>
+		<Row><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_MELEE_OPPONENT</RequirementId><RequirementType>REQUIREMENT_OPPONENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_RANGED_OPPONENT</RequirementId><RequirementType>REQUIREMENT_OPPONENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_ANTI_CAVALRY_OPPONENT</RequirementId><RequirementType>REQUIREMENT_OPPONENT_UNIT_PROMOTION_CLASS_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_SUPPORT_PLAYER_IS_ATTACKER</RequirementId><RequirementType>REQUIREMENT_PLAYER_IS_ATTACKING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_DISTRICT_IS_TARGET</RequirementId><RequirementType>REQUIREMENT_PLOT_DISTRICT_IS_DEFENDED</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_TILE_HAS_SHIELDBEARER</RequirementId><Name>UnitType</Name><Value>EPSMOD_SUPPORT_UNIT_SHIELDBEARER</Value></Row>
+		<Row><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_TILE_HAS_SHIELDBEARER</RequirementId><Name>LayerIndex</Name><Value>0</Value></Row>
+		<Row><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_MELEE_OPPONENT</RequirementId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_MELEE</Value></Row>
+		<Row><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_RANGED_OPPONENT</RequirementId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_RANGED</Value></Row>
+		<Row><RequirementId>EPSMOD_SUPPORT_REQUIREMENT_ANTI_CAVALRY_OPPONENT</RequirementId><Name>UnitPromotionClass</Name><Value>PROMOTION_CLASS_ANTI_CAVALRY</Value></Row>
+	</RequirementArguments>
+	
+</GameData>

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+
+		<!-- Adaptation -->
+		<Row Tag="EPSMOD_ADAPT_MESSAGE_NAME" Language="en_US"><Text>Adaptation</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_MESSAGE_INTRO" Language="en_US"><Text>{1_CityName} was founded in adverse terrain. As a result, your people have adapted to life within it.[NEWLINE]Your civilization gains the following abilities:[NEWLINE]</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_TUNDRA_FARMS" Language="en_US"><Text>Able to build Farms on Tundra.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_TUNDRA_FARMS_PRODUCTION" Language="en_US"><Text>Farms on Tundra gain +1 [ICON_Production] Production.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_TUNDRA_BLIZZARDS" Language="en_US"><Text>Units, disctricts, and improvements are immune to Blizzards.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_DESERT_FARMS" Language="en_US"><Text>Able to build Farms on Desert.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_DESERT_FARMS_PRODUCTION" Language="en_US"><Text>Farms on Desert gain +1 [ICON_Production] Production.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_DESERT_FARMS_FAITH" Language="en_US"><Text>Farms on Desert gain +1 [ICON_Faith] Faith.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_DESERT_DUST_STORMS" Language="en_US"><Text>Units, disctricts, and improvements are immune to Dust Storms.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_MOUNTAINS_WORK" Language="en_US"><Text>Citizens are able to work on Mountains.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_MOUNTAINS_PRODUCTION" Language="en_US"><Text>Mountains gain +1 [ICON_Production] Production.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_MOUNTAINS_FAITH" Language="en_US"><Text>Mountains gain +1 [ICON_Faith] Faith.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_MOUNTAINS_FOOD" Language="en_US"><Text>Mountains gain +1 [ICON_Food] Food per adjacent Farm.</Text></Row>
+		<Row Tag="EPSMOD_ADAPT_TO_MOUNTAINS_ERUPTIONS" Language="en_US"><Text>Units, disctricts, and improvements are immune to Volcanic Eruptions.</Text></Row>
+		
+		<!-- Ages -->
+		<Row Tag="LOC_FREE_INQUIRY_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Free Inquiry Dedication Bonus:[NEWLINE]+2 [ICON_GreatScientist] Great Scientist points per turn. Gain +1 Era Score each time you trigger a [ICON_TechBoosted] Eureka. +1 Era Score for constructing a building that provides Science as a base yield.</Text></Row>
+		<Row Tag="LOC_PEN_BRUSH_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Pen, Brush, and Voice Dedication Bonus:[NEWLINE]+1 [ICON_GreatWriter] Great Writer and +2 [ICON_GreatArtist] Great Artist points per turn. Gain +1 Era Score each time you trigger an [ICON_CivicBoosted] Inspiration. +1 Era Score for constructing a building with a Great Work Slot.</Text></Row>
+		<Row Tag="LOC_MONUMENTALITY_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Monumentality Dedication Bonus:[NEWLINE]+2 [ICON_GreatEngineer] Great Engineer points per turn. Gain +1 Era Score each time you construct a new specialty District.</Text></Row>
+		<Row Tag="LOC_EXODUS_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Exodus of the Evangelists Dedication Bonus:[NEWLINE]+2 [ICON_GreatProphet] Great Prophet points per turn. Gain +2 Era Score each time you convert a city to your founded Religion for the first time.</Text></Row>
+		<Row Tag="LOC_HIC_SUNT_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Hic Sunt Dracones Dedication Bonus:[NEWLINE]+2 [ICON_GreatAdmiral] Great Admiral points per turn. Gain +3 Era Score each time you discover a new Continent or natural wonder. Gain +1 Era Score each time you kill a non-Barbarian naval unit in combat.</Text></Row>
+		<Row Tag="LOC_COINAGE_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Reform the Coinage Dedication Bonus:[NEWLINE]+3 [ICON_GreatMerchant] Great Merchant points per turn. Gain +1 Era Score each time you successfully complete a [ICON_TradeRoute] Trade Route.</Text></Row>
+		<Row Tag="LOC_HEARTBEAT_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Heartbeat of Steam Dedication Bonus:[NEWLINE]+3 [ICON_GreatEngineer] Great Engineer points per turn. Gain +1 Era Score  for each Industrial or later building constructed.</Text></Row>
+		<Row Tag="LOC_TO_ARMS_NORMAL_AGE_EPSMOD" Language="en_US"><Text>To Arms! Dedication Bonus:[NEWLINE]+3 [ICON_GreatGeneral] Great General points per turn. Gain +1 Era Score each time you kill a non-Barbarian Corps in combat and +2 Era Score each time you kill a non-Barbarian Army in combat.</Text></Row>
+		<Row Tag="LOC_WISH_YOU_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Wish You Were Here Dedication Bonus:[NEWLINE]+2 [ICON_GreatArtist] Great Artist and [ICON_GreatMusician] Musician points per turn. Gain +1 Era Score for each Artifact extracted.</Text></Row>
+		<Row Tag="LOC_BODYGUARD_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Bodyguard of Lies Dedication Bonus:[NEWLINE]+25% [ICON_Production] Production toward Spies. Gain +1 Era Score for each successful offensive Spy operation.</Text></Row>
+		<Row Tag="LOC_SKIES_AND_STARS_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Sky and Stars Dedication Bonus:[NEWLINE]+2 [ICON_GreatEngineer] Great Engineer and [ICON_GreatScientist] Scientist points per turn. Gain +1 Era Score for each Aerodrome building constructed. Gain +1 Era Score each time a [ICON_GreatPerson] Great Person is earned or purchased.</Text></Row>
+		<Row Tag="LOC_AUTOMATON_NORMAL_AGE_EPSMOD" Language="en_US"><Text>Automaton Warfare Dedication Bonus:[NEWLINE]+5 [ICON_GreatGeneral] Great General points per turn. Gain +1 Era Score each time you kill a non-Barbarian unit with a Giant Death Robot.</Text></Row>
+
+		<!-- Anti-Cavalry -->
+		<Row Tag="LOC_PROMOTION_SCHILTRON_DESCRIPTION_EPSMOD" Language="en_US"><Text>+5 [ICON_Strength] Combat Strength when defending vs. melee class units.</Text></Row>
+		<Row Tag="EPSMOD_ABILITY_ANTICAVALRY_VS_DISTRICT_NAME" Language="en_US"><Text>Siege penalty</Text></Row>
+		<Row Tag="EPSMOD_ABILITY_ANTICAVALRY_VS_DISTRICT_DESCRIPTION" Language="en_US"><Text>-7 [ICON_Strength] Combat Strength vs. district defenses.</Text></Row>
+		<Row Tag="EPSMOD_ANTICAVALRY_VS_DISTRICT_PREVIEW" Language="en_US"><Text>Strength vs. district defenses.</Text></Row>
+
+		<!-- Barbarians -->
+		<Row Tag="LOC_TECH_BRONZE_WORKING_DESCRIPTION_EPSMOD" Language="en_US"><Text>Allows chopping of Rainforest. Reveals [ICON_RESOURCE_IRON] Iron.[NEWLINE]Your units get +2 [ICON_Strength] Combat Strength against Barbarians.</Text></Row>
+		
+		<!-- City-States -->
+		<Row Tag="LOC_LEADER_TRAIT_BABYLON_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_SCIENCE] Science from each [ICON_GreatWork_WRITING] Great Work of Writing, [ICON_GreatWork_RELIC] Relic, and [ICON_GreatWork_Artifact] Artifact.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_ANTANANARIVO_DESCRIPTION_EPSMOD" Language="en_US"><Text>Your Civilization gains +1% [ICON_Culture] Culture for each Great Person it has ever earned, up to a maximum of +30%.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_AMSTERDAM_DESCRIPTION_EPSMOD" Language="en_US"><Text>International [ICON_TradeRoute] Trade Routes earn +2 [ICON_Gold] Gold for each Luxury resource at the destination.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_ARMAGH_DESCRIPTION_EPSMOD" Language="en_US"><Text>Able to build[NEWLINE]Monasteries:[NEWLINE]+2 [ICON_Faith] Faith, +1 [ICON_HOUSING] Housing[NEWLINE]+1 [ICON_Science] Science for every 2 adjacent Districts[NEWLINE]+15 HP healing for your religious units.[NEWLINE]Can't be built next to each other.[NEWLINE][NEWLINE]Colonialism: +1 more [ICON_HOUSING] Housing.</Text></Row>
+		<Row Tag="LOC_IMPROVEMENT_MONASTERY_DESCRIPTION_ESPTWEAK" Language="en_US"><Text>+1 [ICON_Science] Science for every 2 adjacent Districts[NEWLINE]+15 HP healing for your religious units.[NEWLINE]Can't be built next to each other.[NEWLINE][NEWLINE]Colonialism: +1 more [ICON_HOUSING] Housing.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_JAKARTA_DESCRIPTION_EPSMOD" Language="en_US"><Text>Your [ICON_TradingPost] Trading Posts in foreign cities each provide +1 [ICON_Production] Production to your [ICON_TradeRoute] Trade Routes when they pass through them.[NEWLINE][NEWLINE](Trading Posts are constructed when a Trade Route ends, at the origin and destination.)</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_STOCKHOLM_DESCRIPTION_EPSMOD" Language="en_US"><Text>Your Campuses with a Library provide +2 [ICON_GreatScientist] Great Scientist points each.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_CAGUANA_DESCRIPTION_EPSMOD" Language="en_US"><Text>Able to build[NEWLINE]Bateys:[NEWLINE]+1 [ICON_Culture] Culture[NEWLINE]+1 [ICON_Culture] Culture per adjacent Bonus Resource[NEWLINE]+1 [ICON_Culture] Culture per adjacent Entertainment Complex[NEWLINE]Can't be built on Hills, or next to each other.[NEWLINE][NEWLINE]Exploration: Doubled adjacency bonus.[NEWLINE]Flight: [ICON_Culture] Culture converted into [Icon_Tourism] Tourism.</Text></Row>
+		<Row Tag="LOC_IMPROVEMENT_BATEY_DESCRIPTION_ESPTWEAK" Language="en_US"><Text>+1 [ICON_Culture] Culture[NEWLINE]+1 [ICON_Culture] Culture per adjacent Bonus Resource[NEWLINE]+1 [ICON_Culture] Culture per adjacent Entertainment Complex[NEWLINE]Can't be built on Hills, or next to each other.[NEWLINE][NEWLINE]Exploration: Doubled adjacency bonus.[NEWLINE]Flight: [ICON_Culture] Culture converted into [Icon_Tourism] Tourism.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_CAHOKIA_DESCRIPTION_EPSMOD" Language="en_US"><Text>Able to build[NEWLINE]Cahokia Mounds:[NEWLINE]+3 [ICON_GOLD] Gold, +1 [ICON_HOUSING] Housing[NEWLINE]+1 [ICON_AMENITIES] Amenity (once per city)[NEWLINE]Can't be built next to each other.[NEWLINE][NEWLINE]Natural History: +1 [ICON_AMENITIES] Amenity if city has 2 Mounds.[NEWLINE]Feudalism: +1 [ICON_FOOD] Food per 2 adjacent Districts.[NEWLINE]Replaceable Parts: +1 [ICON_FOOD] Food per adjacent District.</Text></Row>
+		<Row Tag="LOC_IMPROVEMENT_MOUND_DESCRIPTION_ESPTWEAK" Language="en_US"><Text>+3 [ICON_GOLD] Gold, +1 [ICON_HOUSING] Housing[NEWLINE]+1 [ICON_AMENITIES] Amenity (once per city)[NEWLINE]Can't be built next to each other.[NEWLINE][NEWLINE]Natural History: +1 [ICON_AMENITIES] Amenity if city has 2 Mounds.[NEWLINE]Feudalism: +1 [ICON_FOOD] Food per 2 adjacent Districts.[NEWLINE]Replaceable Parts: +1 [ICON_FOOD] Food per adjacent District.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_CHINGUETTI_DESCRIPTION_EPSMOD" Language="en_US"><Text>+3 [ICON_Faith] Faith from each [ICON_TradeRoute] Trade Route.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_CARTHAGE_DESCRIPTION_EPSMOD" Language="en_US"><Text>Each Encampment building reduces the cost of purchasing Land combat units with [ICON_GOLD] Gold by 10%.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_FEZ_DESCRIPTION_EPSMOD" Language="en_US"><Text>When you use a religious unit to convert a city for the first time earn 15 [ICON_SCIENCE] Science per [ICON_Citizen] Population of that city (on Standard Speed).</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_GRANADA_DESCRIPTION_EPSMOD" Language="en_US"><Text>Able to build[NEWLINE]Alcázars:[NEWLINE]+2 [ICON_Culture] Culture.[NEWLINE]+ [ICON_SCIENCE] Science equal to 50% of the tile's Appeal[NEWLINE]+4 [ICON_Strength] Defense Strength to units.[NEWLINE]Units Fortify instantly on this tile.[NEWLINE]Can't be built next to each other.[NEWLINE][NEWLINE]Flight: [ICON_Culture] Culture converted into [Icon_Tourism] Tourism.</Text></Row>
+		<Row Tag="LOC_IMPROVEMENT_ALCAZAR_DESCRIPTION_ESPTWEAK" Language="en_US"><Text>+2 [ICON_Culture] Culture.[NEWLINE]+ [ICON_SCIENCE] Science equal to 50% of the tile's Appeal[NEWLINE]+4 [ICON_Strength] Defense Strength to units.[NEWLINE]Units Fortify instantly on this tile.[NEWLINE]Can't be built next to each other.[NEWLINE][NEWLINE]Flight: [ICON_Culture] Culture converted into [Icon_Tourism] Tourism.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_KANDY_DESCRIPTION_EPSMOD" Language="en_US"><Text>All your Apostles start with a free Martyr Promotion. +2 [ICON_Culture] Culture from each [ICON_GreatWork_Relic] Relic.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_KUMASI_DESCRIPTION_EPSMOD" Language="en_US"><Text>Your [ICON_TradeRoute] Trade Routes to any city-state provide +1 [ICON_Culture] Culture for every specialty district in the origin city.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_LA_VENTA_DESCRIPTION_EPSMOD" Language="en_US"><Text>Able to build[NEWLINE]Colossal Heads:[NEWLINE]+2 [ICON_Faith] Faith, +1 [ICON_Culture] Culture[NEWLINE]+1 [ICON_Faith] Faith if on a Charming tile[NEWLINE][NEWLINE]Flight: [ICON_Faith] Faith and [ICON_Culture] Culture converted into [Icon_Tourism] Tourism.</Text></Row>
+		<Row Tag="LOC_IMPROVEMENT_COLOSSAL_HEAD_DESCRIPTION_ESPTWEAK" Language="en_US"><Text>+2 [ICON_Faith] Faith, +1 [ICON_Culture] Culture[NEWLINE]+1 [ICON_Faith] Faith if on a Charming tile[NEWLINE][NEWLINE]Flight: [ICON_Faith] Faith and [ICON_Culture] Culture converted into [Icon_Tourism] Tourism.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_LISBON_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_TradeRoute] Trade Route capacity. Your Traders are immune to being plundered on water tiles.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_TORONTO_DESCRIPTION_EPSMOD" Language="en_US"><Text>+30% [ICON_Production] Production towards buildings in Industrial Zones, Entertainment Complexes, and Water Parks. Their regional effects reach 3 tiles farther.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_MUSCAT_DESCRIPTION_EPSMOD" Language="en_US"><Text>+2 [ICON_Amenities] Amenities from each Commercial Hub.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_NALANDA_DESCRIPTION_EPSMOD" Language="en_US"><Text>Able to build[NEWLINE]Mahaviharas:[NEWLINE]+2 [ICON_SCIENCE] Science, +1 [Icon_Housing] Housing[NEWLINE]+1 [ICON_Faith] Faith per adjacent Holy Site[NEWLINE]Gain a free random Technology when you build your first Mahavihara.[NEWLINE]Must be built on flat land.[NEWLINE]Can't be built next to each other.</Text></Row>
+		<Row Tag="LOC_IMPROVEMENT_MAHAVIHARA_DESCRIPTION_ESPTWEAK" Language="en_US"><Text>+2 [ICON_SCIENCE] Science, +1 [Icon_Housing] Housing[NEWLINE]+1 [ICON_Faith] Faith per adjacent Holy Site[NEWLINE]Gain a free random Technology when you build your first Mahavihara.[NEWLINE]Must be built on flat land.[NEWLINE]Can't be built next to each other.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_NAN_MADOL_DESCRIPTION_EPSMOD" Language="en_US"><Text>Districts on or next to Coast or Lake tiles provide +1 [ICON_Culture] Culture and [ICON_Gold] Gold.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_NAZCA_DESCRIPTION_EPSMOD" Language="en_US"><Text>Able to build[NEWLINE]Nazca Lines:[NEWLINE]Unworkable, but provide yields to adjacent tiles:[NEWLINE]+1 [ICON_Faith] Faith[NEWLINE]+1 [ICON_Faith] Faith to tiles with a resource[NEWLINE]+1 Appeal[NEWLINE]Must be built on flat Desert.[NEWLINE][NEWLINE]Civil Service: +1 [ICON_FOOD] Food to Desert tiles.[NEWLINE]Mass Production: +1 [ICON_PRODUCTION] Production to flat tiles.</Text></Row>
+		<Row Tag="LOC_IMPROVEMENT_NAZCA_LINE_DESCRIPTION_ESPTWEAK" Language="en_US"><Text>Unworkable, but provides yields to adjacent tiles:[NEWLINE]+1 [ICON_Faith] Faith[NEWLINE]+1 [ICON_Faith] Faith to tiles with a resource[NEWLINE]+1 Appeal[NEWLINE]Must be built on flat Desert.[NEWLINE][NEWLINE]Civil Service: +1 [ICON_FOOD] Food to Desert tiles.[NEWLINE]Mass Production: +1 [ICON_PRODUCTION] Production to flat tiles.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION_EPSMOD" Language="en_US"><Text>+2 Loyalty in each city. +2 more Loyalty per Encampment building.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_RAPA_NUI_DESCRIPTION_EPSMOD" Language="en_US"><Text>Able to build[NEWLINE]Moai:[NEWLINE]+1 [ICON_Culture] Culture[NEWLINE]+1 [ICON_Culture] Culture per 2 adjacent Moai[NEWLINE]+2 [ICON_Culture] Culture if on or adjacent to Volcanic Soil[NEWLINE]+1 [ICON_Culture] Culture if adjacent to Coast or a Lake[NEWLINE]Cannot be placed adjacent to Woods or Rainforest.[NEWLINE][NEWLINE]Medieval Faires: Double adjacency from other Moai.[NEWLINE]Flight: [ICON_Culture] Culture converted into [Icon_Tourism] Tourism.</Text></Row>
+		<Row Tag="LOC_IMPROVEMENT_MOAI_DESCRIPTION_ESPTWEAK" Language="en_US"><Text>+1 [ICON_Culture] Culture[NEWLINE]+1 [ICON_Culture] Culture per 2 adjacent Moai[NEWLINE]+2 [ICON_Culture] Culture if on or adjacent to Volcanic Soil[NEWLINE]+1 [ICON_Culture] Culture if adjacent to Coast or a Lake[NEWLINE]Cannot be placed adjacent to Woods or Rainforest.[NEWLINE][NEWLINE]Medieval Faires: Double adjacency from other Moai.[NEWLINE]Flight: [ICON_Culture] Culture converted into [Icon_Tourism] Tourism.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_SAMARKAND_DESCRIPTION_EPSMOD" Language="en_US"><Text>Able to build[NEWLINE]Trading Domes:[NEWLINE]+2 [ICON_GOLD] Gold[NEWLINE]+1 [ICON_Gold] Gold per adjacent Luxury[NEWLINE]+1 [ICON_GOLD] Gold to each International [ICON_TradeRoute] Trade Route originating in this city.[NEWLINE]Can't be built next to each other.</Text></Row>
+		<Row Tag="LOC_IMPROVEMENT_TRADING_DOME_DESCRIPTION_ESPTWEAK" Language="en_US"><Text>+2 [ICON_GOLD] Gold[NEWLINE]+1 [ICON_Gold] Gold per adjacent Luxury[NEWLINE]+1 [ICON_GOLD] Gold to each International [ICON_TradeRoute] Trade Route originating in this city.[NEWLINE]Can't be built next to each other.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Culture Bomb adjacent tiles when you build a Campus or Theater Square.</Text></Row>
+		<Row Tag="LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION_EPSMOD" Language="en_US"><Text>Your Apostles have +5 [ICON_Religion] Religious Strength.</Text></Row>
+		<Row Tag="LOC_EPSMOD_YEREVAN_ABILITY_BONUS_DESCRIPTION" Language="en_US"><Text>+5 [ICON_Strength] Combat Strength from Yerevan.</Text></Row>
+		
+		<!-- Civic Units -->
+		<Row Tag="LOC_EPSMOD_CIVIC_UNIT_LANDSKNECHT_PIKEMAN_NAME" Language="en_US"><Text>Landsknecht Pikeman</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_UNIT_LANDSKNECHT_PIKEMAN_DESCRIPTION" Language="en_US"><Text>Medieval anti-cavalry unit that costs 40% less than a Pikeman upfront, but three times more [ICON_Gold] Gold per turn to maintain. Can move after attacking.</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_UNIT_LANDSKNECHT_PIKENSHOT_NAME" Language="en_US"><Text>Landsknecht Pike &amp; Shot</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_UNIT_LANDSKNECHT_PIKENSHOT_DESCRIPTION" Language="en_US"><Text>Rennaisance anti-cavalry unit that costs 40% less than a Pike &amp; Shot upfront, but three times more [ICON_Gold] Gold per turn to maintain. Can move after attacking.</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_UNIT_TEMPLAR_KNIGHT_NAME" Language="en_US"><Text>Templar Knight</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_UNIT_TEMPLAR_KNIGHT_DESCRIPTION" Language="en_US"><Text>Expensive Heavy Cavalry unit that can only be purchased with Faith in a city with a Shrine. +5 [ICON_Strength] Combat Strength if within 1 tile of a Religious unit.</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_UNIT_COMMANDO_NAME" Language="en_US"><Text>Commando</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_UNIT_COMMANDO_DESCRIPTION" Language="en_US"><Text>Expensive Melee unit that cannot be purchased with [ICON_Gold] Gold. Requires a Military Academy to produce. Can paradrop into enemy territory (range 7 tiles). The range extends to 12 tiles while in an Aerodrome or Airstrip. Ignores enemy Zone of Control.</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_ABILITY_LANDSKNECHT_NAME" Language="en_US"><Text>Hit and Run</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_ABILITY_LANDSKNECHT_DESCRIPTION" Language="en_US"><Text>Can move after attacking.</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_ABILITY_TEMPLAR_KNIGHT_NAME" Language="en_US"><Text>Divine Fervor</Text></Row>
+		<Row Tag="LOC_EPSMOD_CIVIC_ABILITY_TEMPLAR_KNIGHT_DESCRIPTION" Language="en_US"><Text>+5 [ICON_Strength] Combat Strength if within 1 tile of a Religious unit.</Text></Row>
+		
+		<!-- Civilization Names -->
+		<Row Tag="LOC_LEADER_T_ROOSEVELT_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_AMERICA_NAME} - {LOC_LEADER_T_ROOSEVELT_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_SALADIN_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_ARABIA_NAME} - {LOC_LEADER_SALADIN_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_PEDRO_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_BRAZIL_NAME} - {LOC_LEADER_PEDRO_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_QIN_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_CHINA_NAME} - {LOC_LEADER_QIN_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_CLEOPATRA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_EGYPT_NAME} - {LOC_LEADER_CLEOPATRA_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_VICTORIA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_ENGLAND_NAME} - {LOC_LEADER_VICTORIA_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_CATHERINE_DE_MEDICI_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_FRANCE_NAME} - {LOC_LEADER_CATHERINE_DE_MEDICI_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_BARBAROSSA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_GERMANY_NAME} - {LOC_LEADER_BARBAROSSA_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_GORGO_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_GREECE_NAME} - {LOC_LEADER_GORGO_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_PERICLES_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_GREECE_NAME} - {LOC_LEADER_PERICLES_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_GANDHI_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_INDIA_NAME} - {LOC_LEADER_GANDHI_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_HOJO_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_JAPAN_NAME} - {LOC_LEADER_HOJO_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_MVEMBA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_KONGO_NAME} - {LOC_LEADER_MVEMBA_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_HARDRADA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_NORWAY_NAME} - {LOC_LEADER_HARDRADA_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_TRAJAN_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_ROME_NAME} - {LOC_LEADER_TRAJAN_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_PETER_GREAT_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_RUSSIA_NAME} - {LOC_LEADER_PETER_GREAT_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_TOMYRIS_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_SCYTHIA_NAME} - {LOC_LEADER_TOMYRIS_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_PHILIP_II_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_SPAIN_NAME} - {LOC_LEADER_PHILIP_II_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_GILGAMESH_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_SUMERIA_NAME} - {LOC_LEADER_GILGAMESH_NAME}</Text></Row>
+		
+		<Row Tag="LOC_LEADER_POUNDMAKER_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_CREE_NAME} - {LOC_LEADER_POUNDMAKER_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_TAMAR_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_GEORGIA_NAME} - {LOC_LEADER_TAMAR_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_CHANDRAGUPTA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_INDIA_NAME} - {LOC_LEADER_CHANDRAGUPTA_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_SEONDEOK_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_KOREA_NAME} - {LOC_LEADER_SEONDEOK_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_LAUTARO_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_MAPUCHE_NAME} - {LOC_LEADER_LAUTARO_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_GENGHIS_KHAN_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_MONGOLIA_NAME} - {LOC_LEADER_GENGHIS_KHAN_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_WILHELMINA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_NETHERLANDS_NAME} - {LOC_LEADER_WILHELMINA_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_ROBERT_THE_BRUCE_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_SCOTLAND_NAME} - {LOC_LEADER_ROBERT_THE_BRUCE_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_SHAKA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_ZULU_NAME} - {LOC_LEADER_SHAKA_NAME}</Text></Row>
+		
+		<Row Tag="LOC_LEADER_LAURIER_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_CANADA_NAME} - {LOC_LEADER_LAURIER_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_ELEANOR_ENGLAND_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_ENGLAND_NAME} - {LOC_LEADER_ELEANOR_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_ELEANOR_FRANCE_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_FRANCE_NAME} - {LOC_LEADER_ELEANOR_FRANCE_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_MATTHIAS_CORVINUS_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_HUNGARY_NAME} - {LOC_LEADER_MATTHIAS_CORVINUS_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_PACHACUTI_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_INCA_NAME} - {LOC_LEADER_PACHACUTI_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_MANSA_MUSA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_MALI_NAME} - {LOC_LEADER_MANSA_MUSA_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_KUPE_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_MAORI_NAME} - {LOC_LEADER_KUPE_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_SULEIMAN_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_OTTOMAN_NAME} - {LOC_LEADER_SULEIMAN_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_DIDO_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_PHOENICIA_NAME} - {LOC_LEADER_DIDO_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_KRISTINA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_SWEDEN_NAME} - {LOC_LEADER_KRISTINA_NAME}</Text></Row>
+		
+		<Row Tag="LOC_LEADER_JOHN_CURTIN_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_AUSTRALIA_NAME} - {LOC_LEADER_JOHN_CURTIN_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_MONTEZUMA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_AZTEC_NAME} - {LOC_LEADER_MONTEZUMA_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_GITARJA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_INDONESIA_NAME} - {LOC_LEADER_GITARJA_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_JAYAVARMAN_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_KHMER_NAME} - {LOC_LEADER_JAYAVARMAN_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_ALEXANDER_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_MACEDON_NAME} - {LOC_LEADER_ALEXANDER_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_CYRUS_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_PERSIA_NAME} - {LOC_LEADER_CYRUS_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_AMANITORE_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_NUBIA_NAME} - {LOC_LEADER_AMANITORE_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_JADWIGA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_POLAND_NAME} - {LOC_LEADER_JADWIGA_NAME}</Text></Row>
+		
+		<Row Tag="LOC_LEADER_HAMMURABI_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_BABYLON_STK_NAME} - {LOC_LEADER_HAMMURABI_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_BASIL_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_BYZANTIUM_NAME} - {LOC_LEADER_BASIL_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_AMBIORIX_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_GAUL_NAME} - {LOC_LEADER_AMBIORIX_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_CATHERINE_DE_MEDICI_ALT_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_FRANCE_NAME} - {LOC_LEADER_CATHERINE_DE_MEDICI_ALT_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_MENELIK_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_ETHIOPIA_NAME} - {LOC_LEADER_MENELIK_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_SIMON_BOLIVAR_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_GRAN_COLOMBIA_NAME} - {LOC_LEADER_SIMON_BOLIVAR_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_LADY_SIX_SKY_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_MAYA_NAME} - {LOC_LEADER_LADY_SIX_SKY_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_KUBLAI_KHAN_CHINA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_CHINA_NAME} - {LOC_LEADER_KUBLAI_KHAN_C_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_KUBLAI_KHAN_MONGOLIA_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_MONGOLIA_NAME} - {LOC_LEADER_KUBLAI_KHAN_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_LADY_TRIEU_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_VIETNAM_NAME} - {LOC_LEADER_LADY_TRIEU_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_JOAO_III_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_PORTUGAL_NAME} - {LOC_LEADER_JOAO_III_NAME}</Text></Row>
+		<Row Tag="LOC_LEADER_T_ROOSEVELT_ROUGHRIDER_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_AMERICA_NAME} - {LOC_LEADER_T_ROOSEVELT_ROUGHRIDER_NAME}</Text></Row>
+		
+		<Row Tag="LOC_LEADER_YOGSAA_LEWIS_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_YOGSAA_DATLOF_NAME} - {LOC_LEADER_YOGSAA_LEWIS}</Text></Row>
+		<Row Tag="LOC_LEADER_YOGSAA_DUNCAN_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_YOGSAA_DUNCANSTAN_NAME} - {LOC_LEADER_YOGSAA_DUNCAN}</Text></Row>
+		<Row Tag="LOC_LEADER_YOGSAA_RYTHIAN_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_YOGSAA_RYTHIANTICA_NAME} - {LOC_LEADER_YOGSAA_RYTHIAN}</Text></Row>
+		<Row Tag="LOC_LEADER_YOGSAA_DALTOS_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_YOGSAA_DALTOONIA_NAME} - {LOC_LEADER_YOGSAA_DALTOS}</Text></Row>
+		<Row Tag="LOC_LEADER_YOGSAA_BEN_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_YOGSAA_BENGLADESH_NAME} - {LOC_LEADER_YOGSAA_BEN}</Text></Row>
+		<Row Tag="LOC_LEADER_YOGSAA_PYRION_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_YOGSAA_FLAX_NAME} - {LOC_LEADER_YOGSAA_PYRION}</Text></Row>
+		<Row Tag="LOC_LEADER_YOGSAA_TOM_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_YOGSAA_ANGORY_NAME} - {LOC_LEADER_YOGSAA_TOM}</Text></Row>
+		<Row Tag="LOC_LEADER_YOGSAA_SIMONC_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_YOGSAA_CLARKINGTON_NAME} - {LOC_LEADER_YOGSAA_SIMONC}</Text></Row>
+		<Row Tag="LOC_LEADER_YOGSAA_SPIFF_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_YOGSAA_SPIFFTOPIA_NAME} - {LOC_LEADER_YOGSAA_SPIFF}</Text></Row>
+		<Row Tag="LOC_LEADER_YOGSAA_ALEX_CONFIG_NAME_EPSMOD" Language="en_US"><Text>{LOC_CIVILIZATION_YOGSAA_RAMBLISTAN_NAME} - {LOC_LEADER_YOGSAA_ALEX}</Text></Row>
+				
+		<!-- Civilizations: Gathering Storm -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Holy Sites, Theater Squares, and Industrial Zones receive an additional standard adjacency bonus for being adjacent other districts.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_SAHEL_MERCHANTS_DESCRIPTION_EPSMOD" Language="en_US"><Text>International [ICON_TradeRoute] Trade Routes gain +4 [ICON_GOLD] Gold. Receive +1 [ICON_TradeRoute] Trade Capacity every time you enter a Golden Age.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_MALI_GOLD_DESERT_DESCRIPTION_EPSMOD" Language="en_US"><Text>City Centers gain +1 [ICON_FAITH] Faith and +1 [ICON_FOOD] for every adjacent Desert and Desert Hills tiles. Mines receive -1 [ICON_PRODUCTION] Production and +4 [ICON_GOLD] Gold. May purchase Commercial Hub district buildings with [ICON_Faith] Faith. -20% [ICON_PRODUCTION] Production toward constructing buildings or training units.</Text></Row>
+		<Row Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION_EPSMOD" Language="en_US"><Text>A district unique to Mali specializing in finance and trade that replaces the Commercial Hub. Units, Buildings, and Districts are 10% cheaper to purchase with [ICON_GOLD] Gold and [ICON_FAITH] Faith in this City.[NEWLINE][NEWLINE]+2 [ICON_Gold] Gold bonus for each adjacent Holy Site. +2 [ICON_Gold] Gold bonus from a tile containing a River edge. +1 [ICON_Gold] Gold bonus for every two adjacent district tiles.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_CAPOU_AGHA_DESCRIPTION_EPSMOD" Language="en_US"><Text>While established in a city-state or any player's [ICON_Capital] Capital, gain +3 [ICON_Favor] Diplomatic Favor per turn.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AMAZON_DESCRIPTION_EPSMOD" Language="en_US"><Text>Rainforest tiles yield +1 [ICON_FOOD] Food, provide a +1 adjacency bonus for Commercial Hub, Holy Site, and Theater Square districts, and grant +1 Appeal to adjacent tiles instead of reducing it.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_LAST_BEST_WEST_DESCRIPTION_EPSMOD" Language="en_US"><Text>Allows Farms to be built on Tundra (including Tundra Hills at Civil Engineering). In Snow and Tundra all Mines and Lumber Mills provide +2 [ICON_PRODUCTION] Production, Farms provide +2 [ICON_FOOD] Food, Camps provide +1 [ICON_FOOD] Food, and strategic resource accumulation rate is +100%. Reduces the purchase cost of tiles in these terrain types by 50%.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_MELEE_COASTAL_RAIDS_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_PRODUCTION] Production from coastal Resources. Naval Melee units gain the ability to perform coastal raids. +25% yields from Pillaging and Costal Raids, which also grant additional [ICON_SCIENCE] Science or [ICON_CULTURE] Culture from Improvements (except Farms). Gain the Viking Longship unique unit with Sailing.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>Naval units can cross Ocean tiles at Sailing. Embarked units can do so at Shipbuilding. Embarking and Disembarking costs no [ICON_Movement] Movement Points. Naval Melee units can heal in neutral territory.</Text></Row>
+		<Row Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION_EPSMOD" Language="en_US"><Text>A building unique to Norway that replaces the Temple. Required to purchase Apostles and Inquisitors with [ICON_Faith] Faith. This Holy Site district gets an additional standard adjacency bonus from Woods and Rainforest, and grants +1 extra [ICON_GreatAdmiral] Great Admiral point per turn.</Text></Row>
+		<Row Tag="LOC_UNIT_NORWEGIAN_BERSERKER_DESCRIPTION_EPSMOD" Language="en_US"><Text>Norwegian unique Medieval era melee unit. Can be purchased with [ICON_FAITH] Faith, and has extra [ICON_Movement] Movement if it starts its turn in enemy territory. +10 [ICON_Strength] Combat Strength when attacking and -5 [ICON_Strength] Combat Strength when defending.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_EPSMOD" Language="en_US"><Text>+1 [ICON_SCIENCE] Science and [ICON_CULTURE] Culture from international [ICON_TradeRoute] Trade Routes. Receive a random tech boost after another player recruits a [ICON_GreatEngineer] Great Engineer, and a civic boost when another player recruits a [ICON_GreatArtist] Great Artist or [ICON_GreatMusician] Musician.</Text></Row>
+		<Row Tag="LOC_DISTRICT_LAVRA_DESCRIPTION_EPSMOD" Language="en_US"><Text>A district unique to Russia for religious activity. Replaces the Holy Site district and cheaper to build.[NEWLINE][NEWLINE]Your city border grows by one tile each time a Great Person is expended in this city. The Lavra provides +1 [ICON_GreatWriter] Great Writer point per turn and a [ICON_GreatWork_Writing] Great Work of Writing slot with a Shrine, +1 [ICON_GreatArtist] Great Artist point per turn with a Temple, and +1 [ICON_GreatMusician] Great Musician point per turn with a Worship building.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_KILLER_OF_CYRUS_DESCRIPTION_EPSMOD" Language="en_US"><Text>+50% [ICON_PRODUCTION] Production towards Light Cavalry units. Light Cavalry units cost 30% less to purchase, and can be purchased with [ICON_FAITH] Faith. All units receive +5 [ICON_Strength] Combat Strength when attacking wounded units.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EXTRA_LIGHT_CAVALRY_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_FOOD] Food from Bonus Resources on flat tiles. Non-Hill Tiles with Charming Appeal yield +1 [ICON_FAITH] Faith.</Text></Row>
+		<Row Tag="LOC_UNIT_SCYTHIAN_HORSE_ARCHER_DESCRIPTION_EPSMOD" Language="en_US"><Text>Scythian unique Ranged Light Cavalry unit with 4 [ICON_Movement] Movement and a [ICON_Range] Range of 1.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_MONASTERIES_KING_DESCRIPTION_EPSMOD" Language="en_US"><Text>Holy Sites adjacent to a River receive +2 [ICON_FOOD] Food, +2 [ICON_FAITH]  Faith, +2 [ICON_Housing] Housing, and trigger a Culture Bomb when built.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_KHMER_BARAYS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Cities with an Aqueduct receive +1 [ICON_AMENITIES] Amenity from entertainment and +0.5 [ICON_FAITH] Faith for every [ICON_CITIZEN] population. Farms provide +2 [ICON_FOOD] Food if adjacent to an Aqueduct and +1 [ICON_FAITH] Faith if adjacent to a Holy Site.</Text></Row>
+		<Row Tag="EPSMOD_LOC_DISTRICT_RIVER_FOOD" Language="en_US"><Text>+2 [ICON_FOOD] Food from the adjacent River.</Text></Row>
+		
+		<!-- Civilizations: Rise and Fall -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_THREE_KINGDOMS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Mines receive +1 [ICON_Production] Production for every adjacent Seowon district. Farms receive +1 [ICON_FOOD] Food for every adjacent Seowon district.</Text></Row>
+		<Row Tag="LOC_DISTRICT_SEOWON_DESCRIPTION_EPSMOD" Language="en_US"><Text>A district unique to Korea for scientific endeavors. Replaces the Campus district. -4 [ICON_Gold] Gold, but starts with +4 [ICON_SCIENCE] Science adjacency. Each adjacent district reduces its [ICON_SCIENCE] Science, but increases its [ICON_Gold] Gold.[NEWLINE]Must be built on Hills.</Text></Row>
+		<Row Tag="EPSMOD_LOC_DISTRICT_BASE_DISTRICT_GOLD" Language="en_US"><Text>{1_num} [ICON_Gold] Gold.</Text></Row>
+		<Row Tag="EPSMOD_LOC_DISTRICT_NEGATIVE_DISTRICT_GOLD" Language="en_US"><Text>+{1_num} [ICON_Gold] Gold from adjacent districts.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_GENGHIS_KHAN_ABILITY_DESCRIPTION_EPSMOD" Language="en_US"><Text>Light Cavalry units start with the Caparison Promotion. Heavy Cavalry start with Charge. +1 [ICON_Production] Production from Pastures. Improvements over [ICON_RESOURCE_HORSES] Horses provide +2 more Horses per turn.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_GROTE_RIVIEREN_DESCRIPTION_EPSMOD" Language="en_US"><Text>Major adjacency bonus for Commercial Hubs and Industrial Zones if next to a river. Culture Bomb adjacent tiles when completing a Harbor. +50% [ICON_Production] Production toward the Dam district and Flood Barrier building.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_BANNOCKBURN_DESCRIPTION_EPSMOD" Language="en_US"><Text>All units receive +2 [ICON_Movement] Movement for 10 turns after declaring a Protectorate War, War of Liberation, or War of Reconquest. Your cities get +10% [ICON_CULTURE] Culture while you are not at war with any other civilization.</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_AMABUTHO_DESCRIPTION_EPSMOD" Language="en_US"><Text>May form Corps earlier, after unlocking the Mercenaries Civic, and Armies at Nationalism. Corps and Armies gain an additional +5 [ICON_STRENGTH] Combat Strength. Capturing a city will upgrade the conquering unit into a Corps or Army, if the necessary civics are unlocked.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_ZULU_ISIBONGO_DESCRIPTION_EPSMOD" Language="en_US"><Text>+3 Loyalty in cities with a garrisoned unit, increasing to +5 if the garrisoned unit is a Corps or Army. +1 [ICON_CULTURE] Culture in each city at full Loyalty.</Text></Row>
+		
+		<!-- Civilizations: Australia -->
+		<Row Tag="LOC_TRAIT_LEADER_CITADEL_CIVILIZATION_EPSMOD" Language="en_US"><Text>+50% [ICON_Production] Production for 5 turns after declaring a Protectorate War, War of Liberation, or War of Reconquest. Trade Routes to players you have an Alliance with yield +2 [ICON_Production] Production and [ICON_FOOD] Food for both cities.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_LAND_DOWN_UNDER_DESCRIPTION_EPSMOD" Language="en_US"><Text>+3 [ICON_Housing] Housing in coastal cities. Pastures trigger a Culture Bomb. Yields from Campuses, Commercial Hubs, Holy Sites and Theater Squares are +1 in tiles with Charming Appeal. All districts receive +1 [ICON_CULTURE] Culture on Breathtaking tiles.</Text></Row>
+
+		<!-- Civilizations: Babylon -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION_EPSMOD" Language="en_US"><Text>[ICON_TechBoosted] Eurekas provide only 25% of a Technology's cost, but grant +1 Era Score. During a Golden Age, your cities yield +0.3 [ICON_Science] Science per [ICON_Citizen] Citizen.</Text></Row>
+		
+		<!-- Civilizations: Byzantium & Gaul -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION_EPSMOD" Language="en_US"><Text>Units receive +3 [ICON_Strength] Combat Strength or [ICON_Religion] Religious Strength for each Holy City converted to Byzantium's Religion (including Byzantium's Holy City). You cities with Holy Sites gain +3 Loyalty, +1 [ICON_GreatProphet] Great Prophet point, and exert pressure as if they were Holy Cities.</Text></Row>
+		<Row Tag="LOC_ABILITY_BYZANTIUM_COMBAT_UNITS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Receive +3 [ICON_Strength] Combat Strength for each Holy City converted to your Religion (Taxis)</Text></Row>
+		<Row Tag="LOC_TRAIT_LEADER_AMBIORIX_DESCRIPTION_EPSMOD" Language="en_US"><Text>Your civilization gains [ICON_CULTURE] Culture equal to 20% of the unit’s cost when a non civilian is trained. Melee and Anti-Cavalry units receive +2 [ICON_Strength] Combat Strength for every adjacent combat unit.</Text></Row>
+		<Row Tag="LOC_DISTRICT_OPPIDUM_DESCRIPTION_EPSMOD" Language="en_US"><Text>A district unique to Gaul that is cheaper and available earlier than the district it replaces, the Industrial Zone. The Oppidum district is defensible with a ranged attack. When the first Oppidum is constructed the Apprenticeship technology is unlocked.[NEWLINE][NEWLINE]+2 [ICON_Production] Production if adjacent to a Strategic Resource or a Dam[NEWLINE]+1 [ICON_Production] Production if adjacent to a Quarry improvement.</Text></Row>
+		
+		<!-- Civilizations: Bull Moose Teddy -->
+		<Row Tag="LOC_TRAIT_LEADER_ANTIQUES_AND_PARKS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Breathtaking tiles next to a Mountain, Natural Wonder, or Forest gain +1 [ICON_CULTURE] Culture. They also gain +1 [ICON_SCIENCE] Science if there's an adjacent Wonder. Doubled in cities with a National Park. All tiles in a city with a National Park have +1 Appeal.</Text></Row>
+		
+		<!-- Civilizations: Ethiopia -->
+		<Row Tag="LOC_TRAIT_LEADER_MENELIK_EPSMOD" Language="en_US"><Text>Shrines built on Hills yield +2 [ICON_CULTURE] Culture. Cities yield +10% [ICON_CULTURE] Culture if their City Center is built on Hills. After you unlock the Enlightenment, these bonuses are also applied to [ICON_SCIENCE] Science. Units receive +4 [ICON_STRENGTH] Combat Strength on Hills.</Text></Row>
+		<Row Tag="LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_DESCRIPTION_EPSMOD" Language="en_US"><Text>Unlocks the Builder ability to construct a Rock-Hewn Church, unique to Ethiopia.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith. +1 [ICON_Faith] Faith for every adjacent Mountain tile. Provides [ICON_TOURISM] Tourism after researching Flight from [ICON_FAITH] Faith. +1 Appeal. Can only be pillaged (never destroyed) by natural disasters. Can only be built on Hills or Volcanic Soil not adjacent to another Rock-Hewn Church.</Text></Row>
+
+		<!-- Civilizations: Gran Colombia -->
+		<Row Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION_EPSMOD" Language="en_US"><Text>While you are in a Golden Age, all your units gain +1 [ICON_Movement] Movement and captured cities gain +10% [ICON_Production] Production.</Text></Row>
+		<Row Tag="LOC_UNIT_COLOMBIAN_LLANERO_DESCRIPTION_EPSMOD" Language="en_US"><Text>Gran Colombian Industrial era unique unit that replaces the Cavalry. Low maintenance cost. +2 [ICON_Strength] Combat Strength for each adjacent Llanero. Recovers 30 Hit Points when in range of a Comandante General that activates its retire ability.</Text></Row>
+		
+		<!-- Civilizations: Macedon -->
+		<Row Tag="LOC_TRAIT_LEADER_TO_WORLDS_END_DESCRIPTION_EPSMOD" Language="en_US"><Text>-50% War Weariness. Each [ICON_GreatGeneral] Great General gains an extra charge. Gain the Hetairoi unique unit with Horseback Riding.</Text></Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_HELLENISTIC_FUSION_DESCRIPTION_EPSMOD" Language="en_US"><Text>+5 Loyalty in each city with an Ancient or Classical Wonder. +15% [ICON_CULTURE] Culture in cities that you own, but weren't founded by you.</Text></Row>
+		
+		<!-- Engineering -->
+		<Row Tag="LOC_UNIT_MILITARY_ENGINEER_DESCRIPTION_EPSMOD" Language="en_US"><Text>Classical era support unit. Requires a Barracks or Stable to produce. Can construct Roads, Railroads, Forts, Airstrips, Missile Silos, and Mountain Tunnel improvements. One of their build charges can also be used to complete 20% of a Canal or Dam district.</Text></Row>
+		<Row Tag="LOC_ROUTE_ANCIENT_ROAD_DESCRIPTION_EPSMOD" Language="en_US"><Text>Improves [ICON_Movement] Movement speed of any unit moving from one road tile to another.</Text></Row>
+		<Row Tag="LOC_ROUTE_MEDIEVAL_ROAD_DESCRIPTION_EPSMOD" Language="en_US"><Text>Improves [ICON_Movement] Movement speed of any unit moving from one road tile to another.</Text></Row>
+		<Row Tag="LOC_ROUTE_INDUSTRIAL_ROAD_DESCRIPTION_EPSMOD" Language="en_US"><Text>Improves [ICON_Movement] Movement speed of any unit moving from one road tile to another.</Text></Row>
+		<Row Tag="LOC_ROUTE_MODERN_ROAD_DESCRIPTION_EPSMOD" Language="en_US"><Text>Improves [ICON_Movement] Movement speed of any unit moving from one road tile to another.</Text></Row>
+		<Row Tag="LOC_ROUTE_RAILROAD_DESCRIPTION_EPSMOD" Language="en_US"><Text>Can be constructed by Builders and Military Engineers. Does not cost a charge, but does cost 1 [ICON_RESOURCE_IRON] Iron and 1 [ICON_RESOURCE_COAL] Coal. Greatly improves [ICON_Movement] Movement speed of any unit moving from one Railroad tile to another. [ICON_TradeRoute] Trade Routes traveling over Railroads can multiply the [ICON_Gold] Gold they get from districts at their destination.</Text></Row>
+		<Row Tag="LOC_TECH_SIEGE_TACTICS_EPSMOD" Language="en_US"><Text>All units get +3 [ICON_Strength] Combat Strength when defending against city attacks.</Text></Row>
+		<Row Tag="LOC_EPSMOD_ENGINEERING_SIEGE_TACTICS_STRENGTH_PREVIEW" Language="en_US"><Text>Strength from Siege Tactics.</Text></Row>
+
+		<!-- Government Plaza Buildings -->
+		<Row Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION_EPSMOD" Language="en_US"><Text>Settlers trained in this city do not consume a [ICON_Citizen] Population. New cities receive a free Builder. +1 extra Loyalty from Monuments.[NEWLINE][NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text></Row>
+		<Row Tag="LOC_BUILDING_GOV_CITYSTATES_DESCRIPTION_EPSMOD" Language="en_US"><Text>+5% [ICON_Gold] Gold empire-wide per city-state you are the Suzerain of.[NEWLINE]+3 Influence points per turn toward earning city-state [ICON_Envoy] Envoys.[NEWLINE][NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text></Row>
+		<Row Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION_EPSMOD" Language="en_US"><Text>Can use [ICON_Faith] Faith to purchase any building in Holy Sites, Commercial Hubs, and Harbors.[NEWLINE][NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text></Row>
+		<Row Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION_EPSMOD" Language="en_US"><Text>Provides 4 slots for any Great Work.[NEWLINE]May purchase Melee, Ranged, and Anti-Cavalry units with [ICON_Faith] Faith.[NEWLINE][NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text></Row>
+		<Row Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION_EPSMOD" Language="en_US"><Text>+15% [ICON_Science] Science in cities with a Campus or Government Plaza.[NEWLINE]Patronage of Great People costs 30% less [ICON_Gold] Gold.[NEWLINE][NEWLINE]Awards +1 [Icon_Governor] Governor Title.</Text></Row>
+
+		<!-- Governors -->
+		<Row Tag="LOC_GOVERNOR_PROMOTION_REDOUBT_DESCRIPTION_EPSMOD" Language="en_US"><Text>+5 [ICON_Strength] Combat Strength to the city's garrison and your units defending within its territory. Establishes in 2 turns.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_GARRISON_COMMANDER_DESCRIPTION_EPSMOD" Language="en_US"><Text>Military units trained in this city start with a free promotion. (Does not stack with other free promotions)</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_NAME_EPSMOD" Language="en_US"><Text>Defense Plans</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_DEFENSE_LOGISTICS_DESCRIPTION_EPSMOD" Language="en_US"><Text>City cannot be put under siege. Enemy Spies operate at 3 levels below normal in this city.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_EMBRASURE_DESCRIPTION_EPSMOD" Language="en_US"><Text>This city gains an additional [ICON_Ranged] Ranged Strike per turn.</Text></Row>
+		
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_NAME_EPSMOD" Language="en_US"><Text>Orator</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION_EPSMOD" Language="en_US"><Text>Cities that you own within 9 tiles gain +4 Loyalty per turn towards your civilization. (Including this one)</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_NAME_EPSMOD" Language="en_US"><Text>Propaganda</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_LOCAL_INFORMANTS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Other foreign cities within 9 tiles gain +4 Loyalty pressure towards your civilization.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_AFFLUENCE_DESCRIPTION_EPSMOD" Language="en_US"><Text>While established in a city-state, provides a copy of its Luxury and Strategic resources to you. Gain double the amount of Strategic resources if you are the suzerain.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_NAME_EPSMOD" Language="en_US"><Text>Foreign Relations</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_FOREIGN_INVESTOR_DESCRIPTION_EPSMOD" Language="en_US"><Text>+2 [ICON_Favor] Diplomatic Favor per turn.</Text></Row>
+		
+		<Row Tag="LOC_GOVERNOR_THE_CARDINAL_DESCRIPTION_EPSMOD" Language="en_US"><Text>A spiritual and Religious leader, {LOC_GOVERNOR_THE_CARDINAL_NAME} can increase the [ICON_CULTURE] Culture and [ICON_Religion] Religious Strength of a city, as well as give it extra ways to spend [ICON_FAITH] Faith.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_GRAND_INQUISITOR_DESCRIPTION_EPSMOD" Language="en_US"><Text>Your units get +10 [ICON_Religion] Religious Combat strength in this city's tiles, and its Holy Site's adjacency bonus is converted into [ICON_CULTURE] Culture.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_NAME_EPSMOD" Language="en_US"><Text>Religious Services</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_LAYING_ON_OF_HANDS_DESCRIPTION_EPSMOD" Language="en_US"><Text>This city lets you buy Builders with [ICON_Faith] Faith and ignores pressure and combat effects from Religions not founded by the Governor's player.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_NAME_EPSMOD" Language="en_US"><Text>Laying on of Hands</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_CARDINAL_CITADEL_OF_GOD_DESCRIPTION_EPSMOD" Language="en_US"><Text>+10% [ICON_CULTURE] Culture in this city if it has a Holy Site, and your units in its tiles fully heal in 1 turn of taking no actions.</Text></Row>
+		
+		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_NAME_EPSMOD" Language="en_US"><Text>Resource Operations</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_EXPEDITION_DESCRIPTION_EPSMOD" Language="en_US"><Text>This city gains +1 [ICON_Production] Production from Bonus and Strategic Resources, and +1 resource per turn from improved Strategic Resources.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_NAME_EPSMOD" Language="en_US"><Text>Colonialist</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION_EPSMOD" Language="en_US"><Text>+50% [ICON_Production] Production towards Settlers in this city.</Text></Row>
+		
+		<Row Tag="LOC_GOVERNOR_THE_EDUCATOR_DESCRIPTION_EPSMOD" Language="en_US"><Text>{LOC_GOVERNOR_THE_EDUCATOR_NAME} is focused on the cultivation of [ICON_SCIENCE] Scientific endeavors in the city. He is also quite skilled in the attraction of [ICON_GreatPerson] Great People to his city.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION_EPSMOD" Language="en_US"><Text>15% [ICON_SCIENCE] Science generated by this city.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_NAME_EPSMOD" Language="en_US"><Text>Sophist</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_CONNOISSEUR_DESCRIPTION_EPSMOD" Language="en_US"><Text>The Campus in this city gets an extra +1 [ICON_SCIENCE] Science adjacency from other Districts.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_NAME_EPSMOD" Language="en_US"><Text>Deacon</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_CURATOR_DESCRIPTION_EPSMOD" Language="en_US"><Text>+2 [ICON_SCIENCE] Science per specialty District in this city.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_NAME_EPSMOD" Language="en_US"><Text>Academic Workshops</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_RESEARCHER_DESCRIPTION_EPSMOD" Language="en_US"><Text>+30% [ICON_Production] Production towards city Projects that grant [ICON_GreatPerson] Great Person Points.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_SPACE_INITIATIVE_DESCRIPTION_EPSMOD" Language="en_US"><Text>+50% [ICON_Production] Production towards the Spaceport in this city.</Text></Row>
+		
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_NAME_EPSMOD" Language="en_US"><Text>Construction Corps</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_ZONING_COMMISSIONER_DESCRIPTION_EPSMOD" Language="en_US"><Text>Builders trained in this city will get +1 more build charge. All Builders across your empire gain +1 [ICON_Movement] Movement.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_NAME_EPSMOD" Language="en_US"><Text>Zoning Commissioner</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_WATER_WORKS_DESCRIPTION_EPSMOD" Language="en_US"><Text>+25% [ICON_Production] Production to Districts. This city can build 1 more District than its population allows.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_NAME_EPSMOD" Language="en_US"><Text>Grand Architect</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_PARKS_RECREATION_DESCRIPTION_EPSMOD" Language="en_US"><Text>+15% [ICON_Production] Production towards Wonders in this city.</Text></Row>
+		
+		<Row Tag="LOC_GOVERNOR_THE_MERCHANT_DESCRIPTION_EPSMOD" Language="en_US"><Text>Shrewd and fiscally knowledgeable, {LOC_GOVERNOR_THE_MERCHANT_NAME} is able to strengthen the economic power of a city, or give fresh small cities a big starting boost.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_FORESTRY_MANAGEMENT_DESCRIPTION_EPSMOD" Language="en_US"><Text>+2 [ICON_Gold] Gold from each unimproved feature. Tiles adjacent to unimproved features receive +1 Appeal.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_LAND_ACQUISITION_DESCRIPTION_EPSMOD" Language="en_US"><Text>The city gains +2 [ICON_CULTURE] Culture and acquires new tiles 20% faster.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_NAME_EPSMOD" Language="en_US"><Text>Frontier Overseer</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_RENEWABLE_ENERGY_DESCRIPTION_EPSMOD" Language="en_US"><Text>Monuments, Granaries, and Water Wheels cost 50% less and yield +1 [ICON_Production] Production and [ICON_Food] Food per turn in this city.</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_NAME_EPSMOD" Language="en_US"><Text>Foreign Exchange</Text></Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_MERCHANT_HARBORMASTER_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_TradeRoute] Trade Route capacity. +2 [ICON_Gold] Gold from each [ICON_TradeRoute] Trade Route you send from this city.</Text></Row>
+
+		<Row Tag="LOC_IMPROVEMENT_CITY_PARK_DESCRIPTION_EPSMOD" Language="en_US"><Text>Yields +2 Appeal and +1 [ICON_Culture] Culture. +1 [ICON_Amenities] Amenity if adjacent to water. Each city can only have City Park.</Text></Row>
+
+		<!-- Great People -->
+		<Row Tag="EPSMOD_BOUDICA_BARBS_TEXT" Language="en_US"><Text>Gain +5 [ICON_Strength] Combat Strength against Barbarians on all your units, for the rest of the game.</Text></Row>
+		<Row Tag="EPSMOD_MARINA_RASKOVA_ALUMINUM_TEXT" Language="en_US"><Text>Instantly creates a Fighter unit in the city. Grants 1 [ICON_RESOURCE_ALUMINUM] Aluminum per Turn.</Text></Row>
+		<Row Tag="EPSMOD_GRACE_HOPPER_ACTIVE_TEXT" Language="en_US"><Text>Grants 1 free technology from any era and a [ICON_TechBoosted] Eureka towards Computers.</Text></Row>
+		<Row Tag="EPSMOD_BI_SHENG_ACTIVE_TEXT" Language="en_US"><Text>+1 [ICON_Science] Science from each Library. +2 [ICON_Gold] Gold from each Market and Bank. Triggers the [ICON_TechBoosted] Eureka for Machinery and Printing.</Text></Row>
+		<Row Tag="EPSMOD_LEONARDO_DA_VINCI_ACTIVE_TEXT" Language="en_US"><Text>+2 [ICON_Production] Production and +2 [ICON_Culture] Culture from Workshops.</Text></Row>
+		<Row Tag="EPSMOD_MIMAR_SINAN_ACTIVE_TEXT" Language="en_US"><Text>Industrial Zones provide +2 [ICON_Food] Food and +2 [ICON_Housing] Housing, and Culture Bomb adjacent tiles upon completion.</Text></Row>
+		<Row Tag="EPSMOD_ADA_LOVELACE_PRODUCTION_TEXT" Language="en_US"><Text>+10% [ICON_Production] Production towards Information Era military units.</Text></Row>
+		<Row Tag="EPSMOD_ALVAR_AALTO_CULTURE_TEXT" Language="en_US"><Text>Breathtaking tiles in this city yield +1 [ICON_Culture] Culture.</Text></Row>
+		<Row Tag="EPSMOD_JOHN_A_ROEBLING_PRODUCTION_TEXT" Language="en_US"><Text>Grants {Amount} [ICON_Production] Production towards wonder construction.</Text></Row>
+		<Row Tag="EPSMOD_JOSEPH_PAXTON_FOOD_TEXT" Language="en_US"><Text>+1 [ICON_Food] Food from each Farm in your empire.</Text></Row>
+		<Row Tag="EPSMOD_CHARLES_CORREA_PRODUCTION_TEXT" Language="en_US"><Text>+50% [ICON_Production] Production towards Districts across your empire.</Text></Row>
+		<Row Tag="EPSMOD_SARAH_BREEDLOVE_TOURISM_TEXT" Language="en_US"><Text>+15% [ICON_Tourism] Tourism across your empire.</Text></Row>
+		<Row Tag="EPSMOD_GREAT_PERSON_GAIN_SCIENCE_TEXT" Language="en_US"><Text>Gain {Amount} [ICON_Science] Science.</Text></Row>
+
+		<!-- Horses -->
+		<Row Tag="LOC_TECH_SYNTHETIC_MATERIALS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Pastures over [ICON_RESOURCE_HORSES] Horses provide an Amenity. +2 [ICON_Gold] Gold to Camps.</Text></Row>
+		
+		<!-- Nukes: Plaza -->
+		<Row Tag="LOC_PROJECT_MANHATTAN_PROJECT_DESCRIPTION_EPSMOD" Language="en_US"><Text>Allows for the creation of Nuclear Devices. Requires the Government Plaza.</Text></Row>
+		<Row Tag="LOC_PROJECT_OPERATION_IVY_DESCRIPTION_EPSMOD" Language="en_US"><Text>Allows for the creation of Thermonuclear Devices. Requires the Government Plaza.</Text></Row>
+		<Row Tag="LOC_PROJECT_BUILD_NUCLEAR_DEVICE_DESCRIPTION_EPSMOD" Language="en_US"><Text>Requires the Government Plaza. Adds one Nuclear Device to your nation's inventory. Requires [ICON_Resource_Uranium] Uranium. Maintenance is 14 [ICON_Gold] Gold.</Text></Row>
+		<Row Tag="LOC_PROJECT_BUILD_THERMONUCLEAR_DEVICE_DESCRIPTION_EPSMOD" Language="en_US"><Text>Requires the Government Plaza. Adds a Thermonuclear Device to your nation's inventory. Requires [ICON_Resource_Uranium] Uranium. Maintenance is 16 [ICON_Gold] Gold.</Text></Row>
+
+		<!-- Preserve -->
+		<Row Tag="LOC_BUILDING_GROVE_DESCRIPTION_EPSMOD" Language="en_US"><Text>Grants +1 [ICON_FOOD] Food and +1 [ICON_FAITH] Faith to adjacent unimproved Charming tiles.  Increased to +2 [ICON_FOOD] Food, +2 [ICON_FAITH] Faith, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold for adjacent unimproved Breathtaking tiles.</Text></Row>
+		<Row Tag="LOC_BUILDING_SANCTUARY_DESCRIPTION_EPSMOD" Language="en_US"><Text>Grants +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold to adjacent unimproved Charming tiles.  Increased to +2 [ICON_PRODUCTION] Production, +2 [ICON_GOLD] Gold, +1 [ICON_SCIENCE] Science, and +1 [ICON_FAITH] Faith for adjacent unimproved Breathtaking tiles.</Text></Row>
+				
+		<!-- Recon -->
+		<Row Tag="LOC_UNIT_SCOUT_DESCRIPTION_EPSMOD" Language="en_US"><Text>Ancient era recon unit.[NEWLINE]Ignores [ICON_Movement] Movement penalties for Woods, Rainforest, and Hills.</Text></Row>
+		<Row Tag="LOC_UNIT_SKIRMISHER_DESCRIPTION_EPSMOD" Language="en_US"><Text>Medieval Era recon unit.[NEWLINE]Ignores [ICON_Movement] Movement penalties for Woods, Rainforest, and Hills.</Text></Row>
+		<Row Tag="LOC_UNIT_RANGER_DESCRIPTION_EPSMOD" Language="en_US"><Text>Fast-moving Industrial era recon unit.[NEWLINE]Ignores [ICON_Movement] Movement penalties for Woods, Rainforest, and Hills.</Text></Row>
+		<Row Tag="LOC_EPSMOD_ABILITY_EXPLORER_NAME" Language="en_US"><Text>Explorer</Text></Row>
+		<Row Tag="LOC_EPSMOD_ABILITY_EXPLORER_DESCRIPTION" Language="en_US"><Text>Ignores [ICON_Movement] Movement penalties for Woods, Rainforest, and Hills.</Text></Row>
+		<Row Tag="EPSMOD_PROMOTION_RECONNAISSANCE_NAME" Language="en_US"><Text>Reconnaissance</Text></Row>
+		<Row Tag="EPSMOD_PROMOTION_RECONNAISSANCE_DESCRIPTION" Language="en_US"><Text>+1 sight range. Ignores enemy Zone of Control.</Text></Row>
+		<Row Tag="EPSMOD_PROMOTION_SURVIVALIST_NAME" Language="en_US"><Text>Survivalist</Text></Row>
+		<Row Tag="EPSMOD_PROMOTION_SURVIVALIST_DESCRIPTION" Language="en_US"><Text>+8 [ICON_Strength] Combat Strength when defending vs. Barbarians.</Text></Row>
+		<Row Tag="EPSMOD_PROMOTION_PATHFINDER_NAME" Language="en_US"><Text>Pathfinder</Text></Row>
+		<Row Tag="EPSMOD_PROMOTION_PATHFINDER_DESCRIPTION" Language="en_US"><Text>+1 [ICON_Movement] Movement.</Text></Row>
+		<Row Tag="EPSMOD_PROMOTION_SNIPER_NAME" Language="en_US"><Text>Sniper</Text></Row>
+		<Row Tag="EPSMOD_PROMOTION_SNIPER_DESCRIPTION" Language="en_US"><Text>+1 [ICON_Range] Range to ranged attacks.</Text></Row>
+		<Row Tag="EPSMOD_PROMOTION_GUERRILLA_DESCRIPTION" Language="en_US"><Text>Can move after attacking. +3 [ICON_Strength] Combat Strength in Woods and Rainforest.</Text></Row>
+
+		<!-- Science -->
+		<Row Tag="LOC_DISTRICT_EPSMOD_WOOD_SCIENCE" Language="en_US"><Text>+{1_num} [ICON_Science] Science from the adjacent Forest tiles.</Text></Row>
+		<Row Tag="LOC_DISTRICT_EPSMOD_HOOD_SCIENCE" Language="en_US"><Text>+{1_num} [ICON_Science] Science from the adjacent {1_Num : plural 1?Neighbourhood; other?Neighbourhoods;}.</Text></Row>
+		
+		<!-- Support Units -->
+		<Row Tag="LOC_EPSMOD_SUPPORT_UNIT_SHIELDBEARER_NAME" Language="en_US"><Text>Shieldbearer</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_UNIT_SHIELDBEARER_DESCRIPTION" Language="en_US"><Text>Support unit that grants the non-cavalry land unit in its tile +4 [ICON_Strength] Combat Strength while defending.[NEWLINE]Becomes obsolote after you invent Gunpowder, but upgrades into a Medic.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_STUB_NAME" Language="en_US"><Text>Shieldbearer</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_STUB_DESCRIPTION" Language="en_US"><Text>+4 [ICON_Strength] Combat Strength to the non-cavalry land unit in its tile while defending.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_NAME" Language="en_US"><Text>Shieldbearer bonus</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_DESCRIPTION" Language="en_US"><Text></Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_SHIELDBEARER_COMBAT_MODIFIER_DESCRIPTION" Language="en_US"><Text>+4 Strength from the Shieldbearer.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_UNIT_SNIPER_NAME" Language="en_US"><Text>Sniper Team</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_UNIT_SNIPER_DESCRIPTION" Language="en_US"><Text>Support unit that has a ranged attack that's effective against Melee, Ranged, and Anti-Cavalry units (+20 [ICON_Strength] Strength). Severely less effective against other units, but is able to Priority Target enemy Support units.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_SNIPER_NAME" Language="en_US"><Text>Sniping</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_SNIPER_DESCRIPTION" Language="en_US"><Text>+20 [ICON_Strength] Combat Strength against Melee, Ranged, and Anti-Cavalry units.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_SNIPER_COMBAT_MODIFIER_DESCRIPTION" Language="en_US"><Text>+20 Strength against footman units.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW_NAME" Language="en_US"><Text>Demolition Crew</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_UNIT_DEMOLITION_CREW_DESCRIPTION" Language="en_US"><Text>Support unit that has a short-ranged Bombard attack effective against districts (+20 [ICON_Strength] Strength). Severely less effective against other targets.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_DEMO_MAN_NAME" Language="en_US"><Text>Demolition</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_DEMO_MAN_DESCRIPTION" Language="en_US"><Text>+20 [ICON_Strength] Combat Strength when attacking districts.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_DEMO_MAN_COMBAT_MODIFIER_DESCRIPTION" Language="en_US"><Text>+20 Strength against districts.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW_NAME" Language="en_US"><Text>Modern Demolition Crew</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_UNIT_MODERN_DEMO_CREW_DESCRIPTION" Language="en_US"><Text>Support unit that has a short-ranged Bombard attack effective against districts (+20 [ICON_Strength] Strength). Severely less effective against other targets.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_UNIT_PATHFINDER_NAME" Language="en_US"><Text>Pathfinder</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_UNIT_PATHFINDER_DESCRIPTION" Language="en_US"><Text>Support unit that ignores movement penalties through Woods, Rainforest, and Hills, and pulls any land units linked with it in an Escort Formation when ordered to move. (Select the Pathfinder itself to do this.)</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_PATHFINDER_NAME" Language="en_US"><Text>Pathfinding</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_ABILITY_PATHFINDER_DESCRIPTION" Language="en_US"><Text>Ignores movement penalties through Woods, Rainforest, and Hills. Pulls land units linked with it in an Escort Formation.</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_POLICY_CITIZEN_SOLDIERS_NAME" Language="en_US"><Text>Citizen-soldiers</Text></Row>
+		<Row Tag="LOC_EPSMOD_SUPPORT_POLICY_MM_SERVICE_NAME" Language="en_US"><Text>Mandatory military service</Text></Row>
+		
+		<!-- Tall Play -->
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_NATIONAL_COLLEGE_NAME" Language="en_US"><Text>National College</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_NATIONAL_COLLEGE_DESCRIPTION" Language="en_US"><Text>Limited to 1 per civilization. Requires a Library. Enables the "Switch to Tall Science" project.[NEWLINE][NEWLINE]After you complete the "Switch to Tall Science" project, this city will yield +1 [ICON_Science] Science per [ICON_Citizen] Citizen, BUT Libraries in your other cities will yield -1 [ICON_Science] Science, and Universities in your other cities will yield -2 [ICON_Science] Science.[NEWLINE][NEWLINE]The project also constructs Retinue Quarters in this city. (+4 [ICON_Housing] Housing, +10% Growth)</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_INSTITUTE_NAME" Language="en_US"><Text>Research Institute</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_INSTITUTE_DESCRIPTION" Language="en_US"><Text>Limited to 1 per civilization. Requires a National College. This district gains 1 extra Citizen slot, and its Citizen slots yield +1 [ICON_Science] Science. Consumes 2 [ICON_Power] Power. Enables the "Advance Tall Science" project.[NEWLINE][NEWLINE]After you complete the "Advance Tall Science" project, this city will yield +50% [ICON_Science] Science, BUT Research Labs in other cities will yield -4 [ICON_Science] Science.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_SCIENCE_NAME" Language="en_US"><Text>Switch to Tall Science</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_SCIENCE_SHORT_NAME" Language="en_US"><Text>Tall Science</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_SCIENCE_DESCRIPTION" Language="en_US"><Text>Requires a National College. After you complete this project, Campus buildings in your cities without a National College will be worse, but the College city will yield more [ICON_Science] Science from its [ICON_Citizen] Population. The city will also receive Retinue Quarters (+4 [ICON_Housing] Housing, +10% Growth) if it does not already have them.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_SCIENCE_NAME" Language="en_US"><Text>Advance Tall Science</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_SCIENCE_SHORT_NAME" Language="en_US"><Text>Advance Tall Science</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_SCIENCE_DESCRIPTION" Language="en_US"><Text>Requires a Research Institute, and the "Switch to Tall Science" project to already be completed. After you complete this project, Research Labs in your cities without a National College will be worse, but the College city will yield +50% [ICON_Science] Science.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_CULTURE_MINISTRY_NAME" Language="en_US"><Text>Ministry of Culture</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_CULTURE_MINISTRY_DESCRIPTION" Language="en_US"><Text>Limited to 1 per civilization. Requires an Amphitheater. Enables the "Switch to Tall Culture" project.[NEWLINE][NEWLINE]After you complete the "Switch to Tall Culture" project, this city will yield +1 [ICON_Culture] Culture per [ICON_Citizen] Citizen, BUT Amphitheaters in your other cities will yield -1 [ICON_Culture] Culture, and Museums in your other cities will yield -2 [ICON_Culture] Culture.[NEWLINE][NEWLINE]The project also constructs Retinue Quarters in this city. (+4 [ICON_Housing] Housing, +10% Growth)</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_NATIONAL_BROADCAST_STATION_NAME" Language="en_US"><Text>National Broadcast Station</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_NATIONAL_BROADCAST_STATION_DESCRIPTION" Language="en_US"><Text>Limited to 1 per civilization. Requires a Ministry of Culture. This district gains 1 extra Citizen slot, and its Citizen slots yield +1 [ICON_Culture] Cutlure. Consumes 2 [ICON_Power] Power. Enables the "Advance Tall Culture" project.[NEWLINE][NEWLINE]After you complete the "Advance Tall Culture" project, this city will yield +50% [ICON_Culture] Culture, BUT Broadcast Centers in other cities will yield -4 [ICON_Culture] Culture.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_CULTURE_NAME" Language="en_US"><Text>Switch to Tall Culture</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_CULTURE_SHORT_NAME" Language="en_US"><Text>Tall Culture</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_CULTURE_DESCRIPTION" Language="en_US"><Text>Requires a Ministry of Culture. After you complete this project, Theater Square buildings in your cities without a Ministry of Culture will be worse, but the Ministry city will yield more [ICON_Culture] Culture from its [ICON_Citizen] Population. The city will also receive Retinue Quarters (+4 [ICON_Housing] Housing, +10% Growth) if it does not already have them.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_CULTURE_NAME" Language="en_US"><Text>Advance Tall Culture</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_CULTURE_SHORT_NAME" Language="en_US"><Text>Advance Tall Culture</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_CULTURE_DESCRIPTION" Language="en_US"><Text>Requires a National Broadcast Station, and the "Switch to Tall Culture" project to already be completed. After you complete this project, Broadcast Centers in your cities without a Ministry of Culture will be worse, but the Ministry city will yield +50% [ICON_Culture] Culture.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_GRAND_TEMPLE_NAME" Language="en_US"><Text>Grand Temple</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_GRAND_TEMPLE_DESCRIPTION" Language="en_US"><Text>Limited to 1 per civilization. Requires a Temple. Enables the "Switch to Tall Faith" project.[NEWLINE][NEWLINE]After you complete the "Switch to Tall Faith" project, this city will yield +1 [ICON_Faith] Faith per Citizen, BUT Shrines in your other cities will yield -1 [ICON_Faith] Faith, and Temples in your other cities will yield -2 [ICON_Faith] Faith.[NEWLINE][NEWLINE]The project also constructs Retinue Quarters in this city. (+4 [ICON_Housing] Housing, +10% Growth)</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_THEOLOGICAL_COLLEGE_NAME" Language="en_US"><Text>Theological College</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_THEOLOGICAL_COLLEGE_DESCRIPTION" Language="en_US"><Text>Limited to 1 per civilization. Requires a Grand Temple. This district gains 1 extra Citizen slot, and its Citizen slots yield +1 [ICON_Faith] Faith. Enables the "Advance Tall Faith" project.[NEWLINE][NEWLINE]After you complete the "Avance Tall Faith" project, this city will yield +30% [ICON_Faith] Faith, BUT Worship buildings (Pagoda, Cathedral, etc.) in other cities will yield -2 [ICON_Faith] Faith.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_FAITH_NAME" Language="en_US"><Text>Switch to Tall Faith</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_FAITH_SHORT_NAME" Language="en_US"><Text>Tall Faith</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_FAITH_DESCRIPTION" Language="en_US"><Text>Requires a Grand Temple. After you complete this project, Holy Site buildings in your cities without a Grand Temple will be worse, but the Grand Temple city will yield [ICON_Faith] Faith from its [ICON_Citizen] Population. The city will also receive Retinue Quarters (+4 [ICON_Housing] Housing, +10% Growth) if it does not already have them.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_FAITH_NAME" Language="en_US"><Text>Advance Tall Faith</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_FAITH_SHORT_NAME" Language="en_US"><Text>Advance Tall Faith</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_FAITH_DESCRIPTION" Language="en_US"><Text>Requires a Theological College, and the "Switch to Tall Faith" project to already be completed. After you complete this project, Worship buildings in your cities without a Grand Temple will be worse, but the Grand Temple city will yield +30% [ICON_Faith] Faith.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_ROYAL_TREASURY_NAME" Language="en_US"><Text>Royal Treasury</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_ROYAL_TREASURY_DESCRIPTION" Language="en_US"><Text>Limited to 1 per civilization. Requires a Market. Enables the "Switch to Tall Economy" project.[NEWLINE][NEWLINE]After you complete the "Switch to Tall Economy" project, you'll permanently gain +3 [ICON_TradeRoute] Trade Route Capacity and this city will yield +1 [ICON_Gold] Gold per Citizen, BUT Markets in your other cities will yield -2 [ICON_Gold] Gold, Banks in your other cities will yield -3 [ICON_Gold] Gold, and you will not get extra [ICON_TradeRoute] Trade Route Capacity from Markets and Lighthouses outside this city.[NEWLINE][NEWLINE]The project also constructs Retinue Quarters in this city. (+4 [ICON_Housing] Housing, +10% Growth)</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_NATIONAL_BANK_NAME" Language="en_US"><Text>National Bank</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_NATIONAL_BANK_DESCRIPTION" Language="en_US"><Text>Limited to 1 per civilization. Requires a Royal Treasury. This district gains 1 extra Citizen slot, and its Citizen slots yield +2 [ICON_Gold] Gold. Consumes 2 [ICON_Power] Power. Enables the "Advance Tall Economy" project.[NEWLINE][NEWLINE]After you complete the "Advance Tall Economy" project, you'll permanently gain +3 [ICON_TradeRoute] Trade Route Capacity and this city will yield +30% [ICON_Gold] Gold, BUT Stock Exchanges in other cities will yield -6 [ICON_Gold] Gold.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_ECONOMY_NAME" Language="en_US"><Text>Switch to Tall Economy</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_ECONOMY_SHORT_NAME" Language="en_US"><Text>Tall Economy</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_SWITCH_ECONOMY_DESCRIPTION" Language="en_US"><Text>Requires a Royal Treasury. After you complete this project, Commercial Hub buildings in your cities without a Royal Treasury will be worse, but the Treasury city will yield [ICON_Gold] Gold from its [ICON_Citizen] Population, and you'll permanently gain +3 [ICON_TradeRoute] Trade Route Capacity. The city will also receive Retinue Quarters (+4 [ICON_Housing] Housing, +10% Growth) if it does not already have them.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_ECONOMY_NAME" Language="en_US"><Text>Advance Tall Economy</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_ECONOMY_SHORT_NAME" Language="en_US"><Text>Advance Tall Economy</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_PROJECT_ADVANCE_ECONOMY_DESCRIPTION" Language="en_US"><Text>Requires a National Bank, and the "Switch to Tall Economy" project to already be completed. After you complete this project, Stock Exchanges in your cities without a Royal Treasury will be worse, but the Treasury city will yield +30% [ICON_Gold] Gold, and you'll permanently gain +3 [ICON_TradeRoute] Trade Route Capacity.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_RETINUE_QUARTERS_NAME" Language="en_US"><Text>Retinue Quarters</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_BUILDING_RETINUE_QUARTERS_DESCRIPTION" Language="en_US"><Text>+10% [ICON_Citizen] population growth in this city. Can be constructed by Switching to Tall Science, Culture, Economy, or Faith.</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_POLICY_ROYAL_RECRUITMENT_NAME" Language="en_US"><Text>Royal Recruitment</Text></Row>
+		<Row Tag="LOC_EPSMOD_TALL_POLICY_ROYAL_RECRUITMENT_DESCRIPTION" Language="en_US"><Text>+15% growth in cities with Retinue Quarters. -10% growth in cities without them.</Text></Row>
+		
+		<!-- Warrior Monks -->
+		<Row Tag="LOC_UNIT_WARRIOR_MONK_DESCRIPTION_EPSMOD" Language="en_US"><Text>Land combat unit with a unique promotion tree.[NEWLINE]+10 [ICON_Strength] Combat Strength after unlocking Reformed Church.[NEWLINE]+20 [ICON_Strength] Combat Strength after unlocking Conservation.</Text></Row>
+		<Row Tag="LOC_EPSMOD_MONKS_ABILITY_REFORMED_CHURCH_STRENGTH_NAME" Language="en_US"><Text>Reformed Church Strength</Text></Row>
+		<Row Tag="LOC_EPSMOD_MONKS_ABILITY_REFORMED_CHURCH_STRENGTH_DESCRIPTION" Language="en_US"><Text>+10 [ICON_Strength] Combat Strength from Reformed Church.</Text></Row>
+		<Row Tag="LOC_EPSMOD_MONKS_REFORMED_CHURCH_STRENGTH_PREVIEW" Language="en_US"><Text>+{1_Amount} [ICON_Strength] Combat Strength from Reformed Church</Text></Row>
+		<Row Tag="LOC_EPSMOD_MONKS_ABILITY_CONSERVATION_STRENGTH_NAME" Language="en_US"><Text>Conservation Strength</Text></Row>
+		<Row Tag="LOC_EPSMOD_MONKS_ABILITY_CONSERVATION_STRENGTH_DESCRIPTION" Language="en_US"><Text>+20 [ICON_Strength] Combat Strength from Conservation.</Text></Row>
+		<Row Tag="LOC_EPSMOD_MONKS_CONSERVATION_STRENGTH_PREVIEW" Language="en_US"><Text>+{1_Amount} [ICON_Strength] Combat Strength from Conservation</Text></Row>
+		<Row Tag="LOC_PROMOTION_MONK_EXPLODING_PALMS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Pushes back enemies if it deals more damage than it takes. Unpushable enemies take extra damage.</Text></Row>
+		
+		<!-- Wonders -->
+		<Row Tag="LOC_BUILDING_BIG_BEN_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 Economic policy slot[NEWLINE][NEWLINE]Immediately after construction [ICON_GOLD] Gold in treasury is increased by 50%. Must be built adjacent to a Commercial Hub district with a Bank.</Text></Row>
+		<Row Tag="LOC_BUILDING_CHICHEN_ITZA_DESCRIPTION_EPSMOD" Language="en_US"><Text>+2 [ICON_Culture] Culture and +1 [ICON_Production] Production to all Rainforest tiles for this city.[NEWLINE][NEWLINE]Must be built on a Rainforest that's adjacent to the City Center.</Text></Row>
+		<Row Tag="LOC_BUILDING_CRISTO_REDENTOR_DESCRIPTION_EPSMOD" Language="en_US"><Text>Entertainment Complexes and Water Parks yield +3 [ICON_Culture] Culture and +6 [ICON_Tourism] Tourism.[NEWLINE]National Parks yield +6 [ICON_Culture] Culture, and their [ICON_Tourism] Tourism is doubled.[NEWLINE]Seaside Resorts yield +2 [ICON_Culture] Culture, and their [ICON_Tourism] Tourism is doubled.[NEWLINE][NEWLINE]Must be built on Hills.</Text></Row>
+		<Row Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION_EPSMOD" Language="en_US"><Text>All tiles in your civilization within working range of a City Center gain +2 Appeal. +1 [ICON_Culture] Culture from Breathtaking tiles in this city.[NEWLINE][NEWLINE]Must be built on flat land adjacent to the City Center.</Text></Row>		
+		<Row Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_Production] Production on all Coast tiles in this city. +1 [ICON_Movement] Movement for all naval and embarked units.[NEWLINE][NEWLINE]Must be built on the Coast adjacent to the City Center.</Text></Row>		
+		<Row Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_TradeRoute] Trade Route capacity[NEWLINE][NEWLINE]Your [ICON_TradeRoute] Trade Routes from this city get +2 [ICON_Gold] Gold for every Bonus resource within 3 tiles of the city and in this city's territory. Must be built adjacent to a Commercial Hub district with a Market.</Text></Row>
+		<Row Tag="LOC_BUILDING_HANGING_GARDENS_DESCRIPTION_EPSMOD" Language="en_US"><Text>All your cities receive +15% population growth and full [ICON_Housing] Housing as if they were next to fresh water.</Text></Row>
+		<Row Tag="LOC_BUILDING_MAHABODHI_TEMPLE_DESCRIPTION_EPSMOD" Language="en_US"><Text>+2 Diplomatic Victory Points and grants 2 Apostles when built.[NEWLINE][NEWLINE]Must be built adjacent to a Holy Site district with a Temple, and you must have founded a Religion.</Text></Row>		
+		<Row Tag="LOC_BUILDING_MONT_ST_MICHEL_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 [ICON_Movement] Movement for all religious units. All Apostles you create gain the Martyr ability in addition to a second ability you chose normally.[NEWLINE][NEWLINE]Must be built on Floodplains or Marsh.</Text></Row>
+		<Row Tag="LOC_BUILDING_ORSZAGHAZ_DESCRIPTION_EPSMOD" Language="en_US"><Text>+100% [ICON_Favor] Diplomatic Favor per turn from starting a turn as Suzerain of a City-State.</Text></Row>
+		<Row Tag="LOC_BUILDING_OXFORD_UNIVERSITY_DESCRIPTION_EPSMOD" Language="en_US"><Text>+20% [ICON_Science] Science in this city, and awards 2 randomly-chosen free technologies when completed. Must be built adjacent to a Campus district with a University.</Text></Row>
+		<Row Tag="LOC_BUILDING_PETRA_DESCRIPTION_EPSMOD" Language="en_US"><Text>+2 [ICON_Food] Food, +2 [ICON_Gold] Gold, and +1 [ICON_Production] Production on all Desert tiles for this city (non-Floodplains).[NEWLINE][NEWLINE]Must be built on a Desert tile that's adjacent to the City Center.</Text></Row>
+		<Row Tag="LOC_BUILDING_POTALA_PALACE_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 Diplomatic policy slot.[NEWLINE][NEWLINE]Must be built adjacent to a Mountain.</Text></Row>
+		<Row Tag="LOC_BUILDING_PYRAMIDS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Grants a free Builder. All Builders can build 1 extra improvement. Must be built on flat land.</Text></Row>
+		<Row Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION_EPSMOD" Language="en_US"><Text>+20% [ICON_Production] Production in this city, and +1 [ICON_Production] Production for each Mine and Quarry in this city. Must be built adjacent to an Industrial Zone district with a Factory.</Text></Row>
+		<Row Tag="LOC_BUILDING_STONEHENGE_DESCRIPTION_EPSMOD" Language="en_US"><Text>Grants a free [ICON_GreatProphet] Great Prophet. [ICON_GreatProphet] Great Prophets may found a Religion on Stonehenge instead of a Holy Site. Must be built on flat land.</Text></Row>
+		<Row Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION_EPSMOD" Language="en_US"><Text>+1 Era Score from Historic Moment earned after this wonder is complete if that Moment is usually worth 2 or more Era Score.</Text></Row>
+		<Row Tag="LOC_BUILDING_TEMPLE_ARTEMIS_DESCRIPTION_EPSMOD" Language="en_US"><Text>Each Camp, Pasture, and Plantation improvement within 4 tiles of this wonder provides +1 [ICON_AMENITIES] Amenity.</Text></Row>
+		<Row Tag="LOC_BUILDING_TERRACOTTA_ARMY_DESCRIPTION_EPSMOD" Language="en_US"><Text>All current units gain a promotion level. All Archaeologists from the owner may enter foreign lands without Open Borders. Must be built on flat land adjacent to an Encampment district with a Barracks or Stable.</Text></Row>
+		<Row Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION_EPSMOD" Language="en_US"><Text>All Naval units you create gain a free promotion: Melee ships get Embolon, Ranged ships - Line of Battle, and Raider ships - Boarding. Upon completion, receive 2 Frigates for free in this city.[NEWLINE][NEWLINE] Must be built on a Coast tile that is adjacent to an Industrial Zone district.</Text></Row>
+
+		<!-- Wonder Wording -->
+		<Row Tag="EPSMOD_WONDER_WORDING_TOURISM" Language="en_US"><Text>[NEWLINE][NEWLINE]+2 [ICON_Tourism] Tourism[NEWLINE]+1 [ICON_Tourism] extra per Era that you've advanced past this Wonder's era</Text></Row>
+		
+		<!-- World Congress -->
+		<Row Tag="LOC_WORLD_CONGRESS_BAN_RELIGION_DESC_EPSMOD" Language="en_US"><Text>-5 Strength (Combat and Religious) on all units of this [ICON_Religion] Religion.</Text></Row>
+		<Row Tag="LOC_WORLD_CONGRESS_BAN_PRODUCTION_YIELD_DESC_EPSMOD" Language="en_US"><Text>Military units cost twice as much to purchase or produce using the chosen currency type, until the next World Congress.</Text></Row>
+		<Row Tag="LOC_WORLD_CONGRESS_BUFF_PRODUCTION_YIELD_DESC_EPSMOD" Language="en_US"><Text>Military units cost -50% less to purchase or produce using the chosen currency type, until the next World Congress.</Text></Row>
+		<Row Tag="LOC_WORLD_CONGRESS_BUFF_ARMS_CONTROL_DESC_EPSMOD" Language="en_US"><Text>The target player gains +3 [ICON_Resource_Uranium] Uranium per turn until the next World Congress.</Text></Row>
+		<Row Tag="LOC_WORLD_CONGRESS_NERF_ARMS_CONTROL_DESC_EPSMOD" Language="en_US"><Text>The target player loses all of their Nuclear Weapons.[NEWLINE]Nuclear Non-Proliferation is enacted: All players are barred from making new Nuclear Weapons until the next World Congress.</Text></Row>
+		
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_GameMode_01_Apocalypse_MODE -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 11:10:11 AM -->
+<GameData>
+
+	<!-- SOOTHSAYER -->
+	<Update>
+		<Where	UnitType="UNIT_SOOTHSAYER"/>
+		<Set	Cost="75"
+				Maintenance="6"
+				CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+				CostProgressionParam1="500"
+				Description="LOC_STR_UNIT_SOOTHSAYER_DESCRIPTION"/>
+	</Update>
+	
+</GameData>

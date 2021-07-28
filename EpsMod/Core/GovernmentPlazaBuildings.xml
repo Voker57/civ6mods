@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Buildings>
+		<Update><Where BuildingType="BUILDING_GOV_WIDE"/><Set><Description>LOC_BUILDING_GOV_WIDE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BuildingType="BUILDING_GOV_CITYSTATES"/><Set><Description>LOC_BUILDING_GOV_CITYSTATES_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BuildingType="BUILDING_GOV_FAITH"/><Set><Description>LOC_BUILDING_GOV_FAITH_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BuildingType="BUILDING_GOV_CULTURE"/><Set><Description>LOC_BUILDING_GOV_CULTURE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BuildingType="BUILDING_GOV_SCIENCE"/><Set><Description>LOC_BUILDING_GOV_SCIENCE_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Buildings>
+
+	<BuildingModifiers>
+		<Delete BuildingType="BUILDING_GOV_WIDE" ModifierId="GOV_SETTLER_COST_REDUCTION"/>
+		<Delete BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="BUILDING_GOV_CITYSTATES_UNIT_STRENGTH"/>
+		<Delete BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="BUILDING_GOV_CITYSTATES_LEVERAGED_UNIT_STRENGTH"/>
+		<Delete BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="BUILDING_GOV_LEVY_DISCOUNT"/>
+		<Delete BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="GOVCITYSTATES_ADJUST_FAVOR"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PURCHASE_RECON"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PURCHASE_MELEE"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PURCHASE_RANGED"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PURCHASE_SIEGE"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PURCHASE_HEAVY_CAVALRY"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PURCHASE_LIGHT_CAVALRY"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PURCHASE_RANGED_CAVALRY"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PURCHASE_ANTI_CAVALRY"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PURCHASE_HEAVY_CHARIOT"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PURCHASE_LIGHT_CHARIOT"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PILLAGE_IMPROVEMENT_FAITH"/>
+		<Delete BuildingType="BUILDING_GOV_FAITH" ModifierId="GOV_FAITH_PILLAGE_DISTRICT_FAITH"/>
+		<Delete BuildingType="BUILDING_GOV_SCIENCE" ModifierId="GOV_PROJECT_ABILITY"/>
+		
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="EPSMOD_BUILDING_GOV_WIDE_SETTLERS"/>
+		<Row BuildingType="BUILDING_GOV_WIDE" ModifierId="EPSMOD_BUILDING_GOV_WIDE_LOYALTY"/>
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="EPSMOD_BUILDING_GOV_CITYSTATES_INFLUENCE"/>
+		<Row BuildingType="BUILDING_GOV_CITYSTATES" ModifierId="EPSMOD_BUILDING_GOV_CITYSTATES_GOLD"/>
+		<Row BuildingType="BUILDING_GOV_FAITH" ModifierId="EPSMOD_BUILDING_GOV_FAITH_HOLY"/>
+		<Row BuildingType="BUILDING_GOV_FAITH" ModifierId="EPSMOD_BUILDING_GOV_FAITH_COMMERCIAL"/>
+		<Row BuildingType="BUILDING_GOV_FAITH" ModifierId="EPSMOD_BUILDING_GOV_FAITH_HARBOR"/>
+		<Row BuildingType="BUILDING_GOV_CULTURE" ModifierId="GOV_FAITH_PURCHASE_MELEE"/>
+		<Row BuildingType="BUILDING_GOV_CULTURE" ModifierId="GOV_FAITH_PURCHASE_RANGED"/>
+		<Row BuildingType="BUILDING_GOV_CULTURE" ModifierId="GOV_FAITH_PURCHASE_ANTI_CAVALRY"/>
+		<Row BuildingType="BUILDING_GOV_SCIENCE" ModifierId="EPSMOD_BUILDING_GOV_SCIENCE_DISCOUNT"/>
+		<Row BuildingType="BUILDING_GOV_SCIENCE" ModifierId="EPSMOD_BUILDING_GOV_SCIENCE_BONUS"/>
+	</BuildingModifiers>
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_WIDE_SETTLERS</ModifierId><ModifierType>MODIFIER_CITY_ADJUST_SETTLER_CONSUME_POPULATION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_WIDE_LOYALTY</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType><SubjectRequirementSetId>EPSMOD_IS_WIDE_LOYALTY_CITY</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_CITYSTATES_INFLUENCE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_CITYSTATES_GOLD</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_MODIFIER_PER_TRIBUTARY</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_FAITH_HOLY</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_FAITH_COMMERCIAL</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_FAITH_HARBOR</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_SCIENCE_DISCOUNT</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_PATRONAGE_DISCOUNT_PERCENT</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_SCIENCE_BONUS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_IS_GOV_SCIENCE_CITY</SubjectRequirementSetId></Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_WIDE_SETTLERS</ModifierId><Name>Enabled</Name><Value>false</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_WIDE_LOYALTY</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_CITYSTATES_INFLUENCE</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_CITYSTATES_GOLD</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_CITYSTATES_GOLD</ModifierId><Name>Amount</Name><Value>5</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_FAITH_HOLY</ModifierId><Name>DistrictType</Name><Value>DISTRICT_HOLY_SITE</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_FAITH_COMMERCIAL</ModifierId><Name>DistrictType</Name><Value>DISTRICT_COMMERCIAL_HUB</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_FAITH_HARBOR</ModifierId><Name>DistrictType</Name><Value>DISTRICT_HARBOR</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_SCIENCE_DISCOUNT</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_SCIENCE_DISCOUNT</ModifierId><Name>Amount</Name><Value>30</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_SCIENCE_BONUS</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_BUILDING_GOV_SCIENCE_BONUS</ModifierId><Name>Amount</Name><Value>15</Value></Row>
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_IS_WIDE_LOYALTY_CITY</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_IS_GOV_SCIENCE_CITY</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_IS_WIDE_LOYALTY_CITY</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_WIDE_MONUMENT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_IS_GOV_SCIENCE_CITY</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_GOV_SCIENCE_CAMPUS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_IS_GOV_SCIENCE_CITY</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_GOV_SCIENCE_PLAZA</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_WIDE_MONUMENT</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_GOV_SCIENCE_CAMPUS</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_GOV_SCIENCE_PLAZA</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_WIDE_MONUMENT</RequirementId><Name>BuildingType</Name><Value>BUILDING_MONUMENT</Value></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_GOV_SCIENCE_CAMPUS</RequirementId><Name>DistrictType</Name><Value>DISTRICT_CAMPUS</Value></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_GOV_SCIENCE_PLAZA</RequirementId><Name>DistrictType</Name><Value>DISTRICT_GOVERNMENT</Value></Row>
+	</RequirementArguments>
+</GameData>

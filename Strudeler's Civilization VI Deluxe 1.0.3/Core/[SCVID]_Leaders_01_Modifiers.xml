@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Leaders_01_Modifiers -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 4:06:55 PM -->
+<GameData>
+
+	<!-- CLEOPATRA TRAIT -->
+	<Modifiers>
+		<!-- TOURISM MODIFIER FROM TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_CLEOPATRA_TOURISM_IN_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_TOURISM_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- TOURISM MODIFIER FROM TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_CLEOPATRA_TOURISM_IN_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- TOURISM MODIFIER FROM TRADE ROUTE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_MEDITERRANEAN</TraitType>
+			<ModifierId>TRAIT_STR_CLEOPATRA_TOURISM_IN_TRADE_ROUTE</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- GANDHI TRAIT -->
+	<Modifiers>
+		<!-- FOOD IN DOMESTIC TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_GANDHI_DOMESTIC_TRADE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<!-- FOOD IN INTERNATIONAL TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_GANDHI_INTERNATIONAL_TRADE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<!-- FAITH IN INTERNATIONAL TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_GANDHI_INTERNATIONAL_TRADE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- FOOD IN DOMESTIC TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_GANDHI_DOMESTIC_TRADE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_GANDHI_DOMESTIC_TRADE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- FOOD IN INTERNATIONAL TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_GANDHI_INTERNATIONAL_TRADE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_GANDHI_INTERNATIONAL_TRADE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- FAITH IN INTERNATIONAL TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_GANDHI_INTERNATIONAL_TRADE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_GANDHI_INTERNATIONAL_TRADE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- FOOD IN DOMESTIC TRADE ROUTE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SATYAGRAHA</TraitType>
+			<ModifierId>TRAIT_STR_GANDHI_DOMESTIC_TRADE_FAITH</ModifierId>
+		</Row>
+		<!-- FOOD IN INTERNATIONAL TRADE ROUTE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SATYAGRAHA</TraitType>
+			<ModifierId>TRAIT_STR_GANDHI_INTERNATIONAL_TRADE_FAITH</ModifierId>
+		</Row>
+		<!-- FAITH IN INTERNATIONAL TRADE ROUTE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_SATYAGRAHA</TraitType>
+			<ModifierId>TRAIT_STR_GANDHI_INTERNATIONAL_TRADE_FOOD</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- PETER THE GREAT TRAIT -->
+	<Modifiers>
+		<!-- SCIENCE IN TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_PETER_THE_GREAT_INTERNATIONAL_TRADE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<!-- CULTURE IN TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_PETER_THE_GREAT_INTERNATIONAL_TRADE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- SCIENCE IN TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_PETER_THE_GREAT_INTERNATIONAL_TRADE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_PETER_THE_GREAT_INTERNATIONAL_TRADE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- CULTURE IN TRADE ROUTE -->
+		<Row>
+			<ModifierId>TRAIT_STR_PETER_THE_GREAT_INTERNATIONAL_TRADE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_PETER_THE_GREAT_INTERNATIONAL_TRADE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- SCIENCE IN TRADE ROUTE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_GRAND_EMBASSY</TraitType>
+			<ModifierId>TRAIT_STR_PETER_THE_GREAT_INTERNATIONAL_TRADE_SCIENCE</ModifierId>
+		</Row>
+		<!-- CULTURE IN TRADE ROUTE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_GRAND_EMBASSY</TraitType>
+			<ModifierId>TRAIT_STR_PETER_THE_GREAT_INTERNATIONAL_TRADE_CULTURE</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- PHILIP II TRAIT -->
+	<Modifiers>
+		<!-- PRODUCTION TOWARDS HOLY SITE -->
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_HOME_HOLY_SITE_DISTRICT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<!-- PRODUCTION TOWARDS HOLY SITE BUILDINGS -->
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_HOME_HOLY_SITE_BUILDING_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<!-- PRODUCTION TOWARDS HOLY SITE ON DIFFERENT CONTINENTS -->
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_OVERSEAS_HOLY_SITE_DISTRICT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- PRODUCTION TOWARDS HOLY SITE BUILDINGS ON DIFFERENT CONTINENTS -->
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_OVERSEAS_HOLY_SITE_BUILDING_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- PRODUCTION TOWARDS HOLY SITE -->
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_HOME_HOLY_SITE_DISTRICT_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_HOME_HOLY_SITE_DISTRICT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- PRODUCTION TOWARDS HOLY SITE BUILDINGS -->
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_HOME_HOLY_SITE_BUILDING_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_HOME_HOLY_SITE_BUILDING_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- PRODUCTION TOWARDS HOLY SITE ON DIFFERENT CONTINENTS -->
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_OVERSEAS_HOLY_SITE_DISTRICT_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_OVERSEAS_HOLY_SITE_DISTRICT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- PRODUCTION TOWARDS HOLY SITE BUILDINGS ON DIFFERENT CONTINENTS -->
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_OVERSEAS_HOLY_SITE_BUILDING_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_PHILIP_II_OVERSEAS_HOLY_SITE_BUILDING_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- PRODUCTION TOWARDS HOLY SITE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_EL_ESCORIAL</TraitType>
+			<ModifierId>TRAIT_STR_PHILIP_II_HOME_HOLY_SITE_DISTRICT_PRODUCTION</ModifierId>
+		</Row>
+		<!-- PRODUCTION TOWARDS HOLY SITE BUILDINGS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_EL_ESCORIAL</TraitType>
+			<ModifierId>TRAIT_STR_PHILIP_II_HOME_HOLY_SITE_BUILDING_PRODUCTION</ModifierId>
+		</Row>
+		<!-- PRODUCTION TOWARDS HOLY SITE ON DIFFERENT CONTINENTS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_EL_ESCORIAL</TraitType>
+			<ModifierId>TRAIT_STR_PHILIP_II_OVERSEAS_HOLY_SITE_DISTRICT_PRODUCTION</ModifierId>
+		</Row>
+		<!-- PRODUCTION TOWARDS HOLY SITE BUILDINGS ON DIFFERENT CONTINENTS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_EL_ESCORIAL</TraitType>
+			<ModifierId>TRAIT_STR_PHILIP_II_OVERSEAS_HOLY_SITE_BUILDING_PRODUCTION</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- SALADIN TRAIT -->
+	<Modifiers>
+		<!-- FAITH FROM PRODUCING UNITS -->
+		<Row>
+			<ModifierId>TRAIT_STR_SALADIN_FAITH_PER_UNIT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_GRANT_YIELD_PER_UNIT_COST</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- FAITH FROM PRODUCING UNITS -->
+		<Row>
+			<ModifierId>TRAIT_STR_SALADIN_FAITH_PER_UNIT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_SALADIN_FAITH_PER_UNIT</ModifierId>
+			<Name>UnitProductionPercent</Name>
+			<Value>20</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- FAITH FROM PRODUCING UNITS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RIGHTEOUSNESS_OF_FAITH</TraitType>
+			<ModifierId>TRAIT_STR_SALADIN_FAITH_PER_UNIT</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- TRAJAN TRAIT -->
+		<!-- N/A -->
+
+	<!-- SEONDEOK TRAIT -->
+	<Modifiers>
+		<!-- GOLD MODIFIER PER GOVERNOR TITLE -->
+		<Row>
+			<ModifierId>TRAIT_STR_SEONDEOK_GOVERNOR_STACKING_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
+		</Row>
+		<!-- FAITH MODIFIER PER GOVERNOR TITLE -->
+		<Row>
+			<ModifierId>TRAIT_STR_SEONDEOK_GOVERNOR_STACKING_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_PER_GOVERNOR_TITLE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GOLD MODIFIER PER GOVERNOR TITLE -->
+		<Row>
+			<ModifierId>TRAIT_STR_SEONDEOK_GOVERNOR_STACKING_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_SEONDEOK_GOVERNOR_STACKING_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<!-- FAITH MODIFIER PER GOVERNOR TITLE -->
+		<Row>
+			<ModifierId>TRAIT_STR_SEONDEOK_GOVERNOR_STACKING_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_SEONDEOK_GOVERNOR_STACKING_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- GOLD MODIFIER PER GOVERNOR TITLE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HWARANG</TraitType>
+			<ModifierId>TRAIT_STR_SEONDEOK_GOVERNOR_STACKING_GOLD</ModifierId>
+		</Row>
+		<!-- FAITH MODIFIER PER GOVERNOR TITLE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_HWARANG</TraitType>
+			<ModifierId>TRAIT_STR_SEONDEOK_GOVERNOR_STACKING_FAITH</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- TAMAR TRAIT -->
+	<Modifiers>
+		<!-- SCIENCE FROM SUZERAINTY -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_TRIBUTARY</ModifierType>
+		</Row>
+		<!-- CULTURE FROM SUZERAINTY -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_TRIBUTARY</ModifierType>
+		</Row>
+		<!-- GOLD FROM SUZERAINTY -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_CHANGE_PER_TRIBUTARY</ModifierType>
+		</Row>
+		<!-- SCIENCE IN ANCIENT WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- CULTURE IN ANCIENT WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- FAITH IN ANCIENT WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- SCIENCE IN MEDIEVAL WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- CULTURE IN MEDIEVAL WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- FAITH IN MEDIEVAL WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- SCIENCE IN TSIKHE -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- CULTURE IN TSIKHE -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- FAITH IN TSIKHE -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- FAITH FROM KILLS IN ADJACENT HOME TERRITORY-->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_FAITH_FROM_KILLS_IN_HOME_TERRITORY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_EIGHT_INCLUDE_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- SCIENCE FROM SUZERAINTY -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!-- CULTURE FROM SUZERAINTY -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!-- FAITH  FROM SUZERAINTY -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!-- SCIENCE IN ANCIENT WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- CULTURE IN ANCIENT WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- FAITH IN ANCIENT WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_FAITH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- SCIENCE IN MEDIEVAL WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CASTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- CULTURE IN MEDIEVAL WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CASTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- FAITH IN MEDIEVAL WALLS -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_FAITH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CASTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- SCIENCE IN TSIKHE -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_SCIENCE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TSIKHE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- CULTURE IN TSIKHE -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TSIKHE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- FAITH IN TSIKHE -->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_FAITH</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_TSIKHE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- FAITH FROM KILLS IN ADJACENT HOME TERRITORY-->
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_FAITH_FROM_KILLS_IN_HOME_TERRITORY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_TAMAR_FAITH_FROM_KILLS_IN_HOME_TERRITORY</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- SCIENCE IN SUZERAINTY -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_SCIENCE</ModifierId>
+		</Row>
+		<!-- CULTURE IN SUZERAINTY -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_CULTURE</ModifierId>
+		</Row>
+		<!-- FAITH IN SUZERAINTY -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_SUZERAIN_FAITH</ModifierId>
+		</Row>
+		<!-- SCIENCE IN ANCIENT WALLS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_SCIENCE</ModifierId>
+		</Row>
+		<!-- CULTURE IN ANCIENT WALLS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_CULTURE</ModifierId>
+		</Row>
+		<!-- FAITH IN ANCIENT WALLS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_ANCIENT_WALLS_FAITH</ModifierId>
+		</Row>
+		<!-- SCIENCE IN MIDIEVAL WALLS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_SCIENCE</ModifierId>
+		</Row>
+		<!-- CULTURE IN MEDIEVAL WALLS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_CULTURE</ModifierId>
+		</Row>
+		<!-- FAITH IN MEDIEVAL WALLS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_MEDIEVAL_WALLS_FAITH</ModifierId>
+		</Row>
+		<!-- SCIENCE IN TSIKHE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_SCIENCE</ModifierId>
+		</Row>
+		<!-- CULTURE IN TSIKHE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_CULTURE</ModifierId>
+		</Row>
+		<!-- FAITH IN TSIKHE -->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_TSIKHE_WALLS_FAITH</ModifierId>
+		</Row>
+		<!-- FAITH FROM KILLS IN ADJACENT HOME TERRITORY-->
+		<Row>
+			<TraitType>TRAIT_LEADER_RELIGION_CITY_STATES</TraitType>
+			<ModifierId>TRAIT_STR_TAMAR_FAITH_FROM_KILLS_IN_HOME_TERRITORY</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- WILHELMINA TRAIT -->
+		<!-- N/A -->
+
+	<!-- ELEANOR OF AQUITAINE TRAIT -->
+	<Modifiers>
+		<!-- AUTOMATIC THEMING ANGEVIN PORT -->
+		<Row>
+			<ModifierId>TRAIT_STR_ELEANOR_AUTOMATIC_THEMINING_IN_ANGEVIN_PORT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_AUTO_THEMED_BUILDING</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- AUTOMATIC THEMING ANGEVIN PORT -->
+		<Row>
+			<ModifierId>TRAIT_STR_ELEANOR_AUTOMATIC_THEMINING_IN_ANGEVIN_PORT</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STR_ELEANOR_ANGEVIN_PORT</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- AUTOMATIC THEMING ANGEVIN PORT -->
+		<Row>
+			<TraitType>TRAIT_LEADER_ELEANOR_LOYALTY</TraitType>
+			<ModifierId>TRAIT_STR_ELEANOR_AUTOMATIC_THEMINING_IN_ANGEVIN_PORT</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- LADY SIX SKY TRAIT -->
+	<Modifiers>
+		<!-- SCIENCE BONUS WITHIN 6 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA</ModifierType>
+			<SubjectRequirementSetId>OBJECT_IS_6_TILES_FROM_CAPITAL_NOT_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- SCIENCE PENALTY WITHIN 10 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA</ModifierType>
+			<SubjectRequirementSetId>OBJECT_IS_10_OR_MORE_TILES_FROM_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- CULTURE BONUS WITHIN 6 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA</ModifierType>
+			<SubjectRequirementSetId>OBJECT_IS_6_TILES_FROM_CAPITAL_NOT_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- CULTURE PENALTY WITHIN 10 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA</ModifierType>
+			<SubjectRequirementSetId>OBJECT_IS_10_OR_MORE_TILES_FROM_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- FAITH BONUS WITHIN 6 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA</ModifierType>
+			<SubjectRequirementSetId>OBJECT_IS_6_TILES_FROM_CAPITAL_NOT_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- FAITH PENALTY WITHIN 10 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA</ModifierType>
+			<SubjectRequirementSetId>OBJECT_IS_10_OR_MORE_TILES_FROM_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- SCIENCE BONUS WITHIN 6 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<!-- SCIENCE PENALTY WITHIN 10 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<!-- CULTURE BONUS WITHIN 6 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<!-- CULTURE PENALTY WITHIN 10 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<!-- FAITH BONUS WITHIN 6 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<!-- FAITH PENALTY WITHIN 10 TILES OF CAPITAL -->
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- SCIENCE BONUS WITHIN 6 TILES OF CAPITAL -->
+		<Row>
+			<TraitType>TRAIT_LEADER_MUTAL</TraitType>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_SCIENCE</ModifierId>
+		</Row>
+		<!-- SCIENCE PENALTY WITHIN 10 TILES OF CAPITAL -->
+		<Row>
+			<TraitType>TRAIT_LEADER_MUTAL</TraitType>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_SCIENCE</ModifierId>
+		</Row>
+		<!-- CULTURE BONUS WITHIN 6 TILES OF CAPITAL -->
+		<Row>
+			<TraitType>TRAIT_LEADER_MUTAL</TraitType>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_CULTURE</ModifierId>
+		</Row>
+		<!-- CULTURE PENALTY WITHIN 10 TILES OF CAPITAL -->
+		<Row>
+			<TraitType>TRAIT_LEADER_MUTAL</TraitType>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_CULTURE</ModifierId>
+		</Row>
+		<!-- FAITH BONUS WITHIN 6 TILES OF CAPITAL -->
+		<Row>
+			<TraitType>TRAIT_LEADER_MUTAL</TraitType>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_6_TILE_FAITH</ModifierId>
+		</Row>
+		<!-- FAITH PENALTY WITHIN 10 TILES OF CAPITAL -->
+		<Row>
+			<TraitType>TRAIT_LEADER_MUTAL</TraitType>
+			<ModifierId>TRAIT_STR_LADY_SIX_SKY_10_TILE_FAITH</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- BASIL II TRAIT -->
+	<Modifiers>
+		<!-- GOLD ON FARMS -->
+		<Row>
+			<ModifierId>TRAIT_STR_BASIL_II_GOLD_ON_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD_GRANCOLOMBIA_MAYA</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FARMS_GRANCOLOMBIA_MAYA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GOLD ON FARMS -->
+		<Row>
+			<ModifierId>TRAIT_STR_BASIL_II_GOLD_ON_FARMS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_STR_BASIL_II_GOLD_ON_FARMS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- GOLD ON FARMS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_BASIL</TraitType>
+			<ModifierId>TRAIT_STR_BASIL_II_GOLD_ON_FARMS</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- KUBLAI KHAN TRAIT -->
+	<Modifiers>
+		<!-- EUREKA BONUS -->
+		<Row>
+			<ModifierId>TRAIT_STR_KUBLAI_KHAN_BONUS_EUREKA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST</ModifierType>
+		</Row>
+		<!-- INSPIRATION BONUS -->
+		<Row>
+			<ModifierId>TRAIT_STR_KUBLAI_KHAN_BONUS_INSPIRATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_CIVIC_BOOST</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- EUREKA BONUS -->
+		<Row>
+			<ModifierId>TRAIT_STR_KUBLAI_KHAN_BONUS_EUREKA</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!-- INSPIRATION BONUS -->
+		<Row>
+			<ModifierId>TRAIT_STR_KUBLAI_KHAN_BONUS_INSPIRATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- EUREKA BONUS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_KUBLAI</TraitType>
+			<ModifierId>TRAIT_STR_KUBLAI_KHAN_BONUS_EUREKA</ModifierId>
+		</Row>
+		<!-- INSPIRATION BONUS -->
+		<Row>
+			<TraitType>TRAIT_LEADER_KUBLAI</TraitType>
+			<ModifierId>TRAIT_STR_KUBLAI_KHAN_BONUS_INSPIRATION</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+</GameData>

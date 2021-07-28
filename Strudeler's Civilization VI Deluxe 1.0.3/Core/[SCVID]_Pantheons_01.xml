@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Pantheons_01 -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 11:52:44 AM -->
+<GameData>
+	
+<!-- DELETE BELIEFS -->
+	<Beliefs>
+		<Delete BeliefType="BELIEF_DANCE_OF_THE_AURORA"/>
+		<Delete BeliefType="BELIEF_DESERT_FOLKLORE"/>
+		<Delete BeliefType="BELIEF_SACRED_PATH"/>
+		<Delete BeliefType="BELIEF_RIVER_GODDESS"/>
+		<Delete BeliefType="BELIEF_MONUMENT_TO_THE_GODS"/>
+		<Delete BeliefType="BELIEF_DIVINE_SPARK"/>
+		<Delete BeliefType="BELIEF_LADY_OF_THE_REEDS_AND_MARSHES"/>
+		<Delete BeliefType="BELIEF_GOD_OF_THE_SEA"/>
+		<Delete BeliefType="BELIEF_GOD_OF_THE_OPEN_SKY"/>
+		<Delete BeliefType="BELIEF_GODDESS_OF_THE_HUNT"/>
+		<Delete BeliefType="BELIEF_STONE_CIRCLES"/>
+		<Delete BeliefType="BELIEF_RELIGIOUS_IDOLS"/>
+		<Delete BeliefType="BELIEF_GOD_OF_CRAFTSMEN"/>
+		<Delete BeliefType="BELIEF_GODDESS_OF_FESTIVALS"/>
+		<Delete BeliefType="BELIEF_ORAL_TRADITION"/>
+		<Delete BeliefType="BELIEF_GOD_OF_THE_FORGE"/>
+		<Delete BeliefType="BELIEF_INITIATION_RITES"/>
+		<Delete BeliefType="BELIEF_GOD_OF_HEALING"/>
+		<Delete BeliefType="BELIEF_GOD_OF_WAR"/>
+		<Delete BeliefType="BELIEF_FERTILITY_RITES"/>
+		<Delete BeliefType="BELIEF_RELIGIOUS_SETTLEMENTS"/>
+		<Delete BeliefType="BELIEF_GODDESS_OF_THE_HARVEST"/>
+		<Delete BeliefType="BELIEF_CITY_PATRON_GODDESS"/>
+		<Delete BeliefType="BELIEF_EARTH_GODDESS"/>
+		<Delete BeliefType="BELIEF_GODDESS_OF_FIRE"/>
+	</Beliefs>
+
+	<Types>
+<!-- ORGANIZED RELIGIONS - ABRAHAMIC FAMILY -->
+	<!-- THE CHOSEN PEOPLE -->
+		<Row Type="BELIEF_STR_THE_CHOSEN_PEOPLE"			Kind="KIND_BELIEF"/>
+	<!-- THE COMING MESSIAH -->
+		<Row Type="BELIEF_STR_THE_COMING_MESSIAH"			Kind="KIND_BELIEF"/>
+	<!-- THE SEAL OF THE PROPHETS -->
+		<Row Type="BELIEF_STR_THE_SEAL_OF_THE_PROPHETS"		Kind="KIND_BELIEF"/>
+	<!-- CULT OF SAINT GEORGE -->
+	<!--<Row Type="BELIEF_STR_CULT_OF_SAINT_GEORGE"			Kind="KIND_BELIEF"/>-->
+<!-- ORGANIZED RELIGIONS - BUDDHIC FAMILY -->
+	<!-- TEACHER BENEATH THE BODHI -->
+		<Row Type="BELIEF_STR_TEACHER_BENEATH_THE_BODHI"	Kind="KIND_BELIEF"/>
+<!-- ORGANIZED RELIGIONS - MAZDAN FAMILY -->
+	<!-- ZURVAN -->
+	<!--<Row Type="BELIEF_STR_ZURVAN"						Kind="KIND_BELIEF"/>-->
+	<!-- AHURA MAZDA -->
+		<Row Type="BELIEF_STR_AHURA_MAZDA"					Kind="KIND_BELIEF"/>
+	<!-- ANGRA MAINYU -->
+	<!--<Row Type="BELIEF_STR_ANGRA_MAINYU"					Kind="KIND_BELIEF"/>-->
+<!-- AMERICAN PANTHEON - AMERINDIAN FAMILY -->
+	<!-- GITCHE MANITOU -->
+		<Row Type="BELIEF_STR_GITCHE_MANITOU"				Kind="KIND_BELIEF"/>
+	<!-- THE THUNDER BIRD -->
+		<Row Type="BELIEF_STR_THE_THUNDER_BIRD"				Kind="KIND_BELIEF"/>
+	<!-- WAKAN TANKA -->
+		<Row Type="BELIEF_STR_WAKAN_TANKA"					Kind="KIND_BELIEF"/>
+	<!-- SEDNA -->
+		<Row Type="BELIEF_STR_SEDNA"						Kind="KIND_BELIEF"/>
+<!-- AMERICAN PANTHEON - NAHUA FAMILY -->
+	<!-- QUETZALCOATL -->
+		<Row Type="BELIEF_STR_QUETZALCOATL"					Kind="KIND_BELIEF"/>
+	<!-- HUITZILOPOCHTLI -->
+		<Row Type="BELIEF_STR_HUITZILOPOCHTLI"				Kind="KIND_BELIEF"/>
+	<!-- TLALOC -->
+		<Row Type="BELIEF_STR_TLALOC"						Kind="KIND_BELIEF"/>
+	<!-- ICHPOCHTLI -->
+	<!--<Row Type="BELIEF_STR_ICHPOCHTLI"					Kind="KIND_BELIEF"/>-->
+	<!-- CENTEOTL -->
+	<!--<Row Type="BELIEF_STR_CENTEOTL"						Kind="KIND_BELIEF"/>-->
+	<!-- YACATECUHTLI -->
+	<!--<Row Type="BELIEF_STR_YACATECUHTLI"					Kind="KIND_BELIEF"/>-->
+	<!-- AMERICAN PANTHEON - MAYAN FAMILY -->
+	<!-- KUKULKAN -->
+		<Row Type="BELIEF_STR_KUKULKAN"						Kind="KIND_BELIEF"/>
+	<!-- AH-MUZEN-CAB -->
+	<!--<Row Type="BELIEF_STR_AH_MUZEN_CAB"					Kind="KIND_BELIEF"/>-->
+	<!-- BULUC CHABTAN -->
+		<Row Type="BELIEF_STR_BULUC_CHABTAN"				Kind="KIND_BELIEF"/>
+	<!-- CHAAC -->
+		<Row Type="BELIEF_STR_CHAAC"						Kind="KIND_BELIEF"/>
+	<!-- IXCHEL -->
+		<Row Type="BELIEF_STR_IXCHEL"						Kind="KIND_BELIEF"/>
+<!-- SOUTH AMERICAN PANTHEONS - ANDEAN FAMILY -->
+	<!-- INTI -->
+		<Row Type="BELIEF_STR_INTI"							Kind="KIND_BELIEF"/>
+<!-- SOUTH AMERICAN PANTHEONS - AMAZONIAN FAMILY -->
+	<!-- PACHAMAMA -->
+		<Row Type="BELIEF_STR_PACHAMAMA"					Kind="KIND_BELIEF"/>
+<!-- EUROPEAN PANTHEONS - GREEK FAMILY -->
+	<!-- ZEUS -->
+		<Row Type="BELIEF_STR_ZEUS"							Kind="KIND_BELIEF"/>
+	<!-- ARES -->
+		<Row Type="BELIEF_STR_ARES"							Kind="KIND_BELIEF"/>
+	<!-- ATHENA -->
+		<Row Type="BELIEF_STR_ATHENA"						Kind="KIND_BELIEF"/>
+	<!-- APOLLO -->
+		<Row Type="BELIEF_STR_APOLLO"						Kind="KIND_BELIEF"/>
+	<!-- HERA -->
+		<Row Type="BELIEF_STR_HERA"							Kind="KIND_BELIEF"/>
+	<!-- DEMETER -->
+		<Row Type="BELIEF_STR_DEMETER"						Kind="KIND_BELIEF"/>
+	<!-- HESTIA -->
+	<!--<Row Type="BELIEF_STR_HESTIA"						Kind="KIND_BELIEF"/>-->
+	<!-- ARTEMIS -->
+		<Row Type="BELIEF_STR_ARTEMIS"						Kind="KIND_BELIEF"/>
+	<!-- APHRODITE -->
+		<Row Type="BELIEF_STR_APHRODITE"					Kind="KIND_BELIEF"/>
+	<!-- HEPHAESTUS -->
+		<Row Type="BELIEF_STR_HEPHAESTUS"					Kind="KIND_BELIEF"/>
+	<!-- POSEIDON -->
+		<Row Type="BELIEF_STR_POSEIDON"						Kind="KIND_BELIEF"/>
+	<!-- DIONYSUS -->
+		<Row Type="BELIEF_STR_DIONYSUS"						Kind="KIND_BELIEF"/>
+<!-- EUROPEAN PANTHEONS - ROMAN FAMILY -->
+	<!-- JUPITER -->
+		<Row Type="BELIEF_STR_JUPITER"						Kind="KIND_BELIEF"/>
+	<!-- MARS -->
+		<Row Type="BELIEF_STR_MARS"							Kind="KIND_BELIEF"/>
+	<!-- MINERVA -->
+		<Row Type="BELIEF_STR_MINERVA"						Kind="KIND_BELIEF"/>
+	<!-- VULCAN -->
+		<Row Type="BELIEF_STR_VULCAN"						Kind="KIND_BELIEF"/>
+	<!-- VESTA -->
+		<Row Type="BELIEF_STR_VESTA"						Kind="KIND_BELIEF"/>
+	<!-- NEPTUNE -->
+		<Row Type="BELIEF_STR_NEPTUNE"						Kind="KIND_BELIEF"/>
+	<!-- BACCHUS -->
+		<Row Type="BELIEF_STR_BACCHUS"						Kind="KIND_BELIEF"/>
+	<!-- CULT OF CAESAR -->
+		<Row Type="BELIEF_STR_CULT_OF_CAESAR"				Kind="KIND_BELIEF"/>
+<!-- EUROPEAN PANTHEONS - CELTIC FAMILY -->
+	<!-- DAGDA -->
+		<Row Type="BELIEF_STR_DAGDA"						Kind="KIND_BELIEF"/>
+	<!-- MORRIGAN -->
+		<Row Type="BELIEF_STR_MORRIGAN"						Kind="KIND_BELIEF"/>
+	<!-- LUGH -->
+		<Row Type="BELIEF_STR_LUGH"							Kind="KIND_BELIEF"/>
+	<!-- BRIGID -->
+		<!--<Row Type="BELIEF_STR_BRIGID"						Kind="KIND_BELIEF"/>-->
+	<!-- AENGUS -->
+		<!--<Row Type="BELIEF_STR_AENGUS"						Kind="KIND_BELIEF"/>-->
+	<!-- ACIONNA -->
+		<!--<Row Type="BELIEF_STR_ACIONNA"						Kind="KIND_BELIEF"/>-->
+	<!-- ANDRASTE -->
+		<!--<Row Type="BELIEF_STR_ANDRASTE"						Kind="KIND_BELIEF"/>-->
+	<!-- ARNAMENTIA -->
+		<!--<Row Type="BELIEF_STR_ARNAMENTIA"					Kind="KIND_BELIEF"/>-->
+	<!-- EPONA -->
+		<!--<Row Type="BELIEF_STR_EPONA"						Kind="KIND_BELIEF"/>-->
+	<!-- CERNUNNOS -->
+		<!--<Row Type="BELIEF_STR_CERNUNNOS"					Kind="KIND_BELIEF"/>-->
+<!-- EUROPEAN PANTHEONS - NORDIC FAMILY -->
+	<!-- ODIN -->
+		<Row Type="BELIEF_STR_ODIN"							Kind="KIND_BELIEF"/>
+	<!-- THOR -->
+		<Row Type="BELIEF_STR_THOR"							Kind="KIND_BELIEF"/>
+	<!-- BRAGR -->
+	<!--<Row Type="BELIEF_STR_BRAGR"						Kind="KIND_BELIEF"/>-->
+	<!-- FORSETI -->
+	<!--<Row Type="BELIEF_STR_FORSETI"						Kind="KIND_BELIEF"/>-->
+	<!-- HEIMDALL -->
+	<!--<Row Type="BELIEF_STR_HEIMDALL"						Kind="KIND_BELIEF"/>-->
+	<!-- TYR -->
+	<!--<Row Type="BELIEF_STR_TYR"							Kind="KIND_BELIEF"/>-->
+	<!-- FREYJA -->
+	<!--<Row Type="BELIEF_STR_FREYJA"						Kind="KIND_BELIEF"/>-->
+	<!-- LOKI -->
+	<!--<Row Type="BELIEF_STR_LOKI"							Kind="KIND_BELIEF"/>-->
+<!-- EUROPEAN PANTHEONS - GERMANIC FAMILY -->
+	<!-- WODANAZ -->
+		<Row Type="BELIEF_STR_WODANAZ"						Kind="KIND_BELIEF"/>
+	<!-- DONAR -->
+		<Row Type="BELIEF_STR_DONAR"						Kind="KIND_BELIEF"/>
+	<!-- SAXNOT -->
+		<Row Type="BELIEF_STR_SAXNOT"						Kind="KIND_BELIEF"/>
+	<!-- TEIWAZ -->
+	<!--<Row Type="BELIEF_STR_TEIWAZ"						Kind="KIND_BELIEF"/>-->
+	<!-- EOSTRE -->
+	<!--<Row Type="BELIEF_STR_EOSTRE"						Kind="KIND_BELIEF"/>-->
+<!-- EUROPEAN PANTHEONS - BALTIC FAMILY -->
+	<!-- PERKUNAS -->
+	<!--<Row Type="BELIEF_STR_PERKUNAS"						Kind="KIND_BELIEF"/>-->
+	<!-- SAULE -->
+	<!--<Row Type="BELIEF_STR_SAULE"						Kind="KIND_BELIEF"/>-->
+	<!-- LAIMA -->
+	<!--<Row Type="BELIEF_STR_LAIMA"						Kind="KIND_BELIEF"/>-->
+	<!-- BANGPUTYS -->
+	<!--<Row Type="BELIEF_STR_BANGPUTYS"					Kind="KIND_BELIEF"/>-->
+<!-- EUROPEAN PANTHEONS - SLAVIC FAMILY -->
+	<!-- ROD -->
+		<Row Type="BELIEF_STR_ROD"							Kind="KIND_BELIEF"/>
+	<!-- BELOBOG -->
+	<!--<Row Type="BELIEF_STR_BELOBOG"						Kind="KIND_BELIEF"/>-->
+	<!-- CHERNOBOG -->
+	<!--<Row Type="BELIEF_STR_CHERNOBOG"					Kind="KIND_BELIEF"/>-->
+	<!-- TRIGLAV -->
+	<!--<Row Type="BELIEF_STR_TRIGLAV"						Kind="KIND_BELIEF"/>-->
+		<!-- PERUN -->
+		<Row Type="BELIEF_STR_PERUN"						Kind="KIND_BELIEF"/>
+	<!-- SVAROG -->
+	<!--<Row Type="BELIEF_STR_SVAROG"						Kind="KIND_BELIEF"/>-->
+	<!-- DAZBOG -->
+		<Row Type="BELIEF_STR_DAZBOG"						Kind="KIND_BELIEF"/>
+	<!-- VELES -->
+		<Row Type="BELIEF_STR_VELES"						Kind="KIND_BELIEF"/>
+<!-- EUROPEAN PANTHEONS - FINNISH FAMILY -->
+	<!-- UKKO -->
+		<Row Type="BELIEF_STR_UKKO"							Kind="KIND_BELIEF"/>
+	<!-- AHTI -->
+	<!--<Row Type="BELIEF_STR_AHTI"							Kind="KIND_BELIEF"/>-->
+	<!-- ILMARIEN -->
+	<!--<Row Type="BELIEF_STR_ILMARIEN"						Kind="KIND_BELIEF"/>-->
+	<!-- NYYRIKKI -->
+	<!--<Row Type="BELIEF_STR_NYYRIKKI"						Kind="KIND_BELIEF"/>-->
+	<!-- TAPIO -->
+	<!--<Row Type="BELIEF_STR_TAPIO"						Kind="KIND_BELIEF"/>-->
+<!-- AFRICAN PANTHEONS - EGYPTIAN FAMILY -->
+	<!-- NUN -->
+		<Row Type="BELIEF_STR_NUN"							Kind="KIND_BELIEF"/>
+	<!-- ATEN-->
+		<Row Type="BELIEF_STR_ATEN"							Kind="KIND_BELIEF"/>
+	<!-- RA -->
+		<Row Type="BELIEF_STR_RA"							Kind="KIND_BELIEF"/>
+	<!-- AMUN -->
+		<Row Type="BELIEF_STR_AMUN"							Kind="KIND_BELIEF"/>
+	<!-- HAPI -->
+		<Row Type="BELIEF_STR_HAPI"							Kind="KIND_BELIEF"/>
+	<!-- HORUS -->
+		<Row Type="BELIEF_STR_HORUS"						Kind="KIND_BELIEF"/>
+	<!-- OSIRIS -->
+		<Row Type="BELIEF_STR_OSIRIS"						Kind="KIND_BELIEF"/>
+	<!-- SOBEK -->
+		<Row Type="BELIEF_STR_SOBEK"						Kind="KIND_BELIEF"/>
+	<!-- THOTH -->
+		<Row Type="BELIEF_STR_THOTH"						Kind="KIND_BELIEF"/>
+	<!-- PTAH -->
+		<Row Type="BELIEF_STR_PTAH"							Kind="KIND_BELIEF"/>
+	<!-- ANUBIS -->
+		<Row Type="BELIEF_STR_ANUBIS"						Kind="KIND_BELIEF"/>
+	<!-- BASTET -->
+		<Row Type="BELIEF_STR_BASTET"						Kind="KIND_BELIEF"/>
+	<!-- ISIS -->
+		<Row Type="BELIEF_STR_ISIS"							Kind="KIND_BELIEF"/>
+	<!-- HATHOR -->
+		<Row Type="BELIEF_STR_HATHOR"						Kind="KIND_BELIEF"/>
+	<!-- MAAT-->
+		<Row Type="BELIEF_STR_MAAT"							Kind="KIND_BELIEF"/>
+<!-- AFRICAN PANTHEONS - CUSHITIC FAMILY -->
+	<!-- WAAQ -->
+		<Row Type="BELIEF_STR_WAAQ"							Kind="KIND_BELIEF"/>
+	<!-- HUUR -->
+		<Row Type="BELIEF_STR_HUUR"							Kind="KIND_BELIEF"/>
+	<!-- MAHER -->
+		<Row Type="BELIEF_STR_MAHER"						Kind="KIND_BELIEF"/>
+<!-- AFRICAN PANTHEONS - NIGER-SAHELIAN FAMILY -->
+	<!-- AMMON -->
+		<Row Type="BELIEF_STR_AMMON"						Kind="KIND_BELIEF"/>
+	<!-- ANANSI -->
+		<Row Type="BELIEF_STR_ANANSI"						Kind="KIND_BELIEF"/>
+	<!-- ASPECTS OF THE ORISHAS -->
+		<Row Type="BELIEF_STR_ASPECTS_OF_ORISHAS"			Kind="KIND_BELIEF"/>
+	<!-- ASPECTS OF THE LOA -->
+		<Row Type="BELIEF_STR_ASPECTS_OF_LOA"				Kind="KIND_BELIEF"/>
+<!-- ZULU FAMILY -->
+	<!-- UNKULUNKULU -->
+		<Row Type="BELIEF_STR_UNKULUNKULU"					Kind="KIND_BELIEF"/>
+<!-- WEST ASIAN PANTHEONS - SEMITIC FAMILY -->
+	<!-- EL -->
+		<Row Type="BELIEF_STR_EL"							Kind="KIND_BELIEF"/>
+	<!-- ASHERAH -->
+		<Row Type="BELIEF_STR_ASHERAH"						Kind="KIND_BELIEF"/>
+	<!-- BAALSHAMIN -->
+		<Row Type="BELIEF_STR_BAALSHAMIN"					Kind="KIND_BELIEF"/>-
+	<!-- BAALHAMMON -->
+		<Row Type="BELIEF_STR_BAALHAMMON"					Kind="KIND_BELIEF"/>
+	<!-- BEL -->
+		<Row Type="BELIEF_STR_BEL"							Kind="KIND_BELIEF"/>
+	<!-- CHEMOSH -->
+	<!--<Row Type="BELIEF_STR_CHEMOSH"						Kind="KIND_BELIEF"/>-->
+	<!-- DAGON -->
+	<!--<Row Type="BELIEF_STR_DAGON"						Kind="KIND_BELIEF"/>-->
+	<!-- NERGAL -->
+		<Row Type="BELIEF_STR_NERGAL"						Kind="KIND_BELIEF"/>
+	<!-- MOLOCH -->
+		<Row Type="BELIEF_STR_MOLOCH"						Kind="KIND_BELIEF"/>
+	<!-- MELQART -->
+	<!--<Row Type="BELIEF_STR_MELQART"						Kind="KIND_BELIEF"/>-->
+	<!-- ISHTAR -->
+		<Row Type="BELIEF_STR_ISHTAR"						Kind="KIND_BELIEF"/>
+	<!-- CULT OF GILGAMESH -->
+		<Row Type="BELIEF_STR_CULT_OF_GILGAMESH"			Kind="KIND_BELIEF"/>
+<!-- WEST ASIAN PANTHEONS - CAUCASSIAN FAMILY -->
+	<!-- AR -->
+		<Row Type="BELIEF_STR_AR"							Kind="KIND_BELIEF"/>
+	<!-- GHMERTI -->
+		<Row Type="BELIEF_STR_GHMERTI"						Kind="KIND_BELIEF"/>
+<!-- WEST ASIAN PANTHEONS - ARABIC FAMILY -->
+	<!-- AL-LAH -->
+		<Row Type="BELIEF_STR_AL_LAH"						Kind="KIND_BELIEF"/>
+	<!-- AL-LAT -->
+	<!--<Row Type="BELIEF_STR_AL_LAT"						Kind="KIND_BELIEF"/>-->
+	<!-- AL-'UZZA -->
+	<!--<Row Type="BELIEF_STR_AL_UZZA"						Kind="KIND_BELIEF"/>-->
+	<!-- MANAT -->
+	<!--<Row Type="BELIEF_STR_MANAT"						Kind="KIND_BELIEF"/>-->
+<!-- EAST ASIAN PANTHEONS - STEPPE FAMILY -->
+	<!-- TENGRI -->
+		<Row Type="BELIEF_STR_TENGRI"						Kind="KIND_BELIEF"/>
+	<!-- TABITI -->
+		<Row Type="BELIEF_STR_TABITI"						Kind="KIND_BELIEF"/>
+	<!-- ISTEN -->
+		<Row Type="BELIEF_STR_ISTEN"						Kind="KIND_BELIEF"/>
+	<!-- CULT OF GENGHIS KHAN -->
+		<Row Type="BELIEF_STR_CULT_OF_GENGHIS_KHAN"			Kind="KIND_BELIEF"/>
+<!-- EAST ASIAN PANTHEONS - HINDU FAMILY -->
+	<!-- BRAHMAN -->
+		<Row Type="BELIEF_STR_BRAHMAN"						Kind="KIND_BELIEF"/>
+	<!-- SHIVA -->
+		<Row Type="BELIEF_STR_SHIVA"						Kind="KIND_BELIEF"/>
+	<!-- VISHNU -->
+		<Row Type="BELIEF_STR_VISHNU"						Kind="KIND_BELIEF"/>
+	<!-- BRAHMA -->
+		<Row Type="BELIEF_STR_BRAHMA"						Kind="KIND_BELIEF"/>
+	<!-- PARVATI -->
+		<Row Type="BELIEF_STR_PARVATI"						Kind="KIND_BELIEF"/>
+	<!-- KALI -->
+		<Row Type="BELIEF_STR_KALI"							Kind="KIND_BELIEF"/>
+	<!-- LAKSHMI -->
+		<Row Type="BELIEF_STR_LAKSHMI"						Kind="KIND_BELIEF"/>
+	<!-- SARASWATI -->
+		<Row Type="BELIEF_STR_SARASWATI"					Kind="KIND_BELIEF"/>
+	<!-- GANESHA -->
+		<Row Type="BELIEF_STR_GANESHA"						Kind="KIND_BELIEF"/>
+	<!-- AGNI -->
+		<Row Type="BELIEF_STR_AGNI"							Kind="KIND_BELIEF"/>
+	<!-- CULT OF MAHATMA GANDHI-->
+		<Row Type="BELIEF_STR_CULT_OF_MAHATMA_GANDHI"		Kind="KIND_BELIEF"/>
+	<!-- CULT OF DYAH GITARJA -->
+		<Row Type="BELIEF_STR_CULT_OF_DYAH_GITARJA"			Kind="KIND_BELIEF"/>
+<!-- EAST ASIAN PANTHEONS - TIBETAN -->
+	<!-- GYALPO PEHAR -->
+		<Row Type="BELIEF_STR_GYALPO_PEHAR"					Kind="KIND_BELIEF"/>
+<!-- EAST ASIAN PANTHEONS - CHINESE FAMILY -->
+	<!-- SHANGDI -->
+		<Row Type="BELIEF_STR_SHANGDI"						Kind="KIND_BELIEF"/>
+	<!-- YINYANGGONG -->
+		<Row Type="BELIEF_STR_YINYANGGONG"					Kind="KIND_BELIEF"/>
+	<!-- WENCHANGDI -->
+		<Row Type="BELIEF_STR_WENCHANGDI"					Kind="KIND_BELIEF"/>
+	<!-- KUIXING -->
+		<Row Type="BELIEF_STR_KUIXING"						Kind="KIND_BELIEF"/>
+	<!-- CAISHEN -->
+		<Row Type="BELIEF_STR_CAISHEN"						Kind="KIND_BELIEF"/>
+	<!-- CHENGHUANGSHEN -->
+		<Row Type="BELIEF_STR_CHENGHUANGSHEN"				Kind="KIND_BELIEF"/>
+	<!-- LUBAN -->
+	<!--<Row Type="BELIEF_STR_LUBAN"						Kind="KIND_BELIEF"/>-->
+	<!-- ERLANG SHEN -->
+		<Row Type="BELIEF_STR_ERLANG_SHEN"					Kind="KIND_BELIEF"/>
+	<!-- GUANDI -->
+	<!--<Row Type="BELIEF_STR_GUANDI"						Kind="KIND_BELIEF"/>-->
+	<!-- SUN WUKONG -->
+	<!--<Row Type="BELIEF_STR_SUN_WUKONG"					Kind="KIND_BELIEF"/>-->
+<!-- EAST ASIAN PANTHEONS - KOREAN -->
+	<!-- CHEONJIWANG -->
+		<Row Type="BELIEF_STR_CHEONJIWANG"					Kind="KIND_BELIEF"/>
+<!-- EAST ASIAN PANTHEONS - JAPANESE FAMILY -->
+	<!-- AMATERASU -->
+		<Row Type="BELIEF_STR_AMATERASU"					Kind="KIND_BELIEF"/>
+	<!-- AME-NO-UZUME -->
+		<Row Type="BELIEF_STR_AME_NO_UZUME"					Kind="KIND_BELIEF"/>
+	<!-- FUJIN -->
+		<Row Type="BELIEF_STR_FUJIN"						Kind="KIND_BELIEF"/>
+	<!-- HACHIMAN -->
+		<Row Type="BELIEF_STR_HACHIMAN"						Kind="KIND_BELIEF"/>
+	<!-- OKUNINUSHI -->
+		<Row Type="BELIEF_STR_OKININUSHI"					Kind="KIND_BELIEF"/>
+	<!-- OMOIKANE -->
+		<Row Type="BELIEF_STR_OMOIKANE"						Kind="KIND_BELIEF"/>
+	<!-- RAIJIN -->
+	<!--<Row Type="BELIEF_STR_RAIJIN"						Kind="KIND_BELIEF"/>-->
+<!-- OCEANIC PANTHEONS - ABORIGINAL FAMILY -->
+	<!-- THE RAINBOW SERPENT -->
+		<Row Type="BELIEF_STR_THE_RAINBOW_SERPENT"			Kind="KIND_BELIEF"/>
+<!-- OCEANIC PANTHEONS - POLYNESIAN FAMILY -->
+	<!-- KANE -->
+		<Row Type="BELIEF_STR_KANE"							Kind="KIND_BELIEF"/>
+	<!-- KAMOKOALI'I -->
+		<Row Type="BELIEF_STR_KAMOHOALII"					Kind="KIND_BELIEF"/>
+	</Types>
+
+	<Beliefs>
+<!-- ORGNAIZED RELIGION - ABRAHAMIC FAMILY -->
+	<!-- THE CHOSEN PEOPLE -->
+		<Row BeliefType="BELIEF_STR_THE_CHOSEN_PEOPLE"			Name="LOC_BELIEF_STR_THE_CHOSEN_PEOPLE_NAME"			Description="LOC_BELIEF_STR_THE_CHOSEN_PEOPLE_DESCRIPTION"			BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- THE COMING MESSIAH -->
+		<Row BeliefType="BELIEF_STR_THE_COMING_MESSIAH"			Name="LOC_BELIEF_STR_THE_COMING_MESSIAH_NAME"			Description="LOC_BELIEF_STR_THE_COMING_MESSIAH_DESCRIPTION"			BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- THE SEAL OF THE PROPHETS -->
+		<Row BeliefType="BELIEF_STR_THE_SEAL_OF_THE_PROPHETS"	Name="LOC_BELIEF_STR_THE_SEAL_OF_THE_PROPHETS_NAME"		Description="LOC_BELIEF_STR_THE_SEAL_OF_THE_PROPHETS_DESCRIPTION"	BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- CULT OF SAINT GEORGE -->
+	<!--<Row BeliefType="BELIEF_STR_CULT_OF_SAINT_GEORGE"		Name="LOC_BELIEF_STR_CULT_OF_SAINT_GEORGE_NAME"			Description="LOC_BELIEF_STR_CULT_OF_SAINT_GEORGE_DESCRIPTION"		BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- ORGNAIZED RELIGION - BUDDHIC FAMILY -->
+	<!-- TEACHER BENEATH THE BODHI -->
+		<Row BeliefType="BELIEF_STR_TEACHER_BENEATH_THE_BODHI"	Name="LOC_BELIEF_STR_TEACHER_BENEATH_THE_BODHI_NAME"	Description="LOC_BELIEF_STR_TEACHER_BENEATH_THE_BODHI_DESCRIPTION"	BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- ORGNAIZED RELIGION - MAZDAN FAMILY -->
+	<!-- ZURVAN -->
+	<!--<Row BeliefType="BELIEF_STR_ZURVAN"						Name="LOC_BELIEF_STR_ZURVAN_NAME"						Description="LOC_BELIEF_STR_ZURVAN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- AHURA MAZDA -->
+		<Row BeliefType="BELIEF_STR_AHURA_MAZDA"				Name="LOC_BELIEF_STR_AHURA_MAZDA_NAME"					Description="LOC_BELIEF_STR_AHURA_MAZDA_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ANGRA MAINYU -->
+	<!--<Row BeliefType="BELIEF_STR_ANGRA_MAINYU"				Name="LOC_BELIEF_STR_ANGRA_MAINYU_NAME"					Description="LOC_BELIEF_STR_ANGRA_MAINYU_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- NORTH AMERICAN PANTHEONS - AMERINDIAN FAMILY -->
+	<!-- GITCHE MANITOU -->
+		<Row BeliefType="BELIEF_STR_GITCHE_MANITOU"				Name="LOC_BELIEF_STR_GITCHE_MANITOU_NAME"				Description="LOC_BELIEF_STR_GITCHE_MANITOU_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- THE THUNDER BIRD -->
+		<Row BeliefType="BELIEF_STR_THE_THUNDER_BIRD"			Name="LOC_BELIEF_STR_THE_THUNDER_BIRD_NAME"				Description="LOC_BELIEF_STR_THE_THUNDER_BIRD_DESCRIPTION"			BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- WAKAN TANKA -->
+		<Row BeliefType="BELIEF_STR_WAKAN_TANKA"				Name="LOC_BELIEF_STR_WAKAN_TANKA_NAME"					Description="LOC_BELIEF_STR_WAKAN_TANKA_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- SEDNA -->
+		<Row BeliefType="BELIEF_STR_SEDNA"						Name="LOC_BELIEF_STR_SEDNA_NAME"						Description="LOC_BELIEF_STR_SEDNA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- NORTH AMERICAN PANTHEONS - NAHUA FAMILY -->
+	<!-- QUETZALCOATL -->
+		<Row BeliefType="BELIEF_STR_QUETZALCOATL"				Name="LOC_BELIEF_STR_QUETZALCOATL_NAME"					Description="LOC_BELIEF_STR_QUETZALCOATL_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- HUITZILOPOCHTLI -->
+		<Row BeliefType="BELIEF_STR_HUITZILOPOCHTLI"			Name="LOC_BELIEF_STR_HUITZILOPOCHTLI_NAME"				Description="LOC_BELIEF_STR_HUITZILOPOCHTLI_DESCRIPTION"			BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- TLALOC -->
+		<Row BeliefType="BELIEF_STR_TLALOC"						Name="LOC_BELIEF_STR_TLALOC_NAME"						Description="LOC_BELIEF_STR_TLALOC_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ICHPOCTLI -->
+	<!--<Row BeliefType="BELIEF_STR_ICHPOCHTLI"					Name="LOC_BELIEF_STR_ICHPOCHTLI_NAME"					Description="LOC_BELIEF_STR_ICHPOCHTLI_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- CENTEOTL -->
+	<!--<Row BeliefType="BELIEF_STR_CENTEOTL"					Name="LOC_BELIEF_STR_CENTEOTL_NAME"						Description="LOC_BELIEF_STR_CENTEOTL_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- YACATECUHTLI -->
+	<!--<Row BeliefType="BELIEF_STR_YACATECUHTLI"				Name="LOC_BELIEF_STR_YACATECUHTLI_NAME"					Description="LOC_BELIEF_STR_YACATECUHTLI_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- NORTH AMERICAN PANTHEONS - MAYAN FAMILY -->
+	<!-- KUKULKAN -->
+		<Row BeliefType="BELIEF_STR_KUKULKAN"					Name="LOC_BELIEF_STR_KUKULKAN_NAME"						Description="LOC_BELIEF_STR_KUKULKAN_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- AH-MUZEN-CAB -->
+	<!--<Row BeliefType="BELIEF_STR_AH_MUZEN_CAB"				Name="LOC_BELIEF_STR_AH_MUZEN_CAB_NAME"					Description="LOC_BELIEF_STR_AH_MUZEN_CAB_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- BULUC CHABTAN -->
+		<Row BeliefType="BELIEF_STR_BULUC_CHABTAN"				Name="LOC_BELIEF_STR_BULUC_CHABTAN_NAME"				Description="LOC_BELIEF_STR_BULUC_CHABTAN_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- CHAAC -->
+		<Row BeliefType="BELIEF_STR_CHAAC"						Name="LOC_BELIEF_STR_CHAAC_NAME"						Description="LOC_BELIEF_STR_CHAAC_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- IXCHEL -->
+		<Row BeliefType="BELIEF_STR_IXCHEL"						Name="LOC_BELIEF_STR_IXCHEL_NAME"						Description="LOC_BELIEF_STR_IXCHEL_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- SOUTH AMERICAN PANTHEONS - ANDEAN FAMILY -->
+	<!-- INTI -->
+		<Row BeliefType="BELIEF_STR_INTI"						Name="LOC_BELIEF_STR_INTI_NAME"							Description="LOC_BELIEF_STR_INTI_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- SOUTH AMERICAN PANTHEONS - AMAZONIAN FAMILY -->
+	<!-- PACHAMAMA -->
+		<Row BeliefType="BELIEF_STR_PACHAMAMA"					Name="LOC_BELIEF_STR_PACHAMAMA_NAME"					Description="LOC_BELIEF_STR_PACHAMAMA_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- EUROPEAN PANTHEONS - GREEK FAMILY -->
+	<!-- ZEUS -->
+		<Row BeliefType="BELIEF_STR_ZEUS"						Name="LOC_BELIEF_STR_ZEUS_NAME"							Description="LOC_BELIEF_STR_ZEUS_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ARES -->
+		<Row BeliefType="BELIEF_STR_ARES"						Name="LOC_BELIEF_STR_ARES_NAME"							Description="LOC_BELIEF_STR_ARES_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ATHENA -->
+		<Row BeliefType="BELIEF_STR_ATHENA"						Name="LOC_BELIEF_STR_ATHENA_NAME"						Description="LOC_BELIEF_STR_ATHENA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- APOLLO -->
+		<Row BeliefType="BELIEF_STR_APOLLO"						Name="LOC_BELIEF_STR_APOLLO_NAME"						Description="LOC_BELIEF_STR_APOLLO_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- HERA -->
+		<Row BeliefType="BELIEF_STR_HERA"						Name="LOC_BELIEF_STR_HERA_NAME"							Description="LOC_BELIEF_STR_HERA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- DEMETER -->
+		<Row BeliefType="BELIEF_STR_DEMETER"					Name="LOC_BELIEF_STR_DEMETER_NAME"						Description="LOC_BELIEF_STR_DEMETER_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- HESTIA -->
+	<!--<Row BeliefType="BELIEF_STR_HESTIA"						Name="LOC_BELIEF_STR_HESTIA_NAME"						Description="LOC_BELIEF_STR_HESTIA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- ARTEMIS -->
+		<Row BeliefType="BELIEF_STR_ARTEMIS"					Name="LOC_BELIEF_STR_ARTEMIS_NAME"						Description="LOC_BELIEF_STR_ARTEMIS_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- APHRODITE -->
+		<Row BeliefType="BELIEF_STR_APHRODITE"					Name="LOC_BELIEF_STR_APHRODITE_NAME"					Description="LOC_BELIEF_STR_APHRODITE_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- HEPHAESTUS -->
+		<Row BeliefType="BELIEF_STR_HEPHAESTUS"					Name="LOC_BELIEF_STR_HEPHAESTUS_NAME"					Description="LOC_BELIEF_STR_HEPHAESTUS_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- POSEIDON -->
+		<Row BeliefType="BELIEF_STR_POSEIDON"					Name="LOC_BELIEF_STR_POSEIDON_NAME"						Description="LOC_BELIEF_STR_POSEIDON_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- DIONYSUS -->
+		<Row BeliefType="BELIEF_STR_DIONYSUS"					Name="LOC_BELIEF_STR_DIONYSUS_NAME"						Description="LOC_BELIEF_STR_DIONYSUS_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- EUROPEAN PANTHEONS - ROMAN FAMILY -->
+	<!-- JUPITER -->
+		<Row BeliefType="BELIEF_STR_JUPITER"					Name="LOC_BELIEF_STR_JUPITER_NAME"						Description="LOC_BELIEF_STR_JUPITER_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- MARS -->
+		<Row BeliefType="BELIEF_STR_MARS"						Name="LOC_BELIEF_STR_MARS_NAME"							Description="LOC_BELIEF_STR_MARS_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- MINERVA -->
+		<Row BeliefType="BELIEF_STR_MINERVA"					Name="LOC_BELIEF_STR_MINERVA_NAME"						Description="LOC_BELIEF_STR_MINERVA_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- VULCAN -->
+		<Row BeliefType="BELIEF_STR_VULCAN"						Name="LOC_BELIEF_STR_VULCAN_NAME"						Description="LOC_BELIEF_STR_VULCAN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- VESTA -->
+		<Row BeliefType="BELIEF_STR_VESTA"						Name="LOC_BELIEF_STR_VESTA_NAME"						Description="LOC_BELIEF_STR_VESTA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- NEPTUNE -->
+		<Row BeliefType="BELIEF_STR_NEPTUNE"					Name="LOC_BELIEF_STR_NEPTUNE_NAME"						Description="LOC_BELIEF_STR_NEPTUNE_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- BACCHUS -->
+		<Row BeliefType="BELIEF_STR_BACCHUS"					Name="LOC_BELIEF_STR_BACCHUS_NAME"						Description="LOC_BELIEF_STR_BACCHUS_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- CULT OF CAESAR -->
+		<Row BeliefType="BELIEF_STR_CULT_OF_CAESAR"				Name="LOC_BELIEF_STR_CULT_OF_CAESAR_NAME"				Description="LOC_BELIEF_STR_CULT_OF_CAESAR_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- EUROPEAN PANTHEONS - CELTIC FAMILY -->
+	<!-- DAGDA -->
+		<Row BeliefType="BELIEF_STR_DAGDA"						Name="LOC_BELIEF_STR_DAGDA_NAME"						Description="LOC_BELIEF_STR_DAGDA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- MORRIGAN -->
+		<Row BeliefType="BELIEF_STR_MORRIGAN"					Name="LOC_BELIEF_STR_MORRIGAN_NAME"						Description="LOC_BELIEF_STR_MORRIGAN_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- LUGH -->
+		<Row BeliefType="BELIEF_STR_LUGH"						Name="LOC_BELIEF_STR_LUGH_NAME"							Description="LOC_BELIEF_STR_LUGH_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- BRIGID -->
+	<!--<Row BeliefType="BELIEF_STR_BRIGID"						Name="LOC_BELIEF_STR_BRIGID_NAME"						Description="LOC_BELIEF_STR_BRIGID_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- AENGUS -->
+	<!--<Row BeliefType="BELIEF_STR_AENGUS"						Name="LOC_BELIEF_STR_AENGUS_NAME"						Description="LOC_BELIEF_STR_AENGUS_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- ACIONNA -->
+	<!--<Row BeliefType="BELIEF_STR_ACIONNA"					Name="LOC_BELIEF_STR_ACIONNA_NAME"						Description="LOC_BELIEF_STR_ACIONNA_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- ANDRASTE -->
+	<!--<Row BeliefType="BELIEF_STR_ANDRASTE"					Name="LOC_BELIEF_STR_ANDRASTE_NAME"						Description="LOC_BELIEF_STR_ANDRASTE_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- ARNAMENTIA -->
+	<!--<Row BeliefType="BELIEF_STR_ARNAMENTIA"					Name="LOC_BELIEF_STR_ARNAMENTIA_NAME"					Description="LOC_BELIEF_STR_ARNAMENTIA_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- EPONA -->
+	<!--<Row BeliefType="BELIEF_STR_EPONA"						Name="LOC_BELIEF_STR_EPONA_NAME"						Description="LOC_BELIEF_STR_EPONA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- CERNUNNOS -->
+	<!--<Row BeliefType="BELIEF_STR_CERNUNNOS"					Name="LOC_BELIEF_STR_CERNUNNOS_NAME"					Description="LOC_BELIEF_STR_CERNUNNOS_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- EUROPEAN PANTHEONS - NORDIC FAMILY -->
+	<!-- ODIN -->
+		<Row BeliefType="BELIEF_STR_ODIN"						Name="LOC_BELIEF_STR_ODIN_NAME"							Description="LOC_BELIEF_STR_ODIN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- THOR -->
+		<Row BeliefType="BELIEF_STR_THOR"						Name="LOC_BELIEF_STR_THOR_NAME"							Description="LOC_BELIEF_STR_THOR_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- BRAGR -->
+	<!--<Row BeliefType="BELIEF_STR_BRAGR"						Name="LOC_BELIEF_STR_BRAGR_NAME"						Description="LOC_BELIEF_STR_BRAGR_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- FORSETI -->
+	<!--<Row BeliefType="BELIEF_STR_FORSETI"					Name="LOC_BELIEF_STR_FORSETI_NAME"						Description="LOC_BELIEF_STR_FORSETI_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- HEIMDALL -->
+	<!--<Row BeliefType="BELIEF_STR_HEIMDALL"					Name="LOC_BELIEF_STR_HEIMDALL_NAME"						Description="LOC_BELIEF_STR_HEIMDALL_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- TYR -->
+	<!--<Row BeliefType="BELIEF_STR_TYR"						Name="LOC_BELIEF_STR_TYR_NAME"							Description="LOC_BELIEF_STR_TYR_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- FREYJA -->
+	<!--<Row BeliefType="BELIEF_STR_FREYJA"						Name="LOC_BELIEF_STR_FREYJA_NAME"						Description="LOC_BELIEF_STR_FREYJA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- LOKI -->
+	<!--<Row BeliefType="BELIEF_STR_LOKI"						Name="LOC_BELIEF_STR_LOKI_NAME"							Description="LOC_BELIEF_STR_LOKI_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- EUROPEAN PANTHEONS - GERMANIC FAMILY -->
+	<!-- WODANAZ -->
+		<Row BeliefType="BELIEF_STR_WODANAZ"					Name="LOC_BELIEF_STR_WODANAZ_NAME"						Description="LOC_BELIEF_STR_WODANAZ_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- DONAR -->
+		<Row BeliefType="BELIEF_STR_DONAR"						Name="LOC_BELIEF_STR_DONAR_NAME"						Description="LOC_BELIEF_STR_DONAR_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- SAXNOT -->
+		<Row BeliefType="BELIEF_STR_SAXNOT"						Name="LOC_BELIEF_STR_SAXNOT_NAME"						Description="LOC_BELIEF_STR_SAXNOT_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- TEIWAZ -->
+	<!--<Row BeliefType="BELIEF_STR_TEIWAZ"						Name="LOC_BELIEF_STR_TEIWAZ_NAME"						Description="LOC_BELIEF_STR_TEIWAZ_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- EOSTRE -->
+	<!--<Row BeliefType="BELIEF_STR_EOSTRE"						Name="LOC_BELIEF_STR_EOSTRE_NAME"						Description="LOC_BELIEF_STR_EOSTRE_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- EUROPEAN PANTHEONS - BALTIC FAMILY -->
+	<!-- PERKUNAS -->
+	<!--<Row BeliefType="BELIEF_STR_PERKUNAS"					Name="LOC_BELIEF_STR_PERKUNAS_NAME"						Description="LOC_BELIEF_STR_PERKUNAS_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- SAULE -->
+	<!--<Row BeliefType="BELIEF_STR_SAULE"						Name="LOC_BELIEF_STR_SAULE_NAME"						Description="LOC_BELIEF_STR_SAULE_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- LAIMA -->
+	<!--<Row BeliefType="BELIEF_STR_LAIMA"						Name="LOC_BELIEF_STR_LAIMA_NAME"						Description="LOC_BELIEF_STR_LAIMA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- BANGPUTYS -->
+	<!--<Row BeliefType="BELIEF_STR_BANGPUTYS"					Name="LOC_BELIEF_STR_BANGPUTYS_NAME"					Description="LOC_BELIEF_STR_BANGPUTYS_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- EUROPEAN PANTHEONS - SLAVIC FAMILY -->
+	<!-- ROD -->
+		<Row BeliefType="BELIEF_STR_ROD"						Name="LOC_BELIEF_STR_ROD_NAME"							Description="LOC_BELIEF_STR_ROD_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- BELOBOG -->
+	<!--<Row BeliefType="BELIEF_STR_BELOBOG"					Name="LOC_BELIEF_STR_BELOBOG_NAME"						Description="LOC_BELIEF_STR_BELOBOG_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- CHERNOBOG -->
+	<!--<Row BeliefType="BELIEF_STR_CHERNOBOG"					Name="LOC_BELIEF_STR_CHERNOBOG_NAME"					Description="LOC_BELIEF_STR_CHERNOBOG_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- TRIGLAV -->
+	<!--<Row BeliefType="BELIEF_STR_TRIGLAV"					Name="LOC_BELIEF_STR_TRIGLAV_NAME"						Description="LOC_BELIEF_STR_TRIGLAV_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- PERUN -->
+		<Row BeliefType="BELIEF_STR_PERUN"						Name="LOC_BELIEF_STR_PERUN_NAME"						Description="LOC_BELIEF_STR_PERUN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- SVAROG -->
+	<!--<Row BeliefType="BELIEF_STR_SVAROG"						Name="LOC_BELIEF_STR_SVAROG_NAME"						Description="LOC_BELIEF_STR_SVAROG_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- DAZBOG -->
+		<Row BeliefType="BELIEF_STR_DAZBOG"						Name="LOC_BELIEF_STR_DAZBOG_NAME"						Description="LOC_BELIEF_STR_DAZBOG_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- VELES -->
+		<Row BeliefType="BELIEF_STR_VELES"						Name="LOC_BELIEF_STR_VELES_NAME"						Description="LOC_BELIEF_STR_VELES_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- EUROPEAN PANTHEONS - FINNIC FAMILY -->
+	<!-- UKKO -->
+		<Row BeliefType="BELIEF_STR_UKKO"						Name="LOC_BELIEF_STR_UKKO_NAME"							Description="LOC_BELIEF_STR_UKKO_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- AHTI -->
+	<!--<Row BeliefType="BELIEF_STR_AHTI"						Name="LOC_BELIEF_STR_AHTI_NAME"							Description="LOC_BELIEF_STR_AHTI_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- ILMARIEN -->
+	<!--<Row BeliefType="BELIEF_STR_ILMARIEN"					Name="LOC_BELIEF_STR_ILMARIEN_NAME"						Description="LOC_BELIEF_STR_ILMARIEN_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- NYYRIKKI -->
+	<!--<Row BeliefType="BELIEF_STR_NYYRIKKI"					Name="LOC_BELIEF_STR_NYYRIKKI_NAME"						Description="LOC_BELIEF_STR_NYYRIKKI_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- TAPIO -->
+	<!--<Row BeliefType="BELIEF_STR_TAPIO"						Name="LOC_BELIEF_STR_TAPIO_NAME"						Description="LOC_BELIEF_STR_TAPIO_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- AFRICAN PANTHEONS - EGYPTIAN FAMILY -->
+	<!-- NUN -->
+		<Row BeliefType="BELIEF_STR_NUN"						Name="LOC_BELIEF_STR_NUN_NAME"							Description="LOC_BELIEF_STR_NUN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ATEN -->
+		<Row BeliefType="BELIEF_STR_ATEN"						Name="LOC_BELIEF_STR_ATEN_NAME"							Description="LOC_BELIEF_STR_ATEN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- RA -->
+		<Row BeliefType="BELIEF_STR_RA"							Name="LOC_BELIEF_STR_RA_NAME"							Description="LOC_BELIEF_STR_RA_DESCRIPTION"							BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- AMUN -->
+		<Row BeliefType="BELIEF_STR_AMUN"						Name="LOC_BELIEF_STR_AMUN_NAME"							Description="LOC_BELIEF_STR_AMUN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- HAPI -->
+		<Row BeliefType="BELIEF_STR_HAPI"						Name="LOC_BELIEF_STR_HAPI_NAME"							Description="LOC_BELIEF_STR_HAPI_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- HORUS -->
+		<Row BeliefType="BELIEF_STR_HORUS"						Name="LOC_BELIEF_STR_HORUS_NAME"						Description="LOC_BELIEF_STR_HORUS_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- OSIRIS -->
+		<Row BeliefType="BELIEF_STR_OSIRIS"						Name="LOC_BELIEF_STR_OSIRIS_NAME"						Description="LOC_BELIEF_STR_OSIRIS_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- SOBEK -->
+		<Row BeliefType="BELIEF_STR_SOBEK"						Name="LOC_BELIEF_STR_SOBEK_NAME"						Description="LOC_BELIEF_STR_SOBEK_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- PTAH -->
+		<Row BeliefType="BELIEF_STR_PTAH"						Name="LOC_BELIEF_STR_PTAH_NAME"							Description="LOC_BELIEF_STR_PTAH_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- THOTH -->
+		<Row BeliefType="BELIEF_STR_THOTH"						Name="LOC_BELIEF_STR_THOTH_NAME"						Description="LOC_BELIEF_STR_THOTH_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ANUBIS -->
+		<Row BeliefType="BELIEF_STR_ANUBIS"						Name="LOC_BELIEF_STR_ANUBIS_NAME"						Description="LOC_BELIEF_STR_ANUBIS_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- BASTET -->
+		<Row BeliefType="BELIEF_STR_BASTET"						Name="LOC_BELIEF_STR_BASTET_NAME"						Description="LOC_BELIEF_STR_BASTET_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ISIS-->
+		<Row BeliefType="BELIEF_STR_ISIS"						Name="LOC_BELIEF_STR_ISIS_NAME"							Description="LOC_BELIEF_STR_ISIS_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- HATHOR -->
+		<Row BeliefType="BELIEF_STR_HATHOR"						Name="LOC_BELIEF_STR_HATHOR_NAME"						Description="LOC_BELIEF_STR_HATHOR_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- MAAT -->
+		<Row BeliefType="BELIEF_STR_MAAT"						Name="LOC_BELIEF_STR_MAAT_NAME"							Description="LOC_BELIEF_STR_MAAT_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- AFRICAN PANTHEONS - CUSHITIC FAMILY -->
+	<!-- WAAQ -->
+		<Row BeliefType="BELIEF_STR_WAAQ"						Name="LOC_BELIEF_STR_WAAQ_NAME"							Description="LOC_BELIEF_STR_WAAQ_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- HUUR -->
+		<Row BeliefType="BELIEF_STR_HUUR"						Name="LOC_BELIEF_STR_HUUR_NAME"							Description="LOC_BELIEF_STR_HUUR_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- MAHER -->
+		<Row BeliefType="BELIEF_STR_MAHER"						Name="LOC_BELIEF_STR_MAHER_NAME"						Description="LOC_BELIEF_STR_MAHER_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- AFRICAN PANTHEONS - NIGER-SAHEL FAMILY -->
+	<!-- AMMON -->
+		<Row BeliefType="BELIEF_STR_AMMON"						Name="LOC_BELIEF_STR_AMMON_NAME"						Description="LOC_BELIEF_STR_AMMON_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ANANSI -->
+		<Row BeliefType="BELIEF_STR_ANANSI"						Name="LOC_BELIEF_STR_ANANSI_NAME"						Description="LOC_BELIEF_STR_ANANSI_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ASPECTS OF THE ORISHAS -->
+		<Row BeliefType="BELIEF_STR_ASPECTS_OF_ORISHAS"			Name="LOC_BELIEF_STR_ASPECTS_OF_ORISHAS_NAME"			Description="LOC_BELIEF_STR_ASPECTS_OF_ORISHAS_DESCRIPTION"			BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ASPECTS OF THE LOA -->
+		<Row BeliefType="BELIEF_STR_ASPECTS_OF_LOA"				Name="LOC_BELIEF_STR_ASPECTS_OF_LOA_NAME"				Description="LOC_BELIEF_STR_ASPECTS_OF_LOA_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- AFRICAN PANTHEONS - ZULU FAMILY -->
+	<!-- UNKULUNKULU -->
+		<Row BeliefType="BELIEF_STR_UNKULUNKULU"				Name="LOC_BELIEF_STR_UNKULUNKULU_NAME"					Description="LOC_BELIEF_STR_UNKULUNKULU_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- -->
+<!-- WEST ASIAN PANTHEONS - SEMITIC FAMILY -->
+	<!-- EL -->
+		<Row BeliefType="BELIEF_STR_EL"							Name="LOC_BELIEF_STR_EL_NAME"							Description="LOC_BELIEF_STR_EL_DESCRIPTION"							BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ASHERAH -->
+		<Row BeliefType="BELIEF_STR_ASHERAH"					Name="LOC_BELIEF_STR_ASHERAH_NAME"						Description="LOC_BELIEF_STR_ASHERAH_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- BAALSHAMIN -->
+		<Row BeliefType="BELIEF_STR_BAALSHAMIN"					Name="LOC_BELIEF_STR_BAALSHAMIN_NAME"					Description="LOC_BELIEF_STR_BAALSHAMIN_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- BAALHAMMON -->
+		<Row BeliefType="BELIEF_STR_BAALHAMMON"					Name="LOC_BELIEF_STR_BAALHAMMON_NAME"					Description="LOC_BELIEF_STR_BAALHAMMON_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- BEL -->
+		<Row BeliefType="BELIEF_STR_BEL"						Name="LOC_BELIEF_STR_BEL_NAME"							Description="LOC_BELIEF_STR_BEL_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- CHEMOSH -->
+	<!--<Row BeliefType="BELIEF_STR_CHEMOSH"					Name="LOC_BELIEF_STR_CHEMOSH_NAME"						Description="LOC_BELIEF_STR_CHEMOSH_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- DAGON -->
+	<!--<Row BeliefType="BELIEF_STR_DAGON"						Name="LOC_BELIEF_STR_DAGON_NAME"						Description="LOC_BELIEF_STR_DAGON_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- NERGAL -->
+		<Row BeliefType="BELIEF_STR_NERGAL"						Name="LOC_BELIEF_STR_NERGAL_NAME"						Description="LOC_BELIEF_STR_NERGAL_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- MOLOCH -->
+		<Row BeliefType="BELIEF_STR_MOLOCH"						Name="LOC_BELIEF_STR_MOLOCH_NAME"						Description="LOC_BELIEF_STR_MOLOCH_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- MELQART -->
+	<!--<Row BeliefType="BELIEF_STR_MELQART"					Name="LOC_BELIEF_STR_MELQART_NAME"						Description="LOC_BELIEF_STR_MELQART_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- ISHTAR -->
+		<Row BeliefType="BELIEF_STR_ISHTAR"						Name="LOC_BELIEF_STR_ISHTAR_NAME"						Description="LOC_BELIEF_STR_ISHTAR_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- CULT OF GILGAMESH -->
+		<Row BeliefType="BELIEF_STR_CULT_OF_GILGAMESH"			Name="LOC_BELIEF_STR_CULT_OF_GILGAMESH_NAME"			Description="LOC_BELIEF_STR_CULT_OF_GILGAMESH_DESCRIPTION"			BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- WEST ASIAN PANTHEONS - CAUCASSIAN FAMILY -->
+	<!-- AR -->
+		<Row BeliefType="BELIEF_STR_AR"							Name="LOC_BELIEF_STR_AR_NAME"							Description="LOC_BELIEF_STR_AR_DESCRIPTION"							BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- GHMERTI -->
+		<Row BeliefType="BELIEF_STR_GHMERTI"					Name="LOC_BELIEF_STR_GHMERTI_NAME"						Description="LOC_BELIEF_STR_GHMERTI_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- WEST ASIAN PANTHEONS - ARABIC FAMILY -->
+	<!-- AL-LAH -->
+		<Row BeliefType="BELIEF_STR_AL_LAH"						Name="LOC_BELIEF_STR_AL_LAH_NAME"						Description="LOC_BELIEF_STR_AL_LAH_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- AL-LAT -->
+	<!--<Row BeliefType="BELIEF_STR_AL_LAT"						Name="LOC_BELIEF_STR_AL_LAT_NAME"						Description="LOC_BELIEF_STR_AL_LAT_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- AL-'UZZA -->
+	<!--<Row BeliefType="BELIEF_STR_AL_UZZA"					Name="LOC_BELIEF_STR_AL_UZZA_NAME"						Description="LOC_BELIEF_STR_AL_UZZA_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- MANAT -->
+	<!--Row BeliefType="BELIEF_STR_MANAT"						Name="LOC_BELIEF_STR_MANAT_NAME"						Description="LOC_BELIEF_STR_MANAT_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- EAST ASIAN PANTHEONS - STEPPE FAMILY -->
+	<!-- TENGRI -->
+		<Row BeliefType="BELIEF_STR_TENGRI"						Name="LOC_BELIEF_STR_TENGRI_NAME"						Description="LOC_BELIEF_STR_TENGRI_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- TABITI -->
+		<Row BeliefType="BELIEF_STR_TABITI"						Name="LOC_BELIEF_STR_TABITI_NAME"						Description="LOC_BELIEF_STR_TABITI_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- ISTEN -->
+		<Row BeliefType="BELIEF_STR_ISTEN"						Name="LOC_BELIEF_STR_ISTEN_NAME"						Description="LOC_BELIEF_STR_ISTEN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- CULT OF GENGHIS KHAN -->
+		<Row BeliefType="BELIEF_STR_CULT_OF_GENGHIS_KHAN"		Name="LOC_BELIEF_STR_CULT_OF_GENGHIS_KHAN_NAME"			Description="LOC_BELIEF_STR_CULT_OF_GENGHIS_KHAN_DESCRIPTION"		BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- EAST ASIAN PANTHEONS - HINDU FAMILY -->
+	<!-- BRAHMAN -->
+		<Row BeliefType="BELIEF_STR_BRAHMAN"					Name="LOC_BELIEF_STR_BRAHMAN_NAME"						Description="LOC_BELIEF_STR_BRAHMAN_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- SHIVA -->
+		<Row BeliefType="BELIEF_STR_SHIVA"						Name="LOC_BELIEF_STR_SHIVA_NAME"						Description="LOC_BELIEF_STR_SHIVA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- VISHNU -->
+		<Row BeliefType="BELIEF_STR_VISHNU"						Name="LOC_BELIEF_STR_VISHNU_NAME"						Description="LOC_BELIEF_STR_VISHNU_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- BRAHMA -->
+		<Row BeliefType="BELIEF_STR_BRAHMA"						Name="LOC_BELIEF_STR_BRAHMA_NAME"						Description="LOC_BELIEF_STR_BRAHMA_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- PARVATI -->
+		<Row BeliefType="BELIEF_STR_PARVATI"					Name="LOC_BELIEF_STR_PARVATI_NAME"						Description="LOC_BELIEF_STR_PARVATI_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- KALI -->
+		<Row BeliefType="BELIEF_STR_KALI"						Name="LOC_BELIEF_STR_KALI_NAME"							Description="LOC_BELIEF_STR_KALI_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- LAKSHMI -->
+		<Row BeliefType="BELIEF_STR_LAKSHMI"					Name="LOC_BELIEF_STR_LAKSHMI_NAME"						Description="LOC_BELIEF_STR_LAKSHMI_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- SARASWATI -->
+		<Row BeliefType="BELIEF_STR_SARASWATI"					Name="LOC_BELIEF_STR_SARASWATI_NAME"					Description="LOC_BELIEF_STR_SARASWATI_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- GANESHA -->
+		<Row BeliefType="BELIEF_STR_GANESHA"					Name="LOC_BELIEF_STR_GANESHA_NAME"						Description="LOC_BELIEF_STR_GANESHA_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- AGNI -->
+		<Row BeliefType="BELIEF_STR_AGNI"						Name="LOC_BELIEF_STR_AGNI_NAME"							Description="LOC_BELIEF_STR_AGNI_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- CULT OF MAHATMA GANDHI -->
+		<Row BeliefType="BELIEF_STR_CULT_OF_MAHATMA_GANDHI"		Name="LOC_BELIEF_STR_CULT_OF_MAHATMA_GANDHI_NAME"		Description="LOC_BELIEF_STR_CULT_OF_MAHATMA_GANDHI_DESCRIPTION"		BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- CULT OF DYAH GITARJA -->
+		<Row BeliefType="BELIEF_STR_CULT_OF_DYAH_GITARJA"		Name="LOC_BELIEF_STR_CULT_OF_DYAH_GITARJA_NAME"			Description="LOC_BELIEF_STR_CULT_OF_DYAH_GITARJA_DESCRIPTION"		BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- EAST ASIAN PANTHEONS - TIBETAN FAMILY -->
+	<!-- GYALPO PEHAR -->
+		<Row BeliefType="BELIEF_STR_GYALPO_PEHAR"				Name="LOC_BELIEF_STR_GYALPO_PEHAR_NAME"					Description="LOC_BELIEF_STR_GYALPO_PEHAR_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- EAST ASIAN PANTHEONS - CHINESE FAMILY -->
+	<!-- SHANGDI -->
+		<Row BeliefType="BELIEF_STR_SHANGDI"					Name="LOC_BELIEF_STR_SHANGDI_NAME"						Description="LOC_BELIEF_STR_SHANGDI_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- YINYANGGONG -->
+		<Row BeliefType="BELIEF_STR_YINYANGGONG"				Name="LOC_BELIEF_STR_YINYANGGONG_NAME"					Description="LOC_BELIEF_STR_YINYANGGONG_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- WENCHANGDI -->
+		<Row BeliefType="BELIEF_STR_WENCHANGDI"					Name="LOC_BELIEF_STR_WENCHANGDI_NAME"					Description="LOC_BELIEF_STR_WENCHANGDI_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- KUIXING -->
+		<Row BeliefType="BELIEF_STR_KUIXING"					Name="LOC_BELIEF_STR_KUIXING_NAME"						Description="LOC_BELIEF_STR_KUIXING_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- CAISHEN -->
+		<Row BeliefType="BELIEF_STR_CAISHEN"					Name="LOC_BELIEF_STR_CAISHEN_NAME"						Description="LOC_BELIEF_STR_CAISHEN_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- CHENGHUANGSHEN -->
+		<Row BeliefType="BELIEF_STR_CHENGHUANGSHEN"				Name="LOC_BELIEF_STR_CHENGHUANGSHEN_NAME"				Description="LOC_BELIEF_STR_CHENGHUANGSHEN_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- LUBAN -->
+	<!--<Row BeliefType="BELIEF_STR_LUBAN"						Name="LOC_BELIEF_STR_LUBAN_NAME"						Description="LOC_BELIEF_STR_LUBAN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+	<!-- ERLANGSHEN -->
+		<Row BeliefType="BELIEF_STR_ERLANG_SHEN"				Name="LOC_BELIEF_STR_ERLANG_SHEN_NAME"					Description="LOC_BELIEF_STR_ERLANG_SHEN_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+		<!-- GUANDI -->
+	<!--<Row BeliefType="BELIEF_STR_GUANDI"						Name="LOC_BELIEF_STR_GUANDI_NAME"						Description="LOC_BELIEF_STR_GUANDI_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+		<!-- SUN WUKONG -->
+	<!--<Row BeliefType="BELIEF_STR_SUN_WUKONG"					Name="LOC_BELIEF_STR_SUN_WUKONG_NAME"					Description="LOC_BELIEF_STR_SUN_WUKONG_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- EAST ASIAN PANTHEONS - KOREAN FAMILY -->
+	<!-- CHEONJIWANG -->
+		<Row BeliefType="BELIEF_STR_CHEONJIWANG"				Name="LOC_BELIEF_STR_CHEONJIWANG_NAME"					Description="LOC_BELIEF_STR_CHEONJIWANG_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- EAST ASIAN PANTHEONS - JAPANESE FAMILY -->
+	<!-- AMATERASU -->
+		<Row BeliefType="BELIEF_STR_AMATERASU"					Name="LOC_BELIEF_STR_AMATERASU_NAME"					Description="LOC_BELIEF_STR_AMATERASU_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- AME-NO-UZUME -->
+		<Row BeliefType="BELIEF_STR_AME_NO_UZUME"				Name="LOC_BELIEF_STR_AME_NO_UZUME_NAME"					Description="LOC_BELIEF_STR_AME_NO_UZUME_DESCRIPTION"				BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- FUJIN -->
+		<Row BeliefType="BELIEF_STR_FUJIN"						Name="LOC_BELIEF_STR_FUJIN_NAME"						Description="LOC_BELIEF_STR_FUJIN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- HACHIMAN -->
+		<Row BeliefType="BELIEF_STR_HACHIMAN"					Name="LOC_BELIEF_STR_HACHIMAN_NAME"						Description="LOC_BELIEF_STR_HACHIMAN_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- OKUNINUSHI -->
+		<Row BeliefType="BELIEF_STR_OKININUSHI"					Name="LOC_BELIEF_STR_OKININUSHI_NAME"					Description="LOC_BELIEF_STR_OKININUSHI_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- OMOIKANE -->
+		<Row BeliefType="BELIEF_STR_OMOIKANE"					Name="LOC_BELIEF_STR_OMOIKANE_NAME"						Description="LOC_BELIEF_STR_OMOIKANE_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- RAIJIN -->
+	<!--<Row BeliefType="BELIEF_STR_RAIJIN"						Name="LOC_BELIEF_STR_RAIJIN_NAME"						Description="LOC_BELIEF_STR_RAIJIN_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>-->
+<!-- OCEANIC PANTHEONS - ABORIGINAL FAMILY -->
+	<!-- THE RAINBOW SERPENT -->
+		<Row BeliefType="BELIEF_STR_THE_RAINBOW_SERPENT"		Name="LOC_BELIEF_STR_THE_RAINBOW_SERPENT_NAME"			Description="LOC_BELIEF_STR_THE_RAINBOW_SERPENT_DESCRIPTION"		BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+<!-- OCEANIC PANTHEONS - POLYNESIAN FAMILY -->
+	<!-- KANE -->
+		<Row BeliefType="BELIEF_STR_KANE"						Name="LOC_BELIEF_STR_KANE_NAME"							Description="LOC_BELIEF_STR_KANE_DESCRIPTION"						BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	<!-- KAMOHOALI'I-->
+		<Row BeliefType="BELIEF_STR_KAMOHOALII"					Name="LOC_BELIEF_STR_KAMOHOALII_NAME"					Description="LOC_BELIEF_STR_KAMOHOALII_DESCRIPTION"					BeliefClassType="BELIEF_CLASS_PANTHEON"/>
+	</Beliefs>
+
+</GameData>

@@ -1,0 +1,2429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Policies_06_Modern_Modifiers -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 12:07:14 PM -->
+<GameData>
+	
+<!-- MILITARY POLICIES -->
+	
+	<!-- PROPAGANDA -->
+	<Modifiers>
+		<!-- WAR WEARINESS BONUS -->
+		<Row>
+			<ModifierId>STR_PROPAGANDA_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+		</Row>
+		<!-- LOYALTY FROM GARRISON -->
+		<Row>
+			<ModifierId>STR_PROPAGANDA_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+		<!-- AMENITY FROM GARRISON -->
+		<Row>
+			<ModifierId>STR_PROPAGANDA_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_PROPAGANDA_MOD_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- WAR WEARINESS BONUS -->
+		<Row>
+			<ModifierId>STR_PROPAGANDA_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-25</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_PROPAGANDA_MOD_1</ModifierId>
+			<Name>Overall</Name>
+			<Value>true</Value>
+		</Row>
+		<!-- LOYALTY FROM GARRISON -->
+		<Row>
+			<ModifierId>STR_PROPAGANDA_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<!-- AMENITY FROM GARRISON -->
+		<Row>
+			<ModifierId>STR_PROPAGANDA_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_PROPAGANDA_MOD_4</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_PROPAGANDA_MOD_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- WAR WEARINESS BONUS -->
+		<Row>
+			<PolicyType>POLICY_STR_PROPAGANDA</PolicyType>
+			<ModifierId>STR_PROPAGANDA_MOD_1</ModifierId>
+		</Row>
+		<!-- LOYALTY FROM GARRISON -->
+		<Row>
+			<PolicyType>POLICY_STR_PROPAGANDA</PolicyType>
+			<ModifierId>STR_PROPAGANDA_MOD_2</ModifierId>
+		</Row>
+		<!-- AMENITY FROM GARRISON -->
+		<Row>
+			<PolicyType>POLICY_STR_PROPAGANDA</PolicyType>
+			<ModifierId>STR_PROPAGANDA_MOD_3</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_PROPAGANDA</PolicyType>
+			<ModifierId>STR_PROPAGANDA_MOD_4</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- PROFESSIONAL ARMY -->
+	<Modifiers>
+		<!-- DECREASED UNIT MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_PROFESSIONAL_ARMY_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_MAINTENANCE_DISCOUNT</ModifierType>
+		</Row>
+		<!-- DISCOUNT UNIT GOLD UPGRADE -->
+		<Row>
+			<ModifierId>STR_PROFESSIONAL_ARMY_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_DISCOUNT_PERCENT</ModifierType>
+		</Row>
+		<!-- DISCOUNT UNIT RESOURCE UPGRADE-->
+		<Row>
+			<ModifierId>STR_PROFESSIONAL_ARMY_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_UNIT_UPGRADE_RESOURCE_COST_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- DECREASED UNIT MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_PROFESSIONAL_ARMY_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- DISCOUNT UNIT GOLD UPGRADE -->
+		<Row>
+			<ModifierId>STR_PROFESSIONAL_ARMY_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- DISCOUNT UNIT RESOURCE UPGRADE-->
+		<Row>
+			<ModifierId>STR_PROFESSIONAL_ARMY_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- DECREASED UNIT MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_PROFESSIONAL_ARMY</PolicyType>
+			<ModifierId>STR_PROFESSIONAL_ARMY_MOD_1</ModifierId>
+		</Row>
+		<!-- DISCOUNT UNIT GOLD UPGRADE -->
+		<Row>
+			<PolicyType>POLICY_STR_PROFESSIONAL_ARMY</PolicyType>
+			<ModifierId>STR_PROFESSIONAL_ARMY_MOD_2</ModifierId>
+		</Row>
+		<!-- DISCOUNT UNIT RESOURCE UPGRADE-->
+		<Row>
+			<PolicyType>POLICY_STR_PROFESSIONAL_ARMY</PolicyType>
+			<ModifierId>STR_PROFESSIONAL_ARMY_MOD_3</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- BLITZKRIEG TACTICS -->
+	<Modifiers>
+		<!-- BONUS MOVEMENT IN FREINDLY TERRITORY -->
+		<Row>
+			<ModifierId>STR_BLITZKRIEG_TACTICS_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_FRIENDLY_TERRITORY_START_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- BONUS MOVEMENT IN FREINDLY TERRITORY -->
+		<Row>
+			<ModifierId>STR_BLITZKRIEG_TACTICS_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- BONUS MOVEMENT IN FREINDLY TERRITORY -->
+		<Row>
+			<PolicyType>POLICY_STR_BLITZKRIEG_TACTICS</PolicyType>
+			<ModifierId>STR_BLITZKRIEG_TACTICS_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- ARMOURED PRODUCTION -->
+	<Modifiers>
+		<!-- PRODUCTION TOWARDS HEAVY CAVALRY -->
+		<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+		</Row>
+		<!-- PRODUCTION TOWARDS LIGHT CAVALRY -->
+		<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+		</Row>
+		<!-- PRODUCTION TOWARDS RANGED CAVALRY -->
+	<!--<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+		</Row>-->
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- PRODUCTION TOWARDS HEAVY CAVALRY -->
+		<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_1</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>70</Value>
+		</Row>
+		<!-- PRODUCTION TOWARDS LIGHT CAVALRY -->
+		<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_2</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_LIGHT_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>70</Value>
+		</Row>
+		<!-- PRODUCTION TOWARDS RANGED CAVALRY -->
+	<!--<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_3</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>70</Value>
+		</Row>-->
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_4</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- PRODUCTION TOWARDS HEAVY CAVALRY -->
+		<Row>
+			<PolicyType>POLICY_STR_ARMOURED_PRODUCTION</PolicyType>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_1</ModifierId>
+		</Row>
+		<!-- PRODUCTION TOWARDS LIGHT CAVALRY -->
+		<Row>
+			<PolicyType>POLICY_STR_ARMOURED_PRODUCTION</PolicyType>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_2</ModifierId>
+		</Row>
+		<!-- PRODUCTION TOWARDS RANGED CAVALRY -->
+	<!--<Row>
+			<PolicyType>POLICY_STR_ARMOURED_PRODUCTION</PolicyType>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_3</ModifierId>
+		</Row>-->
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_ARMOURED_PRODUCTION</PolicyType>
+			<ModifierId>STR_ARMOURED_PRODUCTION_MOD_4</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- THIRD ALTERNATIVE -->
+	<Modifiers>
+		<!-- SCIENCE IN MILTARY ACADEMY -->
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- CULTURE IN MILITARY ACADEMY -->
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- SCIENCE IN RESEARCH LAB -->
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- CULTURE IN RESEARCH LAB -->
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- SCIENCE IN MILTARY ACADEMY -->
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_1</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MILITARY_ACADEMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- CULTURE IN MILITARY ACADEMY -->
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_2</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MILITARY_ACADEMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- SCIENCE IN RESEARCH LAB -->
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_3</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_RESEARCH_LAB</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- CULTURE IN RESEARCH LAB -->
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_4</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_RESEARCH_LAB</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_4</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_5</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_5</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- SCIENCE IN MILTARY ACADEMY -->
+		<Row>
+			<PolicyType>POLICY_STR_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_1</ModifierId>
+		</Row>
+		<!-- CULTURE IN MILITARY ACADEMY -->
+		<Row>
+			<PolicyType>POLICY_STR_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_2</ModifierId>
+		</Row>
+		<!-- SCIENCE IN RESEARCH LAB -->
+		<Row>
+			<PolicyType>POLICY_STR_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_3</ModifierId>
+		</Row>
+		<!-- CULTURE IN RESEARCH LAB -->
+		<Row>
+			<PolicyType>POLICY_STR_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_4</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_THIRD_ALTERNATIVE</PolicyType>
+			<ModifierId>STR_THIRD_ALTERNATIVE_MOD_5</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- MARTIAL LAW -->
+	<Modifiers>
+		<!-- WAR WEARINESS BONUS -->
+		<Row>
+			<ModifierId>STR_MARTIAL_LAW_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+		</Row>
+		<!-- LOYALTY FROM GARRISON -->
+		<Row>
+			<ModifierId>STR_MARTIAL_LAW_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GARRISON_UNIT_REQUIERMENT</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- WAR WEARINESS BONUS -->
+		<Row>
+			<ModifierId>STR_MARTIAL_LAW_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_MARTIAL_LAW_MOD_1</ModifierId>
+			<Name>Overall</Name>
+			<Value>true</Value>
+		</Row>
+		<!-- LOYALTY FROM GARRISON -->
+		<Row>
+			<ModifierId>STR_MARTIAL_LAW_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- WAR WEARINESS BONUS -->
+		<Row>
+			<PolicyType>POLICY_STR_MARTIAL_LAW</PolicyType>
+			<ModifierId>STR_MARTIAL_LAW_MOD_1</ModifierId>
+		</Row>
+		<!-- LOYALTY FROM GARRISON -->
+		<Row>
+			<PolicyType>POLICY_STR_MARTIAL_LAW</PolicyType>
+			<ModifierId>STR_MARTIAL_LAW_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- PATRIOTIC WAR -->
+	<Modifiers>
+		<!-- PRODUCTION TOWARDS SUPPORT UNITS -->
+		<Row>
+			<ModifierId>STR_PATRIOTIC_WAR_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_PATRIOTIC_WAR_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- PRODUCTION TOWARDS SUPPORT UNITS -->
+		<Row>
+			<ModifierId>STR_PATRIOTIC_WAR_MOD_1</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_SUPPORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_PATRIOTIC_WAR_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_PATRIOTIC_WAR_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_PATRIOTIC_WAR_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- PRODUCTION TOWARDS SUPPORT UNITS -->
+		<Row>
+			<PolicyType>POLICY_STR_PATRIOTIC_WAR</PolicyType>
+			<ModifierId>STR_PATRIOTIC_WAR_MOD_1</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_PATRIOTIC_WAR</PolicyType>
+			<ModifierId>STR_PATRIOTIC_WAR_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- MASS ASSAULT TACTICS -->
+	<Modifiers>
+		<!-- BONUS MOVEMENT IN ENEMY TERRITORY -->
+		<Row>
+			<ModifierId>STR_MASS_ASSAULT_TACTICS_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_ENEMY_TERRITORY_START_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- BONUS MOVEMENT IN ENEMY TERRITORY -->
+		<Row>
+			<ModifierId>STR_MASS_ASSAULT_TACTICS_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- BONUS MOVEMENT IN ENEMY TERRITORY -->
+		<Row>
+			<PolicyType>POLICY_STR_MASS_ASSAULT_TACTICS</PolicyType>
+			<ModifierId>STR_MASS_ASSAULT_TACTICS_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- COLLABORATIVE GOVERNMENT -->
+	<Modifiers>
+		<!-- LOYALTY FROM GARRISON -->
+		<Row>
+			<ModifierId>STR_CONQUERORS_LAW_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+		</Row>
+		<!-- AMENITY FROM GARRISON -->
+		<Row>
+			<ModifierId>STR_CONQUERORS_LAW_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRAIT_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- LOYALTY FROM GARRISON -->
+		<Row>
+			<ModifierId>STR_CONQUERORS_LAW_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- AMENITY FROM GARRISON -->
+		<Row>
+			<ModifierId>STR_CONQUERORS_LAW_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- LOYALTY FROM GARRISON -->
+		<Row>
+			<PolicyType>POLICY_STR_CONQUERORS_LAW</PolicyType>
+			<ModifierId>STR_CONQUERORS_LAW_1</ModifierId>
+		</Row>
+		<!-- AMENITY FROM GARRISON -->
+		<Row>
+			<PolicyType>POLICY_STR_CONQUERORS_LAW</PolicyType>
+			<ModifierId>STR_CONQUERORS_LAW_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- POCKET DEFENSE -->
+	<Modifiers>
+		<!-- POCKET DEFENSE ABILITY -->
+		<Row>
+			<ModifierId>STR_POCKET_DEFENSE_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>OBJECT_IS_6_TILES_FROM_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- GOLD PENALTY IN CAPTIAL -->
+		<Row>
+			<ModifierId>STR_POCKET_DEFENSE_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- POCKET DEFENSE ABILITY -->
+		<Row>
+			<ModifierId>STR_POCKET_DEFENSE_MOD_1</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_STR_POCKET_DEFENSE_1</Value>
+		</Row>
+		<!-- GOLD PENALTY IN CAPTIAL -->
+		<Row>
+			<ModifierId>STR_POCKET_DEFENSE_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_POCKET_DEFENSE_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-6</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- POCKET DEFENSE ABILITY -->
+		<Row>
+			<PolicyType>POLICY_STR_POCKET_DEFENSE</PolicyType>
+			<ModifierId>STR_POCKET_DEFENSE_MOD_1</ModifierId>
+		</Row>
+		<!-- GOLD PENALTY IN CAPTIAL -->
+		<Row>
+			<PolicyType>POLICY_STR_POCKET_DEFENSE</PolicyType>
+			<ModifierId>STR_POCKET_DEFENSE_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- ARMOURED SPEARHEAD TACTICS -->
+	<Modifiers>
+		<!-- ARMOURED SPEARHEAD TACTICS ABILITY 1 -->
+		<Row>
+			<ModifierId>STR_ARMOURED_SPEARHEAD_TACTICS_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- ARMOURED SPEARHEAD TACTICS ABILITY 2 -->
+		<Row>
+			<ModifierId>STR_ARMOURED_SPEARHEAD_TACTICS_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>-->
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_ARMOURED_SPEARHEAD_TACTICS_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- ARMOURED SPEARHEAD TACTICS ABILITY 1 -->
+		<Row>
+			<ModifierId>STR_ARMOURED_SPEARHEAD_TACTICS_MOD_1</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_STR_ARMOURED_SPEARHEAD_TACTICS_1</Value>
+		</Row>
+		<!-- ARMOURED SPEARHEAD TACTICS ABILITY 2 -->
+		<Row>
+			<ModifierId>STR_ARMOURED_SPEARHEAD_TACTICS_MOD_2</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_STR_ARMOURED_SPEARHEAD_TACTICS_2</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_ARMOURED_SPEARHEAD_TACTICS_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARMOURED_SPEARHEAD_TACTICS_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-6</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- ARMOURED SPEARHEAD TACTICS ABILITY 1 -->
+		<Row>
+			<PolicyType>POLICY_STR_ARMOURED_SPEARHEAD_TACTICS</PolicyType>
+			<ModifierId>STR_ARMOURED_SPEARHEAD_TACTICS_MOD_1</ModifierId>
+		</Row>
+		<!-- ARMOURED SPEARHEAD TACTICS ABILITY 2 -->
+		<Row>
+			<PolicyType>POLICY_STR_ARMOURED_SPEARHEAD_TACTICS</PolicyType>
+			<ModifierId>STR_ARMOURED_SPEARHEAD_TACTICS_MOD_2</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_ARMOURED_SPEARHEAD_TACTICS</PolicyType>
+			<ModifierId>STR_ARMOURED_SPEARHEAD_TACTICS_MOD_3</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- SCOUTING PSYCHOLOGY -->
+	<Modifiers>
+		<!-- SCOUTING PSYCHOLOGY -->
+		<Row>
+			<ModifierId>STR_SCOUTING_PSYCHOLOGY_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_SCOUTING_PSYCHOLOGY_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- SCOUTING PSYCHOLOGY -->
+		<Row>
+			<ModifierId>STR_SCOUTING_PSYCHOLOGY_MOD_1</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_STR_SCOUTING_PSYCHOLOGY_1</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_SCOUTING_PSYCHOLOGY_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_SCOUTING_PSYCHOLOGY_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-4</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- SCOUTING PSYCHOLOGY -->
+		<Row>
+			<PolicyType>POLICY_STR_SCOUTING_PSYCHOLOGY</PolicyType>
+			<ModifierId>STR_SCOUTING_PSYCHOLOGY_MOD_1</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_SCOUTING_PSYCHOLOGY</PolicyType>
+			<ModifierId>STR_SCOUTING_PSYCHOLOGY_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- FOXHOLE TACTICS -->
+	<Modifiers>
+		<!-- FOXHOLE TACTICS ABILITY 1 -->
+		<Row>
+			<ModifierId>STR_FOXHOLE_TACTICS_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- FOXHOLE TACTICS ABILITY 2 -->
+		<Row>
+			<ModifierId>STR_FOXHOLE_TACTICS_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_FOXHOLE_TACTICS_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- FOXHOLE TACTICS ABILITY 1 -->
+		<Row>
+			<ModifierId>STR_FOXHOLE_TACTICS_MOD_1</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_STR_FOXHOLE_TACTICS_1</Value>
+		</Row>
+		<!-- FOXHOLE TACTICS ABILITY 2 -->
+		<Row>
+			<ModifierId>STR_FOXHOLE_TACTICS_MOD_2</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_STR_FOXHOLE_TACTICS_2</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_FOXHOLE_TACTICS_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FOXHOLE_TACTICS_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-6</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- FOXHOLE TACTICS ABILITY 1 -->
+		<Row>
+			<PolicyType>POLICY_STR_FOXHOLE_TACTICS</PolicyType>
+			<ModifierId>STR_FOXHOLE_TACTICS_MOD_1</ModifierId>
+		</Row>
+		<!-- FOXHOLE TACTICS ABILITY 2 -->
+		<Row>
+			<PolicyType>POLICY_STR_FOXHOLE_TACTICS</PolicyType>
+			<ModifierId>STR_FOXHOLE_TACTICS_MOD_2</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_FOXHOLE_TACTICS</PolicyType>
+			<ModifierId>STR_FOXHOLE_TACTICS_MOD_3</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+<!-- ECONOMIC POLICIES -->
+	
+	<!-- RESOURCE MANAGEMENT -->
+	<Modifiers>
+		<!-- ALUMINUM EXTRACTION BONUS -->
+		<Row>
+			<ModifierId>STR_RESOURCE_MANAGEMENT_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+		</Row>
+		<!-- OIL EXTRACTION BONUS -->
+		<Row>
+			<ModifierId>STR_RESOURCE_MANAGEMENT_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_RESOURCE_ACCUMULATION_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- ALUMINUM EXTRACTION BONUS -->
+		<Row>
+			<ModifierId>STR_RESOURCE_MANAGEMENT_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_RESOURCE_MANAGEMENT_MOD_1</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_ALUMINUM</Value>
+		</Row>
+		<!-- OIL EXTRACTION BONUS -->
+		<Row>
+			<ModifierId>STR_RESOURCE_MANAGEMENT_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_RESOURCE_MANAGEMENT_MOD_2</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_OIL</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- ALUMINUM EXTRACTION BONUS -->
+		<Row>
+			<PolicyType>POLICY_STR_RESOURCE_MANAGEMENT</PolicyType>
+			<ModifierId>STR_RESOURCE_MANAGEMENT_MOD_1</ModifierId>
+		</Row>
+		<!-- OIL EXTRACTION BONUS -->
+		<Row>
+			<PolicyType>POLICY_STR_RESOURCE_MANAGEMENT</PolicyType>
+			<ModifierId>STR_RESOURCE_MANAGEMENT_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- ALUMINUM STOCKPILING -->
+	<Modifiers>
+		<!-- ALUMINUM BONUS -->
+		<Row>
+			<ModifierId>STR_ALUMINUM_STOCKPILING_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_ALUMINUM_STOCKPILING_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- ALUMINUM BONUS -->
+		<Row>
+			<ModifierId>STR_ALUMINUM_STOCKPILING_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ALUMINUM_STOCKPILING_MOD_1</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_ALUMINUM</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_ALUMINUM_STOCKPILING_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ALUMINUM_STOCKPILING_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- ALUMINUM BONUS -->
+		<Row>
+			<PolicyType>POLICY_STR_ALUMINUM_STOCKPILING</PolicyType>
+			<ModifierId>STR_ALUMINUM_STOCKPILING_MOD_1</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_ALUMINUM_STOCKPILING</PolicyType>
+			<ModifierId>STR_ALUMINUM_STOCKPILING_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- OIL STOCKPILING -->
+	<Modifiers>
+		<!-- OIL EXTRACTION BONUS -->
+		<Row>
+			<ModifierId>STR_OIL_STOCKPILING_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_OIL_STOCKPILING_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- OIL EXTRACTION BONUS -->
+		<Row>
+			<ModifierId>STR_OIL_STOCKPILING_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_OIL_STOCKPILING_MOD_1</ModifierId>
+			<Name>ResourceType</Name>
+			<Value>RESOURCE_OIL</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_OIL_STOCKPILING_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_OIL_STOCKPILING_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- OIL EXTRACTION BONUS -->
+		<Row>
+			<PolicyType>POLICY_STR_OIL_STOCKPILING</PolicyType>
+			<ModifierId>STR_OIL_STOCKPILING_MOD_1</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_OIL_STOCKPILING</PolicyType>
+			<ModifierId>STR_OIL_STOCKPILING_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- MARKET ECONOMY -->
+	<Modifiers>
+		<!-- INTERNATIONAL TRADE GOLD PER LUXURY RESOURCE -->
+		<Row>
+			<ModifierId>STR_MARKET_ECONOMY_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_PER_DESTINATION_LUXURY_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+		<!-- INTERNATIONAL TRADE GOLD PER STRATEGIC RESOURCE -->
+		<Row>
+			<ModifierId>STR_MARKET_ECONOMY_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_PER_DESTINATION_STRATEGIC_FOR_INTERNATIONAL</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- INTERNATIONAL TRADE GOLD PER LUXURY RESOURCE -->
+		<Row>
+			<ModifierId>STR_MARKET_ECONOMY_MOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_MARKET_ECONOMY_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!-- INTERNATIONAL TRADE GOLD PER STRATEGIC RESOURCE -->
+		<Row>
+			<ModifierId>STR_MARKET_ECONOMY_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_MARKET_ECONOMY_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- INTERNATIONAL TRADE GOLD PER LUXURY RESOURCE -->
+		<Row>
+			<PolicyType>POLICY_STR_MARKET_ECONOMY</PolicyType>
+			<ModifierId>STR_MARKET_ECONOMY_MOD_1</ModifierId>
+		</Row>
+		<!-- INTERNATIONAL TRADE GOLD PER STRATEGIC RESOURCE -->
+		<Row>
+			<PolicyType>POLICY_STR_MARKET_ECONOMY</PolicyType>
+			<ModifierId>STR_MARKET_ECONOMY_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- ECONOMIC UNION -->
+	<Modifiers>
+		<!-- COMMERCIAL HUB GOLD MUTIPLIER -->
+		<Row>
+			<ModifierId>STR_ECONOMIC_UNION_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HARBOR</SubjectRequirementSetId>
+		</Row>
+		<!-- HARBOR GOLD MULTIPLIER -->
+		<Row>
+			<ModifierId>STR_ECONOMIC_UNION_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_COMMERCIAL_HUB</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- COMMERCIAL HUB GOLD MUTIPLIER -->
+		<Row>
+			<ModifierId>STR_ECONOMIC_UNION_MOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ECONOMIC_UNION_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!-- HARBOR GOLD MULTIPLIER -->
+		<Row>
+			<ModifierId>STR_ECONOMIC_UNION_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ECONOMIC_UNION_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- COMMERCIAL HUB GOLD MUTIPLIER -->
+		<Row>
+			<PolicyType>POLICY_STR_ECONOMIC_UNION</PolicyType>
+			<ModifierId>STR_ECONOMIC_UNION_MOD_1</ModifierId>
+		</Row>
+		<!-- HARBOR GOLD MULTIPLIER -->
+		<Row>
+			<PolicyType>POLICY_STR_ECONOMIC_UNION</PolicyType>
+			<ModifierId>STR_ECONOMIC_UNION_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- THEIR FINEST HOUR -->
+	<Modifiers>
+		<!-- THEIR FINEST HOUR ABILITY -->
+		<Row>
+			<ModifierId>STR_THEIR_FINEST_HOUR_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- THEIR FINEST HOUR ABILITY -->
+		<Row>
+			<ModifierId>STR_THEIR_FINEST_HOUR_MOD_1</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_FINEST_HOUR_FRIENDLY_TERRITORY</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- THEIR FINEST HOUR ABILITY -->
+		<Row>
+			<PolicyType>POLICY_STR_THEIR_FINEST_HOUR</PolicyType>
+			<ModifierId>STR_THEIR_FINEST_HOUR_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- NEW DEAL -->
+	<Modifiers>
+		<!-- AMENITIES AT 3 SPECIALTY DISTRICTS -->
+		<Row>
+			<ModifierId>STR_NEW_DEAL_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_3_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- HOUSING AT 3 SPECIALTY DISTRICTS -->
+		<Row>
+			<ModifierId>STR_NEW_DEAL_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_HOUSING</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_3_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- FOOD AT 3 SPECIALTY DISTRICT -->
+		<Row>
+			<ModifierId>STR_NEW_DEAL_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_3_SPECIALTY_DISTRICTS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_NEW_DEAL_MOD_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- AMENITIES AT 3 SPECIALTY DISTRICTS -->
+		<Row>
+			<ModifierId>STR_NEW_DEAL_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- HOUSING AT 3 SPECIALTY DISTRICTS -->
+		<Row>
+			<ModifierId>STR_NEW_DEAL_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<!-- FOOD AT 3 SPECIALTY DISTRICT -->
+		<Row>
+			<ModifierId>STR_NEW_DEAL_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_NEW_DEAL_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_NEW_DEAL_MOD_4</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_NEW_DEAL_MOD_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- AMENITIES AT 3 SPECIALTY DISTRICTS -->
+		<Row>
+			<PolicyType>POLICY_STR_NEW_DEAL</PolicyType>
+			<ModifierId>STR_NEW_DEAL_MOD_1</ModifierId>
+		</Row>
+		<!-- HOUSING AT 3 SPECIALTY DISTRICTS -->
+		<Row>
+			<PolicyType>POLICY_STR_NEW_DEAL</PolicyType>
+			<ModifierId>STR_NEW_DEAL_MOD_2</ModifierId>
+		</Row>
+		<!-- FOOD AT 3 SPECIALTY DISTRICT -->
+		<Row>
+			<PolicyType>POLICY_STR_NEW_DEAL</PolicyType>
+			<ModifierId>STR_NEW_DEAL_MOD_3</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_NEW_DEAL</PolicyType>
+			<ModifierId>STR_NEW_DEAL_MOD_4</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- FIVE YEAR PLAN -->
+	<Modifiers>
+		<!-- SCIENCE MULTPLIER IN CAMPUS -->
+		<Row>
+			<ModifierId>STR_FIVE_YEAR_PLAN_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_CAMPUS</SubjectRequirementSetId>
+		</Row>
+		<!-- PRODUCTION MULTIPLIER IN INDUSTRIAL ZONE -->
+		<Row>
+			<ModifierId>STR_FIVE_YEAR_PLAN_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_INDUSTRIAL_ZONE</SubjectRequirementSetId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_FIVE_YEAR_PLAN_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- SCIENCE MULTPLIER IN CAMPUS -->
+		<Row>
+			<ModifierId>STR_FIVE_YEAR_PLAN_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FIVE_YEAR_PLAN_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!-- PRODUCTION MULTIPLIER IN INDUSTRIAL ZONE -->
+		<Row>
+			<ModifierId>STR_FIVE_YEAR_PLAN_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FIVE_YEAR_PLAN_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_FIVE_YEAR_PLAN_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FIVE_YEAR_PLAN_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-4</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- SCIENCE MULTPLIER IN CAMPUS -->
+		<Row>
+			<PolicyType>POLICY_STR_FIVE_YEAR_PLAN</PolicyType>
+			<ModifierId>STR_FIVE_YEAR_PLAN_1</ModifierId>
+		</Row>
+		<!-- PRODUCTION MULTIPLIER IN INDUSTRIAL ZONE -->
+		<Row>
+			<PolicyType>POLICY_STR_FIVE_YEAR_PLAN</PolicyType>
+			<ModifierId>STR_FIVE_YEAR_PLAN_2</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_FIVE_YEAR_PLAN</PolicyType>
+			<ModifierId>STR_FIVE_YEAR_PLAN_3</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- COLLECTIVIZATION -->
+	<Modifiers>
+		<!-- DOMESTIC TRADE ROUTE FOOD -->
+		<Row>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<!-- DOMESTIC TRADE ROUTE PRODUCTION -->
+		<Row>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD_FOR_DOMESTIC</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- DOMESTIC TRADE ROUTE FOOD -->
+		<Row>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- DOMESTIC TRADE ROUTE PRODUCTION -->
+		<Row>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- DOMESTIC TRADE ROUTE FOOD -->
+		<Row>
+			<PolicyType>POLICY_STR_COLLECTIVIZATION</PolicyType>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_1</ModifierId>
+		</Row>
+		<!-- DOMESTIC TRADE ROUTE PRODUCTION -->
+		<Row>
+			<PolicyType>POLICY_STR_COLLECTIVIZATION</PolicyType>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_2</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_COLLECTIVIZATION</PolicyType>
+			<ModifierId>STR_COLLECTIVIZATION_MOD_3</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- OPEN IMMIGRATION -->
+	<Modifiers>
+		<!-- BONUS CITY GROWTH -->
+		<Row>
+			<ModifierId>STR_OPEN_IMMIGRATION_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>
+		<!-- AMENITY PENALTY -->
+		<Row>
+			<ModifierId>STR_OPEN_IMMIGRATION_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_OPEN_IMMIGRATION_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- BONUS CITY GROWTH -->
+		<Row>
+			<ModifierId>STR_OPEN_IMMIGRATION_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>40</Value>
+		</Row>
+		<!-- AMENITY PENALTY -->
+		<Row>
+			<ModifierId>STR_OPEN_IMMIGRATION_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_OPEN_IMMIGRATION_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_OPEN_IMMIGRATION_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- BONUS CITY GROWTH -->
+		<Row>
+			<PolicyType>POLICY_STR_OPEN_IMMIGRATION</PolicyType>
+			<ModifierId>STR_OPEN_IMMIGRATION_MOD_1</ModifierId>
+		</Row>
+		<!-- AMENITY PENALTY -->
+		<Row>
+			<PolicyType>POLICY_STR_OPEN_IMMIGRATION</PolicyType>
+			<ModifierId>STR_OPEN_IMMIGRATION_MOD_2</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_OPEN_IMMIGRATION</PolicyType>
+			<ModifierId>STR_OPEN_IMMIGRATION_MOD_3</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- FREIGHT SHIPPING -->
+	<Modifiers>
+		<!-- PRODUCTION TOWARDS TRADERS -->
+		<Row>
+			<ModifierId>STR_FREIGHT_SHIPPING_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType>
+		</Row>
+		<!-- BONUS TRADE ROUTE CAPACITY -->
+		<Row>
+			<ModifierId>STR_FREIGHT_SHIPPING_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- PRODUCTION TOWARDS TRADERS -->
+		<Row>
+			<ModifierId>STR_FREIGHT_SHIPPING_MOD_1</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FREIGHT_SHIPPING_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<!-- BONUS TRADE ROUTE CAPACITY -->
+		<Row>
+			<ModifierId>STR_FREIGHT_SHIPPING_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- PRODUCTION TOWARDS TRADERS -->
+		<Row>
+			<PolicyType>POLICY_STR_FREIGHT_SHIPPING</PolicyType>
+			<ModifierId>STR_FREIGHT_SHIPPING_MOD_1</ModifierId>
+		</Row>
+		<!-- BONUS TRADE ROUTE CAPACITY -->
+		<Row>
+			<PolicyType>POLICY_STR_FREIGHT_SHIPPING</PolicyType>
+			<ModifierId>STR_FREIGHT_SHIPPING_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- INCOME TAX-->
+	<Modifiers>
+		<!-- GOLD IN ALL CITIES -->
+		<Row>
+			<ModifierId>STR_INCOME_TAX_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GOLD IN ALL CITIES -->
+		<Row>
+			<ModifierId>STR_INCOME_TAX_MOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_INCOME_TAX_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- GOLD IN ALL CITIES -->
+		<Row>
+			<PolicyType>POLICY_STR_INCOME_TAX</PolicyType>
+			<ModifierId>STR_INCOME_TAX_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- FOUR-YEAR PLAN -->
+	<Modifiers>
+		<!-- PRODUCTION MODIFIER IN ALL CITIES -->
+		<Row>
+			<ModifierId>STR_FOUR_YEAR_PLAN_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<!-- GOLD MODIFIER IN ALL CITIES -->
+		<Row>
+			<ModifierId>STR_FOUR_YEAR_PLAN_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- PRODUCTION MODIFIER IN ALL CITIES -->
+		<Row>
+			<ModifierId>STR_FOUR_YEAR_PLAN_MOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FOUR_YEAR_PLAN_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<!-- GOLD MODIFIER IN ALL CITIES -->
+		<Row>
+			<ModifierId>STR_FOUR_YEAR_PLAN_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FOUR_YEAR_PLAN_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-75</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- PRODUCTION MODIFIER IN ALL CITIES -->
+		<Row>
+			<PolicyType>POLICY_STR_FOUR_YEAR_PLAN</PolicyType>
+			<ModifierId>STR_FOUR_YEAR_PLAN_MOD_1</ModifierId>
+		</Row>
+		<!-- GOLD MODIFIER IN ALL CITIES -->
+		<Row>
+			<PolicyType>POLICY_STR_FOUR_YEAR_PLAN</PolicyType>
+			<ModifierId>STR_FOUR_YEAR_PLAN_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- WELFARE PROGRAMS -->
+	<Modifiers>
+		<!-- GOLD MODIFIER IN ALL CITIES -->
+		<Row>
+			<ModifierId>STR_WELFARE_PROGRAMS_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<!-- AMENITY IN ALL CITIES -->
+		<Row>
+			<ModifierId>STR_WELFARE_PROGRAMS_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GOLD MODIFIER IN ALL CITIES -->
+		<Row>
+			<ModifierId>STR_WELFARE_PROGRAMS_MOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_WELFARE_PROGRAMS_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-50</Value>
+		</Row>
+		<!-- AMENITY IN ALL CITIES -->
+		<Row>
+			<ModifierId>STR_WELFARE_PROGRAMS_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- GOLD MODIFIER IN ALL CITIES -->
+		<Row>
+			<PolicyType>POLICY_STR_WELFARE_PROGRAMS</PolicyType>
+			<ModifierId>STR_WELFARE_PROGRAMS_MOD_1</ModifierId>
+		</Row>
+		<!-- AMENITY IN ALL CITIES -->
+		<Row>
+			<PolicyType>POLICY_STR_WELFARE_PROGRAMS</PolicyType>
+			<ModifierId>STR_WELFARE_PROGRAMS_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- FRACKING -->
+	<Modifiers>
+		<!-- GOLD ON MINES -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- MINES ON GRASSLAND -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<!-- MINES ON PLAINS -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<!-- MINES ON DESERT -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<!-- MINES ON TUNDRA -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<!-- MINES ON SNOW -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_6</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GOLD ON MINES -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_1 </ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- MINES ON GRASSLAND -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_2</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_2</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS</Value>
+		</Row>
+		<!-- MINES ON PLAINS -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_3</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_3</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS</Value>
+		</Row>
+		<!-- MINES ON DESERT -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_4</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_4</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<!-- MINES ON TUNDRA -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_5</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_5</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA</Value>
+		</Row>
+		<!-- MINES ON SNOW -->
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_6</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FRACKING_MOD_6</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- GOLD ON MINES -->
+		<Row>
+			<PolicyType>POLICY_STR_FRACKING</PolicyType>
+			<ModifierId>STR_FRACKING_MOD_1</ModifierId>
+		</Row>
+		<!-- MINES ON GRASSLAND -->
+		<Row>
+			<PolicyType>POLICY_STR_FRACKING</PolicyType>
+			<ModifierId>STR_FRACKING_MOD_2</ModifierId>
+		</Row>
+		<!-- MINES ON PLAINS -->
+		<Row>
+			<PolicyType>POLICY_STR_FRACKING</PolicyType>
+			<ModifierId>STR_FRACKING_MOD_3</ModifierId>
+		</Row>
+		<!-- MINES ON DESERT -->
+		<Row>
+			<PolicyType>POLICY_STR_FRACKING</PolicyType>
+			<ModifierId>STR_FRACKING_MOD_4</ModifierId>
+		</Row>
+		<!-- MINES ON TUNDRA -->
+		<Row>
+			<PolicyType>POLICY_STR_FRACKING</PolicyType>
+			<ModifierId>STR_FRACKING_MOD_5</ModifierId>
+		</Row>
+		<!-- MINES ON SNOW -->
+		<Row>
+			<PolicyType>POLICY_STR_FRACKING</PolicyType>
+			<ModifierId>STR_FRACKING_MOD_6</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+<!-- DIPLOMATIC POLICIES -->
+	
+	<!-- NUCLEAR ESPIONAGE -->
+	<Modifiers>
+		<!-- TECH BOOST STEAL BONUS -->
+		<Row>
+			<ModifierId>STR_NUCLEAR_ESPIONAGE_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_STEAL_TECH_BOOSTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- TECH BOOST STEAL BONUS -->
+		<Row>
+			<ModifierId>STR_NUCLEAR_ESPIONAGE_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- TECH BOOST STEAL BONUS -->
+		<Row>
+			<PolicyType>POLICY_STR_NUCLEAR_ESPIONAGE</PolicyType>
+			<ModifierId>STR_NUCLEAR_ESPIONAGE_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- ARSENAL OF DEMOCRACY -->
+	<Modifiers>
+		<!-- ALLIED TRADE ROUTE FOOD ONE -->
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_ALLY_ROUTE</ModifierType>
+		</Row>
+		<!-- ALLIED TRADE ROUTE PRODUCTION ONE -->
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_ALLY_ROUTE</ModifierType>
+		</Row>
+		<!-- ALLIED TRADE ROUTE FOOD TWO -->
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+		</Row>
+		<!-- ALLIED TRADE ROUTE PRODUCTION TWO -->
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+		</Row>
+		<!-- ALLIANCE POINTS BONUS -->
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_ALLIANCE_POINTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- ALLIED TRADE ROUTE FOOD ONE -->
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- ALLIED TRADE ROUTE PRODUCTION ONE -->
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- ALLIED TRADE ROUTE FOOD TWO -->
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- ALLIED TRADE ROUTE PRODUCTION TWO -->
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_4</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- ALLIANCE POINTS BONUS -->
+		<Row>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_5</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- ALLIED TRADE ROUTE FOOD ONE -->
+		<Row>
+			<PolicyType>POLICY_STR_ARSENAL_OF_DEMOCRACY</PolicyType>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_1</ModifierId>
+		</Row>
+		<!-- ALLIED TRADE ROUTE PRODUCTION ONE -->
+		<Row>
+			<PolicyType>POLICY_STR_ARSENAL_OF_DEMOCRACY</PolicyType>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_2</ModifierId>
+		</Row>
+		<!-- ALLIED TRADE ROUTE FOOD TWO -->
+		<Row>
+			<PolicyType>POLICY_STR_ARSENAL_OF_DEMOCRACY</PolicyType>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_3</ModifierId>
+		</Row>
+		<!-- ALLIED TRADE ROUTE PRODUCTION TWO -->
+		<Row>
+			<PolicyType>POLICY_STR_ARSENAL_OF_DEMOCRACY</PolicyType>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_4</ModifierId>
+		</Row>
+		<!-- ALLIANCE POINTS BONUS -->
+		<Row>
+			<PolicyType>POLICY_STR_ARSENAL_OF_DEMOCRACY</PolicyType>
+			<ModifierId>STR_ARSENAL_OF_DEMOCRACY_MOD_5</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+	<!-- GUNBOAT DIPLOMACY -->
+	<Modifiers>
+		<!-- CITY-STATE OPEN BORDERS -->
+		<Row>
+			<ModifierId>STR_GUNBOAT_DIPLOMACY_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_ADJUST_OPEN_BORDERS_FROM_INFLUENCE</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_MINOR</SubjectRequirementSetId>
+		</Row>
+		<!-- TOKEN POINTS PER TURN -->
+		<Row>
+			<ModifierId>STR_GUNBOAT_DIPLOMACY_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- TOKEN POINTS PER TURN -->
+		<Row>
+			<ModifierId>STR_GUNBOAT_DIPLOMACY_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- CITY-STATE OPEN BORDERS -->
+		<Row>
+			<PolicyType>POLICY_STR_GUNBOAT_DIPLOMACY</PolicyType>
+			<ModifierId>STR_GUNBOAT_DIPLOMACY_MOD_1</ModifierId>
+		</Row>
+		<!-- TOKEN POINTS PER TURN -->
+		<Row>
+			<PolicyType>POLICY_STR_GUNBOAT_DIPLOMACY</PolicyType>
+			<ModifierId>STR_GUNBOAT_DIPLOMACY_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- CRYPTOGRAPHY -->
+	<Modifiers>
+		<!-- CRYPTOGRAPHY 1 -->
+		<Row>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SPY_BONUS</ModifierType>
+		</Row>
+		<!-- CRYPTOGRAPHY 2 -->
+		<Row>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SPY_BONUS</ModifierType>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- CRYPTOGRAPHY 1 -->
+		<Row>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_1</ModifierId>
+			<Name>Offense</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- CRYPTOGRAPHY 2 -->
+		<Row>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_2</ModifierId>
+			<Name>Offense</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- CRYPTOGRAPHY 1 -->
+		<Row>
+			<PolicyType>POLICY_STR_CRYPTOGRAPHY</PolicyType>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_1</ModifierId>
+		</Row>
+		<!-- CRYPTOGRAPHY 2 -->
+		<Row>
+			<PolicyType>POLICY_STR_CRYPTOGRAPHY</PolicyType>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_2</ModifierId>
+		</Row>
+		<!-- CITY MAINTENANCE -->
+		<Row>
+			<PolicyType>POLICY_STR_CRYPTOGRAPHY</PolicyType>
+			<ModifierId>STR_CRYPTOGRAPHY_MOD_3</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+<!-- GREAT PERSON POLICIES -->
+	
+	<!-- FREE TRADING HERITAGE -->
+	<Modifiers>
+		<!-- GREAT MERCHANT POINTS PER TURN -->
+		<Row>
+			<ModifierId>STR_FREE_TRADING_HERITAGE_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GREAT MERCHANT POINTS PER TURN -->
+		<Row>
+			<ModifierId>STR_FREE_TRADING_HERITAGE_MOD_1</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_FREE_TRADING_HERITAGE_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- GREAT MERCHANT POINTS PER TURN -->
+		<Row>
+			<PolicyType>POLICY_STR_FREE_TRADING_HERITAGE</PolicyType>
+			<ModifierId>STR_FREE_TRADING_HERITAGE_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- SCIENTIFIC HERITAGE -->
+	<Modifiers>
+		<!-- GREAT SCIENTIST POINTS PER TURN -->
+		<Row>
+			<ModifierId>STR_SCIENTIFIC_HERITAGE_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GREAT SCIENTIST POINTS PER TURN -->
+		<Row>
+			<ModifierId>STR_SCIENTIFIC_HERITAGE_MOD_1</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_SCIENTIFIC_HERITAGE_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- GREAT SCIENTIST POINTS PER TURN -->
+		<Row>
+			<PolicyType>POLICY_STR_SCIENTIFIC_HERITAGE</PolicyType>
+			<ModifierId>STR_SCIENTIFIC_HERITAGE_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- LITERARY HERITAGE -->
+	<Modifiers>
+		<!-- GREAT WRITER BONUS -->
+		<Row>
+			<ModifierId>STR_LITERARY_HERITAGE_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GREAT WRITER BONUS -->
+		<Row>
+			<ModifierId>STR_LITERARY_HERITAGE_MOD_1</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_LITERARY_HERITAGE_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- GREAT WRITER BONUS -->
+		<Row>
+			<PolicyType>POLICY_STR_LITERARY_HERITAGE</PolicyType>
+			<ModifierId>STR_LITERARY_HERITAGE_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- ARTISTIC HERITAGE -->
+	<Modifiers>
+		<!-- BONUS GREAT ARTIST POINTS -->
+		<Row>
+			<ModifierId>STR_ARTISTIC_HERITAGE_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- BONUS GREAT ARTIST POINTS -->
+		<Row>
+			<ModifierId>STR_ARTISTIC_HERITAGE_MOD_1</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ARTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARTISTIC_HERITAGE_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- BONUS GREAT ARTIST POINTS -->
+		<Row>
+			<PolicyType>POLICY_STR_ARTISTIC_HERITAGE</PolicyType>
+			<ModifierId>STR_ARTISTIC_HERITAGE_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- CAREER OFFICERS -->
+	<Modifiers>
+		<!-- CAREER OFFICERS ABILITY -->
+		<Row>
+			<ModifierId>STR_CAREER_OFFICERS_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- CAREER OFFICERS ABILITY -->
+		<Row>
+			<ModifierId>STR_CAREER_OFFICERS_MOD_1</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_STR_CAREER_OFFICERS_1</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- CAREER OFFICERS ABILITY -->
+		<Row>
+			<PolicyType>POLICY_STR_CAREER_OFFICERS</PolicyType>
+			<ModifierId>STR_CAREER_OFFICERS_MOD_1</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+<!-- WILDCARD POLICIES -->
+
+	<!-- POLICE STATE -->
+	<Modifiers>
+		<!-- AMENITY PENALTY -->
+		<Row>
+			<ModifierId>STR_POLICE_STATE_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+		</Row>
+		<!-- SPY DEFENSE -->
+		<Row>
+			<ModifierId>STR_POLICE_STATE_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SPY_BONUS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- AMENITY PENALTY -->
+		<Row>
+			<ModifierId>STR_POLICE_STATE_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+		<!-- SPY DEFENSE -->
+		<Row>
+			<ModifierId>STR_POLICE_STATE_MOD_2</ModifierId>
+			<Name>Offense</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_POLICE_STATE_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- AMENITY PENALTY -->
+		<Row>
+			<PolicyType>POLICY_STR_POLICE_STATE</PolicyType>
+			<ModifierId>STR_POLICE_STATE_MOD_1</ModifierId>
+		</Row>
+		<!-- SPY DEFENSE -->
+		<Row>
+			<PolicyType>POLICY_STR_POLICE_STATE</PolicyType>
+			<ModifierId>STR_POLICE_STATE_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- DEFENSE OF THE MOTHERLAND -->
+	<Modifiers>
+		<!-- WAR WEARINESS IN HOME TERRITORY -->
+		<Row>
+			<ModifierId>STR_DEFENSE_OF_THE_MOTHERLAND_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+		</Row>
+		<!-- PRODUCTION TOWARDS SUPPORT UNITS -->
+		<Row>
+			<ModifierId>STR_DEFENSE_OF_THE_MOTHERLAND_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- WAR WEARINESS IN HOME TERRITORY -->
+		<Row>
+			<ModifierId>STR_DEFENSE_OF_THE_MOTHERLAND_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_DEFENSE_OF_THE_MOTHERLAND_MOD_1</ModifierId>
+			<Name>Domestic</Name>
+			<Value>true</Value>
+		</Row>
+		<!-- PRODUCTION TOWARDS SUPPORT UNITS -->
+		<Row>
+			<ModifierId>STR_DEFENSE_OF_THE_MOTHERLAND_MOD_2</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_SUPPORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_DEFENSE_OF_THE_MOTHERLAND_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- WAR WEARINESS IN HOME TERRITORY -->
+		<Row>
+			<PolicyType>POLICY_STR_DEFENSE_OF_THE_MOTHERLAND</PolicyType>
+			<ModifierId>STR_DEFENSE_OF_THE_MOTHERLAND_MOD_1</ModifierId>
+		</Row>
+		<!-- PRODUCTION TOWARDS SUPPORT UNITS -->
+		<Row>
+			<PolicyType>POLICY_STR_DEFENSE_OF_THE_MOTHERLAND</PolicyType>
+			<ModifierId>STR_DEFENSE_OF_THE_MOTHERLAND_MOD_2</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- MEIN KAMPF -->
+	<Modifiers>
+		<!-- BONUS GREAT GENERAL POINTS -->
+		<Row>
+			<ModifierId>STR_MEIN_KAMPF_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+		<!-- BONUS GREAT SCIENCE POINTS -->
+		<Row>
+			<ModifierId>STR_MEIN_KAMPF_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+		<!-- PRODUCTION TOWARDS HEAVY CAVALRY UNITS -->
+		<Row>
+			<ModifierId>STR_MEIN_KAMPF_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- BONUS GREAT GENERAL POINTS -->
+		<Row>
+			<ModifierId>STR_MEIN_KAMPF_MOD_1</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_MEIN_KAMPF_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<!-- BONUS GREAT SCIENCE POINTS -->
+		<Row>
+			<ModifierId>STR_MEIN_KAMPF_MOD_2</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_MEIN_KAMPF_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+		<!-- PRODUCTION TOWARDS HEAVY CAVALRY UNITS -->
+		<Row>
+			<ModifierId>STR_MEIN_KAMPF_MOD_3</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_MEIN_KAMPF_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- BONUS GREAT GENERAL POINTS -->
+		<Row>
+			<PolicyType>POLICY_STR_MEIN_KAMPF</PolicyType>
+			<ModifierId>STR_MEIN_KAMPF_MOD_1</ModifierId>
+		</Row>
+		<!-- BONUS GREAT SCIENCE POINTS -->
+		<Row>
+			<PolicyType>POLICY_STR_MEIN_KAMPF</PolicyType>
+			<ModifierId>STR_MEIN_KAMPF_MOD_2</ModifierId>
+		</Row>
+		<!-- PRODUCTION TOWARDS HEAVY CAVALRY UNITS -->
+		<Row>
+			<PolicyType>POLICY_STR_MEIN_KAMPF</PolicyType>
+			<ModifierId>STR_MEIN_KAMPF_MOD_3</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- DOCTRINE OF FASCISM -->
+	<Modifiers>
+		<!-- BONUS GREAT GENERAL POINTS -->
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+		<!-- BONUS GREAT ADMIRAL POINTS-->
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+		<!-- CULTURE IN MONUMENT -->
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- PRODUCTION TOWARDS NAVAL RAIDERS -->
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_MILITARY_UNITS_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- BONUS GREAT GENERAL POINTS -->
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_1</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_GENERAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- BONUS GREAT ADMIRAL POINTS-->
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_2</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_ADMIRAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- CULTURE IN MONUMENT -->
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_3</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MONUMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<!-- PRODUCTION TOWARDS NAVAL RAIDERS -->
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_4</ModifierId>
+			<Name>PromotionClass</Name>
+			<Value>PROMOTION_CLASS_NAVAL_RAIDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>120</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- BONUS GREAT GENERAL POINTS -->
+		<Row>
+			<PolicyType>POLICY_STR_DOCTRINE_OF_FASCISM</PolicyType>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_1</ModifierId>
+		</Row>
+		<!-- BONUS GREAT ADMIRAL POINTS-->
+		<Row>
+			<PolicyType>POLICY_STR_DOCTRINE_OF_FASCISM</PolicyType>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_2</ModifierId>
+		</Row>
+		<!-- CULTURE IN MONUMENT -->
+		<Row>
+			<PolicyType>POLICY_STR_DOCTRINE_OF_FASCISM</PolicyType>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_3</ModifierId>
+		</Row>
+		<!-- PRODUCTION TOWARDS NAVAL RAIDERS -->
+		<Row>
+			<PolicyType>POLICY_STR_DOCTRINE_OF_FASCISM</PolicyType>
+			<ModifierId>STR_DOCTRINE_OF_FASCISM_MOD_4</ModifierId>
+		</Row>
+	</PolicyModifiers>
+	
+	<!-- WONDER OF THE WORLD -->
+	<Modifiers>
+		<!-- PRODUCTION IN CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- SCIENCE IN CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- CULTURE IN CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPITAL_CITY_ADJUST_CITY_YIELD_CHANGE</ModifierType>
+		</Row>
+		<!-- PRODUCTION MODIFIER 6 TILES FROM CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA</ModifierType>
+			<SubjectRequirementSetId>OBJECT_IS_6_TILES_FROM_CAPITAL_NOT_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- SCIENCE MODIFIER 6 TILES FROM CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA</ModifierType>
+			<SubjectRequirementSetId>OBJECT_IS_6_TILES_FROM_CAPITAL_NOT_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- CULTURE MODIFIER 6 TILES FROM CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_6</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER_GRANCOLOMBIA_MAYA</ModifierType>
+			<SubjectRequirementSetId>OBJECT_IS_6_TILES_FROM_CAPITAL_NOT_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- PRODUCTION IN CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!-- SCIENCE IN CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!-- CULTURE IN CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!-- PRODUCTION MODIFIER 6 TILES FROM CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_4</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!-- SCIENCE MODIFIER 6 TILES FROM CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_5</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_5</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!-- CULTURE MODIFIER 6 TILES FROM CAPITAL -->
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_6</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_6</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<PolicyModifiers>
+		<!-- PRODUCTION IN CAPITAL -->
+		<Row>
+			<PolicyType>POLICY_STR_WONDER_OF_THE_WORLD</PolicyType>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_1</ModifierId>
+		</Row>
+		<!-- SCIENCE IN CAPITAL -->
+		<Row>
+			<PolicyType>POLICY_STR_WONDER_OF_THE_WORLD</PolicyType>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_2</ModifierId>
+		</Row>
+		<!-- CULTURE IN CAPITAL -->
+		<Row>
+			<PolicyType>POLICY_STR_WONDER_OF_THE_WORLD</PolicyType>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_3</ModifierId>
+		</Row>
+		<!-- PRODUCTION MODIFIER 6 TILES FROM CAPITAL -->
+		<Row>
+			<PolicyType>POLICY_STR_WONDER_OF_THE_WORLD</PolicyType>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_4</ModifierId>
+		</Row>
+		<!-- SCIENCE MODIFIER 6 TILES FROM CAPITAL -->
+		<Row>
+			<PolicyType>POLICY_STR_WONDER_OF_THE_WORLD</PolicyType>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_5</ModifierId>
+		</Row>
+		<!-- CULTURE MODIFIER 6 TILES FROM CAPITAL -->
+		<Row>
+			<PolicyType>POLICY_STR_WONDER_OF_THE_WORLD</PolicyType>
+			<ModifierId>STR_WONDER_OF_THE_WORLD_MOD_6</ModifierId>
+		</Row>
+	</PolicyModifiers>
+
+</GameData>

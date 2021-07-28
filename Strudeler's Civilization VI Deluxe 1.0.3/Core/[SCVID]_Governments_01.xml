@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Governments_01 -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 11:23:48 AM -->
+<GameData>
+
+<!-- GOVERNMENT CARD SLOTS -->
+	<Government_SlotCounts>
+		<!-- CHIEFDOM -->
+		<Row	GovernmentType="GOVERNMENT_CHIEFDOM"					GovernmentSlotType="SLOT_WILDCARD"	NumSlots="1"/>
+		<!-- AUTOCRACY -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_AUTOCRACY"				GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="2"/>
+		</Update>
+		<!-- CLASSICAL REPUBLIC -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_CLASSICAL_REPUBLIC"		GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="2"/>
+		</Update>
+		<!-- OLIGARCHY -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_OLIGARCHY"				GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="2"/>
+		</Update>
+		<!-- MONARCHY -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_MONARCHY"					GovernmentSlotType="SLOT_MILITARY"/>
+			<Set NumSlots="3"/>
+		</Update>
+	<!--<Update>
+			<Where GovernmentType="GOVERNMENT_MONARCHY"					GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="3"/>
+		</Update>-->
+		<!-- THEOCRACY -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_THEOCRACY"				GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="2"/>
+		</Update>
+		<!-- MERCHANT REPUBLIC -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC"		GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="2"/>
+		</Update>
+		<!-- DEMOCRACY -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_DEMOCRACY"				GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="3"/>
+		</Update>
+		<!-- FASCISM -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_FASCISM"					GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="3"/>
+		</Update>
+		<!-- COMMUNISM -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_COMMUNISM"				GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="2"/>
+		</Update>
+		<!-- SYNTHETIC TECHNOCRACY -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_SYNTHETIC_TECHNOCRACY"	GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="6"/>
+		</Update>
+		<!-- CORPORATE LIBERTARIANISM -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_CORPORATE_LIBERTARIANISM"	GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="6"/>
+		</Update>
+		<!-- DIGITAL DEMOCRACY -->
+		<Update>
+			<Where GovernmentType="GOVERNMENT_DIGITAL_DEMOCRACY"		GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set NumSlots="6"/>
+		</Update>
+	</Government_SlotCounts>
+
+</GameData>

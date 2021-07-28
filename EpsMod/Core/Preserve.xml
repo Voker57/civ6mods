@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Buildings>
+		<Update><Where BuildingType="BUILDING_GROVE"/><Set><Description>LOC_BUILDING_GROVE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where BuildingType="BUILDING_SANCTUARY"/><Set><Description>LOC_BUILDING_SANCTUARY_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Buildings>
+	
+	<Adjacent_AppealYieldChanges>
+		<Update><Where DistrictType="DISTRICT_PRESERVE" MinimumValue="4" YieldType="YIELD_CULTURE" BuildingType="BUILDING_GROVE"/><Set><YieldChange>1</YieldChange></Set></Update>
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="1" YieldType="YIELD_GOLD" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_GROVE"/>
+		
+		<Update><Where DistrictType="DISTRICT_PRESERVE" MinimumValue="2" YieldType="YIELD_GOLD" BuildingType="BUILDING_SANCTUARY"/><Set><YieldChange>2</YieldChange></Set></Update>
+		<Update><Where DistrictType="DISTRICT_PRESERVE" MinimumValue="2" YieldType="YIELD_SCIENCE" BuildingType="BUILDING_SANCTUARY"/><Set><YieldType>YIELD_PRODUCTION</YieldType></Set></Update>
+		<Update><Where DistrictType="DISTRICT_PRESERVE" MinimumValue="4" YieldType="YIELD_SCIENCE" BuildingType="BUILDING_SANCTUARY"/><Set><YieldChange>1</YieldChange></Set></Update>
+		<Row DistrictType="DISTRICT_PRESERVE" MinimumValue="4" MaximumValue="100" YieldChange="1" YieldType="YIELD_FAITH" Unimproved="true" Description="LOC_TOOLTIP_APPEAL_BREATHTAKING" BuildingType="BUILDING_SANCTUARY"/>
+	</Adjacent_AppealYieldChanges>
+</GameData>

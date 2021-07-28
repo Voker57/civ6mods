@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+	<Types>
+		<Row Type="EPSMOD_YEREVAN_ABILITY" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<Traits>
+		<Update><Where TraitType="MINOR_CIV_BABYLON_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_BABYLON_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_ANTANANARIVO_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_ANTANANARIVO_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_AMSTERDAM_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_AMSTERDAM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_ANTIOCH_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_AMSTERDAM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_ARMAGH_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_ARMAGH_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_JAKARTA_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_JAKARTA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_STOCKHOLM_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_STOCKHOLM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_BOLOGNA_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_STOCKHOLM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_CAGUANA_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_CAGUANA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_CAHOKIA_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_CAHOKIA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_CHINGUETTI_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_CHINGUETTI_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_CARTHAGE_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_CARTHAGE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_NGAZARGAMU_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_CARTHAGE_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_FEZ_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_FEZ_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_GRANADA_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_GRANADA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_KANDY_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_KANDY_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_KUMASI_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_KUMASI_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_LA_VENTA_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_LA_VENTA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_LISBON_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_LISBON_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_TORONTO_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_TORONTO_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_MEXICO_CITY_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_TORONTO_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_MUSCAT_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_MUSCAT_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_NALANDA_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_NALANDA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_NAN_MADOL_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_NAN_MADOL_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_NAZCA_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_NAZCA_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_PRESLAV_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_PRESLAV_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_RAPA_NUI_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_RAPA_NUI_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_SAMARKAND_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_SAMARKAND_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_VILNIUS_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_VILNIUS_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="MINOR_CIV_YEREVAN_TRAIT"/><Set><Description>LOC_LEADER_TRAIT_YEREVAN_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="MINOR_CIV_STOCKHOLM_TRAIT" ModifierId="MINOR_CIV_STOCKHOLM_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_STOCKHOLM_TRAIT" ModifierId="MINOR_CIV_STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_STOCKHOLM_TRAIT" ModifierId="MINOR_CIV_STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_STOCKHOLM_TRAIT" ModifierId="MINOR_CIV_STOCKHOLM_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_STOCKHOLM_TRAIT" ModifierId="MINOR_CIV_STOCKHOLM_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_STOCKHOLM_TRAIT" ModifierId="MINOR_CIV_STOCKHOLM_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_STOCKHOLM_TRAIT" ModifierId="MINOR_CIV_STOCKHOLM_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_STOCKHOLM_TRAIT" ModifierId="MINOR_CIV_STOCKHOLM_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_GENERAL_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ADMIRAL_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ENGINEER_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_MERCHANT_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_PROPHET_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_WRITER_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_ARTIST_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_BOLOGNA_TRAIT" ModifierId="MINOR_CIV_BOLOGNA_UNIQUE_INFLUENCE_GREAT_MUSICIAN_POINTS_BONUS"/>
+		<Delete TraitType="MINOR_CIV_KUMASI_TRAIT" ModifierId="MINOR_CIV_KUMASI_UNIQUE_INFLUENCE_TRADE_GOLD_BONUS"/>
+		<Delete TraitType="MINOR_CIV_VILNIUS_TRAIT" ModifierId="MINOR_CIV_VILNIUS_UNIQUE_INFLUENCE_ALLIANCE_LEVEL_1"/>
+		<Delete TraitType="MINOR_CIV_VILNIUS_TRAIT" ModifierId="MINOR_CIV_VILNIUS_UNIQUE_INFLUENCE_ALLIANCE_LEVEL_2"/>
+		<Delete TraitType="MINOR_CIV_VILNIUS_TRAIT" ModifierId="MINOR_CIV_VILNIUS_UNIQUE_INFLUENCE_ALLIANCE_LEVEL_3"/>
+
+		<Row TraitType="MINOR_CIV_LISBON_TRAIT" ModifierId="EPSMOD_LISBON_CAPACITY_ATTACH"/>
+		<Row TraitType="MINOR_CIV_TORONTO_TRAIT" ModifierId="EPSMOD_TORONTO_PRODUCTION_INDUSTRIAL_ATTACH"/>
+		<Row TraitType="MINOR_CIV_TORONTO_TRAIT" ModifierId="EPSMOD_TORONTO_PRODUCTION_ENTERTAINMENT_ATTACH"/>
+		<Row TraitType="MINOR_CIV_TORONTO_TRAIT" ModifierId="EPSMOD_TORONTO_PRODUCTION_WATERPARK_ATTACH"/>
+		<Row TraitType="MINOR_CIV_MEXICO_CITY_TRAIT" ModifierId="EPSMOD_TORONTO_PRODUCTION_INDUSTRIAL_ATTACH"/>
+		<Row TraitType="MINOR_CIV_MEXICO_CITY_TRAIT" ModifierId="EPSMOD_TORONTO_PRODUCTION_ENTERTAINMENT_ATTACH"/>
+		<Row TraitType="MINOR_CIV_MEXICO_CITY_TRAIT" ModifierId="EPSMOD_TORONTO_PRODUCTION_WATERPARK_ATTACH"/>
+		<Row TraitType="MINOR_CIV_NAN_MADOL_TRAIT" ModifierId="EPSMOD_NAN_MADOL_GOLD_ATTACH"/>
+		<Row TraitType="MINOR_CIV_PRESLAV_TRAIT" ModifierId="EPSMOD_PRESLAV_LOYALTY_ATTACH"/>
+		<Row TraitType="MINOR_CIV_VILNIUS_TRAIT" ModifierId="EPSMOD_VILNIUS_CAMPUS_ATTACH"/>
+		<Row TraitType="MINOR_CIV_VILNIUS_TRAIT" ModifierId="EPSMOD_VILNIUS_THEATRE_ATTACH"/>
+	</TraitModifiers>
+	
+
+	<Improvements>
+		<Update><Where ImprovementType="IMPROVEMENT_ALCAZAR"/><Set><Description>LOC_IMPROVEMENT_ALCAZAR_DESCRIPTION_ESPTWEAK</Description></Set></Update>
+		<Update><Where ImprovementType="IMPROVEMENT_BATEY"/><Set><Description>LOC_IMPROVEMENT_BATEY_DESCRIPTION_ESPTWEAK</Description></Set></Update>
+		<Update><Where ImprovementType="IMPROVEMENT_COLOSSAL_HEAD"/><Set><Description>LOC_IMPROVEMENT_COLOSSAL_HEAD_DESCRIPTION_ESPTWEAK</Description></Set></Update>
+		<Update><Where ImprovementType="IMPROVEMENT_MAHAVIHARA"/><Set><Description>LOC_IMPROVEMENT_MAHAVIHARA_DESCRIPTION_ESPTWEAK</Description></Set></Update>
+		<Update><Where ImprovementType="IMPROVEMENT_MOAI"/><Set><Description>LOC_IMPROVEMENT_MOAI_DESCRIPTION_ESPTWEAK</Description></Set></Update>
+		<Update><Where ImprovementType="IMPROVEMENT_MONASTERY"/><Set><Description>LOC_IMPROVEMENT_MONASTERY_DESCRIPTION_ESPTWEAK</Description></Set></Update>
+		<Update><Where ImprovementType="IMPROVEMENT_MOUND"/><Set><Description>LOC_IMPROVEMENT_MOUND_DESCRIPTION_ESPTWEAK</Description></Set></Update>
+		<Update><Where ImprovementType="IMPROVEMENT_NAZCA_LINE"/><Set><Description>LOC_IMPROVEMENT_NAZCA_LINE_DESCRIPTION_ESPTWEAK</Description></Set></Update>
+		<Update><Where ImprovementType="IMPROVEMENT_TRADING_DOME"/><Set><Description>LOC_IMPROVEMENT_TRADING_DOME_DESCRIPTION_ESPTWEAK</Description></Set></Update>
+	</Improvements>
+	
+	<Improvement_YieldChanges>
+		<Update><Where ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldType="YIELD_CULTURE"/><Set><YieldChange>1</YieldChange></Set></Update>
+	</Improvement_YieldChanges>
+
+	<Adjacency_YieldChanges>
+		<Update><Where ID="Monastery_DistrictAdjacency"/><Set><YieldType>YIELD_SCIENCE</YieldType></Set></Update>
+	</Adjacency_YieldChanges>
+
+	<Improvement_Adjacencies>
+		<Delete ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldChangeId="ColossalHead_FaithForestEarly"/>
+		<Delete ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldChangeId="ColossalHead_FaithJungleEarly"/>
+		<Delete ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldChangeId="ColossalHead_FaithForestLate"/>
+		<Delete ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" YieldChangeId="ColossalHead_FaithJungleLate"/>
+		<Delete ImprovementType="IMPROVEMENT_MAHAVIHARA" YieldChangeId="Mahavihara_Campus_Science_Early"/>
+		<Delete ImprovementType="IMPROVEMENT_MAHAVIHARA" YieldChangeId="Mahavihara_Campus_Science_Late"/>
+	</Improvement_Adjacencies>
+	
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_MOAI" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+	
+	<ImprovementModifiers>
+		<Row><ImprovementType>IMPROVEMENT_COLOSSAL_HEAD</ImprovementType><ModifierId>EPSMOD_COLOSSAL_HEAD_APPEAL_FAITH</ModifierId></Row>
+	</ImprovementModifiers>
+
+	<Tags>
+		<Row Tag="EPSMOD_CLASS_APOSTLE" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+	<TypeTags>
+		<Row Type="UNIT_APOSTLE" Tag="EPSMOD_CLASS_APOSTLE"/>
+		<Row Type="EPSMOD_YEREVAN_ABILITY" Tag="EPSMOD_CLASS_APOSTLE"/>
+	</TypeTags>
+
+	<Units>
+		<Update><Where UnitType="UNIT_LAHORE_NIHANG"/><Set><Combat>23</Combat></Set></Update>
+	</Units>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="EPSMOD_YEREVAN_ABILITY" Inactive="true"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row><UnitAbilityType>EPSMOD_YEREVAN_ABILITY</UnitAbilityType><ModifierId>EPSMOD_YEREVAN_ABILITY_BONUS</ModifierId></Row>
+	</UnitAbilityModifiers>
+	
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CHINGUETTI_TRADE_ROUTE_FAITH</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_KANDY_MARTYR</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType><Permanent>true</Permanent></Row>
+		<Row><ModifierId>EPSMOD_KANDY_RELIC_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_COLOSSAL_HEAD_APPEAL_FAITH</ModifierId><ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType><SubjectRequirementSetId>EPSMOD_COLOSSAL_HEAD_IS_CHARMING</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_LISBON_CAPACITY_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType><SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_LISBON_CAPACITY_BONUS</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_INDUSTRIAL_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType><SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_INDUSTRIAL_BONUS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_ENTERTAINMENT_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType><SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_ENTERTAINMENT_BONUS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_WATERPARK_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType><SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_WATERPARK_BONUS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_NAN_MADOL_GOLD_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType><SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_NAN_MADOL_GOLD_BONUS</ModifierId><ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType><SubjectRequirementSetId>PLOT_IS_OR_ADJACENT_TO_COAST</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_PRESLAV_LOYALTY_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType><SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_PRESLAV_LOYALTY_BONUS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_VILNIUS_CAMPUS_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType><SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_VILNIUS_CAMPUS_BOMB</ModifierId><ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_VILNIUS_THEATRE_ATTACH</ModifierId><ModifierType>MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER</ModifierType><SubjectRequirementSetId>PLAYER_IS_SUZERAIN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_VILNIUS_THEATRE_BOMB</ModifierId><ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_YEREVAN_RELIGIOUS_STRENGTH</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_YEREVAN_ABILITY_BONUS</ModifierId><ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Update><Where ModifierId="MINOR_CIV_BABYLON_GREAT_WORK_WRITING_SCIENCE" Name="YieldChange"/><Set><Value>1</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_ANTANANARIVO_CULTURE_FROM_EARNED_GREAT_PEOPLE_BONUS" Name="Amount"/><Set><Value>1</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_AMSTERDAM_LUXURY_TRADE_ROUTE_BONUS" Name="Amount"/><Set><Value>2</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_ANTIOCH_LUXURY_TRADE_ROUTE_BONUS" Name="Amount"/><Set><Value>2</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_JAKARTA_TRADING_POST_BONUS" Name="YieldType"/><Set><Value>YIELD_PRODUCTION</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_STOCKHOLM_GREAT_SCIENTIST_POINTS_BONUS" Name="Amount"/><Set><Value>2</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_BOLOGNA_GREAT_SCIENTIST_POINTS_BONUS" Name="Amount"/><Set><Value>2</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_CHINGUETTI_UNIQUE_INFLUENCE_BONUS" Name="ModifierId"/><Set><Value>EPSMOD_CHINGUETTI_TRADE_ROUTE_FAITH</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_CARTHAGE_BARRACKS_STABLE_PURCHASE_BONUS" Name="Amount"/><Set><Value>10</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_CARTHAGE_ARMORY_PURCHASE_BONUS" Name="Amount"/><Set><Value>10</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_CARTHAGE_MILITARY_ACADEMY_PURCHASE_BONUS" Name="Amount"/><Set><Value>10</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_NGAZARGAMU_BARRACKS_STABLE_PURCHASE_BONUS" Name="Amount"/><Set><Value>10</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_NGAZARGAMU_ARMORY_PURCHASE_BONUS" Name="Amount"/><Set><Value>10</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_NGAZARGAMU_MILITARY_ACADEMY_PURCHASE_BONUS" Name="Amount"/><Set><Value>10</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_FEZ_INITIATION_SCIENCE_POPULATION" Name="Amount"/><Set><Value>15</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_KANDY_UNIQUE_INFLUENCE_GRANT_BONUS" Name="ModifierId"/><Set><Value>EPSMOD_KANDY_MARTYR</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_KANDY_UNIQUE_INFLUENCE_BETTER_RELIC_BONUS" Name="ModifierId"/><Set><Value>EPSMOD_KANDY_RELIC_CULTURE</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_KUMASI_CULTURE_TRADE_ROUTE_YIELD_BONUS" Name="Amount"/><Set><Value>1</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_MUSCAT_COMMERCIAL_HUB_AMENITY_BONUS" Name="Amount"/><Set><Value>2</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_NAN_MADOL_DISTRICTS_CULTURE_BONUS" Name="Amount"/><Set><Value>1</Value></Set></Update>
+		<Update><Where ModifierId="MINOR_CIV_YEREVAN_UNIQUE_INFLUENCE_BONUS" Name="ModifierId"/><Set><Value>EPSMOD_YEREVAN_RELIGIOUS_STRENGTH</Value></Set></Update>
+
+		<Row><ModifierId>EPSMOD_CHINGUETTI_TRADE_ROUTE_FAITH</ModifierId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_CHINGUETTI_TRADE_ROUTE_FAITH</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_KANDY_MARTYR</ModifierId><Name>PromotionType</Name><Value>PROMOTION_MARTYR</Value></Row>
+		<Row><ModifierId>EPSMOD_KANDY_RELIC_CULTURE</ModifierId><Name>GreatWorkObjectType</Name><Value>GREATWORKOBJECT_RELIC</Value></Row>
+		<Row><ModifierId>EPSMOD_KANDY_RELIC_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_KANDY_RELIC_CULTURE</ModifierId><Name>YieldChange</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_COLOSSAL_HEAD_APPEAL_FAITH</ModifierId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_COLOSSAL_HEAD_APPEAL_FAITH</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_LISBON_CAPACITY_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_LISBON_CAPACITY_BONUS</Value></Row>
+		<Row><ModifierId>EPSMOD_LISBON_CAPACITY_BONUS</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_INDUSTRIAL_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_TORONTO_PRODUCTION_INDUSTRIAL_BONUS</Value></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_INDUSTRIAL_BONUS</ModifierId><Name>DistrictType</Name><Value>DISTRICT_INDUSTRIAL_ZONE</Value></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_INDUSTRIAL_BONUS</ModifierId><Name>Amount</Name><Value>30</Value></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_ENTERTAINMENT_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_TORONTO_PRODUCTION_ENTERTAINMENT_BONUS</Value></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_ENTERTAINMENT_BONUS</ModifierId><Name>DistrictType</Name><Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_ENTERTAINMENT_BONUS</ModifierId><Name>Amount</Name><Value>30</Value></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_WATERPARK_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_TORONTO_PRODUCTION_WATERPARK_BONUS</Value></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_WATERPARK_BONUS</ModifierId><Name>DistrictType</Name><Value>DISTRICT_WATER_ENTERTAINMENT_COMPLEX</Value></Row>
+		<Row><ModifierId>EPSMOD_TORONTO_PRODUCTION_WATERPARK_BONUS</ModifierId><Name>Amount</Name><Value>30</Value></Row>
+		<Row><ModifierId>EPSMOD_NAN_MADOL_GOLD_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_NAN_MADOL_GOLD_BONUS</Value></Row>
+		<Row><ModifierId>EPSMOD_NAN_MADOL_GOLD_BONUS</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_NAN_MADOL_GOLD_BONUS</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_PRESLAV_LOYALTY_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_PRESLAV_LOYALTY_BONUS</Value></Row>
+		<Row><ModifierId>EPSMOD_PRESLAV_LOYALTY_BONUS</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_VILNIUS_CAMPUS_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_VILNIUS_CAMPUS_BOMB</Value></Row>
+		<Row><ModifierId>EPSMOD_VILNIUS_CAMPUS_BOMB</ModifierId><Name>DistrictType</Name><Value>DISTRICT_CAMPUS</Value></Row>
+		<Row><ModifierId>EPSMOD_VILNIUS_THEATRE_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_VILNIUS_THEATRE_BOMB</Value></Row>
+		<Row><ModifierId>EPSMOD_VILNIUS_THEATRE_BOMB</ModifierId><Name>DistrictType</Name><Value>DISTRICT_THEATER</Value></Row>
+		<Row><ModifierId>EPSMOD_YEREVAN_RELIGIOUS_STRENGTH</ModifierId><Name>AbilityType</Name><Value>EPSMOD_YEREVAN_ABILITY</Value></Row>
+		<Row><ModifierId>EPSMOD_YEREVAN_ABILITY_BONUS</ModifierId><Name>Amount</Name><Value>5</Value></Row>
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_COLOSSAL_HEAD_IS_CHARMING</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_COLOSSAL_HEAD_IS_CHARMING</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_COLOSSAL_HEAD_CHARMING</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_COLOSSAL_HEAD_CHARMING</RequirementId><RequirementType>REQUIREMENT_PLOT_IS_APPEAL_BETWEEN</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_COLOSSAL_HEAD_CHARMING</RequirementId><Name>MinimumAppeal</Name><Value>2</Value></Row>
+	</RequirementArguments>
+
+
+	<ModifierStrings>
+		<Row ModifierId="EPSMOD_YEREVAN_ABILITY_BONUS" Context="Preview" Text="LOC_EPSMOD_YEREVAN_ABILITY_BONUS_DESCRIPTION"/>
+	</ModifierStrings>
+	
+</GameData>

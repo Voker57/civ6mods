@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Resolutions>
+		<Delete ResolutionType="WC_RES_BORDER_CONTROL" />
+		<Delete ResolutionType="WC_RES_LUXURY" />
+		<Delete ResolutionType="WC_RES_DEFORESTATION_TREATY" />
+		<Delete ResolutionType="WC_RES_HERITAGE_ORG" />
+		<Delete ResolutionType="WC_RES_PUBLIC_RELATIONS" />
+		<Delete ResolutionType="WC_RES_PUBLIC_WORKS" />
+
+		<Update><Where ResolutionType="WC_RES_URBAN_DEVELOPMENT"/><Set><LatestEra>ERA_MEDIEVAL</LatestEra></Set></Update>
+		<Update><Where ResolutionType="WC_RES_TRADE_TREATY"/><Set><LatestEra>ERA_RENAISSANCE</LatestEra></Set></Update>
+		<Update><Where ResolutionType="WC_RES_PATRONAGE"/><Set><EarliestEra>ERA_MEDIEVAL</EarliestEra><LatestEra>ERA_RENAISSANCE</LatestEra></Set></Update>
+		<Update><Where ResolutionType="WC_RES_MIGRATION_TREATY"/><Set><EarliestEra>ERA_MEDIEVAL</EarliestEra><LatestEra>ERA_INDUSTRIAL</LatestEra></Set></Update>
+		<Update><Where ResolutionType="WC_RES_SOVEREIGNTY"/><Set><EarliestEra>ERA_RENAISSANCE</EarliestEra><LatestEra>ERA_INDUSTRIAL</LatestEra></Set></Update>
+		<Update><Where ResolutionType="WC_RES_MILITARY_ADVISORY"/><Set><EarliestEra>ERA_RENAISSANCE</EarliestEra><LatestEra>ERA_INDUSTRIAL</LatestEra></Set></Update>
+		<Update><Where ResolutionType="WC_RES_GLOBAL_ENERGY_TREATY"/><Set><EarliestEra>ERA_INDUSTRIAL</EarliestEra><LatestEra>ERA_MODERN</LatestEra></Set></Update>
+		<Update><Where ResolutionType="WC_RES_ESPIONAGE_PACT"/><Set><EarliestEra>ERA_INDUSTRIAL</EarliestEra><LatestEra>ERA_MODERN</LatestEra></Set></Update>
+		<Update><Where ResolutionType="WC_RES_WORLD_IDEOLOGY"/><Set><EarliestEra>ERA_MODERN</EarliestEra></Set></Update>
+		
+		<Update>
+			<Where ResolutionType="WC_RES_MERCENARY_COMPANIES"/>
+			<Set>
+				<LatestEra>ERA_MEDIEVAL</LatestEra>
+				<Effect1Description>LOC_WORLD_CONGRESS_BAN_PRODUCTION_YIELD_DESC_EPSMOD</Effect1Description>
+				<Effect2Description>LOC_WORLD_CONGRESS_BUFF_PRODUCTION_YIELD_DESC_EPSMOD</Effect2Description>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where ResolutionType="WC_RES_WORLD_RELIGION"/>
+			<Set>
+				<EarliestEra>ERA_MEDIEVAL</EarliestEra>
+				<LatestEra>ERA_RENAISSANCE</LatestEra>
+				<Effect2Description>LOC_WORLD_CONGRESS_BAN_RELIGION_DESC_EPSMOD</Effect2Description>
+			</Set>
+		</Update>
+		
+		<Update>
+			<Where ResolutionType="WC_RES_ARMS_CONTROL"/>
+			<Set>
+				<Effect1Description>LOC_WORLD_CONGRESS_BUFF_ARMS_CONTROL_DESC_EPSMOD</Effect1Description>
+				<Effect2Description>LOC_WORLD_CONGRESS_NERF_ARMS_CONTROL_DESC_EPSMOD</Effect2Description>
+			</Set>
+		</Update>
+	</Resolutions>
+	
+	<ResolutionEffects>
+		<Update><Where ResolutionType="WC_RES_WORLD_RELIGION" WhichEffect="2"/><Set><ModifierId>EPSMOD_CONGRESS_RELIGION_NERF</ModifierId></Set></Update>
+		<Update><Where ResolutionType="WC_RES_ARMS_CONTROL" WhichEffect="1"/><Set><ModifierId>EPSMOD_CONGRESS_FREE_URANIUM_ATTACH</ModifierId></Set></Update>
+		<Row ResolutionEffectId="66" ResolutionType="WC_RES_ARMS_CONTROL" WhichEffect="2" ModifierId="EPSMOD_BAN_REGULAR_NUKES_ATTACH"/>
+		<Row ResolutionEffectId="67" ResolutionType="WC_RES_ARMS_CONTROL" WhichEffect="2" ModifierId="EPSMOD_BAN_THERMO_NUKES_ATTACH"/>
+	</ResolutionEffects>
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CONGRESS_RELIGION_NERF</ModifierId><ModifierType>MODIFIER_MAJOR_PLAYERS_ADJUST_UNITS_RELIGIOUS_STRENGTH_BY_RELIGION_TYPE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CONGRESS_FREE_URANIUM_ATTACH</ModifierId><ModifierType>MODIFIER_CONGRESS_ATTACH_MODIFIER_TO_PLAYERTYPE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CONGRESS_FREE_URANIUM</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_EXTRACTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BAN_REGULAR_NUKES_ATTACH</ModifierId><ModifierType>MODIFIER_CONGRESS_ATTACH_MODIFIER_TO_PLAYERTYPE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BAN_REGULAR_NUKES</ModifierId><ModifierType>MODIFIER_MAJOR_PLAYERS_ADJUST_BANNED_CITY_PRODUCTION</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BAN_THERMO_NUKES_ATTACH</ModifierId><ModifierType>MODIFIER_CONGRESS_ATTACH_MODIFIER_TO_PLAYERTYPE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BAN_THERMO_NUKES</ModifierId><ModifierType>MODIFIER_MAJOR_PLAYERS_ADJUST_BANNED_CITY_PRODUCTION</ModifierType></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_CONGRESS_RELIGION_NERF</ModifierId><Name>Amount</Name><Value>-5</Value></Row>
+		<Row><ModifierId>EPSMOD_CONGRESS_FREE_URANIUM_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_CONGRESS_FREE_URANIUM</Value></Row>
+		<Row><ModifierId>EPSMOD_CONGRESS_FREE_URANIUM</ModifierId><Name>ResourceType</Name><Value>RESOURCE_URANIUM</Value></Row>
+		<Row><ModifierId>EPSMOD_CONGRESS_FREE_URANIUM</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_BAN_REGULAR_NUKES_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_BAN_REGULAR_NUKES</Value></Row>
+		<Row><ModifierId>EPSMOD_BAN_REGULAR_NUKES</ModifierId><Name>ProjectType</Name><Value>PROJECT_BUILD_NUCLEAR_DEVICE</Value></Row>
+		<Row><ModifierId>EPSMOD_BAN_THERMO_NUKES_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_BAN_THERMO_NUKES</Value></Row>
+		<Row><ModifierId>EPSMOD_BAN_THERMO_NUKES</ModifierId><Name>ProjectType</Name><Value>PROJECT_BUILD_THERMONUCLEAR_DEVICE</Value></Row>
+	</ModifierArguments>
+</GameData>

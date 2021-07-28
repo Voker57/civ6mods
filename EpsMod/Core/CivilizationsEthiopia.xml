@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_LEADER_MENELIK"/><Set><Description>LOC_TRAIT_LEADER_MENELIK_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_LEADER_MENELIK" ModifierId="TRAIT_FAITH_INTO_SCIENCE_HILLS"/>
+		<Delete TraitType="TRAIT_LEADER_MENELIK" ModifierId="TRAIT_FAITH_INTO_CULTURE_HILLS"/>
+
+		<Row TraitType="TRAIT_LEADER_MENELIK" ModifierId="EPSMOD_CIVS_ETHIOPIA_HOLY_SITE_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_MENELIK" ModifierId="EPSMOD_CIVS_ETHIOPIA_HOLY_SITE_CULTURE"/>
+		<Row TraitType="TRAIT_LEADER_MENELIK" ModifierId="EPSMOD_CIVS_ETHIOPIA_CITY_CENTER_SCIENCE"/>
+		<Row TraitType="TRAIT_LEADER_MENELIK" ModifierId="EPSMOD_CIVS_ETHIOPIA_CITY_CENTER_CULTURE"/>
+	</TraitModifiers>
+
+	
+	<Improvements>
+		<Update><Where ImprovementType="IMPROVEMENT_ROCK_HEWN_CHURCH"/><Set><Description>LOC_IMPROVEMENT_ROCK_HEWN_CHURCH_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Improvements>
+
+	<Improvement_YieldChanges>
+		<Update><Where ImprovementType="IMPROVEMENT_ROCK_HEWN_CHURCH"/><Set><YieldChange>2</YieldChange></Set></Update>
+	</Improvement_YieldChanges>
+	
+	<Improvement_Adjacencies>
+		<Delete ImprovementType="IMPROVEMENT_ROCK_HEWN_CHURCH" YieldChangeId="Hills_Faith1"/>
+		<Delete ImprovementType="IMPROVEMENT_ROCK_HEWN_CHURCH" YieldChangeId="Hills_Faith2"/>
+		<Delete ImprovementType="IMPROVEMENT_ROCK_HEWN_CHURCH" YieldChangeId="Hills_Faith3"/>
+		<Delete ImprovementType="IMPROVEMENT_ROCK_HEWN_CHURCH" YieldChangeId="Hills_Faith4"/>
+		<Delete ImprovementType="IMPROVEMENT_ROCK_HEWN_CHURCH" YieldChangeId="Hills_Faith5"/>
+	</Improvement_Adjacencies>
+	
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_HOLY_SITE_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_HOLY_SITE_SCIENCE</ModifierId><ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE_ENLIGHTENED</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_CITY_CENTER_CULTURE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_CITY_CENTER</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_CITY_CENTER_SCIENCE</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_CITY_CENTER_ENLIGHTENED</SubjectRequirementSetId></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_HOLY_SITE_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_HOLY_SITE_CULTURE</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_HOLY_SITE_SCIENCE</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_HOLY_SITE_SCIENCE</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_CITY_CENTER_CULTURE</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_CITY_CENTER_CULTURE</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_CITY_CENTER_SCIENCE</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_ETHIOPIA_CITY_CENTER_SCIENCE</ModifierId><Name>Amount</Name><Value>10</Value></Row>
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE_ENLIGHTENED</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_CITY_CENTER</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_CITY_CENTER_ENLIGHTENED</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_SHRINE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_HOLY_STIE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_HILLS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE_ENLIGHTENED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_SHRINE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE_ENLIGHTENED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_HOLY_STIE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE_ENLIGHTENED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_HILLS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_HOLY_SITE_ENLIGHTENED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_ENLIGHTENMENT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_CITY_CENTER</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_HILLS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_CITY_CENTER_ENLIGHTENED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_HILLS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_ETHIOPIAN_CITY_CENTER_ENLIGHTENED</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_ENLIGHTENMENT</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_SHRINE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_HOLY_STIE</RequirementId><RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_HILLS</RequirementId><RequirementType>REQUIREMENT_PLOT_IS_HILLS</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_ENLIGHTENMENT</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_SHRINE</RequirementId><Name>BuildingType</Name><Value>BUILDING_SHRINE</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_HOLY_STIE</RequirementId><Name>DistrictType</Name><Value>DISTRICT_HOLY_SITE</Value></Row>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_ETHIOPIAN_ENLIGHTENMENT</RequirementId><Name>CivicType</Name><Value>CIVIC_THE_ENLIGHTENMENT</Value></Row>
+	</RequirementArguments>
+	
+</GameData>

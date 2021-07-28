@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Players>
+		
+		<Update><Where LeaderType="LEADER_T_ROOSEVELT"/><Set><LeaderName>LOC_LEADER_T_ROOSEVELT_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_SALADIN"/><Set><LeaderName>LOC_LEADER_SALADIN_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_PEDRO"/><Set><LeaderName>LOC_LEADER_PEDRO_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_QIN"/><Set><LeaderName>LOC_LEADER_QIN_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_CLEOPATRA"/><Set><LeaderName>LOC_LEADER_CLEOPATRA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_VICTORIA"/><Set><LeaderName>LOC_LEADER_VICTORIA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_CATHERINE_DE_MEDICI"/><Set><LeaderName>LOC_LEADER_CATHERINE_DE_MEDICI_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_BARBAROSSA"/><Set><LeaderName>LOC_LEADER_BARBAROSSA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_GORGO"/><Set><LeaderName>LOC_LEADER_GORGO_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_PERICLES"/><Set><LeaderName>LOC_LEADER_PERICLES_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_GANDHI"/><Set><LeaderName>LOC_LEADER_GANDHI_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_HOJO"/><Set><LeaderName>LOC_LEADER_HOJO_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_MVEMBA"/><Set><LeaderName>LOC_LEADER_MVEMBA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_HARDRADA"/><Set><LeaderName>LOC_LEADER_HARDRADA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_TRAJAN"/><Set><LeaderName>LOC_LEADER_TRAJAN_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_PETER_GREAT"/><Set><LeaderName>LOC_LEADER_PETER_GREAT_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_TOMYRIS"/><Set><LeaderName>LOC_LEADER_TOMYRIS_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_PHILIP_II"/><Set><LeaderName>LOC_LEADER_PHILIP_II_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_GILGAMESH"/><Set><LeaderName>LOC_LEADER_GILGAMESH_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		
+		<Update><Where LeaderType="LEADER_POUNDMAKER"/><Set><LeaderName>LOC_LEADER_POUNDMAKER_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_TAMAR"/><Set><LeaderName>LOC_LEADER_TAMAR_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_CHANDRAGUPTA"/><Set><LeaderName>LOC_LEADER_CHANDRAGUPTA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_SEONDEOK"/><Set><LeaderName>LOC_LEADER_SEONDEOK_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_LAUTARO"/><Set><LeaderName>LOC_LEADER_LAUTARO_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_GENGHIS_KHAN"/><Set><LeaderName>LOC_LEADER_GENGHIS_KHAN_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_WILHELMINA"/><Set><LeaderName>LOC_LEADER_WILHELMINA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_ROBERT_THE_BRUCE"/><Set><LeaderName>LOC_LEADER_ROBERT_THE_BRUCE_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_SHAKA"/><Set><LeaderName>LOC_LEADER_SHAKA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		
+		<Update><Where LeaderType="LEADER_LAURIER"/><Set><LeaderName>LOC_LEADER_LAURIER_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_ELEANOR_ENGLAND"/><Set><LeaderName>LOC_LEADER_ELEANOR_ENGLAND_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_ELEANOR_FRANCE"/><Set><LeaderName>LOC_LEADER_ELEANOR_FRANCE_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_MATTHIAS_CORVINUS"/><Set><LeaderName>LOC_LEADER_MATTHIAS_CORVINUS_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_PACHACUTI"/><Set><LeaderName>LOC_LEADER_PACHACUTI_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_MANSA_MUSA"/><Set><LeaderName>LOC_LEADER_MANSA_MUSA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_KUPE"/><Set><LeaderName>LOC_LEADER_KUPE_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_SULEIMAN"/><Set><LeaderName>LOC_LEADER_SULEIMAN_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_DIDO"/><Set><LeaderName>LOC_LEADER_DIDO_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_KRISTINA"/><Set><LeaderName>LOC_LEADER_KRISTINA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+				
+		<Update><Where LeaderType="LEADER_JOHN_CURTIN"/><Set><LeaderName>LOC_LEADER_JOHN_CURTIN_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_MONTEZUMA"/><Set><LeaderName>LOC_LEADER_MONTEZUMA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_GITARJA"/><Set><LeaderName>LOC_LEADER_GITARJA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_JAYAVARMAN"/><Set><LeaderName>LOC_LEADER_JAYAVARMAN_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_ALEXANDER"/><Set><LeaderName>LOC_LEADER_ALEXANDER_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_CYRUS"/><Set><LeaderName>LOC_LEADER_CYRUS_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_AMANITORE"/><Set><LeaderName>LOC_LEADER_AMANITORE_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_JADWIGA"/><Set><LeaderName>LOC_LEADER_JADWIGA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		
+		<Update><Where LeaderType="LEADER_HAMMURABI"/><Set><LeaderName>LOC_LEADER_HAMMURABI_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_BASIL"/><Set><LeaderName>LOC_LEADER_BASIL_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_AMBIORIX"/><Set><LeaderName>LOC_LEADER_AMBIORIX_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_CATHERINE_DE_MEDICI_ALT"/><Set><LeaderName>LOC_LEADER_CATHERINE_DE_MEDICI_ALT_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_MENELIK"/><Set><LeaderName>LOC_LEADER_MENELIK_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_SIMON_BOLIVAR"/><Set><LeaderName>LOC_LEADER_SIMON_BOLIVAR_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_LADY_SIX_SKY"/><Set><LeaderName>LOC_LEADER_LADY_SIX_SKY_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_KUBLAI_KHAN_CHINA"/><Set><LeaderName>LOC_LEADER_KUBLAI_KHAN_CHINA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_KUBLAI_KHAN_MONGOLIA"/><Set><LeaderName>LOC_LEADER_KUBLAI_KHAN_MONGOLIA_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_LADY_TRIEU"/><Set><LeaderName>LOC_LEADER_LADY_TRIEU_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_JOAO_III"/><Set><LeaderName>LOC_LEADER_JOAO_III_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_T_ROOSEVELT_ROUGHRIDER"/><Set><LeaderName>LOC_LEADER_T_ROOSEVELT_ROUGHRIDER_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		
+		<Update><Where LeaderType="LEADER_YOGSAA_LEWIS"/><Set><LeaderName>LOC_LEADER_YOGSAA_LEWIS_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_YOGSAA_DUNCAN"/><Set><LeaderName>LOC_LEADER_YOGSAA_DUNCAN_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_YOGSAA_RYTHIAN"/><Set><LeaderName>LOC_LEADER_YOGSAA_RYTHIAN_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_YOGSAA_DALTOS"/><Set><LeaderName>LOC_LEADER_YOGSAA_DALTOS_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_YOGSAA_BEN"/><Set><LeaderName>LOC_LEADER_YOGSAA_BEN_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_YOGSAA_PYRION"/><Set><LeaderName>LOC_LEADER_YOGSAA_PYRION_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_YOGSAA_TOM"/><Set><LeaderName>LOC_LEADER_YOGSAA_TOM_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_YOGSAA_SIMONC"/><Set><LeaderName>LOC_LEADER_YOGSAA_SIMONC_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_YOGSAA_SPIFF"/><Set><LeaderName>LOC_LEADER_YOGSAA_SPIFF_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_YOGSAA_ALEX"/><Set><LeaderName>LOC_LEADER_YOGSAA_ALEX_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		
+	</Players>
+	
+</GameData>

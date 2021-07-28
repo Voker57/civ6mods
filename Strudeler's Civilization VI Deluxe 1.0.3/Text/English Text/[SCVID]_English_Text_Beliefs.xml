@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Beliefs -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 5:30:05 PM -->
+<GameData>
+
+	<!-- FOUNDER BELIEFS -->
+	<LocalizedText>
+		<!-- (FOUNDER) INTERFAITH DIALOGUE -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_INTERFAITH_DIALOGUE_NAME"									Language="en_US">
+			<Text>Interfaith Dialogue</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_INTERFAITH_DIALOGUE_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +1 [ICON_Science] Science from every City and every 7 [ICON_Citizen] Followers of the [ICON_Religion] Religion.</Text>
+		</Row>
+		<!-- (FOUNDER) CROSS-CULTURAL DIALOGUE -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_CROSS_CULTURAL_DIALOGUE_NAME"								Language="en_US">
+			<Text>Cross-Cultural Dialogue</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_CROSS_CULTURAL_DIALOGUE_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +1 [ICON_Culture] Culture from every City and every 7 [ICON_Citizen] Followers of the [ICON_Religion] Religion.</Text>
+		</Row>
+		<!-- (FOUNDER) TITHE -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_TITHE_NAME"												Language="en_US">
+			<Text>Tithe</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_TITHE_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus)+2 [ICON_Gold] Gold from every City and +1 [ICON_Gold] Gold for every 6 [ICON_Citizen] Followers of the [ICON_Religion] Religion.</Text>
+		</Row>
+		<!-- (FOUNDER) PILGRIMAGE -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_PILGRIMAGE_NAME"											Language="en_US">
+			<Text>Pilgrimage</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_PILGRIMAGE_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +2 [ICON_Faith] Faith from every City and +1 [ICON_Faith] Faith for every 6 [ICON_Citizen] Followers of the [ICON_Religion] Religion.</Text>
+		</Row>
+		<!-- (FOUNDER) ASCETICISM -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_ASCETICISM_NAME"											Language="en_US">
+			<Text>Asceticism</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_ASCETICISM_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +1 [ICON_Envoy] Envoy when City-States first adopt the [ICON_Religion] Religion or when a quest is complete.[NEWLINE][ICON_Bullet](Founder Bonus) +1 [ICON_Envoy] Envoy token points per turn.[NEWLINE][ICON_Bullet](Founder Bonus) +4 [ICON_Favor] Diplomatic Favor per turn.[NEWLINE][ICON_Bullet](Founder Bonus) +4 [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith from City-State Suzerainty.</Text>
+		</Row>
+		<!-- (FOUNDER) EPISCOPAL ORGANIZATION -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_EPISCOPAL_ORGANIZATION_NAME"								Language="en_US">
+			<Text>Episcopal Organization</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_EPISCOPAL_ORGANIZATION_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +1 [ICON_Envoy] Envoy when City-States first adopt the [ICON_Religion] Religion or when a quest is complete.[NEWLINE][ICON_Bullet](Founder Bonus) +1 [ICON_Envoy] Envoy token points per turn.[NEWLINE][ICON_Bullet](Founder Bonus) +5% [ICON_Gold] Gold and [ICON_Faith] Faith per City-State Suzerainty.</Text>
+		</Row>
+		<!-- (FOUNDER) LAMA SCHOOLS -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_LAMA_SCHOOLS_NAME"											Language="en_US">
+			<Text>Lama Schools</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_LAMA_SCHOOLS_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +1 [ICON_Envoy] Envoy when City-States first adopt the [ICON_Religion] Religion or when a quest is complete.[NEWLINE][ICON_Bullet](Founder Bonus) +1 [ICON_Envoy] Envoy token points per turn.[NEWLINE][ICON_Bullet](Founder Bonus) Sent [ICON_Envoy] Envoys spread 1000 [ICON_Religion] Religious pressure to their City-State.[NEWLINE][ICON_Bullet](Founder Bonus) +2 [ICON_Faith] Faith for every [ICON_Envoy] Envoy sent to a City-State.</Text>
+		</Row>
+		<!-- (FOUNDER) HOLY LAND -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_HOLY_LAND_NAME"											Language="en_US">
+			<Text>Holy Land</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_HOLY_LAND_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain +1 [ICON_Culture] Culture and [ICON_Faith] Faith from Cities following the [ICON_Religion] Religion that have a [ICON_DISTRICT_THEATER] Theater Square; bonus +3 [ICON_Culture] Culture and [ICON_Faith] Faith from [ICON_DISTRICT_WONDER] Wonders in Cities following the [ICON_Religion] Religion.</Text>
+		</Row>
+		<!-- (FOUNDER) RELIGIOUS LEGALISM -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_RELIGIOUS_LEGALISM_NAME"									Language="en_US">
+			<Text>Religious Legalism</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_RELIGIOUS_LEGALISM_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain +1 [ICON_Science] Science and [ICON_Faith] Faith if Cities following the [ICON_Religion] Religion that have a [ICON_DISTRICT_CAMPUS] Campus; bonus +3 [ICON_Science] Science and [ICON_Faith] Faith from [ICON_DISTRICT_WONDER] Wonders in Cities following the [ICON_Religion] Religion.</Text>
+		</Row>
+		<!-- (FOUNDER) DIVINATION -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_DIVINATION_NAME"											Language="en_US">
+			<Text>Divination</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_DIVINATION_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain +2 [ICON_Faith] Faith from Cities following the [ICON_Religion] Religion that have a [ICON_DISTRICT_HOLYSITE] Holy Site; bonus +8 [ICON_Faith] Faith from [ICON_DISTRICT_WONDER] Wonders in Cities following the [ICON_Religion] Religion.</Text>
+		</Row>
+		<!-- (FOUNDER) ORACLES -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_ORACLES_NAME"												Language="en_US">
+			<Text>Oracles</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_ORACLES_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain +2 [ICON_Gold] Gold from Cities following the [ICON_Religion] Religion that have a [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hub or [ICON_DISTRICT_HARBOR] Harbor; bonus +6 [ICON_Gold] Gold from [ICON_DISTRICT_WONDER] Wonders in Cities following the [ICON_Religion] Religion.</Text>
+		</Row>
+		<!-- (FOUNDER) EXODUS -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_EXODUS_NAME"												Language="en_US">
+			<Text>Exodus</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_EXODUS_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +20% [ICON_Food] Growth in Cities.</Text>
+		</Row>
+		<!-- (FOUNDER) FERTILITY RITES -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_FERTILITY_RITES_NAME"										Language="en_US">
+			<Text>Fertility Rites</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_FERTILITY_RITES_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +30% [ICON_Food] Food in Cities while the player is at peace.</Text>
+		</Row>
+		<!-- (FOUNDER) PYTHAGOREAN SCIENCES -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_PYTHAGOREAN_SCIENCES_NAME"									Language="en_US">
+			<Text>Pythagorean Sciences</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_PYTHAGOREAN_SCIENCES_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +15% [ICON_Science] Science in Cities while the player is at peace.</Text>
+		</Row>
+		<!-- (FOUNDER) CHTHONIC CULT -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_CHTHONIC_CULT_NAME"										Language="en_US">
+			<Text>Chthonic Cult</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_CHTHONIC_CULT_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +15% [ICON_Culture] Culture in Cities while the player is at peace.</Text>
+		</Row>
+		<!-- (FOUNDER) CIVIL SERVICE -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_CIVIL_SERVICE_NAME"										Language="en_US">
+			<Text>Civil Service</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_CIVIL_SERVICE_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +15% [ICON_Production] Production in Cities while the player is at peace.</Text>
+		</Row>
+		<!-- (FOUNDER) CLERICAL BANKING -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_CLERICAL_BANKING_NAME"										Language="en_US">
+			<Text>Clerical Banking</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_CLERICAL_BANKING_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +30% [ICON_Gold] Gold in Cities while the player is at peace.</Text>
+		</Row>
+		<!-- (FOUNDER) SALAAM -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_SALAAM_NAME"												Language="en_US">
+			<Text>Salaam</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_SALAAM_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +30% [ICON_Faith] Faith in Cities while the player is at peace.</Text>
+		</Row>
+		<!-- (FOUNDER) QIBLA INDICATOR -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_QIBLA_INDICATOR_NAME"										Language="en_US">
+			<Text>Qibla Indicator</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_QIBLA_INDICATOR_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain 10 [ICON_Science] Science per [ICON_Citizen] Population of a City when a [ICON_Religion] Religious Unit converts it for the first time.[NEWLINE][ICON_Bullet](Founder Bonus) 15% [ICON_Faith] Faith Discount when purchasing [ICON_Religion] Missionaries.</Text>
+		</Row>
+		<!-- (FOUNDER) EPIC POETRY -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_EPIC_POETRY_NAME"											Language="en_US">
+			<Text>Epic Poetry</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_EPIC_POETRY_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain 10 [ICON_Culture] Culture per [ICON_Citizen] Population of a City when a [ICON_Religion] Religious Unit converts it for the first time.[NEWLINE][ICON_Bullet](Founder Bonus) 15% [ICON_Faith] Faith Discount when purchasing [ICON_Religion] Missionaries.</Text>
+		</Row>
+		<!-- (FOUNDER) TELEVANGELISM -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_TELEVANGELISM_NAME"										Language="en_US">
+			<Text>Televangelism</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_TELEVANGELISM_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain 20 [ICON_Gold] Gold per [ICON_Citizen] Population of a City when a [ICON_Religion] Religious Unit converts it for the first time.[NEWLINE][ICON_Bullet](Founder Bonus) [ICON_Religion] Apostles begin with the [ICON_Promotion] Indulgence Vendor Promotion.[NEWLINE][ICON_Bullet](Founder Bonus) 15% [ICON_Faith] Faith Discount when purchasing [ICON_Religion] Apostles.</Text>
+		</Row>
+		<!-- (FOUNDER) MERKABAH MYSTICISM -->
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_MERKABAH_MYSTICISM_NAME"									Language="en_US">
+			<Text>Merkabah Mysticism</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOUNDER_MERKABAH_MYSTICISM_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain 30 [ICON_Faith] Faith per [ICON_Citizen] Population of a City when a [ICON_Religion] Religious Unit converts it for the first time.[NEWLINE][ICON_Bullet](Founder Bonus) 15% [ICON_Faith] Faith Discount when purchasing [ICON_Religion] Missionaries, Apostles, Inquisitors, and Gurus.</Text>
+		</Row>
+	</LocalizedText>
+
+<!-- FOLLOWER BELIEFS -->
+	<LocalizedText>
+		<!-- (FOLLOWER) CASTE SYSTEM -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_CASTE_SYSTEM_NAME"										Language="en_US">
+			<Text>Caste System</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_CASTE_SYSTEM_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) +1 [ICON_Production] Production and +2 [ICON_Faith] Faith in [ICON_Buildings] Palace, Monument, Granary, Watermill, Sewer, and Shrine; bonus doubled in Temple.</Text>
+		</Row>
+		<!-- (FOLLOWER) ZEN MEDITATION -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_ZEN_MEDITATION_NAME"										Language="en_US">
+			<Text>Zen Meditation</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_ZEN_MEDITATION_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) +1 [ICON_Amenities] Amenity in Cities following the [ICON_Religion] Religion; bonus doubled in Cities with 2 [ICON_District] Specialty Districts.[NEWLINE][ICON_Bullet](City Bonus) +2 [ICON_Faith] Faith in [ICON_Buildings] Monument, Shrine, and Temple.</Text>
+		</Row>
+		<!-- (FOLLOWER) RELIQUARIES -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_RELIQUARIES_NAME"											Language="en_US">
+			<Text>Reliquaries</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_RELIQUARIES_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) +600% [ICON_Faith] Faith in [ICON_GreatWork_Relic] Relics.[NEWLINE][ICON_Bullet](City Bonus) +300% [ICON_Tourism] Tourism in [ICON_GreatWork_Relic] Relics.[NEWLINE][ICON_Bullet](City Bonus) +4 [ICON_Science] Science in [ICON_Buildings] Temple.</Text>
+		</Row>
+		<!-- (FOLLOWER) COMMUNAL PRACTICES -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_COMMUNAL_PRACTICES_NAME"									Language="en_US">
+			<Text>Communal Practices</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_COMMUNAL_PRACTICES_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) +5% [ICON_Production] Production towards District Projects in Cities, per City following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](City Bonus) +3 [ICON_Production] Production in [ICON_Buildings] Monument and Granary.</Text>
+		</Row>
+		<!-- (FOLLOWER) MERCHANT MISSIONS -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_MERCHANT_MISSIONS_NAME"									Language="en_US">
+			<Text>Merchant Missions</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_MERCHANT_MISSIONS_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) International [ICON_TradeRoute] Trade Routes gain +3 [ICON_Gold] Gold and [ICON_Faith] Faith per [ICON_Buildings] Shrine and Temple in the origin City.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_Production] Production, as well as +2 [ICON_Food] Food and [ICON_Faith] Faith in [ICON_Buildings] Market and Lighthouse.</Text>
+		</Row>
+		<!-- (FOLLOWER) RELIGIOUS EDUCATION -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_RELIGIOUS_EDUCATION_NAME"									Language="en_US">
+			<Text>Religious Education</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_RELIGIOUS_EDUCATION_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) [ICON_DISTRICT_CAMPUS] Campus and [ICON_DISTRICT_THEATER] Theater Square [ICON_Buildings] Buildings can be purchased with [ICON_Faith] Faith.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_GreatScientist] Great Scientist point in [ICON_DISTRICT_CAMPUS] Campus.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_GreatWriter] Great Writer point in [ICON_DISTRICT_THEATER] Theater Square.[NEWLINE][ICON_Bullet](City Bonus)+2 [ICON_Faith] Faith in [ICON_Buildings] Library and Amphitheater.</Text>
+		</Row>
+		<!-- (FOLLOWER) SCIENCE AND THEOLOGY -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_SCIENCE_AND_THEOLOGY_NAME"								Language="en_US">
+			<Text>Science and Theology</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_SCIENCE_AND_THEOLOGY_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) +1% [ICON_Science] Science in a City per [ICON_Citizen] Follower.[NEWLINE][ICON_Bullet](City Bonus) +2 [ICON_Science] Science and [ICON_Faith] Faith in [ICON_Buildings] Library and Temple.</Text>
+		</Row>
+		<!-- (FOLLOWER) RELIGIOUS PATRONAGE -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_RELIGIOUS_PATRONAGE_NAME"									Language="en_US">
+			<Text>Religious Patronage</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_RELIGIOUS_PATRONAGE_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) +1% [ICON_Culture] Culture in a City per [ICON_Citizen] Follower.[NEWLINE][ICON_Bullet](City Bonus) +2 [ICON_Culture] Culture and [ICON_Faith] Faith in [ICON_Buildings] Amphitheater and Temple.</Text>
+		</Row>
+		<!-- (FOLLOWER) WORK ETHIC -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_WORK_ETHIC_NAME"											Language="en_US">
+			<Text>Work Ethic</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_WORK_ETHIC_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) +1% [ICON_Production] Production in a City per [ICON_Citizen] Follower.[NEWLINE][ICON_Bullet](City Bonus) +2 [ICON_Production] Production and [ICON_Faith] Faith in [ICON_Buildings] Workshop and Temple.</Text>
+		</Row>
+		<!-- (FOLLOWER) PROSPERITY PREACHING -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_PROSPERITY_PREACHING_NAME"								Language="en_US">
+			<Text>Prosperity Preaching</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_PROSPERITY_PREACHING_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) +1% [ICON_Gold] Gold in a City per [ICON_Citizen] Follower.[NEWLINE][ICON_Bullet](City Bonus) +4 [ICON_Gold] Gold in [ICON_Buildings] Market, Lighthouse, and Temple.</Text>
+		</Row>
+		<!-- (FOLLOWER) SHAOLIN SCHOOL -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_SHAOLIN_SCHOOL_NAME"										Language="en_US">
+			<Text>Shaolin School</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_SHAOLIN_SCHOOL_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Warrior Monks in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_Production] Production and [ICON_Faith] Faith in [ICON_Buildings] Barracks, Stables, Library, and Amphitheater.</Text>
+		</Row>
+		<!-- (FOLLOWER) SOHEI SCHOOL -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_SOHEI_SCHOOL_NAME"										Language="en_US">
+			<Text>Sohei School</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_SOHEI_SCHOOL_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Warrior Monks in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet](City Bonus) +3 [ICON_Science] Science and [ICON_Culture] Culture, as well as +8 [ICON_Faith] Faith in [ICON_DISTRICT_WONDER] Wonders.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_Science] Science and [ICON_Culture] Culture in [ICON_Buildings] Shrine.</Text>
+		</Row>
+		<!-- (FOLLOWER) ARMED PILGRIMAGES -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_ARMED_PILGRIMAGES_NAME"									Language="en_US">
+			<Text>Armed Pilgrimages</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_ARMED_PILGRIMAGES_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Armed Pilgrims in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet](City Bonus) International [ICON_TradeRoute] Trade Routes gain +1 [ICON_Faith] Faith and +2 [ICON_Production] Production per [ICON_Buildings] Shrine and Temple in the origin City.</Text>
+		</Row>
+		<!-- (FOLLOWER) ASAWIRA CONVERTS -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_ASAWIRA_CONVERTS_NAME"									Language="en_US">
+			<Text>Asawira Converts</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_ASAWIRA_CONVERTS_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Jund Riders in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_Production] Production in [ICON_BUildings] Shrine.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production in [ICON_Buildings] Temple.</Text>
+		</Row>
+		<!-- (FOLLOWER) VIKINGR LODGES -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_VIKINGR_LODGES_NAME"										Language="en_US">
+			<Text>Vikingr Lodges</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_VIKINGR_LODGES_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Wolf Warriors in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet](City Bonus) May purchase [ICON_DISTRICT_ENCAMPMENT] Encampment, [ICON_DISTRICT_HARBOR] Harbor, and [ICON_DISTRICT_AERODROME] Aerodrome [ICON_Buildings] Buildings with [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+3 [ICON_Faith] Faith in [ICON_Buildings] Barracks, Stables, Lighthouse, and Hangar.</Text>
+		</Row>
+		<!-- (FOLLOWER) LEGENDARY RIDERS -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_LEGENDARY_RIDERS_NAME"									Language="en_US">
+			<Text>Legendary Riders</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_LEGENDARY_RIDERS_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Equestrians in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_GreatAdmiral] Great Admiral point in the [ICON_DISTRICT_CAMPUS] Campus; +1 [ICON_GreatGeneral] Great General point in [ICON_DISTRICT_THEATER] Theater Square; +1 [ICON_GreatWriter] Great Writer point in [ICON_DISTRICT_HOLYSITE] Holy Site.</Text>
+		</Row>
+		<!-- (FOLLOWER) OBSIDIAN OBELISKS -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_OBSIDIAN_OBELISKS_NAME"									Language="en_US">
+			<Text>Obsidian Obelisks</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_OBSIDIAN_OBELISKS_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Jaguar Warriors in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production in [ICON_Buildings] Monument.[NEWLINE][ICON_Bullet](City Bonus) +100% [ICON_Food] Food, [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Production] Production, [ICON_Gold] Gold, and [ICON_Faith] Faith in the [ICON_Buildings] Monument.</Text>
+		</Row>
+		<!-- (FOLLOWER) KEEPERS OF THE SACRED FIRE -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_KEEPERS_OF_THE_SACRED_FIRE_NAME"							Language="en_US">
+			<Text>Keepers of the Sacred Fire</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_KEEPERS_OF_THE_SACRED_FIRE_DESCRIPTION"					Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Cataphracts in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet](City Bonus) +100% [ICON_Faith] Faith in the [ICON_Buildings] Cathedral, Dar-e Mehr, Gurdwara, Meeting House, Mosque, Pagoda, Stupa, Synagogue, and Wat.</Text>
+		</Row>
+		<!-- (FOLLOWER) CALL OF THE HEADHUNT -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_CALL_OF_THE_HEADHUNT_NAME"								Language="en_US">
+			<Text>Call of the Headhunt</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_CALL_OF_THE_HEADHUNT_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Headhunter in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet](City Bonus) [ICON_DISTRICT_HOLYSITE] Holy Site gains [ICON_Production] Production equal to 100% of its [ICON_Faith] Faith adjacency.</Text>
+		</Row>
+		<!-- (FOLLOWER) BURIAL TOMBS -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_BURIAL_TOMBS_NAME"										Language="en_US">
+			<Text>Burial Tombs</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_BURIAL_TOMBS_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Pharoah's Guard in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet]+4 [ICON_Gold] Gold in [ICON_Buildings] Monument, Granary, and per level of Walls.</Text>
+		</Row>
+		<!-- (FOLLOWER) FIERCE IDENTITY -->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_FIERCE_IDENTITY_NAME"										Language="en_US">
+			<Text>Fierce Identity</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_FIERCE_IDENTITY_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] Zealot in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet](City Bonus) +3 [ICON_Production] Production and [ICON_Faith] Faith per level of [ICON_Buildings] Wall.</Text>
+		</Row>
+		<!-- (FOLLOWER) MURTI-->
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_MURTI_NAME"												Language="en_US">
+			<Text>Murti</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_FOLLOWER_MURTI_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) May purchase [ICON_Unit] White Elephant in Cities with a [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet](City Bonus) +2 [ICON_Food] Food, [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Production] Production, [ICON_Gold] Gold, and [ICON_Faith] Faith in all [ICON_DISTRICT_WONDER] Wonders.</Text>
+		</Row>
+	</LocalizedText>
+
+<!-- WORSHIP BELIEFS -->
+	<LocalizedText>
+		<!-- (WORSHIP) CATHEDRAL -->
+		<Update>
+			<Where	Tag="LOC_BELIEF_CATHEDRAL_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet](City Bonus) The [ICON_Buildings] Cathedral can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet]+6 [ICON_Faith] Faith and +1 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Building Yields) Can hold any [ICON_GreatWork_Landscape] Great Work.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies."/>
+		</Update>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_CATHEDRAL_NAME"											Language="en_US">
+			<Text>Cathedral</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_CATHEDRAL_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) The [ICON_Buildings] Cathedral can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet]+6 [ICON_Faith] Faith and +1 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Building Yields) Can hold any [ICON_GreatWork_Landscape] Great Work.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies.</Text>
+		</Row>
+		<!-- (WORSHIP) DAR-E MEHR -->
+		<Update>
+			<Where	Tag="LOC_BELIEF_DAR_E_MEHR_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet](City Bonus) The [ICON_Buildings] Dar-e Mehr can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +3 [ICON_Gold] Gold and +4 [ICON_Faith] Faith; additional +1 [ICON_Faith] Faith per era since constructed or repaired, +1 [ICON_Housing] Housing. Cannot be destroyed by natural disasters.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies."/>
+		</Update>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_DAR_E_MEHR_NAME"											Language="en_US">
+			<Text>Dar-e Mehr</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_DAR_E_MEHR_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) The [ICON_Buildings] Dar-e Mehr can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +4 [ICON_Gold] Gold and [ICON_Faith] Faith; additional +1 [ICON_Faith] Faith per era since constructed or repaired, +1 [ICON_Housing] Housing. Cannot be destroyed by natural disasters.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies.</Text>
+		</Row>
+		<!-- (WORSHIP) GURDWARA -->
+		<Update>
+			<Where	Tag="LOC_BELIEF_GURDWARA_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet](City Bonus) The [ICON_Buildings] Gurdwara can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +6 [ICON_Faith] Faith, +4 [ICON_Food]Food, and +2 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies."/>
+		</Update>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_GURDWARA_NAME"												Language="en_US">
+			<Text>Gurdwara</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_GURDWARA_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) The [ICON_Buildings] Gurdwara can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +6 [ICON_Faith] Faith, +4 [ICON_Food]Food, and +2 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies.</Text>
+		</Row>
+		<!-- (WORSHIP) MEETING HOUSE -->
+		<Update>
+			<Where	Tag="LOC_BELIEF_MEETING_HOUSE_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet](City Bonus) The [ICON_Buildings] Meeting House can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +5 [ICON_Faith] Faith, +3 [ICON_Production] Production, and +1 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies."/>
+		</Update>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_MEETING_HOUSE_NAME"										Language="en_US">
+			<Text>Meeting House</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_MEETING_HOUSE_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) The [ICON_Buildings] Meeting House can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +5 [ICON_Faith] Faith, +3 [ICON_Production] Production, and +1 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies.</Text>
+		</Row>
+		<!-- (WORSHIP) MOSQUE -->
+		<Update>
+			<Where	Tag="LOC_BELIEF_MOSQUE_DESCRIPTION"												Language="en_US"/>
+			<Set	Text="[ICON_Bullet](City Bonus) The [ICON_Buildings] Mosque can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet]+4 [ICON_Faith] Faith and +1 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Building Yields) +1 Spreads for [ICON_Religion] Missionaries and Apostles purchased in the City.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies."/>
+		</Update>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_MOSQUE_NAME"												Language="en_US">
+			<Text>Mosque</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_MOSQUE_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) The [ICON_Buildings] Mosque can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet]+4 [ICON_Faith] Faith and +1 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Building Yields) +1 Spreads for [ICON_Religion] Missionaries and Apostles purchased in the City.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies.</Text>
+		</Row>
+		<!-- (WORSHIP) PAGODA -->
+		<Update>
+			<Where	Tag="LOC_BELIEF_PAGODA_EXPANSION2_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet](City Bonus) The [ICON_Buildings] Pagoda can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +4 [ICON_Faith] Faith, +1 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Favor] Diplomatic Favor, and [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies."/>
+		</Update>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_PAGODA_NAME"												Language="en_US">
+			<Text>Pagoda</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_PAGODA_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) The [ICON_Buildings] Pagoda can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +4 [ICON_Faith] Faith, +1 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Favor] Diplomatic Favor, and [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies.</Text>
+		</Row>
+		<!-- (WORSHIP) STUPA -->
+		<Update>
+			<Where	Tag="LOC_BELIEF_STUPA_DESCRIPTION"												Language="en_US"/>
+			<Set	Text="[ICON_Bullet](City Bonus) The [ICON_Buildings] Stupa can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +4 [ICON_Faith] Faith, +2 [ICON_Amenities] Amenities, and [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies."/>
+		</Update>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_STUPA_NAME"												Language="en_US">
+			<Text>Stupa</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_STUPA_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) The [ICON_Buildings] Stupa can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +4 [ICON_Faith] Faith, +2 [ICON_Amenities] Amenities, and [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies.</Text>
+		</Row>
+		<!-- (WORSHIP) SYNAGOGUE -->
+		<Update>
+			<Where	Tag="LOC_BELIEF_SYNAGOGUE_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="(City Bonus) The [ICON_Buildings] Synagogue can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +10 [ICON_Faith] Faith and +1 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies."/>
+		</Update>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_SYNAGOGUE_NAME"											Language="en_US">
+			<Text>Synagogue</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_SYNAGOGUE_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) The [ICON_Buildings] Synagogue can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +10 [ICON_Faith] Faith and +1 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies.</Text>
+		</Row>
+		<!-- (WORSHIP) WAT -->
+		<Update>
+			<Where	Tag="LOC_BELIEF_WAT_DESCRIPTION"												Language="en_US"/>
+			<Set	Text="[ICON_Bullet](City Bonus) The [ICON_Buildings] Wat can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +5 [ICON_Faith] Faith, +3 [ICON_Science] Science, and +1 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies."/>
+		</Update>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_WAT_NAME"													Language="en_US">
+			<Text>Wat</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_WORSHIP_WAT_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet](City Bonus) The [ICON_Buildings] Wat can be built in [ICON_DISTRICT_HOLYSITE] Holy Sites following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Building Yields) +5 [ICON_Faith] Faith, +3 [ICON_Science] Science, and +1 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet](Government Bonus) Can be improved with [ICON_Policy] Policies.</Text>
+		</Row>
+	</LocalizedText>
+
+<!-- ENHANCER BELIEF -->
+	<LocalizedText>
+		<!-- (ENHANCER) ARMY OF THE IMMORTAL -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_ARMY_OF_THE_IMMORTAL_NAME"								Language="en_US">
+			<Text>Army of the Immortal</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_ARMY_OF_THE_IMMORTAL_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) May purchase [ICON_Unit] Nihangs with [ICON_Faith] Faith.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_Food] Food and +2 [ICON_Faith] Faith in [ICON_Buildings] Granary.[NEWLINE][ICON_Bullet](City Bonus) +2 [ICON_Food] Food [ICON_Buildings] Shrine and Temple; +1 [ICON_Housing] Housing in [ICON_Buildings] Shrine; bonus [ICON_Housing] Housing is doubled in Temple.</Text>
+		</Row>
+		<!-- (ENHANCER) CRUSADERS -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_CRUSADERS_NAME"										Language="en_US">
+			<Text>Crusaders</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_CRUSADERS_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +7 [ICON_Strength] Combat Strength near enemy Cities following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Founder Bonus) +50% [ICON_Gold] Gold and +100% [ICON_Faith] Faith in all Cities for the next 10 turns after liberating a City or being declared war upon.</Text>
+		</Row>
+		<!-- (ENHANCER) DEFENDER OF THE FAITH -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_DEFENDER_OF_THE_FAITH_NAME"							Language="en_US">
+			<Text>Defender of the Faith</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_DEFENDER_OF_THE_FAITH_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +5 [ICON_Strength] Combat Strength near allied Cities following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Founder Bonus) +20% [ICON_Production] Production and +100% [ICON_Faith] Faith in all Cities for the next 10 turns after liberating a City or being declared war upon.</Text>
+		</Row>
+		<!-- (ENHANCER) MACCABEAN TENACITY -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_MACCABEAN_TENACITY_NAME"								Language="en_US">
+			<Text>Maccabean Tenacity</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_MACCABEAN_TENACITY_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +3 [ICON_Strength] Combat Strength within tiles owned by enemy or allied Cities following the [ICON_Religion] Religion.[NEWLINE][ICON_Bullet](Founder Bonus) +20% [ICON_Science] Science and [ICON_Culture] Culture in all Cities for the next 10 turns after liberating a City or being declared war upon.</Text>
+		</Row>
+		<!-- (ENHANCER) BUSHIDO -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_BUSHIDO_NAME"											Language="en_US">
+			<Text>Bushido</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_BUSHIDO_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) [ICON_Unit] Military Units always fight at 100% [ICON_Strength] Combat Strength while [ICON_Damaged] Damaged.[NEWLINE][ICON_Bullet](Founder Bonus) [ICON_Unit] Military Units gain +20% [ICON_Ability] Experience from combat.[NEWLINE][ICON_Bullet](Founder Bonus) Accumulate 20% less [ICON_Razed] War Weariness than usual.</Text>
+		</Row>
+		<!-- (ENHANCER) MISSIONARY TRADERS -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_MISSIONARY_TRADERS_NAME"								Language="en_US">
+			<Text>Missionary Traders</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_MISSIONARY_TRADERS_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +2 [ICON_TradeRoute] Trade Route capacity.[NEWLINE][ICON_Bullet](Founder Bonus) +100% [ICON_Religion] Religion Pressure in [ICON_TradeRoute] Trade Route destinations.[NEWLINE][ICON_Bullet](Founder Bonus) +1 [ICON_Gold] Gold and [ICON_Faith] Faith in [ICON_TradeRoute] Trade Routes; tripled in international destinations.</Text>
+		</Row>
+		<!-- (ENHANCER) MUJAHIDEEN -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_MUJAHIDEEN_NAME"										Language="en_US">
+			<Text>Mujahideen</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_MUJAHIDEEN_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain [ICON_Science] Science and [ICON_Culture] Culture equal to 10% of a [ICON_Unit] Military Unit's [ICON_Production] Production cost.[NEWLINE][ICON_Bullet](Founder Bonus) Accumulate 50% less [ICON_Razed] War Weariness than usual.</Text>
+		</Row>
+		<!-- (ENHANCER) APOSTLES TO THE WILDS -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_APOSTLES_TO_THE_WILDS_NAME"							Language="en_US">
+			<Text>Apostles to the Wilds</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_APOSTLES_TO_THE_WILDS_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Purchasing [ICON_Religion] Apostles costs 30% less [ICON_Faith] Faith.[NEWLINE][ICON_Bullet](Founder Bonus) [ICON_Religion] Apostles begin with the [ICON_Promotion] Barbarian Conversion Promotion.[NEWLINE][ICON_Bullet](Founder Bonus) [ICON_Religion]Religious Units ignore [ICON_Terrain] Terrain [ICON_Movement] Movement cost.</Text>
+		</Row>
+		<!-- (ENHANCER) ITINERANT PREACHERS -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_ITINERANT_PREACHERS_NAME"								Language="en_US">
+			<Text>Itinerant Preachers</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_ITINERANT_PREACHERS_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) [ICON_Religion] Religious Pressure spreads up to 18 tiles away.[NEWLINE][ICON_Bullet](Founder Bonus) +1 [ICON_Science] Science and [ICON_Culture] Culture for every 8 [ICON_Citizen] Followers of the [ICON_Religion] Religion.</Text>
+		</Row>
+		<!-- (ENHANCER) SACRED MISSION -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_SACRED_MISSION_NAME"									Language="en_US">
+			<Text>Sacred Mission</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_SACRED_MISSION_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Purchasing [ICON_Religion] Missionaries costs 30% less [ICON_Faith] Faith.[NEWLINE][ICON_Bullet](Founder Bonus) [ICON_Religion] Religious Pressure does not decrease from defeats in [ICON_Religion] Religious Combat.[NEWLINE][ICON_Bullet](Founder Bonus) Holy Sites [ICON_Culture] Culture Bomb adjacent tiles when completed.[NEWLINE][ICON_Bullet](Founder Bonus) +50% [ICON_Production] Production towards [ICON_DISTRICT_HOLYSITE] Holy Site and it's [ICON_Buildings] Buildings.</Text>
+		</Row>
+		<!-- (ENHANCER) QUEEN OF THE SCIENCES -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_QUEEN_OF_THE_SCIENCES_NAME"							Language="en_US">
+			<Text>Queen of the Sciences</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_QUEEN_OF_THE_SCIENCES_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Activating a [ICON_GreatPerson] Great Person spreads 2000 [ICON_Religion] Religious Pressure in a 6 tile radius.[NEWLINE][ICON_Bullet](Founder Bonus) Recruiting or Patronizing a [ICON_GreatPerson] Great Person refunds 20% of the cost.</Text>
+		</Row>
+		<!-- (ENHANCER) STATE INQUISITION TRIALS -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_STATE_INQUISITION_TRIALS_NAME"							Language="en_US">
+			<Text>State Inquisition Trials</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_STATE_INQUISITION_TRIALS_DESCRIPTION"					Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Purchasing [ICON_Religion] Inquisitors costs 30% less [ICON_Faith] Faith.[NEWLINE][ICON_Bullet](Founder Bonus) [ICON_Religion] Inquisitors gain +1 Spread.[NEWLINE][ICON_Bullet](Founder Bonus) Gain +1 [ICON_Gold] Gold and [ICON_Faith] Faith for every 5 [ICON_Citizen] Followers of the [ICON_Religion] Religion.</Text>
+		</Row>
+		<!-- (ENHANCER) SOLA SCRIPTURA -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_SOLA_SCRIPTURA_NAME"									Language="en_US">
+			<Text>Sola Scripture</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_SOLA_SCRIPTURA_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) [ICON_Religion] Religious Pressure increases by 50%; doubling with the [ICON_Science] Printing Technology.[NEWLINE][ICON_Bullet](Founder Bonus) +2% [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold, and [ICON_Faith] Faith per City-State Suzerainty.</Text>
+		</Row>
+		<!-- (ENHANCER) APOCALYPTIC CULT (Unreleased) -->
+	<!--<Row	Tag="LOC_BELIEF_STR_ENHANCER_APOCALYPTIC_CULT_NAME"									Language="en_US">
+			<Text>Apocalyptic Cult</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_APOCALYPTIC_CULT_DESCRIPTION"							Language="en_US">
+			<Text>N/A</Text>
+		</Row>-->
+		<!-- (ENHANCER) KSHATRIYA SUPREMACY -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_KSHATRIYA_SUPREMACY_NAME"								Language="en_US">
+			<Text>Kshatriya Supremacy</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_KSHATRIYA_SUPREMACY_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Unit Maintenance is reduced by 2 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet](Founder Bonus) +50% Discount on upgrading [ICON_Unit] Units with [ICON_Gold] Gold and all [ICON_Resource_Iron] Resources.</Text>
+		</Row>
+		<!-- (ENHANCER) SOCIETAL PARAGONS -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_SOCIETAL_PARAGONS_NAME"								Language="en_US">
+			<Text>Societal Paragons</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_SOCIETAL_PARAGONS_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +2 [ICON_Movement] Movement for units starting the turn in friendly territory.[NEWLINE][ICON_Bullet](Founder Bonus) [ICON_Unit] Builders begin with +1 [ICON_Charges] Charge.[NEWLINE][ICON_Bullet](Founder Bonus) +30% [ICON_Production] Production and +100% [ICON_Faith] Faith in all Cities for the next 10 turns after liberating a City or being declared war upon.</Text>
+		</Row>
+		<!-- (ENHANCER) DIVINE EMPIRE -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_DIVINE_EMPIRE_NAME"									Language="en_US">
+			<Text>Divine Empire</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_DIVINE_EMPIRE_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +10 [ICON_Strength] Combat Advantage against [ICON_Barbarian] Barbarians.[NEWLINE][ICON_Bullet](Founder Bonus) +7 [ICON_Strength] Combat Strength against City-States.[NEWLINE][ICON_Bullet](Founder Bonus) Can declare a War of Territorial Expansion at the [ICON_Culture] Feudalism Civic.[NEWLINE][ICON_Bullet](Founder Bonus) +30% [ICON_Production] Production and +100% [ICON_Faith] Faith for 10 turns after declaring a War of Territorial Expansion.</Text>
+		</Row>
+		<!-- (ENHANCER) DISCIPLESHIP -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_DISCIPLESHIP_NAME"										Language="en_US">
+			<Text>Discipleship</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_DISCIPLESHIP_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain 1 [ICON_Policy] Wildcard Policy Slot in any [ICON_Government] Government.[NEWLINE][ICON_Bullet](Founder Bonus) Purchasing [ICON_Religion] Missionaries, Inquisitors, Apostles, Gurus, Warrior Monks, Armed Pilgrim, Jund, Wolf Warrior, Equestrian, Jaguar Warrior, Cataphract, Headhunter, Pharoah's Guard, Zealot, White Elephant, Nihangs, Rock Bands, and Naturalists costs 15% less [ICON_Faith] Faith.</Text>
+		</Row>
+		<!-- (ENHANCER) FLOWER WARS -->
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_FLOWER_WARS_NAME"										Language="en_US">
+			<Text>Flower Wars</Text>
+		</Row>
+		<Row	Tag="LOC_BELIEF_STR_ENHANCER_FLOWER_WARS_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Gain [ICON_Faith] Faith equal to 50% of a killed enemy [ICON_Unit] Unit's [ICON_Strength] Combat Strength.[NEWLINE][ICON_Bullet](Founder Bonus) +50% [ICON_Faith] Faith in all Cities for the next 10 turns after declaring a Surprise War.[NEWLINE][ICON_Bullet](Founder Bonus) Killing enemy [ICON_Unit] Units earns [ICON_GreatGeneral] Great General and [ICON_GreatAdmiral] Great Admiral points equal to 10% of an enemy [ICON_Unit] Unit's [ICON_Strength] Combat Strength.</Text>
+		</Row>
+		<!-- (ENHANCER) ROYAL MUMMIFICATION -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_ROYAL_MUMMIFICATION_NAME"									Language="en_US">
+			<Text>Royal Mummification</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_ROYAL_MUMMIFICATION_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) May purchase [ICON_Buildings] Archaeological Museums and [ICON_Unit] Archaeologists with [ICON_Faith] Faith.[NEWLINE][ICON_Bullet](Founder Bonus) +2 [ICON_Culture] and [ICON_Gold] Gold, as well as +4 [ICON_Faith] Faith in [ICON_GreatWork_Relic] Relic, [ICON_GreatWork_Sculpture] Sculpture, and [ICON_GreatWork_Artifact] Artifact Great Works.[NEWLINE][ICON_Bullet](City Bonus) +3 [ICON_Gold] Gold in [ICON_Buildings] Monument, Temple, and Archaeological Museum.[NEWLINE][ICON_Bullet](Founder Bonus) [ICON_Tourism] Tourism output from [ICON_GreatWork_Relic] Relics and Holy Cities is not diminished by other players that have researched [ICON_Culture] The Enlightenment Civic.</Text>
+		</Row>
+		<!-- (ENHANCER) CHORAL MUSIC -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_CHORAL_MUSIC_NAME"										Language="en_US">
+			<Text>Choral Music</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_CHORAL_MUSIC_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +4 [ICON_Culture] Culture and +10 [ICON_Faith] Faith and in [ICON_GreatWork_Music] Music Great Works.[NEWLINE][ICON_Bullet](City Bonus) +2 [ICON_Culture] Culture and [ICON_Faith] Faith in [ICON_Buildings] Amphitheater; bonus doubled in [ICON_Buildings] Broadcast Tower.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_GreatMusician] Great Musician point in [ICON_DISTRICT_THEATER] Theater Square [ICON_DISTRICT_HOLYSITE] and Holy Site.</Text>
+		</Row>
+		<!-- (ENHANCER) TEACHINGS OF THE CLASSICS -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_TEACHINGS_OF_THE_CLASSICS_NAME"							Language="en_US">
+			<Text>Teachings of the Classics</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_TEACHINGS_OF_THE_CLASSICS_DESCRIPTION"					Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +2 [ICON_Science] Science and [ICON_Culture] Culture, as well as +4 [ICON_Faith] Faith in [ICON_GreatWork_Writing] Writing Great Works.[NEWLINE][ICON_Bullet](City Bonus) +3 [ICON_Faith] Faith in [ICON_Buildings] Library.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_GreatWriter] Great Writer point in [ICON_DISTRICT_HOLYSITE] Holy Site.</Text>
+		</Row>
+		<!-- (ENHANCER) SONS OF RAGNAROK-->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_SONS_OF_RAGNAROK_NAME"									Language="en_US">
+			<Text>Sons of Ragnarök</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_SONS_OF_RAGNAROK_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Bonus [ICON_Science] Science and [ICON_Culture] Culture when [ICON_Pillaged] Pillaging [ICON_Charges] Mines, Quarries, Plantations, Pastures, and Camps.[NEWLINE][ICON_Bullet](Founder Bonus) +1 [ICON_Movement] Movement for [ICON_Unit] Units starting the turn in enemy territory.</Text>
+		</Row>
+		<!-- (ENHANCER) SYNCRETIC POPULAR RELIGION -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_SYNCRETIC_POPULAR_RELIGION_NAME"							Language="en_US">
+			<Text>Syncretic Popular Religion</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_SYNCRETIC_POPULAR_RELIGION_DESCRIPTION"					Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Cities receive the [ICON_Religion] Follower Beliefs of all Religions with at least 1 [ICON_Citizen] Follower in them.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_Amenities] Amenity for every [ICON_Religion] Religion present in a City.</Text>
+		</Row>
+		<!-- (ENHANCER) DHARMACHAKRA ICONOGRAPHY -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_DHARMACHAKRA_ICONOGRAPHY_NAME"							Language="en_US">
+			<Text>Dharmachakra Iconography</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_DHARMACHAKRA_ICONOGRAPHY_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) [ICON_Buildings] Worship Building of the player's [ICON_Religion] Religion has a 90% [ICON_Faith] Faith discount.[NEWLINE][ICON_Bullet](Founder Bonus) Cities with the final [ICON_DISTRICT_HOLYSITE] Holy Site [ICON_Buildings] Building gain +15% [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Faith] Faith.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_Amenities] Amenity in [ICON_DISTRICT_HOLYSITE] Holy Site.</Text>
+		</Row>
+		<!-- (ENHANCER) RIDERS OF THE ETERNAL SKY -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_RIDERS_OF_THE_ETERNAL_SKY_NAME"							Language="en_US">
+			<Text>Riders of the Eternal Sky</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_RIDERS_OF_THE_ETERNAL_SKY_DESCRIPTION"					Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +5 [ICON_Strength] Combat Strength for [ICON_Unit] Light and Heavy Cavalry class Units.[NEWLINE][ICON_Bullet](Founder Bonus) +8 [ICON_Resource_Horses] Horses per turn.[NEWLINE][ICON_Bullet](Founder Bonus) Accumulate 50% less [ICON_Razed] War Weariness than usual.</Text>
+		</Row>
+		<!-- (ENHANCER) CIVIL RELIGION -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_CIVIL_RELIGION_NAME"										Language="en_US">
+			<Text>Civil Religion</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_CIVIL_RELIGION_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +10% [ICON_GreatPerson] Great People points.[NEWLINE][ICON_Bullet](Founder Bonus) +50% [ICON_Production] Production towards [ICON_DISTRICT_CITY_CENTER] City Center [ICON_Buildings] Buildings.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_Amenities] Amenity for every [ICON_Religion] Religion present in a City.[NEWLINE][ICON_Bullet](City Bonus) +1 [ICON_Amenities] Amenity in [ICON_DISTRICT_HOLYSITE] Holy Site.</Text>
+		</Row>
+		<!-- (ENHANCER) ECUMENISM -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_ECUMENISM_NAME"											Language="en_US">
+			<Text>Ecumenism</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_ECUMENISM_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) +5 [ICON_Religion] Religious Strength for Missionaries and Apostles.[NEWLINE][ICON_Bullet](Founder Bonus) Purchasing [ICON_Religion] Missionaries costs 30% less [ICON_Faith] Faith.[NEWLINE][ICON_Bullet](Founder Bonus) [ICON_Religion] Missionaries gain +2 Spreads.[NEWLINE][ICON_Bullet](City Bonus) +2 [ICON_Faith] Faith in [ICON_Buildings] Shrine and Temple.</Text>
+		</Row>
+		<!-- (ENHANCER) GURUKULA TRADITION -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_GURUKULA_TRADITION_NAME"									Language="en_US">
+			<Text>Gurukula Tradition</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_GURUKULA_TRADITION_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) [ICON_Unit] Gurus grant adjacent [ICON_Religion] Religious Units +5 [ICON_Religion] Religious Strength.[NEWLINE][ICON_Bullet](Founder Bonus) Purchasing [ICON_Religion] Gurus costs 30% less [ICON_Faith] Faith.[NEWLINE][ICON_Bullet](City Bonus) +2 [ICON_Food] Food and [ICON_Faith] Faith in [ICON_Buildings] Granary, Shrine, and Temple.</Text>
+		</Row>
+		<!-- (ENHANCER) SAINTS ACCEPT PRAYERS -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_SAINTS_ACCEPT_PRAYERS_NAME"								Language="en_US">
+			<Text>Saints Accept Prayers</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_SAINTS_ACCEPT_PRAYERS_DESCRIPTION"						Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) [ICON_Religion] Apostles begins with the [ICON_Promotion] Martyr Promotion.[NEWLINE][ICON_Bullet](Founder Bonus) +1 [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith in all [ICON_GreatWork_Landscape] Great Works.[NEWLINE][ICON_Bullet](Founder Bonus) [ICON_Tourism] Tourism output from [ICON_GreatWork_Relic] Relics and Holy Cities is not diminished by other players that have researched [ICON_Culture] The Enlightenment Civic.</Text>
+		</Row>
+		<!-- (ENHANCER) THE SAOSHYANT -->
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_THE_SAOSHYANT_NAME"										Language="en_US">
+			<Text>The Saoshyant</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_STR_ENHANCER_THE_SAOSHYANT_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet](Founder Bonus) Can purchase [ICON_Unit] The Saoshyant in the [ICON_Capital] Capital at the [ICON_Culture] Globalization Civic.[NEWLINE][ICON_Bullet](City Bonus) [ICON_DISTRICT_HOLYSITE] Holy Site gains [ICON_Food] Food and [ICON_Gold] Gold equal to 100% of its adjacency.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	
+	<Policies>
+		<Update><Where PolicyType="POLICY_NATURAL_PHILOSOPHY"/><Set><Description>LOC_POLICY_NATURAL_PHILOSOPHY_DESCRIPTION_EPSMOD_ADJACENCY</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_SCRIPTURE"/><Set><Description>LOC_POLICY_SCRIPTURE_DESCRIPTION_EPSMOD_ADJACENCY</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_NAVAL_INFRASTRUCTURE"/><Set><Description>LOC_POLICY_NAVAL_INFRASTRUCTURE_DESCRIPTION_EPSMOD_ADJACENCY</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_AESTHETICS"/><Set><Description>LOC_POLICY_AESTHETICS_DESCRIPTION_EPSMOD_ADJACENCY</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_CRAFTSMEN"/><Set><Description>LOC_POLICY_CRAFTSMEN_DESCRIPTION_EPSMOD_ADJACENCY</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_TOWN_CHARTERS"/><Set><Description>LOC_POLICY_TOWN_CHARTERS_DESCRIPTION_EPSMOD_ADJACENCY</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_ECONOMIC_UNION"/><Set><Description>LOC_POLICY_ECONOMIC_UNION_DESCRIPTION_EPSMOD_ADJACENCY</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_FIVE_YEAR_PLAN"/><Set><Description>LOC_POLICY_FIVE_YEAR_PLAN_DESCRIPTION_EPSMOD_ADJACENCY</Description></Set></Update>
+		<Update><Where PolicyType="POLICY_SPORTS_MEDIA"/><Set><Description>LOC_POLICY_SPORTS_MEDIA_DESCRIPTION_EPSMOD_ADJACENCY</Description></Set></Update>
+	</Policies>
+	
+	<PolicyModifiers>
+		<Delete PolicyType="POLICY_NATURAL_PHILOSOPHY"/>
+		<Delete PolicyType="POLICY_SCRIPTURE"/>
+		<Delete PolicyType="POLICY_NAVAL_INFRASTRUCTURE"/>
+		<Delete PolicyType="POLICY_AESTHETICS"/>
+		<Delete PolicyType="POLICY_CRAFTSMEN"/>
+		<Delete PolicyType="POLICY_TOWN_CHARTERS"/>
+		<Delete PolicyType="POLICY_ECONOMIC_UNION"/>
+		<Delete PolicyType="POLICY_FIVE_YEAR_PLAN"/>
+		<Delete PolicyType="POLICY_SPORTS_MEDIA"/>
+
+		<Row><PolicyType>POLICY_NATURAL_PHILOSOPHY</PolicyType><ModifierId>EPSMOD_ADJACENCY_NATURAL_PHILOSOPHY_LIBRARIES</ModifierId></Row>
+		<Row><PolicyType>POLICY_SCRIPTURE</PolicyType><ModifierId>EPSMOD_ADJACENCY_SCRIPTURE_SHRINES</ModifierId></Row>
+		<Row><PolicyType>POLICY_NAVAL_INFRASTRUCTURE</PolicyType><ModifierId>EPSMOD_ADJACENCY_NAVAL_INFRASTRUCTURE_LIGHTHOUSES</ModifierId></Row>
+		<Row><PolicyType>POLICY_AESTHETICS</PolicyType><ModifierId>EPSMOD_ADJACENCY_AESTHETICS_AMPHITHEATERS</ModifierId></Row>
+		<Row><PolicyType>POLICY_CRAFTSMEN</PolicyType><ModifierId>EPSMOD_ADJACENCY_CRAFTSMEN_WORKSHOPS</ModifierId></Row>
+		<Row><PolicyType>POLICY_TOWN_CHARTERS</PolicyType><ModifierId>EPSMOD_ADJACENCY_TOWN_CHARTERS_MARKETS</ModifierId></Row>
+		<Row><PolicyType>POLICY_ECONOMIC_UNION</PolicyType><ModifierId>EPSMOD_ADJACENCY_ECONOMIC_UNION_BANKS</ModifierId></Row>
+		<Row><PolicyType>POLICY_ECONOMIC_UNION</PolicyType><ModifierId>EPSMOD_ADJACENCY_ECONOMIC_UNION_SHIPYARDS</ModifierId></Row>
+		<Row><PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType><ModifierId>EPSMOD_ADJACENCY_FIVE_YEAR_PLAN_UNIVERSITIES</ModifierId></Row>
+		<Row><PolicyType>POLICY_FIVE_YEAR_PLAN</PolicyType><ModifierId>EPSMOD_ADJACENCY_FIVE_YEAR_PLAN_FACTORIES</ModifierId></Row>
+		<Row><PolicyType>POLICY_SPORTS_MEDIA</PolicyType><ModifierId>SPORTSMEDIA_STADIUMENTERTAINMENT</ModifierId></Row>
+		<Row><PolicyType>POLICY_SPORTS_MEDIA</PolicyType><ModifierId>EPSMOD_ADJACENCY_SPORTS_MEDIA_STADIUMS</ModifierId></Row>
+	</PolicyModifiers>
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_ADJACENCY_NATURAL_PHILOSOPHY_LIBRARIES</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_SCRIPTURE_SHRINES</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_NAVAL_INFRASTRUCTURE_LIGHTHOUSES</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_AESTHETICS_AMPHITHEATERS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_CRAFTSMEN_WORKSHOPS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_TOWN_CHARTERS_MARKETS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_ECONOMIC_UNION_BANKS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_ECONOMIC_UNION_SHIPYARDS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_FIVE_YEAR_PLAN_UNIVERSITIES</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_FIVE_YEAR_PLAN_FACTORIES</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_SPORTS_MEDIA_STADIUMS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType></Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_ADJACENCY_NATURAL_PHILOSOPHY_LIBRARIES</ModifierId><Name>BuildingType</Name><Value>BUILDING_LIBRARY</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_NATURAL_PHILOSOPHY_LIBRARIES</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_NATURAL_PHILOSOPHY_LIBRARIES</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_SCRIPTURE_SHRINES</ModifierId><Name>BuildingType</Name><Value>BUILDING_SHRINE</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_SCRIPTURE_SHRINES</ModifierId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_SCRIPTURE_SHRINES</ModifierId><Name>Amount</Name><Value>4</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_NAVAL_INFRASTRUCTURE_LIGHTHOUSES</ModifierId><Name>BuildingType</Name><Value>BUILDING_LIGHTHOUSE</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_NAVAL_INFRASTRUCTURE_LIGHTHOUSES</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_NAVAL_INFRASTRUCTURE_LIGHTHOUSES</ModifierId><Name>Amount</Name><Value>5</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_AESTHETICS_AMPHITHEATERS</ModifierId><Name>BuildingType</Name><Value>BUILDING_AMPHITHEATER</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_AESTHETICS_AMPHITHEATERS</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_AESTHETICS_AMPHITHEATERS</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_CRAFTSMEN_WORKSHOPS</ModifierId><Name>BuildingType</Name><Value>BUILDING_WORKSHOP</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_CRAFTSMEN_WORKSHOPS</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_CRAFTSMEN_WORKSHOPS</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_TOWN_CHARTERS_MARKETS</ModifierId><Name>BuildingType</Name><Value>BUILDING_MARKET</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_TOWN_CHARTERS_MARKETS</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_TOWN_CHARTERS_MARKETS</ModifierId><Name>Amount</Name><Value>5</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_ECONOMIC_UNION_BANKS</ModifierId><Name>BuildingType</Name><Value>BUILDING_BANK</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_ECONOMIC_UNION_BANKS</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_ECONOMIC_UNION_BANKS</ModifierId><Name>Amount</Name><Value>7</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_ECONOMIC_UNION_SHIPYARDS</ModifierId><Name>BuildingType</Name><Value>BUILDING_SHIPYARD</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_ECONOMIC_UNION_SHIPYARDS</ModifierId><Name>YieldType</Name><Value>YIELD_GOLD</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_ECONOMIC_UNION_SHIPYARDS</ModifierId><Name>Amount</Name><Value>7</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_FIVE_YEAR_PLAN_UNIVERSITIES</ModifierId><Name>BuildingType</Name><Value>BUILDING_UNIVERSITY</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_FIVE_YEAR_PLAN_UNIVERSITIES</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_FIVE_YEAR_PLAN_UNIVERSITIES</ModifierId><Name>Amount</Name><Value>4</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_FIVE_YEAR_PLAN_FACTORIES</ModifierId><Name>BuildingType</Name><Value>BUILDING_FACTORY</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_FIVE_YEAR_PLAN_FACTORIES</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_FIVE_YEAR_PLAN_FACTORIES</ModifierId><Name>Amount</Name><Value>4</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_SPORTS_MEDIA_STADIUMS</ModifierId><Name>BuildingType</Name><Value>BUILDING_BROADCAST_CENTER</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_SPORTS_MEDIA_STADIUMS</ModifierId><Name>YieldType</Name><Value>YIELD_CULTURE</Value></Row>
+		<Row><ModifierId>EPSMOD_ADJACENCY_SPORTS_MEDIA_STADIUMS</ModifierId><Name>Amount</Name><Value>5</Value></Row>
+	</ModifierArguments>
+
+</GameData>

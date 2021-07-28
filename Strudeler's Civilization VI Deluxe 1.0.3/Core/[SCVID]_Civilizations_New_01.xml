@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Civilizations_New_01 -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 6/18/2021 1:05:16 PM -->
+<GameData>
+
+	<!-- BYZANTIUM | THEODOSIAN WALLS -->
+	<Types>
+		<Row	Type="TRAIT_CIVILIZATION_STR_BYZANTIUM_THEODOSIAN_WALLS"	Kind="KIND_TRAIT"/>
+	</Types>
+	<CivilizationTraits>
+		<Row	CivilizationType="CIVILIZATION_BYZANTIUM"
+				TraitType="TRAIT_CIVILIZATION_STR_BYZANTIUM_THEODOSIAN_WALLS"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row	TraitType="TRAIT_CIVILIZATION_STR_BYZANTIUM_THEODOSIAN_WALLS"
+				Name="LOC_STR_BUILDING_BYZANTIUM_THEODOSIAN_WALLS_NAME"/>
+	</Traits>
+
+</GameData>

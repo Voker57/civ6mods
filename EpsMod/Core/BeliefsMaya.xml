@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Beliefs>
+		<Update><Where BeliefType="BELIEF_GODDESS_OF_FIRE"/><Set><Description>LOC_BELIEF_GODDESS_OF_FIRE_DESCRIPTION_EPSMOD_MAYA</Description></Set></Update>
+	</Beliefs>
+	
+	<Modifiers>
+		<Update><Where ModifierId="GODDESS_OF_FIRE_FEATURES_FAITH_MODIFIER"/><Set><SubjectRequirementSetId>EPSMOD_PLOT_HAS_GODDESS_FIRE_REQUIREMENTS</SubjectRequirementSetId></Set></Update>
+	</Modifiers>
+	
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_PLOT_HAS_GODDESS_FIRE_REQUIREMENTS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_PLOT_HAS_GODDESS_FIRE_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_GEOTHERMAL</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_PLOT_HAS_GODDESS_FIRE_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_VOLCANIC</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_PLOT_HAS_GODDESS_FIRE_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNING_FOREST</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_PLOT_HAS_GODDESS_FIRE_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNT_FOREST</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_PLOT_HAS_GODDESS_FIRE_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNING_JUNGLE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_PLOT_HAS_GODDESS_FIRE_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNT_JUNGLE</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_GEOTHERMAL</RequirementId><RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_VOLCANIC</RequirementId><RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNING_FOREST</RequirementId><RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNT_FOREST</RequirementId><RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNING_JUNGLE</RequirementId><RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNT_JUNGLE</RequirementId><RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_GEOTHERMAL</RequirementId><Name>FeatureType</Name><Value>FEATURE_GEOTHERMAL_FISSURE</Value></Row>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_VOLCANIC</RequirementId><Name>FeatureType</Name><Value>FEATURE_VOLCANIC_SOIL</Value></Row>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNING_FOREST</RequirementId><Name>FeatureType</Name><Value>FEATURE_BURNING_FOREST</Value></Row>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNT_FOREST</RequirementId><Name>FeatureType</Name><Value>FEATURE_BURNT_FOREST</Value></Row>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNING_JUNGLE</RequirementId><Name>FeatureType</Name><Value>FEATURE_BURNING_JUNGLE</Value></Row>
+		<Row><RequirementId>EPSMOD_BELIEF_REQUIREMENT_PLOT_HAS_BURNT_JUNGLE</RequirementId><Name>FeatureType</Name><Value>FEATURE_BURNT_JUNGLE</Value></Row>
+	</RequirementArguments>
+</GameData>

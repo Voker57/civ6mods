@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Districts -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 8:31:10 PM -->
+<GameData>
+
+	<!-- DISTRICTS -->
+	<LocalizedText>
+		<!-- CITY CENTER -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_CITY_CENTER_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]The [ICON_DISTRICT_CITY_CENTER] City Center."/>
+		</Update>
+		<!-- HOLY SITE DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_HOLY_SITE_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_District] District dedicated to producing [ICON_Faith] Faith."/>
+		</Update>
+		<!-- LAVRA DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_LAVRA_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Russia, replaces the [ICON_DISTRICT_HOLY_SITE] Holy Site.[NEWLINE][ICON_District] District dedicated to producing [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_GreatWriter] Great Writer point.[NEWLINE][ICON_Bullet]Using a [ICON_GreatPerson] Great Person's [ICON_Ability] Ability in the City borders acquires a new [ICON_Culture] Tile."/>
+		</Update>
+		<!-- CAMPUS DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_CAMPUS_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_District] District dedicated to producing [ICON_Science] Science."/>
+		</Update>
+		<!-- SEOWON DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_SEOWON_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Korea, replaces the [ICON_DISTRICT_CAMPUS] Campus.[NEWLINE][ICON_Bullet]+4 [ICON_Science] Science.[NEWLINE][ICON_Bullet]6 [ICON_Gold] Gold Maintenance.[NEWLINE][ICON_Bullet]Adjacent [ICON_Charges] Farms gain +1 [ICON_Food] Food.[NEWLINE][ICON_Bullet]Adjacent [ICON_Charges] Mines gain +1 [ICON_Science] Science.[NEWLINE][ICON_Bullet][ICON_Science] Science bonus decreases from adjacent [ICON_District] Districts."/>
+		</Update>
+		<!-- OBSERVATORY DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_OBSERVATORY_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[NEWLINE][ICON_Bullet]Unique to the Maya, replaces the [ICON_DISTRICT_CAMPUS] Campus.[NEWLINE][ICON_Bullet][ICON_District] District dedicated to producing [ICON_Science] Science.[NEWLINE][ICON_Bullet]Does not gain adjacency from sources that would effect the [ICON_DISTRICT_CAMPUS] Campus; major adjacency from [ICON_Charges] Plantations and minor adjacency from [ICON_Charges] Farms."/>
+		</Update>
+		<!-- ENCAMPMENT DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_ENCAMPMENT_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Cannot be adjacent to the City.[NEWLINE][ICON_Bullet][ICON_District] District dedicated to producing [ICON_Unit] Military Units and [ICON_Production] Production."/>
+		</Update>
+		<!-- IKANDA DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_IKANDA_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Cannot be adjacent to the City.[NEWLINE][ICON_Bullet]Unique to Zulu, replaces the [ICON_DISTRICT_ENCAMPMENT] Encampment.[NEWLINE][ICON_Bullet][ICON_District] District dedicated to producing [ICON_Unit] Military Units and [ICON_Production] Production.[NEWLINE][ICON_Bullet]+25% [ICON_Production] Production towards [ICON_Corps] Corps and [ICON_Army] Armies.[NEWLINE][ICON_Bullet][ICON_Corps] Corps and [ICON_Army] Armies can be produced without a [ICON_Buildings] Military Academy."/>
+		</Update>
+		<!-- THANH DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_THANH_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Cannot be adjacent to the City.[NEWLINE][ICON_Bullet]Unique to Vietnam, replaces the [ICON_DISTRICT_ENCAMPMENT] Encampment.[NEWLINE][ICON_Bullet][ICON_District] District dedicated to producing [ICON_Unit] Military Units and [ICON_Production] Production.[NEWLINE][ICON_Bullet]Does not gain [ICON_Production] Production from adjacency; gains [ICON_Culture] Culture from adjacency.[NEWLINE][ICON_Bullet]Major [ICON_Culture] Culture adjacency to [ICON_District] Districts.[NEWLINE][ICON_Bullet]Gains [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Is not a [ICON_District] Specialty District and does not require [ICON_Citizen] Population."/>
+		</Update>
+		<!-- HARBOR DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_HARBOR_EXPANSION1_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_District] District dedicated to producing [ICON_Unit] Naval Units, maritime yields, and [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]No [ICON_Movement] Movement penalty for embarking and disembarking on the [ICON_District] District's tile.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast or Lake adjacent to land."/>
+		</Update>
+		<!-- ROYAL NAVY DOCKYARD DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_ROYAL_NAVY_DOCKYARD_EXPANSION2_DESCRIPTION"					Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to England, replaces the [ICON_DISTRICT_HARBOR] Harbor.[NEWLINE][ICON_District] District dedicated to producing [ICON_Unit] Naval Units, maritime yields, and [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]No [ICON_Movement] Movement penalty for embarking and disembarking on the [ICON_District] District's tile.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast or Lake adjacent to land.[NEWLINE][ICON_Bullet]+1 [ICON_Movement] Movement for [ICON_Unit] Naval Units produced in the City.[NEWLINE][ICON_Bullet]+2 [ICON_GreatAdmiral] Great Admiral points.[NEWLINE][ICON_Bullet]+4 [ICON_PressureUp] Loyalty in Cities on [ICON_Terrain] Continents other than the [ICON_Capital] Capital's."/>
+		</Update>
+		<!-- COTHON DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_COTHON_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Phoenicia, replaces the [ICON_DISTRICT_HARBOR] Harbor.[NEWLINE][ICON_Bullet][ICON_District] District dedicated to producing [ICON_Unit] Naval Units, maritime yields, and [ICON_Science] Science.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast or Lake tiles adjacenct to land.[NEWLINE][ICON_Bullet]Gains [ICON_Science] Science from various adjacencies.[NEWLINE][ICON_Bullet]+50% [ICON_Production] Production towards [ICON_Unit] Settlers in the City."/>
+		</Update>
+		<!-- AERODROME DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_AERODROME_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_District] District dedicated to producing [ICON_Unit] Aircraft Units and [ICON_Production] Production.[NEWLINE][ICON_Bullet]+2 [ICON_Unit] Aircraft capacity.[NEWLINE][ICON_Bullet]Cannot be built on [ICON_Terrain] Hills."/>
+		</Update>
+		<!-- COMMERCIAL HUB DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_COMMERCIAL_HUB_EXPANSION1_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_District] District dedicated to producing [ICON_Gold] Gold."/>
+		</Update>
+		<!-- SUGUBA DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_SUGUBA_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Mali, replaces the [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hub.[NEWLINE][ICON_Bullet][ICON_District] District dedicated to producing [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]Major adjacency to [ICON_DISTRICT_HOLY_SITE] Holy Site.[NEWLINE][ICON_Bullet]20% [ICON_Gold] Gold and [ICON_Faith] Faith discount on all purchases in the City."/>
+		</Update>
+		<!-- ENTERTAINMENT COMPLEX DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_District] District dedicated to producing [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_DISTRICT_ENTERTAINMENT] Water Park."/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_DISTRICT_ENTERTAINMENT_COMPLEX_EXPANSION1_DESCRIPTION"					Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_District] District dedicated to producing [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_DISTRICT_ENTERTAINMENT] Water Park."/>
+		</Update>
+		<!-- STREET CARNIVAL DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_STREET_CARNIVAL_EXPANSION2_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Brazil, replaces the [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Entertainment Complex.[NEWLINE][ICON_Bullet][ICON_District] District dedicated to producing [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]City can produce the [ICON_GreatPerson] Carnival Project.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_DISTRICT_ENTERTAINMENT] Copacabana."/>
+		</Update>
+		<!-- HIPPODROME DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_HIPPODROME_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Byzantium, replaces the [ICON_DISTRICT_ENTERTAINMENT_COMPLEX] Entertainment Complex.[NEWLINE][ICON_Bullet][ICON_District] District dedicated to producing [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_DISTRICT_ENTERTAINMENT] Water Park.[NEWLINE][ICON_Bullet]3 [ICON_Gold] Gold Maintenance.[NEWLINE][ICON_Bullet]Spawns a [ICON_Unit] Heavy Cavalry class Unit when the [ICON_District] District or [ICON_Buildings] Buildings pertaining to the [ICON_District] District are complete; [ICON_Unit] Units spawned do not cost [ICON_Resource_Iron] Strategic Resources."/>
+		</Update>
+		<!-- WATER PARK DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_District] District dedicated to producing [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast or Lake tiles.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_DISTRICT_ENTERTAINMENT] Entertainment Complex."/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_DISTRICT_WATER_ENTERTAINMENT_COMPLEX_EXPANSION2_DESCRIPTION"			Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_District] District dedicated to producing [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast or Lake tiles.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_DISTRICT_ENTERTAINMENT] Entertainment Complex."/>
+		</Update>
+		<!-- COPACABANA DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_WATER_STREET_CARNIVAL_EXPANSION2_DESCRIPTION"					Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Brazil, replaces the [ICON_DISTRICT_ENTERTAINMENT] Water Park.[NEWLINE][ICON_Bullet]District dedicated to producing [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Coast or Lake tiles.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_DISTRICT_ENTERTAINMENT] Entertainment Complex."/>
+		</Update>
+		<!-- THEATER SQUARE DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_THEATER_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]District dedicated to producing [ICON_Culture] Culture and [ICON_Tourism] Tourism."/>
+		</Update>
+		<!-- ACROPOLIS DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Greece, replaces the [ICON_DISTRICT_THEATER] Theater Square.[NEWLINE][ICON_Bullet]District dedicated to producing [ICON_Culture] Culture and [ICON_Tourism] Tourism.[NEWLINE][ICON_Bullet]Major adjacency to the [ICON_DISTRICT_CITY_CENTER] City Center.[NEWLINE][ICON_Bullet]Gain 1 [ICON_Envoy] Envoy when completed.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Hills."/>
+		</Update>
+		<Row		Tag="LOC_STR_DISTRICT_ACROPOLIS_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]Unique to Greece, replaces the [ICON_DISTRICT_THEATER] Theater Square.[NEWLINE][ICON_Bullet]District dedicated to producing [ICON_Culture] Culture and [ICON_Tourism] Tourism.[NEWLINE][ICON_Bullet]Major adjacency to the [ICON_DISTRICT_CITY_CENTER] City Center.[NEWLINE][ICON_Bullet]Gain 1 [ICON_Envoy] Envoy when completed.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Hills.</Text>
+		</Row>
+		<!-- INDUSTRIAL ZONE DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_INDUSTRIAL_ZONE_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]District dedicated to producing [ICON_Production] Production."/>
+		</Update>
+		<!-- HANSA DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_HANSA_EXPANSION2_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Germany, replaces the [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone.[NEWLINE][ICON_Bullet]District dedicated to producing [ICON_Production] Production.[NEWLINE][ICON_Bullet]Major adjacency to [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hub.[NEWLINE][ICON_Bullet]Standard adjacency to [ICON_Charges] Resources."/>
+		</Update>
+		<!-- OPPIDUM DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_OPPIDUM_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Gaul, replaces the [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone.[NEWLINE][ICON_Bullet]District dedicated to producing [ICON_Production] Production.[NEWLINE][ICON_Bullet]Major adjacency to [ICON_Charges] Quarries and [ICON_Resource_Iron] Strategic Resources.[NEWLINE][ICON_Bullet]Unlocked at the [ICON_Science] Iron Working Technology.[NEWLINE][ICON_Bullet]Earn the [ICON_Science] Apprenticeship Technology when completed.[NEWLINE][ICON_Bullet]Gains [ICON_Strength] City Defenses."/>
+		</Update>
+		<!-- AQUEDUCT DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_AQUEDUCT_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Provides the City with a source of [ICON_Housing] Fresh Water from an adjacent [ICON_Terrain] River, Lake, Oasis, or Mountain tile.[NEWLINE][ICON_Bullet]+6 [ICON_Housing] Housing in Cities without [ICON_Housing] Fresh Water.[NEWLINE][ICON_Bullet]+2 [ICON_Housing] Housing in Cities which already had [ICON_Housing] Fresh Water.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity if adjacent to a [ICON_Terrain] Geothermal Fissure.[NEWLINE][ICON_Bullet]Prevents [ICON_Food] Food loss during Drought.[NEWLINE][ICON_Bullet]Certain adjacent [ICON_Charges] Improvements or [ICON_District] Districts gain [ICON_Food] Food adjacency."/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_DISTRICT_AQUEDUCT_ALT_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Provides the City with a source of [ICON_Housing] Fresh Water from an adjacent [ICON_Terrain] River, Lake, Oasis, or Mountain tile.[NEWLINE][ICON_Bullet]+6 [ICON_Housing] Housing in Cities without [ICON_Housing] Fresh Water.[NEWLINE][ICON_Bullet]+2 [ICON_Housing] Housing in Cities which already had [ICON_Housing] Fresh Water.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity if adjacent to a [ICON_Terrain] Geothermal Fissure.[NEWLINE][ICON_Bullet]Prevents [ICON_Food] Food loss during Drought.[NEWLINE][ICON_Bullet]Certain adjacent [ICON_Charges] Improvements or [ICON_District] Districts gain [ICON_Food] Food adjacency."/>
+		</Update>
+		<!-- BATH DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_BATH_EXPANSION2_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Rome, replaces the [ICON_District_Aqueduct] Aqueduct.[NEWLINE][ICON_Bullet]Provides the City with a source of [ICON_Housing] Fresh Water from an adjacent [ICON_Terrain] River, Lake, Oasis, or Mountain tile.[NEWLINE][ICON_Bullet]+6 [ICON_Housing] Housing in Cities without [ICON_Housing] Fresh Water.[NEWLINE][ICON_Bullet]+2 [ICON_Housing] Housing in Cities which already had [ICON_Housing] Fresh Water.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity and +2 [ICON_Housing] Housing in any City.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity if adjacent to a [ICON_Terrain] Geothermal Fissure.[NEWLINE][ICON_Bullet]Prevents [ICON_Food] Food loss during Drought.[NEWLINE][ICON_Bullet]Certain adjacent [ICON_Charges] Improvements or [ICON_District] Districts gain [ICON_Food] Food adjacency."/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_DISTRICT_BATH_EXPANSION2_ALT_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Rome, replaces the [ICON_District_Aqueduct] Aqueduct.[NEWLINE][ICON_Bullet]Provides the City with a source of [ICON_Housing] Fresh Water from an adjacent [ICON_Terrain] River, Lake, Oasis, or Mountain tile.[NEWLINE][ICON_Bullet]+6 [ICON_Housing] Housing in Cities without [ICON_Housing] Fresh Water.[NEWLINE][ICON_Bullet]+2 [ICON_Housing] Housing in Cities which already had [ICON_Housing] Fresh Water.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity and +2 [ICON_Housing] Housing in any City.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity if adjacent to a [ICON_Terrain] Geothermal Fissure.[NEWLINE][ICON_Bullet]Prevents [ICON_Food] Food loss during Drought.[NEWLINE][ICON_Bullet]Certain adjacent [ICON_Charges] Improvements or [ICON_District] Districts gain [ICON_Food] Food adjacency."/>
+		</Update>
+		<!-- NEIGBORHOOD DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_NEIGHBORHOOD_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Breathtaking Appeal: +6 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]Charming Appeal: +5 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]Average Appeal: +4 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]Uninviting Appeal: +3 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]Disgusting Appeal: +2 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]Certain [ICON_Charges] Improvements and [ICON_District] Districts gain or give [ICON_Food] Food adjacency."/>
+		</Update>
+		<!-- MBANZA DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_MBANZA_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Kongo, replaces the [ICON_DISTRICT_NEIGHBORHOOD] Neighborhood.[NEWLINE][ICON_Bullet]+2 [ICON_Food] Food, +4 [ICON_Gold] Gold, and +5 [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]Must be built on [ICON_Terrain] Forest or Rainforest.[NEWLINE][ICON_Bullet]Certain [ICON_Charges] Improvements and [ICON_District] Districts gain or give [ICON_Food] Food adjacency."/>
+		</Update>
+		<!-- CANAL DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_CANAL_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Unit] Naval Units and [ICON_TradeRoute] Trade Routes can pass through as if the tile were [ICON_Terrain] Coast or Lake.[NEWLINE][ICON_Bullet][ICON_TradeRoute] Trade Routes gain bonus [ICON_Gold] Gold if passing through.[NEWLINE][ICON_Bullet][ICON_Unit] Military Engineers can spend a [ICON_Charges] Charge to complete 20% of a [ICON_DISTRICT_CANAL] Canal's [ICON_Production] Production cost.[NEWLINE][ICON_Bullet]+4 [ICON_Housing] Housing."/>
+		</Update>
+		<!-- DAM DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_DAM_DESCRIPTION"												Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Must be built on a [ICON_Terrain] Floodplains tile, where the River is adjacent to 2 Floodplains tiles.[NEWLINE][ICON_Bullet]Flooding does not [ICON_Damaged] Damage tiles.[NEWLINE][ICON_Bullet]Yields from Flooding decreases by 50%.[NEWLINE][ICON_Bullet]Prevents [ICON_Food] Food loss during Drought.[NEWLINE][ICON_Bullet]A series of [ICON_Terrain] Floodplains on a River can support only one [ICON_DISTRICT_DAM] Dam.[NEWLINE][ICON_Bullet][ICON_Unit]Military Engineers can spend a [ICON_Charges] Charge to complete 20% of a [ICON_DISTRICT_DAM] Dam's [ICON_Production] Production cost.[NEWLINE][ICON_Bullet]+6 [ICON_Housing] Housing."/>
+		</Update>
+		<!-- GOVERNMENT PLAZA DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_GOVERNMENT_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+8 [ICON_PressureUp] Loyalty for the City.[NEWLINE][ICON_Bullet][ICON_District]Specialty Districts gain standard adjacency from the [ICON_DISTRICT_GOVERNMENT] Government Plaza.[NEWLINE][ICON_Bullet]+1 [ICON_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- DIPLOMATIC QUARTER DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_DIPLOMATIC_QUARTER_EXPANSION2_DESCRIPTION"					Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Favor] Diplomatic Favor per Delegation or Embassy from a foreign Civilization.[NEWLINE][ICON_Bullet]+1 [ICON_Envoy] Envoy when built next to a [ICON_DISTRICT_CITY_CENTER] City Center.[NEWLINE][ICON_Bullet]Enemy [ICON_VisTopSecret] Spies operate at 2 levels lower when targeting the [ICON_DISTRICT_GOVERNMENT] Diplomatic Quarter and adjacent [ICON_District] Districts."/>
+		</Update>
+		<!-- PRESERVE DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_PRESERVE_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Cannot be adjacent to the City.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing on Charming Appeal tiles; bonus tripled to +3 [ICON_Housing] Housing on Breathtaking Appeal tiles.[NEWLINE][ICON_Bullet]+1 Appeal on adjacent tiles.[NEWLINE][ICON_Bullet][ICON_Culture] Culture Bombs adjacent unclaimed tiles."/>
+		</Update>
+		<!-- SPACEPORT DISTRICT -->
+		<Update>
+			<Where	Tag="LOC_DISTRICT_SPACEPORT_DESCRIPTION_XP2"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Required for [ICON_Science] Space Exploration Projects.[NEWLINE][ICON_Bullet]Cannot be built on [ICON_Terrain] Hills."/>
+		</Update>
+	</LocalizedText>
+
+	<!-- PROJECTS -->
+		<!-- N/A-->
+
+	<!-- STANDARD DISTRICT ADJACENCIES -->
+	<LocalizedText>
+		<!-- HOLY SITE BONUSES -->
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Mission.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Monastery.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_3_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Sphinx.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_4_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Stepwell.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_5_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Chemamull.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_6_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Kurgan.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_7_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Ziggurats.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_8_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Cahokia Mound.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_9_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Moai.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_10_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Colossal Head.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_11_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Nazca Line.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HOLY_SITE_FAITH_12_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Faith] Faith from adjacent Rock-Hewn Church.</Text>
+		</Row>
+		<!-- COMMERCIAL HUB BONUSES -->
+		<Row		Tag="LOC_STR_COMMERCIAL_HUB_GOLD_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold from adjacent Château.</Text>
+		</Row>
+		<!-- CAMPUS BONUSES -->
+		<Row		Tag="LOC_STR_CAMPUS_SCIENCE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from adjacent Ziggurat.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CAMPUS_SCIENCE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from adjacent Mission.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CAMPUS_SCIENCE_3_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from adjacent Monastery.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_CAMPUS_SCIENCE_4_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from adjacent Alcázar.</Text>
+		</Row>
+		<!-- THEATER BONUSES -->
+		<Row		Tag="LOC_STR_THEATER_CULTURE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] Culture from adjacent Ziggurat.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_THEATER_CULTURE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] Culture from adjacent Château.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_THEATER_CULTURE_3_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] Culture from adjacent Chemamull.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_THEATER_CULTURE_4_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] Culture from the adjacent Alcázar.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_THEATER_CULTURE_5_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] Culture from adjacent City Park.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_THEATER_CULTURE_6_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] Culture from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_THEATER_CULTURE_7_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] Culture from adjacent Lavra.</Text>
+		</Row>
+		<!-- HARBOR BONUSES -->
+		<Row		Tag="LOC_STR_HARBOR_GOLD_1_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold from adjacent Polder.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HARBOR_GOLD_2_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold Gold from adjacent Kampung.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HARBOR_GOLD_3_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold from adjacent Fishery.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HARBOR_GOLD_4_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold from adjacent Encampment.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HARBOR_GOLD_5_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold from adjacent Ikanda.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HARBOR_GOLD_6_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold from adjacent Aerodrome.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HARBOR_GOLD_7_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold from adjacent Commercial Hub.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_HARBOR_GOLD_8_DESCRIPTION"											Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold from adjacent Suguba.</Text>
+		</Row>
+		<!-- COTHON BONUSES -->
+		<Row		Tag="LOC_STR_COTHON_SCIENCE_1_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from adjacent Government Plaza.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_COTHON_SCIENCE_2_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from adjacent Districts.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_COTHON_SCIENCE_3_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from adjacent City Center.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_COTHON_SCIENCE_4_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from adjacent Sea Resources.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_COTHON_SCIENCE_5_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from adjacent Reefs.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_COTHON_SCIENCE_6_DESCRIPTION"										Language="en_US">
+			<Text>+{1_Num} [ICON_Science] Science from adjacent Great Barrier Reef.</Text>
+		</Row>
+		<!-- ENCAMPMENT BONUSES -->
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_1_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Strategic Resources.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_2_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Farms.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_3_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Pasture.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_4_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Mine.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_5_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Fort.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_6_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Roman Fort.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_7_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Great Wall.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_8_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Pā.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_9_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Alcázar.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_10_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Encampment.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_11_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Ikanda.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_12_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Aerodrome.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_13_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Industrial Zone.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_14_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Hansa.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_15_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Harbor.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_16_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Royal Navy Dockyard.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_ENCAMPMENT_PRODUCTION_17_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Cothon.</Text>
+		</Row>
+		<!-- AERODROME BONUSES -->
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_1_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Fort.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_2_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Roman Fort.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_3_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Pā.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_4_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Alcázar.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_5_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Encampment.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_6_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Ikanda.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_7_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Aerodrome.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_8_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Industrial Zone.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_9_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Hansa.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_10_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Harbor.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_11_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Royal Navy Dockyard.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_AERODROME_PRODUCTION_12_DESCRIPTION"								Language="en_US">
+			<Text>+{1_Num} [ICON_Production] Production from adjacent Cothon.</Text>
+		</Row>
+		<!-- DIPLOMATIC QUARTER BONUSES -->
+	<!--<Row		Tag="LOC_STR_DIPLOMATIC_QUARTER_CULTURE_1_DESCRIPTION"							Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Government Plaza.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_DIPLOMATIC_QUARTER_CULTURE_2_DESCRIPTION"							Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Theater Square.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_DIPLOMATIC_QUARTER_CULTURE_3_DESCRIPTION"							Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Acropolis.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_DIPLOMATIC_QUARTER_CULTURE_4_DESCRIPTION"							Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Holy Site.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_DIPLOMATIC_QUARTER_CULTURE_5_DESCRIPTION"							Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Lavra.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_DIPLOMATIC_QUARTER_CULTURE_6_DESCRIPTION"							Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Campus.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_DIPLOMATIC_QUARTER_CULTURE_7_DESCRIPTION"							Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Seowon.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_DIPLOMATIC_QUARTER_CULTURE_8_DESCRIPTION"							Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Observatory.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_DIPLOMATIC_QUARTER_CULTURE_9_DESCRIPTION"							Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Neigborhood.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_DIPLOMATIC_QUARTER_CULTURE_10_DESCRIPTION"							Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] from adjacent Mbanza.</Text>
+		</Row>-->
+		<!-- NEIGHBORHOOD BONUSES -->
+		<Row		Tag="LOC_STR_NEIGHBORHOOD_FOOD_1_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] Food from adjacent District.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_NEIGHBORHOOD_FOOD_2_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] Food from adjacent Aqueduct.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_NEIGHBORHOOD_FOOD_3_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] Food from adjacent Bath.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_NEIGHBORHOOD_FOOD_4_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] Food from adjacent Neighborhood.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_NEIGHBORHOOD_FOOD_5_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] Food from adjacent Mbanza.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_NEIGHBORHOOD_FOOD_6_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] Food from adjacent Farm.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_NEIGHBORHOOD_FOOD_7_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] Food from adjacent Terrace Farm.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_NEIGHBORHOOD_FOOD_8_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] Food from adjacent Step Well.</Text>
+		</Row>
+		<Row		Tag="LOC_STR_NEIGHBORHOOD_FOOD_9_DESCRIPTION"									Language="en_US">
+			<Text>+{1_Num} [ICON_Food] Food from adjacent Polder.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

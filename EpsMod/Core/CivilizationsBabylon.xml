@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_BABYLON"/><Set><Description>LOC_TRAIT_CIVILIZATION_BABYLON_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Delete TraitType="TRAIT_CIVILIZATION_BABYLON"/>
+
+		<Row TraitType="TRAIT_CIVILIZATION_BABYLON" ModifierId="EPSMOD_CIVS_BABYLON_SCIENCE_BONUS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BABYLON" ModifierId="EPSMOD_CIVS_BABYLON_EUREKA_MINUS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BABYLON" ModifierId="EPSMOD_CIVS_BABYLON_EUREKA_SCORE"/>
+	</TraitModifiers>
+	
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CIVS_BABYLON_SCIENCE_BONUS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType><OwnerRequirementSetId>EPSMOD_CIVS_IS_BABYLON_IN_GOLDEN</OwnerRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BABYLON_EUREKA_MINUS</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TECHNOLOGY_BOOST</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BABYLON_EUREKA_SCORE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLAYER_ERA_SCORE_PER_TECH_BOOST</ModifierType></Row>
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_CIVS_BABYLON_SCIENCE_BONUS</ModifierId><Name>YieldType</Name><Value>YIELD_SCIENCE</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BABYLON_SCIENCE_BONUS</ModifierId><Name>Amount</Name><Value>.3</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BABYLON_EUREKA_MINUS</ModifierId><Name>Amount</Name><Value>-15</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BABYLON_EUREKA_SCORE</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+	</ModifierArguments>
+
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_BABYLON_IN_GOLDEN</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_CIVS_IS_BABYLON_IN_GOLDEN</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_BABYLON_GOLDEN_AGE</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_BABYLON_GOLDEN_AGE</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_GOLDEN_AGE</RequirementType></Row>
+	</Requirements>
+	
+</GameData>

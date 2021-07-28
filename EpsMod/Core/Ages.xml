@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<CommemorationTypes>		
+		<Update><Where CommemorationType="COMMEMORATION_SCIENTIFIC"/><Set><NormalAgeBonusDescription>LOC_FREE_INQUIRY_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_CULTURAL"/><Set><NormalAgeBonusDescription>LOC_PEN_BRUSH_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_INFRASTRUCTURE"/><Set><NormalAgeBonusDescription>LOC_MONUMENTALITY_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_RELIGIOUS"/><Set><NormalAgeBonusDescription>LOC_EXODUS_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_EXPLORATION"/><Set><NormalAgeBonusDescription>LOC_HIC_SUNT_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_ECONOMIC"/><Set><NormalAgeBonusDescription>LOC_COINAGE_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_INDUSTRIAL"/><Set><NormalAgeBonusDescription>LOC_HEARTBEAT_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_MILITARY"/><Set><NormalAgeBonusDescription>LOC_TO_ARMS_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_TOURISM"/><Set><NormalAgeBonusDescription>LOC_WISH_YOU_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_ESPIONAGE"/><Set><NormalAgeBonusDescription>LOC_BODYGUARD_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_AERONAUTICAL"/><Set><NormalAgeBonusDescription>LOC_SKIES_AND_STARS_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		<Update><Where CommemorationType="COMMEMORATION_AUTOMATON"/><Set><NormalAgeBonusDescription>LOC_AUTOMATON_NORMAL_AGE_EPSMOD</NormalAgeBonusDescription></Set></Update>
+		
+	</CommemorationTypes>
+
+	<CommemorationModifiers>
+		<Row CommemorationType="COMMEMORATION_SCIENTIFIC" ModifierId="EPSMOD_FREE_INQUIRY_GPP"/>
+		<Row CommemorationType="COMMEMORATION_CULTURAL" ModifierId="EPSMOD_PEN_BRUSH_GPP1"/>
+		<Row CommemorationType="COMMEMORATION_CULTURAL" ModifierId="EPSMOD_PEN_BRUSH_GPP2"/>
+		<Row CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="EPSMOD_MONUMENTALITY_GPP"/>
+		<Row CommemorationType="COMMEMORATION_RELIGIOUS" ModifierId="EPSMOD_EXODUS_GPP"/>
+		<Row CommemorationType="COMMEMORATION_EXPLORATION" ModifierId="EPSMOD_HIC_SUNT_GPP"/>
+		<Row CommemorationType="COMMEMORATION_ECONOMIC" ModifierId="EPSMOD_COINAGE_GPP"/>
+		<Row CommemorationType="COMMEMORATION_INDUSTRIAL" ModifierId="EPSMOD_HEARTBEAT_GPP"/>
+		<Row CommemorationType="COMMEMORATION_MILITARY" ModifierId="EPSMOD_TO_ARMS_GPP"/>
+		<Row CommemorationType="COMMEMORATION_TOURISM" ModifierId="EPSMOD_WISH_YOU_GPP1"/>
+		<Row CommemorationType="COMMEMORATION_TOURISM" ModifierId="EPSMOD_WISH_YOU_GPP2"/>
+		<Row CommemorationType="COMMEMORATION_ESPIONAGE" ModifierId="EPSMOD_BODYGUARD_PRODUCTION"/>
+		<Row CommemorationType="COMMEMORATION_AERONAUTICAL" ModifierId="EPSMOD_SKIES_AND_STARS_GPP1"/>
+		<Row CommemorationType="COMMEMORATION_AERONAUTICAL" ModifierId="EPSMOD_SKIES_AND_STARS_GPP2"/>
+		<Row CommemorationType="COMMEMORATION_AUTOMATON" ModifierId="EPSMOD_AUTOMATON_GPP"/>
+	</CommemorationModifiers>
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_FREE_INQUIRY_GPP</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_PEN_BRUSH_GPP1</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_PEN_BRUSH_GPP2</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_MONUMENTALITY_GPP</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_EXODUS_GPP</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_HIC_SUNT_GPP</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_COINAGE_GPP</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_HEARTBEAT_GPP</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_TO_ARMS_GPP</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_WISH_YOU_GPP1</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_WISH_YOU_GPP2</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_BODYGUARD_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_UNIT_PRODUCTION</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_SKIES_AND_STARS_GPP1</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_SKIES_AND_STARS_GPP2</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_AUTOMATON_GPP</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType><SubjectRequirementSetId>EPSMOD_IN_NORMAL_AGE</SubjectRequirementSetId></Row>
+		
+	</Modifiers>
+	
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_FREE_INQUIRY_GPP</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_SCIENTIST</Value></Row>
+		<Row><ModifierId>EPSMOD_FREE_INQUIRY_GPP</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_PEN_BRUSH_GPP1</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_WRITER</Value></Row>
+		<Row><ModifierId>EPSMOD_PEN_BRUSH_GPP1</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_PEN_BRUSH_GPP2</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_ARTIST</Value></Row>
+		<Row><ModifierId>EPSMOD_PEN_BRUSH_GPP2</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_MONUMENTALITY_GPP</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_ENGINEER</Value></Row>
+		<Row><ModifierId>EPSMOD_MONUMENTALITY_GPP</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_EXODUS_GPP</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_PROPHET</Value></Row>
+		<Row><ModifierId>EPSMOD_EXODUS_GPP</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_HIC_SUNT_GPP</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_ADMIRAL</Value></Row>
+		<Row><ModifierId>EPSMOD_HIC_SUNT_GPP</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_COINAGE_GPP</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_MERCHANT</Value></Row>
+		<Row><ModifierId>EPSMOD_COINAGE_GPP</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_HEARTBEAT_GPP</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_ENGINEER</Value></Row>
+		<Row><ModifierId>EPSMOD_HEARTBEAT_GPP</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_TO_ARMS_GPP</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_GENERAL</Value></Row>
+		<Row><ModifierId>EPSMOD_TO_ARMS_GPP</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_WISH_YOU_GPP1</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_ARTIST</Value></Row>
+		<Row><ModifierId>EPSMOD_WISH_YOU_GPP1</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_WISH_YOU_GPP2</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_MUSICIAN</Value></Row>
+		<Row><ModifierId>EPSMOD_WISH_YOU_GPP2</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_BODYGUARD_PRODUCTION</ModifierId><Name>UnitType</Name><Value>UNIT_SPY</Value></Row>
+		<Row><ModifierId>EPSMOD_BODYGUARD_PRODUCTION</ModifierId><Name>Amount</Name><Value>25</Value></Row>
+		<Row><ModifierId>EPSMOD_SKIES_AND_STARS_GPP1</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_ENGINEER</Value></Row>
+		<Row><ModifierId>EPSMOD_SKIES_AND_STARS_GPP1</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_SKIES_AND_STARS_GPP2</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_SCIENTIST</Value></Row>
+		<Row><ModifierId>EPSMOD_SKIES_AND_STARS_GPP2</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_AUTOMATON_GPP</ModifierId><Name>GreatPersonClassType</Name><Value>GREAT_PERSON_CLASS_GENERAL</Value></Row>
+		<Row><ModifierId>EPSMOD_AUTOMATON_GPP</ModifierId><Name>Amount</Name><Value>5</Value></Row>
+	</ModifierArguments>
+	
+	
+	
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_IN_NORMAL_AGE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+	
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_IN_NORMAL_AGE</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_NOT_IN_GOLDEN_AGE</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_IN_NORMAL_AGE</RequirementSetId><RequirementId>EPSMOD_REQUIREMENT_NOT_IN_DARK_AGE</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_NOT_IN_GOLDEN_AGE</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_GOLDEN_AGE</RequirementType><Inverse>true</Inverse></Row>
+		<Row><RequirementId>EPSMOD_REQUIREMENT_NOT_IN_DARK_AGE</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_DARK_AGE</RequirementType><Inverse>true</Inverse></Row>
+	</Requirements>
+</GameData>

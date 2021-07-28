@@ -1,0 +1,2087 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Improvements_01 -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 11:42:28 AM -->
+<GameData>
+
+<!-- IMPROVEMENTS -->
+	<Improvements>
+	<!-- FARM -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_FARM"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- MINE -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_MINE"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- QUARRY -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_QUARRY"/>
+			<Set	PlunderType="PLUNDER_GOLD"/>
+		</Update>
+	<!-- FISHING BOATS -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_FISHING BOATS"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- PASTURE -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_PASTURE"/>
+			<Set	PlunderType="PLUNDER_GOLD"/>
+		</Update>
+	<!-- PLANTATION -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_PLANTATION"/>
+			<Set	PlunderType="PLUNDER_GOLD"/>
+		</Update>
+	<!-- CAMP -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_CAMP"/>
+			<Set	PlunderType="PLUNDER_GOLD"/>
+		</Update>
+	<!-- LUMBER MILL -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_LUMBER_MILL"/>
+			<Set	Appeal="-1"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- OIL WELL -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_OIL_WELL"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- OFFSHORE OIL RIG -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- OFFSHORE OIL RIG -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- BEACH RESORT -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_BEACH_RESORT"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- FISHERY -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_FISHERY"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- CITY PARK -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_CITY_PARK"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- AIRSTRIP -->
+		<!-- N/A -->
+	<!-- MISSILE SILO -->
+		<!-- N/A -->
+	<!-- GEOTHERMAL PLANT -->
+		<!-- N/A -->
+	<!-- WIND FARM -->
+		<!-- N/A -->
+	<!-- OFFSHORE WIND FARM -->
+		<!-- N/A -->
+	<!-- SOLAR FARM -->
+		<!-- N/A -->
+	<!-- SEASTEAD-->
+		<!-- N/A -->
+	<!-- CHATEAU -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_CHATEAU"/>
+			<Set	Housing="1"
+					PrereqCivic="CIVIC_DIVINE_RIGHT"/>
+		</Update>
+	<!-- COLOSSAL HEAD -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_COLOSSAL_HEAD"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- GREAT WALL -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_GREAT_WALL"/>
+			<Set	BuildOnFrontier="false"
+					CanBuildOutsideTerritory="true"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- KURGAN -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_KURGAN"/>
+			<Set	Housing="1"/>
+		</Update>
+	<!-- SPHINX -->
+		<!-- N/A -->
+	<!-- ROMAN FORT -->
+		<!-- N/A -->
+	<!-- STEPWELL -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_STEPWELL"/>
+			<Set	Appeal="1"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- ZIGGURAT -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_ZIGGURAT"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- ALCAZAR -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_ALCAZAR"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- OUTBACK STATION -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_OUTBACK_STATION"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- NUBIAN PYRAMID -->
+		<!-- N/A -->
+	<!-- PAIRIDAEZA -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_PAIRIDAEZA"/>
+			<Set	Appeal="2"/>
+		</Update>
+	<!-- KAMPUNG -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_KAMPUNG"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- MONASTERY -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_MONASTERY"/>
+			<Set	Appeal="2"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- CHEMAMULL -->
+	<!--<Update>
+			<Where	ImprovementType="IMPROVEMENT_CHEMAMULL"/>
+			<Set	SameAdjacentValid="false"/>
+		</Update>-->
+	<!-- GOLF COURSE -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_GOLF_COURSE"/>
+			<Set	PlunderType="PLUNDER_GOLD"
+					PlunderAmount="25"
+					Appeal="3"/>
+		</Update>
+	<!-- MEKEWAP -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_MEKEWAP"/>
+			<Set	PlunderType="PLUNDER_GOLD"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- POLDER -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_POLDER"/>
+			<Set	PlunderType="PLUNDER_HEAL"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- MOAI -->
+		<!-- N/A -->
+	<!-- MOUND -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_MOUND"/>
+			<Set	PlunderType="PLUNDER_FAITH"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- NAZCA LINE -->
+		<!-- N/A -->
+	<!-- OPEN-AIR MUSEUM -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM"/>
+			<Set	PlunderType="PLUNDER_GOLD"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- ICE HOCKEY RINK -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK"/>
+			<Set	PlunderType="PLUNDER_GOLD"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- PA -->
+		<!-- N/A -->
+	<!-- TERRACE FARM -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_TERRACE_FARM"/>
+			<Set	PlunderAmount="25"/>
+		</Update>
+	<!-- HACIENDA -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_HACIENDA"/>
+			<Set	PrereqCivic="CIVIC_FEUDALISM"
+					PlunderType="PLUNDER_GOLD"
+					PlunderAmount="25"/>
+		</Update>
+	<!-- FEITORIA -->
+		<!-- N/A -->
+	<!-- MAHAVIHARA -->
+		<!-- N/A -->
+	<!-- TRADING DOME -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_TRADING_DOME"/>
+			<Set	Appeal="1"
+					PlunderAmount="25"/>
+		</Update>
+	</Improvements>
+
+<!-- IMPROVEMENT YIELDS -->	
+	<Improvement_YieldChanges>
+	<!-- MINE YIELDS -->
+		<Row	ImprovementType="IMPROVEMENT_MINE"
+				YieldType="YIELD_FOOD"
+				YieldChange="-2"/>
+	<!-- QUARRY YIELDS -->
+		<Row	ImprovementType="IMPROVEMENT_QUARRY"
+				YieldType="YIELD_FOOD"
+				YieldChange="-2"/>
+	<!-- LUMBER MILL YIELDS -->
+		<Row	ImprovementType="IMPROVEMENT_LUMBER_MILL"
+				YieldType="YIELD_FOOD"
+				YieldChange="-2"/>
+	<!-- CHATEAU YIELDS -->
+		<Row	ImprovementType="IMPROVEMENT_CHATEAU"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"/>
+		<Row	ImprovementType="IMPROVEMENT_CHATEAU"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"/>
+	<!-- SPHINX YIELDS -->
+		<Row	ImprovementType="IMPROVEMENT_SPHINX"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"/>
+	<!-- ZIGGURAT YIELDS -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_ZIGGURAT"
+					YieldType="YIELD_SCIENCE"/>
+			<Set	YieldChange="1"/>
+		</Update>
+		<Row	ImprovementType="IMPROVEMENT_ZIGGURAT"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"/>
+		<Row	ImprovementType="IMPROVEMENT_ZIGGURAT"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"/>
+	<!-- MONASTERY YIELDS -->
+		<Row	ImprovementType="IMPROVEMENT_MONASTERY"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="0"/>
+	<!-- PYRAMID YIELDS -->
+	<!--<Update>
+			<Where	ImprovementType="IMPROVEMENT_PYRAMID"
+			YieldType="YIELD_FAITH"/>
+			<Set	YieldChange="4"/>
+		</Update>-->
+	<!-- MEKEWAP YIELDS -->
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="0"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldType="YIELD_CULTURE"
+				YieldChange="0"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"/>
+	<!-- CHEMAMULL YIELDS -->
+		<Row	ImprovementType="IMPROVEMENT_CHEMAMULL"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"/>
+	</Improvement_YieldChanges>
+
+<!-- IMPROVEMENT ADJACENCIES -->	
+	<Improvement_Adjacencies>
+	<!-- FARM ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_1"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_2"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_4"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_5"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_6"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_7"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_8"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_9"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_10"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_11"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Food_12"/>
+		<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Starve_1"/>
+	<!--<Row	ImprovementType="IMPROVEMENT_FARM"
+				YieldChangeId="STR_Farm_Starve_2"/>-->
+	<!-- TERRACE FARM ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Food_4"/>
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Food_5"/>
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Food_6"/>
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Food_7"/>
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Food_8"/>
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Food_9"/>
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Food_11"/>
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Food_12"/>
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Food_13"/>
+		<Row	ImprovementType="IMPROVEMENT_TERRACE_FARM"
+				YieldChangeId="STR_Farm_Starve_2"/>
+	<!-- STEPWELL ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_1"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_2"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_4"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_5"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_6"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_7"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_9"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_11"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_12"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				YieldChangeId="STR_Farm_Food_13"/>
+	<!-- POLDER ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_1"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_2"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_4"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_5"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_6"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_7"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_8"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_9"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_10"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_11"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				YieldChangeId="STR_Farm_Food_13"/>
+	<!-- OUTBACK STATION ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_1"/>
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_2"/>
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_4"/>
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_5"/>
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_6"/>
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_7"/>
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_8"/>
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_10"/>
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_11"/>
+		<Row	ImprovementType="IMPROVEMENT_OUTBACK_STATION"
+				YieldChangeId="STR_Farm_Food_12"/>
+	<!-- HACIENDA ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_1"/>
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_2"/>
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_4"/>
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_5"/>
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_6"/>
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_7"/>
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_8"/>
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_9"/>
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_10"/>
+		<Row	ImprovementType="IMPROVEMENT_HACIENDA"
+				YieldChangeId="STR_Farm_Food_12"/>
+	<!-- PYRAMID ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_PYRAMID"
+				YieldChangeId="STR_Farm_Food_1"/>
+		<Row	ImprovementType="IMPROVEMENT_PYRAMID"
+				YieldChangeId="STR_Farm_Food_2"/>
+		<Row	ImprovementType="IMPROVEMENT_PYRAMID"
+				YieldChangeId="STR_Farm_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_PYRAMID"
+				YieldChangeId="STR_Farm_Food_4"/>
+		<Row	ImprovementType="IMPROVEMENT_PYRAMID"
+				YieldChangeId="STR_Farm_Food_5"/>
+		<Row	ImprovementType="IMPROVEMENT_PYRAMID"
+				YieldChangeId="STR_Pyramid_Production_1"/>
+		<Row	ImprovementType="IMPROVEMENT_PYRAMID"
+				YieldChangeId="STR_Pyramid_Production_2"/>
+	<!-- FISHING BOAT ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_FISHING_BOATS"
+				YieldChangeId="STR_Farm_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_FISHING_BOATS"
+				YieldChangeId="STR_Farm_Food_4"/>
+	<!-- FISHERY ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_FISHERY"
+				YieldChangeId="STR_Farm_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_FISHERY"
+				YieldChangeId="STR_Farm_Food_4"/>
+	<!-- MISSION ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Mission_Science_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Mission_Science_2"/>
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Farm_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Farm_Food_4"/>
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Farm_Food_6"/>
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Farm_Food_7"/>
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Farm_Food_8"/>
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Farm_Food_10"/>
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Farm_Food_11"/>
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Farm_Food_12"/>
+		<Row	ImprovementType="IMPROVEMENT_MISSION"
+				YieldChangeId="STR_Farm_Food_13"/>
+	<!-- MINE ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_MINE"
+				YieldChangeId="STR_Mine_Production_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MINE"
+				YieldChangeId="STR_Mine_Production_2"/>
+	<!-- QUARRY ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_QUARRY"
+				YieldChangeId="STR_Quarry_Production_1"/>
+		<Row	ImprovementType="IMPROVEMENT_QUARRY"
+				YieldChangeId="STR_Quarry_Production_2"/>
+		<Row	ImprovementType="IMPROVEMENT_QUARRY"
+				YieldChangeId="STR_Quarry_Production_3"/>
+	<!-- PLANTATION ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_PLANTATION"
+				YieldChangeId="STR_Plantation_Gold_1"/>
+		<Row	ImprovementType="IMPROVEMENT_PLANTATION"
+				YieldChangeId="STR_Plantation_Gold_2"/>
+		<Row	ImprovementType="IMPROVEMENT_PLANTATION"
+				YieldChangeId="STR_Plantation_Gold_3"/>
+		<Row	ImprovementType="IMPROVEMENT_PLANTATION"
+				YieldChangeId="STR_Plantation_Gold_4"/>
+		<Row	ImprovementType="IMPROVEMENT_PLANTATION"
+				YieldChangeId="STR_Plantation_Culture_1"/>
+		<Row	ImprovementType="IMPROVEMENT_PLANTATION"
+				YieldChangeId="STR_Farm_Starve_1"/>
+	<!--<Row	ImprovementType="IMPROVEMENT_PLANTATION"
+				YieldChangeId="STR_Farm_Starve_2"/>-->
+	<!-- LUMBER MILL ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_LUMBER_MILL"
+				YieldChangeId="STR_Farm_Starve_1"/>
+	<!--<Row	ImprovementType="IMPROVEMENT_LUMBER_MILL"
+				YieldChangeId="STR_Farm_Starve_2"/>-->
+	<!-- PASTURE ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_PASTURE"
+				YieldChangeId="STR_Pasture_Production_1"/>
+	<!--<Row	ImprovementType="IMPROVEMENT_PASTURE"
+				YieldChangeId="STR_Pasture_Production_2"/>-->
+		<Row	ImprovementType="IMPROVEMENT_PASTURE"
+				YieldChangeId="STR_Pasture_Food_1"/>
+		<Row	ImprovementType="IMPROVEMENT_PASTURE"
+				YieldChangeId="STR_Pasture_Food_2"/>
+	<!-- CAMP ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_CAMP"
+				YieldChangeId="STR_Camp_Food_1"/>
+	<!--<Row	ImprovementType="IMPROVEMENT_CAMP"
+				YieldChangeId="STR_Camp_Food_2"/>-->
+		<Row	ImprovementType="IMPROVEMENT_CAMP"
+				YieldChangeId="STR_Camp_Food_3"/>
+		<Row	ImprovementType="IMPROVEMENT_CAMP"
+				YieldChangeId="STR_Camp_Gold_1"/>
+	<!--<Row	ImprovementType="IMPROVEMENT_CAMP"
+				YieldChangeId="STR_Camp_Gold_2"/>-->
+		<Row	ImprovementType="IMPROVEMENT_CAMP"
+				YieldChangeId="STR_Camp_Gold_3"/>
+		<Row	ImprovementType="IMPROVEMENT_CAMP"
+				YieldChangeId="STR_Camp_Gold_4"/>
+	<!-- KURGAN ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_KURGAN"
+				YieldChangeId="STR_Kurgan_Gold_1"/>
+		<Row	ImprovementType="IMPROVEMENT_KURGAN"
+				YieldChangeId="STR_Kurgan_Gold_2"/>
+		<Row	ImprovementType="IMPROVEMENT_KURGAN"
+				YieldChangeId="STR_Kurgan_Gold_3"/>
+		<Row	ImprovementType="IMPROVEMENT_KURGAN"
+				YieldChangeId="STR_Kurgan_Gold_4"/>
+		<Row	ImprovementType="IMPROVEMENT_KURGAN"
+				YieldChangeId="STR_Kurgan_Faith_1"/>
+		<Row	ImprovementType="IMPROVEMENT_KURGAN"
+				YieldChangeId="STR_Kurgan_Faith_2"/>
+		<Row	ImprovementType="IMPROVEMENT_KURGAN"
+				YieldChangeId="STR_Kurgan_Faith_3"/>
+	<!-- SPHINX ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_SPHINX"
+				YieldChangeId="STR_Sphinx_Culture_1"/>
+		<Row	ImprovementType="IMPROVEMENT_SPHINX"
+				YieldChangeId="STR_Sphinx_Culture_2"/>
+		<Row	ImprovementType="IMPROVEMENT_SPHINX"
+				YieldChangeId="STR_Sphinx_Faith_1"/>
+		<Row	ImprovementType="IMPROVEMENT_SPHINX"
+				YieldChangeId="STR_Sphinx_Faith_2"/>
+	<!-- ZIGGURAT ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_ZIGGURAT"
+				YieldChangeId="STR_Ziggurat_Science_1"/>
+		<Row	ImprovementType="IMPROVEMENT_ZIGGURAT"
+				YieldChangeId="STR_Ziggurat_Culture_1"/>
+		<Row	ImprovementType="IMPROVEMENT_ZIGGURAT"
+				YieldChangeId="STR_Ziggurat_Faith_1"/>
+		<Row	ImprovementType="IMPROVEMENT_ZIGGURAT"
+				YieldChangeId="STR_Ziggurat_Faith_2"/>
+		<Row	ImprovementType="IMPROVEMENT_ZIGGURAT"
+				YieldChangeId="STR_Ziggurat_Faith_3"/>
+	<!-- PAIRIDAEZA ADJACENCY -->
+	<!--<Row	ImprovementType="IMPROVEMENT_PAIRIDAEZA"
+				YieldChangeId="STR_Pairidaeza_Gold_1"/>-->
+		<Row	ImprovementType="IMPROVEMENT_PAIRIDAEZA"
+				YieldChangeId="STR_Pairidaeza_Gold_2"/>
+		<Row	ImprovementType="IMPROVEMENT_PAIRIDAEZA"
+				YieldChangeId="STR_Pairidaeza_Gold_3"/>
+		<Row	ImprovementType="IMPROVEMENT_PAIRIDAEZA"
+				YieldChangeId="STR_Pairidaeza_Gold_4"/>
+	<!--<Row	ImprovementType="IMPROVEMENT_PAIRIDAEZA"
+				YieldChangeId="STR_Pairidaeza_Culture_1"/>-->
+		<Row	ImprovementType="IMPROVEMENT_PAIRIDAEZA"
+				YieldChangeId="STR_Pairidaeza_Culture_2"/>
+		<Row	ImprovementType="IMPROVEMENT_PAIRIDAEZA"
+				YieldChangeId="STR_Pairidaeza_Culture_3"/>
+		<Row	ImprovementType="IMPROVEMENT_PAIRIDAEZA"
+				YieldChangeId="STR_Pairidaeza_Culture_4"/>
+	<!-- CITY PARK ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_CITY_PARK"
+				YieldChangeId="STR_City_Park_Culture_1"/>
+		<Row	ImprovementType="IMPROVEMENT_CITY_PARK"
+				YieldChangeId="STR_City_Park_Culture_2"/>
+		<Row	ImprovementType="IMPROVEMENT_CITY_PARK"
+				YieldChangeId="STR_City_Park_Culture_3"/>
+		<Row	ImprovementType="IMPROVEMENT_CITY_PARK"
+				YieldChangeId="STR_City_Park_Culture_4"/>
+		<Row	ImprovementType="IMPROVEMENT_CITY_PARK"
+				YieldChangeId="STR_City_Park_Culture_5"/>
+		<Row	ImprovementType="IMPROVEMENT_CITY_PARK"
+				YieldChangeId="STR_City_Park_Culture_6"/>
+	<!-- MEKEWAP ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Production_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Production_2"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Production_3"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Science_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Science_2"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Science_3"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Culture_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Culture_2"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Gold_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Gold_2"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Gold_3"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Gold_4"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Gold_5"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Faith_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				YieldChangeId="STR_Mekewap_Faith_2"/>
+	<!-- CHEMAMULL ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_CHEMAMULL"
+				YieldChangeId="STR_Chemamull_Faith_1"/>
+		<Row	ImprovementType="IMPROVEMENT_CHEMAMULL"
+				YieldChangeId="STR_Chemamull_Faith_2"/>
+	<!-- GOLF COURSE ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_GOLF_COURSE"
+				YieldChangeId="STR_Golf_Course_Culture_1"/>
+		<Row	ImprovementType="IMPROVEMENT_GOLF_COURSE"
+				YieldChangeId="STR_Golf_Course_Culture_2"/>
+		<Row	ImprovementType="IMPROVEMENT_GOLF_COURSE"
+				YieldChangeId="STR_Golf_Course_Culture_3"/>
+		<Row	ImprovementType="IMPROVEMENT_GOLF_COURSE"
+				YieldChangeId="STR_Golf_Course_Culture_4"/>
+		<Row	ImprovementType="IMPROVEMENT_GOLF_COURSE"
+				YieldChangeId="STR_Golf_Course_Culture_5"/>
+	<!-- ICE HOCKEY RINK ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK"
+				YieldChangeId="STR_Ice_Hockey_Rink_Culture_1"/>
+		<Row	ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK"
+				YieldChangeId="STR_Ice_Hockey_Rink_Culture_2"/>
+		<Row	ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK"
+				YieldChangeId="STR_Ice_Hockey_Rink_Culture_3"/>
+		<Row	ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK"
+				YieldChangeId="STR_Ice_Hockey_Rink_Culture_4"/>
+		<Row	ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK"
+				YieldChangeId="STR_Ice_Hockey_Rink_Culture_5"/>
+		<Row	ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK"
+				YieldChangeId="STR_Ice_Hockey_Rink_Culture_6"/>
+		<Row	ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK"
+				YieldChangeId="STR_Ice_Hockey_Rink_Culture_7"/>
+	<!-- OPEN AIR MUSEUM ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM"
+				YieldChangeId="STR_Open_Air_Museum_Culture_1"/>
+		<Row	ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM"
+				YieldChangeId="STR_Open_Air_Museum_Culture_2"/>
+		<Row	ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM"
+				YieldChangeId="STR_Open_Air_Museum_Culture_3"/>
+		<Row	ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM"
+				YieldChangeId="STR_Open_Air_Museum_Culture_4"/>
+		<Row	ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM"
+				YieldChangeId="STR_Open_Air_Museum_Culture_5"/>
+		<Row	ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM"
+				YieldChangeId="STR_Open_Air_Museum_Culture_6"/>
+		<Row	ImprovementType="IMPROVEMENT_OPEN_AIR_MUSEUM"
+				YieldChangeId="STR_Open_Air_Museum_Culture_7"/>
+	<!-- ALCAZAR ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_ALCAZAR"
+				YieldChangeId="STR_Alcazar_Culture_1"/>
+		<Row	ImprovementType="IMPROVEMENT_ALCAZAR"
+				YieldChangeId="STR_Alcazar_Culture_2"/>
+		<Row	ImprovementType="IMPROVEMENT_ALCAZAR"
+				YieldChangeId="STR_Alcazar_Science_1"/>
+		<Row	ImprovementType="IMPROVEMENT_ALCAZAR"
+				YieldChangeId="STR_Alcazar_Science_2"/>
+		<Row	ImprovementType="IMPROVEMENT_ALCAZAR"
+				YieldChangeId="STR_Alcazar_Science_3"/>
+	<!-- CAHOKIA MOUNDS ADJACENCY -->
+	<!--<Row	ImprovementType="IMPROVEMENT_MOUND"
+				YieldChangeId="STR_Mound_Gold_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MOUND"
+				YieldChangeId="STR_Mound_Gold_2"/>
+		<Row	ImprovementType="IMPROVEMENT_MOUND"
+				YieldChangeId="STR_Mound_Gold_3"/>
+		<Row	ImprovementType="IMPROVEMENT_MOUND"
+				YieldChangeId="STR_Mound_Gold_4"/>
+		<Row	ImprovementType="IMPROVEMENT_MOUND"
+				YieldChangeId="STR_Mound_Faith_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MOUND"
+				YieldChangeId="STR_Mound_Faith_2"/>
+		<Row	ImprovementType="IMPROVEMENT_MOUND"
+				YieldChangeId="STR_Mound_Faith_3"/>
+		<Row	ImprovementType="IMPROVEMENT_MOUND"
+				YieldChangeId="STR_Mound_Faith_4"/>-->
+	<!-- COLOSSAL HEADS ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_COLOSSAL_HEAD"
+				YieldChangeId="STR_Colossal_Head_Faith_1"/>
+		<Row	ImprovementType="IMPROVEMENT_COLOSSAL_HEAD"
+				YieldChangeId="STR_Colossal_Head_Faith_2"/>
+	<!-- MOAI ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_MOAI"
+				YieldChangeId="STR_Moai_Culture_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MOAI"
+				YieldChangeId="STR_Moai_Culture_2"/>
+	<!-- MONASTERY ADJACENCY -->
+		<Row	ImprovementType="IMPROVEMENT_MONASTERY"
+				YieldChangeId="STR_Monastery_Faith_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MONASTERY"
+				YieldChangeId="STR_Monastery_Faith_2"/>
+		<Row	ImprovementType="IMPROVEMENT_MONASTERY"
+				YieldChangeId="STR_Monastery_Science_1"/>
+		<Row	ImprovementType="IMPROVEMENT_MONASTERY"
+				YieldChangeId="STR_Monastery_Science_2"/>
+		<Row	ImprovementType="IMPROVEMENT_MONASTERY"
+				YieldChangeId="STR_Monastery_Science_3"/>
+	</Improvement_Adjacencies>
+
+<!-- IMPROVEMENT ADJACENCY MODIFIERS -->	
+	<Adjacency_YieldChanges>
+	<!-- FARM ADJACENCY -->
+		<Row	ID="STR_Farm_Food_1"
+				Description="LOC_STR_FARM_FOOD_1_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_AQUEDUCT"/>
+		<Row	ID="STR_Farm_Food_2"
+				Description="LOC_STR_FARM_FOOD_2_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_BATH"/>
+		<Row	ID="STR_Farm_Food_3"
+				Description="LOC_STR_FARM_FOOD_3_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_NEIGHBORHOOD"/>
+		<Row	ID="STR_Farm_Food_4"
+				Description="LOC_STR_FARM_FOOD_4_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_MBANZA"/>
+		<Row	ID="STR_Farm_Food_5"
+				Description="LOC_STR_FARM_FOOD_5_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="3"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_DAM"/>
+		<Row	ID="STR_Farm_Food_6"
+				Description="LOC_STR_FARM_FOOD_6_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_FARM"/>
+		<Row	ID="STR_Farm_Food_7"
+				Description="LOC_STR_FARM_FOOD_7_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_TERRACE_FARM"/>
+		<Row	ID="STR_Farm_Food_8"
+				Description="LOC_STR_FARM_FOOD_8_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_CAMP"/>
+		<Row	ID="STR_Farm_Food_9"
+				Description="LOC_STR_FARM_FOOD_9_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_PLANTATION"/>
+		<Row	ID="STR_Farm_Food_10"
+				Description="LOC_STR_FARM_FOOD_10_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_STEPWELL"/>
+		<Row	ID="STR_Farm_Food_11"
+				Description="LOC_STR_FARM_FOOD_11_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_OUTBACK_STATION"/>
+		<Row	ID="STR_Farm_Food_12"
+				Description="LOC_STR_FARM_FOOD_12_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_POLDER"/>
+		<Row	ID="STR_Farm_Food_13"
+				Description="LOC_STR_FARM_FOOD_13_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_HACIENDA"/>
+		<Row	ID="STR_Farm_Starve_1"
+				Description="LOC_STR_FARM_STARVE_1_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="-1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_MINE"/>
+		<Row	ID="STR_Farm_Starve_2"
+				Description="LOC_STR_FARM_STARVE_2_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="-1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_MINE"/>
+	<!-- MINES ADJACENCY -->
+		<Row	ID="STR_Mine_Production_1"
+				Description="LOC_STR_MINE_PRODUCTION_1_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_MINE"/>
+		<Row	ID="STR_Mine_Production_2"
+				Description="LOC_STR_MINE_PRODUCTION_2_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_QUARRY"/>
+	<!-- QUARRY ADJACENCY -->
+		<Row	ID="STR_Quarry_Production_1"
+				Description="LOC_STR_QUARRY_PRODUCTION_1_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_QUARRY"/>
+		<Row	ID="STR_Quarry_Production_2"
+				Description="LOC_STR_QUARRY_PRODUCTION_2_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_PASTURE"/>
+		<Row	ID="STR_Quarry_Production_3"
+				Description="LOC_STR_QUARRY_PRODUCTION_3_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_MINE"/>
+	<!-- PLANTATION ADJACENCY -->
+		<Row	ID="STR_Plantation_Gold_1"
+				Description="LOC_STR_PLANTATION_GOLD_1_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_PLANTATION"/>
+		<Row	ID="STR_Plantation_Gold_2"
+				Description="LOC_STR_PLANTATION_GOLD_2_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_FARM"/>
+		<Row	ID="STR_Plantation_Gold_3"
+				Description="LOC_STR_PLANTATION_GOLD_3_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_TERRACE_FARM"/>
+		<Row	ID="STR_Plantation_Gold_4"
+				Description="LOC_STR_PLANTATION_GOLD_4_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_MEKEWAP"/>
+		<Row	ID="STR_Plantation_Culture_1"
+				Description="LOC_STR_PLANTATION_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_CHATEAU"/>
+	<!-- PASTURE ADJACENCY -->
+		<Row	ID="STR_Pasture_Production_1"
+				Description="LOC_STR_PASTURE_PRODUCTION_1_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_PASTURE"/>
+	<!--<Row	ID="STR_Pasture_Production_2"
+				Description="LOC_STR_PASTURE_PRODUCTION_2_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_OUTBACK_STATION"/>-->
+		<Row	ID="STR_Pasture_Food_1"
+				Description="LOC_STR_PASTURE_FOOD_1_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_FARM"/>
+		<Row	ID="STR_Pasture_Food_2"
+				Description="LOC_STR_PASTURE_FOOD_2_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_TERRACE_FARM"/>
+	<!-- CAMP ADJACENCY -->
+		<Row	ID="STR_Camp_Food_1"
+				Description="LOC_STR_CAMP_FOOD_1_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_CAMP"/>
+	<!--<Row	ID="STR_Camp_Food_2"
+				Description="LOC_STR_CAMP_FOOD_2_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>-->
+		<Row	ID="STR_Camp_Food_3"
+				Description="LOC_STR_CAMP_FOOD_3_DESCRIPTION"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_LUMBER_MILL"/>
+		<Row	ID="STR_Camp_Gold_1"
+				Description="LOC_STR_CAMP_GOLD_1_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_CAMP"/>
+	<!--<Row	ID="STR_Camp_Gold_2"
+				Description="LOC_STR_CAMP_GOLD_2_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>-->
+		<Row	ID="STR_Camp_Gold_3"
+				Description="LOC_STR_CAMP_GOLD_3_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_KURGAN"/>
+		<Row	ID="STR_Camp_Gold_4"
+				Description="LOC_STR_CAMP_GOLD_4_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_LUMBER_MILL"/>
+	<!-- CHATEAU ADJACENCY -->
+		<Row	ID="STR_Chateau_Gold_1"
+				Description="LOC_STR_CHATEAU_GOLD_1_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row	ID="STR_Chateau_Gold_2"
+				Description="LOC_STR_CHATEAU_GOLD_2_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_SUGUBA"/>
+		<Row	ID="STR_Chateau_Culture_1"
+				Description="LOC_STR_CHATEAU_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row	ID="STR_Chateau_Culture_2"
+				Description="LOC_STR_CHATEAU_CULTURE_2_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+	<!-- KURGAN ADJACENCY -->
+		<Row	ID="STR_Kurgan_Gold_1"
+				Description="LOC_STR_KURGAN_GOLD_1_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_KURGAN"/>
+		<Row	ID="STR_Kurgan_Gold_2"
+				Description="LOC_STR_KURGAN_GOLD_2_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentImprovement="IMPROVEMENT_CAMP"/>
+		<Row	ID="STR_Kurgan_Gold_3"
+				Description="LOC_STR_KURGAN_GOLD_3_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row	ID="STR_Kurgan_Gold_4"
+				Description="LOC_STR_KURGAN_GOLD_4_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_SUGUBA"/>
+		<Row	ID="STR_Kurgan_Faith_1"
+				Description="LOC_STR_KURGAN_FAITH_1_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_KURGAN"/>
+		<Row	ID="STR_Kurgan_Faith_2"
+				Description="LOC_STR_KURGAN_FAITH_2_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Kurgan_Faith_3"
+				Description="LOC_STR_KURGAN_FAITH_3_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_LAVRA"/>
+	<!-- SPHINX ADJACENCY -->
+		<Row	ID="STR_Sphinx_Culture_1"
+				Description="LOC_STR_SPHINX_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row	ID="STR_Sphinx_Culture_2"
+				Description="LOC_STR_SPHINX_CULTURE_2_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+		<Row	ID="STR_Sphinx_Faith_1"
+				Description="LOC_STR_SPHINX_FAITH_1_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Sphinx_Faith_2"
+				Description="LOC_STR_SPHINX_FAITH_2_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_LAVRA"/>
+	<!-- ZIGGURAT ADJACENCY -->
+		<Row	ID="STR_Ziggurat_Science_1"
+				Description="LOC_STR_ZIGGURAT_SCIENCE_1_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_ZIGGURAT"/>
+		<Row	ID="STR_Ziggurat_Culture_1"
+				Description="LOC_STR_ZIGGURAT_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_ZIGGURAT"/>
+		<Row	ID="STR_Ziggurat_Faith_1"
+				Description="LOC_STR_ZIGGURAT_FAITH_1_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="2"
+				AdjacentImprovement="IMPROVEMENT_ZIGGURAT"/>
+		<Row	ID="STR_Ziggurat_Faith_2"
+				Description="LOC_STR_ZIGGURAT_FAITH_2_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Ziggurat_Faith_3"
+				Description="LOC_STR_ZIGGURAT_FAITH_3_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_LAVRA"/>
+	<!-- PYRAMID ADJACENCY -->
+		<Row	ID="STR_Pyramid_Production_1"
+				Description="LOC_STR_PYRAMID_PRODUCTION_1_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ENCAMPMENT"/>
+		<Row	ID="STR_Pyramid_Production_2"
+				Description="LOC_STR_PYRAMID_PRODUCTION_2_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_AERODROME"/>
+	<!-- PAIRIDAEZA ADJACENCY -->
+	<!--<Row	ID="STR_Pairidaeza_Gold_1"
+				Description="LOC_STR_PAIRIDAEZA_GOLD_1_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>-->
+		<Row	ID="STR_Pairidaeza_Gold_2"
+				Description="LOC_STR_PAIRIDAEZA_GOLD_2_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_SUGUBA"/>
+		<Row	ID="STR_Pairidaeza_Gold_3"
+				Description="LOC_STR_PAIRIDAEZA_GOLD_3_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row	ID="STR_Pairidaeza_Gold_4"
+				Description="LOC_STR_PAIRIDAEZA_GOLD_4_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_STREET_CARNIVAL"/>
+		<Row	ID="STR_Pairidaeza_Gold_5"
+				Description="LOC_STR_PAIRIDAEZA_GOLD_5_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HIPPODROME"/>
+	<!--<Row	ID="STR_Pairidaeza_Culture_1"
+				Description="LOC_STR_PAIRIDAEZA_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_THEATER"/>-->
+		<Row	ID="STR_Pairidaeza_Culture_2"
+				Description="LOC_STR_PAIRIDAEZA_CULTURE_2_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+		<Row	ID="STR_Pairidaeza_Culture_3"
+				Description="LOC_STR_PAIRIDAEZA_CULTURE_3_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+		<Row	ID="STR_Pairidaeza_Culture_4"
+				Description="LOC_STR_PAIRIDAEZA_CULTURE_4_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_WATER_STREET_CARNIVAL"/>
+	<!-- CITY PARK ADJACENCY -->
+		<Row	ID="STR_City_Park_Culture_1"
+				Description="LOC_STR_CITY_PARK_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row	ID="STR_City_Park_Culture_2"
+				Description="LOC_STR_CITY_PARK_CULTURE_2_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_STREET_CARNIVAL"/>
+		<Row	ID="STR_City_Park_Culture_3"
+				Description="LOC_STR_CITY_PARK_CULTURE_3_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HIPPODROME"/>
+		<Row	ID="STR_City_Park_Culture_4"
+				Description="LOC_STR_CITY_PARK_CULTURE_4_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+		<Row	ID="STR_City_Park_Culture_5"
+				Description="LOC_STR_CITY_PARK_CULTURE_5_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_WATER_STREET_CARNIVAL"/>
+		<Row	ID="STR_City_Park_Culture_6"
+				Description="LOC_STR_CITY_PARK_CULTURE_6_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row	ID="STR_City_Park_Culture_7"
+				Description="LOC_STR_CITY_PARK_CULTURE_7_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+	<!-- MEKEWAP ADJACENCY -->
+		<Row	ID="STR_Mekewap_Production_1"
+				Description="LOC_STR_MEKEWAP_PRODUCTION_1_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row	ID="STR_Mekewap_Production_2"
+				Description="LOC_STR_MEKEWAP_PRODUCTION_2_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HANSA"/>
+		<Row	ID="STR_Mekewap_Production_3"
+				Description="LOC_STR_MEKEWAP_PRODUCTION_3_DESCRIPTION"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_OPPIDUM"/>
+		<Row	ID="STR_Mekewap_Science_1"
+				Description="LOC_STR_MEKEWAP_SCIENCE_1_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_CAMPUS"/>
+		<Row	ID="STR_Mekewap_Science_2"
+				Description="LOC_STR_MEKEWAP_SCIENCE_2_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_SEOWON"/>
+		<Row	ID="STR_Mekewap_Science_3"
+				Description="LOC_STR_MEKEWAP_SCIENCE_3_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_OBSERVATORY"/>
+		<Row	ID="STR_Mekewap_Culture_1"
+				Description="LOC_STR_MEKEWAP_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row	ID="STR_Mekewap_Culture_2"
+				Description="LOC_STR_MEKEWAP_CULTURE_2_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+		<Row	ID="STR_Mekewap_Gold_1"
+				Description="LOC_STR_MEKEWAP_GOLD_1_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row	ID="STR_Mekewap_Gold_2"
+				Description="LOC_STR_MEKEWAP_GOLD_2_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_SUGUBA"/>
+		<Row	ID="STR_Mekewap_Gold_3"
+				Description="LOC_STR_MEKEWAP_GOLD_3_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HARBOR"/>
+		<Row	ID="STR_Mekewap_Gold_4"
+				Description="LOC_STR_MEKEWAP_GOLD_4_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ROYAL_NAVY_DOCKYARD"/>
+		<Row	ID="STR_Mekewap_Gold_5"
+				Description="LOC_STR_MEKEWAP_GOLD_5_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_COTHON"/>
+		<Row	ID="STR_Mekewap_Faith_1"
+				Description="LOC_STR_MEKEWAP_FAITH_1_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Mekewap_Faith_2"
+				Description="LOC_STR_MEKEWAP_FAITH_2_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_LAVRA"/>
+	<!-- CHEMAMULL ADJACENCY -->
+		<Row	ID="STR_Chemamull_Faith_1"
+				Description="LOC_STR_CHEMAMULL_FAITH_1_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Chemamull_Faith_2"
+				Description="LOC_STR_CHEMAMULL_FAITH_2_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_LAVRA"/>
+	<!-- GOLF COURSE ADJACENCY -->
+		<Row	ID="STR_Golf_Course_Culture_1"
+				Description="LOC_STR_GOLF_COURSE_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_STREET_CARNIVAL"/>
+		<Row	ID="STR_Golf_Course_Culture_2"
+				Description="LOC_STR_GOLF_COURSE_CULTURE_2_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HIPPODROME"/>
+		<Row	ID="STR_Golf_Course_Culture_3"
+				Description="LOC_STR_GOLF_COURSE_CULTURE_3_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+		<Row	ID="STR_Golf_Course_Culture_4"
+				Description="LOC_STR_GOLF_COURSE_CULTURE_4_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_WATER_STREET_CARNIVAL"/>
+		<Row	ID="STR_Golf_Course_Culture_5"
+				Description="LOC_STR_GOLF_COURSE_CULTURE_5_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row	ID="STR_Golf_Course_Culture_6"
+				Description="LOC_STR_GOLF_COURSE_CULTURE_6_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+		<Row	ID="STR_Golf_Course_Culture_7"
+				Description="LOC_STR_GOLF_COURSE_CULTURE_7_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="2"
+				TilesRequired="1"
+		AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+	<!-- ICE HOCKEY RINK ADJACENCY -->
+		<Row	ID="STR_Ice_Hockey_Rink_Culture_1"
+				Description="LOC_STR_ICE_HOCKEY_RINK_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row	ID="STR_Ice_Hockey_Rink_Culture_2"
+				Description="LOC_STR_ICE_HOCKEY_RINK_CULTURE_2_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+		<Row	ID="STR_Ice_Hockey_Rink_Culture_3"
+				Description="LOC_STR_ICE_HOCKEY_RINK_CULTURE_3_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row	ID="STR_Ice_Hockey_Rink_Culture_4"
+				Description="LOC_STR_ICE_HOCKEY_RINK_CULTURE_4_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_STREET_CARNIVAL"/>
+		<Row	ID="STR_Ice_Hockey_Rink_Culture_5"
+				Description="LOC_STR_ICE_HOCKEY_RINK_CULTURE_5_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HIPPODROME"/>
+		<Row	ID="STR_Ice_Hockey_Rink_Culture_6"
+				Description="LOC_STR_ICE_HOCKEY_RINK_CULTURE_6_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+		<Row	ID="STR_Ice_Hockey_Rink_Culture_7"
+				Description="LOC_STR_ICE_HOCKEY_RINK_CULTURE_7_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_WATER_STREET_CARNIVAL"/>
+		<Row	ID="STR_Ice_Hockey_Rink_Culture_8"
+				Description="LOC_STR_ICE_HOCKEY_RINK_CULTURE_8_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+	<!-- OPEN-AIR MUSEUM ADJACENCY -->
+		<Row	ID="STR_Open_Air_Museum_Culture_1"
+				Description="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row	ID="STR_Open_Air_Museum_Culture_2"
+				Description="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_2_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+		<Row	ID="STR_Open_Air_Museum_Culture_3"
+				Description="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_3_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+		<Row	ID="STR_Open_Air_Museum_Culture_4"
+				Description="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_4_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_STREET_CARNIVAL"/>
+		<Row	ID="STR_Open_Air_Museum_Culture_5"
+				Description="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_5_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HIPPODROME"/>
+		<Row	ID="STR_Open_Air_Museum_Culture_6"
+				Description="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_6_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+		<Row	ID="STR_Open_Air_Museum_Culture_7"
+				Description="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_7_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_WATER_STREET_CARNIVAL"/>
+		<Row	ID="STR_Open_Air_Museum_Culture_8"
+				Description="LOC_STR_OPEN_AIR_MUSEUM_CULTURE_8_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+	<!-- ALCAZAR ADJACENCY -->
+		<Row	ID="STR_Alcazar_Culture_1"
+				Description="LOC_STR_ALCAZAR_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row	ID="STR_Alcazar_Culture_2"
+				Description="LOC_STR_ALCAZAR_CULTURE_2_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+		<Row	ID="STR_Alcazar_Science_1"
+				Description="LOC_STR_ALCAZAR_SCIENCE_1_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_CAMPUS"/>
+		<Row	ID="STR_Alcazar_Science_2"
+				Description="LOC_STR_ALCAZAR_SCIENCE_2_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_SEOWON"/>
+		<Row	ID="STR_Alcazar_Science_3"
+				Description="LOC_STR_ALCAZAR_SCIENCE_3_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_OBSERVATORY"/>
+	<!-- CAHOKIA MOUNDS ADJACENCY -->
+	<!--<Row	ID="STR_Mound_Gold_1"
+				Description="LOC_STR_MOUND_GOLD_1_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Mound_Gold_2"
+				Description="LOC_STR_MOUND_GOLD_2_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_LAVRA"/>
+		<Row	ID="STR_Mound_Gold_3"
+				Description="LOC_STR_MOUND_GOLD_3_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row	ID="STR_Mound_Gold_4"
+				Description="LOC_STR_MOUND_GOLD_4_DESCRIPTION"
+				YieldType="YIELD_GOLD"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_SUGUBA"/>
+		<Row	ID="STR_Mound_Faith_1"
+				Description="LOC_STR_MOUND_FAITH_1_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Mound_Faith_2"
+				Description="LOC_STR_MOUND_FAITH_2_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_LAVRA"/>
+		<Row	ID="STR_Mound_Faith_3"
+				Description="LOC_STR_MOUND_FAITH_4_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_COMMERCIAL_HUB"/>
+		<Row	ID="STR_Mound_Faith_4"
+				Description="LOC_STR_MOUND_FAITH_5_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_SUGUBA"/>-->
+	<!-- COLOSSAL HEAD ADJACENCY -->
+		<Row	ID="STR_Colossal_Head_Faith_1"
+				Description="LOC_STR_COLOSSAL_HEAD_FAITH_1_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Colossal_Head_Faith_2"
+				Description="LOC_STR_COLOSSAL_HEAD_FAITH_2_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_LAVRA"/>
+	<!-- MOAI ADJACENCY -->
+		<Row	ID="STR_Moai_Culture_1"
+				Description="LOC_STR_MOAI_CULTURE_1_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_THEATER"/>
+		<Row	ID="STR_Moai_Culture_2"
+				Description="LOC_STR_MOAI_CULTURE_2_DESCRIPTION"
+				YieldType="YIELD_CULTURE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_ACROPOLIS"/>
+	<!-- MONASTERY ADJACENCY -->
+		<Row	ID="STR_Monastery_Faith_1"
+				Description="LOC_STR_MONASTERY_FAITH_1_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_HOLY_SITE"/>
+		<Row	ID="STR_Monastery_Faith_2"
+				Description="LOC_STR_MONASTERY_FAITH_2_DESCRIPTION"
+				YieldType="YIELD_FAITH"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_LAVRA"/>
+		<Row	ID="STR_Monastery_Science_1"
+				Description="LOC_STR_MONASTERY_SCIENCE_1_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_CAMPUS"/>
+		<Row	ID="STR_Monastery_Science_2"
+				Description="LOC_STR_MONASTERY_SCIENCE_2_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_SEOWON"/>
+		<Row	ID="STR_Monastery_Science_3"
+				Description="LOC_STR_MONASTERY_SCIENCE_3_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="2"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_OBSERVATORY"/>
+	<!-- MISSION ADJACENCY -->
+		<Row	ID="STR_Mission_Science_1"
+				Description="LOC_STR_MISSION_SCIENCE_1_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_SEOWON"/>
+		<Row	ID="STR_Mission_Science_2"
+				Description="LOC_STR_MISSION_SCIENCE_2_DESCRIPTION"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="1"
+				TilesRequired="1"
+				AdjacentDistrict="DISTRICT_OBSERVATORY"/>
+	</Adjacency_YieldChanges>
+
+<!-- IMPROVEMENT VALID FEATURES -->	
+	<Improvement_ValidFeatures>
+	<!-- FORT FEATURES -->
+		<Row	ImprovementType="IMPROVEMENT_FORT"
+				FeatureType="FEATURE_FOREST"/>
+		<Row	ImprovementType="IMPROVEMENT_FORT"
+				FeatureType="FEATURE_JUNGLE"/>
+	<!-- ROMAN FORT FEATURES -->
+		<Row	ImprovementType="IMPROVEMENT_ROMAN_FORT"
+				FeatureType="FEATURE_FOREST"/>
+		<Row	ImprovementType="IMPROVEMENT_ROMAN_FORT"
+				FeatureType="FEATURE_JUNGLE"/>
+	<!-- CHATEAU FEATURES -->
+		<Row	ImprovementType="IMPROVEMENT_CHATEAU"
+				FeatureType="FEATURE_FOREST"/>
+		<Row	ImprovementType="IMPROVEMENT_CHATEAU"
+				FeatureType="FEATURE_JUNGLE"/>
+	<!--<Row	ImprovementType="IMPROVEMENT_CHATEAU"
+				FeatureType="FEATURE_MARSH"/>
+		<Row	ImprovementType="IMPROVEMENT_CHATEAU"
+				FeatureType="FEATURE_FLOODPLAINS"/>-->
+	<!-- GREAT WALL FEATURES -->
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				FeatureType="FEATURE_FOREST"/>
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				FeatureType="FEATURE_JUNGLE"/>
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				FeatureType="FEATURE_MARSH"/>
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				FeatureType="FEATURE_FLOODPLAINS"/>
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				FeatureType="FEATURE_FLOODPLAINS_GRASSLAND"/>
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				FeatureType="FEATURE_FLOODPLAINS_PLAINS"/>
+	<!-- SPHINX FEATURES -->
+	<!--<Row	ImprovementType="IMPROVEMENT_SPHINX"
+				FeatureType="FEATURE_FOREST"/>
+		<Row	ImprovementType="IMPROVEMENT_SPHINX"
+				FeatureType="FEATURE_JUNGLE"/>-->
+	<!-- STEPWELL -->
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				FeatureType="FEATURE_FOREST"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				FeatureType="FEATURE_JUNGLE"/>
+		<Row	ImprovementType="IMPROVEMENT_STEPWELL"
+				FeatureType="FEATURE_MARSH"/>
+	<!-- ZIGGURAT FEATURES -->
+	<!--<Row	ImprovementType="IMPROVEMENT_ZIGGURAT"
+				FeatureType="FEATURE_FLOODPLAINS"/>-->
+	<!-- COLOSSAL HEAD -->
+		<Row	ImprovementType="IMPROVEMENT_COLOSSAL_HEAD"
+				FeatureType="FEATURE_FOREST"/>
+		<Row	ImprovementType="IMPROVEMENT_COLOSSAL_HEAD"
+				FeatureType="FEATURE_JUNGLE"/>
+	<!-- MONASTERY -->
+		<Row	ImprovementType="IMPROVEMENT_MONASTERY"
+				FeatureType="FEATURE_FOREST"/>
+		<Row	ImprovementType="IMPROVEMENT_MONASTERY"
+				FeatureType="FEATURE_JUNGLE"/>
+	<!-- MEKEWAP FEATURES -->
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				FeatureType="FEATURE_FOREST"/>
+		<Row	ImprovementType="IMPROVEMENT_MEKEWAP"
+				FeatureType="FEATURE_JUNGLE"/>
+	<!-- CHEMAMULL FEATURES -->
+	<!--<Row	ImprovementType="IMPROVEMENT_CHEMAMULL"	
+				FeatureType="FEATURE_FOREST"/>
+		<Row	ImprovementType="IMPROVEMENT_CHEMAMULL"
+				FeatureType="FEATURE_JUNGLE"/>-->
+	<!-- ICE HOCKEY RINK FEATURES -->
+		<Row	ImprovementType="IMPROVEMENT_ICE_HOCKEY_RINK"
+				FeatureType="FEATURE_FOREST"/>
+	</Improvement_ValidFeatures>
+
+<!-- IMPROVEMENT VALID TERRAINS -->
+	<Improvement_ValidTerrains>
+		<!-- GREAT WALL ON MOUNTAINS -->
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row	ImprovementType="IMPROVEMENT_GREAT_WALL"
+				TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+	</Improvement_ValidTerrains>
+
+<!-- IMPROVEMENTS BUILDABLE ON ADJACENT TILES -->
+	<Improvements_XP2>
+		<!-- GREAT WALL ON ADJACENT TILES -->
+		<Update>
+			<Wher	ImprovementType="IMPROVEMENT_GREAT_WALL"/>
+			<Set	BuildOnAdjacentPlot="true"/>
+		</Update>
+	</Improvements_XP2>
+
+<!-- IMPROVEMENT VALID ADJACENT TERRAIN -->
+	<Improvement_ValidAdjacentTerrains>
+	<!-- POLDER TERRAIN REQUIREMENTS -->
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				TerrainType="TERRAIN_GRASS_MOUNTAIN"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				TerrainType="TERRAIN_DESERT_MOUNTAIN"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row	ImprovementType="IMPROVEMENT_POLDER"
+				TerrainType="TERRAIN_SNOW_MOUNTAIN"/>
+	</Improvement_ValidAdjacentTerrains>
+
+<!-- NEW DEFENSIVE IMPROVEMENTS -->
+	<Types>
+	<!-- PALISADE (BARRICADE) -->
+		<Row	Type="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"	Kind="KIND_IMPROVEMENT"/>
+	<!-- BARBED WIRE (MODERN BARRICADE) -->
+		<Row	Type="IMPROVEMENT_MODERN_TOWER_DEFENSE"		Kind="KIND_IMPROVEMENT"/>
+	<!-- OUTPOST (TRAP) -->
+		<Row	Type="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"		Kind="KIND_IMPROVEMENT"/>
+	<!-- MINEFIELD (MODERN TRAP) -->
+		<Row	Type="IMPROVEMENT_MODERN_TRAP_DEFENSE"		Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	
+<!-- NEW DEFENSIVE IMPROVEMENTS -->
+	<Improvements>
+	<!-- PALISADE (BARRICADE) -->
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				Name="LOC_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_NAME"
+				Description="LOC_IMPROVEMENT_ANCIENT_TOWER_DEFENSE_DESC"
+				Icon="ICON_IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				PlunderType="NO_PLUNDER" Buildable="true"
+				PrereqTech="TECH_MILITARY_ENGINEERING"
+				BuildInLine="true"
+				Workable="False"
+				CanBuildOutsideTerritory="True"
+				Capturable="false"/>
+	<!-- BARBED WIRE (MODERN BARRICADE) -->
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				Name="LOC_IMPROVEMENT_MODERN_TOWER_DEFENSE_NAME"
+				Description="LOC_IMPROVEMENT_MODERN_TOWER_DEFENSE_DESC"
+				Icon="ICON_IMPROVEMENT_MODERN_TOWER_DEFENSE" PlunderType="NO_PLUNDER"
+				Buildable="true" PrereqTech="TECH_RIFLING" BuildInLine="true"
+				Workable="False"
+				CanBuildOutsideTerritory="True"
+				Capturable="false"/>
+	<!-- OUTPOST (TRAP) -->
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				Name="LOC_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_NAME"
+				Description="LOC_IMPROVEMENT_ANCIENT_TRAP_DEFENSE_DESC"
+				Icon="ICON_IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				PlunderType="NO_PLUNDER"
+				Buildable="true"
+				PrereqTech="TECH_CONSTRUCTION"
+				Workable="False"
+				CanBuildOutsideTerritory="True"
+				Capturable="false"/>
+	<!-- MINEFIELD (MODERN TRAP) -->
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				Name="LOC_IMPROVEMENT_MODERN_TRAP_DEFENSE_NAME"
+				Description="LOC_IMPROVEMENT_MODERN_TRAP_DEFENSE_DESC"
+				Icon="ICON_IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				PlunderType="NO_PLUNDER"
+				Buildable="true"
+				PrereqTech="TECH_BALLISTICS"
+				Workable="False"
+				CanBuildOutsideTerritory="True"
+				Capturable="false"/>
+	</Improvements>
+	
+<!-- NEW DEFENSIVE IMPROVEMENTS -->
+	<Improvement_ValidTerrains>
+	<!-- PALISADE (BARRICADE) -->
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				TerrainType="TERRAIN_DESERT"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				TerrainType="TERRAIN_TUNDRA"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				TerrainType="TERRAIN_PLAINS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				TerrainType="TERRAIN_GRASS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				TerrainType="TERRAIN_SNOW"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				TerrainType="TERRAIN_SNOW_HILLS"/>
+	<!-- BARBED WIRE (MODERN BARRICADE) -->
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				TerrainType="TERRAIN_DESERT"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				TerrainType="TERRAIN_TUNDRA"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				TerrainType="TERRAIN_PLAINS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				TerrainType="TERRAIN_GRASS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				TerrainType="TERRAIN_SNOW"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				TerrainType="TERRAIN_SNOW_HILLS"/>
+	<!-- OUTPOST (TRAP) -->
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				TerrainType="TERRAIN_DESERT"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				TerrainType="TERRAIN_TUNDRA"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				TerrainType="TERRAIN_PLAINS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				TerrainType="TERRAIN_GRASS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				TerrainType="TERRAIN_SNOW"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				TerrainType="TERRAIN_SNOW_HILLS"/>
+	<!-- MINEFIELD (MODERN TRAP) -->
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				TerrainType="TERRAIN_DESERT"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				TerrainType="TERRAIN_TUNDRA"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				TerrainType="TERRAIN_PLAINS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				TerrainType="TERRAIN_GRASS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				TerrainType="TERRAIN_SNOW"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+	
+<!-- NEW DEFENSIVE IMPROVEMENTS -->	
+	<Improvement_ValidBuildUnits>
+	<!-- PALISADE (BARRICADE) -->
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				UnitType="UNIT_BUILDER"/>
+	<!-- BARBED WIRE (MODERN BARRICADE) -->
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				UnitType="UNIT_MILITARY_ENGINEER"/>
+	<!-- OUTPOST (TRAP) -->
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				UnitType="UNIT_BUILDER"/>
+	<!-- MINEFIELD (MODERN TRAP) -->
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				UnitType="UNIT_MILITARY_ENGINEER"/>
+	</Improvement_ValidBuildUnits>
+	
+<!-- NEW DEFENSIVE IMPROVEMENTS -->
+	<TypeProperties>
+	<!-- PALISADE (BARRICADE) -->
+		<Row	Type="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				Name="PLOT_DAMAGE_TO_WALKING_INTO"
+				Value="10"/>
+		<Row	Type="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				Name="PLOT_DAMAGE_TO_WALKING_ADJACENT"
+				Value="10"/>
+		<Row	Type="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				Name="IMPROVEMENT_VIS_CONTROL"
+				Value="1"/>
+	<!-- BARBED WIRE (MODERN BARRICADE) -->
+		<Row	Type="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				Name="PLOT_DAMAGE_TO_WALKING_INTO"
+				Value="15"/>
+		<Row	Type="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				Name="IMPROVEMENT_VIS_CONTROL"
+				Value="1"/>
+	<!-- OUTPOST (TRAP) -->
+		<Row	Type="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				Name="PLOT_DAMAGE_TO_WALKING_INTO"
+				Value="15"/>
+		<Row	Type="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				Name="PLOT_DAMAGE_TO_WALKING_ADJACENT"
+				Value="15"/>
+		<Row	Type="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				Name="IMPROVEMENT_VIS_CONTROL"
+				Value="1"/>
+	<!-- MINEFIELD (MODERN TRAP) -->
+		<Row	Type="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				Name="PLOT_DAMAGE_TO_WALKING_INTO"
+				Value="20"/>
+		<Row	Type="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				Name="IMPROVEMENT_VIS_CONTROL"
+				Value="1"/>
+	</TypeProperties>
+
+<!-- NEW DEFENSIVE IMPROVEMENTS -->
+	<Improvements>
+		<!-- PALISADE (BARRICADE) -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"/>
+			<Set	Name="LOC_IMPROVEMENT_STR_ANCIENT_TOWER_DEFENSE_NAME"
+					Description="LOC_IMPROVEMENT_STR_ANCIENT_TOWER_DEFENSE_DESC"
+					Workable="True"
+					Appeal="-2"/>
+		</Update>
+		<!-- BARBED WIRE (MODERN BARRICADE) -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"/>
+			<Set	Name="LOC_IMPROVEMENT_STR_MODERN_TOWER_DEFENSE_NAME"
+					Description="LOC_IMPROVEMENT_STR_MODERN_TOWER_DEFENSE_DESC"
+					Workable="True"
+					Appeal="-1"/>
+		</Update>
+		<!-- OUTPOST (TRAP) -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"/>
+			<Set	Name="LOC_IMPROVEMENT_STR_ANCIENT_TRAP_DEFENSE_NAME"
+					Description="LOC_IMPROVEMENT_STR_ANCIENT_TRAP_DEFENSE_DESC"
+					Workable="True"
+					Appeal="-2"
+					SameAdjacentValid="false"/>
+		</Update>
+		<!-- MINEFIELD (MODERN TRAP) -->
+		<Update>
+			<Where	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"/>
+			<Set	Name="LOC_IMPROVEMENT_STR_MODERN_TRAP_DEFENSE_NAME"
+					Description="LOC_IMPROVEMENT_STR_MODERN_TRAP_DEFENSE_DESC"
+					Workable="True"
+					Appeal="-1"
+					SameAdjacentValid="false"/>
+		</Update>
+	</Improvements>
+
+<!-- NEW DEFENSIVE IMPROVEMENTS -->
+	<Improvement_YieldChanges>
+		<!-- PALISADE (BARRICADE) -->
+	<!--<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_FOOD"
+				YieldChange="-2"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="-2"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_CULTURE"
+				YieldChange="-2"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="-2"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_GOLD"
+				YieldChange="-2"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_FAITH"
+				YieldChange="-2"/>-->
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_FOOD"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_CULTURE"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_GOLD"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				YieldType="YIELD_FAITH"
+				YieldChange="-1"/>
+		<!-- BARBED WIRE (MODERN BARRICADE) -->
+	<!--<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				YieldType="YIELD_FOOD"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				YieldType="YIELD_CULTURE"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				YieldType="YIELD_GOLD"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				YieldType="YIELD_FAITH"
+				YieldChange="-1"/>-->
+		<!-- OUTPOST (TRAP) -->
+	<!--<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_FOOD"
+				YieldChange="-2"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="-2"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_CULTURE"
+				YieldChange="-2"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="-2"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_GOLD"
+				YieldChange="-2"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_FAITH"
+				YieldChange="-2"/>-->
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_FOOD"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_CULTURE"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_GOLD"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				YieldType="YIELD_FAITH"
+				YieldChange="-1"/>
+		<!-- MINEFIELD (MODERN TRAP) -->
+	<!--<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				YieldType="YIELD_FOOD"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				YieldType="YIELD_SCIENCE"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				YieldType="YIELD_CULTURE"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				YieldType="YIELD_PRODUCTION"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				YieldType="YIELD_GOLD"
+				YieldChange="-1"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				YieldType="YIELD_FAITH"
+				YieldChange="-1"/>-->
+	</Improvement_YieldChanges>
+
+<!-- NEW DEFENSIVE IMPROVEMENTS -->	
+	<Improvement_ValidFeatures>
+		<!-- PALISADE (BARRICADE) -->
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				FeatureType="FEATURE_JUNGLE"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TOWER_DEFENSE"
+				FeatureType="FEATURE_FOREST"/>
+		<!-- BARBED WIRE (MODERN BARRICADE) -->
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				FeatureType="FEATURE_JUNGLE"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TOWER_DEFENSE"
+				FeatureType="FEATURE_FOREST"/>
+		<!-- OUTPOST (TRAP) -->
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				FeatureType="FEATURE_JUNGLE"/>
+		<Row	ImprovementType="IMPROVEMENT_ANCIENT_TRAP_DEFENSE"
+				FeatureType="FEATURE_FOREST"/>
+		<!-- MINEFIELD (MODERN TRAP) -->
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				FeatureType="FEATURE_JUNGLE"/>
+		<Row	ImprovementType="IMPROVEMENT_MODERN_TRAP_DEFENSE"
+				FeatureType="FEATURE_FOREST"/>
+	</Improvement_ValidFeatures>
+
+</GameData>

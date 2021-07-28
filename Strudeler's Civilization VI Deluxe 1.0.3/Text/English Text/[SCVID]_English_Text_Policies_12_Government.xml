@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Policies_12_Government -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 8:55:13 PM -->
+<GameData>
+
+	<!-- AUTOCRACY POLICIES  -->
+	<LocalizedText>
+		<!-- NOBLE CITY-STATE -->
+		<Row	Tag="LOC_POLICY_STR_NOBLE_CITY_STATE_NAME"											Language="en_US">
+			<Text>Noble City-State</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_NOBLE_CITY_STATE_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+30% [ICON_Production] Production towards [ICON_Buildings] Ancient Walls, the [ICON_DISTRICT_ENCAMPMENT] Encampment, and it's [ICON_Buildings] Buildings.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production in [ICON_Buildings] Barracks and Stables.[NEWLINE][ICON_Bullet]-30% [ICON_Production] Production towards [ICON_Unit] Settlers.</Text>
+		</Row>
+		<!-- JINONGANATE -->
+		<Row	Tag="LOC_POLICY_STR_JINONGANATE_NAME"												Language="en_US">
+			<Text>Jinonganate</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_JINONGANATE_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+30% [ICON_Production] Production towards [ICON_Unit] Land Heavy Cavalry and Light Cavalry class Units.[NEWLINE][ICON_Bullet][ICON_Unit] Land Heavy Cavalry and Light Cavalry class Units gain +1 [ICON_Movement] Movement.</Text>
+		</Row>
+		<!-- BARBARIAN KINGDOM -->
+		<Row	Tag="LOC_POLICY_STR_BARBARIAN_KINGDOM_NAME"											Language="en_US">
+			<Text>Barbarian Kingdom</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_BARBARIAN_KINGDOM_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Melee and Anti-Cavalry class Units gain +10 [ICON_Strength] Combat Strength against [ICON_District] Defensible Districts.[NEWLINE][ICON_Bullet]City Maintenance increase by 2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- ARISTOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_ARISTOCRACY_NAME"												Language="en_US">
+			<Text>Aristocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ARISTOCRACY_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]Cities gain +1 [ICON_Gold] Gold and [ICON_Faith] Faith per [ICON_District] Specialty District.</Text>
+		</Row>
+		<!-- STRATOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_STRATOCRACY_NAME"												Language="en_US">
+			<Text>Stratocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_STRATOCRACY_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Military Units gain +3 [ICON_Strength] Combat Strength while on the same [ICON_Terrain] Continent as the [ICON_Capital] Capital.[NEWLINE][ICON_Bullet][ICON_Unit] Units gain +1 [ICON_Movement] Movement when starting the turn in friendly territory.</Text>
+		</Row>
+	</LocalizedText>
+	
+	<!-- CLASSICAL REPUBLIC POLICIES  -->
+	<LocalizedText>
+		<!-- REPUBLICAN CITY-STATE -->
+		<Row	Tag="LOC_POLICY_STR_REPUBLICAN_CITY_STATE_NAME"										Language="en_US">
+			<Text>Republican City-State</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_REPUBLICAN_CITY_STATE_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Food] Food, [ICON_Science] Science, and [ICON_Culture] Culture in all Cities; bonus doubled in the [ICON_Capital] Capital.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing in all Cities.[NEWLINE][ICON_Bullet]-30% [ICON_Production] Production towards [ICON_Unit] Settlers.</Text>
+		</Row>
+		<!-- DEMARCHY -->
+		<Row	Tag="LOC_POLICY_STR_DEMARCHY_NAME"													Language="en_US">
+			<Text>Demarchy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_DEMARCHY_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+15% [ICON_Production] Production towards [ICON_District] Districts.</Text>
+		</Row>
+		<!-- OCHLOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_OCLOCRACY_NAME"													Language="en_US">
+			<Text>Ochlocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_OCLOCRACY_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Amenities] Amenities in all Cities; bonus doubled in Cities with 6+ [ICON_Citizen] Population.</Text>
+		</Row>
+		<!-- ISOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_ISOCRACY_NAME"													Language="en_US">
+			<Text>Isocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ISOCRACY_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+5% [ICON_Food] Food, [ICON_Production] Production, and [ICON_Gold] Gold in all Cities while at peace.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing in all Cities.</Text>
+		</Row>
+		<!-- THALASSOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_THALASSOCRACY_NAME"												Language="en_US">
+			<Text>Thalassocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_THALASSOCRACY_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Naval Units gain +4 [ICON_Strength] Combat Strength.[NEWLINE][ICON_Bullet]+3 [ICON_Gold] Gold in the [ICON_Buildings] Lighthouse.</Text>
+		</Row>
+	</LocalizedText>
+	
+	<!-- OLIGARCHY POLICIES  -->
+	<LocalizedText>
+		<!-- OLIGARCHIC CITY-STATE -->
+		<Row	Tag="LOC_POLICY_STR_OLIGARCHIC_CITY_STATE_NAME"										Language="en_US">
+			<Text>Oligarchic City-State</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_OLIGARCHIC_CITY_STATE_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Production] Production towards the [ICON_DISTRICT_GOVERNMENT] Government Plaza and its [ICON_Buildings] Buildings.[NEWLINE][ICON_Bullet]-30% [ICON_Production] Production towards [ICON_Unit] Settlers.</Text>
+		</Row>
+		<!-- NOOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_NOOCRACY_NAME"													Language="en_US">
+			<Text>Noocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_NOOCRACY_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith adjacency in [ICON_DISTRICT_CAMPUS] Campus, [ICON_DISTRICT_THEATER] Theater Square, and [ICON_DISTRICT_HOLYSITE] Holy Site respectively.</Text>
+		</Row>
+		<!-- KRATOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_KRATOCRACY_NAME"												Language="en_US">
+			<Text>Kratocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_KRATOCRACY_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+3 [ICON_GreatGeneral] Great General and [ICON_GreatAdmiral] GreatAdmiral points per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production in [ICON_Buildings] Barracks, Stables, and Lighthouse.</Text>
+		</Row>
+		<!-- TIMOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_TIMOCRACY_NAME"													Language="en_US">
+			<Text>Timocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_TIMOCRACY_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Production] Production adjacency in the [ICON_DISTRICT_ENCAMPMENT] Encampment.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science and [ICON_Culture] Culture in [ICON_Buildings] Barracks or Stables.</Text>
+		</Row>
+		<!-- PLUTOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_PLUTOCRACY_NAME"												Language="en_US">
+			<Text>Plutocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PLUTOCRACY_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_TradeRoute] Trade Route capaicty.[NEWLINE][ICON_Bullet]+1 [ICON_Gold] Gold per [Charges] Luxury Resource at a international [ICON_TradeRoute] Trade Route's destination.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- MONARCHY POLICIES  -->
+	<LocalizedText>
+		<!-- FEUDAL MONARCHY  -->
+		<Row	Tag="LOC_POLICY_STR_ENLIGHTENED_MONARCHY_NAME"										Language="en_US">
+			<Text>Feudal Monarchy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ENLIGHTENED_MONARCHY_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Gold] Gold on [ICON_Charges] Farms.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production per level of [ICON_Buildings] Walls.</Text>
+		</Row>
+		<!-- PARLIAMENTARY MONARCHY -->
+		<Row	Tag="LOC_POLICY_STR_PARLIAMENTARY_MONARCHY_NAME"									Language="en_US">
+			<Text>Parliamentary Monarchy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PARLIAMENTARY_MONARCHY_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Science] Science and [ICON_Culture] Culture in all Cities.[NEWLINE][ICON_Bullet] +25% [ICON_Envoy] Envoy token influence points per turn.</Text>
+		</Row>
+		<!-- CROWNED REPUBLIC -->
+		<Row	Tag="LOC_POLICY_STR_CROWNED_REPUBLIC_NAME"											Language="en_US">
+			<Text>Crowned Republic</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CROWNED_REPUBLIC_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+15% [ICON_Production] Production towards [ICON_District] Districts.[NEWLINE][ICON_Bullet]+10% [ICON_Gold] Gold and [ICON_Faith] Faith in all Cities.</Text>
+		</Row>
+		<!-- ELECTIVE MONARCHY -->
+		<Row	Tag="LOC_POLICY_STR_ELECTIVE_MONARCHY_NAME"											Language="en_US">
+			<Text>Elective Monarchy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ELECTIVE_MONARCHY_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+5 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold, and [ICON_Faith] Faith per City-State Suzerainty.[NEWLINE][ICON_Bullet]+25% [ICON_Envoy] Envoy token influence points per turn.</Text>
+		</Row>
+		<!-- ABSOLUTE MONARCHY -->
+		<Row	Tag="LOC_POLICY_STR_ABSOLUTE_MONARCHY_NAME"											Language="en_US">
+			<Text>Absolute Monarchy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ABSOLUTE_MONARCHY_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Melee class Units gain +4 [ICON_Strength] Combat Strength.[NEWLINE][ICON_Bullet][ICON_Bullet]+3 [ICON_Food] Food, [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Production] Production, [ICON_Gold] Gold, and [ICON_Faith] Faith in the [ICON_Capital] Capital.</Text>
+		</Row>
+		<!-- ENLIGHTENED MONARCHY -->
+		<Row	Tag="LOC_POLICY_STR_ENLIGHTENED_MONARCHY_NAME"										Language="en_US">
+			<Text>Enlightened Monarchy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ENLIGHTENED_MONARCHY_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+20% [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Faith] Faith in Cities with an established [ICON_Governor] Governor.</Text>
+		</Row>
+		<!-- ROYAL KHANATE -->
+		<Row	Tag="LOC_POLICY_STR_ROYAL_KHANATE_NAME"												Language="en_US">
+			<Text>Royal Khanate</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ROYAL_KHANATE_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Heavy Cavalry and Light Cavalry class Units gain +3 [ICON_Strength] Combat Strength.[NEWLINE][ICON_Bullet][ICON_TradeRoute] Trade Routes gain +2 [ICON_Gold] Gold; bonus doubled in international [ICON_TradeRoute] Trade Routes.</Text>
+		</Row>
+		<!-- PIRATE KINGDOM -->
+		<Row	Tag="LOC_POLICY_STR_PIRATE_KINGDOM_NAME"											Language="en_US">
+			<Text>Pirate Kingdom</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PIRATE_KINGDOM_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Naval Units gain +4 [ICON_Strength] Combat Strength.[NEWLINE][ICON_Bullet]+30% [ICON_Production] Production towards [ICON_Unit] Naval Units.[NEWLINE][ICON_Bullet]+50% [ICON_Pillaged] Pillaged rewards from [ICON_Pillaged] Pillaging a [ICON_TradeRoute] Trade Route.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- MERCHANT REPUBLIC POLICIES  -->
+	<LocalizedText>
+		<!-- CONSTITUTIONAL REPUBLIC -->
+		<Row	Tag="LOC_POLICY_STR_CONSTITUTIONAL_REPUBLIC_NAME"									Language="en_US">
+			<Text>Constitutional Republic</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CONSTITUTIONAL_REPUBLIC_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Gold] Gold per [ICON_District] District in a City.</Text>
+		</Row>
+		<!-- PRESIDENTIAL REPUBLIC -->
+		<Row	Tag="LOC_POLICY_STR_PRESIDENTIAL_REPUBLIC_NAME"										Language="en_US">
+			<Text>Presidential Republic</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PRESIDENTIAL_REPUBLIC_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Unit Maintenance is reduced by 3 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- PEASANT REPUBLIC -->
+		<Row	Tag="LOC_POLICY_STR_PEASANT_REPUBLIC_NAME"											Language="en_US">
+			<Text>Peasant Republic</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PEASANT_REPUBLIC_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Production] Production on [ICON_Charges] Farms; -2 [ICON_Gold] Gold on [ICON_Charges] Farms.[NEWLINE][ICON_Bullet][ICON_Unit] Builders gain +1 [ICON_Charges] Charges.</Text>
+		</Row>
+		<!-- PARLIAMENTARY REPUBLIC -->
+		<Row	Tag="LOC_POLICY_STR_PARLIAMENTARY_REPUBLIC_NAME"									Language="en_US">
+			<Text>Parliamentary Republic</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PARLIAMENTARY_REPUBLIC_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+100% [ICON_Production] Production towards [ICON_DISTRICT_CITY_CENTER] City Center [ICON_Buildings] Buildings.[NEWLINE][ICON_Bullet]+20% [ICON_Production] Production towards [ICON_District] Districts.</Text>
+		</Row>
+		<!-- MERCHANT REPUBLIC -->
+		<Row	Tag="LOC_POLICY_STR_MERCHANT_REPUBLIC_NAME"											Language="en_US">
+			<Text>Merchant Republic</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_MERCHANT_REPUBLIC_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Gold] Gold adjacency in [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hub and [ICON_DISTRICT_HARBOR] Harbor.[NEWLINE][ICON_Bullet]+25% Yields in [ICON_TradeRoute] Trade Routes.</Text>
+		</Row>
+		<!-- BOARD OF ADMIRALS -->
+		<Row	Tag="LOC_POLICY_STR_BOARD_OF_ADMIRALS_NAME"											Language="en_US">
+			<Text>Board of Admirals</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_BOARD_OF_ADMIRALS_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+4 [ICON_GreatAdmiral] Great Admiral points per turn.[ICON_Bullet][ICON_Unit] Naval Units gain +5 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- THEOCRACY POLICIES  -->
+	<LocalizedText>
+		<!-- KRITARCHY -->
+		<Row	Tag="LOC_POLICY_STR_KRITARCHY_NAME"													Language="en_US">
+			<Text>Kritarchy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_KRITARCHY_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+25% [ICON_Faith] Faith and +2 [ICON_Amenities] Amenities in Cities with an established [ICON_Governor] Governor.[NEWLINE][ICON_Bullet]+2 [ICON_Amenities] Amenities in the [ICON_DISTRICT_HOLYSITE] Holy Site.</Text>
+		</Row>
+		<!-- CALIPHATE -->
+		<Row	Tag="LOC_POLICY_STR_CALIPHATE_NAME"													Language="en_US">
+			<Text>Caliphate</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CALIPHATE_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet][ICON_Production] Producing a [ICON_Unit] Military Unit earns [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold, and [ICON_Faith] Faith equal to 10% of the [ICON_Unit] Unit's cost.</Text>
+		</Row>
+		<!-- CELESTIAL EMPIRE -->
+		<Row	Tag="LOC_POLICY_STR_CELESTIAL_EMPIRE_NAME"											Language="en_US">
+			<Text>Celestial Empire</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CELESTIAL_EMPIRE_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+6 [ICON_PressureUp] Loyalty for Cities on the same [ICON_Terrain] Continent as the [ICON_Capital] Capital.[NEWLINE][ICON_Bullet]+25% [ICON_Faith] Faith for Cities on the same [ICON_Terrain] Continent as the [ICON_Capital] Capital; bonus doubled if within 6 tiles of the [ICON_Capital] Capital.</Text>
+		</Row>
+		<!-- THEOCRATIC MONARCHY -->
+		<Row	Tag="LOC_POLICY_STR_THEOCRATIC_MONARCHY_NAME"										Language="en_US">
+			<Text>Theocratic Monarchy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_THEOCRATIC_MONARCHY_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet][ICON_Religion] Religious Units gain +5 [ICON_Religion] Religious Strength.[NEWLINE][ICON_Bullet]Cities gain +10% [ICON_Science] Science and [ICON_Culture] Culture if the [ICON_DISTRICT_HOLYSITE] Holy Site has its [ICON_Buildings] Tier 3 Building.</Text>
+		</Row>
+		<!-- HOLY KHANATE -->
+		<Row	Tag="LOC_POLICY_STR_HOLY_KHANATE_NAME"												Language="en_US">
+			<Text>Holy Khanate</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_HOLY_KHANATE_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Heavy Cavalry and Light Cavalry class Units spread the player's majority [ICON_Religion] Religion after killing an enemy [ICON_Unit] Units.[NEWLINE][ICON_Bullet][ICON_Unit] Land Heavy Cavalry and Light Cavalry class Units gain +5 [ICON_Strength] Combat Strength when attacking.</Text>
+		</Row>
+		<!-- METROPOLITAN -->
+		<Row	Tag="LOC_POLICY_STR_METROPOLITAN_NAME"												Language="en_US">
+			<Text>Metropolitan</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_METROPOLITAN_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet][ICON_Religion] Religious Units gain +10 [ICON_Religion] Religious Strength when defending.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- DEMOCRACY POLICIES  -->
+	<LocalizedText>
+		<!-- ELECTOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_ELECTOCRACY_NAME"												Language="en_US">
+			<Text>Electocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ELECTOCRACY_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+4 [ICON_PressureUp] Loyalty, +15% [ICON_Science] Science, [ICON_Culture] Culture and [ICON_Production] Production in Cities with an established [ICON_Governor] Governor.</Text>
+		</Row>
+		<!-- DIRECT DEMOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_DIRECT_DEMOCRACY_NAME"											Language="en_US">
+			<Text>Direct Democracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_DIRECT_DEMOCRACY_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Food] Food, [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Production] Production,and [ICON_Housing] Housing in all Cities.</Text>
+		</Row>
+		<!-- ETHNOCRATIC DEMOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_ETHNOCRATIC_DEMOCRACY_NAME"										Language="en_US">
+			<Text>Ethnocratic Democracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ETHNOCRATIC_DEMOCRACY_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Amenities] Amenities, [ICON_Housing] Housing, as well as +6 [ICON_PressureUp] Loyalty in all Cities.</Text>
+		</Row>
+		<!-- LIBERAL DEMOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_LIBERAL_DEMOCRACY_NAME"											Language="en_US">
+			<Text>Liberal Democracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_LIBERAL_DEMOCRACY_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+0.3 [ICON_Science] Science and [ICON_Culture] Culture per [ICON_Citizen] Population in a City; bonus doubled in Cities with a established [ICON_Governor] Governor.</Text>
+		</Row>
+		<!-- CONSERVATIVE DEMOCARCY -->
+		<Row	Tag="LOC_POLICY_STR_CONSERVATIVE_DEMOCRACY_NAME"									Language="en_US">
+			<Text>Conservative Democracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CONSERVATIVE_DEMOCRACY_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet][ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone gains [ICON_Food] Food, [ICON_Gold] Gold, and [ICON_Faith] Faith equal to 100% of its [ICON_Production] Production adjacency.</Text>
+		</Row>
+		<!-- SOCIAL DEMOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_SOCIAL_DEMOCRACY_NAME"											Language="en_US">
+			<Text>Social Democracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_SOCIAL_DEMOCRACY_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]All tiles in a City gain +1 [ICON_Production] Production; bonus doubled on tiles with Breathtaking Appeal.[NEWLINE][ICON_Bullet]All tiles lose -2 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- LIBERTARIAN DEMOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_LIBERTARIAN_DEMOCRACY_NAME"										Language="en_US">
+			<Text>Libertarian Democracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_LIBERTARIAN_DEMOCRACY_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]</Text>
+		</Row>
+		<!-- CITIZEN STRATOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_CITIZEN_STRATOCRACY_NAME"										Language="en_US">
+			<Text>Citizen Stratocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CITIZEN_STRATOCRACY_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]Established [ICON_Governor] Governors grant newly trained [ICON_Unit] Units +50% [ICON_Ability] Experience.[NEWLINE][ICON_Bullet]+2 [ICON_Science] Science and [ICON_Culture] Culture in [ICON_DISTRICT_ENCAMPMENT] Encampment [ICON_Buildings] Buildings.</Text>
+		</Row>
+		<!-- CONSTITUTIONAL MONARCHY -->
+		<Row	Tag="LOC_POLICY_STR_CONSTITUTIONAL_MONARCHY_NAME"									Language="en_US">
+			<Text>Constituional Monarchy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CONSTITUTIONAL_MONARCHY_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet]+300% [ICON_Tourism] Tourism from all levels of [ICON_Buildings] Walls.[NEWLINE][ICON_Bullet]+20% [ICON_Tourism] Tourism.</Text>
+		</Row>
+		<!-- PARLIAMENTARIANISM -->
+		<Row	Tag="LOC_POLICY_STR_PARLIAMENTARIANISM_NAME"										Language="en_US">
+			<Text>Parliamentarianism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PARLIAMENTARIANISM_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+20% [ICON_Production] Production towards Projects.[ICON_Bullet]+100% [ICON_Favor] Diplomatic Favors from completing Emergencies and Competitions.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- COMMUNISM POLICIES  -->
+	<LocalizedText>
+		<!-- TOTALITARIAN DEMOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_TOTALITARIAN_DEMOCRACY_NAME"									Language="en_US">
+			<Text>Totalitarian Democracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_TOTALITARIAN_DEMOCRACY_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+0.5 [ICON_Production] Production per [ICON_Citizen] Population in a City.</Text>
+		</Row>
+		<!-- STALINISM -->
+		<Row	Tag="LOC_POLICY_STR_STALINISM_NAME"													Language="en_US">
+			<Text>Stalinism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_STALINISM_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+4 [ICON_Production] Production and +20% [ICON_Production] Production in all Cities.[NEWLINE][ICON_Bullet]Can freely condemn [ICON_Religion] Religious Units.[NEWLINE][ICON_Bullet]-75% [ICON_Faith] Faith in all Cities.</Text>
+		</Row>
+		<!-- MAOISM -->
+		<Row	Tag="LOC_POLICY_STR_MAOISM_NAME"													Language="en_US">
+			<Text>Maoism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_MAOISM_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet]+100% [ICON_Production] Production towards [ICON_DISTRICT_NEIGHBORHOOD] Neighborhoods.[NEWLINE][ICON_Bullet]+2 [ICON_Food] Food and [ICON_Production] Production in all [ICON_DISTRICT_NEIGHBORHOOD] Neighborhoods.</Text>
+		</Row>
+		<!-- TROTSKYISM-->
+		<Row	Tag="LOC_POLICY_STR_TROTSKYISM_NAME"												Language="en_US">
+			<Text>Trotskyism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_TROTSKYISM_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Military Units gain +5 [ICON_Strength] Combat Strength per level of [ICON_VisTopSecret] Diplomatic Visibility against a player.[NEWLINE][ICON_Bullet][ICON_Grievances] Grievances do not decay.</Text>
+		</Row>
+		<!-- LENINISM -->
+		<Row	Tag="LOC_POLICY_STR_LENINISM_NAME"													Language="en_US">
+			<Text>Leninism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_LENINISM_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+15% [ICON_GreatPerson] Great Person points.[NEWLINE][ICON_Bullet]+3 [ICON_Food] Food, [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Production] Production in [ICON_TradeRoute] Trade Routes sent to [ICON_Alliance] Allies or City-States.</Text>
+		</Row>
+		<!-- MARXISM -->
+		<Row	Tag="LOC_POLICY_STR_MARXISM_NAME"													Language="en_US">
+			<Text>Marxism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_MARXISM_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+10% [ICON_Science] Science, [ICON_Culture] Culture, as well as +50% [ICON_Production] Production in Cities with a [ICON_Buildings] Factory.[NEWLINE][ICON_Bullet]-25% [ICON_Gold] Gold in all Cities; penalty doubled in Cities with a [ICON_Buildings] Factory.</Text>
+		</Row>
+		<!-- ERGATOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_ERGATOCRACY_NAME"												Language="en_US">
+			<Text>Ergatocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ERGATOCRACY_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+100% [ICON_Production] Production towards [ICON_Unit] Builders and Military Engineers.[ICON_Bullet][ICON_Unit] Builders and Military Engineers gain +4 [ICON_Charges] Charges.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food on [ICON_Charges] Farms.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production on [ICON_Charges] Mines.[NEWLINE][ICON_Bullet]-2 [ICON_Gold] Gold on all tiles.</Text>
+		</Row>
+		<!-- ANARCHISM-->
+		<Row	Tag="LOC_POLICY_STR_ANARCHISM_NAME"													Language="en_US">
+			<Text>Anarchism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_ANARCHISM_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Melee class Units gain +5 [ICON_Strength] Combat Strength when in or adjacent to home territory.[NEWLINE][ICON_Bullet]+25% [ICON_Production] Production while at peace.</Text>
+		</Row>
+		<!-- PEOPLE'S REPUBLIC -->
+		<Row	Tag="LOC_POLICY_STR_PEOPLES_REPUBLIC_NAME"											Language="en_US">
+			<Text>People's Republic</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PEOPLES_REPUBLIC_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+25% [ICON_Production] Production towards [ICON_DISTRICT_WONDER] Wonders of any [ICON_Science] Era.[NEWLINE][ICON_Bullet]+200% [ICON_Tourism] Tourism from [ICON_DISTRICT_WONDER] Wonders.</Text>
+		</Row>
+		<!-- TECHNOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_TECHNOCRACY_NAME"												Language="en_US">
+			<Text>Technocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_TECHNOCRACY_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+10% [ICON_Science] Science in all Cities; bonus doubled while at peace.[NEWLINE][ICON_Bullet]+1 [ICON_Amenity] Amenity per [ICON_Charges] Bonus Resource in a City.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- FASCISM POLICIES  -->
+	<LocalizedText>
+		<!-- CORPORATOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_CORPORATOCRACY_NAME"											Language="en_US">
+			<Text>Corporatocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_CORPORATOCRACY_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Gold] Gold on all tiles.[NEWLINE][ICON_Bullet]+0.3 [ICON_Gold] Gold per [ICON_Citizen] Population.[NEWLINE][ICON_Bullet]+2 [ICON_Amenity] Amenity per [ICON_Charges] Bonus Resource in a City.</Text>
+		</Row>
+		<!-- NATIONALIST STRATOCRACY -->
+		<Row	Tag="LOC_POLICY_STR_NATIONALIST_STRATOCRACY_NAME"									Language="en_US">
+			<Text>Nationalist Stratocracy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_NATIONALIST_STRATOCRACY_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet]+30% [ICON_Production] Production towards all [ICON_Unit] Units.[NEWLINE][ICON_Bullet]Cities with a [ICON_Fortified] Garrisoned [ICON_Unit] Unit gain +4 [ICON_PressureUp] Loyalty; bonus doubled in a [ICON_Occupied] Conquered City.</Text>
+		</Row>
+		<!-- FALANGISM -->
+		<Row	Tag="LOC_POLICY_STR_FALANGISM_NAME"													Language="en_US">
+			<Text>Falangism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_FALANGISM_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+7 [ICON_Strength] Combat Strength against players in a [ICON_GLORY_GOLDEN_AGE] Golden Age or [ICON_GLORY_SUPER_GOLDEN_AGE] Heroic Age and Free Cities.[NEWLINE][ICON_Bullet]+5% [ICON_Food] Food, [ICON_Science] Science, [ICON_Production] Production, [ICON_Gold] Gold, [ICON_Faith] Faith in all Cities; bonus tripled in Cities on a [ICON_Terrain] Continent different than the [ICON_Capital] Capital's.</Text>
+		</Row>
+		<!-- MILITARY DICTATORSHIP -->
+		<Row	Tag="LOC_POLICY_STR_MILITARY_DICTATORSHIP_NAME"										Language="en_US">
+			<Text>Military Dictatorship</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_MILITARY_DICTATORSHIP_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]Cities with an established [ICON_Governor] Governor gain +30% [ICON_Science] Science and [ICON_Production] Production; bonus doubled in Cities with a [ICON_Governor] Governor.</Text>
+		</Row>
+		<!-- JUNTA -->
+		<Row	Tag="LOC_POLICY_STR_JUNTA_NAME"														Language="en_US">
+			<Text>Junta</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_JUNTA_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Military Units gain +7 [ICON_Strength] Combat Strength.[NEWLINE][ICON_Bullet][ICON_Unit] Unit Maintenance is reduced by 1 [ICON_Gold] Gold.</Text>
+		</Row>
+		<!-- NAZISM -->
+		<Row	Tag="LOC_POLICY_STR_NAZISM_NAME"													Language="en_US">
+			<Text>Nazism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_NAZISM_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Movement] Movement for all [ICON_Unit] Units for 10 turns after declaring a Surprise War.[NEWLINE][ICON_Bullet]+15% [ICON_Science] Science, [ICON_Culture] Culture, and [ICON_Production] Production while at peace.[ICON_Bullet]Can freely condemn [ICON_Religion] Religious Units.[NEWLINE][ICON_Bullet]-1 [ICON_Amenities] Amenity per [ICON_Religion] Religious follower in a City.</Text>
+		</Row>
+		<!-- FASCIST MONARCHY -->
+		<Row	Tag="LOC_POLICY_STR_FASCIST_MONARCHY_NAME"											Language="en_US">
+			<Text>Fascist Monarchy</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_FASCIST_MONARCHY_DESCRIPTION"									Language="en_US">
+			<Text>[ICON_Bullet]+5 [ICON_PressureUp] Loyalty in all Cities; doubled in Cities with a [ICON_Fortified] Garrison.[NEWLINE][ICON_Bullet]+30% [ICON_Tourism] Tourism</Text>
+		</Row>
+		<!-- GREAT KHANATE -->
+		<Row	Tag="LOC_POLICY_STR_GREAT_KHANATE_NAME"												Language="en_US">
+			<Text>Great Khanate</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_GREAT_KHANATE_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet][ICON_Unit] Land Heavy Cavalry and Light Cavalry class Units +10 [ICON_Strength] Combat Strength and +2 [ICON_Movement] Movement.</Text>
+		</Row>
+		<!-- PATERNAL NATIONALISM -->
+		<Row	Tag="LOC_POLICY_STR_PATERNAL_NATIONALISM_NAME"										Language="en_US">
+			<Text>Paternal Nationalism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_PATERNAL_NATIONALISM_DESCRIPTION"								Language="en_US">
+			<Text>[ICON_Bullet]+50% [ICON_Food] Growth and +2 [ICON_Housing] Housing in all Cities</Text>
+		</Row>
+		<!-- REXISM -->
+		<Row	Tag="LOC_POLICY_STR_REXISM_NAME"													Language="en_US">
+			<Text>Rexism</Text>
+		</Row>
+		<Row	Tag="LOC_POLICY_STR_REXISM_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet]Cities with a [ICON_Buildings] Stock Exchange gain +20% [ICON_Food] Food, [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Production] Production, [ICON_Gold] Gold, and [ICON_Faith] Faith.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Icons_Improvements -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/5/2021 8:03:19 PM -->
+<GameData>
+
+	<!-- IMPROVEMENTS -->
+	<IconTextureAtlases>
+		<!-- BARRICADES AND TRAPS -->
+		<Row Name="ICON_ATLAS_ZOMBIES_UNIT_ACTIONS"								IconSize="38"	IconsPerRow="4" IconsPerColumn="4" Filename="Zombies_UnitActions38"/>
+		<Row Name="ICON_ATLAS_ZOMBIES_UNIT_ACTIONS"								IconSize="50"	IconsPerRow="4" IconsPerColumn="4" Filename="Zombies_UnitActions50"/>
+		<Row Name="ICON_ATLAS_ZOMBIES_UNIT_ACTIONS"								IconSize="80"	IconsPerRow="4" IconsPerColumn="4" Filename="Zombies_UnitActions80"/>
+		<Row Name="ICON_ATLAS_ZOMBIES_UNIT_ACTIONS"								IconSize="256"	IconsPerRow="4" IconsPerColumn="4" Filename="Zombies_UnitActions256"/>
+	</IconTextureAtlases>
+
+	<!-- IMPROVEMENTS -->
+	<IconDefinitions>
+		<!-- BARRICADES AND TRAPS -->
+		<Row Name="ICON_IMPROVEMENT_ANCIENT_TRAP_DEFENSE"						Atlas="ICON_ATLAS_ZOMBIES_UNIT_ACTIONS"								Index="1"/>
+		<Row Name="ICON_IMPROVEMENT_MODERN_TRAP_DEFENSE"						Atlas="ICON_ATLAS_ZOMBIES_UNIT_ACTIONS"								Index="2"/>
+		<Row Name="ICON_IMPROVEMENT_ANCIENT_TOWER_DEFENSE"						Atlas="ICON_ATLAS_ZOMBIES_UNIT_ACTIONS"								Index="3"/>
+		<Row Name="ICON_IMPROVEMENT_MODERN_TOWER_DEFENSE"						Atlas="ICON_ATLAS_ZOMBIES_UNIT_ACTIONS"								Index="4"/>
+	</IconDefinitions>
+		
+</GameData>

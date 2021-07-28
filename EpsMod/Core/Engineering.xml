@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_MILITARY_ENGINEER"/>
+			<Set>
+				<Cost>120</Cost>
+				<BaseMoves>3</BaseMoves>
+				<Description>LOC_UNIT_MILITARY_ENGINEER_DESCRIPTION_EPSMOD</Description>
+				<PrereqTech>TECH_ENGINEERING</PrereqTech>
+			</Set>
+		</Update>
+	</Units>
+
+	<Unit_BuildingPrereqs>
+		<Delete Unit="UNIT_MILITARY_ENGINEER" PrereqBuilding="BUILDING_ARMORY" />
+		<Row Unit="UNIT_MILITARY_ENGINEER" PrereqBuilding="BUILDING_BARRACKS"/>
+		<Row Unit="UNIT_MILITARY_ENGINEER" PrereqBuilding="BUILDING_STABLE"/>
+	</Unit_BuildingPrereqs>
+
+	<Improvements>
+		<Update><Where ImprovementType="IMPROVEMENT_FORT"/><Set><PrereqTech>TECH_CONSTRUCTION</PrereqTech></Set></Update>
+	</Improvements>
+
+	<Routes>
+		<Update><Where RouteType="ROUTE_ANCIENT_ROAD"/><Set><Description>LOC_ROUTE_ANCIENT_ROAD_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where RouteType="ROUTE_MEDIEVAL_ROAD"/><Set><Description>LOC_ROUTE_MEDIEVAL_ROAD_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where RouteType="ROUTE_INDUSTRIAL_ROAD"/><Set><Description>LOC_ROUTE_INDUSTRIAL_ROAD_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where RouteType="ROUTE_MODERN_ROAD"/><Set><Description>LOC_ROUTE_MODERN_ROAD_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where RouteType="ROUTE_RAILROAD"/><Set><Description>LOC_ROUTE_RAILROAD_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Routes>
+	
+	<Route_ValidBuildUnits>		
+		<Row RouteType="ROUTE_ANCIENT_ROAD" UnitType="UNIT_BUILDER"/>
+		<Row RouteType="ROUTE_MEDIEVAL_ROAD" UnitType="UNIT_BUILDER"/>
+		<Row RouteType="ROUTE_INDUSTRIAL_ROAD" UnitType="UNIT_BUILDER"/>
+		<Row RouteType="ROUTE_MODERN_ROAD" UnitType="UNIT_BUILDER"/>
+		<Row RouteType="ROUTE_RAILROAD" UnitType="UNIT_BUILDER"/>
+	</Route_ValidBuildUnits>
+
+	<Technologies>
+		<Update><Where TechnologyType="TECH_SIEGE_TACTICS"/><Set><Description>LOC_TECH_SIEGE_TACTICS_EPSMOD</Description></Set></Update>
+	</Technologies>
+
+	<TechnologyModifiers>
+		<Row><TechnologyType>TECH_SIEGE_TACTICS</TechnologyType><ModifierId>EPSMOD_ENGINEERING_SIEGE_TACTICS_STRENGTH_ATTACH</ModifierId></Row>
+	</TechnologyModifiers>
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_ENGINEERING_SIEGE_TACTICS_STRENGTH</ModifierId><ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType><SubjectRequirementSetId>EPSMOD_ENGINEERING_DEFENDING_FROM_CITY</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_ENGINEERING_SIEGE_TACTICS_STRENGTH_ATTACH</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType></Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_ENGINEERING_SIEGE_TACTICS_STRENGTH</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_ENGINEERING_SIEGE_TACTICS_STRENGTH_ATTACH</ModifierId><Name>ModifierId</Name><Value>EPSMOD_ENGINEERING_SIEGE_TACTICS_STRENGTH</Value></Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row ModifierId="EPSMOD_ENGINEERING_SIEGE_TACTICS_STRENGTH" Context="Preview" Text="+{1_Amount} {LOC_EPSMOD_ENGINEERING_SIEGE_TACTICS_STRENGTH_PREVIEW}"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_ENGINEERING_DEFENDING_FROM_CITY</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_ENGINEERING_DEFENDING_FROM_CITY</RequirementSetId><RequirementId>EPSMOD_ENGINEERING_REQUIREMENT_PLAYER_IS_DEFENDER</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ENGINEERING_DEFENDING_FROM_CITY</RequirementSetId><RequirementId>EPSMOD_ENGINEERING_REQUIREMENT_OPPONENT_IS_DISTRICT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ENGINEERING_DEFENDING_FROM_CITY</RequirementSetId><RequirementId>EPSMOD_ENGINEERING_REQUIREMENT_PLOT_IS_CITY_CENTER</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_ENGINEERING_REQUIREMENT_PLAYER_IS_DEFENDER</RequirementId><RequirementType>REQUIREMENT_PLAYER_IS_ATTACKING</RequirementType><Inverse>true</Inverse></Row>
+		<Row><RequirementId>EPSMOD_ENGINEERING_REQUIREMENT_OPPONENT_IS_DISTRICT</RequirementId><RequirementType>REQUIREMENT_OPPONENT_IS_DISTRICT</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ENGINEERING_REQUIREMENT_PLOT_IS_CITY_CENTER</RequirementId><RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType></Row>
+	</Requirements>
+	
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_ENGINEERING_REQUIREMENT_PLOT_IS_CITY_CENTER</RequirementId><Name>DistrictType</Name><Value>DISTRICT_CITY_CENTER</Value></Row>
+	</RequirementArguments>
+</GameData>

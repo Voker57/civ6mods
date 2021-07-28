@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a044b411-24ea-4758-9a77-96c124babc8e" version="11">
+  <Properties>
+    <Name>EpsMod v3.3</Name>
+    <Description>Combines most (but not all) of the [COLOR_FLOAT_GOLD]EpsTweak[ENDCOLOR] mods into a single comprehensive package:[NEWLINE][NEWLINE]Adaptation[NEWLINE]Adjacency[NEWLINE]Aircraft[NEWLINE]Anti-Cavalry[NEWLINE]Barbarians[NEWLINE]Beliefs[NEWLINE]Catch-Up[NEWLINE]City-States[NEWLINE]Civic Units[NEWLINE]Civilizations[NEWLINE]Engineering[NEWLINE]Enlightenment Policies[NEWLINE]Government Plaza Buildings[NEWLINE]Government Management[NEWLINE]Governors[NEWLINE]Great People[NEWLINE]Healing on Promotion[NEWLINE]Horses[NEWLINE]Map Sizes[NEWLINE]Movement[NEWLINE]Normal Ages[NEWLINE]Nukes: Damage[NEWLINE]Nukes: Plaza[NEWLINE]Policies[NEWLINE]Preserve[NEWLINE]Recon[NEWLINE]Science[NEWLINE]Spy Operations[NEWLINE]Support Units[NEWLINE]Starting Settlers[NEWLINE]Tall Play[NEWLINE]Unit Resources[NEWLINE]Warrior Monks[NEWLINE]Wonders[NEWLINE]World Congress[NEWLINE]</Description>
+    <Created>1625672702</Created>
+    <Teaser>Comprehensive balance and mechanic change mod.</Teaser>
+    <Authors>Eps</Authors>
+    <CompatibleVersions>2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <References>
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+    <Mod id="E3F53C61-371C-440B-96CE-077D318B36C0" title="DLC: Australia Civilization Pack" />
+    <Mod id="E2749E9A-8056-45CD-901B-C368C8E83DEB" title="DLC: Persia and Macedon Civilization Pack" />
+    <Mod id="1B394FE9-23DC-4868-8F0A-5220CB8FB427" title="DLC: Ethiopia Pack" />
+    <Mod id="9DE86512-DE1A-400D-8C0A-AB46EBBF76B9" title="DLC: Maya and Gran Colombia Pack" />
+    <Mod id="113D9459-0A3B-4FCB-A49C-483F40303575" title="DLC: Teddy Roosevelt Persona Pack" />
+    <Mod id="A1100FC4-70F2-4129-AC27-2A65A685ED08" title="DLC: Byzantium and Gaul Pack" />
+    <Mod id="8424840C-92EF-4426-A9B4-B4E0CB818049" title="DLC: Babylon Pack" />
+    <Mod id="A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C" title="DLC: Vietnam and Kublai Khan Pack" />
+    <Mod id="1F367231-A040-4793-BDBB-088816853683" title="DLC: Khmer and Indonesia Civilization Pack" />
+  </References>
+  <ActionCriteria>
+    <Criteria id="EpsMod_Criteria_GatS">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>4873eb62-8ccc-4574-b784-dda455e74e68</ModInUse>
+    </Criteria>
+    <Criteria id="EpsMod_Criteria_RaF">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>1B28771A-C749-434B-9053-D1380C553DE9</ModInUse>
+    </Criteria>
+    <Criteria id="EpsMod_Criteria_Australia">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>E3F53C61-371C-440B-96CE-077D318B36C0</ModInUse>
+    </Criteria>
+    <Criteria id="EpsMod_Criteria_Macedon">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>E2749E9A-8056-45CD-901B-C368C8E83DEB</ModInUse>
+    </Criteria>
+    <Criteria id="EpsMod_Criteria_Ethiopia">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>1B394FE9-23DC-4868-8F0A-5220CB8FB427</ModInUse>
+    </Criteria>
+    <Criteria id="EpsMod_Criteria_Colombia">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>9DE86512-DE1A-400D-8C0A-AB46EBBF76B9</ModInUse>
+    </Criteria>
+    <Criteria id="EpsMod_Criteria_BullMoose">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>113D9459-0A3B-4FCB-A49C-483F40303575</ModInUse>
+    </Criteria>
+    <Criteria id="EpsMod_Criteria_Byzantium">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>A1100FC4-70F2-4129-AC27-2A65A685ED08</ModInUse>
+    </Criteria>
+    <Criteria id="EpsMod_Criteria_Babylon">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>8424840C-92EF-4426-A9B4-B4E0CB818049</ModInUse>
+    </Criteria>
+    <Criteria id="EpsMod_Criteria_Vietnam">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>A3F42CD4-6C3E-4F5A-BC81-BE29E0C0B87C</ModInUse>
+    </Criteria>
+    <Criteria id="EpsMod_Criteria_Khmer">
+      <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+      <ModInUse>1F367231-A040-4793-BDBB-088816853683</ModInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="Text">
+      <File>Core/GameText.xml</File>
+      <File>Core/PolicyText.xml</File>
+    </UpdateText>
+    <UpdateDatabase id="Config">
+      <File>Core/GameConfig.xml</File>
+      <File>Core/GameConfigNames.xml</File>
+    </UpdateDatabase>
+    <UpdateArt id="Art">
+      <File>EpsMod.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="InGameDatabase" criteria="EpsMod_Criteria_GatS">
+      <File>Core/NukeDamage.sql</File>
+      <File>Core/Ages.xml</File>
+      <File>Core/Aircraft.xml</File>
+      <File>Core/AntiCavalry.xml</File>
+      <File>Core/Engineering.xml</File>
+      <File>Core/GovernmentPlazaBuildings.xml</File>
+      <File>Core/Governors.xml</File>
+      <File>Core/GreatPeople.xml</File>
+      <File>Core/NukesPlaza.xml</File>
+      <File>Core/Recon.xml</File>
+      <File>Core/Science.xml</File>
+      <File>Core/SpyOperations.xml</File>
+      <File>Core/Wonders.xml</File>
+      <File>Core/WorldCongress.xml</File>
+      <File>Core/Adaptation.xml</File>
+      <File>Core/Movement.xml</File>
+      <File>Core/Adjacency.xml</File>
+      <File>Core/CivilizationsGatS.xml</File>
+      <File>Core/WarriorMonks.xml</File>
+      <File>Core/CivicUnits.xml</File>
+      <File>Core/Policies.xml</File>
+      <File>Core/Beliefs.xml</File>
+      <File>Core/Tall.xml</File>
+      <File>Core/CityStates.xml</File>
+      <File>Core/UnitResources.xml</File>
+      <File>Core/SupportUnits.xml</File>
+      <File>Core/CatchUp.xml</File>
+      <File>Core/MapSizes.xml</File>
+      <File>Core/Enlightenment.xml</File>
+      <File>Core/CivilopediaEntries.xml</File>
+      <File>Core/Barbarians.xml</File>
+      <File>Core/Horses.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseRaF" criteria="EpsMod_Criteria_RaF">
+      <File>Core/CivilizationsRaF.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseAustralia" criteria="EpsMod_Criteria_Australia">
+      <File>Core/CivilizationsAustralia.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseMacedon" criteria="EpsMod_Criteria_Macedon">
+      <File>Core/CivilizationsMacedon.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseEthiopia" criteria="EpsMod_Criteria_Ethiopia">
+      <File>Core/CivilizationsEthiopia.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseColombia" criteria="EpsMod_Criteria_Colombia">
+      <File>Core/CivilizationsGranColombia.xml</File>
+      <File>Core/BeliefsMaya.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseBullMoose" criteria="EpsMod_Criteria_BullMoose">
+      <File>Core/CivilizationsBullMoose.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseByzantium" criteria="EpsMod_Criteria_Byzantium">
+      <File>Core/CivilizationsByzantiumGaul.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseBabylon" criteria="EpsMod_Criteria_Babylon">
+      <File>Core/CivilizationsBabylon.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseVietnam" criteria="EpsMod_Criteria_Vietnam">
+      <File>Core/Preserve.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseKhmer" criteria="EpsMod_Criteria_Khmer">
+      <File>Core/CivilizationsKhmer.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="DatabaseWonderWording">
+      <File>Core/WonderWording.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="InGameText">
+      <File>Core/GameText.xml</File>
+      <File>Core/PolicyText.xml</File>
+      <File>Core/Civilopedia.xml</File>
+    </UpdateText>
+    <UpdateIcons id="InGameIcons">
+      <File>Core/Icons.xml</File>
+    </UpdateIcons>
+    <AddGameplayScripts id="Scripts">
+      <File>Scripts/NukeScript.lua</File>
+      <File>Scripts/GovManScript.lua</File>
+      <File>Scripts/PromotionHealingScript.lua</File>
+      <File>Scripts/AdaptationScript.lua</File>
+    </AddGameplayScripts>
+    <UpdateArt id="InGameArt">
+      <File>EpsMod.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Units.artdef</File>
+    <File>Core/Adaptation.xml</File>
+    <File>Core/Adjacency.xml</File>
+    <File>Core/Ages.xml</File>
+    <File>Core/Aircraft.xml</File>
+    <File>Core/AntiCavalry.xml</File>
+    <File>Core/Barbarians.xml</File>
+    <File>Core/Beliefs.xml</File>
+    <File>Core/BeliefsMaya.xml</File>
+    <File>Core/CatchUp.xml</File>
+    <File>Core/CityStates.xml</File>
+    <File>Core/CivicUnits.xml</File>
+    <File>Core/CivilizationsAustralia.xml</File>
+    <File>Core/CivilizationsBabylon.xml</File>
+    <File>Core/CivilizationsBullMoose.xml</File>
+    <File>Core/CivilizationsByzantiumGaul.xml</File>
+    <File>Core/CivilizationsEthiopia.xml</File>
+    <File>Core/CivilizationsGatS.xml</File>
+    <File>Core/CivilizationsGranColombia.xml</File>
+    <File>Core/CivilizationsKhmer.xml</File>
+    <File>Core/CivilizationsMacedon.xml</File>
+    <File>Core/CivilizationsRaF.xml</File>
+    <File>Core/Civilopedia.xml</File>
+    <File>Core/CivilopediaEntries.xml</File>
+    <File>Core/Engineering.xml</File>
+    <File>Core/Enlightenment.xml</File>
+    <File>Core/GameConfig.xml</File>
+    <File>Core/GameConfigNames.xml</File>
+    <File>Core/GameText.xml</File>
+    <File>Core/GovernmentPlazaBuildings.xml</File>
+    <File>Core/Governors.xml</File>
+    <File>Core/GreatPeople.xml</File>
+    <File>Core/Horses.xml</File>
+    <File>Core/Icons.xml</File>
+    <File>Core/MapSizes.xml</File>
+    <File>Core/Movement.xml</File>
+    <File>Core/NukeDamage.sql</File>
+    <File>Core/NukesPlaza.xml</File>
+    <File>Core/Policies.xml</File>
+    <File>Core/PolicyText.xml</File>
+    <File>Core/Preserve.xml</File>
+    <File>Core/Recon.xml</File>
+    <File>Core/Science.xml</File>
+    <File>Core/SpyOperations.xml</File>
+    <File>Core/SupportUnits.xml</File>
+    <File>Core/Tall.xml</File>
+    <File>Core/UnitResources.xml</File>
+    <File>Core/WarriorMonks.xml</File>
+    <File>Core/Wonders.xml</File>
+    <File>Core/WonderWording.sql</File>
+    <File>Core/WorldCongress.xml</File>
+    <File>EpsMod.dep</File>
+    <File>Mod.Art.xml</File>
+    <File>Platforms/MacOS/BLPs/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/Icons.blp</File>
+    <File>Scripts/AdaptationScript.lua</File>
+    <File>Scripts/GovManScript.lua</File>
+    <File>Scripts/NukeScript.lua</File>
+    <File>Scripts/PromotionHealingScript.lua</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_128.dds</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_128.tex</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_256.dds</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_256.tex</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_32.dds</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_32.tex</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_38.dds</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_38.tex</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_50.dds</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_50.tex</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_80.dds</File>
+    <File>Textures/ICON_BUILDINGS_EPSMOD_TALL_80.tex</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_256.dds</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_256.tex</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_30.dds</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_30.tex</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_32.dds</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_32.tex</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_38.dds</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_38.tex</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_50.dds</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_50.tex</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_70.dds</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_70.tex</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_80.dds</File>
+    <File>Textures/ICON_PROJECTS_EPSMOD_TALL_80.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_22.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_22.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_256.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_256.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_32.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_32.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_38.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_38.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_50.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_50.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_80.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_CIVIC_80.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_22.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_22.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_256.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_256.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_32.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_32.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_38.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_38.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_50.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_50.tex</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_80.dds</File>
+    <File>Textures/ICON_UNITS_EPSMOD_SUPPORT_80.tex</File>
+    <File>XLPs/Icons.xlp</File>
+  </Files>
+</Mod>

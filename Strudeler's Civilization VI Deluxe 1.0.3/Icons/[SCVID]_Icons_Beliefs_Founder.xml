@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Icons_Founder_Beliefs -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/5/2021 8:05:37 PM -->
+<GameData>
+
+<!-- BELIEFS TEXTURE ATLASES-->
+	<IconTextureAtlases>
+	<!-- FOUNDER BELIEFS TEXTURE ATLASES-->	
+		<!-- GENERIC -->
+		<Row Name="ICON_ATLAS_STR_FOUNDER_GENERIC"								IconSize="32"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Founder_Generic_32.dds"/>
+		<Row Name="ICON_ATLAS_STR_FOUNDER_GENERIC"								IconSize="50"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Founder_Generic_50.dds"/>
+		<Row Name="ICON_ATLAS_STR_FOUNDER_GENERIC"								IconSize="64"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Founder_Generic_64.dds"/>
+		<Row Name="ICON_ATLAS_STR_FOUNDER_GENERIC"								IconSize="256"	IconsPerRow="1" IconsPerColumn="1" Filename="STR_Founder_Generic_256.dds"/>
+	</IconTextureAtlases>
+
+<!-- BELIEFS ICON DEFINITIONS -->
+	<IconDefinitions>
+	<!-- FOUNDER BELIEFS ICON DEFINITIONS -->	
+		<!-- INTERFAITH DIALOGUE -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_INTERFAITH_DIALOGUE"					Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- CROSS CULTURAL DIALOGUE -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_CROSS_CULTURAL_DIALOGUE"				Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- TITHE -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_TITHE"								Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- PILGRIMAGE -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_PILGRIMAGE"							Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- ASCETICISM -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_ASCETICISM"							Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- EPISCOPAL ORGANIZATION -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_EPISCOPAL_ORGANIZATION"				Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- LAMA SCHOOLS -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_LAMA_SCHOOLS"						Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- HOLY LAND -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_HOLY_LAND"							Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- RELIGIOUS LEGALISM -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_RELIGIOUS_LEGALISM"					Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- DIVINATION -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_DIVINATION"							Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- ORACLES -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_ORACLES"								Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- EXODUS -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_EXODUS"								Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- FERTILITY RITES -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_FERTILITY_RITES"						Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- PYTHAGOREAN SCIENCES -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_PYTHAGOREAN_SCIENCES"				Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- CHTHONIC CULT -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_CHTHONIC_CULT"						Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- CIVIL SERVICE -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_CIVIL_SERVICE"						Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- CLERICAL BANKING -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_CLERICAL_BANKING"					Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- SALAAM -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_SALAAM"								Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- QIBLA INDICATOR -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_QIBLA_INDICATOR"						Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- EPIC POETRY -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_EPIC_POETRY"							Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- TELEVANGELISM -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_TELEVANGELISM"						Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+		<!-- MERKABAH MYSTICISM -->
+		<Row Name="ICON_BELIEF_STR_FOUNDER_MERKABAH_MYSTICISM"					Atlas="ICON_ATLAS_STR_FOUNDER_GENERIC"								Index="0"/>
+	</IconDefinitions>
+
+</GameData>

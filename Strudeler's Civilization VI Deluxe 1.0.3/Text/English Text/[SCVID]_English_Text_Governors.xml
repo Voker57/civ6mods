@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Governors -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 8:33:24 PM -->
+<GameData>
+
+<!-- GOVERNORS -->
+	<LocalizedText>
+	<!-- GOVERNOR REYNA THE FINANCIER -->
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_MERCHANT_NAME"										Language="en_US"/>
+			<Set Text="Finance"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_MERCHANT_TITLE"									Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_MERCHANT_SHORT_TITLE"								Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+	<!-- VICTOR THE CASTELLAN -->
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_DEFENDER_NAME"										Language="en_US"/>
+			<Set Text="Defense"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_DEFENDER_TITLE"									Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_DEFENDER_SHORT_TITLE"								Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+	<!-- GOVERNOR AMANI THE AMBASSADOR -->
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_AMBASSADOR_NAME"									Language="en_US"/>
+			<Set Text="Diplomatic"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_AMBASSADOR_TITLE"									Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_AMBASSADOR_SHORT_TITLE"									Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_GOVERNOR_PROMOTION_AMBASSADOR_EMISSARY_DESCRIPTION"			Language="en_US"/>
+			<Set	Text="Exert +4 [ICON_PressureUp] Loyalty on foreign Cities up to 9 tiles away."/>
+		</Update>
+	<!-- GOVERNOR MAGNUS THE STEWARD -->
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_NAME"								Language="en_US"/>
+			<Set Text="Resource"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_TITLE"							Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_RESOURCE_MANAGER_SHORT_TITLE"						Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+	<!-- GOVERNOR MOKSHA THE CARDINAL -->
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_CARDINAL_NAME"										Language="en_US"/>
+			<Set Text="Religious"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_CARDINAL_TITLE"									Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_CARDINAL_SHORT_TITLE"								Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+	<!-- GOVERNOR LIANG THE SURVEYOR -->
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_BUILDER_NAME"										Language="en_US"/>
+			<Set Text="Labour"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_BUILDER_TITLE"										Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_BUILDER_SHORT_TITLE"								Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+	<!-- GOVERNOR PINGALA THE EDUCATOR -->
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_EDUCATOR_NAME"										Language="en_US"/>
+			<Set Text="Education"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_EDUCATOR_TITLE"									Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_THE_EDUCATOR_SHORT_TITLE"								Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_GOVERNOR_PROMOTION_EDUCATOR_LIBRARIAN_DESCRIPTION"				Language="en_US"/>
+			<Set	Text="+10% [ICON_Science] Science and [ICON_Culture] Culture in the City."/>
+		</Update>
+	<!-- GOVERNOR IBRAHIM THE VIZIER -->
+		<Update>
+			<Where Tag="LOC_GOVERNOR_IBRAHIM_NAME"											Language="en_US"/>
+			<Set Text="Grand Vizier"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_IBRAHIM_TITLE"											Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+		<Update>
+			<Where Tag="LOC_GOVERNOR_IBRAHIM_SHORT_TITLE"									Language="en_US"/>
+			<Set Text="Minister"/>
+		</Update>
+	</LocalizedText>
+
+</GameData>

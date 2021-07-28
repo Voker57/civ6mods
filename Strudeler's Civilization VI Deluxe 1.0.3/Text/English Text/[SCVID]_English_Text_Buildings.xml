@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Buildings -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/4/2021 5:31:48 PM -->
+<GameData>
+
+<!-- VANILLA BUILDINGS -->
+	<LocalizedText>
+		<!-- AIRPORT BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_AIRPORT_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+4 [ICON_Production] Production; +2 [ICON_Production] Production when [ICON_Power] Powered.[NEWLINE][ICON_Bullet]+1 [ICON_Unit] Aircraft capacity.[NEWLINE][ICON_Bullet]+50% [ICON_Ability] Experience for [ICON_Unit] Aircraft Military Units."/>
+		</Update>
+		<!-- ARENA BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ARENA_EXPANSION1_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]+1 [ICON_Tourism] Tourism at the [ICON_Culture] Conservation Civic."/>
+		</Update>
+		<!-- ARMORY BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ARMORY_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+3 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_GreatGeneral] Great General point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+25% [ICON_Ability] Experience for all [ICON_Unit] Land Military Units produced in the City.[NEWLINE][ICON_Bullet]Allows [ICON_Unit] Military Engineers to be produced in the City.[NEWLINE][ICON_Bullet][ICON_Resource_Iron] Strategic Resources stockpile increases by +10."/>
+		</Update>
+		<!-- BARRACKS BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_BARRACKS_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Production] Production and [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]+1 [ICON_GreatGeneral] Great General point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+25% [ICON_Ability] Experience for all [ICON_Unit] Melee, Anti-Cavalry, and Ranged Units produced in the City.[NEWLINE][ICON_Bullet][ICON_Resource_Iron] Strategic Resources stockpile increases by +10.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_Buildings] Stables."/>
+		</Update>
+		<!-- CASTLE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_CASTLE_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Increases the [ICON_Strength] Defenses of the City.[NEWLINE][ICON_Bullet]+1 [ICON_Tourism] Tourism at the [ICON_Culture] Conservation Civic."/>
+		</Update>
+		<!-- ELECTRONICS FACTORY BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION"					Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+3 [ICON_Science] Science and [ICON_Production] Production; +5 [ICON_Production] Production when [ICON_Power] Powered; +4 [ICON_Culture] Culture at the [ICON_Science] Electricity Technology.[NEWLINE][ICON_Bullet][ICON_Production] Production extends to Cities within 6 tiles.[NEWLINE][ICON_Bullet]+1 [ICON_GreatEngineer] Great Engineer point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot."/>
+		</Update>
+		<Row		Tag="LOC_STR_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet]+3 [ICON_Science] Science and [ICON_Production] Production; +5 [ICON_Production] Production when [ICON_Power] Powered; [ICON_Culture] Culture at the [ICON_Science] Electricity Technology.[NEWLINE][ICON_Bullet][ICON_Production] Production extends to Cities within 6 tiles.[NEWLINE][ICON_Bullet]+1 [ICON_GreatEngineer] Great Engineer point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.</Text>
+		</Row>
+		<!-- FACTORY BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_FACTORY_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+3 [ICON_Production] Production; +3 [ICON_Production] Production when [ICON_Power] Powered.[NEWLINE][ICON_Bullet][ICON_Production] Production extends to Cities within 6 tiles.[NEWLINE][ICON_Bullet]+1 [ICON_GreatEngineer] Great Engineer point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot."/>
+		</Update>
+		<!-- FILM STUDIO BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_FILM_STUDIO_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Culture] Culture; +4 [ICON_Culture] Culture when [ICON_Power] Powered; +1 [ICON_Culture] Culture per [ICON_Citizen] Citizen slot in the [ICON_DISTRICT_THEATER] Theater Square.[NEWLINE][ICON_Bullet]+1 [ICON_GreatArtist] Great Artist and +2 [ICON_GreatMusician] Great Musician points per turn.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Music] Music Great Work slot.[NEWLINE][ICON_Bullet]+100% [ICON_Tourism] Tourism in the City starting in the [ICON_Science] Modern Era."/>
+		</Update>
+		<!-- HANGAR BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_HANGAR_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_Unit] Aircraft slot.[NEWLINE][ICON_Bullet]+25% [ICON_Ability] Experience for [ICON_Unit] Aircraft Military Units produced in the City."/>
+		</Update>
+		<!-- LIGHTHOUSE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_LIGHTHOUSE_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Food] Food, [ICON_Gold] Gold, and [ICON_Housing] Housing; +1 [ICON_Food] Food on [ICON_Terrain] Coast and Lake tiles in City; +2 [ICON_Housing] Housing if adjacent to the City.[NEWLINE][ICON_Bullet]+1 [ICON_GreatAdmiral] Great Admiral point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+25% [ICON_Ability] Experience for [ICON_Unit] Naval Military Units produced in the City.[NEWLINE][ICON_Bullet]+1 [ICON_TradeRoute] Trade Route capacity, if the City does not have a [ICON_Buildings] Market."/>
+		</Update>
+		<!-- MARKET BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MARKET_EXPANSION1_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+4 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_GreatMerchant] Great Merchant point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+1 [ICON_TradeRoute] Trade Route capacity, if the City does not have a [ICON_Buildings] Lighthouse."/>
+		</Update>
+		<!-- MADRASA BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MADRASA_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Housing] Housing and +5 [ICON_Science] Science.[NEWLINE][ICON_Bullet]gain [ICON_Faith] Faith equal to the [ICON_Science] Science adjacency of the [ICON_DISTRICT_CAMPUS] Campus.[NEWLINE][ICON_Bullet]+1 [ICON_GreatScientist] Great Scientist point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot."/>
+		</Update>
+		<!-- MILITARY ACADEMY BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MILITARY_ACADEMY_EXPANSION2_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Housing] Housing and +4 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production per [ICON_Citizen] Citizen slot in the [ICON_DISTRICT_ENCAMPMENT] Encampment.[NEWLINE][ICON_Bullet]+1 [ICON_GreatGeneral] Great General point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet][ICON_Resource_Iron] Strategic Resources stockpile increases by +10."/>
+		</Update>
+		<!-- MONUMENT BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MONUMENT_EXPANSION1_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Culture] Culture; +1 [ICON_Culture] if the City is at maximum [ICON_PressureUp] Loyalty.[NEWLINE][ICON_Bullet]+1 [ICON_PressureUp] Loyalty per turn in City."/>
+		</Update>
+		<!-- MOSQUE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MOSQUE_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unlocked by [ICON_Religion] Worship Belief.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and +4 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot.[NEWLINE][ICON_Bullet]+1 Spread for [ICON_Religion] Missionary and Apostles."/>
+		</Update>
+		<!-- DAR-E MEHR BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_DAR_E_MEHR_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unlocked by [ICON_Religion] Worship Belief.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing, and +4 [ICON_Gold] Gold and [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot.[NEWLINE][ICON_Bullet]+1 [ICON_Faith] Faith per [ICON_Science] Era since produced or repaired."/>
+		</Update>
+		<!-- PAGODA BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_PAGODA_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unlocked by [ICON_Religion] Worship Belief.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Favor] Diplomatic Favor, [ICON_Housing] Housing, as well as +4 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot."/>
+		</Update>
+		<!-- ART MUSEUM BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MUSEUM_ART_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]+1 [ICON_GreatWriter] Great Writer and +2 [ICON_GreatArtist] Great Artist point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]3 [ICON_GreatWork_Landscape] Great Work slots; becomes [ICON_ThemeBonus_Active] Themed if all works are of the same type and from different [ICON_GreatArtist] Great Artists."/>
+		</Update>
+		<!-- ARCHAEOLOGICAL MUSEUM BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MUSEUM_ARTIFACT_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]+1 [ICON_GreatWriter] Great Writer and +2 [ICON_GreatArtist] Great Artist point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]3 [ICON_GreatWork_Artifact] Great Work slots; becomes [ICON_ThemeBonus_Active] Themed if all works are of the same [ICON_Science] Era from different Civilzations.[NEWLINE][ICON_Bullet]A [ICON_Unit] Archaeologist can be produced in the City to fill the [ICON_GreatWork_Artifact] Great Work slots."/>
+		</Update>
+		<!-- POWER PLANT BUILDING -->
+			<!-- N/A -->
+		<!-- SEAPORT BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_SEAPORT_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Housing] Housing, as well as +2 [ICON_Food] Food and [ICON_Gold] Gold; +1 [ICON_Food] Food per [ICON_Citizen] Citizen slot in the [ICON_DISTRICT_HARBOR] Harbor; +2 [ICON_Gold] Gold on all [ICON_Terrain] Coastal tiles in the City.[NEWLINE][ICON_Bullet]+1 [ICON_GreatAdmiral] Great Admiral point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]Bonus to producing [ICON_Corps] Fleets and [ICON_Army] Armadas.[NEWLINE][ICON_Bullet]+25% [ICON_Ability] Experience for all [ICON_Unit] Naval Military Units produced in the City."/>
+		</Update>
+		<!-- SHRINE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_SHRINE_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_GreatProphet] Great Prophet point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot.[NEWLINE][ICON_Bullet]Allows the purchasing of [ICON_Religion] Missionaries with [ICON_Faith] Faith."/>
+		</Update>
+		<!-- STABLES BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_STABLE_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Production] Production and [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]+1 [ICON_GreatGeneral] Great General point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+25% [ICON_Ability] Experience for all [ICON_Unit] Heavy and Light Cavalry, as well as Siege class Units produced in the City.[NEWLINE][ICON_Bullet][ICON_Resource_Iron] Strategic Resources stockpile increases by +10.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_Buildings] Barracks."/>
+		</Update>
+		<!-- SHIPYARD BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_SHIPYARD_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Production] Production to all unimproved [ICON_Terrain] Coast and Lake tiles.[NEWLINE][ICON_Bullet]Gain [ICON_Production] Production equal to the [ICON_Gold] Gold adjacency of the [ICON_DISTRICT_HARBOR] Harbor.[NEWLINE][ICON_Bullet]+1 [ICON_GreatAdmiral] Great Admiral point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+25% [ICON_Ability] Experience for [ICON_Unit] Naval Military Units produced in the City."/>
+		</Update>
+		<!-- STADIUM BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_STADIUM_EXPANSION1_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet][ICON_Amenities] Amenities extends to Cities within 6 tiles.[NEWLINE][ICON_Bullet][ICON_Amenities] Amenities only apply to the City once, multiple [ICON_Buildings] Stadiums do not stack effects.[NEWLINE][ICON_Bullet]+2 [ICON_Tourism] Tourism if the City [ICON_Citizen] Population is +10; +5 [ICON_Tourism] Tourism if the City [ICON_Citizen] Population is +20."/>
+		</Update>
+		<!-- STAR FORT BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_STAR_FORT_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Increases the [ICON_Strength] Defenses of the City.[NEWLINE][ICON_Bullet]+1 [ICON_Tourism] Tourism at the [ICON_Culture] Conservation Civic."/>
+		</Update>
+		<!-- STAVE CHURCH BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_STAVE_CHURCH_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Norway, replaces the [ICON_Buildings] Stave Church.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production and +4 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+1 [ICON_GreatProphet] Great Prophet point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_GreatWork_Relic] Relic slot.[NEWLINE][ICON_Bullet][ICON_DISTRICT_HOLYSITE] Holy Site gains bonus standard adjacency to [ICON_Terrain] Forest.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production on [ICON_Terrain] Coastal [ICON_Charges] Resources in the City.[NEWLINE][ICON_Bullet]Allows the purchasing of [ICON_Religion] Apostles and Inquisitors with [ICON_Faith] Faith."/>
+		</Update>
+		<!-- TEMPLE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_TEMPLE_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+4 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_GreatProphet] Great Prophet point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+1 [ICON_GreatWork_Relic] Relic slot.[NEWLINE][ICON_Bullet]Allows the purchasing of [ICON_Religion] Apostles and Inquisitors with [ICON_Faith] Faith."/>
+		</Update>
+		<!-- TLACHTLI BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_TLACHTLI_XP1_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to the Aztecs, replaces the [ICON_Buildings] Arena.[NEWLINE][ICON_Bullet]+2 [ICON_Culture] Culture, as well as +3 [ICON_Faith] Faith and [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot.[NEWLINE][ICON_Bullet]+1 [ICON_GreatGeneral] Great General point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Tourism] Tourism with the [ICON_Culture] Conservation Civic."/>
+		</Update>
+		<Row		Tag="LOC_STR_BUILDING_TLACHTLI_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]Unique to the Aztecs, replaces the [ICON_Buildings] Arena.[NEWLINE][ICON_Bullet]+2 [ICON_Culture] Culture, as well as +3 [ICON_Faith] Faith and [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot.[NEWLINE][ICON_Bullet]+1 [ICON_GreatGeneral] Great General point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Tourism] Tourism with the [ICON_Culture] Conservation Civic.</Text>
+		</Row>
+		<!-- WALLS BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_WALLS_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Increases the [ICON_Strength] Defenses of the City.[NEWLINE][ICON_Bullet]+1 [ICON_Tourism] Tourism at the [ICON_Culture] Conservation Civic."/>
+		</Update>
+		<!-- WATER MILL BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_WATER_MILL_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Food] Food and [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food on [ICON_Charges] Bonus Resources improved by Farms.[NEWLINE][ICON_Bullet]City must be adjacent to a [ICON_Terrain] River."/>
+		</Update>
+		<!-- ZOO BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ZOO_EXPANSION1_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Amenities] Amenities.[NEWLINE][ICON_Bullet][ICON_Amenities] Amenities extends to Cities within 6 tiles.[NEWLINE][ICON_Bullet][ICON_Amenities] Amenities only apply to the City once, multiple [ICON_Buildings] Zoos do not stack effects.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science on [ICON_Terrain] Rainforest and Marsh tiles in the City."/>
+		</Update>
+		<!-- SUKIENNICE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_SUKIENNICE_EXPANSION1_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Poland, replaces the [ICON_Buildings] Market.[NEWLINE][ICON_Bullet]+4 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_GreatMerchant] Great Merchant point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]International [ICON_TradeRoute] Trade Routes from this City gain +2 [ICON_Production] Production; domestic [ICON_TradeRoute] Trade Routes gain +4 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_TradeRoute] Trade Route capacity, if the City does not have a [ICON_Buildings] Lighthouse."/>
+		</Update>
+		<!-- BASILIKOI PAIDES BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_BASILIKOI_PAIDES_EXPANSION2_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Macedon, replaces the [ICON_Buildings] Barracks.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production and [ICON_Housing] Housing.[NEWLINE][ICON_Bullet]+1 [ICON_GreatGeneral] Great General point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+25% [ICON_Ability] Experience for all [ICON_Unit] Melee, Anti-Cavalry, and Ranged class Units, as well as the Hetairoi, produced in the City.[NEWLINE][ICON_Bullet]Gain [ICON_Science] Science equal to 25% of the [ICON_Unit] Unit's [ICON_Production] Production cost when produced.[NEWLINE][ICON_Bullet][ICON_Resource_Iron] Strategic Resources stockpile increases by +10.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_Buildings] Stables."/>
+		</Update>
+		<!-- PRASAT BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_PRASAT_EXPANSION2_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Khmer, replaces the [ICON_Buildings] Temple.[NEWLINE][ICON_Bullet]+6 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet] 1 [ICON_GreatWork_Relic] Relic slot.[NEWLINE][ICON_Bullet]+0.5 [ICON_Culture] Culture per [ICON_Citizen] Citizen in the City.[NEWLINE][ICON_Bullet]Researching the [ICON_Science] Flight Technology grants +10 [ICON_Tourism] Tourism; bonus doubled if the City has over 10 [ICON_Citizen] Population.[NEWLINE][ICON_Bullet]Allows the purchasing of [ICON_Religion] Apostles and Inquisitors with [ICON_Faith] Faith."/>
+		</Update>
+		<!-- AUDIENCE CHAMBER BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GOV_TALL_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Amenities] Amenities and +4 [ICON_Housing] Housing in Cities with a [ICON_Governor] Governor.[NEWLINE][ICON_Bullet]+1 [ICON_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- ANCESTRAL HALL BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+50% [ICON_Production] Production toward [ICON_Unit] Settlers in the City.[NEWLINE][ICON_Bullet]+1 [ICON_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- WARLORD'S THRONE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GOV_CONQUEST_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Occupied] Capturing an enemy City grants +20% [ICON_Production] Production in all Cities for 5 turns.[NEWLINE][ICON_Bullet]+1 [ICON_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- GRAND MASTER'S CHAPEL BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GOV_FAITH_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]May purchase [ICON_Unit] Land Military Units with [ICON_Faith] Faith.[NEWLINE][ICON_Bullet][ICON_Pillaged] Pillaging [ICON_Charges] Improvements yields bonus [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+1 [ICON_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- FOREIGN MINISTRY BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GOV_CITYSTATES_EXPANSION2_DESCRIPTION"						Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+3 [ICON_Favor] Diplomatic Favor.[NEWLINE][ICON_Bullet]Levying City-State [ICON_Unit] Units costs 50% less [ICON_gold] Gold.[NEWLINE][ICON_Bullet]City-State [ICON_Unit] Units gain +4 [ICON_Strength] Combat Strength.[NEWLINE][ICON_Bullet]+1 [ICON_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- INTELLIGENCE AGENCY BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GOV_SPIES_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_VisTopSecret] Spy and Spy capacity.[NEWLINE][ICON_Bullet]Spy Operations have a higher chance of success.[NEWLINE][ICON_Bullet]+1 [Icon_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- WAR DEPARTMENT BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GOV_MILITARY_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]All [ICON_Unit] Units heal +10 HP after killing a Unit.[NEWLINE][ICON_Bullet]+1 [ICON_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- NATIONAL HISTORY BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GOV_CULTURE_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]4 [ICON_GreatWork_Landscape] Great Work slots.[NEWLINE][ICON_Bullet]+1 [ICON_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- ROYAL SOCIETY BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GOV_SCIENCE_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Builders gain the [ICON_Ability] Ability to use all of their [ICON_Charges] Charges to provide bonus [ICON_Production] Production to a District Project, once per City per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- FERRIS WHEEL BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_FERRIS_WHEEL_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Amenities] Amenities and [ICON_Tourism] Tourism, as well as +3 [ICON_Culture] Culture."/>
+		</Update>
+		<!-- AQUARIUM BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_AQUARIUM_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Amenities] Amenities extends to Cities within 9 tiles.[NEWLINE][ICON_Bullet][ICON_Amenities] Amenities only apply to the City once, multiple [ICON_Buildings] Aquariums do not stack effects.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science on [ICON_Charges] Coastal Resources,[ICON_Resource_Shipwreck] Shipwreck, and [ICON_Resource_Terrain] Reef tile in the City."/>
+		</Update>
+		<!-- AQUATICS CENTER BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_AQUATICS_CENTER_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet][ICON_Amenities] Amenities extends to Cities within 9 tiles.[NEWLINE][ICON_Bullet][ICON_Amenities] Amenities only apply to the City once, multiple [ICON_Buildings] Aquatics Center do not stack effects.[NEWLINE][ICON_Bullet]+2 [ICON_Tourism] Tourism per [ICON_DISTRICT_WONDER] Wonder adjacent to [ICON_Terrain] Coast or Lake tile in the City."/>
+		</Update>
+		<!-- FOOD MARKET BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_FOOD_MARKET_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+4 [ICON_Food] Food; additional +2 [ICON_Food] Food when [ICON_Power] Power.[NEWLINE][ICON_Bullet]Only one per City and cannot be built in the same City as the [ICON_Buildings] Shopping Mall."/>
+		</Update>
+		<!-- SHOPPING MALL BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_SHOPPING_MALL_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Amenities] Amenity, +2 [ICON_Gold] Gold, and +4 [ICON_Tourism] Tourism.[NEWLINE][ICON_Bullet]Only one per City and cannot be built in the same City as the [ICON_Buildings] Food Market."/>
+		</Update>
+		<!-- ORDU BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_ORDU_EXPANSION2_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Mongolia, replaces the [ICON_Buildings] Stables.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_GreatGeneral] Great General point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+1 [ICON_Movement] Movement for [ICON_Unit] Heavy and Light Cavalry class Units produced the City.[NEWLINE][ICON_Bullet]+25% [ICON_Ability] Experience for all [ICON_Unit] Heavy and Light Cavalry, as well as Siege class Units produced in the City.[NEWLINE][ICON_Bullet][ICON_Resource_Iron] Strategic Resources stockpile increases by +10.[NEWLINE][ICON_Bullet]Cannot be built in the same City as a [ICON_Buildings] Barracks."/>
+		</Update>
+		<!-- TSIKHE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_TSIKHE_DESCRIPTION_XP2"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Georgia, replaces the [ICON_Buildings] Renaissance Walls.[NEWLINE][ICON_Bullet]Increases the [ICON_Strength] Defenses of the City.[NEWLINE][ICON_Bullet]+3 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]+3 [ICON_Tourism] Tourism at the [ICON_Culture] Conservation Civic.[NEWLINE][ICON_Bullet]+100% [ICON_Faith] Faith and [ICON_Tourism] Tourism during a [ICON_GLORY_GOLDEN_AGE] Golden Age or [ICON_GLORY_SUPER_GOLDEN_AGE] Heroic Age."/>
+		</Update>
+		<!-- FLOOD BARRIER BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_FLOOD_BARRIER_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Protects [ICON_Terrain] Coastal Lowland tiles in this City from flooding.[NEWLINE][ICON_Bullet]Cost scales per floodable tile in City.[NEWLINE][ICON_Bullet]If built after flooding, flooded tiles can be repaired; submerged tiles cannot be repaired.[NEWLINE][ICON_Bullet]Must be built in a City with floodable tiles.[NEWLINE][ICON_Bullet][ICON_Unit] Military Engineers can use a [ICON_Charges] Charge to complete 20% [ICON_Production] Production cost."/>
+		</Update>
+		<Update>
+			<Where	Tag="LOC_BUILDING_FLOOD_BARRIER_ALT_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Protects [ICON_Terrain] Coastal Lowland tiles in this City from flooding.[NEWLINE][ICON_Bullet]Cost scales per floodable tile in City.[NEWLINE][ICON_Bullet]If built after flooding, flooded tiles can be repaired; submerged tiles cannot be repaired.[NEWLINE][ICON_Bullet]Must be built in a City with floodable tiles.[NEWLINE][ICON_Bullet][ICON_Unit] Military Engineers can use a [ICON_Charges] Charge to complete 20% [ICON_Production] Production cost."/>
+		</Update>
+		<!-- HYDROELECTRIC DAM BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_HYDROELECTRIC_DAM_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+6 [ICON_Power] Power."/>
+		</Update>
+		<!-- COAL POWER PLANT BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_COAL_POWER_PLANT_DESCRIPTION"									Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain [ICON_Production] Production equal to the [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone's adjacency.[NEWLINE][ICON_Bullet]+1 [ICON_GreatEngineer] Great Engineer point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot; +1 [ICON_Production] Production per [ICON_Citizen] Citizen slot in [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone.[NEWLINE][ICON_Bullet]Converts 1 [ICON_Resource_Coal] Coal into 4 [ICON_Power] Power for Cities up to 6 tiles away; consumes as much [ICON_Resource_Coal] Coal as needed to [ICON_Power] Power [ICON_Buildings] Buildings.[NEWLINE][ICON_Bullet]Heavily pollutes the atmosphere with CO2."/>
+		</Update>
+		<!-- OIL POWER PLANT BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_FOSSIL_FUEL_POWER_PLANT_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Gain [ICON_Production] Production equal to the [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone's adjacency.[NEWLINE][ICON_Bullet]+1 [ICON_GreatEngineer] Great Engineer point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot; +1 [ICON_Production] Production per [ICON_Citizen] Citizen slot in [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone.[NEWLINE][ICON_Bullet]Converts 1 [ICON_Resource_Oil] Oil into 4 [ICON_Power] Power for Cities up to 6 tiles away; consumes as much [ICON_Resource_Oil] Oil as needed to [ICON_Power] Power [ICON_Buildings] Buildings.[NEWLINE][ICON_Bullet][ICON_Production] Production extends to Cities within 6 tiles.[NEWLINE][ICON_Bullet][ICON_Production] Production only applies to a City once, multiple [ICON_Buildings] Oil Power Plants do not stack effects.[NEWLINE][ICON_Bullet]Moderately pollutes the atmosphere with CO2."/>
+		</Update>
+		<!-- NUCLEAR POWER PLANT BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_POWER_PLANT_EXPANSION2_DESCRIPTION"							Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+3 [ICON_Science] and +4 [ICON_Production] Production; [ICON_Science] Science and [ICON_Production] Production extends to Cities within 6 tiles.[NEWLINE][ICON_Bullet]+1 [ICON_GreatEngineer] Great Engineer point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot; +1 [ICON_Production] Production per [ICON_Citizen] Citizen slot in [ICON_DISTRICT_INDUSTRIAL_ZONE] Industrial Zone.[NEWLINE][ICON_Bullet]Converts 1 [ICON_Resource_Uranium] Uranium into 16 [ICON_Power] Power for Cities up to 6 tiles away; consumes as much [ICON_Resource_Uranium] Uranium as needed to [ICON_Power] Power [ICON_Buildings] Buildings.[NEWLINE][ICON_Bullet][ICON_Production] Production only applies to a City once, multiple [ICON_Buildings] Nuclear Power Plants do not stack effects.[NEWLINE][ICON_Bullet]Barely pollutes the atmosphere with CO2.[NEWLINE][ICON_Bullet]Requires routine maintenance to prevent meltdowns."/>
+		</Update>
+		<!-- THERMAL BATH BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_THERMAL_BATH_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Hungary, replaces the [ICON_Buildings] Zoo.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production and +3 [ICON_Amenities] Amenities extending to Cities within 6 tiles.[NEWLINE][ICON_Bullet][ICON_Production] Production and [ICON_Amenities] Amenities only apply to a City once, multiple [ICON_Buildings] Thermal Baths do not stack effects.[NEWLINE][ICON_Bullet]+2 [ICON_Amenities] Amenities and +3 [ICON_Tourism] Tourism if the City has a [ICON_Terrain] Geothermal Fissure."/>
+		</Update>
+		<!-- MARAE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_MARAE_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Māori, replaces the [ICON_Buildings] Amphitheater.[NEWLINE][ICON_Bullet]+1 [ICON_Culture] Culture and [ICON_Faith] Faith on all passable [ICON_Terrain] Features or Natural Wonders in the City; additional +1 [ICON_Tourism] Tourism at the [ICON_Science] Flight Technology.[NEWLINE][ICON_Bullet]Cannot hold [ICON_GreatWork_Writing] Great Works."/>
+		</Update>
+		<!-- GRAND BAZAAR BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GRAND_BAZAAR_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Ottomans, replaces the [ICON_Buildings] Bank.[NEWLINE][ICON_Bullet]+6 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_GreatMerchant] Great Merchant point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+1 [ICON_Resource_Iron] Strategic Resource accumulated in the City.[NEWLINE][ICON_Bullet]+1 [ICON_Amenities] Amenity per [ICON_Charges] Luxury Resource in the City."/>
+		</Update>
+		<!-- QUEEN'S BIBLIOTHEQUE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_QUEENS_BIBLIOTHEQUE_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Kristina, buildable in the [ICON_DISTRICT_GOVERNMENT] Government Plaza.[NEWLINE][ICON_Bullet]2 [ICON_GreatWork_Writing] Great Writing, [ICON_GreatWork_Landscape] Great Work of Art, and [ICON_GreatWork_Music] Great Music slots.[NEWLINE][ICON_Bullet]+1 [ICON_Governor] Governor Title when completed."/>
+		</Update>
+		<!-- CONSULATE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_CONSULATE_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+2 [ICON_Envoy] Envoy token points per turn.[NEWLINE][ICON_Bullet][ICON_VisTopSecret] Spies operate at one level lower when targeting the City or Cities with an [ICON_DISTRICT_ENCAMPMENT] Encampment."/>
+		</Update>
+		<!-- CHANCERY BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_CHANCERY_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+3 [ICON_Envoy] Envoy token points per turn.[NEWLINE][ICON_Bullet]Capturing or killing a [ICON_VisTopSecret] Spy earns 50 [ICON_Science] Science per level the [ICON_VisTopSecret] Spy level."/>
+		</Update>
+		<!-- PALGUM BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_PALGUM_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Babylon, replaces the [ICON_Buildings] Watermill.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and +2 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_Food] Food on all tiles adjacent to [ICON_Terrain] Fresh Water.[NEWLINE][ICON_Bullet]City must be built on [ICON_Terrain] River."/>
+		</Update>
+		<!-- GROVE BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_GROVE_DESCRIPTION"											Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Food] Food and [ICON_Faith] Faith on adjacent unimproved tiles with Charming Appeal; bonus doubled on tiles with Breathtaking Appeal.[NEWLINE][ICON_Bullet]+2 [ICON_Culture] Culture on tiles with Breathtaking Appeal."/>
+		</Update>
+		<!-- SANCTUARY BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_SANCTUARY_DESCRIPTION"										Language="en_US"/>
+			<Set	Text="[ICON_Bullet]+1 [ICON_Science] Science and [ICON_Gold] Gold on adjacent unimproved tiles with Charming Appeal; bonus doubled on tiles with Breathtaking Appeal.[NEWLINE][ICON_Bullet]+2 [ICON_Production] Production on tiles with Breathtaking Appeal."/>
+		</Update>
+		<!-- NAVIGATION SCHOOL BUILDING -->
+		<Update>
+			<Where	Tag="LOC_BUILDING_NAVIGATION_SCHOOL_DESCRIPTION"								Language="en_US"/>
+			<Set	Text="[ICON_Bullet]Unique to Portugal, replaces the [ICON_Buildings] University.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and +4 [ICON_Science] Science.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]+1 [ICON_GreatScientist] Great Scientist and [ICON_GreatAdmiral] Great Admiral points.[NEWLINE][ICON_Bullet]+1 [ICON_Science] Science in City for every 2 Coast or Lake tiles in the City's borders."/>
+		</Update>
+		<!-- PALACE BUILDING-->
+		<Row		Tag="LOC_STR_PALACE_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet]The [ICON_Buildings] Palace is the centerpiece of the [ICON_Capital] Capital, providing various yields.[NEWLINE][ICON_Bullet]The [ICON_Buildings] Palace moves should the original [ICON_Capital] Capital be [ICON_Occupied] Conquered.[NEWLINE][ICON_Bullet] Has 3 [ICON_GREATWORK_LANDSCAPE] Great Work slots that can hold anyhting.</Text>
+		</Row>
+		<!-- GRANARY BUILDING -->
+		<Row		Tag="LOC_STR_GRANARY_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Food] Food and +2 [ICON_Housing] Housing.</Text>
+		</Row>
+		<!-- SEWER BUILDING -->
+		<Row		Tag="LOC_STR_SEWER_DESCRIPTION"													Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Amenities] Amenity and +2 [ICON_Housing] Housing.</Text>
+		</Row>
+		<!-- LIBRARY BUILDING -->
+		<Row		Tag="LOC_STR_LIBRARY_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Science] Science.[NEWLINE][ICON_Bullet]+1 [ICON_GreatScientist] Great Scientist point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.</Text>
+		</Row>
+		<!-- UNIVERSITY BUILDING -->
+		<Row		Tag="LOC_STR_UNIVERSITY_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+1 [ICON_Housing] Housing and +4 [ICON_Science] Science.[NEWLINE][ICON_Bullet]+1 [ICON_GreatScientist] Great Scientist point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.</Text>
+		</Row>
+		<!-- RESEARCH LAB BUILDING -->
+		<Row		Tag="LOC_STR_RESEARCH_LAB_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+3 [ICON_Science] Science; +5 [ICON_Science] Science when [ICON_Power] Powered.[NEWLINE][ICON_bullet]+1 [ICON_Science] Science per [ICON_Citizen] Citizen slot in [ICON_DISTRICT_CAMPUS] Campus.[NEWLINE][ICON_Bullet]+1 [ICON_GreatScientist] Great Scientist point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.</Text>
+		</Row>
+		<!-- BANK BUILDING -->
+		<Row		Tag="LOC_STR_BANK_DESCRIPTION"													Language="en_US">
+			<Text>[ICON_Bullet]+5 [ICON_Gold] Gold.[NEWLINE][ICON_Bullet]+1 [ICON_GreatMerchant] Great Merchant point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.</Text>
+		</Row>
+		<!-- STOCK EXCHANGE BUILDING -->
+		<Row		Tag="LOC_STR_STOCK_EXCHANGE_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+5 [ICON_Gold] Gold; +7 [ICON_Gold] Gold when [ICON_Power] Powered.[NEWLINE][ICON_Bullet]+2 [ICON_Gold] Gold per [ICON_Citizen] Citizen slot in [ICON_DISTRICT_COMMERCIAL_HUB] Commercial Hub.[NEWLINE][ICON_Bullet]+1 [ICON_GreatMerchant] Great Merchant point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.</Text>
+		</Row>
+		<!-- CATHEDRAL BUILDING -->
+		<Row		Tag="LOC_STR_CATHEDRAL_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet]Unlocked by [ICON_Religion] Worship Belief.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and +6 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Landscape] Great Work slot.</Text>
+		</Row>
+		<!-- GURDWARA BUILDING -->
+		<Row		Tag="LOC_STR_GURDWARA_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet]Unlocked by [ICON_Religion] Worship Belief.[NEWLINE][ICON_Bullet]+2 [ICON_Housing] Housing, +4 [ICON_Food] Food, and +6 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot.</Text>
+		</Row>
+		<!-- MEETING HOUSE BUILDING -->
+		<Row		Tag="LOC_STR_MEETING_HOUSE_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]Unlocked by [ICON_Religion] Worship Belief.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing, +3 [ICON_Production] Production, and +5 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot.</Text>
+		</Row>
+		<!-- STUPA BUILDING -->
+		<Row		Tag="LOC_STR_STUPA_DESCRIPTION"													Language="en_US">
+			<Text>[ICON_Bullet]Unlocked by [ICON_Religion] Worship Belief.[NEWLINE][ICON_Bullet]+2 [ICON_Amenities] Amenities and [ICON_Housing] Housing, +5 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot.</Text>
+		</Row>
+		<!-- SYNAGOGUE BUILDING -->
+		<Row		Tag="LOC_STR_SYNAGOGUE_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet]Unlocked by [ICON_Religion] Worship Belief.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing and +10 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot.</Text>
+		</Row>
+		<!-- WAT BUILDING -->
+		<Row		Tag="LOC_STR_WAT_DESCRIPTION"													Language="en_US">
+			<Text>[ICON_Bullet]Unlocked by [ICON_Religion] Worship Belief.[NEWLINE][ICON_Bullet]+1 [ICON_Housing] Housing, +3 [ICON_Science] Science, +5 [ICON_Faith] Faith.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Relic] Relic slot.</Text>
+		</Row>
+		<!-- WORKSHOP BUILDING -->
+		<Row		Tag="LOC_STR_WORKSHOP_DESCRIPTION"												Language="en_US">
+			<Text>[ICON_Bullet]+3 [ICON_Production] Production.[NEWLINE][ICON_Bullet]+1 [ICON_GreatEngineer] Great Engineer point per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.</Text>
+		</Row>
+		<!-- AMPHITHEATER BUILDING -->
+		<Row		Tag="LOC_STR_AMPHITHEATER_DESCRIPTION"											Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]+1 [ICON_GreatWriter] Great Writer point per turn.[NEWLINE][ICON_Bullet]+2 [ICON_GreatWork_Writing] Great Work of Writing slots.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.</Text>
+		</Row>
+		<!-- BROADCAST CENTER BUILDING -->
+		<Row		Tag="LOC_STR_BROADCAST_CENTER_DESCRIPTION"										Language="en_US">
+			<Text>[ICON_Bullet]+2 [ICON_Culture] Culture; +4 [ICON_Culture] Culture when [ICON_Power] Powered; +1 [ICON_Culture] Culture per [ICON_Citizen] Citizen slot in the [ICON_DISTRICT_THEATER] Theater Square.[NEWLINE][ICON_Bullet]+1 [ICON_GreatArtist] Great Artist and +2 [ICON_GreatMusician] Great Musician points per turn.[NEWLINE][ICON_Bullet]1 [ICON_GreatWork_Music] Great Work of Music slot.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.</Text>
+		</Row>
+	</LocalizedText>
+	
+<!-- NEW BUILDINGS -->
+	<LocalizedText>
+		<!-- NEW ETERNAL FLAME BUILDING -->
+		<Row		Tag="LOC_BUILDING_STR_THE_ETERNAL_FLAME_NAME"									Language="en_US">
+			<Text>The Eternal Flame</Text>
+		</Row>
+		<Row		Tag="LOC_BUILDING_STR_THE_ETERNAL_FLAME_DESCRIPTION"							Language="en_US">
+			<Text>Null</Text>
+		</Row>
+		<!-- NEW ELEANOR ANGEVIN PORT -->
+		<Row		Tag="LOC_BUILDING_STR_ELEANOR_ANGEVIN_PORT_NAME"								Language="en_US">
+			<Text>Angevin Port</Text>
+		</Row>
+		<Row		Tag="LOC_BUILDING_STR_ELEANOR_ANGEVIN_PORT_DESCRIPTION"							Language="en_US">
+			<Text>[ICON_Bullet]Unique to Eleanor, replaces the [ICON_Buildings] Shipyard.[NEWLINE][ICON_Bullet]+3 [ICON_Culture] Culture.[NEWLINE][ICON_Bullet]+1 [ICON_Production] Production to all unimproved [ICON_Terrain] Coast and Lake tiles.[NEWLINE][ICON_Bullet]Gain [ICON_Production] Production equal to the [ICON_Gold] Gold adjacency of the [ICON_DISTRICT_HARBOR] Harbor.[NEWLINE][ICON_Bullet]+1 [ICON_GreatAdmiral] Great Admiral and [ICON_GreatArtist] Great Artist points per turn.[NEWLINE][ICON_Bullet]+1 [ICON_Citizen] Citizen slot.[NEWLINE][ICON_Bullet]3 [ICON_GreatWork_Landscape] Great Work of Art slots that are automatically [ICON_ThemeBonus_Active] Themed when full.[NEWLINE][ICON_Bullet]+25% [ICON_Ability] Experience for [ICON_Unit] Naval Military Units produced in the City.</Text>
+		</Row>
+		<!-- NEW BYZANTIUM THEODOSIAN WALLS -->
+		<Row		Tag="LOC_BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS_NAME"							Language="en_US">
+			<Text>Theodosian Walls</Text>
+		</Row>
+		<Row		Tag="LOC_BUILDING_STR_BYZANTIUM_THEODOSIAN_WALLS_DESCRIPTION"					Language="en_US">
+			<Text>[ICON_Bullet]Unique to Byzantium.[NEWLINE][ICON_Bullet]Must be built in the [ICON_Capital] Capital.[NEWLINE][ICON_Bullet]Does not benefit from modifiers pertaining to [ICON_Buildings] Walls.[NEWLINE][ICON_Bullet]+50 HP and +7 [ICON_Strength] City Strength.[NEWLINE][ICON_Bullet]+3 [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold, [ICON_Faith] Faith, as well as +5 [ICON_Tourism] Tourism.[NEWLINE][ICON_Bullet]+4 [ICON_GreatProphet] Great Prophet points per turn.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

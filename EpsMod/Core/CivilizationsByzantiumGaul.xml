@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Traits>
+		<Update><Where TraitType="TRAIT_CIVILIZATION_BYZANTIUM"/><Set><Description>LOC_TRAIT_CIVILIZATION_BYZANTIUM_DESCRIPTION_EPSMOD</Description></Set></Update>
+		<Update><Where TraitType="TRAIT_LEADER_AMBIORIX"/><Set><Description>LOC_TRAIT_LEADER_AMBIORIX_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Traits>
+	
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_BYZANTIUM" ModifierId="EPSMOD_CIVS_BYZANTIUM_LOYALTY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BYZANTIUM" ModifierId="EPSMOD_CIVS_BYZANTIUM_HOLY_CITIES"/>
+	</TraitModifiers>
+
+
+	<Districts>
+		<Update><Where DistrictType="DISTRICT_OPPIDUM"/><Set><Description>LOC_DISTRICT_OPPIDUM_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Districts>
+
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="LumberMill_HalfProduction"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" YieldChangeId="Dam_Production"/>
+	</District_Adjacencies>
+
+	<Adjacency_YieldChanges>
+		<Update><Where ID="Quarry_Production2"/><Set><YieldChange>1</YieldChange></Set></Update>
+	</Adjacency_YieldChanges>
+
+
+	<TypeTags>
+		<Delete Type="ABILITY_AMBIORIX_NEIGHBOR_COMBAT_BONUS" Tag="CLASS_RANGED"/>
+	</TypeTags>
+
+	<UnitAbilities>
+		<Update><Where UnitAbilityType="ABILITY_BYZANTIUM_COMBAT_UNITS"/><Set><Description>LOC_ABILITY_BYZANTIUM_COMBAT_UNITS_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Delete UnitAbilityType="ABILITY_BYZANTIUM_COMBAT_UNITS" ModifierId="BYZANTIUM_PRESSURE_KILLS"/>
+	</UnitAbilityModifiers>
+	
+	
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_CIVS_BYZANTIUM_LOYALTY</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType><SubjectRequirementSetId>EPSMOD_CIVS_CITY_HAS_BYZANTIUM_HOLY_SITE</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BYZANTIUM_HOLY_CITIES</ModifierId><ModifierType>MODIFIER_PLAYER_TREAT_HOLY_SITES_AS_HOLY_CITIES</ModifierType></Row>
+	</Modifiers>
+	
+	<ModifierArguments>		
+		<Row><ModifierId>EPSMOD_CIVS_BYZANTIUM_LOYALTY</ModifierId><Name>Amount</Name><Value>3</Value></Row>
+		<Row><ModifierId>EPSMOD_CIVS_BYZANTIUM_HOLY_CITIES</ModifierId><Name>Value</Name><Value>true</Value></Row>
+	</ModifierArguments>
+
+	
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_BYZANTIUM_HOLY_SITE</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_CIVS_CITY_HAS_BYZANTIUM_HOLY_SITE</RequirementSetId><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_BYZANTIUM_HOLY_SITE</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_BYZANTIUM_HOLY_SITE</RequirementId><RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_CIVS_REQUIREMENT_CITY_HAS_BYZANTIUM_HOLY_SITE</RequirementId><Name>DistrictType</Name><Value>DISTRICT_HOLY_SITE</Value></Row>
+	</RequirementArguments>
+	
+</GameData>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_GameMode_05_HeroesLegends_MODE -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/3/2021 11:15:15 AM -->
+<GameData>
+
+	<!-- HERO TEXT -->
+	<HeroClasses>
+		<!-- ANANSI HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_ANANSI"		UnitType="UNIT_HERO_ANANSI"/>
+			<Set	Description="LOC_STR_UNIT_HERO_ANANSI_DESCRIPTION"/>
+		</Update>
+		<!-- ARTHUR HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_ARTHUR"		UnitType="UNIT_HERO_ARTHUR"/>
+			<Set	Description="LOC_STR_UNIT_HERO_ARTHUR_DESCRIPTION"/>
+		</Update>
+		<!-- BEOWULF HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_BEOWULF"		UnitType="UNIT_HERO_BEOWULF"/>
+			<Set	Description="LOC_STR_UNIT_HERO_BEOWULF_DESCRIPTION"/>
+		</Update>
+		<!-- HERCULES HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_HERCULES"		UnitType="UNIT_HERO_HERCULES"/>
+			<Set	Description="LOC_STR_UNIT_HERO_HERCULES_DESCRIPTION"/>
+		</Update>
+		<!-- HIMIKO HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_HIMIKO"		UnitType="UNIT_HERO_HIMIKO"/>
+			<Set	Description="LOC_STR_UNIT_HERO_HIMIKO_DESCRIPTION"/>
+		</Update>
+		<!-- HIPPOLYTA HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_HIPPOLYTA"		UnitType="UNIT_HERO_HIPPOLYTA"/>
+			<Set	Description="LOC_STR_UNIT_HERO_HIPPOLYTA_DESCRIPTION"/>
+		</Update>
+		<!-- HUNAHPU HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_HUNAHPU"		UnitType="UNIT_HERO_HUNAHPU"/>
+			<Set	Description="LOC_STR_UNIT_HERO_HUNAHPU_DESCRIPTION"/>
+		</Update>
+		<!-- MAUI HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_MAUI"			UnitType="UNIT_HERO_MAUI"/>
+			<Set	Description="LOC_STR_UNIT_HERO_MAUI_DESCRIPTION"/>
+		</Update>
+		<!-- MULAN HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_MULAN"			UnitType="UNIT_HERO_MULAN"/>
+			<Set	Description="LOC_STR_UNIT_HERO_MULAN_DESCRIPTION"/>
+		</Update>
+		<!-- OYA HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_OYA"			UnitType="UNIT_HERO_OYA"/>
+			<Set	Description="LOC_STR_UNIT_HERO_OYA_DESCRIPTION"/>
+		</Update>
+		<!-- SINBAD HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_SINBAD"		UnitType="UNIT_HERO_SINBAD"/>
+			<Set	Description="LOC_STR_UNIT_HERO_SINBAD_DESCRIPTION"/>
+		</Update>
+		<!-- WUKONG HERO -->
+		<Update>
+			<Where	HeroClassType="HEROCLASS_WUKONG"		UnitType="UNIT_HERO_WUKONG"/>
+			<Set	Description="LOC_STR_UNIT_HERO_WUKONG_DESCRIPTION"/>
+		</Update>
+	</HeroClasses>
+
+	<!-- HERO TEXT -->
+	<Units>
+		<!-- ANANSI HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_ANANSI"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_ANANSI_DESCRIPTION"/>
+		</Update>
+		<!-- ARTHUR HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_ARTHUR"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_BEOWULF_DESCRIPTION"/>
+		</Update>
+		<!-- BEOWULF HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_BEOWULF"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_HERCULES_DESCRIPTION"/>
+		</Update>
+		<!-- HERCULES HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_HERCULES"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_HERCULES_DESCRIPTION"/>
+		</Update>
+		<!-- HIMIKO HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_HIMIKO"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_HIMIKO_DESCRIPTION"/>
+		</Update>
+		<!-- HIPPOLYTA HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_HIPPOLYTA"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_HIPPOLYTA_DESCRIPTION"/>
+		</Update>
+		<!-- HUNAHPU HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_HUNAHPU"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_HUNAHPU_DESCRIPTION"/>
+		</Update>
+		<!-- MAUI HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_MAUI"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_MAUI_DESCRIPTION"/>
+		</Update>
+		<!-- MULAN HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_MULAN"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_MULAN_DESCRIPTION"/>
+		</Update>
+		<!-- OYA HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_OYA"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_OYA_DESCRIPTION"/>
+		</Update>
+		<!-- SINBAD HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_SINBAD"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_SINBAD_DESCRIPTION"/>
+		</Update>
+		<!-- WUKONG HERO -->
+		<Update>
+			<Where	UnitType="UNIT_HERO_WUKONG"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_HERO_WUKONG_DESCRIPTION"/>
+		</Update>
+		<!-- QUESTING KNIGHT UNIT -->
+		<Update>
+			<Where	UnitType="UNIT_QUESTING_KNIGHT"/>
+			<Set	Maintenance="0"
+					Description="LOC_STR_UNIT_QUESTING_KNIGHT_DESCRIPTION"/>
+		</Update>
+	</Units>
+
+	<!-- BUILDING TEXT -->
+	<Buildings>
+		<!-- SHRINE BUILDING -->
+		<Update>
+			<Where	BuildingType="BUILDING_SHRINE"/>
+			<Set	Description="LOC_STR_BUILDING_SHRINE_HEROES_DESCRIPTION"/>
+		</Update>
+		<!-- TEMPLE BUILDING -->
+		<Update>
+			<Where	BuildingType="BUILDING_TEMPLE"/>
+			<Set	Description="LOC_STR_BUILDING_TEMPLE_HEROES_DESCRIPTION"/>
+		</Update>
+		<!-- STAVE CHURCH BUILDING -->
+		<Update>
+			<Where	BuildingType="BUILDING_STAVE_CHURCH"/>
+			<Set	Description="LOC_STR_BUILDING_STAVE_CHURCH_HEROES_DESCRIPTION"/>
+		</Update>
+		<!-- PRASAT BUILDING -->
+		<Update>
+			<Where	BuildingType="BUILDING_PRASAT"/>
+			<Set	Description="LOC_STR_BUILDING_PRASAT_HEROES_XP2_DESCRIPTION"/>
+		</Update>
+	</Buildings>
+	
+	<!-- LEADER TEXT -->
+	<Traits>
+		<!-- GILGAMESH TRAIT -->
+		<Update>
+			<Where TraitType="TRAIT_LEADER_GILGAMESH_HEROES"/>
+			<Set	Description="LOC_STR_TRAIT_LEADER_GILGAMESH_HEROES_DESCRIPTION"/>
+		</Update>
+	</Traits>
+		
+	<!-- CIVILIZATION TEXT -->
+	<Traits>
+		<!-- KONGO TRAIT -->
+		<Update>
+			<Where TraitType="TRAIT_CIVILIZATION_NKISI"/>
+			<Set	Description="LOC_STR_TRAIT_CIVILIZATION_NKISI_HEROES_DESCRIPTION"/>
+		</Update>
+		<!-- POLAND TRAIT -->
+		<Update>
+			<Where TraitType="TRAIT_LEADER_LITHUANIAN_UNION"/>
+			<Set	Description="LOC_STR_TRAIT_LEADER_LITHUANIAN_UNION_HEROES_DESCRIPTION"/>
+		</Update>
+	</Traits>
+
+</GameData>

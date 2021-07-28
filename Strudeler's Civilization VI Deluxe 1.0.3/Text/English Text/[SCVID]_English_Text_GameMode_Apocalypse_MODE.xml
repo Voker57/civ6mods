@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_English_Text_Apocalypse_MODE -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/26/2021 10:24:55 PM -->
+<GameData>
+
+	<!-- SOOTHSAYER -->
+	<EnglishText>
+		<Row Tag="LOC_STR_UNIT_SOOTHSAYER_DESCRIPTION">
+			<Text>[ICON_Bullet][ICON_Unit] Unit with [ICON_Ability] Support Abilities.[NEWLINE][ICON_Bullet]Can use [ICON_Charges] Charges to trigger Natural Disasters.</Text>
+		</Row>
+	</EnglishText>
+
+</GameData>

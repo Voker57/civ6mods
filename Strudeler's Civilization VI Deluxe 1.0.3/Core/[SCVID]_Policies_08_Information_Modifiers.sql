@@ -1,0 +1,4 @@
+-- [SCVID]_Policies_08_Information_Modifiers
+-- Author: Strudeler
+-- DateCreated: 4/3/2021 12:11:20 PM
+--------------------------------------------------------------

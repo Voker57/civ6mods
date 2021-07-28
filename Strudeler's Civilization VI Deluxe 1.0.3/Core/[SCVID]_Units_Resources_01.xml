@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [SCVID]_Unit_Resources_01 -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 4/11/2021 2:40:12 PM -->
+<GameData>
+	
+<!-- UNIT RESOURCES -->
+	
+	<Units>
+	<!-- RECON UNIT RESOURCES -->
+		<Update>
+			<Where UnitType="UNIT_RANGER"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>
+	<!--<Update>
+			<Where UnitType="UNIT_HIGHLANDER"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_SPEC_OPS"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	
+	<!-- MELEE UNIT RESOURCES -->
+	<Units>
+	<!--<Update>
+			<Where UnitType="UNIT_SWORDSMAN"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_MACEDONIAN_HYPASPIST"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_PERSIAN_IMMORTAL"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_ROMAN_LEGION"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_KONGO_SHIELD_BEARER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_MAORI_TOA"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_MAN_AT_ARMS"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_NORWEGIAN_BERSERKER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_GEORGIAN_KHEVSURETI"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_JAPANESE_SAMURAI"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_MUSKETMAN"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_SULEIMAN_JANISSARY"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_LINE_INFANTRY"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_ENGLISH_REDCOAT"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_INFANTRY"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_DIGGER"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MECHANIZED_INFANTRY"/>
+			<Set>
+				<StrategicResource>RESOURCE_NITER</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	
+	<!-- RANGED UNIT RESOURCES -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_CROSSBOWMAN"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CHINESE_CROUCHING_TIGER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_VIETNAMESE_VOI_CHIEN"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	<!--<Update>
+			<Where UnitType="UNIT_MONGOLIAN_KESHIG"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_KOREAN_HWACHA"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FIELD_CANNON"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MACHINE_GUN"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+			
+	<!-- ANTI-CAVALRY UNIT RESOURCES -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_PIKEMAN"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ZULU_IMPI"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PIKE_AND_SHOT"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SWEDEN_CAROLEAN"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AT_CREW"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_AT"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+			
+	<!-- LIGHT CAVALRY UNIT RESOURCES -->
+	<Units>
+	<!--<Update>
+			<Where UnitType="UNIT_HORSEMAN"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_MACEDONIAN_HETAIROI"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	<!--<Update>
+			<Where UnitType="UNIT_COURSER"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_HUNGARY_BLACK_ARMY"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_ETHIOPIAN_OROMO_CAVALRY"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_MAPUCHE_MALON_RAIDER"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>
+	<!--<Update>
+			<Where UnitType="UNIT_CAVALRY"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_RUSSIAN_COSSACK"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_HUNGARY_HUSZAR"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_COLOMBIAN_LLANERO"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_CANADA_MOUNTIE"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>
+	<!--<Update>
+			<Where UnitType="UNIT_HELICOPTER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	</Units>
+			
+	<!-- HEAVY CAVALRY UNIT RESOURCES -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_INDIAN_VARU"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	<!--<Update>
+			<Where UnitType="UNIT_EGYPTIAN_CHARIOT_ARCHER"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_KNIGHT"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_POLISH_HUSSAR"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_MALI_MANDEKALU_CAVALRY"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_BYZANTINE_TAGMA"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+	<!--<Update>
+			<Where UnitType="UNIT_CUIRASSIER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_ROUGH_RIDER"/>
+			<Set>
+				<StrategicResource>RESOURCE_HORSES</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TANK"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_ARMOR"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	
+	<!-- GIANT DEATH ROBOT UNIT RESOURCES -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_GIANT_DEATH_ROBOT"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	
+	<!-- SIEGE UNIT RESOURCES -->
+	<Units>
+	<!--<Update>
+			<Where UnitType="UNIT_CATAPULT"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_TREBUCHET"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KHMER_DOMREY"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BOMBARD"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARTILLERY"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ROCKET_ARTILLERY"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	
+	<!-- NAVAL MELEE UNIT RESOURCES -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_CARAVEL"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PORTUGUESE_NAU"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_IRONCLAD"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_DESTROYER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+			
+	<!-- NAVAL RANGED UNIT RESOURCES -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_INDONESIAN_JONG"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FRIGATE"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_DE_ZEVEN_PROVINCIEN"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BATTLESHIP"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BRAZILIAN_MINAS_GERAES"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MISSILE_CRUISER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+			
+	<!-- NAVAL RAIDER UNIT RESOURCES -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_OTTOMAN_BARBARY_CORSAIR"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_PRIVATEER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ENGLISH_SEADOG"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SUBMARINE"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	<!--<Update>
+			<Where UnitType="UNIT_GERMAN_UBOAT"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>-->
+		<Update>
+			<Where UnitType="UNIT_NUCLEAR_SUBMARINE"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	
+	<!-- NAVAL CARRIER UNIT RESOURCES -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_AIRCRAFT_CARRIER"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	
+	<!-- AIR FIGHTER UNIT RESOURCES -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_BIPLANE"/>
+			<Set>
+				<StrategicResource>RESOURCE_IRON</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_FIGHTER"/>
+			<Set>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_P51"/>
+			<Set>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_FIGHTER"/>
+			<Set>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+	
+	<!-- AIR BOMBER UNIT RESOURCES -->
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_BOMBER"/>
+			<Set>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_JET_BOMBER"/>
+			<Set>
+				<StrategicResource>RESOURCE_ALUMINUM</StrategicResource>
+			</Set>
+		</Update>
+	</Units>
+
+<!-- UNIT RESOURCE MAINTENANCE -->
+	
+	<!-- RECON UNIT RESOURCES -->
+	<Units_XP2>	
+		<Row		UnitType="UNIT_RANGER"
+					ResourceCost="5"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		<Row		UnitType="UNIT_SCOTTISH_HIGHLANDER"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		<Row		UnitType="UNIT_SPEC_OPS"
+					ResourceCost="5"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+	</Units_XP2>
+	
+	<!-- MELEE UNIT RESOURCES -->
+	<Units_XP2>
+		<Update>
+			<Where	UnitType="UNIT_SWORDSMAN"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_MACEDONIAN_HYPASPIST"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_PERSIAN_IMMORTAL"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_ROMAN_LEGION"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_KONGO_SHIELD_BEARER"/>
+			<Set	ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_MAN_AT_ARMS"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_NORWEGIAN_BERSERKER"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_GEORGIAN_KHEVSURETI"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_JAPANESE_SAMURAI"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_MUSKETMAN"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_SPANISH_CONQUISTADOR"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_SULEIMAN_JANISSARY"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_LINE_INFANTRY"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_FRENCH_GARDE_IMPERIALE"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_ENGLISH_REDCOAT"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_INFANTRY"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_DIGGER"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_MECHANIZED_INFANTRY"/>
+			<Set	ResourceCost="30"
+					ResourceMaintenanceType="RESOURCE_OIL"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+	</Units_XP2>
+	
+	<!-- RANGED UNIT RESOURCES -->
+	<Units_XP2>
+		<Row		UnitType="UNIT_CROSSBOWMAN"
+					ResourceCost="15"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		<Row		UnitType="UNIT_CHINESE_CROUCHING_TIGER"
+					ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		<Row		UnitType="UNIT_VIETNAMESE_VOI_CHIEN"
+					ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		<Update>
+			<Where	UnitType="UNIT_MONGOLIAN_KESHIG"/>
+			<Set	ResourceCost="5"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Row		UnitType="UNIT_KOREAN_HWACHA"
+					ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		<Row		UnitType="UNIT_FIELD_CANNON"
+					ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		<Row		UnitType="UNIT_MACHINE_GUN"
+					ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+	</Units_XP2>
+	
+	<!-- ANTI-CAVALRY UNIT RESOURCES -->
+	<Units_XP2>
+		<Row UnitType="UNIT_PIKEMAN"
+			 ResourceCost="10"
+			 ResourceMaintenanceType="RESOURCE_IRON"
+			 ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_ZULU_IMPI"
+			 ResourceCost="5"	ResourceMaintenanceType="RESOURCE_IRON"
+			 ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_PIKE_AND_SHOT"
+			 ResourceCost="10"
+			 ResourceMaintenanceType="RESOURCE_IRON"
+			 ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_SWEDEN_CAROLEAN"
+			 ResourceCost="5"
+			 ResourceMaintenanceType="RESOURCE_IRON"
+			 ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_AT_CREW"
+			 ResourceCost="15"
+			 ResourceMaintenanceType="RESOURCE_IRON"
+			 ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_MODERN_AT"
+			 ResourceCost="15"
+			 ResourceMaintenanceType="RESOURCE_IRON"
+			 ResourceMaintenanceAmount="1"/>
+	</Units_XP2>
+	
+	<!-- LIGHT CAVALRY UNIT RESOURCES -->
+	<Units_XP2>
+		<Update>
+			<Where	UnitType="UNIT_HORSEMAN"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="2"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_COURSER"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+		ResourceMaintenanceAmount="2"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_HUNGARY_BLACK_ARMY"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_ETHIOPIAN_OROMO_CAVALRY"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Row		UnitType="UNIT_MAPUCHE_MALON_RAIDER"
+					ResourceCost="5"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		<Update>
+			<Where	UnitType="UNIT_CAVALRY"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="2"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_RUSSIAN_COSSACK"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_HUNGARY_HUSZAR"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_COLOMBIAN_LLANERO"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Row		UnitType="UNIT_CANADA_MOUNTIE"
+					ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		<Update>
+			<Where	UnitType="UNIT_HELICOPTER"/>
+			<Set	ResourceCost="30"
+					ResourceMaintenanceType="RESOURCE_ALUMINUM"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+	</Units_XP2>
+	
+	<!-- HEAVY CAVALRY UNIT RESOURCES -->
+	<Units_XP2>
+		<Row		UnitType="UNIT_INDIAN_VARU"
+					ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		<Update>
+			<Where	UnitType="UNIT_MACEDONIAN_HETAIROI"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_KNIGHT"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="2"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_POLISH_HUSSAR"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_MALI_MANDEKALU_CAVALRY"/>
+			<Set	ResourceCost="5"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_BYZANTINE_TAGMA"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_CUIRASSIER"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="2"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_AMERICAN_ROUGH_RIDER"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_HORSES"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_TANK"/>
+			<Set	ResourceCost="30"
+					ResourceMaintenanceType="RESOURCE_OIL"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_MODERN_ARMOR"/>
+			<Set	ResourceCost="35"
+					ResourceMaintenanceType="RESOURCE_OIL"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+	</Units_XP2>
+	
+	<!-- GIANT DEATH ROBOT UNIT RESOURCES -->
+	<Units_XP2>
+		<Update>
+			<Where	UnitType="UNIT_GIANT_DEATH_ROBOT"/>
+			<Set	ResourceCost="50"/>
+		</Update>
+	</Units_XP2>
+	
+	<!-- SIEGE UNIT RESOURCES -->
+	<Units_XP2>
+		<Row		UnitType="UNIT_TREBUCHET"
+					ResourceCost="5"
+					ResourceMaintenanceAmount="1"/>
+		<Row		UnitType="UNIT_KHMER_DOMREY"
+					ResourceCost="5"
+					ResourceMaintenanceAmount="1"/>
+		<Update>
+			<Where	UnitType="UNIT_BOMBARD"/>
+			<Set	ResourceCost="10"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_ARTILLERY"/>
+			<Set	ResourceCost="15"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_ROCKET_ARTILLERY"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_OIL"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+	</Units_XP2>
+	
+	<!-- NAVAL MELEE UNIT RESOURCES -->
+	<Units_XP2>
+		<Row		UnitType="UNIT_CARAVEL"
+					ResourceCost="15"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		<Row		UnitType="UNIT_PORTUGUESE_NAU"
+					ResourceCost="5"/>
+		<Update>
+			<Where	UnitType="UNIT_IRONCLAD"/>
+			<Set	ResourceCost="30"
+					ResourceMaintenanceType="RESOURCE_COAL"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_DESTROYER"/>
+			<Set	ResourceCost="50"
+					ResourceMaintenanceType="RESOURCE_OIL"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+	</Units_XP2>
+	
+	<!-- NAVAL RANGED UNIT RESOURCES -->
+	<Units_XP2>
+		<Row		UnitType="UNIT_INDONESIAN_JONG"
+					ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		<Update>
+			<Where	UnitType="UNIT_FRIGATE"/>
+			<Set	ResourceCost="30"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_DE_ZEVEN_PROVINCIEN"/>
+			<Set	ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_NITER"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_BATTLESHIP"/>
+			<Set	ResourceCost="50"
+					ResourceMaintenanceType="RESOURCE_COAL"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_BRAZILIAN_MINAS_GERAES"/>
+			<Set	ResourceCost="25"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_MISSILE_CRUISER"/>
+			<Set	ResourceCost="70"
+					ResourceMaintenanceType="RESOURCE_OIL"
+					ResourceMaintenanceAmount="1"/>
+		</Update>
+	</Units_XP2>
+	
+	<!-- NAVAL RAIDER UNIT RESOURCES -->
+	<Units_XP2>
+		<Row		UnitType="UNIT_PRIVATEER"
+					ResourceCost="25"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		<Row		UnitType="UNIT_ENGLISH_SEADOG"
+					ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		<Row		UnitType="UNIT_OTTOMAN_BARBARY_CORSAIR"
+					ResourceCost="20"
+					ResourceMaintenanceType="RESOURCE_IRON"
+					ResourceMaintenanceAmount="1"/>
+		<Update>
+			<Where	UnitType="UNIT_SUBMARINE"/>
+			<Set	ResourceCost="30"/>
+		</Update>
+	<!--<Update>
+			<Where	UnitType="UNIT_GERMAN_UBOAT"/>
+			<Set	ResourceCost="25"/>
+		</Update>-->
+		<Row		UnitType="UNIT_NUCLEAR_SUBMARINE"
+					ResourceCost="40"
+					ResourceMaintenanceType="RESOURCE_OIL"
+					ResourceMaintenanceAmount="1"/>
+	</Units_XP2>
+	
+	<!-- NAVAL CARRIER UNIT RESOURCES -->
+	<Units_XP2>
+		<Row		UnitType="UNIT_AIRCRAFT_CARRIER"
+					ResourceCost="60"
+					ResourceMaintenanceType="RESOURCE_OIL"
+					ResourceMaintenanceAmount="2"/>
+	</Units_XP2>
+	
+	<!-- AIR FIGHTER UNIT RESOURCES -->
+	<Units_XP2>	
+		<Update>
+			<Where	UnitType="UNIT_BIPLANE"/>
+			<Set	ResourceCost="20"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_FIGHTER"/>
+			<Set	ResourceCost="25"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_AMERICAN_P51"/>
+			<Set	ResourceCost="20"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_JET_FIGHTER"/>
+			<Set	ResourceCost="30"/>
+		</Update>
+	</Units_XP2>
+	
+	<!-- AIR BOMBER UNIT RESOURCES -->
+	<Units_XP2>
+		<Update>
+			<Where	UnitType="UNIT_BOMBER"/>
+			<Set	ResourceCost="30"/>
+		</Update>
+		<Update>
+			<Where	UnitType="UNIT_JET_BOMBER"/>
+			<Set	ResourceCost="35"/>
+		</Update>
+	</Units_XP2>
+	
+</GameData>

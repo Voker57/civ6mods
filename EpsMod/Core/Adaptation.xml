@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Modifiers>
+		<Row><ModifierId>EPSMOD_TUNDRA_FARMS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_TUNDRA_HILLS_FARMS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType><SubjectRequirementSetId>EPSMOD_ADAPTATION_HAS_CIVIL_ENGINEERING</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_TUNDRA_FARM_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_ADAPTATION_HAS_TUNDRA_FARM_REQUIREMENTS</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_TUNDRA_HILLS_FARM_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_ADAPTATION_HAS_TUNDRA_HILLS_FARM_REQUIREMENTS</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_BLIZZARD_PREVENTION_SIGNIFICANT</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_BLIZZARD_PREVENTION_CRIPPLING</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType></Row>
+		
+		<Row><ModifierId>EPSMOD_DESERT_FARMS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_DESERT_HILLS_FARMS</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType><SubjectRequirementSetId>EPSMOD_ADAPTATION_HAS_CIVIL_ENGINEERING</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_DESERT_FARM_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_ADAPTATION_HAS_DESERT_FARM_REQUIREMENTS</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_DESERT_FARM_FAITH</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_ADAPTATION_HAS_DESERT_FARM_REQUIREMENTS</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_DESERT_HILLS_FARM_PRODUCTION</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_ADAPTATION_HAS_DESERT_HILLS_FARM_REQUIREMENTS</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_DESERT_HILLS_FARM_FAITH</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_ADAPTATION_HAS_DESERT_HILLS_FARM_REQUIREMENTS</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_DUST_STORM_PREVENTION_GRADIENT</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_DUST_STORM_PREVENTION_HABOOB</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType></Row>
+
+		<Row><ModifierId>EPSMOD_WORK_GRASS_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TERRAIN_WORKABLE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_WORK_PLAINS_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TERRAIN_WORKABLE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_WORK_DESERT_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TERRAIN_WORKABLE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_WORK_TUNDRA_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TERRAIN_WORKABLE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_WORK_SNOW_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_TERRAIN_WORKABLE</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_PRODUCTION_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_ADAPTATION_PLOT_IS_MOUNTAIN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_FAITH_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType><SubjectRequirementSetId>EPSMOD_ADAPTATION_PLOT_IS_MOUNTAIN</SubjectRequirementSetId></Row>
+		<Row><ModifierId>EPSMOD_FARM_GRASS_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_FARM_PLAINS_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_FARM_DESERT_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_FARM_TUNDRA_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_FARM_SNOW_MOUNTAIN</ModifierId><ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TERRAIN_YIELD_FROM_ADJACENT_IMPROVEMENTS</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_KILIMANJARO_GENTLE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_KILIMANJARO_CATASTROPHIC</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_VESUVIUS_MEGACOLOSSAL</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_VOLCANO_GENTLE</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_VOLCANO_CATASTROPHIC</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_VOLCANO_MEGACOLOSSAL</ModifierId><ModifierType>MODIFIER_PLAYER_ADJUST_AVOID_RANDOM_EVENT</ModifierType></Row>
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row><ModifierId>EPSMOD_TUNDRA_FARMS</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+		<Row><ModifierId>EPSMOD_TUNDRA_FARMS</ModifierId><Name>TerrainType</Name><Value>TERRAIN_TUNDRA</Value></Row>
+		<Row><ModifierId>EPSMOD_TUNDRA_HILLS_FARMS</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+		<Row><ModifierId>EPSMOD_TUNDRA_HILLS_FARMS</ModifierId><Name>TerrainType</Name><Value>TERRAIN_TUNDRA_HILLS</Value></Row>
+		<Row><ModifierId>EPSMOD_TUNDRA_FARM_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_TUNDRA_FARM_PRODUCTION</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_TUNDRA_HILLS_FARM_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_TUNDRA_HILLS_FARM_PRODUCTION</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_BLIZZARD_PREVENTION_SIGNIFICANT</ModifierId><Name>RandomEventType</Name><Value>RANDOM_EVENT_BLIZZARD_SIGNIFICANT</Value></Row>
+		<Row><ModifierId>EPSMOD_BLIZZARD_PREVENTION_CRIPPLING</ModifierId><Name>RandomEventType</Name><Value>RANDOM_EVENT_BLIZZARD_CRIPPLING</Value></Row>
+		
+		<Row><ModifierId>EPSMOD_DESERT_FARMS</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_FARMS</ModifierId><Name>TerrainType</Name><Value>TERRAIN_DESERT</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_HILLS_FARMS</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_HILLS_FARMS</ModifierId><Name>TerrainType</Name><Value>TERRAIN_DESERT_HILLS</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_FARM_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_FARM_PRODUCTION</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_FARM_FAITH</ModifierId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_FARM_FAITH</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_HILLS_FARM_PRODUCTION</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_HILLS_FARM_PRODUCTION</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_HILLS_FARM_FAITH</ModifierId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_DESERT_HILLS_FARM_FAITH</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_DUST_STORM_PREVENTION_GRADIENT</ModifierId><Name>RandomEventType</Name><Value>RANDOM_EVENT_DUST_STORM_GRADIENT</Value></Row>
+		<Row><ModifierId>EPSMOD_DUST_STORM_PREVENTION_HABOOB</ModifierId><Name>RandomEventType</Name><Value>RANDOM_EVENT_DUST_STORM_HABOOB</Value></Row>
+
+		<Row><ModifierId>EPSMOD_WORK_GRASS_MOUNTAIN</ModifierId><Name>Ignore</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_WORK_GRASS_MOUNTAIN</ModifierId><Name>TerrainType</Name><Value>TERRAIN_GRASS_MOUNTAIN</Value></Row>
+		<Row><ModifierId>EPSMOD_WORK_PLAINS_MOUNTAIN</ModifierId><Name>Ignore</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_WORK_PLAINS_MOUNTAIN</ModifierId><Name>TerrainType</Name><Value>TERRAIN_PLAINS_MOUNTAIN</Value></Row>
+		<Row><ModifierId>EPSMOD_WORK_DESERT_MOUNTAIN</ModifierId><Name>Ignore</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_WORK_DESERT_MOUNTAIN</ModifierId><Name>TerrainType</Name><Value>TERRAIN_DESERT_MOUNTAIN</Value></Row>
+		<Row><ModifierId>EPSMOD_WORK_TUNDRA_MOUNTAIN</ModifierId><Name>Ignore</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_WORK_TUNDRA_MOUNTAIN</ModifierId><Name>TerrainType</Name><Value>TERRAIN_TUNDRA_MOUNTAIN</Value></Row>
+		<Row><ModifierId>EPSMOD_WORK_SNOW_MOUNTAIN</ModifierId><Name>Ignore</Name><Value>true</Value></Row>
+		<Row><ModifierId>EPSMOD_WORK_SNOW_MOUNTAIN</ModifierId><Name>TerrainType</Name><Value>TERRAIN_SNOW_MOUNTAIN</Value></Row>
+		<Row><ModifierId>EPSMOD_PRODUCTION_MOUNTAIN</ModifierId><Name>YieldType</Name><Value>YIELD_PRODUCTION</Value></Row>
+		<Row><ModifierId>EPSMOD_PRODUCTION_MOUNTAIN</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_FAITH_MOUNTAIN</ModifierId><Name>YieldType</Name><Value>YIELD_FAITH</Value></Row>
+		<Row><ModifierId>EPSMOD_FAITH_MOUNTAIN</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_GRASS_MOUNTAIN</ModifierId><Name>TerrainType</Name><Value>TERRAIN_GRASS_MOUNTAIN</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_GRASS_MOUNTAIN</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_GRASS_MOUNTAIN</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_GRASS_MOUNTAIN</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_PLAINS_MOUNTAIN</ModifierId><Name>TerrainType</Name><Value>TERRAIN_PLAINS_MOUNTAIN</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_PLAINS_MOUNTAIN</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_PLAINS_MOUNTAIN</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_PLAINS_MOUNTAIN</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_DESERT_MOUNTAIN</ModifierId><Name>TerrainType</Name><Value>TERRAIN_DESERT_MOUNTAIN</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_DESERT_MOUNTAIN</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_DESERT_MOUNTAIN</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_DESERT_MOUNTAIN</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_TUNDRA_MOUNTAIN</ModifierId><Name>TerrainType</Name><Value>TERRAIN_TUNDRA_MOUNTAIN</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_TUNDRA_MOUNTAIN</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_TUNDRA_MOUNTAIN</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_TUNDRA_MOUNTAIN</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_SNOW_MOUNTAIN</ModifierId><Name>TerrainType</Name><Value>TERRAIN_SNOW_MOUNTAIN</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_SNOW_MOUNTAIN</ModifierId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_SNOW_MOUNTAIN</ModifierId><Name>YieldType</Name><Value>YIELD_FOOD</Value></Row>
+		<Row><ModifierId>EPSMOD_FARM_SNOW_MOUNTAIN</ModifierId><Name>Amount</Name><Value>1</Value></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_KILIMANJARO_GENTLE</ModifierId><Name>RandomEventType</Name><Value>RANDOM_EVENT_KILIMANJARO_GENTLE</Value></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_KILIMANJARO_CATASTROPHIC</ModifierId><Name>RandomEventType</Name><Value>RANDOM_EVENT_KILIMANJARO_CATASTROPHIC</Value></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_VESUVIUS_MEGACOLOSSAL</ModifierId><Name>RandomEventType</Name><Value>RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL</Value></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_VOLCANO_GENTLE</ModifierId><Name>RandomEventType</Name><Value>RANDOM_EVENT_VOLCANO_GENTLE</Value></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_VOLCANO_CATASTROPHIC</ModifierId><Name>RandomEventType</Name><Value>RANDOM_EVENT_VOLCANO_CATASTROPHIC</Value></Row>
+		<Row><ModifierId>EPSMOD_ERUPTION_PREVENTION_VOLCANO_MEGACOLOSSAL</ModifierId><Name>RandomEventType</Name><Value>RANDOM_EVENT_VOLCANO_MEGACOLOSSAL</Value></Row>
+	</ModifierArguments>
+
+	
+	<RequirementSets>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_CIVIL_ENGINEERING</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_TUNDRA_FARM_REQUIREMENTS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_TUNDRA_HILLS_FARM_REQUIREMENTS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_DESERT_FARM_REQUIREMENTS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_DESERT_HILLS_FARM_REQUIREMENTS</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_PLOT_IS_MOUNTAIN</RequirementSetId><RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType></Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_CIVIL_ENGINEERING</RequirementSetId><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_CIVIL_ENGINEERING</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_TUNDRA_FARM_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_FARM</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_TUNDRA_FARM_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_TUNDRA</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_TUNDRA_HILLS_FARM_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_FARM</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_TUNDRA_HILLS_FARM_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_TUNDRA_HILLS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_DESERT_FARM_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_FARM</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_DESERT_FARM_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_DESERT</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_DESERT_HILLS_FARM_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_FARM</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_HAS_DESERT_HILLS_FARM_REQUIREMENTS</RequirementSetId><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_DESERT_HILLS</RequirementId></Row>
+		<Row><RequirementSetId>EPSMOD_ADAPTATION_PLOT_IS_MOUNTAIN</RequirementSetId><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_IS_MOUNTAIN</RequirementId></Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_CIVIL_ENGINEERING</RequirementId><RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_FARM</RequirementId><RequirementType>REQUIREMENT_PLOT_IMPROVEMENT_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_TUNDRA</RequirementId><RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_TUNDRA_HILLS</RequirementId><RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_DESERT</RequirementId><RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_DESERT_HILLS</RequirementId><RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_IS_MOUNTAIN</RequirementId><RequirementType>REQUIREMENT_PLOT_IS_MOUNTAIN</RequirementType></Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_CIVIL_ENGINEERING</RequirementId><Name>CivicType</Name><Value>CIVIC_CIVIL_ENGINEERING</Value></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_FARM</RequirementId><Name>ImprovementType</Name><Value>IMPROVEMENT_FARM</Value></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_TUNDRA</RequirementId><Name>TerrainType</Name><Value>TERRAIN_TUNDRA</Value></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_TUNDRA_HILLS</RequirementId><Name>TerrainType</Name><Value>TERRAIN_TUNDRA_HILLS</Value></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_DESERT</RequirementId><Name>TerrainType</Name><Value>TERRAIN_DESERT</Value></Row>
+		<Row><RequirementId>EPSMOD_ADAPTATION_REQUIREMENT_PLOT_HAS_DESERT_HILLS</RequirementId><Name>TerrainType</Name><Value>TERRAIN_DESERT_HILLS</Value></Row>
+	</RequirementArguments>
+	
+</GameData>
