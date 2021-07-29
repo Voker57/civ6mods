@@ -59,7 +59,8 @@ function EpsStartingSettler_Supercharge(playerIndex, unit)
 	local plots = Map.GetNeighborPlots(unit:GetX(), unit:GetY(), 6);
 	for i, plot in ipairs(plots) do
 		if (not playerVis:IsRevealed(plot:GetX(), plot:GetY())) then
-			playerVis:ChangeVisibilityCount(plot:GetIndex(), 0);
+			playerVis:ChangeVisibilityCount(plot:GetIndex(), 1);
+			playerVis:ChangeVisibilityCount(plot:GetIndex(), -1);
 		end
 	end
 end

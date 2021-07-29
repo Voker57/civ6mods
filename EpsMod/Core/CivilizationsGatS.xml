@@ -108,7 +108,7 @@
 	</TypeTags>
 	
 	<UnitUpgrades>
-		<Update><Where UnitType="UNIT_SCYTHIAN_HORSE_ARCHER"/><Set><UpgradeUnit>UNIT_COURSER</UpgradeUnit></Set></Update>
+		<Update><Where Unit="UNIT_SCYTHIAN_HORSE_ARCHER"/><Set><UpgradeUnit>UNIT_COURSER</UpgradeUnit></Set></Update>
 	</UnitUpgrades>
 	
 

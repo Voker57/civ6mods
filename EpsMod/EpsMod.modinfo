@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="a044b411-24ea-4758-9a77-96c124babc8e" version="11">
+<Mod id="a044b411-24ea-4758-9a77-96c124babc8e" version="13">
   <Properties>
-    <Name>EpsMod v3.3</Name>
+    <Name>EpsMod v3.5</Name>
     <Description>Combines most (but not all) of the [COLOR_FLOAT_GOLD]EpsTweak[ENDCOLOR] mods into a single comprehensive package:[NEWLINE][NEWLINE]Adaptation[NEWLINE]Adjacency[NEWLINE]Aircraft[NEWLINE]Anti-Cavalry[NEWLINE]Barbarians[NEWLINE]Beliefs[NEWLINE]Catch-Up[NEWLINE]City-States[NEWLINE]Civic Units[NEWLINE]Civilizations[NEWLINE]Engineering[NEWLINE]Enlightenment Policies[NEWLINE]Government Plaza Buildings[NEWLINE]Government Management[NEWLINE]Governors[NEWLINE]Great People[NEWLINE]Healing on Promotion[NEWLINE]Horses[NEWLINE]Map Sizes[NEWLINE]Movement[NEWLINE]Normal Ages[NEWLINE]Nukes: Damage[NEWLINE]Nukes: Plaza[NEWLINE]Policies[NEWLINE]Preserve[NEWLINE]Recon[NEWLINE]Science[NEWLINE]Spy Operations[NEWLINE]Support Units[NEWLINE]Starting Settlers[NEWLINE]Tall Play[NEWLINE]Unit Resources[NEWLINE]Warrior Monks[NEWLINE]Wonders[NEWLINE]World Congress[NEWLINE]</Description>
-    <Created>1625672702</Created>
+    <Created>1627062306</Created>
     <Teaser>Comprehensive balance and mechanic change mod.</Teaser>
     <Authors>Eps</Authors>
     <CompatibleVersions>2.0</CompatibleVersions>

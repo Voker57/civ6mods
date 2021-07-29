@@ -24,18 +24,29 @@
 	<Technologies>
 		<Update><Where TechnologyType="TECH_BRONZE_WORKING"/><Set><Description>LOC_TECH_BRONZE_WORKING_DESCRIPTION_EPSMOD</Description></Set></Update>
 	</Technologies>
-	
 
 	<TechnologyModifiers>
 		<Row><TechnologyType>TECH_BRONZE_WORKING</TechnologyType><ModifierId>EPSMOD_BRONZE_WORKING_BARB_COMBAT</ModifierId></Row>
 	</TechnologyModifiers>
+
+
+	<Civics>
+		<Update><Where CivicType="CIVIC_MILITARY_TRADITION"/><Set><Description>LOC_CIVIC_MILITARY_TRADITION_DESCRIPTION_EPSMOD</Description></Set></Update>
+	</Civics>
+
+	<CivicModifiers>
+		<Row><CivicType>CIVIC_MILITARY_TRADITION</CivicType><ModifierId>EPSMOD_MILITARY_TRADITION_BARB_COMBAT</ModifierId></Row>
+	</CivicModifiers>
+			
 	
 	<Modifiers>
 		<Row><ModifierId>EPSMOD_BRONZE_WORKING_BARB_COMBAT</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType></Row>
+		<Row><ModifierId>EPSMOD_MILITARY_TRADITION_BARB_COMBAT</ModifierId><ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_BARBARIAN_COMBAT</ModifierType></Row>
 	</Modifiers>
 	
 	<ModifierArguments>
 		<Row><ModifierId>EPSMOD_BRONZE_WORKING_BARB_COMBAT</ModifierId><Name>Amount</Name><Value>2</Value></Row>
+		<Row><ModifierId>EPSMOD_MILITARY_TRADITION_BARB_COMBAT</ModifierId><Name>Amount</Name><Value>2</Value></Row>
 	</ModifierArguments>
 	
 </GameData>

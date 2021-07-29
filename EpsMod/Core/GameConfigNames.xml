@@ -76,6 +76,7 @@
 		<Update><Where LeaderType="LEADER_YOGSAA_SIMONC"/><Set><LeaderName>LOC_LEADER_YOGSAA_SIMONC_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
 		<Update><Where LeaderType="LEADER_YOGSAA_SPIFF"/><Set><LeaderName>LOC_LEADER_YOGSAA_SPIFF_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
 		<Update><Where LeaderType="LEADER_YOGSAA_ALEX"/><Set><LeaderName>LOC_LEADER_YOGSAA_ALEX_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
+		<Update><Where LeaderType="LEADER_YOGSAA_POTATO"/><Set><LeaderName>LOC_LEADER_YOGSAA_POTATO_CONFIG_NAME_EPSMOD</LeaderName></Set></Update>
 		
 	</Players>
 	
