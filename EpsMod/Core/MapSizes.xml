@@ -39,10 +39,10 @@
 	</Maps>
 	
 	<Map_GreatPersonClasses>
-		<Update><Where MapSizeType="MAPSIZE_TINY" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>0</MaxWorldInstances></Set></Update>
-		<Update><Where MapSizeType="MAPSIZE_SMALL" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>0</MaxWorldInstances></Set></Update>
-		<Update><Where MapSizeType="MAPSIZE_STANDARD" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>0</MaxWorldInstances></Set></Update>
-		<Update><Where MapSizeType="MAPSIZE_LARGE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>0</MaxWorldInstances></Set></Update>
+		<Update><Where MapSizeType="MAPSIZE_TINY" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>4</MaxWorldInstances></Set></Update>
+		<Update><Where MapSizeType="MAPSIZE_SMALL" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>6</MaxWorldInstances></Set></Update>
+		<Update><Where MapSizeType="MAPSIZE_STANDARD" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>7</MaxWorldInstances></Set></Update>
+		<Update><Where MapSizeType="MAPSIZE_LARGE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET"/><Set><MaxWorldInstances>7</MaxWorldInstances></Set></Update>
 	</Map_GreatPersonClasses>
 	
 </GameData>

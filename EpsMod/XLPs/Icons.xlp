@@ -10,6 +10,30 @@
 	<m_PackageName text="Icons"/>
 	<m_Entries>
 		<Element>
+			<m_EntryID text="ICON_UNITS_EPSMOD_BARBARIAN_256"/>
+			<m_ObjectName text="ICON_UNITS_EPSMOD_BARBARIAN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNITS_EPSMOD_BARBARIAN_80"/>
+			<m_ObjectName text="ICON_UNITS_EPSMOD_BARBARIAN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNITS_EPSMOD_BARBARIAN_50"/>
+			<m_ObjectName text="ICON_UNITS_EPSMOD_BARBARIAN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNITS_EPSMOD_BARBARIAN_38"/>
+			<m_ObjectName text="ICON_UNITS_EPSMOD_BARBARIAN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNITS_EPSMOD_BARBARIAN_32"/>
+			<m_ObjectName text="ICON_UNITS_EPSMOD_BARBARIAN_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNITS_EPSMOD_BARBARIAN_22"/>
+			<m_ObjectName text="ICON_UNITS_EPSMOD_BARBARIAN_22"/>
+		</Element>
+		<Element>
 			<m_EntryID text="ICON_UNITS_EPSMOD_CIVIC_256"/>
 			<m_ObjectName text="ICON_UNITS_EPSMOD_CIVIC_256"/>
 		</Element>

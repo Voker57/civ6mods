@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+		
+	<GlobalParameters>
+		<Update><Where Name="GRIEVANCES_FOR_DENOUNCEMENT"/><Set><Value>0</Value></Set></Update>
+		<Update><Where Name="GRIEVANCES_ALL_PLAYERS_CITY_STATE_CONQUEST"/><Set><Value>25</Value></Set></Update>
+	</GlobalParameters>
+
+	<DiplomaticActions>
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_SURPRISE_WAR"/><Set><WarmongerPercent>150</WarmongerPercent><CaptureWarmongerPercent>50</CaptureWarmongerPercent><RazeWarmongerPercent>225</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_FORMAL_WAR"/><Set><WarmongerPercent>75</WarmongerPercent><CaptureWarmongerPercent>25</CaptureWarmongerPercent><RazeWarmongerPercent>150</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_JOINT_WAR"/><Set><WarmongerPercent>75</WarmongerPercent><CaptureWarmongerPercent>25</CaptureWarmongerPercent><RazeWarmongerPercent>150</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_HOLY_WAR"/><Set><WarmongerPercent>50</WarmongerPercent><CaptureWarmongerPercent>25</CaptureWarmongerPercent><RazeWarmongerPercent>150</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_LIBERATION_WAR"/><Set><WarmongerPercent>0</WarmongerPercent><CaptureWarmongerPercent>50</CaptureWarmongerPercent><RazeWarmongerPercent>225</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_RECONQUEST_WAR"/><Set><RazeWarmongerPercent>150</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_PROTECTORATE_WAR"/><Set><WarmongerPercent>0</WarmongerPercent><CaptureWarmongerPercent>50</CaptureWarmongerPercent><RazeWarmongerPercent>150</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_COLONIAL_WAR"/><Set><WarmongerPercent>50</WarmongerPercent><CaptureWarmongerPercent>25</CaptureWarmongerPercent><RazeWarmongerPercent>150</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_TERRITORIAL_WAR"/><Set><WarmongerPercent>50</WarmongerPercent><CaptureWarmongerPercent>25</CaptureWarmongerPercent><RazeWarmongerPercent>150</RazeWarmongerPercent></Set></Update>
+	
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_GOLDEN_AGE_WAR"/><Set><WarmongerPercent>25</WarmongerPercent><CaptureWarmongerPercent>0</CaptureWarmongerPercent><RazeWarmongerPercent>100</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION"/><Set><WarmongerPercent>50</WarmongerPercent><CaptureWarmongerPercent>25</CaptureWarmongerPercent><RazeWarmongerPercent>100</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_DECLARE_IDEOLOGICAL_WAR"/><Set><WarmongerPercent>50</WarmongerPercent><CaptureWarmongerPercent>25</CaptureWarmongerPercent><RazeWarmongerPercent>150</RazeWarmongerPercent></Set></Update>
+		<Update><Where DiplomaticActionType="DIPLOACTION_THIRD_PARTY_WAR"/><Set><WarmongerPercent>75</WarmongerPercent><CaptureWarmongerPercent>25</CaptureWarmongerPercent><RazeWarmongerPercent>150</RazeWarmongerPercent></Set></Update>
+	</DiplomaticActions>
+	
+</GameData>
