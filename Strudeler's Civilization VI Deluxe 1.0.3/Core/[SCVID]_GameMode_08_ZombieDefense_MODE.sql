@@ -1,4 +1,0 @@
--- [SCVID]_GameMode_08_ZombieDefense_MODE
--- Author: Strudeler
--- DateCreated: 4/3/2021 11:19:19 AM
---------------------------------------------------------------

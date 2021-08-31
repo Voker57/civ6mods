@@ -1,4 +1,0 @@
--- [SCVID]_GameMode_07_BarbarianClans_MODE
--- Author: Strudeler
--- DateCreated: 4/3/2021 11:18:01 AM
---------------------------------------------------------------

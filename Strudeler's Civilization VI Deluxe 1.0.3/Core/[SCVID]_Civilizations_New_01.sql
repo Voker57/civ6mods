@@ -1,4 +1,0 @@
--- [SCVID]_Civilizations_New_01
--- Author: Strudeler
--- DateCreated: 6/18/2021 1:04:52 PM
---------------------------------------------------------------

@@ -1,4 +1,0 @@
--- [SCVID]_GreatPeople_01_Modifiers
--- Author: Strudeler
--- DateCreated: 4/3/2021 11:46:37 AM
---------------------------------------------------------------
